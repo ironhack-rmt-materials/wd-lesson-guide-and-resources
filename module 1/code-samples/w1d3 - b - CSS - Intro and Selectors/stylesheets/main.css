@@ -1,0 +1,92 @@
+
+/* Universal selector */
+/*
+* {
+margin:  0;
+} */
+
+/* Type selectors */
+
+
+body {
+    font-size: 16px;
+    background: white;
+}
+
+
+#first {
+    border: 3px solid blue;
+}
+
+.container {
+    border: 3px solid black;
+}
+
+div {
+    border: 3px solid orange !important;
+}
+
+div {
+    border: 3px solid green;
+    border: 3px solid rgb(200, 0, 100);
+    border: 3px solid rgba(200, 0, 100, 0.5);
+    border: 3px solid #a0a; /* hexadecimal */
+    border: 3px solid rgba(255, 174, 0, 0.493);
+}
+
+
+p {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100px;
+    display: block;
+}
+
+
+/* Class Selectors */
+
+.rounded-box {
+    border: 1px solid black;
+    border-radius: 5px;
+    background: limegreen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bigger {
+    font-size: 2rem;
+}
+
+
+
+/* Id Selectors */
+
+#main-image {
+    max-width: 600px;
+}
+
+
+/* Combining Selectors */
+
+p.highlight {
+    background-color: magenta;
+}
+
+div.even {
+    background-color: magenta;
+}
+
+
+/* Descendants */
+
+p .highlight {
+    background-color: magenta;
+}
+
+div .even {
+    background-color: magenta;
+}
+
+

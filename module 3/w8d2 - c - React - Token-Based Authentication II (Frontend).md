@@ -1,0 +1,60 @@
+
+
+# React - Token-Based Authentication II (Frontend)
+
+
+<!-- 
+
+status: draft 
+
+students portal: highlighted
+
+
+Methodology:
+- follow steps on students portal & get code from there
+- make sure students understand
+- ALTERNATIVE: ask students to do self-guided (at least some parts)
+
+
+
+-->
+
+
+New topics introduced in this unit:
+- local storage for the token
+- send token in headers of http request with axios
+
+
+Sections in the student portal:
+- Auth Context
+  > NOTE: refresh context API (provider + consumer)
+- Sign Up Page
+  - Create the Signup Page (component with form, w/o sending request)
+  - Send a Sign Up Request
+    > NOTE: if axios request fails, error message is available in `error.response.data.message`
+  - Render the SignupPage Component
+- Login Page
+  - Create the Login Page
+  - Send a Login Request with axios
+- Set up the Authentication Logic
+  - Save the Token in the localStorage
+    > EXPLAIN: localStorage
+    > NOTE: we could also store the token in state instead of localStorage (but if user refreshes the page it will not be logged in)
+  - Verify the Token upon Login
+    > EXPLANATION:
+      - token now stored in local storage
+      - we may still want to check against backend (eg. if the app reloads)
+  - Verify the Token upon Initial App Load
+  - Remove the Token on Logout
+  - Update the Logout button in the Navbar
+- Custom route components
+  - Private Pages
+  - ...
+- ...
+
+
+
+## Extra challenges and improvements:
+- After signup, automatically login the user
+- Add a component library (eg. material ui, semantic ui, reactstrap...)
+
