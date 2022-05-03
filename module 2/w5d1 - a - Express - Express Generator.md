@@ -36,6 +36,8 @@ Summary:
     npx ironlauncher library-project
     ```
 
+    Note: ironlauncher automatically creates a folder with the name of the app.
+
 - Explain `npx` (vs. npm install)
 
 - Explain...

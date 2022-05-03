@@ -16,9 +16,9 @@
 
 - How to access route params:
 
-app.get('/artists/:artistname/', (req, res) => {
-    const artist = req.params.artistName;
-});
+    app.get('/artists/:artistname/', (req, res) => {
+        const artist = req.params.artistName;
+    });
 
 
 - Note, we can also define multiple params in our routes, for example:
@@ -39,31 +39,32 @@ app.get('/artists/:artistname/', (req, res) => {
 
 Example:
 
-app.get('/search', (req, res) => {
-    console.log(req.query); // req.query object
-    console.log(req.query.price); // price
-    console.log(req.query.location); // location
-});
+    app.get('/search', (req, res) => {
+        console.log(req.query); // req.query object
+        console.log(req.query.price); // price
+        console.log(req.query.location); // location
+    });
+
 
 
 *** POST: Request Body ***
 
 - Data is sent in the 'body' of the http request (also called 'payload').
 
-- To read the data, we need to configure the package `bodyParser`:
+- To read the data, we need to configure the package `body-parser`:
 
-    ```
-        const bodyParser = require('body-parser');
-        app.use(bodyParser.urlencoded({ extended: true }));
-    ```
+    
+    const bodyParser = require('body-parser');
+    app.use(bodyParser.urlencoded({ extended: true }));
+    
 
 - Then we can read data from the object `req.body`
 
-    ```
+    
     app.post('/login', (req, res) => {
         console.log(req.body)
         if(req.body.email === 'bob@bob.com'){
             //...
         }
     })
-    ```
+    

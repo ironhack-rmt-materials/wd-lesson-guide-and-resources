@@ -47,7 +47,7 @@ Edit:
   - MongoDB | Data Models
   - MongoDB | Indexing & Aggregation Framework
 
-
+- w5d4: check those here (labs and lectures)
 
 
 ## Module 3 (OLD curriculum)

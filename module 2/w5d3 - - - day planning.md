@@ -15,9 +15,21 @@ Methodology:
 -->
 
 
-<!-- @todo -->
+Summary:
+- Some notes on security (storing passwords, cryptography)
+- Registration: Creating user accounts
+- Form validation
+- Login & Sessions
+- Logout
+- Middleware (Custom middleware for user authorization)
+- Passport
+- ironlauncher --auth
+
+
+
+
 ALTERNATIVE (instead of codealong, which can take the whole day):
-- prepare a repo 
+- prepare a repo  <!-- @todo -->
 - app created with Ironlauncher with functionality for auth but bugs
 - provide a readme with steps to follow
 - students would need to:

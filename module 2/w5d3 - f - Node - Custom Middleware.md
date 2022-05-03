@@ -20,6 +20,7 @@ Explain:
   })
   ```
 
+
 Make an example with different roles (eg. req.user.admin, req.user.collaborator):
 - create middleware functions in the directory `/middleware` (note: in assessment they are in `/utils/middleware`).
 - protect our routes. eg: GET `/create-thing`, GET `/delete-thing`
@@ -30,9 +31,9 @@ Make an example with different roles (eg. req.user.admin, req.user.collaborator)
 
 ## Ironlauncher with Auth boilerplate
 
-```
-npx ironLauncher --auth my-project
-```
+
+- Command: `npx ironlauncher my-project --auth`
+  - IMPORTANT: remind students to select the option "views"
 
 - Demo: run & explain what it has created
   -- /routes/auth.js
@@ -43,3 +44,6 @@ npx ironLauncher --auth my-project
 
 - Students can use that to generate project-2
 
+
+## Passport
+- Mention a few notes about Passport (self-guided lessons)

@@ -44,6 +44,7 @@ Summary:
     - `Model.insertMany(arr)`
   - Read
     - `Model.find()`
+    - `Model.find({price: {$gt: 20} })`
     - `Model.findOne()`
     - `Model.findById()`
   - Update:

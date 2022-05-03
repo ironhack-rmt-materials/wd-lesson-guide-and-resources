@@ -2,7 +2,14 @@
 # Node - The concern on users' security
 
 <!--
-    Status: ready (just need to link slides)
+  
+  Status: ready (just need to link slides)
+
+
+Time: 
+  - Slides: last time took me 1.5h (try to make it in 1h)
+  - Bcrypt Demo: 40min.
+
 -->
 
 

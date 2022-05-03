@@ -2,12 +2,29 @@
 
 # Node - User registration
 
+<!-- 
+
 - @Luis: follow students portal (~~highlighted, july21~~)
+
+- Sample repo:
+https://github.com/Ironborn-Ironhack-March-2022/node-codealong-library-app/commits/main
+
+-->
+
+
 
 - GOAL: allow users to create an account
 
 
+
+
 ## Step 0: User Model
+
+- email
+- passwordHash
+
+Sample: https://github.com/Ironmaidens-Ironhack-Jan-2022/mongoose-express-CRUD-codealong/blob/dc3b9c95d60d62e181183cebef1fdfd63cae63e0/models/User.model.js
+
 
 
 ## Step 1: display a form to create an account
@@ -47,20 +64,19 @@
 
 - Query DB
 
-```
-User.create(
+  ```
+  User.create(
     {
-        // username: username
-        username,
-        email,
-        passwordHash: hashedPassword
-      }
-)
-```
+      email,
+      passwordHash: hashedPassword
+    }
+  )
+  ```
+
 
 - Once the account is created, redirect to a profile page
-  - Create view (`views/users/user-profile.hbs`)
-  - Create route (GET `/userProfile`)
-  - Redirect (`res.redirect('/userProfile');`)
+  - Create view (`views/auth/profile.hbs`)
+  - Create route (GET `/user-profile`)
+  - Redirect (`res.redirect('/user-profile');`)
 
 

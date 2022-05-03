@@ -4,7 +4,7 @@
 
 
 
-## 1:1 relationships (use Embedded Documents)
+- 1:1 relationships (use Embedded Documents)
 
     ```
     const addressSchema = new Schema({
@@ -21,7 +21,7 @@
 
 
         
-##  1:many relationships: option A, use Embedded Documents if possible (not duplicating data & limited data size)
+-  1:many relationships: option A, use Embedded Documents if possible (not duplicating data & limited data size)
 
     ```
     const addressSchema = new Schema({
@@ -37,7 +37,7 @@
     ```
 
 
-## 1:many relationships: option B, Reference
+- 1:many relationships: option B, Reference
 
     ```
     const companySchema = new Schema({
@@ -49,7 +49,7 @@
     ```
 
 
-## many:many relationships, Reference
+- many:many relationships (use Reference)
 
     ```
     const companySchema = new Schema({

@@ -5,9 +5,7 @@
 
 <!-- 
 
-Status:
-- intro: ready
-- rest: @todo
+Status: draft (contains all the topics to cover but would be good to improve details)
 
 
 Note:
@@ -98,11 +96,25 @@ Suggested approach:
   https://domain.com/artists/daddy-yankee
 
 
+  ```javascript
+    app.get("/artists/:artistName", (req, res, next) => {
+        req.params.artistName
+    })
+  ```
+
+
 - Multiple Route Params
 
   https://domain.com/artists/madonna/albums/ray-of-light
   https://domain.com/artists/madonna/albums/like-a-virgin
 
+
+  ```javascript
+    app.get("/artists/:artistName/albums/albumTitle", (req, res, next) => {
+        req.params.artistName
+        req.params.albumTitle
+    })
+  ```
 
 
 ## Query String
@@ -110,28 +122,51 @@ Suggested approach:
 
 - One query param
 
-  https://domain.com/artists?country=turkey
+  https://domain.com/artists?genre=pop
 
+  ```javascript
+    app.get("/artists", (req, res, next) => {
+        req.query.genre
+    })
+  ```
 
 - Multiple
-  https://domain.com/artists?country=turkey&...
+  https://domain.com/artists?genre=pop&country=spain
+
+
+  ```javascript
+    app.get("/artists", (req, res, next) => {
+        req.query.genre
+        req.query.country
+    })
+  ```
+
 
 
 - Query String from Forms
+
 
 
 ## Route Params vs. Query Strings
 
 
 
-# Query String from Forms
+## Query String from Forms
 
 - `<form action="/search" method="GET">`
 
 
+Things to mention:
+- action
+- method (GET / POST)
+- input fields
+  - types of inputs (text, number, password, email...)
+  - name
+- button `<button type="submit">`
 
 
-# IMPORTANT: Common problem with params
+
+## IMPORTANT: Common problem with params
 
 ```
 app.get("/:productName", function (req, res, next) {    

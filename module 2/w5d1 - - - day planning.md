@@ -35,12 +35,12 @@ Methodology:
 
 - IMPORTANT: 
   - Express Cinema does not include C+U+D in the instructions
-  - Update: the can implement functionality to update title & director
+  - Update: they can implement functionality to update title & director
     - updating Stars is a bit more tricky but they can do it (eg. the user can enter all stars separated by a comma)
 
 
 
 ## Extra challenges:
-- impleent CRUD
+- implement CRUD
 - make Book model more complex (eg. enum, validation, default)
 - CSS / Bootstrap

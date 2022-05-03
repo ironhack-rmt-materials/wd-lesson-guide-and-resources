@@ -1,10 +1,25 @@
 
 # LAB - Express Spotify
 
+<!-- 
+
+- Do this LAB individually 
+
+
+- Students need a Spotify account (to get credentials)
+
+-->
+
+
+Mention:
+- Students need a Spotify account (to get credentials)
+- We will use a package to interact with spotify API
+
 
 
 ## Iteration 1 | Spotify API Setup
-- We need creadentials to interact with Spotify API
+
+- We need credentials to interact with Spotify API
   - they will need a Spotify account (or create one if they don't have)
 
 

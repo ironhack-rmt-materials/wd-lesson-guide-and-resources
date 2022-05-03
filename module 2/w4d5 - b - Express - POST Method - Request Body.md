@@ -16,10 +16,12 @@ Summary of the main topics:
 
 - How to access the information in a POST request
   - Configure bodyParser (no need to install since it comes with Express)
+
       ```
       const bodyParser = require('body-parser');
       app.use(bodyParser.urlencoded({ extended: true }));
       ```
+  
   - Read info from `req.body`
 
 

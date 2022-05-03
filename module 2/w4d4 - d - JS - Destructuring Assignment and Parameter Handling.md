@@ -11,10 +11,14 @@
   - alternative variable names, default values, etc -> just mention them
   - GOAL: go through this lesson quick so that we have more time for PROMISES, LABS,....
 
-- Fundamentals:
-  - object destructuring
-  - spread operator
-  - (extra): resta parameter & Destructuring function parameters
+- FUNDAMENTALS:
+  - Object destructuring
+  - Array destructuring (briefly)
+  - Spread operator
+  
+- IMPORTANT:
+  - Spread Operator: if we still didn't have time to speak about copying by value vs. reference., this is the perfect moment (when we speak about spread operator to copy an array)
+  - Value vs. Ref. & copies: https://stackblitz.com/edit/js-rfdnid?file=index.js
 
 
 -->
@@ -96,7 +100,7 @@ Problem: it works but, if we have to access many properties it is a bit repetiti
 
 
 
-## Nested objects and destructuring
+## (skip) Nested objects and destructuring
 
 - We can also apply destructuring for nested objects.
 
@@ -150,6 +154,7 @@ Time: 10+5m
   - NOTE: ORDER MATTERS! (in object destructuring order is not important)
 
 
+
 - Skipping elements:
     ```
     const [ , , thirdCampus] = campuses;
@@ -167,22 +172,23 @@ Time: 10+5m
     ```
 
 
-## Nested arrays and destructuring
+
+## (skip) Nested arrays and destructuring
 
 
     ```
     const europeanCampuses = [
-    ['madrid', 'es'],
-    ['barcelona', 'es'],
-    ['berlin', 'de'],
-    ['paris', 'fr'],
-    ['amsterdam', 'nl'],
-    ['lisbon', 'pt']
+      ['madrid', 'es'],
+      ['barcelona', 'es'],
+      ['berlin', 'de'],
+      ['paris', 'fr'],
+      ['amsterdam', 'nl'],
+      ['lisbon', 'pt']
     ];
 
     const [
-    [campusOneCity, campusOneLang],
-    [campusTwoCity, campusTwoLang]
+      [campusOneCity, campusOneLang],
+      [campusTwoCity, campusTwoLang]
     ] = europeanCampuses;
 
     console.log(campusOneCity, campusOneLang);
@@ -239,7 +245,7 @@ Examples using the spread operator:
 
 
 
-## Rest parameter
+## (skip) Rest parameter
 
 @todo
 

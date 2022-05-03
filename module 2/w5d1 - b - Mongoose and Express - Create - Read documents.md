@@ -61,7 +61,7 @@ Render Form:
 
 Process Form:
 - route: POST `/books/create`
-- DB query: Book.create
+- DB query: Book.create()
 - view: we will not create a view. Instead, once book is created, Redirect: `res.redirect('/books')`
 
 

@@ -24,7 +24,7 @@ Status: draft
 
 - Examples with an e-commerce app:
   - Product + specs(size, weight,...) (1:1)
-  - Product + comments (1:many with embedded documents)
+  - Product + reviews (1:many with embedded documents)
   - Product + Seller (1:many with references)
     - opt1: store ref. in the seller (need to keep an array)
     - opt2: store ref. in the product (easier)
@@ -75,7 +75,7 @@ https://gist.github.com/sandrabosk/b5924056a33b82de3bb55a7457db741d
 
 ## Example 1: Model One-to-One Relationships with Embedded Documents
 
-- If we use a reference, every time we need to retrieve the datawe'll need to make multiple queries to resolve the reference.
+- If we use a reference, every time we need to retrieve the data we'll need to make multiple queries to resolve the reference.
 
 - Better approach: embedded document (we can get all the information with a single query)
 

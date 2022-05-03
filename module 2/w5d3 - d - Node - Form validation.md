@@ -6,12 +6,15 @@
 
 Status: draft
 
-@Luis: 
-  - follow students portal (~~highlighted, july21~~)
-  - I also have some slides
 
-Note: 
+Intro Slides: 
+https://docs.google.com/presentation/d/1JIdfc4TjXbdK6gtUTFrjgZ24gQyTSSHy1YJsa-6k2us/edit?usp=sharing
+
+
+Notes:
   - All these 4 validation examples are implemented in ironlauncher (`ironlauncher --auth`)
+  - Show and explain the code on there 
+    - (as long as students understand it, we don't need to type all that code, for project2 they can use ironlauncher)
 
 -->
 
@@ -44,14 +47,16 @@ Intro:
 
 ## 2. Make sure users fill in data in the valid format.
 
-(can skip this one)
+See students portal (very briefly)
 
 
 ## 3. Make sure data in the database is clean - no duplicates please!
 
-See students portal
+See students portal (very briefly)
 
 
 ## 4. Make sure users use strong passwords.
 
-See students portal
+See students portal (very briefly)
+
+

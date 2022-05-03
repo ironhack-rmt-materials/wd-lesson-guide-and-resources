@@ -8,6 +8,10 @@ Notes:
 - Students find it challenging when we introduce relationships, references etc
 - Explain little by little + provide examples
 
+
+@todo:
+- create seed file with Books + Authors + Relationships (so that we spend less time on that, we could just pass them the seed file and ask them to run it)
+
  -->
 
 
@@ -65,9 +69,11 @@ Add data to DB
 Functionality to display books 
   - We're now displaying the ids, we want to show real info
     `.populate('author')`
+  - Note: we need to require the model as well
+    `const Author = require("../models/Author.model");`
 
 Functionality to display book details
-  - (extra) display author info instead of id (practice `populate`)
+  - (bonus) display author info instead of id (practice `populate`)
 
 
 Functionality to Create new book
@@ -95,10 +101,30 @@ Other CRUD functionality on Authors
     - discuss with students
 
 
-(Extra) Add model Club (a club can have multiple authors)
+(Bonus) Improve functionality to edit Books
+  - At the moment, if we edit the author of a book, we need to enter the id manualy
+  - Instead, display a <select>
+  - We need to query list of authors + book details (it is a bit tricky, if you use promises with .then() you need to access a varable in a different .then())
+  - Option 1: because it is a problem of scope, we can declare a variable in the parent scope (something like this: https://stackoverflow.com/a/28250700/11298742)
+  - Option 2: we can use async/await (see the option "ECMAScript 8
+" in this answer: https://stackoverflow.com/a/28250697/11298742)
 
-(Extra) seed file with relationships
-  - if we don't have to do it, explain a bit
+  ```javascript
+  router.get("/:bookId/edit", async (req, res, next) => {
+      const authors = await Author.find()
+      const bookDetails = await Book.findById(req.params.bookId)
+
+      // rest of the magic...
+
+  });
+  ```
+
+
+(Super Bonus) Add model Club (a club can have multiple authors)
+
+(Super Bonus) seed file with relationships
+  <!-- @luis: if we don't have time to do it, explain a bit -->
+
 
 
 
