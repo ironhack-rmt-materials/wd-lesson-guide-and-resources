@@ -74,7 +74,9 @@ Summary:
 - Add Book model (students portal: 'Adding the model')
   `models/Book.model.js`
 
-  - IMPORTANT: follow the same model as students portal (so that we can use seed file later)
+  - IMPORTANT (I): follow the same model as students portal (so that we can use seed file later)
+
+  - IMPORTANT (II): seed file in the students portal has a little bug: wait for connection to be stablished before creating documents on the DB (may 2022).
 
 
 ### Seed File

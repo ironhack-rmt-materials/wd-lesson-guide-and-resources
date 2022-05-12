@@ -2,10 +2,17 @@
 
 # LAB - React IronNutrition
 
+Notes: 
+- students find this lab VERY challenging
+
 Main topics:
 - State
 - Form (controlled components)
 - Communication between components (props, callback)
+
+
+Notes from Doan: 
+https://github.com/Dorrrn/lab-ironnutrition-2/blob/master/NotesForLab
 
 
 
@@ -14,12 +21,16 @@ Main topics:
 Example, with the searchbar:
 
   ```javascript
+
     const [searchInput, setSearchInput] = useState("");
     
     function inputHandler(e) {
-        setSearchInput(e.target.value);  
+        setSearchInput(e.target.value);  // please, when you can.... update state
         updateMyList(searchInput);   // we're passing "searchInput", which is in state.
     }
+
+
+
   ```
 
 That may not work as expected (to filter foods, we had to type always one letter more than expected).

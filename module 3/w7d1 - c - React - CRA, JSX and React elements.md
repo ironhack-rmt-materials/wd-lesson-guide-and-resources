@@ -16,8 +16,11 @@
   - note: we've tested with CRA install globally vs. not, and takes the same time to create an app.
 
 
-- Create app with CRA `npx create-react-app my-first-app`
+- Create app with CRA `npx --yes create-react-app my-first-react-app`
   
+  Note: `--yes` flag 
+  - Appartently in recent versions (I'm using npm v.6.14, students were using npm v.8) (https://stackoverflow.com/questions/69006097/does-npx-no-longer-do-install-less-run)
+
 
 - (while CRA is installing) Install React Dev Tools 
   https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
@@ -33,14 +36,18 @@
     - mention yarn
 
 
-- JSX
+- JSX:
+  
   - components: can receive info + return JSX
+
   - Inside the curly braces, we can put any valid JavaScript expression. 
     - "an expression is a snippet of code that evaluates to a value"
     - (extra) What is a JavaScript Expression? (includes examples, expression vs. statement, etc)
       https://masteringjs.io/tutorials/fundamentals/expressions
 
+
   - JSX: must return one parent container
+
 
   - Examples:
     - Example 1 - embed variables
@@ -52,8 +59,10 @@
       </h3>
     ```
 
+
     - Example 2 - embed functions (or methods):
       `{firstName.toUpperCase()}`
+
 
     - Example 3 - embed function execution
       ```
@@ -69,8 +78,11 @@
       )
       ```
 
+
     - Example 4: embed the attribute value
       `<div id={theId}>`
+
+
 
     - Example 5 - embed static files: images
       ```
@@ -78,6 +90,7 @@
 
       <img src={ironhackLogo} alt="ironhack logo" />
       ```
+
 
 
 - Self-closing tags
@@ -98,4 +111,6 @@
 - Comments in JSX
   ` {/* jsx comment */} `
 
+
 - React Dev Tools
+

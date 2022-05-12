@@ -2,7 +2,15 @@
 # React - State hook and events
 
 <!--
+
 Status: draft
+
+@todo: 
+- improve the planning for this unit
+- update planing to hooks
+- prepare examples
+- note: it can also be good to prepare a boilerplate app to start speaking about state (see: "/Luis/pro/Ironhack/_playground/first-react-app/first-react-app")
+
 -->
 
 
@@ -18,6 +26,8 @@ Status: draft
 - State:
   - Allows components to store internal data ("information")
   - We can use that information in JSX, when we describe the User Interface
+
+> "State is similar to props, but it is private and fully controlled by the component."
 
 
 - Things to keep in mind:
@@ -85,6 +95,7 @@ Example: we will add a counter
 
 - Remember (https://reactjs.org/docs/state-and-lifecycle.html#using-state-correctly):
   - Do Not Modify State Directly
+    - note: `counter++` modifies state directly
   - State Updates May Be Asynchronous
   - State Updates are Merged (class components)
     - ("When you call setState(), React merges the object you provide into the current state.")
@@ -94,10 +105,13 @@ Example: we will add a counter
   - See state in React Dev Tools
 
 
+
 ## When should we use the state
 
-- State: Store information that belongs to a component and can change over time
-
+- State: 
+  - Store information that belongs to a component
+  - Can change over time
+  - We want to reflect the changes in the UI (JSX)
 
 
 
@@ -114,15 +128,36 @@ Example: we will add a counter
 
 
 
+## Exercise: buttons to change theme
+
+2 buttons:
+- "switch to light theme"
+- "switch to dark theme"
+
+How we can solve it (think with students)
+- we can have `<div className="light">` and `<div className="dark">`
+- it is information that changes over time + we want to reflect it in our JSX -> we will need state
+- where we should store it (easiest option atm is in `App.js`)
+
+
+Question: 
+- can we just not change a "normal" variable (ie. do we need state?)
+- doesn't it switch back to the initial value
+
+
+
 ## BEFORE BREAK
 
 - Start next app with CRA
   `npx create-react-app popcorn-time`
 
 
+
 ## EXTRA
 
-Functional update:
-- Why should I use a function if the new state depends on the previous? Example: https://stackoverflow.com/a/57828519/11298742
+- Mention: in a component we can have multiple stateful variables
+
+- Functional update:
+  - Why should I use a function if the new state depends on the previous? Example: https://stackoverflow.com/a/57828519/11298742
 
 

@@ -5,11 +5,13 @@
 
 Status: notes
 
+@todo: improve planning
+
 -->
 
 
 Initial Code:
-- https://stackblitz.com/edit/react-xbmv4z?file=src/App.js
+- https://stackblitz.com/edit/react-cucskj?file=src/App.js
 - Note: 
   - work on VS code with Live Share (so that they can copy code)
   - intro Routing (show examples on some react apps)
@@ -22,6 +24,11 @@ Initial Code:
     - <Routes> and <Route>
     - <Navigate />
     - ...
+
+  - Backend vs. Frontend routing
+
+- Possible final code:
+  https://stackblitz.com/edit/react-bwzc2z?file=src/App.js
 
 (Follow students portal)
 

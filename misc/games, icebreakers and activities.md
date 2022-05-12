@@ -26,6 +26,7 @@
 
 - Mini-Games
   - Count triangles
+  - Count triangles2 (https://mes.fm/img/memes/counting-triangles-puzzle.jpeg)
 
 
 

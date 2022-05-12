@@ -1,6 +1,6 @@
 
 
-# React - Forms
+# React - Hooks & Lifecycle
 
 <!-- 
 
@@ -8,19 +8,44 @@
 Status: draft
 
 
+@todo: 
+- simplify theory (too many concepts for students)
+- improve planning & examples
+
 -->
 
 
 
 ## Pre-setup
 
-`npx create-react-app react-hooks`
+`npx create-react-app react-characters-app`
+
+
+
+## Basic refresh Axios
+
+- Open Stackblitz and make a simple request to this API:
+  - https://ih-crud-api.herokuapp.com/character
+
+- Today, we will learn how to make HTTP requests in React & display the info
+
+- Remember, there's many ways to send http requests:
+  - fetch(), libraries (ex. axios)
+
+
 
 
 
 ## Component Lifecycle
 
 <!-- students portal (highlighted)  -->
+
+
+(Intro) Show how components are executed:
+  - add console.log() for each component on the app we created yesterday ("popcorn time")
+  - See how each function component is executed
+  - See that, when `state` or `props` change, a component is re-rendered
+
 
 Stages:
 - Mounting
@@ -55,15 +80,17 @@ Stages:
 
 - How can we then make a call to an API ?
 
-
 - Show wrong example (axios.get at the beginning of function component)
+
+- Intro / Mention "hooks"
+  - useXXXX
+  - custom hooks
 
 - Introduce useEffect()
 
   > useEffect Hook allows you to run side effects during all three lifecycle phases.
 
   `useEffect(didUpdate, dependencyArray)`
-
 
 
 ## useEffect - Mounting phase
@@ -110,7 +137,7 @@ Stages:
 
 
 
-## ## useEffect - Without dependency array
+## useEffect - Without dependency array
 
 - Setting useEffect without the second argument [] (dependency array) will cause the useEffect to run on every render. 
 - This could potentially cause an infinite re-rendering loop.
@@ -121,10 +148,10 @@ Stages:
 
 1. Only call hooks at the top level
 
-- DON'T call hooks inside loops, conditions, or nested functions !!
-- WHY: React relies on the order in which Hooks are called.
+  - DON'T call hooks inside loops, conditions, or nested functions !!
+    - WHY: React relies on the order in which Hooks are called.
 
-- DO: always use hooks at the top level of your React function
+  - DO: always use hooks at the top level of your React function
 
 If we want to run an effect conditionally, we can put that condition inside our Hook.
 
@@ -163,7 +190,8 @@ If we want to run an effect conditionally, we can put that condition inside our 
 ## Exercise
 
 API call to characters API
-- Task: display list of characters ()
+- Task: display list of characters () 
+  <!-- @todo: this contains the solution -->
   https://stackblitz.com/edit/react-hhhsgc?file=src/App.js
 
 - Possible solution (API call & conditional rendering):
@@ -178,7 +206,7 @@ https://stackblitz.com/edit/react-ogf6xl?file=src/App.js
 
 
 - useEffect() cheatsheet with API request:
-
+  <!-- @todo -->
 
 
 ## Diagrams

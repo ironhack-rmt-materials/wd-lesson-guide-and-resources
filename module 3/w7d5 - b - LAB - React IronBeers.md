@@ -28,7 +28,7 @@ Iteration 4: Display a single beer
 - useEffect + API request 
 
 Iteration 5: Random beer
-- can reuse component from prev. iteration
+- can reuse component from previous iteration
 
 Iteration 6: Create a new beer
 - form + API request
@@ -36,3 +36,4 @@ Iteration 6: Create a new beer
 ## Iteration 7 | Bonus | Filter the beers
 
 - Query String
+

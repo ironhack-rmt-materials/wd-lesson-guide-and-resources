@@ -13,10 +13,18 @@ Jan 2022:
  -->
 
 
+## HOW
+
+- Individual
+
+
 ## EXPLAIN
 
-- Some students feel overwhelmed about creating one component for each small thing in the UI
-- Explain them that the goal of this lab is to practice components (this is why we over do it)
+- IMPORTANT: 
+  - Students feel overwhelmed about creating one component for each small thing in the UI
+  - Explain them that the goal of this lab is to practice components (this is why we over do it)
+
+- Advice: force yourself to code & practice the syntax
 
 
 ## Iteration 2 | Pass the Tweet as a Prop
@@ -43,3 +51,11 @@ IMPORTANT:
 
   - We will learn how to iterate tomorrow.
 
+
+
+<!-- 
+  
+  Bonus homework: continue watching video 
+  (details in today's "day planning" md file)
+
+-->

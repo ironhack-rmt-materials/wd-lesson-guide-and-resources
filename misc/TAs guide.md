@@ -40,6 +40,16 @@
 - If you notice any student falling behind, make sure to address that with LT
 
 
+## IMPORTANT:
+- Role as a TA can be challenging but it's also rewaring.
+- Some days you will feel iddle, some days you will feel overloaded.
+
+- Low workload: pls speak to LT. We can definitely find many things that will improve student experience.
+- Too much workload: pls. speak to LT.
+
+- Other Feedback & things to improve: pls. speak to LT.
+
+
 ## Further Resources:
 
 - Basic TA info and guidelines:

@@ -16,15 +16,15 @@ Status: notes
 
 - Examples of Route Params
 
-https://localhost:3000/artists/madonna
-https://localhost:3000/ironhack/team-triangle/bob
-https://localhost:3000/countries/42
+  https://localhost:3000/countries/42
+  https://localhost:3000/artists/madonna
+  https://localhost:3000/artists/madonna/albums/5
 
 
 - Examples of Query String
 
-https://localhost:3000/rooms?maxPrice=200
-https://localhost:3000/rooms?sort=price
+  https://localhost:3000/rooms?maxPrice=200
+  https://localhost:3000/rooms?sort=price
 
 
 

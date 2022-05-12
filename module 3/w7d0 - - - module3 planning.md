@@ -3,21 +3,28 @@
 
 
 day1: React intro + CRA + Components & Props
+- codealong "React playground"
+
 
 day2: State & events + List & keys + Conditional Rendering
 - codealong: "Popcorn Time I"
-  (\Ironhack\_playground\popcorn-time\README.md)
+- sample repo: https://github.com/Ironborn-Ironhack-March-2022/react-popcorn-time
 
 day3: Lifting state up + Forms
 - codealong: "Popcorn Time II"
 
+
+
 day4: Hooks & Lifecycle + Routing
-- codealong option 1: characters API (\Ironhack\_playground\react-playground\)
+- codealong option 1: characters API.
+  - sample repo: https://github.com/Ironborn-Ironhack-March-2022/react-characters-app
 - codealong option 2: add that functionality to "popcorn time" (movie characters + routing)
+
 
 
 day5: Connecting React app to the backend
 - codealong: ironbnb (\Ironhack\_playground\react-connecting-to-backend\README.md)
+
 
 
 day6: Building the REST API + Integrating React app with backend

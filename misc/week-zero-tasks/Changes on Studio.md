@@ -77,6 +77,8 @@ You can also find a few tips to beat the impostor syndrome here: https://imposto
 >
 
 
+- w7d1: "LAB | Hello React" (remove)
+
 
 - "React - Token-Based Authentication II (Frontend)"
   - move it to next day (it can well take a whole day)

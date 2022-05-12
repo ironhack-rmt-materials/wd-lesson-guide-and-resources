@@ -11,7 +11,16 @@ Mark bonus labs as "extra" in the students portal
 
 -->
 
-Summary:
+
+Refresh from yesterday:
+- Module 3 & Requirements project 3
+- React intro
+- create-react-app
+- 2 types of components
+- props (how to pass and receive props)
+
+
+Summary Today:
 
 - State
   - start with a basic counter
@@ -25,3 +34,4 @@ Popcorn Time I:
 - Iterate through array
 - Conditional rendering (3 options)
 - (extra) display only top-rated movies (store in state) 
+

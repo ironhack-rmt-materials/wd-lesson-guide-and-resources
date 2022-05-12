@@ -31,13 +31,14 @@ Notes:
 ## Step 1: form with 1 field
 
 - Add form with 1 field (eg. `title`).
-  (in the same component were we have state)
+  (IMPORTANT: in the same component were we have state)
 
 - Make it a controlled component (cheatsheet below)
 
 - Process form & add the new movie (only with "Title")
 
 - Clear form upon submission
+
 
 ## Step 2: form with multiple fields
 
@@ -46,6 +47,20 @@ Notes:
   onChange={handleTitle} 
   onChange={handleYear} 
   onChange={handleRating}
+
+
+
+## (extra) Handling multiple inputs with a single method
+
+- IMPORTANT: 
+  - Just mention that it is possible 
+  - Don't implement it (it takes a lot of time and they had enough concepts)
+
+- Main ideas:
+  - We store the inputs in an object (instead of separate stateful variables).
+  - For the object, we use the same property names as the form fields (so that then we can use `e.target.name` to access object properties dynamically).
+  - Spread operator with objects
+  - Link: https://stackoverflow.com/a/67234242/11298742
 
 
 
@@ -63,18 +78,10 @@ Notes:
 
 
 
-## (extra) Handling multiple inputs with a single method
-
-- Just mention that it is possible (don't implement it, it takes a lot of time and they had enough concepts)
-
-- Main ideas:
-  - We store the inputs in an object (instead of separate stateful variables).
-  - For the object, we use the same property names as the form fields (so that then we can use `e.target.name` to access object properties dynamically).
-  - Spread operator with objects
-  - Link: https://stackoverflow.com/a/67234242/11298742
-
-
 ## React Forms Cheatsheet:
+
+
+<!-- @todo: improve this cheatsheet -->
 
 - Create the form in our JSX (add onSubmit event & prevent form submission):
 
@@ -93,7 +100,8 @@ Notes:
     `const [title, setTitle] = useState("");`
   - Read the input value from state (ex. `value={title}` )
   - Add onChange event (and update state with the new value)
-    <input type="text" name="title" value={title} onChange={handleTitleInput} />
+    `<input type="text" name="title" value={title} onChange={(e) => { setTitle(e.target.value) }} />`
+
 
 - Handle form submission
 

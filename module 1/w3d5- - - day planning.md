@@ -9,6 +9,10 @@
 
 - 11h code freeze
   - Full test on production (test all the functionality)
+  - From that moment on, we should make further changes on production.
+  - All working fine ? Drop a line to your TA "all working fine, I don't make further changes on production"
+  - Critical bugs or problems ? Pls report by 11:30h.
+
 
 - Afternoon: prepare presentation, slides & readme, or just enjoy
 

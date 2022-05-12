@@ -45,12 +45,26 @@ Improvements: create diagram
 ## IMPORTANT NOTES TO STUDENTS
 ## IMPORTANT NOTES TO STUDENTS
 
+
+Deployment & setup takes a lot of time. We need to be efficient.
+
+
 Make sure all of us....
-- Deployment & setup takes a lot of time -> we need to be efficient !!!
+
 - 100% attention
   - even if you're not the person doing deployment for "project2"
-- Follow steps carefully
-- Please don't go ahead (so that we all have the same config.)
+- Please follow all steps carefully.
+- Don't try to go one step ahead (so that we all have the same config) (otherwise we will all have different configuration & different errors)
+
+Note: if you're deploying a codelong we did (ex. the library project), make sure it's a fork, not a clone (cause you'll need to push code)
+
+<!-- 
+
+@Luis: do not push button...
+
+- ![Do not push button](./images/do-not-push-button.png "Do not push button")
+
+-->
 
 
 ## DB: Create cluster [2. Sign Up & Create a Free Cluster]
@@ -60,6 +74,11 @@ Make sure all of us....
 
 - login + follow students portal
 
+
+- Security Quickstart
+  - choose "username and password"
+  - note: choose all lowercase
+
 - Note: if deploying for module 3...
   - "theres a max of 1 free cluster per project" -> Create a new project (and then Create Cluster)
 
@@ -68,6 +87,7 @@ Make sure all of us....
 - follow students portal
 
 - Note: "wWhere would you like to connect from? "
+  - Choose "Cloud Environment"
   - Select "advanced" & add 0.0.0.0/0
 
 
@@ -98,6 +118,8 @@ Make sure all of us....
 ## Heroku: Create new App (and configure git remote)
 
 - follow students portal
+
+Note: app name will be public (choose something nice).
 
 
 ## Heroku: Test commit

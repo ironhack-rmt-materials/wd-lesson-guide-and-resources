@@ -22,6 +22,9 @@ Notes:
 Intro Slides (function vs class components): 
 https://docs.google.com/presentation/d/1iqYSImZj7p58ahLWryMSp00ooCCEf2cnIhjwc-pMFqw/edit?usp=sharing
 
+<!-- 
+  @todo: update the slides (since we use hooks) 
+-->
 
 
 ## Function and Class Components
@@ -30,10 +33,11 @@ https://docs.google.com/presentation/d/1iqYSImZj7p58ahLWryMSp00ooCCEf2cnIhjwc-pM
 - How to create a function component
 - How to create a class component
 
-Example: create a sample app with the following components inside `<App />`
-- <Header />
-- <StudentOne />
-- <StudentTwo />
+Example: create a sample app with the following components inside `<App />`:
+
+- `<Header />`
+- `<User />`
+- `<Footer />`
 
 
 Notes:
@@ -47,10 +51,31 @@ Notes:
 
 ## Props
 
+
+Intro example (why props):
+- `<Header />`
+- `<UserOne />`
+- `<UserTwo />`
+- `<UserThree />`
+- `<Footer />`
+
+
 > Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called props) and return React elements describing what should appear on the screen.
 
 - Passing and accessing a prop
 - Passing multiple props
+
+
+Exercise to practice the syntax:
+- Ask students to delete User component (and the lines to render it in App.js)
+- Task:
+  - create User component (function component)
+  - render User in App.js
+  - using props, display Alice & Bob
+  - (bonus) use props to display the fav food of each of them 
+  - (bonus 2): pass an object as props (ex. an object with name and favFood)
+
+- Alternative: same but with movies (instead of users)
 
 
 ## props.children
@@ -85,6 +110,8 @@ Notes:
   <MyTextBox autocomplete />
   <MyTextBox autocomplete={true} />
   ```
+
+- props.children
 
 
 ## IMPORTANT CONCEPTS

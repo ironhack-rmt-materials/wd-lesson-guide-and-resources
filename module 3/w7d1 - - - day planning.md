@@ -14,20 +14,6 @@ Notes:
 
 
 
-## Prework React (weekend)
-
-- Weekend Homework (before starting module 3), watch:
-  React JS - React Tutorial for Beginners - Programming with Mosh (2h 25min)
-  https://www.youtube.com/watch?v=Ke90Tje7VS0
-
-- Note: remind students that the idea is that they're already familiar with some concepts when we start m3 (just in case: we will cover all those concepts from scratch)
-
-- Alternative: codevolution (https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
-
-
-
-
-
 ## Feeling ready ? [45min - 90min]
 
 - [ALTERNATIVE: leaving this to project week + doing a kata with HOF as a Monday warmup]
@@ -128,5 +114,28 @@ Notes:
 - [LESSON] React | Create React App, JSX and React elements
 
 - [LESSON] React | Components & Props
+
+- [LAB] LAB | React Tweets
+
+- Extra: try to do some Katas from [LESSON] | HOF exercises.
+
+- Bonus homework: continue watching video (see below)
+
+
+
+## Homework Bonus
+
+> Did watching the video helped you?
+> 
+> If so, AFTER YOU FINISH THE LAB, you may want to continue watching the video, from 38:50 to 1:08:00:
+> 
+> https://youtu.be/jLS0TkAHvRg?t=2324
+> 
+> Concepts covered:
+> - state 
+> - events
+> - conditional rendering 
+> - lists
+
 
 

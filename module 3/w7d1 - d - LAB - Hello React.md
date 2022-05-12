@@ -3,7 +3,7 @@
 # LAB - Hello React
 
 
-Bonus.
+Bonus / Remove from schedule.
 
 
 Notes:
