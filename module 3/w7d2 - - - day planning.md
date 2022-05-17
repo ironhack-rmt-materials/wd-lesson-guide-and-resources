@@ -9,6 +9,11 @@ w7d2 is quite challenging for students. Start at good pace from beginning.
 
 Mark bonus labs as "extra" in the students portal
 
+
+LAB "React IronContacts" is very challenging
+- offer students the possibility to work in pairs
+- give extra guidance for iteration 1
+
 -->
 
 

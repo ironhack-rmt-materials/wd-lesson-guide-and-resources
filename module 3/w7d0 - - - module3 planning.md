@@ -23,13 +23,16 @@ day4: Hooks & Lifecycle + Routing
 
 
 day5: Connecting React app to the backend
-- codealong: ironbnb (\Ironhack\_playground\react-connecting-to-backend\README.md)
+- codealong: ironbnb 
+  - sample repo: https://github.com/Ironmaidens-Ironhack-Jan-2022/ironmaidens-react-connecting-to-backend
 
 
 
 day6: Building the REST API + Integrating React app with backend
 - codealong: project-management server+client (follow student's portal)
-(\Ironhack\_playground\project-management-fullstack\)
+  - sample repo CLIENT: https://github.com/Ironborn-Ironhack-March-2022/ironborn-project-management-server/commits/main
+  - sample repo SERVER: 
+  <!-- @todo (\Ironhack\_playground\project-management-fullstack\) -->
 
 day7: Context API + Auth I (Backend) + Auth II (Frontend)
 - codealong: project-management server+client (follow student's portal)

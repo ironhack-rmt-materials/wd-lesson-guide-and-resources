@@ -23,7 +23,8 @@ Intro Slides (function vs class components):
 https://docs.google.com/presentation/d/1iqYSImZj7p58ahLWryMSp00ooCCEf2cnIhjwc-pMFqw/edit?usp=sharing
 
 <!-- 
-  @todo: update the slides (since we use hooks) 
+  @todo: 
+  - add some code syntax to  the slides (how to pass props when we render a component etc)
 -->
 
 

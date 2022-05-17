@@ -24,6 +24,16 @@ Notes to students:
 - To display all borders .map() over it (it's an array)
 
 
+
+## Iteration 2 | Linking it all together
+
+We load data from `.json`
+
+
+## Iteration 3 | Fetch countries data from an API
+
+We get data from API
+
 ## Iteration 1.4
 
 - Flags: you can skip it (focus on React)

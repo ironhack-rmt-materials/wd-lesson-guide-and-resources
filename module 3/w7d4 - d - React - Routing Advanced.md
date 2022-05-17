@@ -58,11 +58,12 @@ Note:
 - for lab wiki countries they don't need query strings
 - if short of time, just show on students portal
 
+For query string there's a hook `useSearchParams`:
+- https://reactrouter.com/docs/en/v6/api#usesearchparams
 
 
 
 ## Extra: nested routes
 
 Example of nested routes with React Router:
-
 https://stackblitz.com/edit/react-y43mfi?file=src/App.js

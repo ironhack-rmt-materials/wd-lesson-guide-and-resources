@@ -71,6 +71,7 @@ Step 2, they'll need to:
   - CRUD functionality for characters
   - Data is stored in DB
 
+
 ## Explain 
 
 - APIs
@@ -80,11 +81,10 @@ Step 2, they'll need to:
   - slides: 
     - https://docs.google.com/presentation/d/194i1dCV2vpqTN5T3yC5lysvfS-_fnEkok97QpaOtb3w/edit?usp=sharing
 
-  - What is a REST API? (explains RESTful) (6 min.)
+
+  - Video: What is a REST API? (explains RESTful) (6 min.)
     - https://www.youtube.com/watch?v=SLwpqD8n3d0
 
-  - (extra) REST API concepts and examples (general intro to APIs, doesnt really explain REST) (8:50min)
-    - https://www.youtube.com/watch?v=7YcW25PHnAA
 
 
 - Introduce "characters API" 

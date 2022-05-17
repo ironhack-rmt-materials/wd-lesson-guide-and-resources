@@ -9,7 +9,7 @@ Status: draft
 Notes:
 - In this unit we put together all concepts from previous week
   - Only new concepts: 
-    - POST to create a resource on API (body of the request + send request onSubmit)
+    - POST to create a resource on API (we send the request onSubmit + we send the details in the body of the axios request)
 - Methodology: build together with students
 
  -->
@@ -18,7 +18,7 @@ Notes:
 
 Setup:
 
-`npx create-react-app react-connecting-to-backend`
+`npx create-react-app react-ironbnb-client`
 
 `npm i react-router-dom axios`
 
@@ -29,14 +29,21 @@ Explain API & test endpoints
 - IronBnB API:
   https://ironbnb-m3.herokuapp.com
 
+  (note: PUT and DELETE are probably not supported, tested on Postman)
+
+
+- Refresh REST APIs
 
 
 Plan App/UX:
-- Option 1: plan together
+
+
+- Option 1: give them the wireframes & start building
+  https://whimsical.com/ironmaidensbnb-MVw1gkTJrekF2QTaEKCMJU
+
+- Option 2: plan together
   https://whimsical.com/
 
-- Option 2: give them the wireframes & start building
-  https://whimsical.com/ironmaidensbnb-MVw1gkTJrekF2QTaEKCMJU
 
 
 Start building:
@@ -54,5 +61,11 @@ Start building:
 - Feb 2022 Ironmaidens Wireframes: 
   https://whimsical.com/ironmaidensbnb-MVw1gkTJrekF2QTaEKCMJU
 
+
+- Sample Repo: 
+  https://github.com/Ironmaidens-Ironhack-Jan-2022/ironmaidens-react-connecting-to-backend
+
+- README (with steps and improvements):
+  https://github.com/Ironmaidens-Ironhack-Jan-2022/ironmaidens-react-connecting-to-backend/blob/main/README.md
 
 

@@ -38,9 +38,13 @@ Students portal (highlighted)
 - initial code: https://codesandbox.io/s/relaxed-rumple-vb9p4i?file=/src/App.js
   <!-- @Luis: remember to fork !! -->
 
+- explain goal. Demo: https://wnj6h.csb.app/projects/
+
 - ask students to have a look & understand code
 
 - follow students portal (highlighted)
+
+- oficial documentation (highlighted): https://reactjs.org/docs/context.html#reactcreatecontext
 
 
 - Final result:

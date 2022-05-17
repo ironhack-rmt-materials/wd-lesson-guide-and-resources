@@ -6,28 +6,45 @@
 
 <!-- 
 
-- Slides: 
+- Slides (REST + endpoints we will implement): 
   https://docs.google.com/presentation/d/194i1dCV2vpqTN5T3yC5lysvfS-_fnEkok97QpaOtb3w/edit?usp=sharing
 
 
 - Students portal: some things highlighted
 
 
-- Final result Sept21: 
-  https://github.com/Coding-Ninjas-Ironhack-Sept-2021/project-management-server
+- Final result:
+  https://github.com/Ironborn-Ironhack-March-2022/ironborn-project-management-server/commits/main
+
 
   note: the last commits are for Auth ("functionality to register" + "functionality for authentication")
 
 
 - Approach: 
-  - option 1: codealong (takes quite a bit of time, 4-5h )
+  - option 1: codealong (takes quite a bit of time, 4-6h )
   - option 2: giving students the code & ask them to try to understand it ? (they may feel overwhelmed)
 
 -->
 
+## Setup
+
+- Create directory `project-management-fullstack`
+
+- Ironlauncher: `npx ironlauncher project-management-server --json`
+  - Auth? choose no.
+
+
+
 ## Part 1: intro to REST & best practices 
 
-follow students portal
+
+REST API Design Best Practices (see students portal):
+- Use lowercase letters when naming endpoints
+- Do not use underscores ( _ ), use hyphens (-)
+- Use nouns instead of verbs in endpoint paths
+- Use HTTP verbs to indicate the action (GET, POST, PUT, DELETE)
+- Handle errors uniformly and respond with standard HTTP status codes
+
 
 ## Part 2: codealong
 
@@ -67,20 +84,41 @@ follow students portal
   - routes
 
 
+- Models:
+  - Refresh embeded vs. Reference
+
+
+
 - Build (advanced students can do that in pairs in breakout rooms)
+
+
+
+Routes:
+  - POST /projects
+  - POST /tasks
+  - GET /projects
+  - GET /projects:projectId
+  - PUT /projects:projectId
+  - DELETE /projects/:projectId
   
+Bonus:
+- implement full CRUD for tasks
+
+
   
   - Minor improvement: when a project is deleted, remove also the associated tasks.
-  
+    - note: make sure to import Task model
+
   ```javascript
   Project.findByIdAndRemove(projectId)
     .then( deteletedProject => {
       return Task.deleteMany( { _id: { $in: deteletedProject.tasks } } );
     })
-    .then(() => res.json({ message: `Project with ${projectId} is removed successfully.` }))
+    .then(() => res.json({ message: `Project with id ${projectId} & all associated tasks were removed successfully.` }))
     .catch(error => res.status(500).json(error));
-  ```
-  
+  ```  
+
+
 
 - Enable CORS requests (see below)
 
@@ -91,6 +129,7 @@ follow students portal
 - Slides: 
   https://docs.google.com/presentation/d/1ccck25g9VXNxWA-GaXquyczZD2VnfD9Zx9lKKgFD2dk/edit?usp=sharing
 
+  <!-- @todo: improve slides -->
 
 
 
