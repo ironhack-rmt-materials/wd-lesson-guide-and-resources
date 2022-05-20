@@ -7,7 +7,19 @@ Notes:
 - We will work on the app "popcorn-time" we created the day before
 - React Forms can take much longer than it seems (about 4h)
 
+LAB today ("React IronNutrition") is VERY VERY demanding
+- try to finish earlier so that they have more time
+- offer students the possibility to work in pairs
+- give extra guidance for first iterations
+
+
 -->
+
+
+## Quick lab review
+
+Ask students for yesterday's LAB (specific questions)
+
 
 
 ## Refresh
@@ -62,4 +74,5 @@ Forms:
 - functionality to add movies (Step 3: extract to a separate component)
 - (extra) Handling multiple inputs with a single method
 
-
+Extra:
+- functionality for searchbox (asked in today's lab)

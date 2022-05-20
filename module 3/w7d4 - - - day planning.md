@@ -18,6 +18,17 @@ Notes:
 -->
 
 
+## Quick lab review
+
+Ask students for yesterday's LAB (specific questions)
+
+
+## Refresh
+
+
+
+## Today
+
 Codealong Options:
 
 - option 1: characters API.
@@ -31,5 +42,6 @@ Codealong functionality (draft):
 - (lifecycle and hooks) get & display list of characters from `https://ih-crud-api.herokuapp.com/characters`
 - (routing): one page for the list of characters
 - (routing): one page for each character (with static links and then with URL parameters)
-  - note: for that, create a component `<CharacterDetails>` and send a request to get the details of one character from the API (same pattern that they're asked to do in the LAB)
+  - note1: for that, create a component `<CharacterDetails>` and send a request to get the details of one character from the API (same pattern that they're asked to do in the LAB)
+  - note2: display the nav menu in all pages (same pattern as today's lab) (or explain the two options: all pages vs. homepage only)
 - extra: pass the list of characters to Header & render a dynamic menu in the Header

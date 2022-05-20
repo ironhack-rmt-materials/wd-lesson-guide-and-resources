@@ -78,6 +78,14 @@ Notes:
 
 
 
+
+## (Extra) Searbox:
+
+- functionality for searchbox (asked in today's lab)
+
+
+
+
 ## React Forms Cheatsheet:
 
 

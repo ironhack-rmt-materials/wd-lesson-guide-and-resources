@@ -29,6 +29,8 @@ Initial Code:
 
 - Possible final code:
   https://stackblitz.com/edit/react-bwzc2z?file=src/App.js
+  - Note: show how we can display the nav menu in all pages or only in the homepage
+
 
 (Follow students portal)
 

@@ -16,6 +16,8 @@
 
 
 - Run Commands:
+  <!-- create directory for both repos -->
+  `mkdir project-management-fullstack` 
   `npx ironlauncher@latest project-management-server --auth --json`
   `npx create-react-app project-management-client`
 

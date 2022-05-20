@@ -79,6 +79,11 @@ You can also find a few tips to beat the impostor syndrome here: https://imposto
 
 - w7d1: "LAB | Hello React" (remove)
 
+- w8d1: "[EXTRA] Assessment review - React Fundamentals 1" (remove)
+- w8d3: "[EXTRA] Assessment review - React Fundamentals 2" (remove)
+  <!-- students receive solutions + they can ask specific questions -->
+
+
 
 - "React - Token-Based Authentication II (Frontend)"
   - move it to next day (it can well take a whole day)

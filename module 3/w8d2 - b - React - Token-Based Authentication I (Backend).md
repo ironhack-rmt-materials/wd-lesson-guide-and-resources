@@ -31,6 +31,7 @@ If we create app with `ironlauncher --auth`:
 ## Intro
 
 
+
 - Session-based auth (module2) vs. tokens (module3)
   - Module 2 diagram: 
     - session (server keeps information about the state of the user)
@@ -38,14 +39,24 @@ If we create app with `ironlauncher --auth`:
   - JWT Diagram: https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/token-auth/jwt-authentication-flow-1.png
   - Token-based authentication is stateless which means that no information is stored on the server.
 
-
-
-
+<!-- @todo: create diagrams -->
 
 
 
 ## Codealong
 follow students portal
+
+
+
+Improvements:
+- Protected routes: if we use ironlauncher, in `error-handling\index.js`, we can add the following:
+
+  ```javascript
+      if (err.name === "UnauthorizedError") {
+        res.status(401).json({message: "invalid token..."});
+      }
+  ```
+
 
 ## Cleanup
 

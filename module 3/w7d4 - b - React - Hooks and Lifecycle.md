@@ -215,6 +215,13 @@ React Lifecycle methods diagram (class components):
 https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 
+<!-- 
+  @todo: 
+  - make an easier diagram  
+  - Mounting: execute (get JSX) + DOM manipulation
+
+-->
+
 React Hooks Lifecycle:
 https://wavez.github.io/react-hooks-lifecycle/
 
