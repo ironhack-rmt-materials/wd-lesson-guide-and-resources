@@ -28,9 +28,9 @@ Sample code:
 
 
 ## how to add css
-  -- inline --> style=""
-  -- in the head tag --> <style>
-  -- external file --> <link rel="stylesheet" href="style.css" />
+  - inline: `style=""`
+  - in the head tag: `<style>`
+  - external file: `<link rel="stylesheet" href="style.css" />`
 
 - Paths:
     - External url. eg: https://mykittens.com/bob.jpg
@@ -40,8 +40,8 @@ Sample code:
         eg: href="/images/bob.jpg"
 
     - Relative path. 
-      -- href="./images/bob.jpg"  --> current directory
-      -- href="../images/bob.jpg" --> one directory above in the hierarchy
+      - `href="./images/bob.jpg"` (current directory)
+      - `href="../images/bob.jpg"` (one directory above in the hierarchy)
 
 
 
@@ -61,14 +61,14 @@ Sample code:
 
 - why they're useful + how typical CSS looks like.
 
-- type selector --> div, p, h1...
+- type selector: div, p, h1...
 
-- class --> class=""
+- class: `class=""`
     - CONVENTION: underscore-with-dashes (kebab-case)
     - Can assign more than one class to an element (but do not add multiple times the class attribute: class="" class="") 
 
 
-- id --> id=""
+- id: `id=""`
   - CONVENTION: underscore-with-dashes
   - Each page can have only one element with that ID
   - Each element can have only one ID
@@ -97,13 +97,14 @@ Sample code:
 
 
 - Colors  
-  --> DO NOT GO INTO MUCH DETAIL.
-  --> GREAT VIDEO (4 minutes, explains color names, hex, rgb, rgba): https://www.youtube.com/watch?v=HxztHgRN8I4
+  - DO NOT GO INTO MUCH DETAIL.
+  - GREAT VIDEO (4 minutes, explains color names, hex, rgb, rgba): https://www.youtube.com/watch?v=HxztHgRN8I4
 
-  color: red (we can not have words for every color in the world...)
-  RGB -->  color: rgb(255, 0, 0);
-  RGBA --> color: rgba(0, 255, 0, 0.5);
-  RGB in Hexadecimal --> color: #ff0000;
+  - Some options:
+    - color: red (we can not have words for every color in the world...)
+    - RGB: `color: rgb(255, 0, 0);`
+    - RGBA: `color: rgba(0, 255, 0, 0.5);`
+    - RGB in Hexadecimal: `color: #ff0000;`
 
 
 

@@ -30,8 +30,9 @@
 
 - Create directory `project-management-fullstack`
 
-- Ironlauncher: `npx ironlauncher project-management-server --json`
-  - Auth? choose no.
+- Ironlauncher: `npx ironlauncher project-management-server --auth --json`
+  - NOTE: generates auth with sessions (we will implement with jwt, tomorrow)
+
 
 
 

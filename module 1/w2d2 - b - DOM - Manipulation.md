@@ -17,9 +17,9 @@ SUMARY:
   - remove: element.removeAttribute(attrName);
 
 - Create a DOM object
-  - step1: create the element --> createElement('h2');
-  - step2: add content --> ex. innerHTML
-  - step3: append to the dom --> appendChild()
+  - step1: create the element: `createElement('h2');`
+  - step2: add content: ex. `innerHTML`
+  - step3: append to the dom: `appendChild()`
 - remove element from the DOM
 - Clear an existing element (`element.innerHTML = ''`)
 - Events (see notes below)

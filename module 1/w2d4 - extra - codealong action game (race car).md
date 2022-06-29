@@ -22,8 +22,11 @@ Time estimation: 6-10h
   - Learn git concepts 
 
 - Explain the kind of game that we want to build
-  - https://coding-ninjas-ironhack-sept-2021.github.io/Car-Race-Game/
-  - example (we will not have time for all): https://zhosde.github.io/ninja-the-hacker/
+  - examples (we will not have time for all): 
+    - https://ironborn-ironhack-march-2022.github.io/ironborn-oop-game/
+    - https://zhosde.github.io/ninja-the-hacker/
+
+
 
 - We will do:
   - DOM
@@ -44,7 +47,8 @@ Time estimation: 6-10h
 
 
 2. Students find it difficult if we try to decouple logic from DOM manipulation. Instead, just build it together:
-  - example (logic+dom): https://github.com/Ironmaidens-Ironhack-Jan-2022/oop-game-codealong/blob/main/js/game.js
+  - example1 (logic+dom): https://github.com/Ironmaidens-Ironhack-Jan-2022/oop-game-codealong/blob/main/js/game.js
+  - example2 (aiming to detach logic & dom): https://github.com/Ironborn-Ironhack-March-2022/ironborn-oop-game
 
 
 ## Codealong

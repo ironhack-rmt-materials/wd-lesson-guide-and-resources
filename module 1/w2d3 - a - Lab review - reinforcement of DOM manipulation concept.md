@@ -19,7 +19,7 @@ Notes:
 
 ## Pre-Setup:
 - Create organization on GitHub + add all members
-- Fork lab (fork it on the Organization profile) --> students will the clone it to collaborate.
+- Fork lab (fork it on the Organization profile) -- Students will the clone it to collaborate.
 
 
 ## Iteration 0:
@@ -32,14 +32,15 @@ Notes:
 ## Iteration 1: updateSubtotal()
 
 - get reference to the elements of the dom that hold price & quantity
-- get the value for price --> elm.innerText + parseFloat
-- get the value for quantity --> elm.value + parseInt
+- get the value for price: elm.innerText + parseFloat
+- get the value for quantity: elm.value + parseInt
 
 - calc subtotal (priceValue * quantityValue)
 
 - update the dom to display subtotal
 
-- return subtotal (ex. `return subtotalValue;`) --> this is important so that we can use it later to calc the total price
+- return subtotal (ex. `return subtotalValue;`)
+  - this is important so that we can use it later to calc the total price
 
 
 ## Iteration 2: calculateAll()
@@ -55,13 +56,13 @@ Notes:
 - Step 1: get a list with all the products (elements of the dom)
 
 ```
-document.getElementsByClassName('product'); // --> html collection
-document.querySelectorAll('.product'); // --> Node List
+document.getElementsByClassName('product'); // returns an html collection
+document.querySelectorAll('.product'); // returns a Node List
 ```
 
 - Step 2: iterate through this list (might need to convet to an array, in case it's an html collection)
 
-- Step 3: for each iteration, call updateSubtotal(product) --> this will update the dom with the subtotal for each product
+- Step 3: for each iteration, call updateSubtotal(product) -- this will update the dom with the subtotal for each product
 
 
 

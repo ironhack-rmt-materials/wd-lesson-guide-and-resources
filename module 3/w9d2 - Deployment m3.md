@@ -23,9 +23,16 @@
   -- Copy the names of variables (don't type them)
 
 
+@todo: create slides to put everything very clear for students
+
+
 Slides CORS: 
 https://docs.google.com/presentation/d/1ccck25g9VXNxWA-GaXquyczZD2VnfD9Zx9lKKgFD2dk/edit?usp=sharing
 
+
+
+Notes from Karina:
+https://docs.google.com/document/d/16gK6fgwJNGGNyx3Oa9GV40IxHq3RvahjoiBNZFg4Vek/edit?usp=sharing
 
 -->
 
@@ -114,6 +121,8 @@ https://www.youtube.com/watch?v=scEDHsr3APg
 
 
 - Summary of our setup
+  - dev vs. production
+  - production (mongodb Atlas + Heroku + Netlify)
 
 - Remember: the databases for development & production are different
 
@@ -127,7 +136,5 @@ https://www.youtube.com/watch?v=scEDHsr3APg
 - Troubleshooting (heroku & netlify logs)
 
 - Disclamer on cloud hosting consumption (eg. Netlify bandwidth)
-
-
 
 

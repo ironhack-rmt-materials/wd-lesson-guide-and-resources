@@ -32,6 +32,7 @@ Sections in the student portal:
   - Create the Signup Page (component with form, w/o sending request)
   - Send a Sign Up Request
     > NOTE: if axios request fails, error message is available in `error.response.data.message`
+    > NOTE 2: make sure we're consistent when we send errors from the API (in the students portal we have the property "message" + ironlauncher sends them in the property "errorMessage")
   - Render the SignupPage Component
 - Login Page
   - Create the Login Page
@@ -45,16 +46,22 @@ Sections in the student portal:
       - token now stored in local storage
       - we may still want to check against backend (eg. if the app reloads)
   - Verify the Token upon Initial App Load
+    - if the user reloads the page and there's a token in local storage, we want to  "login the user"
   - Remove the Token on Logout
   - Update the Logout button in the Navbar
 - Custom route components
   - Private Pages
-  - ...
-- ...
+  - Anonymous Pages (available only if you are NOT logged in)
+  - Establish Public and Private Pages
+- (Extra) Do not display "delete" button if user not logged in  
+  - (conditional rendering)
+- Set Request Headers
+  (for all requests to the api, we need to send JWT in the header)
 
 
 
 ## Extra challenges and improvements:
 - After signup, automatically login the user
 - Add a component library (eg. material ui, semantic ui, reactstrap...)
+
 

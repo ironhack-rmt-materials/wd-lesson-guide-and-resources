@@ -6,27 +6,39 @@
 ## Friday (presentation day)
 
 
+- First thing in the morning: 
+  - ask students to submit urls in the students portal (repo + github pages)
+
+
+
 
 - 11h code freeze
   - MVP must be ready (make sure you meet all requirements)
-  - Full test on production (test all the functionality)
   - From that moment on, we should make further changes on production.
+  - Full test on production (test all the functionality)
   - All working fine ? Drop a line to your TA "all working fine, I don't make further changes on production"
   - Critical bugs or problems ? Pls report by 11:30h.
 
+<!-- 
+  Code Freeze: Avoid...
+  
+  https://thecodinglove.com/when-we-add-one-last-feature-before-the-demo 
+-->
 
-- Afternoon: prepare presentation, slides & readme, or just enjoy
 
-- For presentation...
+- Afternoon: prepare readme, slides and presentation, or just enjoy
+  - Readme file
   - Slides
-  - Plan (how we will do presentation)
-  - Data on production DB
-  - Images (if you have to upload, etc...)
+  - Presentation
+    - Plan (how we will do presentation)
+    - Data on production DB
+    - Images (if you have to upload, etc...)
 
 
 - game (TBC. eg. 15:30h)
 
 - Presentations (TBC. eg. 16:00h)
+  - can invite family&friends
 
 
 ## Weekend homework (before we start module3)

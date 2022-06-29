@@ -15,6 +15,14 @@ IMPORTANT:
 
 - Project team intro (1h)
 
+
+- DayZero Spreadsheet (20min.)
+- 5min break
+- Icebreaker activity (30min.).
+
+
+
+
 - LT intro to bootcamp (1h)  [UPDATE: took 2.5h]
 
 - JS intro (0.5h)
@@ -29,6 +37,6 @@ IMPORTANT:
 - Pair programming (0.5h)
 - Git intro (0.5h)
 
-- LAB --> min. 90min. (1.5h)
+- LAB: min. 90min. (1.5h)
 
 

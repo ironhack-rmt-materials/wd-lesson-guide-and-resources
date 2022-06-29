@@ -6,8 +6,8 @@ Status: draft
 
 ## Important:
 
-.map(), .filter() and .reduce()  DON’T modify the original 
---> they don’t mutate the original array but rather create a new array
+.map(), .filter() and .reduce():
+  - these methods DON’T modify the original (they don’t mutate the original array but rather create a new array)
 
 - Visual cheatsheet with some array methods:
   https://res.cloudinary.com/practicaldev/image/fetch/s--sYEjzdnw--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/sr8koff729gxcvpnoty6.jpeg

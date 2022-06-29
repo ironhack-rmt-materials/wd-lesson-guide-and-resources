@@ -6,6 +6,11 @@
 ## Friday (presentation day)
 
 
+- First thing in the morning: 
+  - ask students to submit urls in the students portal (repo + github pages)
+
+
+
 
 - 11h code freeze
   - Full test on production (test all the functionality)
@@ -31,6 +36,12 @@
 
 - Presentations (TBC. eg. 16:00h)
 
+
+<!-- 
+  Code Freeze: Avoid...
+  
+  https://thecodinglove.com/when-we-add-one-last-feature-before-the-demo 
+-->
 
 
 ## End Of Day

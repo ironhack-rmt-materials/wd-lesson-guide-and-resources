@@ -17,6 +17,7 @@ Be ready when the moment arrives:
 
 
 Final tips:
+- if you have questions ask
 - Make sure you have full availability to do the test (if you don't, tell them in advance so that they don't send you the test)
 - time management
-- careful with last minute submits 
+- be careful with last minute submits 

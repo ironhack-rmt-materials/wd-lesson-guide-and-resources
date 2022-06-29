@@ -13,18 +13,32 @@ follow students portal (highlighted)
 
 
 
-
 Notes:
 - Code in the students portal is a bit different than the one created with `ironlauncher --auth --json` (tell students in case the compare or copy code from the students portal)
+
+
+
+<!-- IMPORTANT  -->
+<!-- IMPORTANT  -->
+<!-- IMPORTANT  -->
+
+- If we created app with `ironlauncher --auth --json`, just move from sessions to jwt.
+
+- Here's a readme with the steps to follow:
+  https://github.com/Ironmaidens-Ironhack-Jan-2022/ironlauncher-jwt-auth
+
+<!-- // IMPORTANT  -->
+<!-- // IMPORTANT  -->
+<!-- // IMPORTANT  -->
+
+
+
+
 
 
 Bearer:
 - The name "Bearer authentication" can be understood as "give access to the bearer of this token".
 
-
-
-If we create app with `ironlauncher --auth`:
-- cleanup req.session
 
 
 
@@ -46,6 +60,22 @@ If we create app with `ironlauncher --auth`:
 ## Codealong
 follow students portal
 
+<!-- 
+@Luis: 
+- use code as it is  (ex. for User model: name + email + password)
+- do not change anything, otherwise we need even more time.
+-->
+
+
+Fix (if we follow students portal):
+- current version in the students portal has a bug when we try to create an account with the same email address
+  - affects: current/old versions of the materials (does not affect ironlauncher)
+  - endpoint `POST /signup`
+  - details: https://github.com/ironhack-edu/web-bootcamp/issues/122
+- solution: 
+  - throw an error to break the promise chain
+  - example: https://github.com/Ironborn-Ironhack-March-2022/ironborn-project-management-server/commit/c6b7b70d5e2a7131c5b019aad38cc804d455234e
+
 
 
 Improvements:
@@ -56,6 +86,8 @@ Improvements:
         res.status(401).json({message: "invalid token..."});
       }
   ```
+
+  Example: https://github.com/Ironborn-Ironhack-March-2022/ironborn-project-management-server/commit/d6bea33a492aeffa16408575d136324ed72abc21
 
 
 ## Cleanup

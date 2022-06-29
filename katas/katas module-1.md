@@ -23,7 +23,7 @@ https://www.codewars.com/kata/587e18b97a25e865530000d8
 
 
 Hints (Spoiler):
-- we need to iterate through the array of words and compare each word with the other words in the array, one by one  --> we need a nested loop
+- we need to iterate through the array of words and compare each word with the other words in the array, one by one. So we need a nested loop
 
 - to compare if a word is an anagram of one other, one option is to extract all the letters and compare
   - eg:

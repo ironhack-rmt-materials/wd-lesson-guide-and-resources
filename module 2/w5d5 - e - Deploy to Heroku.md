@@ -9,6 +9,13 @@ Improvements: create diagram
 
 @Luis: materials in students portal have been updated (a bit more clear)
 
+@todo: create slides to put everything very clear for students
+
+
+Notes from Karina:
+https://docs.google.com/document/d/1TB0Eh8ikV2KEcuGymv0790Osn43kzlRiwVDLxzmLm3w/edit?usp=sharing
+
+
 -->
 
 
@@ -181,6 +188,8 @@ Note: app name will be public (choose something nice).
 
 ## Heroku commands
 
+<!-- @todo: create gist  -->
+
 - Open the app in the browser (from terminal)
   - `heroku open` 
 
@@ -231,8 +240,7 @@ Steps:
 - Student 2: 
   - in the command line, go to the root directory of m2-project
   - `heroku login` (browser will open)
-  - add remote repository
-    `heroku git:remote -a nameOfOurProject` 
+  - add remote repository: `heroku git:remote -a nameOfOurProject` 
   - now you should be able to push to heroku, see logs, etc
 
   

@@ -23,7 +23,12 @@ https://codepen.io/luisjunco/pen/rNppeBZ
 
 ## Intro
 
-- Evolution of CSS layouts --> tables (still used in email) > floats > css frameworks > flexbox > grid.
+- Evolution of CSS layouts: 
+  - tables (still used in email)
+  - floats
+  - css frameworks
+  - flexbox
+  - grid.
 
 
 
@@ -31,7 +36,7 @@ https://codepen.io/luisjunco/pen/rNppeBZ
 
 - Flexible Box Module (aka. "Flexbox")
 
-- Flexbox --> one dimension (deals with layout in one dimension at a time — either as a row or as a column)
+- Flexbox: one dimension (deals with layout in one dimension at a time - either as a row or as a column)
 
 
 

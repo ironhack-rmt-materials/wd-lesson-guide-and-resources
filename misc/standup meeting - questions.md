@@ -25,7 +25,8 @@
 - What's the best piece of advice you've ever been given?
 - Do you play any sports?
 - What’s your favorite place of all the places you’ve travelled?
-  - THURSDAY: Is my MVP ready? What is missing?
+  - THURSDAY: Remind them what exacly MVP is + "Is my MVP ready? What is missing?"
+  - even better: give them user stories / a list of things they need to test (so that they test themselves)
 - Are you a good dancer?
 
 
@@ -36,15 +37,18 @@
 - What was your first job?
 - What song or album could you listen to on repeat?
 - What is your favorite part of working from home?
-  - WEDNESDAY: Is my MVP ready? What is missing?
-- If you had to move to another country, which one would you choose?
+  - WEDNESDAY: Remind them what exacly MVP is + "Is my MVP ready? What is missing?"
+  - even better: give them user stories / a list of things they need to test (so that they test themselves)
 - What’s is one thing we don’t know about you?
-- What would your superpower be and why?
+- LAST DAY: What are you doing to celebrate end of bootcamp? ;)
 
 
 ## Other questions....
 
 - Beach holiday or ski trip?
+- What would your superpower be and why?
+- If you had to move to another country, which one would you choose?
+- You need to prepare for a talent show, what do you do?
 - If you could switch lives with anyone for a day, who would it be?
 - Which cartoon character do you wish was real?
 - When you die, what do you want to be remembered for?

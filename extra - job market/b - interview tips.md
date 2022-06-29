@@ -2,10 +2,12 @@
 
 # INTERVIEW TIPS
 
+
 DO YOUR OWN RESEARCH:
-- research 5min. about the company
-- research 5min. about the people in the interview (what's their role)
+- quick research about the company (5min.)
+- quick research about the people in the interview (what's their role) (5min.)
 - read the job offer carefully (technologies etc)
+
 
 PREPARE YOUR PITCH:
 - what they're looking for
@@ -17,11 +19,11 @@ TECHNICAL PREP.:
 
 
 GENERAL ADVICE:
-- screening interview --> positive attitude + all good! (goal: move on to next stage)
 - positive attitude
 - confident (eg. before interview, do 20 push ups + write on a big paper "this role is mine")
 - natural
-- it's ok not to know things, it's ok to ask things (exception: screening interview just the basics)
+- it's ok not to know things, it's ok to ask things
+  - exception: in the screening interview, don't worry about details (but make sure it's something you'd be interested in).
 - it's ok to fail
 
 

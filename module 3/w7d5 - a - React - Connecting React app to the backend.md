@@ -58,14 +58,12 @@ Start building:
 
 ## Example (Ironmaidens)
 
-- Feb 2022 Ironmaidens Wireframes: 
-  https://whimsical.com/ironmaidensbnb-MVw1gkTJrekF2QTaEKCMJU
+- Feb 2022 Ironmaidens Wireframes: https://whimsical.com/react-ironbnb-MVw1gkTJrekF2QTaEKCMJU
 
 
-- Sample Repo: 
-  https://github.com/Ironmaidens-Ironhack-Jan-2022/ironmaidens-react-connecting-to-backend
+- Sample Repo: https://github.com/Ironborn-Ironhack-March-2022/react-ironbnb-client
 
-- README (with steps and improvements):
-  https://github.com/Ironmaidens-Ironhack-Jan-2022/ironmaidens-react-connecting-to-backend/blob/main/README.md
+
+- README (with steps and improvements): https://github.com/Ironborn-Ironhack-March-2022/react-ironbnb-client/blob/main/README.md
 
 

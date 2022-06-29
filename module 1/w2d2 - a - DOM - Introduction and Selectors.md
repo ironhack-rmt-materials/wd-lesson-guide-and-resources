@@ -46,7 +46,7 @@ INITIAL CODE:
   - API (Application Programming Interface) for HTML documents
     - introduce the concept of "Interface"
   - provides a structured representation of the document (web page) + defines a way that the structure can be accessed from JavaScript. 
-  - --> The DOM is a fully object-oriented representation of the web page, and it can be modified from JavaScript.
+  - The DOM is a fully object-oriented representation of the web page, and it can be modified from JavaScript.
 
 
 - The Document object
@@ -71,7 +71,7 @@ INITIAL CODE:
 
 
 
-## Search for Elements by ID --> getElementById()
+## Search for Elements by ID: getElementById()
 
 ```
 let element = document.getElementById('some-id-goes-here');
@@ -83,7 +83,7 @@ Note:
 
 
 
-## Change the content of an element --> .innerHTML property
+## Change the content of an element: .innerHTML property
 
 
 ```
@@ -95,7 +95,7 @@ elm.innerHTML = "content";
 
 
 
-## Search elements by Class Name --> getElementsByClassName()
+## Search elements by Class Name: getElementsByClassName()
 
 ```
 let elements = document.getElementsByClassName(names);
@@ -116,7 +116,7 @@ let elements = document.getElementsByClassName(names);
 
 
 
-## Search elements by Tag Name --> getElementsByTagName()
+## Search elements by Tag Name: getElementsByTagName()
 
 ```
 let elements = document.getElementsByTagName(name);
@@ -147,14 +147,14 @@ let elements = document.getElementsByTagName(name);
   - explain the difference
 
 
-## Change the style --> .style object
+## Change the style: .style object
 
 ```
 elm.style.backgroundColor = 'red';
 elm.style.border = '2px green solid';
 ```
 
-- IMPORTANT: CSS properties composed by more than one word --> camelCase
+- IMPORTANT. CSS properties composed by more than one word: camelCase
 
 - Practice:
   - change color

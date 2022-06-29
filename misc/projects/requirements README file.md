@@ -46,14 +46,20 @@ We have 2 repos, add one readme file for each repo.
   - Brief description of the project 
   - IMPORTANT:
     - Explain very clear if this repo is the Frontend (React) or the backend (Express API).
-    - Provide a link to the other repo (eg. "you can find the backend for this app here").
+    - Provide a link to the other repo (ex. "a repository with the backend code can be found here...").
 
 
 - Instructions to run this app in my computer
   - for example:
-    - any environment variables that I may need to add.
     - how to install dependencies (`npm install`)
+    - any environment variables that I may need to add (make sure you include all of them).
     - how to run the application (eg. `npm run dev`, `npm start`, ...)
+
+
+- (bonus) For the backend, you can document the endpoints that your API implements.
+  - note: this takes a bit of time (make sure you focus on the code, keep this as a bonus).
+  - example: https://github.com/Ironborn-Ironhack-March-2022/ironborn-project-management-server/blob/main/README.md
+
 
 - Demo
   - Link to the deployed version of your project.

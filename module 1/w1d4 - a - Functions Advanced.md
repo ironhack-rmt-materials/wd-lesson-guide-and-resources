@@ -237,14 +237,14 @@ Initial example:
 - when we can ommit curly braces (only one line)
 
 - "Normal" vs "Arrow" functions
-  - --> quite much the same
+  - quite much the same
   - in some cases we'll need to use one or the other (scope / this)
 
 
 
 
 
-## Practice --> different ways of creating functions (+ delays & callbacks) 
+## Practice: different ways of creating functions (+ delays & callbacks) 
 
 Time: flexible 
 -- iteration 1 is great to practice (10min)
@@ -266,9 +266,9 @@ We will practice:
     // Iteration 1:
     //
     // - Create the functions below:
-    //   1. wakeUp()  --> use a function statement
-    //   2. prepareCoffee() --> use a function expression
-    //   3. drinkCoffee() --> use an arrow function expression
+    //   1. wakeUp(): use a function statement
+    //   2. prepareCoffee(): use a function expression
+    //   3. drinkCoffee(): use an arrow function expression
     //
     // - Each function will just print a message on the console
     // (eg. "Good morning", "Coffee is ready", "Drinking coffee" 

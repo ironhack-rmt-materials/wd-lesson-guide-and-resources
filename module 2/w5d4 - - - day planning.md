@@ -5,6 +5,14 @@
 <!--
 
 
+UPDATE2:
+Consider this option:
+- LT to introduce basic axios concepts (how to make a get request, post...)
+- Split in groups, each group with one TA.
+- Each group would be solving the lab, collaborating together.
+
+
+
 UPDATE: even more simple than the exercise below,
 - show how we can use axios to send http requests, for example, on stackblitz (GET, POST, PUT)
 - Leave the exercise below as a lab that students can do

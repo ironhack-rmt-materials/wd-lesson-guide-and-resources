@@ -1,6 +1,6 @@
 
 
-# w5d4
+# w6d4
 
 
 ## Thursday (day before presentation)
@@ -33,7 +33,7 @@ Advice:
   - Images (if you have to upload, etc...)
 
 
-- CODE FREEZE --> FRIDAY 11h ish
+- CODE FREEZE: FRIDAY 11h ish
   - Full test on production (again)
 
 

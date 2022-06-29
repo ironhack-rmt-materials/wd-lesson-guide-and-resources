@@ -11,6 +11,7 @@ Status: draft
 @todo: 
 - simplify theory (too many concepts for students)
 - improve planning & examples
+- create slides (ex. for useEffect)
 
 -->
 

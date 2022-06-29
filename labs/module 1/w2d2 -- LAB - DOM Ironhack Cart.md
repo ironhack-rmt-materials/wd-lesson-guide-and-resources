@@ -31,8 +31,8 @@ Work in:
 
 Iteration 1: 
 
- - read value of price --> .innerHTML
- - read value of quantity --> .value
+ - read value of price → .innerHTML
+ - read value of quantity → .value
  - do the math
  - use it in another dom element 
 

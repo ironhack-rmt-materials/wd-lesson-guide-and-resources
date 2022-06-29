@@ -30,7 +30,7 @@ Intro:
     - reference
     - for each of those options, (single / multiple)
   - Types of relationships
-    - 1:1 --> embedded documents
+    - 1:1 → embedded documents
     - 1:many
     - many:many
 

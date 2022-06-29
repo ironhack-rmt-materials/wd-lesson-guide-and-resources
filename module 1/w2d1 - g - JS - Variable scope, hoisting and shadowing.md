@@ -81,9 +81,9 @@ console.log(innerVar); // => ReferenceError: innerVar is not defined
 
 
 
-- var --> global / function scope
+- var: global / function scope
 
-- let & const --> global / block scope
+- let & const: global / block scope
 
 
 
@@ -116,7 +116,7 @@ console.log(`Name OUTSIDE if statement: ${ironhacker}`);
 
 - Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
 
---> you can use the variable in the parts of your code before you declared it officially.
+  > you can use the variable in the parts of your code before you declared it "officially".
 
 
 - var and hoisting:
@@ -156,7 +156,8 @@ function doSomething() {
 
 ## Shadowing
 
-- variable shadowing --> a variable declared within a certain scope has the same name as a variable declared in an outer scope.
+- variable shadowing
+  - a variable declared within a certain scope has the same name as a variable declared in an outer scope.
 
 
 ```

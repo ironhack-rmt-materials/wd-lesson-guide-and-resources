@@ -7,7 +7,7 @@ Status: highlighted
 
 
 ## Numbers:
-    > Operator Precedence --> 4 * ( 5 - 2 ) + (2 + 2 ** 3) - 24 / 2
+    > Operator Precedence: `4 * ( 5 - 2 ) + (2 + 2 ** 3) - 24 / 2`
 
 ## Strings:
     > find out length of a string (str.length)

@@ -15,11 +15,22 @@
   https://docs.google.com/document/d/1D20pulIvbXX70ljTCDvMj4wZyvCpM1ggGgZAZj-Nr7I/edit?usp=sharing
 
 
+
 - Run Commands:
-  <!-- create directory for both repos -->
-  `mkdir project-management-fullstack` 
-  `npx ironlauncher@latest project-management-server --auth --json`
-  `npx create-react-app project-management-client`
+  
+  - `mkdir project-management-fullstack` (IMPORTANT: create directory for both repos)
+  - `npx ironlauncher@latest project-management-server --auth --json` (IMPORTANT: "--auth --json" )
+  - `npx create-react-app project-management-client`
+
+    <!-- 
+  
+    @Luis / IMPORTANT
+    
+    initialize with ironlauncher --auth --json 
+    (so that we can speed up backend auth lecture) 
+    
+    -->
+
 
 
 <!-- 
@@ -33,3 +44,10 @@
 -->
 
 
+
+<!-- 
+
+@todo: 
+- create CSS and provide it to students (it will help them understand the UI and the project better) 
+
+-->

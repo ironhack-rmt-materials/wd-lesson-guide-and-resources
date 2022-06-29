@@ -37,7 +37,7 @@ Follow the lesson starting from this simple code: https://codepen.io/luisjunco/p
     border: 1px solid #17212e;
     ```
 
-- Spacing behavior --> after adding the border, the element "uses" more space.
+- Spacing behavior: after adding the border, the element "uses" more space.
 
 - Single borders
 
@@ -80,7 +80,7 @@ border-radius: 12px;
     padding: 10px 20px 30px 40px;
     ```
 
-- Spacing behavior --> after adding padding, the element "uses" more space.
+- Spacing behavior: after adding padding, the element "uses" more space.
 
 
 - Units:
@@ -95,7 +95,7 @@ border-radius: 12px;
 
 ## Box-sizing Property
 
-- By default --> when we add border/padding, the element "uses" more space.
+- By default: when we add border/padding, the element "uses" more space.
 
 - Sometimes, we have to fit the elements in a design.
 

@@ -44,8 +44,9 @@ these are the channels we create on our slack workspace ;)
 Do you have any question related to code or technical challenges? Ask on this channel.
 
 Why?
-- TAs/LT may not have availability to answer your questions
-- Other Students may be having the same issue
+- Other Students may be having the same question.
+- TAs may not have availability to answer your questions
+- Anyone with availability (students, TAs, LT) may be able to help.
 
 How to ask?
 - Before you post a message, make sure you've used your own resources (eg. google, re-think the problem, write some code and see what happens...)

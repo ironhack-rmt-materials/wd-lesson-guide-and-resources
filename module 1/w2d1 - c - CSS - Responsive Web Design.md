@@ -94,16 +94,16 @@ Task:
 
 ## Responsive Font Size
 
-- Intro A --> Recommendations from usability experts:
+- Intro A. Recommendations from usability experts:
   - font-size of at least 16px
   - less than 20 words per line
   - ~ 1.4 line-height
 
-- Intro B --> CSS units (Absolute vs Relative)
+- Intro B. CSS units (Absolute vs Relative)
   - Absolute: fixed (px, cm, mm...)
   - Relative: they're relative to another length property. Scale better between different rendering mediums (%, em, rem, vw).
 
---> explain each of those units.
+  <!-- @LT: explain each of those units. -->
 
 
 - Option 1 (skip): using Viewport Units

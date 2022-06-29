@@ -17,7 +17,7 @@ Status: draft
 
 - Object = collections of properties 
 - key-value pair
-- keys are unique --> one key will always have just one value associated to it
+- keys are unique (one key will always have just one value associated to it)
 - "Dictionary"
 
 - example:
@@ -71,10 +71,10 @@ Status: draft
 
 ## Accessing the values
 - dot notation
-- bracket notation --> string 
+- square bracket notation (with a string inside brackets)
 
 
-## Add properties --> dot notation / bracket notation
+## Add properties (dot notation / bracket notation)
 
 - dot notation
 - bracket notation
@@ -86,11 +86,11 @@ Status: draft
     - access keys with dynamic names (`myObj[myVariable]`)
 
 
-## Update properties --> dot notation / bracket notation
+## Update properties (dot notation / bracket notation)
 
 
 
-## Remove properties --> delete operator
+## Remove properties (delete operator)
 
     ```
 	delete olympicRecords.doubleOllie;	// dot
@@ -101,7 +101,7 @@ Status: draft
 // (Break)
 
 
-##  Check if a property exists --> in operator
+##  Check if a property exists (in operator)
 	
     ```
         let myCar = {

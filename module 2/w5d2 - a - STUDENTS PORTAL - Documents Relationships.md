@@ -54,10 +54,10 @@
 
 - Open Models & explain
 
-  - User -> Post --> 1-to-many
-  - Post -> User --> 1-to-1
-  - Post -> Comment --> 1-to-many
-  - Comment -> User --> 1-to-1
+  - User → Post (1-to-many)
+  - Post → User (1-to-1)
+  - Post → Comment (1-to-many)
+  - Comment → User (1-to-1)
 
 - Diagram: https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_06d18f6b2498cc26b04997f45666842e.png
 

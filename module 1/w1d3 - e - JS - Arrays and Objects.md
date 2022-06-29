@@ -9,7 +9,7 @@ Status: draft
 
 
 ## Data structures
-- The better we can organize our data --> the better we can represent reallity --> the better our code
+- The better we can organize our data → The better we can represent reallity → better code.
 
 
 - Examples:
@@ -33,9 +33,11 @@ Status: draft
 
 - object that includes an object --eg. company with address
 
-- array of arrays (aka. "two-dimensional array") -- eg: array of classes -- each class is an array of student names
+- array of arrays (aka. "two-dimensional array")
+  - ex: array of classes (each class is an array of student names)
 
-- array of objects -- eg: array of students
+- array of objects 
+  - ex: array of students
 
 
 

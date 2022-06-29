@@ -6,6 +6,7 @@
 
 
 ##  Lectures
+
 - focus on the fundamentals. Finish early + leave more time for LAB & questions
   - aim to finish lectures 4:30.
 - students shouldn't start lab while in lectures (maybe only in m3, since they know themselves better)
@@ -22,7 +23,7 @@
   - note: first week we will try to do more. 
   - questions: ask.
 - How: on github, on their PR
-- Organization: 2 groups, each with 1 TA --> (rotate every week and/or TAs coordinate between themselves)
+- Organization (how we organize ourselfs to check labs)
 - Tracking: on control panel spreadsheet + smileys on campus tools
 
 
@@ -35,7 +36,7 @@
   - Project2 in pairs
     - We ask students for their preferences
 
-- LAB pairs 
+- LAB pairs
   - Rotate for each lab
   - Explain students that it's important to work with different ppl + great opportunity to choose for project2.
   - Remind students to tell us if they feel they're struggling
@@ -52,7 +53,7 @@
   - Emphasize --> 1min.
   - 1 fun question
 - Independent work
-  - 2 groups, one with each TA
+  - one group with each TA
   - If students need support, they can ask on slack (eg. #ask-for-help-during-class)
      
 
