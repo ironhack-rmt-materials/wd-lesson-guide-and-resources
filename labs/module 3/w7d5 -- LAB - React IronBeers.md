@@ -13,7 +13,7 @@ npm i react-router-dom
 
 # TIPS
 
-- Use <Routes> & <Route>in App component
+- Use `Routes` & `Route` in App component
     ```
     <Routes>
         <Route path="/" element={<LandingPage />}/>
@@ -21,7 +21,7 @@ npm i react-router-dom
         <Route/>
     </Routes>
     ```
-- use <Link> in other components
+- use `Link` in other components
 
 IT 1.
 

@@ -25,6 +25,7 @@
 - LiveServer extension. Open ONLY html file
 - test suite  + tests (just write the function, do not need to call it)
 
+- after doing PR , github will throw an error -> ignore it ;)
 ## TIPS
 
 - LiveServer extension. Open ONLY html file

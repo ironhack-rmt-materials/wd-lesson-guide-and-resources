@@ -4,6 +4,8 @@
 
 [SOLUTION IT 1](https://gist.github.com/TA-Remote/8b37a470f179c7e94e6327acacabcf04) 
 
+[LATEST SOLUTION](https://gist.github.com/TA-Remote/d39dc2fe1eae6c36115d936c9f655b16)
+
 ### REMIND
 
 - Fork
