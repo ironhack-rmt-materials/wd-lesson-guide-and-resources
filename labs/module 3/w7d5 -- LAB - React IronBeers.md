@@ -13,6 +13,8 @@ npm i react-router-dom
 
 # TIPS
 
+Before iteration 1, create all your routes in app.js
+
 - Use `Routes` & `Route` in App component
     ```
     <Routes>
@@ -40,7 +42,7 @@ IT 3.
 
 - call API in App.js and send the list of beers down through props
 - conditional rendering to check if you have the list ready.
-  -> create <Spinner/> component
+  -> create `Spinner` component
   -> render if beerList is not ready
   -> example https://loading.io/css/
 
@@ -138,10 +140,10 @@ useEffect(() => {}, [beersList]); // runs every time beersList gets updated
 
 ### NAVLINK vs ROUTES
 
-- <NavLink/> is just a clickable link -> it does not hold information.
-- Link and Route correlates and it is enough to pass information/render components in <Routes/> as long as paths match
+- `NavLink` is just a clickable link -> it does not hold information.
+- Link and Route correlates and it is enough to pass information/render components in `Routes` as long as paths match
 
 ### LINK VS <a>
 
-- In react always use <Link/> instead of <a>
+- In react always use `Link` instead of `a`
 - Link tag will render a semantically valid a tag, but doesn’t refresh the page
