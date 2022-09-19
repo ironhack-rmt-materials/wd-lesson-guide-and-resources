@@ -11,27 +11,60 @@ Status: draft
 @todo: 
 - simplify theory (too many concepts for students)
 - improve planning & examples
-- create slides (ex. for useEffect)
+- Prepare exercise for them to practice
+- CREATE SLIDES 
+- CREATE SLIDES
+- CREATE SLIDES
+- CREATE SLIDES
+- CREATE SLIDES
+  - diagram mounting + updating & side effect (ex. https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+  - useEffect cheatsheet 
+
 
 -->
 
 
+## Show what we are going to build today
+
+- Demo: https://react-characters-app.netlify.app/
+- 2 main concepts:
+  - API requests
+  - Routing
+
+
+<!-- @Luis: keep all code in App.js (it will make things easier for Routing) -->
 
 ## Pre-setup
 
-`npx create-react-app react-characters-app`
+`npx --yes create-react-app react-characters-app`
+
+
 
 
 
 ## Basic refresh Axios
 
-- Open Stackblitz and make a simple request to this API:
-  - https://ih-crud-api.herokuapp.com/character
 
-- Today, we will learn how to make HTTP requests in React & display the info
+- Intro/Refresh Characters API:
+  - Base URL: https://ih-crud-api.herokuapp.com
+  - list of characters: GET `/characters` (show on browser)
+  - Show table with endpoints: w5d4 "AXIOS | POST, PUT and DELETE request"
+
+- Refresh Axios
+  - Open Stackblitz + GET list of characters
+  - TASK:
+    - Create a new character: POST /characters + send an object with `{name: "", occupation: "", weapon: ""}`
+    - (Bonus) get the details of a specific character, update, delete...
+    - Time: 10min.
+  - SOLUTION: https://stackblitz.com/edit/js-hkgykx?file=index.js
+  <!-- @Luis: ask users to disable auto-save in stackblitz (so that we don't repeat names many time) -->
+
 
 - Remember, there's many ways to send http requests:
   - fetch(), libraries (ex. axios)
+
+
+- Today, we will learn how to make HTTP requests in React & display the info
 
 
 
@@ -40,6 +73,15 @@ Status: draft
 ## Component Lifecycle
 
 <!-- students portal (highlighted)  -->
+
+
+<!--
+  Alternative:
+  - start by showing a basic app (stackblitz) where we send an API request 
+  - ex. to get the details of one character
+  - see the code with students (useEffect etc) and then explain why we need to do it this way.
+
+-->
 
 
 (Intro) Show how components are executed:
@@ -54,7 +96,10 @@ Stages:
 - Un-mounting
 
 
-- Show diagram: https://wavez.github.io/react-hooks-lifecycle/
+- Show diagram: 
+  - https://wavez.github.io/react-hooks-lifecycle/
+  - https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
 
 - Change in `props` or `state` = update
 
@@ -91,7 +136,26 @@ Stages:
 
   > useEffect Hook allows you to run side effects during all three lifecycle phases.
 
-  `useEffect(didUpdate, dependencyArray)`
+  ```js
+
+    useEffect(didUpdate, dependencyArray);
+
+    //run after a component has been mounted + after every component update
+    useEffect(() => {
+    });
+
+    //run after a component has been mounted (only once)
+    useEffect(() => {
+    }, []);
+
+    //run after a component has been mounted + every time "somePropsOrState" changes
+    useEffect(() => {
+    }, [somePropsOrState]);
+
+  ```
+
+  - See this cheatsheet: https://pbs.twimg.com/media/FEzs8twXsAYETEt?format=jpg&name=4096x4096
+    ![this is the difference](./images/useEffect-summary.jpg)
 
 
 ## useEffect - Mounting phase
@@ -145,7 +209,12 @@ Stages:
 
 
 
+
+
 ## Rules of hooks
+
+Docs: https://reactjs.org/docs/hooks-rules.html
+
 
 1. Only call hooks at the top level
 
@@ -154,25 +223,56 @@ Stages:
 
   - DO: always use hooks at the top level of your React function
 
-If we want to run an effect conditionally, we can put that condition inside our Hook.
 
-  ```javascript
-    useEffect( () => {
-      if(condition){
+  - Note: If we want to run an effect conditionally, we can put that condition inside our Hook.
 
-      }
-    }, []);
-  ```
+    ```javascript
+      useEffect( () => {
+        if(condition){
+
+        }
+      }, []);
+    ```
 
 2. Only Call hooks from React functions
 
-- DON'T call hooks from regular JavaScript functions. !!
+  - DON'T call hooks from regular JavaScript functions. !!
 
-- WE CAN: call hooks from React function components.
-- WE CAN: call hooks from custom hooks.
+  - WE CAN: call hooks from React function components.
+  - WE CAN: call hooks from custom hooks.
+
 
 
 ## Fetching data with useEffect
+
+<!-- @todo -->
+
+
+TASK:
+- Implement functionality to display list of characters
+  - For each character `<div className="character">Name: xxxx</div>`
+- Display more info about the character (name, weapon)
+- Bonus:
+  - display only first 10 characters
+  - css
+  - button to delete one character
+
+Time: 20-30m.
+
+
+
+
+Steps:
+- send query to API (useEffect)
+- once we get the response, store update state
+
+
+Mention:
+- initialize to empty array vs. null etc
+  - ex: `const [charactersArr, setCharactersArr] = useState([]);`
+  - Common problem: we initialize to undefined + we iterate with .map()
+- conditional rendering (display a message while loading)
+  - ex: `charactersArr.length === 0 ? <p>loading...</p> : renderList()`
 
 
 
@@ -203,12 +303,15 @@ API call to characters API
 ## Cheatsheet
 
 - useEffect() cheatsheet:
-https://stackblitz.com/edit/react-ogf6xl?file=src/App.js
+  https://stackblitz.com/edit/react-ogf6xl?file=src/App.js
 
 
 - useEffect() cheatsheet with API request:
   <!-- @todo -->
 
+
+- React hooks cheatsheet: 
+  https://react-hooks-cheatsheet.com/useeffect
 
 ## Diagrams
 

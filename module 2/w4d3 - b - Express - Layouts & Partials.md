@@ -20,31 +20,31 @@
 ## Layouts
 
 
-
-- layout.hbs: `{{{ body }}}`
+- create `layout.hbs`
+- inside layout.hbs, add `{{{ body }}}`
   
   - IMPORTANT: notice the "TRIPLE" curly brace
 
+    ```hbs
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+      </head>
+
+      <body>
+
+          {{{ body }}}
+
+      </body>
+      </html>
     ```
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-    </head>
-
-    <body>
-
-        {{{ body }}}
-
-    </body>
-    </html>
-    ```
 
 
-## Skipping layouts
+## (Extra) Skipping layouts
 
 - Set `layout: false` in the object we pass to the view
 
-    ```
+    ```javascript
     app.get("/teams", (req, res, next) => {
         const data = {
             layout: false
@@ -58,34 +58,37 @@
 
 - Configure 
 
-```
-hbs.registerPartials(__dirname + "/views/partials");
-```
+  ```javascript
+    const hbs = require("hbs");
 
-- Create a Partial
+    // ...
+
+    hbs.registerPartials(__dirname + "/views/partials");
+  ```
+
+- Create a Partial (ex. banner / list with other products / contact form)
 
 
 - Call a Partial from a View
 
-```
-{{> myPartial }}
-
-```
+  ```hbs
+    {{> myPartial }}
+  ```
 
 
 - Passing parameters to partials
 
-```
-      {{#each players}} 
-        {{> playerCard this}} 
-      {{/each}}
-```
+  ```hbs
+    {{#each players}} 
+      {{> playerCard this}} 
+    {{/each}}
+  ```
 
 
 
 ## Summary
 
-Reuse code for all pages -> layout
-Reuse code for pages of the same type -> views
-Reuse code inside your views -> partials
+Reuse code for all pages → Layout
+Reuse code for pages of the same type → Views
+Reuse code inside your views → Partials
 

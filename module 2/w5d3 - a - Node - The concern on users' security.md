@@ -7,7 +7,7 @@
 
 
 Time: 
-  - Slides: last time took me 1.5h (try to make it in 1h)
+  - Slides: 1h15min (try to make it in 1h)
   - Bcrypt Demo: 40min.
 
 -->

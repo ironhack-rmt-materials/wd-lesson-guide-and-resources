@@ -40,10 +40,16 @@ Note:
 - We're going to import a DB from IMDB
 
   1. Download .zip from here: https://s3-eu-west-1.amazonaws.com/ih-materials/learning-units/movies.json.zip
-  
+    
+    <!--  @Luis: send json directly on slack. -->
+
   2. Import: 
   
     Option 1: use mongoDB compass
+      - create db: `cohortname-imdb` + collection `movies`
+      - Click on the collection movies + Add Data + Import file
+
+      <!-- @Luis: choose this option (import through Compass) -->
 
     Option 2: 
       ```
@@ -54,7 +60,7 @@ Note:
 
   4. Navigate to "Schema" tab.
     - there we can find stats of the schema of our documents
-
+    - LT: Update the type of one document (ex. change year to string)
     - takover: *documents of the same collection can have a different schemas*
 
 
@@ -80,7 +86,7 @@ Note:
 
 @todo
 
-<!-- @luis: highlighted -->
+<!-- @luis: highlighted ?? -->
 
 
 
@@ -89,7 +95,7 @@ Note:
 
 @todo
 
-<!-- @luis: highlighted -->
+<!-- @luis: highlighted ?? -->
 
 
 

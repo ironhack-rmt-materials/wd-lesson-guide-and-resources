@@ -18,18 +18,8 @@ Codealong:
 
 ## Notes:
 
-Consider these changes in the planning:
 
-- "LAB | IronBeers" -> IMPORTANT
-
-- "LAB | MongoDB - Advanced Querying"
-  - not so relevant, can be self guided / request students to do the only first 5 queries. 
-
-- MongoDB | Data Models
-  - move to next day (it also includes mongoose syntax)
-
-- MongoDB | Indexing & Aggregation Framework
-  - self-guided
+- "LAB | IronBeers": IMPORTANT
 
 
 

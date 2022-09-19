@@ -18,14 +18,16 @@ Status: draft
 
 # Intro
 
-- JavaScript was created for browsers
+- JavaScript was created in the 90s
+- It was created for browsers
+- For many years, the only place where you could use JavaScript was a client-side environment.
 
-- 2009 initial release of NodeJS
-  - "Ryan Dahl" took the JS engine from Chrome (V8) and created some software that can run on servers
+
+- 2009 release of NodeJS
+  - "Ryan Dahl" took the JS engine from Chrome (V8) and created some software that can run JavaScript on servers
   - Result: we can now execute JS on servers
-
-- Before Node, the only place where you could use JavaScript was a client-side environment. 
   - Thanks to Node, we can use JS in the backend side as well.
+
 
 
 # Part 1 Summary
@@ -41,7 +43,7 @@ Status: draft
 
 
 - Advantages of Node:
-  - Run JS on the server
+  - Run JS on the server (for us, that's specially useful, we don't need to learn a new language)
   - Asynchronous functionality
   - Growing ecosystem (packages)
 
@@ -59,17 +61,17 @@ Status: draft
 
 - Create directory
 
-```
-mkdir my-talking-cow
-cd my-talking-cow
-code .
-```
+  ```
+    mkdir my-talking-cow
+    cd my-talking-cow
+    code .
+  ```
 
 - Initialize the project
 
-```
-$ npm init
-```
+  ```
+    $ npm init
+  ```
 
 - Open & explain package.json
 
@@ -77,9 +79,9 @@ $ npm init
 
 - Install cowsay (show instructions for installation on npm but DO NOT INSTALL GLOBAL)
 
-```
-npm install cowsay
-```
+  ```
+    npm install cowsay
+  ```
 
 - Explain changes:
   - added dependencies to package.json
@@ -89,8 +91,8 @@ npm install cowsay
 
 - node_modules...
   - this folder has locally, on your machine, all the libraries/packages you defined in package.json
-  - it shouldn’t be ever pushed to GitHub because:
-    - it’s a huge folder and no need to be pushed, as well as,
+  - it shouldn’t be ever pushed to GitHub (it’s huge)
+    - heaviest objects in the universe: https://preview.redd.it/tfugj4n3l6ez.png?auto=webp&s=b8163176d8482d5e78ac631e16b7973a52e3b188
     - anyone who clones your repository will be able to regenerate it with npm install based on the package.json.
 
   - In our projects, we will create a .gitignore file and add node_modules to it.

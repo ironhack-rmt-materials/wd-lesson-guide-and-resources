@@ -37,7 +37,7 @@ https://docs.google.com/document/d/16gK6fgwJNGGNyx3Oa9GV40IxHq3RvahjoiBNZFg4Vek/
 -->
 
 
-# Intro
+## Intro
 
 
 - Environments (dev, staging, production):
@@ -60,25 +60,25 @@ https://www.youtube.com/watch?v=scEDHsr3APg
 
 
 
-- Diagram & common problems: https://stackoverflow.com/q/66503751/11298742
+- Diagram & common problems (cookie based auth): https://stackoverflow.com/q/66503751/11298742
 
 
 
 
 
-# Deploy Express App on Heroku
+## Deploy Express App on Heroku
 
 - Follow steps on m2 lesson ("Deploy to Heroku"): from section "Login to the Heroku website and Create New App"
 
 
-# Deploy DB on Mongo Atlas
+## Deploy DB on Mongo Atlas
 
 
 - Create new project (limit of one free cluster per project)
 
 
 
-# TEST BACKEND
+## TEST BACKEND
 
 - Test DB (Compass)
 
@@ -86,11 +86,40 @@ https://www.youtube.com/watch?v=scEDHsr3APg
   - We need to add environment variables
 
 
-# Deploy React App on Netlify
+## Deploy React App on Netlify
+
+<!-- @Luis: NETLIFY - do this from a students computer -->
+<!-- @Luis: NETLIFY - do this from a students computer -->
+<!-- @Luis: NETLIFY - do this from a students computer -->
 
 
 
-# COMMON PROBLEMS:
+
+Fix (in this order):
+- react app needs to know where is REST API
+- REST API needs to know origin for CORS config
+
+
+
+
+
+## Submit URLs in students portal
+
+
+
+<!-- IMPORTANT -->
+<!-- IMPORTANT -->
+Ask students to submit urls (github x2 + netlify) on students portal
+<!-- IMPORTANT -->
+<!-- IMPORTANT -->
+
+
+![screenshot students portal](./images/students-portal-project-urls.png)
+
+
+
+
+## COMMON PROBLEMS:
 
 
 - IMPORTANT:
@@ -105,7 +134,7 @@ https://www.youtube.com/watch?v=scEDHsr3APg
 
 
 
-# Fix minor problems:
+## Fix minor problems:
 
 - Reloading a page on netlify gives a "Not Found" error (eh. https://m3-project-management.netlify.app/login)
   Answer: https://answers.netlify.com/t/support-guide-direct-links-to-my-single-page-app-spa-dont-work/126
@@ -117,7 +146,16 @@ https://www.youtube.com/watch?v=scEDHsr3APg
 
 
 
-# Summary & Process & Troubleshooting
+
+
+## (Extra) Automatic Deploys from Github
+
+https://devcenter.heroku.com/articles/github-integration#automatic-deploys
+
+
+
+
+## Summary & Process & Troubleshooting
 
 
 - Summary of our setup
@@ -137,4 +175,17 @@ https://www.youtube.com/watch?v=scEDHsr3APg
 
 - Disclamer on cloud hosting consumption (eg. Netlify bandwidth)
 
+
+
+
+## Submit URLs in students portal
+
+<!-- IMPORTANT -->
+<!-- IMPORTANT -->
+Ask students to submit urls (github x2 + netlify) on students portal
+<!-- IMPORTANT -->
+<!-- IMPORTANT -->
+
+
+![screenshot students portal](./images/students-portal-project-urls.png)
 

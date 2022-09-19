@@ -3,61 +3,11 @@
 # Cheatsheet Data Models
 
 
+https://gist.github.com/luisjunco/a507e9f15acb32620cf8a33fff0904b1
 
-- 1:1 relationships (use Embedded Documents)
+<!-- @todo: improve with comments from Sandra's cheatsheet -->
 
-    ```
-    const addressSchema = new Schema({
-        city: String,
-        postCode: String
-    });
-
-    const companySchema = new Schema({
-        name: String,
-        numberOfEmployees: Number,
-        address: addressSchema
-    });
-    ```
-
-
-        
--  1:many relationships: option A, use Embedded Documents if possible (not duplicating data & limited data size)
-
-    ```
-    const addressSchema = new Schema({
-        city: String,
-        postCode: String
-    });
-
-    const companySchema = new Schema({
-        name: String,
-        numberOfEmployees: Number,
-        address: [addressSchema]
-    });
-    ```
-
-
-- 1:many relationships: option B, Reference
-
-    ```
-    const companySchema = new Schema({
-        name: String,
-        numberOfEmployees: Number,
-        address: {type: mongoose.Schema.Types.ObjectId, ref: 'Address'}
-    });
-
-    ```
-
-
-- many:many relationships (use Reference)
-
-    ```
-    const companySchema = new Schema({
-        name: String,
-        numberOfEmployees: Number,
-        address: [{type: mongoose.Schema.Types.ObjectId, ref: 'Address'}]
-    });
-    ```
-
+Alternative (some comments may be helpful):
+https://gist.github.com/sandrabosk/b5924056a33b82de3bb55a7457db741d
 
 

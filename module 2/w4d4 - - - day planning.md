@@ -13,3 +13,14 @@ Methodology:
   - Product model & Seller model
 
 -->
+
+
+Consider these changes:
+
+- "LAB | MongoDB - Advanced Querying"
+  - not essential, can be self guided / extra
+  - request students to do the only first 5 queries. 
+
+- MongoDB | Data Models
+  - move to next day (it also includes mongoose syntax)
+

@@ -22,7 +22,7 @@ I usually remove those:
 
 Edit:
 - [EXTRA] Guidelines on how to submit the labs → update cohort name
-- Contacts → update details
+- Contacts → update details (can copy html table from prev. cohorts)
 - Career Services → add Career Week dates
 - [EXTRA] Technical interview prep - move to week 10 materials
 
@@ -40,14 +40,21 @@ Remove:
 - w1d1: add "[CLASS_ACTIVITY] Check installations"
   - > During this activity, we will check if all of us have the main tools and software that we will be using during the bootcamp.
 
-- w1d5: "JS | Special keyword - this" -- extra (instead of self guided) ?
-
 - w1d4: seems quite a bit of workload & 2 labs
   - posible solution: move some contents to d3 and/or mark as self guided ?
+  - "JS | Unit Testing - Guided example" -- SELF_GUIDED
+  - "LAB JavaScript Clue" - mark as extra ??
 
-- w1d5: add week1 retro?
+- w1d5: "JS | Special keyword - this" -- extra (instead of self guided) ?
+
+- w1d5: add week1 retro (there's already a unit, just need to unhide it)
 
 - w1d5: "JS | OOP - Function constructor vs. Class" -- remove
+
+
+- w2d1: "JS | Debugging and Error Handling" 
+  - self-guided (interesting for advanced students)
+  - move it after the mandatory lab
 
 - w2d4: add "[CLASS_ACTIVITY] OOP Game Codealong"
   - > Class codealong: we will create together a game using OOP and DOM manipulation.
@@ -65,6 +72,9 @@ Remove:
 - w4d1: add unit "Intro to module 2"
 
 
+- w6d1: cloudinary --self-guided
+
+
 
 ## Module 3 (NEW curriculum)
 
@@ -78,12 +88,22 @@ Remove:
 
 - w7d1: "LAB | Hello React" -- remove
 
-- w7d2: "LAB | React training [steps 1-7]" -- move to w7d1 + mark as "extra"
+- "LAB | React training" (w7d2) -- split in two & mark both of them as "extra"
+    - "LAB | React training [steps 1-7]" -- w7d1 + "EXTRA"
+    - "LAB | React training [steps 8-16]" -- w7d2 + "EXTRA"
+
+
+
+- w7d3: "LAB | Thinking in React" -- mark as "extra"
+  - note: another alternative is to mark "IronNutrition" as "extra"
 
 
 - w8d1 "[EXTRA] Assessment review - React Fundamentals 1" (most students perform well + they will receive solutions + if they have questions they can ask)
 
 - w8d3 "[EXTRA] Assessment review - React Fundamentals 2" (most students perform well + they will receive solutions + if they have questions they can ask)
+
+
+- w8d2 Context API --self guided + move to w8d1 (as task to do in the evening)
 
 
 - w8d2: 
@@ -101,7 +121,24 @@ Update:
 ## Other changes
 
 - Add Careers Workshop Sessions.
+
   <!-- @Luis: info in course tracker spreadsheet  -->
+
+
+  <!-- 
+
+  Slack (schedule):
+
+
+  @here
+
+  FYI: 
+
+  - Tomorrow 9am there's Career Services workshop (for those of you taking part in Career Week, you'll have received an email or invitation with the details).
+  
+  - We meet in our class at 10am (if the workshop finishes earlier just take a nice break ;) )
+
+   -->
 
 - Schedule alumni talk
 

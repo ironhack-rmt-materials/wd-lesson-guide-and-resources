@@ -28,9 +28,16 @@
 
 Before sharing the link, explain:
 
-- Intro (what is a retro, agile, etc)
-- Why it is important
+- Intro (what is a retro, agile, scrum etc)
+  - Scrum framework: https://zalatni.com/wp-content/uploads/2022/04/What-is-Agile-Scrum-Framework-1024x596-1.webp
+  - Scrum ceremonies: https://i.ytimg.com/vi/33Fk3r9ZSUg/maxresdefault.jpg
+- Why it (a retro) is important
 - How we will work (brief intro)
+- How to give good feedback:
+  - constructive
+  - realistic
+  - focus on actionable feedback (students are busy, focus on the most important)
+  - https://i.pinimg.com/originals/8b/a9/3a/8ba93a720063a635a713442e3b0697ca.png
 - How to navigate (zoom in/out)
 - How to add a post-it
 - How to vote +1, +2...

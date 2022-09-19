@@ -16,6 +16,9 @@ Methodology:
   - they can start thinking what they want to build
 
 
+## Refresh
+- Refresh previous day(s).
+
 
 ## Codealong:
 
@@ -44,3 +47,5 @@ Methodology:
 - implement CRUD
 - make Book model more complex (eg. enum, validation, default)
 - CSS / Bootstrap
+
+

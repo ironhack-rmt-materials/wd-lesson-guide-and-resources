@@ -63,20 +63,65 @@ Intro example (why props):
 
 > Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called props) and return React elements describing what should appear on the screen.
 
+  - Example with functions (show how we can create a generic function using arguments): https://stackblitz.com/edit/js-5tsf94?file=index.js
+
+
 - Passing and accessing a prop
 - Passing multiple props
 
 
-Exercise to practice the syntax:
+Exercise (OPTION 1) to practice the syntax:
 - Ask students to delete User component (and the lines to render it in App.js)
 - Task:
   - create User component (function component)
   - render User in App.js
   - using props, display Alice & Bob
-  - (bonus) use props to display the fav food of each of them 
-  - (bonus 2): pass an object as props (ex. an object with name and favFood)
+  - (bonus): pass a second prop to display the fav food of each of them (ex. salad, pizza)
+  - (bonus): pass an object as props (ex. an object with name and favFood)
 
-- Alternative: same but with movies (instead of users)
+
+
+Exercise (OPTION 2) same but with movies (instead of users)
+
+  ```javascript
+    const moviesArray = [
+      {
+        title: 'the godfather',
+        rating: 9,
+      },
+      {
+        title: 'Pulp Fiction',
+        rating: 8,
+      },
+      {
+        title: 'Coco',
+        rating: 9,
+      },
+    ];
+  ```
+    
+  - create a component Movie
+  - render 3 Movie in App.js
+
+  - use props to make the component generic
+  - in app.js, you will need to send each element of the array as props.
+
+  ```jsx
+    <Movie details={moviesArray[1]} />
+  ```
+
+
+
+
+
+
+- Todays lab:
+  - They will be passing elements of an array:
+    `<Tweet tweet={ tweetsArray[0] }>`
+    `<Tweet tweet={ tweetsArray[1] }>`
+    `<Tweet tweet={ tweetsArray[2] }>`
+  - Each element is an object (ie. `props.tweet` is an object)
+
 
 
 ## props.children
@@ -98,6 +143,7 @@ Exercise to practice the syntax:
   - Show an example with one of them (eg. "Material UI" or "Semantic UI React")
 
 
+
 ## Extra Concepts
 
 - As props you can pass...
@@ -107,10 +153,11 @@ Exercise to practice the syntax:
 
 - Props defaults to true
 
-  ```
+  ```jsx
   <MyTextBox autocomplete />
   <MyTextBox autocomplete={true} />
   ```
+
 
 - props.children
 

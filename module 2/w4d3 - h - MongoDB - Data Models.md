@@ -22,18 +22,6 @@ Status: draft
 - How to implement this with Mongoose (at the end of this document)
 
 
-- Examples with an e-commerce app:
-  - Product + specs(size, weight,...) (1:1)
-  - Product + reviews (1:many with embedded documents)
-  - Product + Seller (1:many with references)
-    - opt1: store ref. in the seller (need to keep an array)
-    - opt2: store ref. in the product (easier)
-    - opt3: store ref. in both models (problem: single source of truth, easier to corrupt DB)
-  - (bonus) Each product can have multiple sellers (many:many with references)
-    - store [ref.] in the seller (easier to get list of products from seller)
-    - store [ref.] in the product (easier to get list of sellers of a product)
-
-
 ## CHEATSHEET
 
 https://gist.github.com/sandrabosk/b5924056a33b82de3bb55a7457db741d
@@ -106,25 +94,27 @@ books: [id1, id2, ...]
 
 - Example: company + [employee] (where a company can have unlimited number of employees)
 
+
+
 ## How do we implement all this in Mongoose
 
 - Reference ()
 
-```
-    const bookSchema = new mongoose.Schema({
-        title: String,
-        author: {type: mongoose.Schema.Types.ObjectId, ref: 'Author'}, //single reference
-        author: [ {type: mongoose.Schema.Types.ObjectId, ref: 'Author'} ] //multiple
-    });
-```
+  ```javascript
+  const bookSchema = new mongoose.Schema({
+      title: String,
+      author: {type: mongoose.Schema.Types.ObjectId, ref: 'Author'}, //single reference
+      authors: [ {type: mongoose.Schema.Types.ObjectId, ref: 'Author'} ] //multiple
+  });
+  ```
 
 
 - Embed documents (source: https://mongoosejs.com/docs/subdocs.html):
 
-    ```
+    ```javascript
     const parentSchema = new Schema({
-        children: [childSchema], // Array of subdocuments
         child: childSchema // Single nested subdocuments
+        children: [childSchema], // Array of subdocuments
     });
     ```
 

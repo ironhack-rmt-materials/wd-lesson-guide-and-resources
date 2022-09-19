@@ -7,9 +7,17 @@ Status: highlighted (WDFT+202107_RMT)
 - Follow students portal
 - Below is a summary (complete) that can be used as support 
 
-- @todo: create slides
+- @todo: 
+  - plan a better way (too many concepts, make it more fun!)
 
 -->
+
+
+
+Slides: https://docs.google.com/presentation/d/1PSL4UWQwLiNRygPax4uAl0e34OROdyPFUOXftGG8WFw/edit?usp=sharing
+
+
+
 
 
 
@@ -42,9 +50,19 @@ Status: highlighted (WDFT+202107_RMT)
 
 
 - HTTP Verbs ("HTTP request methods")
+  - What they are ? "verbs indicate the desired action to be performed for a given resource"
+  - See list of verbs: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+  - Examples:
+    - GET
+    - POST
+    - PUT
+    - DELETE
+
 
 
 - HTTP Status codes (sent by the server)
+  - https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+  - Explain ranges (1xx, 2xx, 3xx, 4xx, 5xx)
 
 
 

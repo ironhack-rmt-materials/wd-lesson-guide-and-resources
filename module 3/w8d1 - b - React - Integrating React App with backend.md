@@ -19,6 +19,7 @@ status: draft
 Methodology:
 Offer students these 2 options
 
+
 - Option 1: 
   - follow students portal (copy code & understand what we do)
   - quicker
@@ -32,23 +33,56 @@ Offer students these 2 options
   - This option takes much more time but it's also much more interesting.
 
 
+<!--
+
+Alternative
+- create a lab/exercise with some initial functionality given
+  - it. 1: fork, clone, understand code, run project, fix bugs
+  - it. 2: LT implements update
+  - it. 3: students implement delete (self guided)
+  - ...
+  - bonus:
+    - display error msg if query to create a project fails.
+    - ...
+
+- Ask students to work on each iteration + provide solutions
+- Work could be in pairs
+
+-->
+
+
+<hr />
+
+Functionality:
+- display list of projects
+- create new project
+- display details of a project
+- edit a project
+- delete a project
+- create new task
+
 <hr />
 
 Hierarchy of components in the students portal:
+- Navbar
+- HomePage
 - ProjectListPage
   - AddProject
 - ProjectDetailsPage
 - EditProjectPage
 - AddTask
 
+Organize components in 2 directories:
+- components
+- pages
+
 
 <hr />
 
-Feb22:
-- We had a hierarchy with all components as direct children of <App />
-- Also, we did the call to the API from the top level (in <App>), sending the info down as props (for this exercise is a good option, they can see a different approach + when you create a project they need to call a callback to update the list of projects).
 
-
+Alternative architecture:
+- All components as direct children of <App />
+- Making a call to the API from the top level (in <App>), sending the info down as props (for this exercise is a good option, they can see a different approach + when you create a project they need to call a callback to update the list of projects).
 
 
 

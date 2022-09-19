@@ -48,9 +48,18 @@ https://docs.google.com/document/d/1TB0Eh8ikV2KEcuGymv0790Osn43kzlRiwVDLxzmLm3w/
 - Diagram (dev environment, Github, Heroku, DB Server)
 
 
+<!--
+@Luis
+
+- choose who will deploy "project2" vs "library project"
+
+- if you're deploying a codelong we did (ex. the library project), make sure it's a fork, not a clone (cause you'll need to push code)
+-->
+
 ## IMPORTANT NOTES TO STUDENTS
 ## IMPORTANT NOTES TO STUDENTS
 ## IMPORTANT NOTES TO STUDENTS
+
 
 
 Deployment & setup takes a lot of time. We need to be efficient.
@@ -80,13 +89,14 @@ Note: if you're deploying a codelong we did (ex. the library project), make sure
 - (create account)
 
 - login + follow students portal
-
+  - https://account.mongodb.com/account/login
 
 - Security Quickstart
   - choose "username and password"
   - note: choose all lowercase
+  - "Where would you like to connect from?": CLOUD ENVIRONMENT
 
-- Note: if deploying for module 3...
+- Note: PROJECT 3
   - "theres a max of 1 free cluster per project" -> Create a new project (and then Create Cluster)
 
 
@@ -110,8 +120,18 @@ Note: if you're deploying a codelong we did (ex. the library project), make sure
 
 ## Heroku: create account & verify
 
+Create account:
 - https://signup.heroku.com/
 
+Login:
+- https://id.heroku.com/login
+
+
+<!--
+@Luis:
+- can create an account with lj+cohortName@
+- (heroku doesn't have social login)
+-->
 
 ## Heroku: Install Heroku CLI
 
@@ -122,11 +142,14 @@ Note: if you're deploying a codelong we did (ex. the library project), make sure
     npm install -g heroku
     ```
 
+
 ## Heroku: Create new App (and configure git remote)
 
-- follow students portal
+- Create app (follow students portal)
+- Configure git (follow students portal)
 
 Note: app name will be public (choose something nice).
+
 
 
 ## Heroku: Test commit
@@ -146,11 +169,23 @@ Note: app name will be public (choose something nice).
   - it's just a convention  
 
 
+
 ## Heroku: Environment variables [Set the Config Vars in Heroku]
 
 - follow students portal
   - Note: Remember to add the username and password to the Connection String for Mongo Atlas
   
+
+
+
+
+## (Extra) Automatic Deploys from Github
+
+https://devcenter.heroku.com/articles/github-integration#automatic-deploys
+
+
+
+
 
 ## Heroku: Update mongoose connection and add node version [Set the “Config Vars” update the project files]
 
@@ -186,29 +221,17 @@ Note: app name will be public (choose something nice).
 
 
 
-## Heroku commands
+## Submit URLs in students portal
 
-<!-- @todo: create gist  -->
+<!-- IMPORTANT -->
+- Ask students to submit urls (github + heroku) on students portal
+<!-- IMPORTANT -->
 
-- Open the app in the browser (from terminal)
-  - `heroku open` 
 
 
-- Get your app’s most recent logs
-  - `heroku logs`
-  - `heroku logs -n 200`
+## Cheatsheet (Heroku commands + Setup to work in pairs)
 
-- Display logs real-time
-  - `heroku logs --tail`
-
-- Open a command line terminal in our Heroku server
-  - `heroku run bash`
-  - Note: this can be helpful, for example, if we want to run our seed file
-    - ex: `node bin/seed.js`
-
-- Deploy on production (push our code to the remote repository on heroku):
-  `git push heroku main`
-
+- https://gist.github.com/luisjunco/daa2962d30075bbdcf407090b1ce5f26
 
 
 
@@ -218,8 +241,8 @@ Note: app name will be public (choose something nice).
 - General setup (make diagram)
 - Environment variables
 - Debugging & errors
-- How to push to heroku + when should I push
 - Git "Remotes" (origin / heroku)
+- How to push to heroku + when should I push
 - Production DB
   - how we can see production
   - how to switch between local & production on Compass
@@ -228,19 +251,18 @@ Note: app name will be public (choose something nice).
 
 
 
-## Extra: Setup to work in pairs (so that all members can push to Heroku)
 
-Student 1 = the one that deployed the project on heroku
-Student 2 = any other student/s in a team
+## Common problem: unable to push to heroku because .git not in same directory as package.json
+
+Reason:
+- git repo in the parent directory + subdirectory with the app and package.json 
 
 
-Steps:
-- Student 2: shares email address with which they created the account on heroku
-- Student 1: heroku > Access > Add collaborator > Add email address of collaborator/s
-- Student 2: 
-  - in the command line, go to the root directory of m2-project
-  - `heroku login` (browser will open)
-  - add remote repository: `heroku git:remote -a nameOfOurProject` 
-  - now you should be able to push to heroku, see logs, etc
+Solution:
+1. Install these two buildpacks (go to `Dashboard - Settings - Buildpacks`):
+  - heroku/nodejs (official)
+  - https://github.com/timanovsky/subdir-heroku-buildpack.git
 
-  
+2. Add environment this variable to Heroku:
+  - `PROJECT_PATH` (with the name of the subdirectory)
+

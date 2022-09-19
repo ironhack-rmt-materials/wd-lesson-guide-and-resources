@@ -4,14 +4,15 @@
 
 Main topics:
 - Routing
-- useEffect & API requests (fetch / axios)
+- useEffect & API requests
 - form & API request
 
 
 
 Notes:
-- students can choose axios/fetch
+- students can choose axios/fetch (instructions do not specify)
 - when user submits form, you can make your API request
+
 
 
 ## Iterations
@@ -33,7 +34,6 @@ Iteration 5: Random beer
 Iteration 6: Create a new beer
 - form + API request
 
-## Iteration 7 | Bonus | Filter the beers
-
+Iteration 7 | Bonus | Filter the beers
 - Query String
 

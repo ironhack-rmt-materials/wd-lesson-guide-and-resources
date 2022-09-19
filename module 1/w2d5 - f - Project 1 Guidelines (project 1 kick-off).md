@@ -11,6 +11,12 @@
 2. Share/Show examples of games from other students
   - Why: we can think, how would I build it etc.
     - example: water sort puzzle game: https://www.youtube.com/watch?v=JbN0Y0KDqDU
+  
+  
+  - Example: TETRIS game
+    - Simplifications for version 1 (focus on an MVP):
+      - Same shape (ex. 2x2 boxes)
+      - Not clearing lines (ie. in the first version, we never remove blocks)
 
 
 3. Project Management
@@ -18,7 +24,7 @@
 - Scrum
   - diagram: https://www.neonrain.com/wp-content/uploads/2017/02/scrum_process_afa_5000.jpg
 - Kanban
-- Trello / GitHub project / Notion / Whimsical
+- Trello / GitHub project / Notion / Whimsical / Miro
 - Jira
 
 

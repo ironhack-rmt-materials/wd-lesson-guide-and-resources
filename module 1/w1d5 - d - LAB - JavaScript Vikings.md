@@ -10,6 +10,7 @@ TIPS:
   - Inheritance (extends) +++
   - super() +++
   - polymorphism +++
+    - note: a Viking extends `Soldier` but implements a different method `receiveDamage()`
 
 - Pay attention to the instructions and tests.
   - eg. "A Saxon has received DAMAGE points of damage"

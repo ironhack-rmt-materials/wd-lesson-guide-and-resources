@@ -10,7 +10,7 @@ Codealong Final Result (README.md includes all the steps):
 -->
 
 
-## UPDATE
+## UPDATE: update book details
 
 - What do we need? (discuss with students)
 
@@ -40,21 +40,23 @@ Steps we will follow:
 
 
 Render Form to Edit:
-- add link (eg. in `books-list.hbs`)
 - route: GET `/books/:bookId/edit`
 - DB query: Book.findById
 - view: `books/book-edit`
+- add links to edit (eg. in `books-list.hbs`)
 
 Process Form:
 - route: POST `/books/:bookId/edit`
 - DB query: Book.findByIdAndUpdate
   `Book.findByIdAndUpdate(bookId, { title, description, author, rating }, { new: true }).then().catch()`
-- view: we will not create a view. Instead, once book is created, Redirect: res.redirect(`/books/${updatedBook.id}`))
+- view: we will not create a view. Instead, once book is created, Redirect:
+  - res.redirect(`/books/${bookId}`); 
+  - res.redirect(`/books/${updatedBook.id}`))
 
 
 
 
-## DELETE
+## DELETE: delete a book
 
 Add button to delete:
 - in books-list.hbs:
@@ -67,6 +69,6 @@ Add button to delete:
 
 Process Form to DELETE:
 - route: POST `/books/:bookId/delete`
-- DB query: Book.findByIdAndDelete
-- redirect: `res.redirect('/books'))`
+- DB query: Book.findByIdAndRemove
+- redirect: `res.redirect('/books')`
 

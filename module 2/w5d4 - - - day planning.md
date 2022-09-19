@@ -36,11 +36,7 @@ On feb22 we did the following (went quite well):
 
 @Luis / @to-do:
 
-- fix bug edit character (field names in form "character-edit.hbs")
 - display nav menu in all pages
-
-- cookie maxAge (session.config.js)
-  - maxAge: 1000 * 60 * 60 // 1 hour
 
 - improve ux (ex. links to edit + delete in same view)
 
@@ -53,25 +49,27 @@ On feb22 we did the following (went quite well):
 
 Goals:
 - Practice with axios
-- Learn different concepts related to APIs & best practices
+- Learn different concepts related to APIs, REST APIs & best practices
 
 
 ## Warmup exercise
 
 1. Fork + Clone: https://github.com/luisjunco/characters-crud
 2. Run the project 
+  - Hint: you will need to install dependencies + add one environment variable
+  - Students will need to:
+    - install dependencies (`npm install`)
+    - create environment variables (`SESS_SECRET = 'unicorns are cool'`)
 3. See how it works on the browser.
 4. Go to the code & understand the code (Model + Routes)
+5. Functionality to edit a character doesn't work properly. Please fix it.
+  - Hint: if you don't know were to start, try to go through the whole process (see what data is sent in the dev tools, see what data is received in the server, etc)
+
+Time: 
+- Steps 1-4: 15-20min.
+- Step 5: 5-10min.
 
 
-<!-- 
-
-Step 2, they'll need to:
-- npm install
-- add .env file
-  - SESS_SECRET = 'unicorns are cool'
-
--->
 
 ## Explain code & the App
 - LT explains the app 
@@ -90,9 +88,20 @@ Step 2, they'll need to:
     - https://docs.google.com/presentation/d/194i1dCV2vpqTN5T3yC5lysvfS-_fnEkok97QpaOtb3w/edit?usp=sharing
 
 
-  - Video: What is a REST API? (explains RESTful) (6 min.)
+  - Video: What is a REST API? (explains RESTful) (6 min., Mosh)
     - https://www.youtube.com/watch?v=SLwpqD8n3d0
 
+
+
+- (Bonus) Exercise:
+  - You need to define a REST API for characters (create a character, update etc).
+  - Your task: following REST principles, define the endpoints for the following actions:
+    - List of all characters
+    - Details of a specific character
+    - Create a new character
+    - Update a specific character
+    - Delete a specific character
+  - Time: 5-10min.
 
 
 - Introduce "characters API" 
@@ -130,8 +139,9 @@ Step 2, they'll need to:
     - Using NPM: `npm install axios`
   - Using axios
     - Sample syntax
-    - Documentation (request-config)
-
+  - Quick demo on Stackblitz (need to install package)
+    - get, post
+    - final result: https://stackblitz.com/edit/js-hkgykx?file=index.js 
 
 - (extra) JavaScript HTTP requests & AJAX
 
@@ -152,3 +162,5 @@ Move from DB to API
 - Implement same functionality using .fetch()
 - Implement with async/await
 
+
+## (Extra) Explain Git conflicts

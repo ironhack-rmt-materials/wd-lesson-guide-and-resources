@@ -7,22 +7,26 @@ these are the channels we create on our slack workspace ;)
 
 ## channels
 
-- ask-the-class
-  - description: Ask here any questions related to code, technical challenges , etc.
+
+- help
+  - description: use this channel if you need support OUTSIDE class hours (make it easy for others to help --> see pinned message).
   - pinned message: (see below)
 
+
+- help-during-class
+  - description: use this channel if you need support during class time.
 
 - class-activities
   - description: Class activities and exercises will be added here
 
 - general
-  - description: This is the one channel that will always include everyone. It’s a great spot for announcements and team-wide conversations.
+  - description: General channel. It’s a great spot for announcements and team-wide conversations.
 
 - random
   - description: Random stuff and memes ;) 
 
 - resources
-  - additional resources, links etc
+  - description: Additional resources, helpful links etc
 
 
 
@@ -33,7 +37,6 @@ these are the channels we create on our slack workspace ;)
 
 
 ## other channels (we create them once course has started)
-- ask-for-help-during-class
 - extra-challenges
 
 
@@ -41,21 +44,21 @@ these are the channels we create on our slack workspace ;)
 
 ## Ask the class pinned message:
 
-Do you have any question related to code or technical challenges? Ask on this channel.
+Do you have any question related to the course, code or technical challenges? You can always ask on this channel.
 
-Why?
-- Other Students may be having the same question.
-- TAs may not have availability to answer your questions
-- Anyone with availability (students, TAs, LT) may be able to help.
+Why/when:
+- If you think other students may be having the same question.
+- or, outside of support hours
+- or, when the team is too busy to provide support (TA/LA may not have availability to answer your questions but other students may be able to help).
 
-How to ask?
-- Before you post a message, make sure you've used your own resources (eg. google, re-think the problem, write some code and see what happens...)
+How to ask good technical questions:
+- Before you post a message, make sure you've used your own resources (eg. google, take a short break, re-think the problem, write some code and see what happens...)
 - Write a clear explanation of the problem
 - Write a clear question (eg. what I am trying to do)
 - IMPORTANT: Provide code, so that others can test/play with the code (make it easy for others to help you!)
 
 Answering:
-- Answering is great: it helps other students but it can also help yourself (finding bugs in the code from other people is essential for any developer + when we try to explain why something is not working we're forced to really understand a problem)
-- Answer on the same thread of the original question (so that we keep everything more organized)
+- Answering is great. It helps other students but it can also help yourself (finding bugs in the code from other people is essential for any developer + when we try to explain why something is not working we're forced to really understand a problem)
+- Please, answer on the same thread of the original question (so that we keep everything more organized)
 
 

@@ -11,6 +11,19 @@
 -->
 
 
+Concepts:
+- APIs & Promises
+    ```javascript
+    spotifyApi
+      .searchArtists()
+      .then()
+    ```
+- req.params
+- req.query
+- forms
+
+
+
 Mention:
 - Students need a Spotify account (to get credentials)
 - We will use a package to interact with spotify API
@@ -23,7 +36,7 @@ Mention:
   - they will need a Spotify account (or create one if they don't have)
 
 
-- Create a .env file and store your credentials
+- Create a `.env` file and store your credentials
 
     ```
     CLIENT_ID=your clientId goes here

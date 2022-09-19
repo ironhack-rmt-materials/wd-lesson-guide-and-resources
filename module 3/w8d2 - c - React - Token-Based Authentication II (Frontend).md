@@ -40,6 +40,7 @@ Sections in the student portal:
 - Set up the Authentication Logic
   - Save the Token in the localStorage
     > EXPLAIN: localStorage
+    - mdn: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
     > NOTE: we could also store the token in state instead of localStorage (but if user refreshes the page it will not be logged in)
   - Verify the Token upon Login
     > EXPLANATION:
@@ -62,6 +63,7 @@ Sections in the student portal:
 
 ## Extra challenges and improvements:
 - After signup, automatically login the user
-- Add a component library (eg. material ui, semantic ui, reactstrap...)
+- Add a component library
+  - some examples: React Bootstrap, Semantic UI, Ant Design, Chakra, Material UI (MUI)
 
 

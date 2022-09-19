@@ -20,7 +20,9 @@
   - Critical bugs or problems ? Pls report by 11:30h.
 
 <!-- 
-  Code Freeze: Avoid...
+  Code Freeze. 
+  
+  Avoid:
   
   https://thecodinglove.com/when-we-add-one-last-feature-before-the-demo 
 -->
@@ -35,9 +37,9 @@
     - Images (if you have to upload, etc...)
 
 
-- game (TBC. eg. 15:30h)
+- game (TBC. eg. 14:30h)
 
-- Presentations (TBC. eg. 16:00h)
+- Presentations (TBC. eg. 15:00h)
   - can invite family&friends
 
 
@@ -50,6 +52,15 @@ Before we finish the day, tell students:
 
 
 ---
+
+
+
+
+Homework for this weekend:
+- pls fill in our weekly survey (3 minutes)
+- do the task below
+- take some rest & enjoy the weekend ;) 
+
 
 
 Task:
@@ -66,12 +77,6 @@ Task:
     - Props (what are props, how we pass & use props)
     - State (what is state, how we can use it)
 
-
-
-Homework for this weekend:
-- pls fill in our weekly survey (3 minutes)
-- do the task above
-- take some rest & enjoy the weekend ;) 
 
 
 

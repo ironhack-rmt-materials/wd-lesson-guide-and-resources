@@ -2,13 +2,19 @@
 # w1d3
 
 
-# Morning (html + css)
-
-Notes:
-- Students know all the theory 
-- Instead, build something together
-- Opportunity to speak about good practices & common mistakes
-- Example. ![css exercise](./images/w1d3-css-exercise.png)
+<!-- Status: OUTDATED (need to update following Mercury) -->
 
 
-# Afternoon (objects + nested data structures)
+# Morning 
+
+
+- JS intro (0.5h)
+
+- Data types (1.5h ?)
+
+
+- ...
+
+## Afternoon
+
+- Conditionals & loops (1h)  [Ask an exercise instead]

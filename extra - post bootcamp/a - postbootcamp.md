@@ -19,6 +19,14 @@ ____
 
 ## Portfolio
 
+<!--
+
+Slides (WIP): 
+
+https://docs.google.com/presentation/d/1Q3chdaEdK8VTq4tQFQDxBo0jjZL1mZ6Dr7XOQvLYwDU/edit?usp=sharing
+
+-->
+
 Some options:
 
 1. Github profile
@@ -56,7 +64,13 @@ Some options:
   - Tech Interviews
   - Common questiosn in technical interviews
 
+<!--
 
+Slides (WIP): 
+
+https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLYChs/edit?usp=sharing
+
+-->
 
 ## Continue Learning
 
@@ -65,7 +79,10 @@ Some options:
   - How: 
       - improve project 3 (add new functionality, improve ux etc)
       - new project (js + new things) +++
-      - katas (js)
+      - katas (js) +
+      - javascript30: https://javascript30.com/
+      - TypeScript course: https://rootlearn.notion.site/TypeScript-course-details-96b1df73b90c44f99c61a0a49ab9ecd9
+
 
   - Technologies (pick one or two): 
     - further practice in React
@@ -73,7 +90,7 @@ Some options:
     - TDD / Testing
     - Redux
     - SCSS
-    - SQL
+    - SQL (MySQL and PostgreSQL are popular choices)
     - Next.js
 
   - Interesting options:
@@ -90,6 +107,11 @@ Some options:
       - you will never be prepared enough
       - there will always be things I don't know
     - "SMART" goals (https://tools.thecoachingtoolscompany.com/wp-content/uploads/2020/11/TCTC-Infographic-SMART-Goals-Explained-1200x628-1.jpg)
+    - Extra advice on SMART goals:
+      - Track (keep track of your progress)
+      - Review goals often
+      - Be kind with you
+
 
 - Emotions & Mental health (40m.)
 
@@ -114,8 +136,9 @@ a new journey starts today for most of you, all the best for the job search!!
 
 Remember:
 - keep sending applications + keep coding
-- enjoy the process
-- remember to perseverate
+- set realistic, "smart" goals
+- perseverate & embrace failure
+- enjoy the process!!
 
 
  -->

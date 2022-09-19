@@ -9,7 +9,7 @@
 
 
 
-- Create quick React App on Stackblitz
+- Create quick React App on Stackblitz/CodeSandbox [15m]
   - See index.js:
     - import "react" & "react-dom" 
     - ReactDOM.render()
@@ -17,5 +17,10 @@
 
 
 
-- (extra) ES6 modules
+- (extra) ES6 modules [30m]
   - Slides: https://docs.google.com/presentation/d/1SqJP7b9cQ9UpvTmfVpdojcFXjsTL0g1HH_cn0sq3SLs/edit?usp=sharing
+
+
+
+<!-- @Luis, before break, start creating app with CRA -->
+

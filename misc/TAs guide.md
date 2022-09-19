@@ -29,10 +29,13 @@
   - ex. little warmup games, icebreakers
 
 
-- Logistics:
-  - ex. attendance
+- Attendance
     - TA to fill in assistance on Campus Tools (daily)
     - if any student is expecting to be late, can not join etc, they should ideally write to TA on Slack
+
+
+- Upload recordings + lab solutions to slack
+
 
 
 ## Notes
@@ -57,7 +60,9 @@
 https://gist.github.com/TA-Remote/6f28ab83fceac4c5afe2c6585bb9eed6
 
 
-- How to give constructive feedback:
+- How to give good feedback:
+  - constructive
+  - realistic
   - focus on actionable feedback (students are busy, focus on the most important)
   - keep a positive approach (congratulate students effort & progress + encourage students to continue learning)
   - https://i.pinimg.com/originals/8b/a9/3a/8ba93a720063a635a713442e3b0697ca.png

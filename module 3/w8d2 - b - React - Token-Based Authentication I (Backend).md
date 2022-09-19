@@ -9,6 +9,9 @@ status: just some notes
 
 follow students portal (highlighted)
 
+
+@Luis: have prepared (open) project from module 2 (library project)
+
 -->
 
 
@@ -25,7 +28,7 @@ Notes:
 - If we created app with `ironlauncher --auth --json`, just move from sessions to jwt.
 
 - Here's a readme with the steps to follow:
-  https://github.com/Ironmaidens-Ironhack-Jan-2022/ironlauncher-jwt-auth
+  https://github.com/ironhack-rmt-resources/ironlauncher-jwt-auth
 
 <!-- // IMPORTANT  -->
 <!-- // IMPORTANT  -->
@@ -53,12 +56,32 @@ Bearer:
   - JWT Diagram: https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/token-auth/jwt-authentication-flow-1.png
   - Token-based authentication is stateless which means that no information is stored on the server.
 
+  - Session vs. token auth (diagram):
+    - https://camo.githubusercontent.com/10cd8f8251ec9d1acf0d6c7e26d69415575c0f94b27c26c99c893e1743d6f4a2/68747470733a2f2f63646e2e61757468302e636f6d2f626c6f672f636f6f6b6965732d76732d746f6b656e732f636f6f6b69652d746f6b656e2d617574682e706e67
+
 <!-- @todo: create diagrams -->
 
 
 
 ## Codealong
-follow students portal
+- follow students portal 
+  - test routes with Postman
+  - code for sessions: make cleanup as we go + at the end
+
+Note:
+- students portal uses `bcryptjs`, ironlauncher uses `bcrypt`
+  - should be fine, I think both provide the same methods.
+
+
+- JWT Validation Middleware:
+  - import changes a bit with a recent version of the package (students portal is updated)
+  - import with `const{expressjwt: jwt} = require("express-jwt");`
+
+
+- Routes not needed
+  - if we created with ironlauncher, we can remove these 2 routes:
+    - GET loggedin
+    - GET logout
 
 <!-- 
 @Luis: 
@@ -68,6 +91,7 @@ follow students portal
 
 
 Fix (if we follow students portal):
+<!-- note: does not affect if we created with "ironlauncher auth" -->
 - current version in the students portal has a bug when we try to create an account with the same email address
   - affects: current/old versions of the materials (does not affect ironlauncher)
   - endpoint `POST /signup`
@@ -83,7 +107,7 @@ Improvements:
 
   ```javascript
       if (err.name === "UnauthorizedError") {
-        res.status(401).json({message: "invalid token..."});
+        res.status(401).json({errorMessage: "invalid token..."});
       }
   ```
 

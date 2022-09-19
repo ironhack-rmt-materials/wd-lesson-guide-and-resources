@@ -38,7 +38,7 @@
 
 - Config Express
 
-    ```
+    ```javascript
     app.set("views", __dirname + "/views"); //tells our Express app where to look for our views
     app.set("view engine", "hbs"); //sets HBS as the template engine
     ```
@@ -49,7 +49,7 @@
 
 - Render a view
 
-    ```
+    ```javascript
     app.get("/", (req, res, next) => res.render("product"));
     ```
 
@@ -66,22 +66,22 @@
 - res.render() method can take an additional parameter that will contain a JavaScript object with information we can use in the view
 
 
-    ```
-    app.get("/", (req, res, next) => {
-    let data = {
-        name: "Ironhacker",
-        bootcamp: "Ironhack Web Dev"
-    };
+    ```javascript
+      app.get("/", (req, res, next) => {
+        let data = {
+            name: "Ironhacker",
+            bootcamp: "Ironhack Web Dev"
+        };
 
-    res.render("index", data);
-    });
-
-    ```
-
+        res.render("index", data);
+      });
 
     ```
-    <h1>Hello {{name}}!</h1>
-    <p>Welcome to the {{bootcamp}}!!</p>
+
+
+    ```hbs
+      <h1>Hello {{name}}!</h1>
+      <p>Welcome to the {{bootcamp}}!!</p>
     ```
 
 
@@ -89,7 +89,7 @@
 ## (Bonus) Escaping HTML
 
 - We can send HTML to the view
-  - Scape with {{{ }}}
+  - Scape with `{{{ }}}`
 
 
 
@@ -97,20 +97,23 @@
 
 - `if` block helper
   - render a block conditionally
-  - if its argument returns false, undefined, null, "", 0, or [], Handlebars will not render the block.
 
-    ```
-    {{#if age}}
-        <p>Age: {age}</p>
-    {{/if}}
+- What is falsy in handlebars:
+  > if its argument returns false, undefined, null, "", 0, or [], Handlebars will not render the block.
+
+
+    ```hbs
+      {{#if age}}
+          <p>Age: {age}</p>
+      {{/if}}
     ```
 
-    ```
-    {{#if firstName}}
-        {{firstName}}
-    {{else}}
-        Info not available
-    {{/if}}
+    ```hbs
+      {{#if firstName}}
+          {{firstName}}
+      {{else}}
+          Info not available
+      {{/if}}
     ```
 
 
@@ -123,6 +126,7 @@
   - @index
   - @key
   - @first - @last
+  - note: access variables from above: `../`
 
 
 - (bonus) `with` block helper

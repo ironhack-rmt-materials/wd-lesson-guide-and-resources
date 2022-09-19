@@ -4,54 +4,20 @@
 <!-- Status: complete -->
 
 
-## Intro
-
-- What is a database
-  - it's a program we use to save data and/or retrieve data
-  - note that until now, every program that we wrote will reset/refresh every time we run it (variables will lose its value)
+## Intro to DBs and MongoDB
 
 
-- Advantages vs. sharing on a text file (show on students portal):
-  - Reliability (data can always be accessed)
-  - Efficiency (we could just use files to store the data, but this solution will be slow for any serious program)
-  - Scalability
-  - Concurrency (multiple clients/machines connected to our database simultaneously)
-  - Data abstractions (we can store data using complex data types)
-  - Query language (makes easier to read/write data)
+Slides: 
+
+https://docs.google.com/presentation/d/1r3QsTfgXEb0BVd1zN4UXqaYYMIvNoa_vXCq5_VUem-U/edit?usp=sharing
 
 
-
-- Relational vs non-relational
-
-  - Just mention those two categories (do not get into detail)
-
-  https://uploads-ssl.webflow.com/5d367dcf0ec6034477e114ae/608b38afa457656b9f29dc4f_database%20vs%20categories%2002.png
-
-  https://assets-global.website-files.com/5ec7dad2e6f6295a9e2a23dd/5ee016f44336f8b9a40aa050_relational-vs-nonrelational-databases.png
-
-  https://www.ithinkupc.com/media/legacy/Web/images/blog/sql-nosql-esquema-base-datos.png
-
-
-- (meme) "no-sql"
-  - the coding love (https://thecodinglove.com/when-the-sales-guy-tells-us-the-project-doesnt-need-any-database-because-the-client-said-nosql)
-
-
-
-## Intro to mongo
-
-- non-relational DB
-
-- stores data in databases > collections > documents > fields
-  - https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_157ca84354e93013a2289e0e4a8809a6.png
-
-- JSON-like format
-
-- why mongo
 
 
 ## Interacting with MongoDB
-- Command Line (self-guided)
-- Using Compass
+- Command Line
+- Using Compass (UI) (we will use compass)
+
 
 
 ## Compass...
@@ -62,7 +28,7 @@
 - Connect (hostname + port)
 
 
-- Create a Database
+- Create a Database (ex. school)
 
 
 - Create Documents

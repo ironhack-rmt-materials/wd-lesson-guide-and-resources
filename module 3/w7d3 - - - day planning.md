@@ -26,11 +26,18 @@ Ask students for yesterday's LAB (specific questions)
 
 
 State:
-- State & when we need it:
-    - Store information that belongs to a component
-    - Can change over time
-    - We want to reflect the changes in the UI (in the JSX)
+
 - State vs. props.
+
+- When should we use the state
+  - Store information that belongs to a component
+  - Can change over time
+  - We want to reflect the changes in the UI (JSX)
+
+- Syntax
+  - hooks
+  - useState() hook
+
 - Remember:
     - Do Not Modify State Directly
         - Instead, use the updater function (ex. `setCounter`)
@@ -63,9 +70,9 @@ Show the app we were building yesterday
 Popcorn Time II...
 
 Lifting state up:
+- extract Controls or Movie to a specific component (communication child-parent, now we need to pass a callback to the child component) 
 - Display number of movies (in the same component where we have the list)
 - Display number of movies in the header (Lifting state up)
-- extract Controls to a specific component (communication child-parent, now we need to pass a callback to the child component) 
 - functionality to filter based on minRating (passing arguments in the callback)
 
 Forms:
