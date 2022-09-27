@@ -26,7 +26,7 @@
 - Do you play any sports?
 - What’s your favorite place of all the places you’ve travelled?
   - THURSDAY: Remind them what exacly MVP is + "Is my MVP ready? What is missing?"
-  - even better: give them user stories / a list of things they need to test (so that they test themselves)
+  - MVP Checklist P2: https://www.checkli.com/process/62d8fd8b11769
 - Are you a good dancer?
 
 

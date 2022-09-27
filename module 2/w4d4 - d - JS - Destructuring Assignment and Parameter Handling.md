@@ -40,11 +40,12 @@
   -- Destructuring == breaking down complex data structures into simpler ones that are easier to use.
 
 
+
 ## Object destructuring
 
 - Example of how to access properties using dot/bracket notation. Eg:
 
-    ```
+    ```javascript
     let person = {
         name: 'Ironhacker',
         age: 25,
@@ -65,7 +66,7 @@ Problem: it works but, if we have to access many properties it is a bit repetiti
 
 
 - With object destructuring:
-    ```
+    ```javascript
     let { name, age, favoriteMusic } = person;
     ```
 
@@ -73,7 +74,7 @@ Problem: it works but, if we have to access many properties it is a bit repetiti
 
 - Compare:
 
-    ```
+    ```javascript
     // ES5 way:
     const name = person.name;
     const age = person.age;
@@ -87,16 +88,17 @@ Problem: it works but, if we have to access many properties it is a bit repetiti
 
 - Default values
 
-    ```
+    ```javascript
     let { name, age, favoriteMusic, country = 'Spain' } = person;
     ```
 
 - Different variable names
 
 
-    ```
+    ```javascript
     const { name: fullName, age, favoriteMusic } = person;
     ```
+
 
 
 
@@ -106,7 +108,7 @@ Problem: it works but, if we have to access many properties it is a bit repetiti
 
 Example:
 
-    ```
+    ```javascript
     const person = {
     name: 'Ironhacker',
     age: 25,
@@ -131,9 +133,8 @@ Example:
 
 https://stackblitz.com/edit/js-eu43id
 
-Time: 10+5m
-
-
+- Time: 10+5m
+- Solution: https://stackblitz.com/edit/js-eigzjc?file=index.js
 
 
 
@@ -145,7 +146,7 @@ Time: 10+5m
 
 - Example:
 
-    ```
+    ```javascript
     const campuses = ['madrid', 'barcelona', 'miami'];
 
     const [firstCampus, secondCampus, thirdCampus] = campuses;
@@ -156,7 +157,7 @@ Time: 10+5m
 
 
 - Skipping elements:
-    ```
+    ```javascript
     const [ , , thirdCampus] = campuses;
     ```
 
@@ -166,7 +167,7 @@ Time: 10+5m
   - If there are not enough elements in the array, we'd get `undefined`
   - It is also possible to set a default value.
 
-    ```
+    ```javascript
     const [campus1, campus2, campus3, campus4 = 'paris'] = campuses;
     console.log(campus4); // ==> paris
     ```
@@ -176,7 +177,7 @@ Time: 10+5m
 ## (skip) Nested arrays and destructuring
 
 
-    ```
+    ```javascript
     const europeanCampuses = [
       ['madrid', 'es'],
       ['barcelona', 'es'],
@@ -204,7 +205,8 @@ https://stackblitz.com/edit/js-7uq7wm
 
 
 
-Note:
+
+Notes:
 - We will use Object destructuring a lot.
 - Array destructuring is less common
 
@@ -218,39 +220,38 @@ Note:
 @todo
 
 - The spread operator:
-  - lets us "unpack" elements of an array to single/individual arguments.
+  - lets us "unpack" / "spread" elements of an array into individual elements
   - can be used when all elements from an object or array need to be included in a list of some kind.
 
 
 
 Examples using the spread operator:
 
-- Adding elements to array
-  ```
+- Example 1: Add elements to array
+  ```javascript
   const newArr = [...students, "david"]
   ```
 
-- Merging arrays
+- Example 2: Merge/Concatenate arrays
 
-  ```
+  ```javascript
   const newArr = [...arrOne, ...arrTwo]
   ```
 
-- Copying arrays
+- Example 3: Copy arrays
   
-  ```
+  ```javascript
   const copy = [...students]
   ```
 
 
 
 
-## (skip) Rest parameter
-
-@todo
+## (Extra) Rest parameter
 
 
-```
+
+```javascript
   function add(...numbers) {
     // numbers represents the arguments passed when function gets invoked
     let sum = 0;
@@ -266,9 +267,11 @@ Examples using the spread operator:
 ```
 
 
-- Exercise (practice rest parameters + arr.reduce): 
-https://stackblitz.com/edit/js-o9cpuo
-
+- (bonus) Exercise (practice rest parameters + arr.reduce): 
+  - Instruction: https://stackblitz.com/edit/js-o9cpuo
+  - How: groups of 2-3 students
+  - Time: 15min.
+  - Solution: https://stackblitz.com/edit/js-93eaiw?file=index.js
 
 
 ## Practice
@@ -295,7 +298,7 @@ Skip (not relevant)
 
 Example:
 
-```
+```javascript
 function printFullName(actor) {
   console.log(`${actor.firstName} ${actor.lastName}`);
 }
@@ -309,7 +312,7 @@ printFullName(actor);
 
 We can also do the following:
 
-```
+```javascript
 function printFullName({ firstName, lastName }) {
   console.log(`${firstName} ${lastName}`);
 }

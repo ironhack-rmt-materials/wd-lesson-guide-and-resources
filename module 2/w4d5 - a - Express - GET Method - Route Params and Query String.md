@@ -20,7 +20,7 @@ Suggested approach:
 
 - once they've been exposed to the theory, codealong different examples
   -- include forms (needed for lab 'express spotify')
-  -- codealong: music app OR airbnb clone
+  -- codealong: e-commerce OR music app OR airbnb clone
 
 
 - Exercise (includes POST): 
@@ -35,6 +35,8 @@ Suggested approach:
 
 
 ## Intro
+
+
 
 - URL Structure: 
   https://cdn.cognitiveseo.com/blog/wp-content/uploads/2019/11/url-structure-1024x538.jpg
@@ -103,18 +105,42 @@ Suggested approach:
   ```
 
 
-- Multiple Route Params
+
+  - IMPORTANT: you will receive data as a STRING
+    - `req.params.productId`: will be a string
+
+
+### Multiple Route Params
 
   https://domain.com/artists/madonna/albums/ray-of-light
   https://domain.com/artists/madonna/albums/like-a-virgin
 
 
   ```javascript
-    app.get("/artists/:artistName/albums/albumTitle", (req, res, next) => {
+    app.get("/artists/:artistName/albums/:albumTitle", (req, res, next) => {
         req.params.artistName
         req.params.albumTitle
     })
   ```
+
+
+
+### IMPORTANT: Common problem with params
+
+```
+app.get("/:productName", function (req, res, next) {    
+    res.send("display product page..... " + req.params.productName);
+});
+
+app.get("/contact", function (req, res, next) {
+    res.send("display contact page");
+    // res.render("contact");
+});
+```
+
+Solution: put before the routes that are more specific (and later the ones with params)
+
+
 
 
 ## Query String
@@ -143,10 +169,6 @@ Suggested approach:
 
 
 
-- Query String from Forms
-
-
-
 ## Route Params vs. Query Strings
 
 
@@ -164,19 +186,3 @@ Things to mention:
   - name
 - button `<button type="submit">`
 
-
-
-## IMPORTANT: Common problem with params
-
-```
-app.get("/:productName", function (req, res, next) {    
-    res.send("display product page..... " + req.params.productName);
-});
-
-app.get("/contact", function (req, res, next) {
-    res.send("display contact page");
-    // res.render("contact");
-});
-```
-
-Solution: put before the routes that are more specific (and later the ones with params)

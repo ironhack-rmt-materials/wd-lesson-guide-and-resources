@@ -9,7 +9,9 @@
 
 - focus on the fundamentals. Finish early + leave more time for LAB & questions
   - aim to finish lectures 4:30.
+
 - students shouldn't start lab while in lectures (maybe only in m3, since they know themselves better)
+
 - #extra-challenges
 
 
@@ -80,4 +82,6 @@
 - Icebreakers
 - Stretching / Yoga
 - Games
+
+
 

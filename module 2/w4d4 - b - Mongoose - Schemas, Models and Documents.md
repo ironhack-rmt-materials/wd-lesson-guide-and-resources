@@ -38,25 +38,20 @@ Summary:
 
 
 
-- Mongoose models
-  - Create: 
-    - `Model.create(data)`
-    - `Model.insertMany(arr)`
-  - Read
-    - `Model.find()`
-    - `Model.find({price: {$gt: 20} })`
-    - `Model.findOne()`
-    - `Model.findById()`
-  - Update:
-    - `Model.updateMany()`
-    - `Model.updateOne()`
-    - `Model.findByIdAndUpdate()`
-    - NOTE: will return the original document (not the updated)
-      - Can pass options: https://stackoverflow.com/a/43474183/11298742
-  - Delete:
-    - `Model.deleteMany()`
-    - `Model.deleteOne()`
-    - `Model.findByIdAndRemove()`
+- Mongoose methods 
+  - CHEATSHEET: https://gist.github.com/luisjunco/28e17edcc21868753ea6d60983427623
+
+
+
+  <!--
+  
+  @Luis: for codealong, try to do the following:
+    - create a product
+    - update a product
+    - delete a product
+    - close connection to DB
+    
+  -->
 
 
 - (skip) Utils

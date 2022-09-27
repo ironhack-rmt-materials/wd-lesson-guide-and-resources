@@ -59,3 +59,13 @@ IMPORTANT:
   (details in today's "day planning" md file)
 
 -->
+
+
+<!-- 
+
+- mandatory: LAB React Tweets
+- (recommended) continue watching video 
+- (bonus) do some components from lab React Training
+- mandatory: take good rest (tomorrow is challenging)
+
+ -->

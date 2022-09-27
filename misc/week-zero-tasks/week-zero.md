@@ -2,8 +2,11 @@
 
 
 ## Post-bootcamp
+
 - Linkedin
   - connect, endorse, share
+
+- Publish week 10 contents
 
 
 ## Slack
@@ -11,20 +14,30 @@
 - Join slack (update settings + profile)
 - Setup channels (see `slack channels.md`)
 - Configure so that new students are automatically added to channels
+
 - intro msg:
     ``` 
-    hello @everyone and welcome to this workspace!!
+      hello morning @everyone!!
 
-    TEAM :stars:
-    - My name is Luis (I will be your teacher for this cohort)
-    - xxxxxx, xxxxxx,  (Teaching Assistants, they will be supporting you during this journey)
-    - xxxxxx,  (PM, taking care of all details and organization)
-
-    DAY ZERO :rocket:
-    - As you know, we have scheduled a "day zero" meeting. This meeting is not mandatory and will be recorded but attendance is HIGHLY RECOMMENDED (try to do your best to attend).
-    - Goals: introduction to the bootcamp and what to expect +  start to get to know each other + make sure we have everything ready to start on Monday.
-    - When: xxxxxx CET.
-    - Link: xxxxxx
+      my name is Luis, I'll be your teacher for this new journey starting on Monday :rocket:
+      
+      
+      First things first, let me do a quick intro to the team:
+      - XXX (Program Manager), she's in charge of making sure all is ready so that you can have the best possible learning experience.
+      - XXX (Teaching Assistant), technical + general student support (including non technical issues)
+      - XXX (Learning Assistant), technical support
+      - XXX (Lead Teacher), I'm in charge of lectures and learning activities
+      - XXX (Student Success Manager), will guide you in you job search process.
+      
+      
+      Day Zero:
+      - When:  XXX XXX CET.
+      - Where: XXX
+      - This meeting is not mandatory and will be recorded but attendance is HIGHLY RECOMMENDED.
+      - We will have an intro to the bootcamp and what to expect + make sure we have everything ready to start on Monday.
+      
+      
+      Looking forward to starting this amazing journey with you!!
     ```
 
 

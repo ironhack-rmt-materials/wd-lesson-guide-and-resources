@@ -20,9 +20,6 @@ Summary:
 
 - IronLauncher
   - npm package (https://www.npmjs.com/package/ironlauncher)
-  - Opinionated:
-    - dependencies
-    - structure (the structure created by the generator is just one of many ways to structure Express apps)
 
 
 
@@ -36,16 +33,26 @@ Summary:
     npx ironlauncher library-project
     ```
 
+    Choose:
+    - `Views`
+    - `No auth`
+
+
     Note: ironlauncher automatically creates a folder with the name of the app.
+
 
 - Explain `npx` (vs. npm install)
 
 - Explain...
   - Open package.json & explain scripts (start / dev)
   - run: `npm run dev`
+  - Opinionated (dependencies + structure)
+    - we coult use other packages
+    - the structure created by the generator is just one of many ways to structure Express apps
   - dependencies
-  - general folder structure
+  - general folder structure (`/models`, `/routes`, `/views`)
   - .env & environment variables
+    <!-- IMPORTANT: explain `environment variables` here -->
   - .gitignore
   - general flow of the application (starting from server.js)
   - error handling
@@ -59,6 +66,16 @@ Summary:
 
 
 
+## Fix: ironlauncher not installing dependencies:
+```
+npm i cookie-parser@1.4.6 dotenv@16.0.1 express@4.18.1 hbs@4.2.0 mongoose@6.4.4 morgan@1.10.0 serve-favicon@2.5.0
+```
+
+```
+npm i nodemon@2.0.19 --save-dev
+```
+
+
 
 ## Flags (options)
 
@@ -70,6 +87,11 @@ Summary:
 ## Creating our first app
 
 - Goal: we're going to create an app for a Library (we'll have CRUD functionality for books)
+
+- Start VS Code live session
+
+
+### Adding the model
 
 - Add Book model (students portal: 'Adding the model')
   `models/Book.model.js`

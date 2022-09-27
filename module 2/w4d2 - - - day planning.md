@@ -16,10 +16,12 @@ Notes:
     - Student 1:
       - forks lab
       - adds the other student as collaborator
+      - pair programming
       - commit + push
     - Student 2:
       - clones the same repo (we will not fork it)
-      - fetch + pull
+      - pull
+      - pair programming
       - commit + push
   - intro git conflicts
 

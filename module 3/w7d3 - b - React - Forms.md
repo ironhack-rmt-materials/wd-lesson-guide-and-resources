@@ -13,11 +13,9 @@ IMPORTANT:
 
 
 Steps:
-- Follow same steps we took here (Step 11: Forms): https://github.com/Ironhack-Team-Triangle-July2021/ironhack-cinema/commits/main
+- 1. Create the Form in the same component where we store the list of movies (ie. w/o creating a specific component for the form)
 
-- But easier if I break it down in two steps:
-  - 1. Create the Form in the same component where we store the list of movies (ie. w/o creating a specific component for the form)
-  - 2. Creating a specific component for the form (when the user submits, we will need to update state on the parent component -- this is what students find difficult)
+- 2. Creating a specific component for the form (when the user submits, we will need to update state on the parent component -- this is what students find difficult)
 
 
 Notes:
@@ -37,30 +35,47 @@ Notes:
 
 - Process form & add the new movie (only with "Title")
 
+
+  ```js
+    const newMovie = {
+      title: title 
+    };
+
+    setMovies( (prevMovies) => {
+      return [newMovie, ...prevMovies];
+    });
+  ```
+
+
 - Clear form upon submission
+
+  ```js
+    setTitle("");
+  ```
 
 
 ## Step 2: form with multiple fields
 
-- Add rest of fields to the form
-- Add multiple methods to handle changes on each field
-  onChange={handleTitle} 
-  onChange={handleYear} 
-  onChange={handleRating}
+
+TASK:
+
+- add a new field for "rating"
+- (bonus) add a new field for "image Url"
+- (bonus) use html form attributes for better ux (required, type=number, min, max...)
+
+Time: 15min
 
 
 
-## (extra) Handling multiple inputs with a single method
+
+
+## (extra) Handling multiple inputs with a single stateful variable
 
 - IMPORTANT: 
   - Just mention that it is possible 
   - Don't implement it (it takes a lot of time and they had enough concepts)
 
-- Main ideas:
-  - We store the inputs in an object (instead of separate stateful variables).
-  - For the object, we use the same property names as the form fields (so that then we can use `e.target.name` to access object properties dynamically).
-  - Spread operator with objects
-  - Link: https://stackoverflow.com/a/67234242/11298742
+- See comment here: https://gist.github.com/luisjunco/6c59bc3ea6a1d0b3a975d15ff2115fec?permalink_comment_id=4246649#gistcomment-4246649
 
 
 
@@ -81,37 +96,13 @@ Notes:
 
 ## (Extra) Searbox:
 
-- functionality for searchbox (asked in today's lab)
-
+Functionality for searchbox (asked in today's lab)
+- option1: show how to do 
+- option2: provide an example with code so that they can see it (ex. in popcorn time)
 
 
 
 ## React Forms Cheatsheet:
 
-
-<!-- @todo: improve this cheatsheet -->
-
-- Create the form in our JSX (add onSubmit event & prevent form submission):
-
-    ```jsx
-
-    const handleSubmit = (e) => {
-      e.preventDefault();
-    }  
-
-    <form onSubmit={handleSubmit}>
-
-    ```
-
-- Make it a "Controlled Component"
-  - Initialize state
-    `const [title, setTitle] = useState("");`
-  - Read the input value from state (ex. `value={title}` )
-  - Add onChange event (and update state with the new value)
-    `<input type="text" name="title" value={title} onChange={(e) => { setTitle(e.target.value) }} />`
-
-
-- Handle form submission
-
-- Optional: clear form upon submission
+Gist: https://gist.github.com/luisjunco/6c59bc3ea6a1d0b3a975d15ff2115fec
 

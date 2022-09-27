@@ -2,6 +2,13 @@
 
 # w5d5
 
+<!--
+
+
+Friday: try to finish earlier.
+
+-->
+
 
 ## Project2 recommendations 
 
@@ -16,7 +23,8 @@ https://docs.google.com/presentation/d/1qVyqiLgTtg1Fyv7R-qLthaR9kPQTE6TSLzpBdXuV
 
 
 
-## Git
+## IMPORTANT: Git
 - collaboration (how to work on the same repo)
-- solving conflics
+- git conflics (explain how to resolve them)
+
 

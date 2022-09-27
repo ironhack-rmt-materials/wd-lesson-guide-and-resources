@@ -2,68 +2,69 @@
 
 # React - Connecting React app to the backend
 
-<!--
 
-Status: draft
+## Refresh
+
+Refresh REST APIs
+
+
+
+
+## Intro to today
 
 Notes:
 - In this unit we put together all concepts from previous week
-  - Only new concepts: 
-    - POST to create a resource on API (we send the request onSubmit + we send the details in the body of the axios request)
-- Methodology: build together with students
-
- -->
-
-
-
-Setup:
-
-`npx create-react-app react-ironbnb-client`
-
-`npm i react-router-dom axios`
+- New concepts: 
+  - POST to create a resource on API
+    - We send the request onSubmit
+    - We send the details in the body of the request
+    - Once we get the response from the API, we can redirect.
 
 
 
-Explain API & test endpoints
 
-- IronBnB API:
-  https://ironbnb-m3.herokuapp.com
+## LAB/Exercise IronBnB
 
-  (note: PUT and DELETE are probably not supported, tested on Postman)
+Instructions: https://github.com/luisjunco/exercise-react-ironbnb-client
 
+How:
+- individual
 
-- Refresh REST APIs
-
-
-Plan App/UX:
-
-
-- Option 1: give them the wireframes & start building
-  https://whimsical.com/ironmaidensbnb-MVw1gkTJrekF2QTaEKCMJU
-
-- Option 2: plan together
-  https://whimsical.com/
+Time:
+- Some students get all the functionlity in about 2h (even with bonus things in 2-4h).
+- Some students need a lot of help (ex. 2-3h to get routing + display the list of apartments or start the functionality to create)
 
 
+<!-- 
 
-Start building:
+@Luis/TAs:
+- provide help to students that struggle more, so that then can get the list of apartments quickly & they start the functionality to CREATE.
 
+
+Alternative:
 - Ask students who feels confident to start coding 
   - Start making small groups so that they can code in breakout rooms
   - LT in main room with students that feel less confident
   - TAs with students that don't feel confident but can do
+  
+-->
+
+
+
+Notes:
+- this exercise covers all concepts from students portal + what they need for the lab "React Ironbeers"
+- the api doesn't support PUT and DELETE (tested on Postman)
 
 
 
 
-## Example (Ironmaidens)
-
-- Feb 2022 Ironmaidens Wireframes: https://whimsical.com/react-ironbnb-MVw1gkTJrekF2QTaEKCMJU
 
 
-- Sample Repo: https://github.com/Ironborn-Ironhack-March-2022/react-ironbnb-client
+## Solution + Demo
 
+- Solution (iterations 1-4):
+  -  https://github.com/StrangerCodingThings-Ironhack-June-22/exercise-react-ironbnb-client
 
-- README (with steps and improvements): https://github.com/Ironborn-Ironhack-March-2022/react-ironbnb-client/blob/main/README.md
-
+- Demo: 
+  - https://react-ironbnb-client.netlify.app
 

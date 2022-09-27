@@ -9,6 +9,10 @@
 - Slides (REST + endpoints we will implement): 
   https://docs.google.com/presentation/d/194i1dCV2vpqTN5T3yC5lysvfS-_fnEkok97QpaOtb3w/edit?usp=sharing
 
+- Video: What is a REST API? (explains RESTful) (6 min., Mosh)
+  - https://www.youtube.com/watch?v=SLwpqD8n3d0
+
+
 
 - Students portal: some things highlighted
 
@@ -34,6 +38,17 @@
   - NOTE: generates auth with sessions (we will implement with jwt, tomorrow)
 
 
+  <!-- 
+
+  @Luis / IMPORTANT
+  @Luis / IMPORTANT
+  @Luis / IMPORTANT
+  @Luis / IMPORTANT
+  
+  initialize with ironlauncher --auth --json 
+  (so that we can speed up backend auth lecture) 
+  
+  -->
 
 
 ## Part 1: intro to REST & best practices 
@@ -47,7 +62,11 @@ REST API Design Best Practices (see students portal):
 - Handle errors uniformly and respond with standard HTTP status codes
 
 
-## Part 2: codealong
+## Part 2:
+
+- run the app: `npm run dev`
+
+- Understand the code we have (created with ironlauncher --auth)
 
 
 - Explain Express `res.json()`
@@ -85,6 +104,9 @@ REST API Design Best Practices (see students portal):
   - routes
 
 
+
+## Part 3: codealong
+
 - Models:
   - Refresh embeded vs. Reference
 
@@ -94,21 +116,31 @@ REST API Design Best Practices (see students portal):
 
 
 
-Routes:
-  - POST /projects
-  - POST /tasks
-  - GET /projects
-  - GET /projects:projectId
-  - PUT /projects:projectId
-  - DELETE /projects/:projectId
-  
-Bonus:
-- implement full CRUD for tasks
+Routes (implement each one + TEST WITH POSTMAP):
+1. POST /projects
+2. POST /tasks
+3. GET /projects
+4. GET /projects:projectId
+5. PUT /projects:projectId
+6. DELETE /projects/:projectId
+
+- Each route: implement + TEST WITH POSTMAN
+- 1, 2, 3: 
+  - copy code from students portal
+  - read together + test
+- 4, 5, 6: 
+  - copy code from students portal
+  - ask students to read & understand code + test
 
 
-  
-  - Minor improvement: when a project is deleted, remove also the associated tasks.
-    - note: make sure to import Task model
+Bonus: full CRUD on tasks
+  - GET /tasks
+  - GET /tasks/:taskId
+  - PUT
+  - DELETE
+
+- Minor improvement: when a project is deleted, remove also the associated tasks.
+  - note: make sure to import Task model
 
   ```javascript
   Project.findByIdAndRemove(projectId)
@@ -130,6 +162,8 @@ Bonus:
 - Slides: 
   https://docs.google.com/presentation/d/1ccck25g9VXNxWA-GaXquyczZD2VnfD9Zx9lKKgFD2dk/edit?usp=sharing
 
+  <!-- @todo: improve slides -->
+  <!-- @todo: improve slides -->
   <!-- @todo: improve slides -->
 
 

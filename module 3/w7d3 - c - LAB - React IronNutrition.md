@@ -6,13 +6,16 @@ Notes:
 - students find this lab VERY challenging
 
 Main topics:
+- Component Libraries (Ant Design)
 - State
 - Form (controlled components)
 - Communication between components (props, callback)
 
 
-Notes from Doan: 
-https://github.com/Dorrrn/lab-ironnutrition-2/blob/master/NotesForLab
+
+## Iteration 0 | Setup
+
+- We will use a component library (Ant Design)
 
 
 

@@ -20,6 +20,11 @@ Status: draft
   - Function components
   - Class components
 
+- Hooks:
+  - They let you use state and other React features without writing a class.
+  - https://reactjs.org/docs/hooks-intro.html
+
+
 - We've learned how to pass info with props
   - props = info that comes from outside of the component
 
@@ -45,17 +50,33 @@ Status: draft
 
 ## State in function components
 
+<!-- @Luis: work on the app we built yesterday -->
+
 Example: we will add a counter
 - Counter +1
-- Bonus:
+
+
+Explain:
+- in a component we can have multiple stateful variables
+  ```js
+    const [counter, setCounter] = useState(0);
+    const [pizza, setPizza] = useState("margaritta")
+  ```
+- see how the counter of each component is independent (state belongs to the component)
+
+
+
+Exercise:
   - add a button to decrease counter
   - counter will never be below 0
-  - if counter above 10, change bg color
+  - (bonus) if counter above 10, change bg color of the component
+    - Hint: you can use classes (className)
+  - (bonus) Solve the previous bonus with inline style (research React inline style)
+  - Time: 20min.
 
 
 
 ## (extra) State in class components
-
 
 <!-- 
 
@@ -64,31 +85,21 @@ Example: we will add a counter
   - Alternative class syntax - without constructor method
 
 - Note:
-  - "Notice how state is defined as an object".
+  - Notice how state is defined as an object.
   - We can have as many key-value pairs as we need
-
-
-- Demo
-
-- Initial code: https://stackblitz.com/edit/react-dimt6c?file=src/App.js
-  - list of recipes
-- Goal: https://stackblitz.com/edit/react-fztnxt?file=src/App.js
-  - in the header, add a button "like this app" and a counter with the amount of clicks
-
 
 - IMPORTANT:
   - To manipulate the state, we have to use setState() method
-  - never try to manipulate the state directly!
+  - Never try to manipulate the state directly!
 
   ```
     this.state.count++; // BAAAAAD
   ```
 
 - setState (see documentation):
-  `setState(updater, [callback])`
-  - First argument: Function or Object
-  - Second argument (optional): callback
-
+  - `setState(updater, [callback])`
+    - First argument: Function or Object
+    - Second argument (optional): callback
 
 -->
 
@@ -99,6 +110,10 @@ Example: we will add a counter
   - State Updates May Be Asynchronous
   - State Updates are Merged (class components)
     - ("When you call setState(), React merges the object you provide into the current state.")
+
+- A Component will Re-render if:
+  - receives new props from the outside
+  - its own state changes
 
 - Useful:
   - See how component re-renders when we update state
@@ -126,6 +141,8 @@ Example: we will add a counter
 
 (see students portal)
 
+<!-- @Luis: not much to mention (we've already used onClick) -->
+
 
 
 ## Exercise: buttons to change theme
@@ -149,7 +166,7 @@ Question:
 ## BEFORE BREAK
 
 - Start next app with CRA
-  `npx create-react-app popcorn-time`
+  `npx --yes create-react-app popcorn-time`
 
 
 

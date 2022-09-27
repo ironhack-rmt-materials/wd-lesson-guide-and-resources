@@ -2,24 +2,21 @@
 # w2d1
 
 
-- Beginning of week: 
-  - show examples of m1 projects.
-  - they can start thinking what they want to build
+<!-- 
+  @Luis: 
+  - day is heavy (and, on top of that, it's monday)
+  - move some contents to w1d5 or w2d2 ?
+-->
 
 
+ IMPORTANT:
 
-- Build something:
+- Contents heavy + LAB really demanding = focus on fundamentals.
+  - JS functions -- focus
+  - Arrays: map, reduce, filter -- focus
+  - Arrays: sort and reverse -- self guided
 
-  - Holy Grail demo:
-  https://web.dev/patterns/layout/holy-grail/demo.html
-
-  - Responsive Holy Grail:
-  https://codepen.io/chriscoyier/pen/vWEMWw
-
-  - Sidebar & Main content:
-  https://gridbyexample.com/patterns/header-twocol-footer/
-
-
-
+- Make sure to kick-off lab very early.
+  - REMEMBER: lab is very demanding !!
 
 

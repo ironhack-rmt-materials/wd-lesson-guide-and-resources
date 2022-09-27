@@ -6,17 +6,18 @@
 
 - Part 1: Skip all (we have already covered all this content) untill 'Why would I use a backend?'
 
-- Part 2: codealong
+- Part 2: demo (do not do codealong)
 
 -->
 
-## Codealong (follow students portal, starting from 'Node HTTP Server')
+## Demo (follow students portal, starting from 'Node HTTP Server')
 
 Intro:
 - Goal:
   - We will build a basic server, listening for http requests
   - (we build the Server in the Request-Response model)
 - Syntax is not relevant (we will be using Express)
+  <!-- @Luis: ask students not to codealong for this example  -->
 
 
 Explain "Ports":

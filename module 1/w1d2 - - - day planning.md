@@ -2,12 +2,22 @@
 # w1d2
 
 
-- Refresh: https://stackblitz.com/edit/ih-w1d2-refresh?file=index.js
-  - first-class functions
-  - data types
-  - typeof
+
+<!-- 
 
 
-  
+@Luis: review (old stuff)
 
 
+- Build something:
+
+  - Holy Grail demo:
+  https://web.dev/patterns/layout/holy-grail/demo.html
+
+  - Responsive Holy Grail:
+  https://codepen.io/chriscoyier/pen/vWEMWw
+
+  - Sidebar & Main content:
+  https://gridbyexample.com/patterns/header-twocol-footer/
+
+-->

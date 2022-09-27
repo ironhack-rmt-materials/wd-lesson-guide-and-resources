@@ -52,7 +52,7 @@
   - Examples:
     - Example 1 - embed variables
     
-    ```
+    ```jsx
       {title}
       <h3>
         Hi, {student.firstName} {student.lastName}!
@@ -65,12 +65,13 @@
 
 
     - Example 3 - embed function execution
-      ```
+      ```jsx
       function capitalizeFirstLetter(str) {
         return str[0].toUpperCase() + str.slice(1);
       }
       ```
-      ```
+
+      ```jsx
       return (
         <h1>
           { capitalizeFirstLetter(firstName) }
@@ -85,7 +86,8 @@
 
 
     - Example 5 - embed static files: images
-      ```
+
+      ```jsx
       import ironhackLogo from './assets/ironhack-logo.png'; //inside src
 
       <img src={ironhackLogo} alt="ironhack logo" />
@@ -94,19 +96,23 @@
 
 
 - Self-closing tags
-  ```
+  ```jsx
   <MyComponent />
   <MyComponent> </MyComponent>
   ```
+
   Note: self-closing HTML tags (eg. <br />, <hr />, <img />) must always have a closing / to be valid JSX.
 
 
 - Attributes Names are camelCased
   
-  - class —> className
+  - class —> `className`
   - html attributes are camelCased
-    - onlclick —> onClick
+    - onlclick —> `onClick`
 
+- (Extra) inline CSS (mention very briefly)
+  - For inline css, you will need a JavaScript object with camelCased properties.
+  - https://reactjs.org/docs/dom-elements.html#style
 
 - Comments in JSX
   ` {/* jsx comment */} `

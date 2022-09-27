@@ -1,42 +1,94 @@
 
 # w1d1
 
-IMPORTANT: 
-- with the new prework, students are well prepared
-- they will find the content (variables, Data Types, loops) repetitive
+<!-- Status: check that it follows the new schedule (v6.3 Mercury) -->
+
+
+<!-- 
+
 
 @LT:
-- check briefly the contents they see in prework
-- Do coding instead of lecture (eg. solve exercise + take it as an excuse to introduce all those concepts).
-- (extra): include Date & some examples
+
+IMPORTANT:
+- Go very fast through basic concepts +++
+- Give plenty of time for Git concepts +++++
+- Give plenty of time for LAB  +++++
 
 
-## Morning
-
-- Project team intro (1h)
-
-
-- DayZero Spreadsheet (20min.)
-- 5min break
-- Icebreaker activity (30min.).
+ -->
 
 
 
+# Morning
 
-- LT intro to bootcamp (1h)  [UPDATE: took 2.5h]
 
-- JS intro (0.5h)
+- Project team intro (30min.)
 
-- Data types (1.5h)
+- Icebreaker activity (30min.)
+  - option 1: introduce yourself
+    - tell us about you
+    - where you're from, background...
+    - why you're doing the bootcamp
+  - option 2: 2 truths 1 lie
+
+(break)
+
+- LT intro to bootcamp (1h)
+
+  - Slides: https://docs.google.com/presentation/d/1rYCVx5wNFST7uh6_hknnrKtpXPVeQ29ytAxeE9mxHWI/edit?usp=sharing
+
+
+(break)
+
+
+- How the web works (30 min.)
+  - Slides: https://docs.google.com/presentation/d/1mGIVU9fWTYII9sUHcIu2RYJ-2KwU6FtNnUtsyZFyiNc/edit?usp=sharing
+  <!-- 
+  
+  @Luis: 
+  - simplify this a lot (some students may find this overwhelming -especially the network panel)
+  - alternative: show the dev tools while we do a codealong (code much more simple)
+  
+  -->
+
+
+- html + css
+
+  <!--
+
+  Tell students: 
+    - I'll try to go fast + focus on fundamentals & good practices
+    - if concepts are not clear (ex. css selectors), please read again through students portal
+
+  -->
+
+
+Notes:
+- Students know all the theory 
+- Instead, build something together
+- Opportunity to speak about good practices & common mistakes
+- Example. ![css exercise](./images/w1d3-css-exercise.png)
+
+
+
+
+
 
 
 ## Afternoon
 
-- Conditionals & loops (1h)  [Ask an exercise instead]
+- Check installations:
+  - example (DayZero Spreadsheet) https://docs.google.com/spreadsheets/d/1j2eFhKKlLDAgk63F36KIxiU1cGI0jknirELqplem8is/edit?usp=sharing
+  
 
-- Pair programming (0.5h)
-- Git intro (0.5h)
+- Git intro (0.5h - ideally 1h) 
+  - git diagram: https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png
+
+  <!-- @todo: prepare slides git  -->
+
+
 
 - LAB: min. 90min. (1.5h)
-
+  - demo with students how to work with labs.
+  - ask them to create a 
 

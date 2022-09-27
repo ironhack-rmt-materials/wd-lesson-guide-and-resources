@@ -17,11 +17,13 @@ Summary of the main topics:
 - How to access the information in a POST request
   - Configure bodyParser (no need to install since it comes with Express)
 
-      ```
+      ```javascript
       const bodyParser = require('body-parser');
       app.use(bodyParser.urlencoded({ extended: true }));
       ```
-  
+
+    <!-- note: ironlauncher will add this configuration for us -->
+   
   - Read info from `req.body`
 
 

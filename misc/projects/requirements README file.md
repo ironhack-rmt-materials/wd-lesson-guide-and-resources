@@ -39,8 +39,8 @@
 
 ## Project 3
 
-We have 2 repos, add one readme file for each repo.
 
+For each repo (front/backend), add a readme file with the following:
 
 - Description
   - Brief description of the project 
@@ -50,21 +50,20 @@ We have 2 repos, add one readme file for each repo.
 
 
 - Instructions to run this app in my computer
-  - for example:
-    - how to install dependencies (`npm install`)
-    - any environment variables that I may need to add (make sure you include all of them).
-    - how to run the application (eg. `npm run dev`, `npm start`, ...)
+  - For example:
+    - How to install dependencies (`npm install`)
+    - Any environment variables that I may need to add (make sure you include all of them).
+    - How to run the application (eg. `npm run dev`, `npm start`, ...)
+
+- Demo
+  - Link to the deployed version of your project
+  - Provide at least the link to Netlify (you can also provide the link to heroku, so that anyone can test the API).
+
 
 
 - (bonus) For the backend, you can document the endpoints that your API implements.
-  - note: this takes a bit of time (make sure you focus on the code, keep this as a bonus).
-  - example: https://github.com/Ironborn-Ironhack-March-2022/ironborn-project-management-server/blob/main/README.md
-
-
-- Demo
-  - Link to the deployed version of your project.
-  - Provide at least the link to Netlify (you can also provide the link to heroku, so that users can test the API).
-
+  - Note: this takes time and is not an essential requirement (make sure you focus on the code, keep this as a bonus).
+  - Example: https://github.com/Ironborn-Ironhack-March-2022/ironborn-project-management-server/blob/main/README.md
 
 
 
@@ -72,4 +71,5 @@ We have 2 repos, add one readme file for each repo.
 ## Resources
 
 - Markdown format: https://www.markdownguide.org/basic-syntax/
+
 

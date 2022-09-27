@@ -3,7 +3,12 @@
 
 <!-- 
 
-Status: @todo
+Status: just some notes
+
+@todo:
+- improve notes, describing each step (esp. for state)
+- create slides or cheatsheet
+
 
 w7d2 is quite challenging for students. Start at good pace from beginning.
 
@@ -38,5 +43,5 @@ Popcorn Time I:
 - Import json with array of movies
 - Iterate through array
 - Conditional rendering (3 options)
-- (extra) display only top-rated movies (store in state) 
+- (extra) sort or display only top-rated movies (store in state) 
 

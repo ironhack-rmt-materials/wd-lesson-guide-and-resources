@@ -40,7 +40,7 @@ How to:
 
 
 Functionality:
-- Model for Author (car write multiple books)
+- Model for Author (can write multiple books)
 - (extra) model for Club (can have multiple authors)
 
 
@@ -59,6 +59,7 @@ Author model
 - Store relationship (explain why we take this approach)
     `author: {type: Schema.Types.ObjectId, ref: "Author"},`
 
+
 Add data to DB
 - We can update seed file to Create Books & Authors
   - for now, we will not store the relationship.
@@ -71,6 +72,7 @@ Functionality to display books
     `.populate('author')`
   - Note: we need to require the model as well
     `const Author = require("../models/Author.model");`
+
 
 Functionality to display book details
   - (bonus) display author info instead of id (practice `populate`)
@@ -86,9 +88,19 @@ Functionality to Create new book
         - We will also need to query the DB (`Author.find()`)
 
 
-Functionality to Display list of authors
-  - eg: information that we can get from the Author model
-  - (Bonus, very advanced & takes time): for each author, display the number of books
+Functionality to Display list of authors (READ)
+  - for each author, display name, country....
+
+
+(Super Super Bonus): for each author, display the number of books
+- Only for most advanced students
+- Interesting patterns:
+  - Access data from another .then()
+  - .map() and .filter()
+  - Compare 2 objectIds (ex. as string)
+- IMPORTANT: Takes a lot of time and many students will feel overwhelmed (do not solve in class)
+- Possible solution: https://github.com/Ironmaidens-Ironhack-Jan-2022/mongoose-express-CRUD-codealong/commit/31acfad2925040330d83ef92f2654e7113135f17
+
 
 
 Other CRUD functionality on Authors

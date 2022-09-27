@@ -14,6 +14,32 @@ Notes:
 
 
 
+
+## Project feedback (ask TAs)
+
+
+<!--
+
+Project 2 feedback:
+
+- just as we did for project1, pls check students projects and, for each project, do the following 2 things (you may need Monday + Tuesday):
+
+1. Give feedback to students (ex. if you see anything to they can learn from).
+- Let's keep it positive.
+- Let's keep it brief (they'll be busy)
+- Let's keep it focused on things they can learn from (they will probably not have time to implement any suggestions)
+
+2. Grade each project.
+- I believe we don't have specific guidelines for that grade, so let's take into account both code + final result.
+- That grade can be done from the same person that reviews each project
+- Let's also aim for simplicity (we should not spend more than 2-5 minutes to decide each mark :pray:).
+
+
+Note: for pair projects, we can apply the same grade, unless there's clear reasons to assign a different grade to a student in the same team.
+
+-->
+
+
 ## Feeling ready ? [45min - 90min]
 
 - [ALTERNATIVE: leaving this to project week + doing a kata with HOF as a Monday warmup]
@@ -25,7 +51,7 @@ Notes:
   - Do you feel ready to start working as a junior dev?
   - Yes! Not yet
 
-- Mural (timer 5 + 5min.)
+- (skip) Mural (timer 5 + 5min.)
     - explain purpose
     - students can add +1's
 
@@ -66,6 +92,8 @@ Notes:
 
 ## Intro to module 3
 
+<!-- @todo: create slides -->
+
 - WARNING: m3 is very challenging for most students.
 
 
@@ -78,7 +106,9 @@ Notes:
 
 
   - See deployment diagram
+    <!-- @todo: create diagram -->
     - https://stackoverflow.com/questions/66503751/cross-domain-session-cookie-express-api-on-heroku-react-app-on-netlify
+
 
   - Content overview (7-day lectures + project)
 

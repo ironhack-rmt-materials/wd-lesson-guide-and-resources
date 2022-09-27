@@ -10,12 +10,13 @@
 
 ## Pre-Setup
 
-Option 1:
-`npx create-react-app react-context-api`
-
-Option 2:
+Option 1 (quicker + we can live share):
 - work from this codesandbox:
   https://codesandbox.io/s/relaxed-rumple-vb9p4i?file=/src/App.js
+  <!-- @Luis: remember to fork !! -->
+
+Option 2 (allows live share):
+`npx create-react-app react-context-api`
 
 
 
@@ -32,6 +33,8 @@ Students portal (highlighted)
 - prop drilling, etc
 
 
+
+
 ## Codealong
 
 
@@ -40,9 +43,10 @@ Students portal (highlighted)
 
 - explain goal. Demo: https://wnj6h.csb.app/projects/
 
-- ask students to have a look & understand code
+- ask students to have a look & understand the initial code
 
 - follow students portal (highlighted)
+  - 2 steps: providing context + consuming
 
 - oficial documentation (highlighted): https://reactjs.org/docs/context.html#reactcreatecontext
 
@@ -59,3 +63,4 @@ Students portal (highlighted)
 - When does a component re-render ?
 
   > A component calling useContext will always re-render when the context value changes.
+

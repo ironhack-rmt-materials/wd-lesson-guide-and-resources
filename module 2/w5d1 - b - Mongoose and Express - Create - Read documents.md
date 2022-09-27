@@ -24,6 +24,9 @@ Codealong Final Result (README.md includes all the steps):
 
 - CRUD
 
+- Since today we're just applying existing concepts, some students find it relatively easy + some other students very difficult
+
+
 
 ## READ: list of books
 
@@ -33,11 +36,11 @@ Codealong Final Result (README.md includes all the steps):
 
 
 - Remember:
-  -- It is important to place the res.render() method inside the .then()
-  -- error handling
+  - place the res.render() method inside the .then()
 
+- Explain Error Handling
 
-    ```
+    ```javascript
     .catch( (error) => {
           console.log("Error getting list of books from DB", error);
           next(error);
@@ -47,13 +50,30 @@ Codealong Final Result (README.md includes all the steps):
 
 ## READ: book details page
 
+<!--
+How: 
+  1. think & plan with students
+  2. give time to solve individually (15min)
+  3. Finally, solve together.
+-->
+
 - route: GET `/books/:bookId`
+- get book id from `req.params.bookId`
 - DB query: Book.findById
 - view: `books/book-details.hbs`
+- modify the view were we render the list of books (`books/books-list.hbs`), so that we provide a link to see the details of a book.
+
+
+<!-- @Luis: bonus for advanced students -->
+(Bonus) Functionality to filter books by min rating
+- Modify route `/books`
+- Use query string + method .filter()
+- Provide a form so that users can search
 
 
 
-## CREATE: new book
+
+## CREATE: create new book
 
 Render Form:
 - route: GET `/books/create`

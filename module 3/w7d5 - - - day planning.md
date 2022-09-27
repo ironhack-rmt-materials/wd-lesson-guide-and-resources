@@ -2,6 +2,17 @@
 # w7d5
 
 
+
+<!--
+
+@Luis: tell TAs that we will probably not do lab kickoff (we can pass our notes to students)
+
+Friday: try to finish earlier.
+
+-->
+
+
+
 - Warmup:
   - Questions from yesterday's lab
   
@@ -10,7 +21,7 @@
     - side-effect & useEffect
     - Routing
 
-  - API request in App only
+  - (Extra) 2 API requests vs. 1 API request in App + pass info as props.
     - In the App from yesterday: show how it is possible to send only a single request to the API (if the API send an array with the details for all resources, we can avoid making a request for each resource).
     - Notes: 
       - takes a bit longer than it seems (30m + 15m)
@@ -20,8 +31,7 @@
 
 
 - Morning
-  - initialize CRA: `npx create-react-app react-ironbnb-client`
-
+  - Work on IronBnb (I have created a minilab for this)
 
 
 
@@ -31,12 +41,21 @@
     - https://meet-them-all.netlify.app/
     - https://meetive.netlify.app
 
+  - they choose the pairs (ie. we will not do the pairs)
   - they can start thinking who they want to do it with + what they want to build
-  - slack #project-ideas
+  - create slack channel #project-ideas
+
 
 - Should I start project3 this weekend ?
   - advice: start thinking & planning
   - wait for coding
+
+
+<!--
+@Luis:
+- if we ask any student to do project individual, tell them asap
+-->
+
 
 
 <!-- 
