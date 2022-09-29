@@ -4,6 +4,13 @@
 
 no solution..
 
+### REMIND
+
+- fork
+- clone
+
+### Guidelines for LAB
+
 @TA:
 
 - `npm init -y`
