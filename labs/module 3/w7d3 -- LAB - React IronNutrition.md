@@ -4,21 +4,21 @@
 
 [SOLUTION](https://gist.github.com/TA-Remote/c09007c6ba56c8335bdaa7512b975acf)
 
-<!-- outdated intro  -->
+<!-- Trying to update the info -->
 
 ## Iteration 0 - Setup
 
-### 1. Install bulma (css framework)
+### 1. Install Ant Design (css framework)
 
-```
-$ npm install bulma --save
+```cli
+  $ npm install antd --save
 ```
 
-### 2. import bulma and foods.json to App.js
+### 2. import antd to the index.js and foods.json to App.js
 
-```
-import 'bulma/css/bulma.css';
-import foodsList from './foods.json';
+```javascript
+  import 'antd/dist/antd.min.css';
+  import foods from './foods.json';
 ```
 
 ---
@@ -31,14 +31,14 @@ import foodsList from './foods.json';
 
 ### 2. return the given html from instructions to render food
 
-### 3. import FoodBox component into App.js and render in return...
+### 3. import FoodBox component into App.js and render in return
 
-```
-import FoodBox from './components/FoodBox';
+```javascript
+  import FoodBox from './components/FoodBox';
 ```
 
-```
-return <FoodBox />
+```javascript
+  return <FoodBox />
 ```
 
 ---
@@ -49,16 +49,18 @@ return <FoodBox />
 
 -> change values accordingly (check json file for keys) - for example:
 
-```
- <img src={props.image} alt={props.name} />
+```javascript
+  <img src={props.image} alt={props.name} />
 ```
 
-### 2. in App.js use .map() method to render all foods from json
+## Iteration 3 - Render a List of FoodBox Components
+
+### 1. in App.js use .map() method to render all foods from json
 
 -> (no state neccessary here)
 
-```
-   {foodsList.map((food) => {
+```javascript
+   {foods.map((food) => {
    return (
    <FoodBox
       name={food.name}
@@ -71,24 +73,26 @@ return <FoodBox />
 
 ---
 
-## Iteration 3 - Add new food form
+## Iteration 4 - Add new food form
 
 ### 1. create new AddFoodForm.js component
 
 ### 2. create onSubmit-Form with all input values (name, image, calories, servings)
 
-```
-   <div class="AddFoodForm">
-      <div className={isHide ? 'show' : 'hide'}>
-        <form onSubmit={submitButton}>
-          <label>Name</label>
+```javascript
+  <div class="AddFoodForm">
+    <div className={isHide ? 'show' : 'hide'}>
+      <form onSubmit={submitButton}>
+        <label>Name:
           <input
             name="name"
             value={addedFood.name}
             type="text"
             onChange={handleInputChange}
           />
-          <label>Image</label>
+        </label>
+        
+        <label>Image:
           <input
             name="image"
             value={addedFood.image}
@@ -96,24 +100,28 @@ return <FoodBox />
             placeholder="https://via.placeholder.com/30x30"
             onChange={handleInputChange}
           />
-          <label>Calories</label>
+        </label>
+
+        <label>Calories:
           <input
             name="calories"
             value={addedFood.calories}
             type="number"
             onChange={handleInputChange}
           />
+        </label>
 
-          <button type="submit" id="buttonCreate">
-            Create
-          </button>
-        </form>
-      </div>
+        <button type="submit" id="buttonCreate">
+          Create
+        </button>
+      </form>
+    </div>
+  </div>
 ```
 
 ### 3. create useState for addedFood with initial states for these values (empty strings)
 
-```
+```javascript
    const [addedFood, setAddedFood] = useState({
    name: '',
    image: '',
@@ -126,7 +134,7 @@ return <FoodBox />
 
 --> all fields with onChange
 
-```
+```javascript
    const handleInputChange = (event) => {
    const value = event.target.value;
    setAddedFood({ ...addedFood, [event.target.name]: value });
@@ -135,65 +143,29 @@ return <FoodBox />
 
 ### 5. create function for submitButton and define function handleSubmit as props to App.js
 
-```
+```javascript
 const submitButton = (event) => {
 props.handleSubmit(event, addedFood);
 };
-```
-
-## // function to hide
-
-### 6. add useState to change isHide state
-
--> set initial state to 'false'
-
-```
-const [isHide, setIsHide] = useState(false);
-```
-
-### 7. create function to hide/show form in button
-
--> setIsHide function will always do what is different the current state (!isHide)
-
-```
-  const handleHide = () => {
-    setIsHide(!isHide);
-  };
-```
-
-## 8. add property in App.css with class with default not displayed
-
-```
-.hide {
-  display: none;
-}
-```
-
-## 9. add div around Form with className
-
--> use iternary to change className
-
-```
-<div className={isHide ? 'show' : 'hide'}>
 ```
 
 ## // Lift up to App.js
 
 ### 10. import AddFoodForm.js to App.js
 
-```
-import AddFoodForm from './components/AddFoodForm';
+```javascript
+  import AddFoodForm from './components/AddFoodForm';
 ```
 
 ## 11. add useState to change rendered FoodsList
 
-```
-const [foods, setFoods] = useState(foodsList);
+```javascript
+  const [foods, setFoods] = useState(foodsList);
 ```
 
 ## 12. add function handleSubmit (for props from AddFoodForm)
 
-```
+```javascript
     const handleSubmit = (event, newFood) => {
     event.preventDefault();
     const updateFood = [newFood, ...foods];
@@ -203,8 +175,8 @@ const [foods, setFoods] = useState(foodsList);
 
 ## 13. add AddFoodForm.js component in return to render
 
-```
-    <AddFoodForm handleSubmit={handleSubmit} />
+```javascript
+  <AddFoodForm handleSubmit={handleSubmit} />
 ```
 
 ## 14. change the array that uses .map()
@@ -212,87 +184,126 @@ const [foods, setFoods] = useState(foodsList);
 -> now we not tell to render foodsList from json only, but also the added food
 -> so use foods from state
 
-```
-foods.map()
-...
+```javascript
+  foods.map()
 ```
 
 ---
 
-# Iteration 4 - Search
+## Iteration 5 - Search
 
-## 1. add state for filteredFoods
+### 1. add state for filteredFoods
 
-```
-const [filteredFoods, setFilteredFoods] = useState('');
-```
-
-## 2. add function handleSearchInput
-
-```
-const handleSearchInput = (event) => {
-setFilteredFoods(event.target.value);
-};
+```javascript
+  const [filteredFoods, setFilteredFoods] = useState('');
 ```
 
-## 3. add searchbar html
+### 2. add function handleSearchInput
+
+```javascript
+  const handleSearchInput = (event) => {
+    setFilteredFoods(event.target.value);
+  };
+```
+
+### 3. add searchbar html
 
 -> add input field in return of App.js (no need to create extra component)
 
-```
-<div className="Searchbar">
-         <input
-            value={filteredFoods}
-            placeholder="Search food"
-            type="text"
-            onChange={handleSearchInput}
-          />
-        </div>
+```javascript
+  <div className="Searchbar">
+    <input
+      value={filteredFoods}
+      placeholder="Search food"
+      type="text"
+      onChange={handleSearchInput}
+    />
+  </div>
 ```
 
-## 4. change your foods.map()
+### 4. change your foods.map()
 
 -> filter before map + iternary operator for when foodsList = 0)
 -> when filter make it case-insensitive with toLocaleLowerCase()
 
-```
-{foods.length === 0 ? (
-            <h1>Oops! There is no more content to show</h1>
-          ) : (
-            foods
-              .filter((food) => {
-                const lowerFilter = filteredFoods.toLocaleLowerCase();
-                return food.name.toLocaleLowerCase().includes(lowerFilter);
-              })
-              .map((food, index) => {
-                return (
-                  <div key={index}>
-                    <FoodBox
-                      name={food.name}
-                      calories={food.calories}
-                      image={food.image}
-                    />
-                  </div>
-                );
-              })
-          )}
+```javascript
+  {foods.length === 0 
+    ? 
+    <h1>Oops! There is no more content to show</h1>
+    :
+    foods
+      .filter((food) => {
+        const lowerFilter = filteredFoods.toLocaleLowerCase();
+        return food.name.toLocaleLowerCase().includes(lowerFilter);
+      })
+      .map((food, index) => {
+        return (
+          <div key={index}>
+            <FoodBox
+              name={food.name}
+              calories={food.calories}
+              image={food.image}
+            />
+          </div>
+        );
+      })
+  }
 ```
 
+## Iteration 6 - Create a delete button
+
+## BONUS Iteration 7 - Hide Form
+
+### 1. add useState to change isHide state
+
+-> set initial state to 'false'
+
+```javascript
+const [isHide, setIsHide] = useState(false);
+```
+
+### 2. create function to hide/show form in button
+
+-> setIsHide function will always do what is different the current state (!isHide)
+
+```javascript
+  const handleHide = () => {
+    setIsHide(!isHide);
+  };
+```
+
+## 3. add property in App.css with class with default not displayed
+
+```javascript
+  .hide {
+    display: none;
+  }
+```
+
+## 4. add div around Form with className
+
+-> use iternary to change className
+
+```javascript
+  <div className={isHide ? 'show' : 'hide'}>
+```
+
+<!-- That is from the older version of the lab -->
 ## Iteration 5 - Create add-button // Todays Food
 
 ### 1. Create new State
 
 -> state with empty array
 
-```
-const [todaysFoods, setTodaysFoods] = useState([]);
+```javascript
+  const [todaysFoods, setTodaysFoods] = useState([]);
 ```
 
 ### 2. Create handleAddFood function in App.js
 
 -> function to add value to todaysFood, when clicking on add-button
 
-```
+```javascript
  const handleAddFood = (addedFood) => {
     setTodaysFoods((prevTodaysFood) => [addedFood, ...prevTodaysFood]);
   };
@@ -300,15 +311,15 @@ const [todaysFoods, setTodaysFoods] = useState([]);
 
 ### 3. Pass down handleAddFood into child component FoodBox.js
 
-```
-<FoodBox food={food} onAddFood={handleAddFood} />
+```javascript
+  <FoodBox food={food} onAddFood={handleAddFood} />
 ```
 
 ### 4. Inside FoodBox.js
 
 --> add onClick event on button(+); through onClick we sending the updated food object with new amount from input field
 
-```
+```javascript
  <button
    onClick={() => {
    props.onAddFood({
@@ -316,18 +327,18 @@ const [todaysFoods, setTodaysFoods] = useState([]);
       amount: amount,
    });
    }}
->
+  >
 ```
 
 --> create state to hold amount
 
-```
+```javascript
  const [amount, setAmount] = useState(1);
 ```
 
 --> create function to handle amount input field
 
-```
+```javascript
  const handleChangeAmount = (event) => {
     setAmount(event.target.value);
   };
@@ -343,38 +354,42 @@ Just minor suggestions (see above);
 As a hint to hide the "AddFood"-Form:
 -> add a state, so you can change if hide or shown
 
-```
+```javascript
   const [isHide, setIsHide] = useState(false);
 ```
 
 -> Wrap a div around whole form:
 
-```
-<div className={isHide ? 'show' : 'hide'}>
-...
-</div>
+```javascript
+  <div className={isHide ? 'show' : 'hide'}>
+  ...
+  </div>
 ```
 
 -> write function to handle this state:
 
-```
+```javascript
   const handleHide = () => {
    setIsHide(!isHide);
- };
+  };
 ```
 
 -> add these html in your return:
 
-```
+```javascript
   <button id={isHide ? 'hide' : 'show'} onClick={handleHide}>
-      {isHide ? 'Hide' : 'Show'}
-    </button>
+    {isHide ? 'Hide' : 'Show'}
+  </button>
 ```
 
 -> at least define a class in your CSS
 
+```javascript
+  .hide {
+  display: none;
+  }
 ```
-.hide {
-display: none;
-}
-```
+
+
+
+
