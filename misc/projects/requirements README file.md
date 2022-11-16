@@ -12,9 +12,12 @@
   - You can also add screenshots :) 
 
 - Instructions to play
+  - Important: make sure that anyone with the link can play your game (ie. if it is not trivial, include also instructions in the game itself)
 
 - Demo
   - Link to the deployed version of your project (github pages)
+
+
 
 
 
@@ -57,7 +60,7 @@ For each repo (front/backend), add a readme file with the following:
 
 - Demo
   - Link to the deployed version of your project
-  - Provide at least the link to Netlify (you can also provide the link to heroku, so that anyone can test the API).
+  - Provide at least the link to Netlify (you can also provide the link to adaptable/fly.io, so that anyone can test the API).
 
 
 

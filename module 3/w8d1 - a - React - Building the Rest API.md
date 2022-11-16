@@ -30,25 +30,26 @@
 
 -->
 
+
+
 ## Setup
 
 - Create directory `project-management-fullstack`
 
-- Ironlauncher: `npx ironlauncher project-management-server --auth --json`
-  - NOTE: generates auth with sessions (we will implement with jwt, tomorrow)
+- Ironlauncher: `npx ironlauncher cohortName-project-management-server --auth --json`
 
 
-  <!-- 
-
-  @Luis / IMPORTANT
-  @Luis / IMPORTANT
-  @Luis / IMPORTANT
-  @Luis / IMPORTANT
+<!-- IMPORTANT  -->
+<!-- IMPORTANT  -->
+<!-- IMPORTANT  -->
   
-  initialize with ironlauncher --auth --json 
-  (so that we can speed up backend auth lecture) 
-  
-  -->
+- Initialize with `ironlauncher --auth --json` 
+
+<!-- IMPORTANT  -->
+<!-- IMPORTANT  -->
+<!-- IMPORTANT  -->
+
+
 
 
 ## Part 1: intro to REST & best practices 
@@ -60,6 +61,19 @@ REST API Design Best Practices (see students portal):
 - Use nouns instead of verbs in endpoint paths
 - Use HTTP verbs to indicate the action (GET, POST, PUT, DELETE)
 - Handle errors uniformly and respond with standard HTTP status codes
+
+
+## If dependencies missing...
+
+In case ironlauncher --auth --json does not install the dependencies:
+
+  ```
+  npm install bcrypt@5.0.1 cookie-parser@1.4.6 cors@2.8.5 dotenv@16.0.3 express@4.18.1 express-jwt@7.7.5 jsonwebtoken@8.5.1 mongoose@6.6.7 morgan@1.10.0
+  ```
+
+  ```
+  npm install nodemon@2.0.20 --save-dev
+  ```
 
 
 ## Part 2:
@@ -111,17 +125,15 @@ REST API Design Best Practices (see students portal):
   - Refresh embeded vs. Reference
 
 
-
 - Build (advanced students can do that in pairs in breakout rooms)
-
 
 
 Routes (implement each one + TEST WITH POSTMAP):
 1. POST /projects
 2. POST /tasks
 3. GET /projects
-4. GET /projects:projectId
-5. PUT /projects:projectId
+4. GET /projects/:projectId
+5. PUT /projects/:projectId
 6. DELETE /projects/:projectId
 
 - Each route: implement + TEST WITH POSTMAN
@@ -136,8 +148,9 @@ Routes (implement each one + TEST WITH POSTMAP):
 Bonus: full CRUD on tasks
   - GET /tasks
   - GET /tasks/:taskId
-  - PUT
-  - DELETE
+  - PUT /tasks/:taskId
+  - DELETE /tasks/:taskId
+
 
 - Minor improvement: when a project is deleted, remove also the associated tasks.
   - note: make sure to import Task model
@@ -168,6 +181,7 @@ Bonus: full CRUD on tasks
 
 
 
+
 ## EXTRA CHALLENGES
 
 Some options for extra challenges (they're not exclusive, can be combined):
@@ -184,7 +198,7 @@ Some options for extra challenges (they're not exclusive, can be combined):
   - main thing to keep in mind is that you will need to enable CORS requests on the API
 we will explain what is CORS and all those details a bit later but the code to do that is in "React | Building the Rest API" > "Enable CORS requests"
 
-- Bonus3: deploy your API on heroku + mongoAtlas
+- Bonus3: deploy your API on fly.io + mongoAtlas
   - Next week  we will do deployment for project3 but, if you want, you can also put this project online. 
   - You woud be able to test it with Postman/Compass, just as we're doing on localhost.
 

@@ -2,6 +2,14 @@
 
 # LAB - Wiki Countries
 
+
+<!--
+
+How: individual / in pairs
+
+-->
+
+
 Main topics:
 - Routing (Routes, URL parameters)
 - useEffect
@@ -22,6 +30,14 @@ Notes to students:
 - You need borders, it's an array (some countries don't have borders, so it is empty)
 - Navbar component is not a Route, it's always there!
 - To display all borders .map() over it (it's an array)
+
+
+
+Common pain points:
+
+- error while data loading (ex. can not read properties of undefined)
+  - conditional rendering.
+
 
 
 

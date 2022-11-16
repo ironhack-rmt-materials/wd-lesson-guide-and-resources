@@ -9,6 +9,13 @@
 status: draft
 
 
+
+@Luis:
+- final code is provided at the end of the students portal
+- ex. https://github.com/ironhack-labs/lesson-code-project-management-client-v2/tree/master
+
+
+
 -->
 
 
@@ -17,14 +24,19 @@ status: draft
 
 
 Methodology:
-Offer students these 2 options
 
 
 - Option 1: 
+  - Self-guided
+  - All main concepts have been covered already
+  - Minor diferences:
+    - Functionality to "Update" (form needs to be prefilled) (MAIN NEW THING)
+    - directory "pages" for components
+- Option 2: 
   - follow students portal (copy code & understand what we do)
   - quicker
 
-- Option 2:
+- Option 3:
   - Plan the app with students (we have an API, now what functionality we build for the frontend)
   - Implement as much as we have time.
     - feb22: we just had time for:

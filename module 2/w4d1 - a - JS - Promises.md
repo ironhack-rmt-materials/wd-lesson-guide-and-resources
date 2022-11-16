@@ -35,7 +35,7 @@
 
     ```
 
-  - v2: add timout + callback
+  - v2: add timeout + callback
 
   - v3: add serveTheTable(): now we have to call a function passing a callback and inside another callback.... 
 
@@ -95,7 +95,7 @@
 https://www.javascripttutorial.net/wp-content/uploads/2020/03/JavaScript-Promise-state.png
 
 
-- Note: a Promise can only be `settled` (fulfilled or rejected) once.
+- Note: a Promise can only be `settled` (resolved) (fulfilled or rejected) once.
 
 
 
@@ -141,7 +141,7 @@ Example: https://stackblitz.com/edit/js-jw7jql?file=index.js
 - Each .then() returns a newly generated promise object, which can optionally be used for chaining
 
 ```javascript
-aFunctionThatReturnsAPromise
+aFunctionThatReturnsAPromise()
 .then(handleResolvedA)
 .then(handleResolvedB)
 .then(handleResolvedC)
@@ -182,16 +182,13 @@ p1.then((val) => val + 2)
 ## async/await
 
 - Note: needed for the lab
+- see `JS - Async-Await.md`
+  <!-- @Luis: see also stackblitz links at the end of this file  -->
 
 
 ## (extra) watch a youtube video together:
 
 - JS promises in 100 Seconds: https://www.youtube.com/watch?v=RvYYCGs45L4
-
-- JavaScript Promises In 10 Minutes (11:30): https://www.youtube.com/watch?v=DHvZLI7Db8E
-  - Promises
-  - Callback syntax
-  - Promise.all()
 
 - Async JS Crash Course - Callbacks, Promises, Async Await (24:30): https://www.youtube.com/watch?v=PoRJizFvM7s
   - Promises
@@ -199,6 +196,12 @@ p1.then((val) => val + 2)
   - fetch()
   - aynct/await
 
+- JavaScript Promises In 10 Minutes (11:30): https://www.youtube.com/watch?v=DHvZLI7Db8E
+  - NOTE: AVOID THIS ONE (students find this one confusing).
+  - Creating Promises with new Promise()
+  - Consuming Promises with .then().catch()
+  - Callback syntax
+  - Promise.all()
 
 
 ## Code from previous courses:
@@ -206,14 +209,23 @@ p1.then((val) => val + 2)
 - Consuming promises:
   - Initial example with callbacks:
     https://stackblitz.com/edit/js-m92ra4?file=index.js
+
   - Basic example with .fetch:
     https://stackblitz.com/edit/js-9hfrjq?file=index.js
+  
   - Basic example of Consuming and Chaining promises with .then().catch()
     https://stackblitz.com/edit/js-4hdgpr?file=index.js
+
   - Consuming promises with .then().catch() & Promise.all()
     https://stackblitz.com/edit/js-az5e4a?file=index.js
+
   - Consuming promises with Async/await
     https://stackblitz.com/edit/js-2qc8xw?file=index.js
+
+
+- Callback pattern vs. Promises vs. Async/Await
+  https://stackblitz.com/edit/js-ifcwpk?file=index.js
+
 
 - Creating promises:
   - initial code with callbacks:
@@ -222,6 +234,3 @@ p1.then((val) => val + 2)
     https://stackblitz.com/edit/js-vemwgp?file=index.js
   - CREATING PROMISES and consuming with async/await
     https://stackblitz.com/edit/js-ftozmy?file=index.js
-
-- Callback pattern vs. Promises vs. Async/Await
-  https://stackblitz.com/edit/js-ifcwpk?file=index.js

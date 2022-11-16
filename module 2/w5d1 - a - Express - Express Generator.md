@@ -30,7 +30,7 @@ Summary:
 - Setup your project (with NPX):
 
     ```
-    npx ironlauncher library-project
+    npx --yes ironlauncher library-project
     ```
 
     Choose:
@@ -44,10 +44,10 @@ Summary:
 - Explain `npx` (vs. npm install)
 
 - Explain...
-  - Open package.json & explain scripts (start / dev)
+  - Open `package.json` & explain scripts (start / dev)
   - run: `npm run dev`
   - Opinionated (dependencies + structure)
-    - we coult use other packages
+    - we could use other packages
     - the structure created by the generator is just one of many ways to structure Express apps
   - dependencies
   - general folder structure (`/models`, `/routes`, `/views`)
@@ -96,9 +96,7 @@ npm i nodemon@2.0.19 --save-dev
 - Add Book model (students portal: 'Adding the model')
   `models/Book.model.js`
 
-  - IMPORTANT (I): follow the same model as students portal (so that we can use seed file later)
-
-  - IMPORTANT (II): seed file in the students portal has a little bug: wait for connection to be stablished before creating documents on the DB (may 2022).
+  - IMPORTANT: follow the same model as students portal (so that we can use seed file later)
 
 
 ### Seed File

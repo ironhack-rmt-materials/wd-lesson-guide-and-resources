@@ -61,7 +61,7 @@ Author model
 
 
 Add data to DB
-- We can update seed file to Create Books & Authors
+- We can update `seed file` to Create Books & Authors
   - for now, we will not store the relationship.
 - Store relationships in our DB
   - we can do it manually on Compass for now.
@@ -76,6 +76,19 @@ Functionality to display books
 
 Functionality to display book details
   - (bonus) display author info instead of id (practice `populate`)
+
+
+
+(Optional Exercise) Understand why "Create" does not work
+
+  TASK:
+  - try to understand: why functionality to CREATE does not work.
+  - discuss: how we could solve it (do not modify code yet)
+
+  How: groups of 2-3
+  Time: 15 minutes
+
+
 
 
 Functionality to Create new book
@@ -130,6 +143,16 @@ Other CRUD functionality on Authors
 
   });
   ```
+
+  <!--
+
+  @Luis: 
+  - they will need something very similar for last iteration of today's lab
+  - Iteration #10: Editing Movies
+
+  -->
+
+
 
 
 (Super Bonus) Add model Club (a club can have multiple authors)

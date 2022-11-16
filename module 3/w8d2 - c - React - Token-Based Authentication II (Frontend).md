@@ -21,8 +21,11 @@ Methodology:
 
 
 New topics introduced in this unit:
+- (context API)
 - local storage for the token
-- send token in headers of http request with axios
+- send token in headers of http request with axios ("Set Request Headers")
+- Private Pages
+
 
 
 Sections in the student portal:

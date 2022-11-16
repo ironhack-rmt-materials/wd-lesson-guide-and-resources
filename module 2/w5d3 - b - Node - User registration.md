@@ -46,13 +46,13 @@ Sample: https://github.com/Ironmaidens-Ironhack-Jan-2022/mongoose-express-CRUD-c
 
 - Generate hash
 
-    ```
+    ```js
     const bcryptjs = require('bcryptjs');
     const saltRounds = 10;
     ```
 
 
-    ```
+    ```js
     bcryptjs
         .genSalt(saltRounds)
         .then(salt => bcryptjs.hash(password, salt))
@@ -64,7 +64,7 @@ Sample: https://github.com/Ironmaidens-Ironhack-Jan-2022/mongoose-express-CRUD-c
 
 - Query DB
 
-  ```
+  ```js
   User.create(
     {
       email,

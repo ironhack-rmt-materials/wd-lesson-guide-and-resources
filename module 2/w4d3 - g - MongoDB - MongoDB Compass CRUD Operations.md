@@ -41,7 +41,10 @@ Note:
 
   1. Download .zip from here: https://s3-eu-west-1.amazonaws.com/ih-materials/learning-units/movies.json.zip
     
-    <!--  @Luis: send json directly on slack. -->
+    <!--  
+      @Luis: send json directly on ZOOM. 
+      (sharing on slack sometimes gives problems)
+    -->
 
   2. Import: 
   

@@ -9,6 +9,7 @@ Status: just some notes as a summary
 
 Notes:
 - Some students find it difficult to remember how to pass & receive props (even after a few days).
+
 - Do more practice with a basic exercise. Ex: 
   - create stackblitz
   - ask students to create a child component
@@ -24,7 +25,7 @@ https://docs.google.com/presentation/d/1iqYSImZj7p58ahLWryMSp00ooCCEf2cnIhjwc-pM
 
 <!-- 
   @todo: 
-  - add some code syntax to  the slides (how to pass props when we render a component etc)
+  - add some code syntax to the slides (how to pass props when we render a component etc)
 -->
 
 
@@ -33,6 +34,10 @@ https://docs.google.com/presentation/d/1iqYSImZj7p58ahLWryMSp00ooCCEf2cnIhjwc-pM
 - Differences
 - How to create a function component
 - How to create a class component
+
+Examples: 
+- https://reactjs.org/docs/components-and-props.html#function-and-class-components
+
 
 Example: create a sample app with the following components inside `<App />`:
 
@@ -151,7 +156,7 @@ Exercise (OPTION 2) same but with movies (instead of users)
   - A JS expression (eg. foo={2+2})
 
 
-- Props defaults to true
+- (Extra) Props defaults to true
 
   ```jsx
   <MyTextBox autocomplete />

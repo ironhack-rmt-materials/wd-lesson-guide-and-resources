@@ -17,6 +17,8 @@
 
 ## Demo
 
+<!-- @todo: create gist -->
+
 
 How: 
 - on a repo 
@@ -25,19 +27,26 @@ How:
 
 Example:
 
-1. git checkout -b <branchname> --> create branch and move to it.
+1. git checkout -b <branchname> (create branch and move to it)
+  ex. `git checkout -b develop`
 
 2. make commit(s) in the new branch
+  ex. `git commit -m "abc"`
 
-3. git checkout main --> move again to the main branch
+3. git checkout <branchname> (move to a different branch)
+   ex. `git checkout main`
 
-4. git merge <branchname> --> merge code from "branchname" into current branch
+4. git merge <branchname> (merge code from "branchname" into current branch)
 
 
 If we want to continue working on "develop"...
 - git checkout develop --> move again to "develop" branch
 - make commit(s)
 - repeat points 3. and 4.
+
+
+
+
 
 
 

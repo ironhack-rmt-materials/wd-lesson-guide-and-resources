@@ -30,6 +30,39 @@
 
 
 
+## First step
+
+
+Task:
+
+- Create 3 routes (one for each pizza)
+- For each route, just do `response.send()` with a short message
+  - /pizzas/margherita --> response.send("page for margherita")
+  - /pizzas/carbonara --> response.send("page for carbonara")
+  - /pizzas/funghi --> response.send("page for funghi")
+
+
+## Second step
+
+- Create 3 html files (one for each product)
+  <!-- Only LT (ask students to skip this step) -->
+
+- Add a navbar
+
+
+- Explain why this is not ideal (DRY)
+
+- Solution:
+  - We will use a template engine (handlebars)
+
+- Handlebars:
+  - Reuse code for all pages → Layout
+  - Reuse code for pages of the same type → Views
+  - Reuse code inside your views → Partials
+
+
+
+
 ## Basic Setup
 
 - Install hbs
@@ -44,7 +77,9 @@
     ```
 
 
+
 - Create a view (ex. `views/product.hbs`)
+  - @Luis: do layout first? Nope, we need to do res.render() first
 
 
 - Render a view
@@ -57,8 +92,9 @@
 
 ## Handlebars
 
-- Handlebars.js is the JavaScript library for building clean logic-less templates based on the Mustache Templating Language.
-    - "Templating Language"
+- Handlebars:
+  - JavaScript library for building templates 
+  - based on the Mustache Templating Language
 
 - Advantage: "we can make templates dynamic"
 
@@ -68,10 +104,12 @@
 
     ```javascript
       app.get("/", (req, res, next) => {
-        let data = {
-            name: "Ironhacker",
-            bootcamp: "Ironhack Web Dev"
-        };
+        const data = {
+            title: "Pizza Margherita",
+            price: 8,
+            imgFile: "pizza-margherita.jpg",
+            ingredients: ["mozzarella", "tomato sauce", "basilicum"]
+        }
 
         res.render("index", data);
       });
@@ -80,13 +118,17 @@
 
 
     ```hbs
-      <h1>Hello {{name}}!</h1>
-      <p>Welcome to the {{bootcamp}}!!</p>
+      <h1>Title {{title}}</h1>
+      <p>Price {{price}}</p>
     ```
 
+  <!--
+  @Luis: Image files
+    https://github.com/ironicHackers-Ironhack-Sept-22/ecommerce-ironic-pizzas/tree/main/public/images
+  -->
 
 
-## (Bonus) Escaping HTML
+## (skip) Escaping HTML
 
 - We can send HTML to the view
   - Scape with `{{{ }}}`
@@ -103,16 +145,16 @@
 
 
     ```hbs
-      {{#if age}}
-          <p>Age: {age}</p>
+      {{#if price}}
+        <p>Price {{price}}</p>
       {{/if}}
     ```
 
     ```hbs
-      {{#if firstName}}
-          {{firstName}}
+      {{#if price}}
+        <p>Price {{price}}</p>
       {{else}}
-          Info not available
+        <p>Price upon request</p>
       {{/if}}
     ```
 
@@ -122,7 +164,9 @@
 
 
 - `each` block helper
-  - iterate through arrays/objects
+  - iterate through arrays/objects 
+  - example: array of ingredients
+  - `{{this}}`
   - @index
   - @key
   - @first - @last

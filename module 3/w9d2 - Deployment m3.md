@@ -141,7 +141,7 @@ Ask students to submit urls (github x2 + netlify) on students portal
   Note: definition of "Publish directory": https://docs.netlify.com/configure-builds/get-started/#definitions
 
 
-  note: `_redirects ` needs to go in /public directory
+  note: `/public/_redirects` needs to go in /public directory
   `/*  /index.html  200`
 
 

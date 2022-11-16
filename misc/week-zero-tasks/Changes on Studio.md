@@ -9,6 +9,7 @@ I usually apply all those changes on the students portal for all cohorts.
 
 
 
+<!-- @Luis: check unit "What's new"  -->
 
 
 ## Module 0: Tips & tricks for success
@@ -64,7 +65,7 @@ Remove:
   - Move the Assessment to beginning of w2d4.
   - Put all canvas units at the end of w2d4.
 
-
+<!-- @Luis: schedule reminder to check m2 installations -->
 
 ## Module 2
 
@@ -101,6 +102,9 @@ Remove:
 - w8d1 "[EXTRA] Assessment review - React Fundamentals 1" (most students perform well + they will receive solutions + if they have questions they can ask)
 
 - w8d3 "[EXTRA] Assessment review - React Fundamentals 2" (most students perform well + they will receive solutions + if they have questions they can ask)
+
+
+- w8d1 "Integrating the React App" - Self-guided (or provide a video)
 
 
 - w8d2 Context API --self guided + move to w8d1 (as task to do in the evening)

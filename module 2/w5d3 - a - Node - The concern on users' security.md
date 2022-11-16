@@ -21,6 +21,8 @@ https://docs.google.com/presentation/d/1gNCZq7lZiph_Dzde34FuL6MI01c0ge1u3djxZMNW
 
 ## Bcrypt Demo
 
+<!-- @Luis: do DEMO (not codealong) -->
+
 - Follow students portal: "Demo"
 
 - Specific things to explain:

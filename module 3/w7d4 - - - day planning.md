@@ -29,7 +29,11 @@ Notes:
 Ask students for yesterday's LAB (specific questions)
 
 
+
 ## Refresh
+- communication between components (props & callbacks)
+- lifting state up
+- forms (controlled components)
 
 
 

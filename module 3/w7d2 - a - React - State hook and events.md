@@ -20,6 +20,7 @@ Status: draft
   - Function components
   - Class components
 
+
 - Hooks:
   - They let you use state and other React features without writing a class.
   - https://reactjs.org/docs/hooks-intro.html
@@ -52,8 +53,44 @@ Status: draft
 
 <!-- @Luis: work on the app we built yesterday -->
 
-Example: we will add a counter
-- Counter +1
+Codealong: 
+  - OPTIONS:
+    - option1: add a counter to the Header
+    - option2: add a counter to a component that repeats multiple times (ex. User, Movie)
+  - display a message: "Number of times that the user has clicked: XXXX"
+  - add button 
+  - add onClick event
+  - Explain different patterns (before implementing the function):
+    - `onClick={() => { console.log("clicked...")}}`
+    - `onClick={increaseCounter}`
+    - `onClick={ () => {increaseCounter()}}`
+  - Explain how to send an argument:
+    - `onClick={ () => {increaseCounter(20)}}`
+  - Try to solve with a normal variable & see how that doesn't work.
+
+      ```js
+          let counter = 0;
+
+          const increaseCounter = () => {
+              console.log("increasing counter....")
+              counter++;
+              console.log(counter)
+          }
+      ```
+
+  - Intro State: 
+    - Store information that belongs to a component
+    - Can change over time
+    - We want to reflect the changes in the UI (JSX)
+
+  - Solve with State
+
+    ```js
+      const [counter, setCounter] = useState(0);
+    ```
+
+
+
 
 
 Explain:

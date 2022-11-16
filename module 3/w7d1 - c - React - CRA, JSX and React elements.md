@@ -16,7 +16,7 @@
   - note: we've tested with CRA install globally vs. not, and takes the same time to create an app.
 
 
-- Create app with CRA `npx --yes create-react-app my-first-react-app`
+- Create app with CRA `npx --yes create-react-app react-playground`
   
   Note: `--yes` flag 
   - Appartently in recent versions (I'm using npm v.6.14, students were using npm v.8) (https://stackoverflow.com/questions/69006097/does-npx-no-longer-do-install-less-run)
@@ -28,12 +28,15 @@
 
 - Explain file & folder structure (for the app we've just created)
 
+  - `package.json`
+    - dependencies
+    - how we can run our app (`npm start`)
+      - mention yarn
+
   - `public/index.html` is the only .html file for the entire React app.
   - `src/index.js` file is the default entry point to any React app.
 
-  - How we can run our app:
-    - `npm start`
-    - mention yarn
+
 
 
 - JSX:
@@ -94,6 +97,9 @@
       ```
 
 
+- (bonus) config JSX autocomplete on VS Code:
+  - https://stackoverflow.com/questions/39320393/jsx-or-html-autocompletion-in-visual-studio-code
+
 
 - Self-closing tags
   ```jsx
@@ -110,9 +116,11 @@
   - html attributes are camelCased
     - onlclick —> `onClick`
 
+
 - (Extra) inline CSS (mention very briefly)
   - For inline css, you will need a JavaScript object with camelCased properties.
   - https://reactjs.org/docs/dom-elements.html#style
+
 
 - Comments in JSX
   ` {/* jsx comment */} `

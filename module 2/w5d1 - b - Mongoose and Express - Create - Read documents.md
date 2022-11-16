@@ -27,6 +27,9 @@ Codealong Final Result (README.md includes all the steps):
 - Since today we're just applying existing concepts, some students find it relatively easy + some other students very difficult
 
 
+- Basic slides: 
+  - https://docs.google.com/presentation/d/1YRtTti-K2v4_ZigCC60-pvx4XvbpPhoRH1lAjNXbnRg/edit?usp=sharing
+
 
 ## READ: list of books
 

@@ -2,6 +2,8 @@
 # Project 3 examples
 
 
+<!-- NOTE: heroku projects will be outdated -->
+
 <!-- @todo: review list + put easier first -->
 
 https://meet-them-all.netlify.app/

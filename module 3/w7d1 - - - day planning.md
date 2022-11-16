@@ -106,8 +106,8 @@ Note: for pair projects, we can apply the same grade, unless there's clear reaso
 
 
   - See deployment diagram
-    <!-- @todo: create diagram -->
-    - https://stackoverflow.com/questions/66503751/cross-domain-session-cookie-express-api-on-heroku-react-app-on-netlify
+    - NEW: https://docs.google.com/presentation/d/1pGyIT8lYwxq5ftCoye5KK6TbJfgJxO3t2MdoOxsl4ss/edit?usp=sharing
+    - OLD: https://stackoverflow.com/questions/66503751/cross-domain-session-cookie-express-api-on-heroku-react-app-on-netlify
 
 
   - Content overview (7-day lectures + project)
@@ -149,7 +149,7 @@ Note: for pair projects, we can apply the same grade, unless there's clear reaso
 
 
 
-## Homework Bonus
+## Homework Bonus (very recommended)
 
 > Did watching the video helped you?
 > 

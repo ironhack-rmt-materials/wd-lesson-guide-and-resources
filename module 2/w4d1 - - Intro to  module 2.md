@@ -6,6 +6,8 @@
   - So far we've produced FrontEnd code only
   - In this module, we will produce BackEnd code
     - JS running on the server + Database
+  - Diagram: 
+    - Slides "intro to module 2": https://docs.google.com/presentation/d/1tlIuadz1fxwslZcKwxDw413ZuELFg8rbcO8VuocuRUA/edit?usp=sharing
 
 
 

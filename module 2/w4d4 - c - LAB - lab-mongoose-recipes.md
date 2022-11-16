@@ -8,6 +8,8 @@
   - solve first using promises with `.then()` (remind them they'll need to chain for every async operation with a .then)
   - then convert it to `async/await` (they may find it much easier, remind to use try/catch)
 
+- Bonus:
+  - different patterns for promises (then/catch, async/await)
 
 
 ## Iteration 1 - Recipe Schema
@@ -77,3 +79,6 @@ Example:
         })
         .catch(err => console.log(`an error has occurred: ${err}`));
     ```
+
+
+

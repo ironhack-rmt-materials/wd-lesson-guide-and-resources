@@ -5,12 +5,17 @@
 
 <!-- 
 
+
 Methodology:
 - follow lesson on students portal (~~partly highlighted~~)
 - at the same time, practice all the examples with the students (eg. create a DB for sport players).
 
 Notes:
 - to start making queries to the DB with mongoose, instead of adding code inside a route (need to send http request to that route), just create a file and execute it directly with node on the CLI (but explain students that later on we will be putting our code inside routes).
+
+
+@to-do: improve these notes
+
 
 -->
 
@@ -103,17 +108,40 @@ Instead of the steps in the students portal, do the following
 -->
 
 
-- List all "cats"
-  - `Product.find()`
+- `Product.create()`
+
+  ```js
+      const data = {
+        title: "margherita",
+        price: 8,
+        imgFile: "pizza-margherita.jpg",
+        ingredients: ["mozzarella", "tomato sauce", "basilicum"]
+    }
+  ```
+
+  - IMPORTANT: 
+    - for title, store only a word ("margherita" instead of "pizza margherita")
+    - will make our live much easier if we then implement as a query to DB.
+
+
+- `Product.insertMany()` (optional) 
+
+- `Product.find()`
   - we can use it with callbacks
   - we can use promises (explain in detail)
 
-- Introduce `Product.create()`
 
 
 - (skip) Organize code (eg. move to functions)
-- (skip) Mongoose connection events
-- (skip) Promises & Promise.all
+
+
+
+- (brief) Mongoose connection events
+
+
+
+- (brief) Promises & Promise.all
+  - Mention/Refresh: promises (they will need them for today's lab)
 
 
 

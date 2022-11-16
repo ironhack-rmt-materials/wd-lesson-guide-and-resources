@@ -37,14 +37,20 @@ Make an example with different roles (eg. req.user.admin, req.user.collaborator)
 
 <!--
 
-  Bug with dependencies: 
-  - students with the dependencies bug will need to install manually "express-session" and "connect-mongo"
+  In case Ironlauncher didn't install dependencies correctly:
+
+  - npm i bcrypt@5.0.1 connect-mongo@4.6.0 cookie-parser@1.4.6 dotenv@16.0.3 express@4.18.1 express-session@1.17.3 hbs@4.2.0 mongoose@6.6.4 morgan@1.10.0 serve-favicon@2.5.0
+
+  - npm i nodemon@2.0.20 --save-dev
 
 -->
 
 
 - Demo: run & explain what it has created
-  - installed bcryptjs, connect-mongo and express-session
+  - package.json
+    - scripts 
+    - installed bcryptjs, connect-mongo and express-session
+  - /config/index.js added configuration for sessions
   - /routes/auth.js
     - signup
       - note: we have automatic login
@@ -52,7 +58,6 @@ Make an example with different roles (eg. req.user.admin, req.user.collaborator)
     - logout
       - note: it's a GET request
   - /middlewares
-  - /config/index.js added configuration for sessions
 
 
 

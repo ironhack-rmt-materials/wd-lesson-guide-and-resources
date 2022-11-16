@@ -22,8 +22,8 @@
   
   - `mkdir project-management-fullstack` (IMPORTANT: create directory for both repos)
   - `cd project-management-fullstack`
-  - `npx --yes ironlauncher@latest project-management-server --auth --json` (IMPORTANT: "--auth --json" )
-  - `npx --yes create-react-app project-management-client`
+  - `npx --yes ironlauncher@latest cohortName-project-management-server --auth --json` (IMPORTANT: "--auth --json" )
+  - `npx --yes create-react-app cohortName-project-management-client`
 
 
     <!-- 

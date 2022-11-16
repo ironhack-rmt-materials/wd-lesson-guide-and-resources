@@ -23,7 +23,7 @@ Notes:
       - pull
       - pair programming
       - commit + push
-  - intro git conflicts
+  - Intro git conflicts
 
 -->
 
