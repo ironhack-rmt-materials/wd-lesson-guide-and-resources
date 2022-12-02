@@ -110,14 +110,14 @@ Example:
 
     ```javascript
     const person = {
-    name: 'Ironhacker',
-    age: 25,
-    favoriteMusic: 'Metal',
-    address: {
-        street: 'Super Cool St',
-        number: 123,
-        city: 'Miami',
-    },
+      name: 'Ironhacker',
+      age: 25,
+      favoriteMusic: 'Metal',
+      address: {
+          street: 'Super Cool St',
+          number: 123,
+          city: 'Miami',
+        },
     };
 
 
@@ -220,14 +220,20 @@ Notes:
 @todo
 
 - The spread operator:
-  - lets us "unpack" / "spread" elements of an array into individual elements
-  - can be used when all elements from an object or array need to be included in a list of some kind.
+  - lets us "unpack" / "spread" elements of an array/object into individual elements
+  - can be used when all elements from an array/object need to be included in a list of some kind.
 
 
 
 Examples using the spread operator:
 
-- Example 1: Add elements to array
+  ```javascript
+  const students = ["alice", "bob", "charly"];
+  const arrayTwo = ["pikachu", "donald", "pluto"];
+  ```
+
+
+- Example 1: Add elements to a new array
   ```javascript
   const newArr = [...students, "david"]
   ```
@@ -238,10 +244,10 @@ Examples using the spread operator:
   const newArr = [...arrOne, ...arrTwo]
   ```
 
-- Example 3: Copy arrays
+- Example 3: Copy/clone arrays
   
   ```javascript
-  const copy = [...students]
+  const copy = [...students]; // (shallow copy)
   ```
 
 

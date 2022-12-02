@@ -8,7 +8,7 @@
 Functionality for different type of accounts.
 Examples:
 - an application where you have accounts for Regular Users + Admin.
-- an application where you can register as a Student or as a Teacher.
+- an application where you can register as a Teacher or as a Student to learn new skills.
 - an application where you can register as a Company or as a Job Seeker.
 
 
@@ -17,16 +17,19 @@ Examples:
 
 For some applications, you may not even need different types of users.
 - ex. in some job boards it can make sense that I can publish an offer + also apply
-  - for example, in a freelance job portal, freelancers sometimes also need to hire people (it wouldn't make sense that I need to create two separate accounts)
+- for example, in a freelance job portal, freelancers sometimes also need to hire people (it wouldn't make sense that I need to create two separate accounts)
 - if that's the case, you may want to have some fields that are not required in your user model 
 
 
 
-For admin roles, an easy option is the following:
+
+For user roles (ex. admin vs normal roles), an easy option is the following:
 - have a single model (User)
-- in that model, have a fild for role (ex. admin, user). 
+- in that model, have a field for role (ex. admin, user). 
   - IMPORTANT: set default to "normal" users.
 - to have an admin account, change the field manually on the db
+
+
 
 
 For user types, here's some options:

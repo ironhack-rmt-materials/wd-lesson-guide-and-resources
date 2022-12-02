@@ -95,6 +95,7 @@ Status: draft
 
   - TAKEOVER: in JSX, we can render an array of elements (those elements can be html or any valid JSX)
 
+
   - Create an array with the details of 3 movies
     - Why: this information may come from the DB or from an API
 
@@ -180,6 +181,8 @@ Status: draft
     - IMPORTANT: display that in the `<Main>` component !!!
     - NOTE: many students solve it adding a new stateful variable (introduce the concept of "SINGLE SOURCE OF TRUTH")
 
+
+
   - Conditional Rendering
     - Intro: refresh ternary operator
     - Explain (see React docs)
@@ -203,6 +206,7 @@ Status: draft
     - Add button to sort by rating
     - Add favIcon
       - Can use these images: https://github.com/Ironhack-Team-Triangle-July2021/ironhack-cinema/commit/f4cf21c91608b1fdf95b359031e676c90cbf8c3f#diff-09e657b7706f48b0af84577d8d340912648fa2d247d808a18e26e3459df1a26b
+
 
   - Extra: JSX spread attributes.
     - `<Movie {...movieObj}>`

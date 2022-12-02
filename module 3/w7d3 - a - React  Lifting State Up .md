@@ -64,6 +64,7 @@ In our popcorn-time app:
     - (we will need to "lift state up").
 
 
+
 ## Lift state up
 
 - store list of movies in App.js
@@ -74,6 +75,7 @@ In our popcorn-time app:
 IMPORTANT:
 - Lift state: move to the closest ancestor
 - https://reactjs.org/docs/lifting-state-up.html
+
 
 
 ## Passing callbacks:
@@ -102,6 +104,7 @@ IMPORTANT:
 - (bonus) Implement functionality to delete a movie
   - need to pass a callback to grandchild
   - when we execute the callback, we need to pass the id of the movie
+
 
 
 ## Extra challenges:

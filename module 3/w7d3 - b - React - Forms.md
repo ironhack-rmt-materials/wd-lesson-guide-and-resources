@@ -8,8 +8,15 @@
 Status: draft
 
 
-IMPORTANT:
-- Start creating the FORM IN THE SAME COMPONENT WHERE WE HAVE STATE.
+
+*** IMPORTANT ***
+*** IMPORTANT ***
+-
+----- Start creating the FORM IN THE SAME COMPONENT WHERE WE HAVE STATE.
+-
+*** IMPORTANT ***
+*** IMPORTANT ***
+
 
 
 Steps:
@@ -52,6 +59,7 @@ Notes:
   ```js
     setTitle("");
   ```
+
 
 
 ## Step 2: form with multiple fields

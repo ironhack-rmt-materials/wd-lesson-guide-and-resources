@@ -17,7 +17,13 @@
   - m1 vs other modules: deployment will be much easier today
 
 - deploy game (github pages)
-  - ask students to submit urls in the students portal (repo + github pages)
+
+
+<!-- IMPORTANT -->
+- Ask students to submit urls (repo + github pages) on students portal
+<!-- IMPORTANT -->
+
+
 
 - show how commit & push will be reflected live
 

@@ -19,8 +19,10 @@
     - https://qph.cf2.quoracdn.net/main-qimg-b21ba6c5e7ab388225dfafa0c96075d5-pjlq
     - https://kobaltsolutions.com/wp-content/uploads/2021/02/YOUR-CODE.png
 
+
 - Brief intro to Express.js
-  - MERN stack 
+  - MERN stack
+  - MERN logos: https://miro.medium.com/max/1400/1*FVtCyRdJ6KOr4YswTtwMeA.jpeg
 
 - Refresh HTTP Verbs (section "More HTTP - HTTP Verbs")
 
@@ -35,7 +37,23 @@
 - Follow students portal, from "Express Hello World"
   - ALTERNATIVE: create "IronCommerce" & evolve it during the following days of week 4 (week5 we start using generator)
     
-  <!-- @Luis: add also a nav menu (will be useful to have it for tomorrow) -->
+
+- Goal today: website for a pizza restaurant with:
+    - home
+    - contact
+    - one image + css
+
+- ask students: how do we want to call our pizza company
+
+- note: for images & css, use an absolute path (we will save time tomorrow)
+
+  <!--
+  
+    @Luis: 
+    - add a NAVIGATION MENU (will be useful to have it for tomorrow)
+    - takes longer that expected (students find difficulties with static files, paths etc)
+
+  -->
 
 
 

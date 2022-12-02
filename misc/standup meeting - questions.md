@@ -25,7 +25,7 @@
 - What's the best piece of advice you've ever been given?
 - Do you play any sports?
 - What’s your favorite place of all the places you’ve travelled?
-  - THURSDAY: Remind them what exacly MVP is + "Is my MVP ready? What is missing?"
+  - THURSDAY: Remind them what exacly MVP is + "Is our MVP ready? What is missing?"
   - MVP Checklist P2: https://www.checkli.com/process/62d8fd8b11769
 - Are you a good dancer?
 

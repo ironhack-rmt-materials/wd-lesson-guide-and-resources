@@ -34,6 +34,7 @@ Mention:
 
 - We need credentials to interact with Spotify API
   - they will need a Spotify account (or create one if they don't have)
+  - IMPORTANT: do this step with all students
 
 
 - Create a `.env` file and store your credentials

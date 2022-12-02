@@ -10,6 +10,7 @@ day2: State & events + List & keys + Conditional Rendering
 - codealong: "Popcorn Time I"
 - sample repo: https://github.com/Ironborn-Ironhack-March-2022/react-popcorn-time
 
+
 day3: Lifting state up + Forms
 - codealong: "Popcorn Time II"
 

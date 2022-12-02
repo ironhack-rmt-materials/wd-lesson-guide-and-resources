@@ -8,12 +8,22 @@ Methodology:
 - This project can be expanded in the following days.
 - Example: https://github.com/Ironmaidens-Ironhack-Jan-2022/mongoose-express-CRUD-codealong/commits/main
 
+
+IMPORTANT:
+- takes a lot of time.
+- create a cheatsheet explaining steps for CRUD
+
+- C+R: codealong
+- U+D: SELF GUIDED.
+
+
 -->
 
 
 - (extra) Beginning of week: 
   - show examples of m2 projects.
   - they can start thinking what they want to build
+
 
 
 ## Refresh

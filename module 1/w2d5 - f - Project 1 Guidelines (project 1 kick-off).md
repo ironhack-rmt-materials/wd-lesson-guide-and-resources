@@ -18,6 +18,11 @@
       - Same shape (ex. 2x2 boxes)
       - Not clearing lines (ie. in the first version, we never remove blocks)
 
+  - Example 2: quertygame
+    - https://gabriel-vcs.github.io/quertygame/
+    - How we can approach this gameÇ?
+    - How we can simplify ?
+
 
 3. Project Management
 - Agile

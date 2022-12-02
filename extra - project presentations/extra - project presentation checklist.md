@@ -20,12 +20,6 @@ For the Presentations:
 - focus on the cool things you have in your projects !!
 
 
-__________
-
-
-Notes:
-- add links to spreadsheet
-
 
 
 __________

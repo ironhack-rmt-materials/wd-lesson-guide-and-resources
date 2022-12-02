@@ -26,6 +26,7 @@ https://docs.google.com/presentation/d/1r3QsTfgXEb0BVd1zN4UXqaYYMIvNoa_vXCq5_VUe
 
 
 - Connect (hostname + port)
+  - localhost:27017
 
 
 - Create a Database (ex. school)
@@ -33,6 +34,11 @@ https://docs.google.com/presentation/d/1r3QsTfgXEb0BVd1zN4UXqaYYMIvNoa_vXCq5_VUe
 
 - Create Documents
   - create new document with different data types (sting, number, array)
+  - fields:
+    - title (string)
+    - price (number)
+    - isVeggie (boolean)
+    - ingredients (array)
 
 
 - Data types in MongoDB:

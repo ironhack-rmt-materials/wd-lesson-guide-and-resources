@@ -50,10 +50,12 @@ const [contacts, setContacts] = useState(fiveContacts);
 - Remember: we should never update state directly.
 - Instead, we should create a copy of the array, for example, with the spread operator (shallow copy):
   
-  ```
+  ```js
     setMovies( (prevValue) => {
-        const copy = [...prevValue]
-        copy.sort( () => { } )
+        const copy = [...prevValue]; //shallow copy
+        copy.sort( () => {
+          // ...
+        } )
         return copy;
     });
   ```
@@ -74,3 +76,5 @@ const [contacts, setContacts] = useState(fiveContacts);
 
 - Adding contacts works but if I click the button very quickly, at some point the application crashes.
   - Possible reason: you may be modifying state directly (if you mutate an array with the previous state, make sure you a copy and mutate the copy)
+
+  

@@ -57,6 +57,8 @@ Concepts:
     console.log(beersFromApi[0].ingredients)
   ```
 
+  - Example: getRandom() returns an array of length 1 with a random beer (an array with an object, not directly an object)
+    
 
 
 - IMPORTANT (3): sending information to the view

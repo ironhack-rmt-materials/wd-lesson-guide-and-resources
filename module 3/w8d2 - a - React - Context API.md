@@ -8,17 +8,6 @@
 
 
 
-## Pre-Setup
-
-Option 1 (quicker + we can live share):
-- work from this codesandbox:
-  https://codesandbox.io/s/relaxed-rumple-vb9p4i?file=/src/App.js
-  <!-- @Luis: remember to fork !! -->
-
-Option 2 (allows live share):
-`npx create-react-app react-context-api`
-
-
 
 ## Intro (slides + students portal)
 
@@ -32,6 +21,35 @@ https://docs.google.com/presentation/d/1VqmAj_VPWQ2htbWhEXrXT-L1KatZo1FEcixcVyAS
 Students portal (highlighted)
 - prop drilling, etc
 
+
+
+## Syntax Intro
+
+@todo:
+- create a demo with the basic syntax (without wrapper component etc)
+
+
+ex. in `index.js`
+
+  ```js
+    <LanguageContext.Provider value="sp">
+      <App />
+    </LanguageContext.Provider>
+  ```
+
+
+
+## Codealong Pre-Setup
+
+Option 1 (quicker + we can live share):
+- work from this codesandbox:
+  https://codesandbox.io/s/relaxed-rumple-vb9p4i?file=/src/App.js
+  <!-- @Luis: remember to fork !! -->
+  <!-- @Luis: remember to fork !! -->
+  <!-- @Luis: remember to fork !! -->
+
+Option 2:
+`npx create-react-app react-context-api`
 
 
 

@@ -75,11 +75,13 @@ Lifting state up:
 - Display number of movies in the header (Lifting state up)
 - functionality to filter based on minRating (passing arguments in the callback)
 
+
 Forms:
 - functionality to add movies (Step 1: form with 1 field)
 - functionality to add movies (Step 2: form with multiple fields)
 - functionality to add movies (Step 3: extract to a separate component)
 - (extra) Handling multiple inputs with a single method
+
 
 Extra:
 - functionality for searchbox (asked in today's lab)

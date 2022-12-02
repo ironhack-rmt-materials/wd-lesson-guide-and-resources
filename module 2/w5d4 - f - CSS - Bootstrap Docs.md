@@ -21,6 +21,7 @@ Status: draft
   - e-commerce checkout form: https://getbootstrap.com/docs/5.0/examples/checkout/
   - Dashboard: https://getbootstrap.com/docs/4.0/examples/dashboard/
 
+
 - Bootstrap versions
 
 
@@ -29,12 +30,12 @@ Status: draft
 
 Documentation 
 
-Initial setup
+Initial setup (getting started / introduction)
 
 Layout
 - Grid +++
   - Explain the concept of a grid system & why is important
-    - Consist design
+    - Consistent design
     - Harmony
     - Efficiency (easier to design, easier to implement)
 Content
@@ -62,18 +63,24 @@ Desktop:
 ![desktop design](./images/bootstrap-sample-2-desktop.png)
 
 
-<!--
 
-@Luis:
-- Sample: "_lesson-code-samples\bootstrap-codealong"
+Sample repo: 
+https://github.com/ironhack-rmt-materials/bootstrap-codealong
 
- -->
 
+
+Steps:
 - installation
 - grid
 - 3 cards
-- on each card: image, text, button
+  - on each card: image, text, button
+- header & title
 
+
+<!--
+Bonus:
+- responsive nav/hamburger menu (will be helpful for their projects)
+-->
 
 
 ## Final notes

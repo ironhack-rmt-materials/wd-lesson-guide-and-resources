@@ -23,7 +23,7 @@ Suggested approach:
   -- codealong: e-commerce OR music app OR airbnb clone
 
 
-- Exercise (includes POST): 
+- Basic exercise to refresh Express GET & POST:
   https://github.com/Ironhack-Team-Triangle-July2021/express-get-and-post-exercise
 
   Bonuses (for students that finish):
@@ -34,8 +34,35 @@ Suggested approach:
 -->
 
 
-## Intro
+## Step Zero
 
+- In the app from yesterday, we can replace the static objects with a query to the DB (allows to refresh + it will make code easier to follow when we do route params)
+
+- INSTEAD OF:
+
+  ```js
+      const data = {
+          title: "Pizza Margherita",
+          price: 8,
+          imgFile: "pizza-margherita.jpg",
+          ingredients: ["mozzarella", "tomato sauce", "basilicum"]
+      }
+
+      res.render("pizza-page", data);
+  ```
+
+- DO:
+  ```js
+    Pizza.find({title: ""});
+  ```
+
+- Example: https://github.com/Ironmaidens-Ironhack-Jan-2022/IronmaidensCommerce/commit/b65a5d226c363c5e15acde6c69b6b5ca03d2a443
+
+
+
+
+
+## Intro
 
 
 - URL Structure: 
@@ -56,7 +83,7 @@ Suggested approach:
 
 - When we use each one (typically):
   - Route params > Identify unique resources
-  - Query params > Filter resources
+  - Query params > Filter/Sort resources
 
 
 - More Examples: 
@@ -144,6 +171,19 @@ Solution: put before the routes that are more specific (and later the ones with 
 
 
 ## Query String
+
+<!--
+
+@Luis: 
+
+- IMPORTANT: (before this step) implement page with list of resources
+  - ex. /search or /pizzas
+
+- Functionality:
+  - maxPrice
+  - sortBy
+
+-->
 
 
 - One query param

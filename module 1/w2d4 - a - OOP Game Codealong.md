@@ -129,6 +129,9 @@ Milestone 3: make the game more interesting & fix bugs
 
 [ ] Drop obstacles at random places
 
+[ ] UX
+  [ ] Add "how to play" page
+
 
 ## Improvements:
 
@@ -148,6 +151,7 @@ Functionality:
 - settings (speed of the game, distance between obstacles)
 
 UX:
+- add "how to play" page
 - add images (background, player, obstacles)
 - sound
 

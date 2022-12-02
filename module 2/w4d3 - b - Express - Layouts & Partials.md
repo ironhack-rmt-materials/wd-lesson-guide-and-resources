@@ -75,6 +75,9 @@
     {{> myPartial }}
   ```
 
+- Note: 
+  - use `camelCase.hbs` for names of partials (`kebab-case.hbs` will not work)
+
 
 - Passing parameters to partials
 

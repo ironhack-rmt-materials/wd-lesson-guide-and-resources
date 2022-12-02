@@ -2,6 +2,9 @@
 # Project 2 examples
 
 
+<!-- NOTE: heroku projects will be outdated -->
+
+
 <!-- @todo: review list + put easier first -->
 
 https://recipe-project2.herokuapp.com/

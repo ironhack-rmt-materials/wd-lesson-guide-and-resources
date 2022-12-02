@@ -10,8 +10,8 @@
 Status: draft
 
 - @todo: 
-  - improve this notes/planning +++
-  - create slides
+  - improve this notes/planning
+  - create slides +++
 
 -->
 
@@ -43,8 +43,8 @@ Status: draft
 
 
 - Advantages of Node:
-  - Run JS on the server (for us, that's specially useful, we don't need to learn a new language)
   - Asynchronous functionality
+  - Run JS on the server (for us, that's specially useful, we don't need to learn a new language)
   - Growing ecosystem (packages)
 
 
@@ -64,7 +64,6 @@ Status: draft
   ```
     mkdir my-talking-cow
     cd my-talking-cow
-    code .
   ```
 
 - Initialize the project
@@ -73,7 +72,13 @@ Status: draft
     $ npm init
   ```
 
-- Open & explain package.json
+- Open with VS code
+  ```
+    $ code .
+  ```
+
+
+- Explain package.json
 
 
 
@@ -113,7 +118,7 @@ Status: draft
 
 ## Additional resources:
 
-- The NPM guide I would have loved as a beginner
+- (Extra) The NPM guide I would have loved as a beginner
 https://dev.to/spartakyste/the-npm-guide-i-would-have-loved-as-a-beginner-4i07
 
 

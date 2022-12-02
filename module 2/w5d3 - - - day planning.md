@@ -15,6 +15,8 @@ Methodology:
 -->
 
 
+
+
 Summary:
 - Some notes on security (storing passwords, cryptography)
 - Registration: Creating user accounts
@@ -37,4 +39,23 @@ ALTERNATIVE (instead of codealong, which can take the whole day):
   - implement extra functionality (eg create user, following instructions)
   - research & understand code (eg. why validation works etc)
 - then, explain concepts (eg. login, sessions etc...)
+
+
+
+
+IMPORTANT: ask students for preferences for project2
+
+
+  ```js
+  const myPreferences = {
+      iWantToWorkwith: ["alice", "bob", "charly", "david", "elisabeth", "frank"], // 6 names, ordered by preference
+      iPreferToAvoid: ["", ""] // max 3 names
+  }
+
+  // - HOW: msg TA on slack
+  // - DEADLINE: thursday 9am
+  ```
+
+ALSO, create channel #project-ideas on Slack.
+
 

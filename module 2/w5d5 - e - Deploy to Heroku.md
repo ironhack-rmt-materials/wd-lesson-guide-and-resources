@@ -38,8 +38,9 @@ https://docs.google.com/document/d/1TB0Eh8ikV2KEcuGymv0790Osn43kzlRiwVDLxzmLm3w/
 - Environments:
   https://www.google.com/search?q=development+vs+production+vs+testing&sxsrf=APq-WBsVDYxuaMD6jOfj9WNEw7S2_Q4pPQ:1644998561459&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjViKWX4YP2AhUOLBoKHQHLCdEQ_AUoAXoECAIQAw&biw=1366&bih=625&dpr=1
 
-- Diagram what we have: 
-  - client + server + DB
+- Diagram: 
+  - Slides "intro to module 2": https://docs.google.com/presentation/d/1tlIuadz1fxwslZcKwxDw413ZuELFg8rbcO8VuocuRUA/edit?usp=sharing
+
 
 - We need to deploy:
   - DB
@@ -95,26 +96,22 @@ Note: if you're deploying a codelong we did (ex. the library project), make sure
   - choose "username and password"
   - note: choose all lowercase
   - "Where would you like to connect from?": CLOUD ENVIRONMENT
+  - ip address: 0.0.0.0/0
+
 
 - Note: PROJECT 3
   - "theres a max of 1 free cluster per project" -> Create a new project (and then Create Cluster)
 
 
-## DB: Setup cluster [3. Setup MongoDB Atlas Cluster]
-- follow students portal
-
-- Note: "wWhere would you like to connect from? "
-  - Choose "Cloud Environment"
-  - Select "advanced" & add 0.0.0.0/0
 
 
 
 ## DB: Test
 - test on Compass
-  - IMPORTANT: 
-    - REPLACE `username` and `password` to the Connection String.
-    - You can also replace DB name (eg. `myFirstDatabase`)
-    - If Compass is already open and connected to localhost, you will need to close it and open (the button to "disconnect" may not work, there's a bug)
+  - IMPORTANT: replace `username` and `password` to the Connection String.
+  - (Optional) customiza DB name: "...mongodb.net/mydbname?"
+      - ex: `mongodb+srv://<username>:<password>@<cluster_name>.jqzujwt.mongodb.net/<dbname(optional)>?retryWrites=true&w=majority`
+  - If Compass is already open and connected to localhost, you will need to close it and open (the button to "disconnect" may not work, there's a bug)
 
 
 
@@ -266,3 +263,26 @@ Solution:
 2. Add environment this variable to Heroku:
   - `PROJECT_PATH` (with the name of the subdirectory)
 
+
+
+
+
+
+## Common problem: login does not work on production 
+- What: on production (heroku), user can create an account and try to login but sessions don't work (ie. we don't keep the logged in status).
+
+- Fix:
+
+
+
+  ```js
+  // required for the app when deployed to Heroku (in production)
+  app.set('trust proxy', 1);
+  
+  app.use(
+    session({
+      //...
+    })
+  );
+
+  ```

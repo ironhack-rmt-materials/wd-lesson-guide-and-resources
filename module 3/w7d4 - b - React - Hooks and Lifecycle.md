@@ -24,6 +24,8 @@ Status: draft
 -->
 
 
+
+
 ## Show what we are going to build today
 
 - Demo: https://react-characters-app.netlify.app/
@@ -33,6 +35,8 @@ Status: draft
 
 
 <!-- @Luis: keep all code in App.js (it will make things easier for Routing) -->
+
+
 
 ## Pre-setup
 
@@ -62,6 +66,20 @@ Status: draft
 
 - Remember, there's many ways to send http requests:
   - fetch(), libraries (ex. axios)
+
+
+
+- Explain concept of a SIDE-EFFECT:
+  > A side effect is when a function relies on, or modifies, something outside its parameters to do something.
+  - ie. when we read/modify information outside
+
+
+- (extra) explain "pure functions"
+
+  - PURE FUNCTION:
+    1. No side-effects
+    2. Same input produces the same output
+
 
 
 - Today, we will learn how to make HTTP requests in React & display the info
@@ -96,9 +114,14 @@ Stages:
 - Un-mounting
 
 
-- Show diagram: 
-  - https://wavez.github.io/react-hooks-lifecycle/
-  - https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
+- Slides "Hooks and Lifecycle":
+  - https://docs.google.com/presentation/d/1kAtC4-ONnFGdfLAGhAtNYSl09ViBSUUgyA4PpEbfDYg/edit?usp=sharing
+
+
+- Show diagrams: 
+  - Hooks: https://wavez.github.io/react-hooks-lifecycle/
+  - Classes: https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 
 - Change in `props` or `state` = update
@@ -107,20 +130,10 @@ Stages:
 - "Render phase"
   > Pure and has no side effects.
 
-- Explain concept of a side effect (read / modify)
-  > A side effect is when a function relies on, or modifies, something outside its parameters to do something.
 
-- (extra) explain "pure functions"
 - React docs: https://reactjs.org/docs/components-and-props.html#props-are-read-only
   > Such functions are called “pure” because they do not attempt to change their inputs, and always return the same result for the same inputs.
 
-
-  // SIDE-EFFECT:
-  // - When we rely on or modify information outside
-
-  // PURE FUNCTION:
-  // 1. No side-effects
-  // 2. Same input produces the same output
 
 
 
@@ -134,7 +147,10 @@ Stages:
 
 - Introduce useEffect()
 
+  > Sometimes, we want to run some additional code after React has updated the DOM.
+
   > useEffect Hook allows you to run side effects during all three lifecycle phases.
+
 
   ```js
 
@@ -151,11 +167,14 @@ Stages:
     //run after a component has been mounted + every time "somePropsOrState" changes
     useEffect(() => {
     }, [somePropsOrState]);
+    
 
   ```
 
   - See this cheatsheet: https://pbs.twimg.com/media/FEzs8twXsAYETEt?format=jpg&name=4096x4096
-    ![this is the difference](./images/useEffect-summary.jpg)
+    - Image: ![useEffect summary](./images/useEffect-summary.jpg)
+
+
 
 
 ## useEffect - Mounting phase
@@ -165,6 +184,7 @@ Stages:
 `useEffect(() => {}, [])`
 
 - The empty array [] means that “this effect doesn’t depend on anything”, 
+
 
 
 ## useEffect - Unmounting phase
@@ -211,6 +231,48 @@ Stages:
 
 
 
+
+## Fetching data with useEffect
+
+<!-- 
+
+Note: students need a lot of guidance to be able to do this task for the first time (unless we've done any similar example before)
+
+-->
+
+
+TASK:
+- Implement functionality to display list of characters
+  - For each character `<div className="character">Name: xxxx</div>`
+- Display more info about the character (name, weapon)
+- Bonus:
+  - display only first 10 characters
+  - css
+  - button to delete one character
+
+Time: 20-30m.
+
+
+Hints:
+- create a stateful variable where you will store the list of characters (initialize this variable to an empty array)
+  - ex. `const [foobar, setFoobar] = useState([]);`
+- send query to API (useEffect)
+- once we get the response, update state
+- in our JSX, we need to iterate through the stateful variable 
+  - ex. `charactersArr.map()`
+
+
+
+Explain (after the exercise):
+- initialize to empty array vs. null etc
+  - ex: `const [charactersArr, setCharactersArr] = useState([]);`
+  - Common problem: we initialize to undefined + we iterate with .map()
+- conditional rendering (display a message while loading)
+  - ex: `charactersArr.length === 0 ? <p>loading...</p> : renderList()`
+
+
+
+
 ## Rules of hooks
 
 Docs: https://reactjs.org/docs/hooks-rules.html
@@ -240,39 +302,6 @@ Docs: https://reactjs.org/docs/hooks-rules.html
 
   - WE CAN: call hooks from React function components.
   - WE CAN: call hooks from custom hooks.
-
-
-
-## Fetching data with useEffect
-
-<!-- @todo -->
-
-
-TASK:
-- Implement functionality to display list of characters
-  - For each character `<div className="character">Name: xxxx</div>`
-- Display more info about the character (name, weapon)
-- Bonus:
-  - display only first 10 characters
-  - css
-  - button to delete one character
-
-Time: 20-30m.
-
-
-
-
-Steps:
-- send query to API (useEffect)
-- once we get the response, store update state
-
-
-Mention:
-- initialize to empty array vs. null etc
-  - ex: `const [charactersArr, setCharactersArr] = useState([]);`
-  - Common problem: we initialize to undefined + we iterate with .map()
-- conditional rendering (display a message while loading)
-  - ex: `charactersArr.length === 0 ? <p>loading...</p> : renderList()`
 
 
 
@@ -313,18 +342,13 @@ API call to characters API
 - React hooks cheatsheet: 
   https://react-hooks-cheatsheet.com/useeffect
 
+
+
 ## Diagrams
 
 React Lifecycle methods diagram (class components):
 https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
-
-<!-- 
-  @todo: 
-  - make an easier diagram  
-  - Mounting: execute (get JSX) + DOM manipulation
-
--->
 
 React Hooks Lifecycle:
 https://wavez.github.io/react-hooks-lifecycle/
@@ -341,3 +365,5 @@ OMDB API:
 
 Characters API:
 - https://ih-crud-api.herokuapp.com/characters
+
+

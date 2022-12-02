@@ -21,13 +21,58 @@ Friday: try to finish earlier.
     - side-effect & useEffect
     - Routing
 
+  - (Extra) Store API baseUrl in .env (since we're using Create React App, make sure your environment variable starts with the prefix REACT_APP_)
+    - ex. `process.env.REACT_APP_API_URL`
+
+  - (Extra) Conditional rendering while resources are loading
+
+  - (Extra) Add button to delete character from the API
+    - Concepts that will appear:
+      - Send request to the API without useEffect (ex. when user clicks on a button)
+      - We need to send a new request to the API (to get the new list of characters)
+
   - (Extra) 2 API requests vs. 1 API request in App + pass info as props.
     - In the App from yesterday: show how it is possible to send only a single request to the API (if the API send an array with the details for all resources, we can avoid making a request for each resource).
     - Notes: 
       - takes a bit longer than it seems (30m + 15m)
       - when you access directly `/characters/1`, the app will fail, if we don't do conditional rendering (it is a good moment to see component lifecycle, adding some console.logs)
 
+  - (Extra) common pain points when sending requests to API
+    - ex:
 
+      ```jsx
+      const [charactersArr, setCharactersArr] = useState(); //initialized to undefined
+
+      // ...
+
+      return(
+        <h2>List:</h2>
+        {charactersArr.map()}
+      );
+
+      ```
+
+
+      ```jsx
+      const [details, setDetails] = useState(); //initialized to undefined
+
+      // ...
+
+      return(
+        <h2>Details:</h2>
+        {details.name}
+      );
+
+      ```
+
+    - Options:
+      - initialize array to empty array
+      - optional chaining operator (https://www.joshwcomeau.com/operator-lookup?match=optional-chaining)
+      - conditional rendering      
+
+
+
+  - (Extra) Refresh "REST APIs"
 
 
 - Morning
