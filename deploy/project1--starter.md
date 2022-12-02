@@ -107,3 +107,5 @@ Have a `index.html` on the root of your project as the main file that will get a
 ##### Relative paths on JS:
 
 The JS is being loaded on the HTML, so the relative path should be from the `.html` and not the `.js`
+
+[Gist](https://gist.github.com/TA-Remote/95001062235363e2fc8441825c7f0948)
