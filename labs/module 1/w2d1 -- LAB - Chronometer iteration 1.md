@@ -24,8 +24,9 @@ WHEN YOU OPEN FILE
 - Chronometer class + methods
 - keyword this.
 
-- inside setInterval 
+- inside setInterval:
     - @TA: say what will happen. The setInterval() method, repeatedly calls a function or executes a code snippet, with a fixed time delay between each call.  
+    - @TA: use arrow functions to keep the `this` to the context of the chronometer, otherwise it'll reference the global object
       <br>  
 	 1. setInterval(function() => {}, 1000)
 	 2. this.intervalId = setInterval(function()=>{}, 1000)
