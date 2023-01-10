@@ -21,7 +21,7 @@ Methodology:
 
 
 Summary:
-- debuggin (what it is)
+- debugging (what it is)
 - clone repo
   - `git clone https://github.com/ironhack-labs/lab-javascript-debugging-error-and-js-hint`
 - Console (errors will appear there)

@@ -115,6 +115,16 @@
 - If we don't want to mutate the array, we can make a copy (copy the values)
   - ex. use a for loop
 
+  ```js
+  numbers = [1, 2, 3];
+  numbersCopy = [];
+
+  for (i = 0; i < numbers.length; i++) {
+    const value = numbers[i];
+    numbersCopy.push(value)
+  }
+  ```
+
 
 - Shallow vs. deep copy
 

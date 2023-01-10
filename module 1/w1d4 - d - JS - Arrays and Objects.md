@@ -13,9 +13,15 @@ Status: draft
 
 
 - Examples:
-	const employees = ["Alice", "Bob"]
 
-	const company = { title: "abc", location: "" }
+```js
+const employees = ['alice', 'bob', 'charly'];
+
+const company = {
+  name: 'mama mia pizza restaurant',
+  cash: 20
+};
+```
 
 
 
@@ -24,7 +30,7 @@ Status: draft
 
 - object that includes an array
 
-  ```
+  ```js
   const user = {
     name: "alice",
     languages: ["french", "english"]
@@ -33,11 +39,38 @@ Status: draft
 
 - object that includes an object --eg. company with address
 
+  ```js
+  const company = {
+    name: 'mama mia pizza restaurant',
+    cash: 20,
+    address: {
+      town: "berlin",
+      postCode: "09x2"
+    }
+  };
+  ```
+
 - array of arrays (aka. "two-dimensional array")
   - ex: array of classes (each class is an array of student names)
 
+  ```js
+  const school = [
+    ['alice', 'bob', 'charly'],
+    ['pikachu', 'wonderwoman', 'superman'],
+  ];
+  ```
+
+
 - array of objects 
   - ex: array of students
+
+  ```js
+  const students = [
+    { name: 'alice', city: 'paris' },
+    { name: 'bob', city: 'berlin' },
+    { name: 'charly', city: 'madrid' },
+  ];
+  ```
 
 
 

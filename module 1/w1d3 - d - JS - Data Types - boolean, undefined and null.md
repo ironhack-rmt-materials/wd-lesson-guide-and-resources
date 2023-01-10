@@ -21,7 +21,7 @@ if(age < 18 || isWorking === true){
 ```
 
 
-## Logical AMD
+## Logical AND
 
 
 

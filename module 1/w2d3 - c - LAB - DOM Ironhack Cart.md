@@ -7,15 +7,9 @@
 - live demo (there's a bug when you add new products): file:///C:/Luis/pro/Ironhack/labs/labs-further-solutions/m1-ironhack-cart-zhenni/lab-dom-ironhack-cart/index.html
 
 
-Tests:
-- automated tests currently not working (jan2022). Ignore them for now (students can focus on UI functionality)
-
-
 
 Notes:
   - students find it very difficult (even iteration 1) -> solve together in class (eg. 1-3)
-  - time estimation (solving together in class):
-    - iteration 1: 90min.
 
 
 --->

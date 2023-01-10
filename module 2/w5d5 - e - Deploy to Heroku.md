@@ -5,7 +5,6 @@
 
 Status: ready
 
-Improvements: create diagram
 
 @Luis: materials in students portal have been updated (a bit more clear)
 
@@ -21,6 +20,11 @@ https://docs.google.com/document/d/1TB0Eh8ikV2KEcuGymv0790Osn43kzlRiwVDLxzmLm3w/
 
 
 ## Step 0
+
+
+<!-- @Luis: make sure all have Adaptable.io INVITATION CODE -->
+
+
 - Ask students to create accounts (one account per student, even if they work in teams):
   - Mongo Atlas (DB Server)
   - Heroku (aka "server")

@@ -24,7 +24,11 @@ Status: draft
 
 ## CHEATSHEET
 
-https://gist.github.com/sandrabosk/b5924056a33b82de3bb55a7457db741d
+Cheatsheet Sandra: 
+- https://gist.github.com/sandrabosk/b5924056a33b82de3bb55a7457db741d
+
+Cheatsheet Luis: 
+- https://gist.github.com/luisjunco/a507e9f15acb32620cf8a33fff0904b1
 
 
 

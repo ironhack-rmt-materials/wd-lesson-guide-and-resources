@@ -9,8 +9,8 @@ Status: draft (contains all the topics to cover but would be good to improve det
 
 
 Note:
-- this lesson took much longer than it seems (we also saw many examples though)
-- students find it complex to understand
+- this lesson took much longer than it seems (we also saw many examples)
+- students find it complex to understand.
 
 Suggested approach: 
 - show theory first:
@@ -21,6 +21,8 @@ Suggested approach:
 - once they've been exposed to the theory, codealong different examples
   -- include forms (needed for lab 'express spotify')
   -- codealong: e-commerce OR music app OR airbnb clone
+
+
 
 
 - Basic exercise to refresh Express GET & POST:
@@ -53,11 +55,18 @@ Suggested approach:
 
 - DO:
   ```js
-    Pizza.find({title: ""});
+    Pizza.findOne({title: ""});
   ```
 
 - Example: https://github.com/Ironmaidens-Ironhack-Jan-2022/IronmaidensCommerce/commit/b65a5d226c363c5e15acde6c69b6b5ca03d2a443
 
+
+TASK:
+- modify the other pizza routes:
+    - app.get("/pizzas/veggie",
+    - app.get("/pizzas/seafood"
+- instead of creating an object, now we want to get the info from the DB
+Time: 10min.
 
 
 
@@ -65,20 +74,9 @@ Suggested approach:
 ## Intro
 
 
-- URL Structure: 
-  https://cdn.cognitiveseo.com/blog/wp-content/uploads/2019/11/url-structure-1024x538.jpg
+- Slides (Route params vs. query string vs. request body): 
+  https://docs.google.com/presentation/d/1Z-f8heYSALVVuaevvMBcsE5OvOH1rSvyhkZXgY-JXW4/edit?usp=sharing
 
-  - Explain `query string`
-
-  - Path: identifies a unique resource but can also be used to send data
-
-
-- 2 ways of sending data in the URL
-  - QUERY PARAMS
-  - ROUTE PARAMS
-
-
-- Example: AirBnb
 
 
 - When we use each one (typically):
@@ -86,7 +84,9 @@ Suggested approach:
   - Query params > Filter/Sort resources
 
 
-- More Examples: 
+- Examples: 
+  - AirBnb
+
   - Youtube
   https://www.youtube.com/c/programmingwithmosh/search?query=promises
 
@@ -94,16 +94,17 @@ Suggested approach:
   https://drive.google.com/drive/u/3/my-drive
 
 
+
 - Sneak Peek: 
 
 
-    ```
+    ```js
     router.get('/', (req, res) => {
         console.log(req.query.myquery);
     });
     ```
 
-    ```
+    ```js
     router.get('/:user', (req, res) => {
         console.log(req.params.user);
     });
@@ -125,7 +126,7 @@ Suggested approach:
   https://domain.com/artists/daddy-yankee
 
 
-  ```javascript
+  ```js
     app.get("/artists/:artistName", (req, res, next) => {
         req.params.artistName
     })
@@ -143,7 +144,7 @@ Suggested approach:
   https://domain.com/artists/madonna/albums/like-a-virgin
 
 
-  ```javascript
+  ```js
     app.get("/artists/:artistName/albums/:albumTitle", (req, res, next) => {
         req.params.artistName
         req.params.albumTitle
@@ -154,23 +155,38 @@ Suggested approach:
 
 ### IMPORTANT: Common problem with params
 
-```
-app.get("/:productName", function (req, res, next) {    
-    res.send("display product page..... " + req.params.productName);
-});
 
-app.get("/contact", function (req, res, next) {
-    res.send("display contact page");
-    // res.render("contact");
-});
-```
+Example 1:
+
+  ```js
+  app.get("/pizzas/:pizzaName", function (req, res, next) {    
+      //...
+  });
+
+  app.get("/pizzas/create-your-own-pizza", function (req, res, next) {
+      //...
+  });
+  ```
+
+Example 2:
+
+  ```js
+  app.get("/:productName", function (req, res, next) {    
+      res.send("display product page..... " + req.params.productName);
+  });
+
+  app.get("/contact", function (req, res, next) {
+      res.send("display contact page");
+      // res.render("contact");
+  });
+  ```
 
 Solution: put before the routes that are more specific (and later the ones with params)
 
 
 
 
-## Query String
+## BEFORE Query String
 
 <!--
 
@@ -179,9 +195,48 @@ Solution: put before the routes that are more specific (and later the ones with 
 - IMPORTANT: (before this step) implement page with list of resources
   - ex. /search or /pizzas
 
+-->
+
+- Give students this view `product-list.hbs`:
+
+  ```hbs
+  <h1>List of pizzas in our DB:</h1>
+
+  {{#each pizzasArr}}
+      <section class="pizza-summary">
+          <h2>{{this.title}}</h2>
+          <h3>Price: {{this.price}}€</h3>
+
+          <hr>
+      </section>
+  {{/each}}
+  ```
+
+TASK:
+- implement a new route `GET /pizzas`
+- Inside this route:
+  - Send a query to get all the pizzas in our DB
+  - Once we have the result, render the view `product-list.hbs`
+    - Note: the view expects to receive an array with the name `pizzasArr`
+- (Bonus 1): modify the view, including a link for each pizza
+- (Bonus 2): add some css
+
+Time: 10min.
+
+
+
+## Query String
+
+<!--
+
 - Functionality:
   - maxPrice
   - sortBy
+
+- maxPrice: convert to a number:
+
+    let {maxPrice} = req.query;
+    maxPrice = Number(maxPrice);
 
 -->
 
@@ -190,7 +245,7 @@ Solution: put before the routes that are more specific (and later the ones with 
 
   https://domain.com/artists?genre=pop
 
-  ```javascript
+  ```js
     app.get("/artists", (req, res, next) => {
         req.query.genre
     })
@@ -200,7 +255,7 @@ Solution: put before the routes that are more specific (and later the ones with 
   https://domain.com/artists?genre=pop&country=spain
 
 
-  ```javascript
+  ```js
     app.get("/artists", (req, res, next) => {
         req.query.genre
         req.query.country

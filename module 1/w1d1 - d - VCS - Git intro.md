@@ -34,7 +34,7 @@ Topics:
 - check current status: `git status`
 - add to staging area: `git add index.html`
 - check status again: `git status` (now file is added to staging area)
-- (optional) if you need to unstage: `git rm --cached <file-name-1>`
+- (optional) unstage: `git rm --cached <file-name-1>`
 - make a commit: `git commit -m "msg"`
 - see history: `git log`
 - Github: upload an existing repository
@@ -43,10 +43,20 @@ Topics:
 - Github: fork & clone
 
 
-# Cheatsheet
+# Cheatsheets
 
 
 - Gittower:
   - [Git cheatsheet](./pdf/git-cheat-sheet-gittower.pdf)
 
+- Common Git Commands (most common commands with a very clear explanation):
+  - http://guides.beanstalkapp.com/version-control/common-git-commands.html
+
   
+# Resources to practice
+- create a repo & play around
+- Visualizing Git: https://git-school.github.io/visualizing-git/
+- Git branches: https://learngitbranching.js.org/
+
+
+

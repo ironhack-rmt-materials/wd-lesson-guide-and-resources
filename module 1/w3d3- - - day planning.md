@@ -31,6 +31,7 @@
 - fix bugs (ex. images, css or js not loaded).
 
 - intro git branches (see `extra - git branches.md`)
+  - note: do just a quick demo on a visual tool (it can be a bit too early to introduce branches)
 
 
 - Readme (add link to deployment)
@@ -45,6 +46,7 @@
   - code freeze
   - presentations
 
+<!-- - @students: if you're blocked, ask for help. Don't leave it for Thursday -->
 
 ## Tasks (LT/TAs)
 - plan groups & schedule for presentation practice

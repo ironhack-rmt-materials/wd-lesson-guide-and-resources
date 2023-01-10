@@ -1,21 +1,27 @@
 
-# ES6 - Promises
+# JS - Promises
+
 
 <!--
 
-- Status: draft 
-
-- Also highlighted (WDFT+202107_RMT)
-
-- Note: 
-  - Students find the lab a bit difficult (esp. iteration 2). Give them a similar example so that they can compare with.
-  - Iteration 2: remind them also that the function needs to 'return' a new promise
+@todo: create slides
+    - definition of promise
+    - diagram with states of a promise
+    - syntax to create promises
 
 -->
 
 
+## Intro (I)
 
-## Intro
+- Refresh on Asynchronous code & callbacks
+  - create functions `getInfoFromAnotherMachine` and `displayInfo`
+  - it takes some time to get info from DB. Once it's ready, we want to display it (callback).
+  - Final result: https://stackblitz.com/edit/js-m92ra4?file=index.js
+
+
+
+## Intro (II)
 
 - Why promises ("Callback hell")
 
@@ -73,16 +79,20 @@
 - Callback Hell (search images)
 
 
+- Callback hell vs. vertical code: 
+  - ![callbacks-vs-promises](./images/callbacks-vs-promises.png)
+  - source: https://miro.medium.com/max/1838/1*AqkCUN-kD_fLefEFPnX2Uw.png
+
+
+- Advantage of promises: code easier to read and maintain.
 
 
 
-## ES6 promises intro
+## ES6 promises / What's a "promise"
 
-- Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
+- Promises were added in ES6 to better deal with asynchronous code.
 
-- Advantage: code easier to read and maintain.
-  - Callback hell vs. vertical code: https://miro.medium.com/max/1838/1*AqkCUN-kD_fLefEFPnX2Uw.png
-
+> The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 
 
 
@@ -92,10 +102,17 @@
 - `fulfilled`: meaning that the operation was completed successfully.
 - `rejected`: meaning that the operation failed.
 
-https://www.javascripttutorial.net/wp-content/uploads/2020/03/JavaScript-Promise-state.png
-
-
 - Note: a Promise can only be `settled` (resolved) (fulfilled or rejected) once.
+
+- diagram: https://www.javascripttutorial.net/wp-content/uploads/2020/03/JavaScript-Promise-state.png
+
+- explain: "resolving value".
+
+
+
+## Consuming vs. creating promises
+
+- Consuming vs. creating promises
 
 
 
@@ -109,7 +126,7 @@ function doSomething(){
         resolve(/* value */);  // fulfilled successfully
     }
     else {
-        reject("message");  // error, rejected
+        reject("error details");  // rejected
     }
   });
 
@@ -120,12 +137,35 @@ function doSomething(){
 
 
 
-## Consuming Promises
+## Consuming Promises 
 
-```javascript
-    const p = new Promise((resolve, reject) => resolve('Ironhack'));
-    p.then((val) => console.log(val)); // Ironhack
+- 2 different options:
+  - .then().catch()
+  - async/await
+
+
+
+```js
+    doSomething
+        .then()
+        .catch()
 ```
+
+
+<!--
+
+@Luis
+
+- demo with AXIOS 
+  - intro axios 
+  - demo with .then.catch
+
+- imrpove examples
+
+-->
+
+
+
 
 - A Promise’s .then() method actually takes two possible parameters.
   - The first is the function to be called when the Promise is fulfilled.
@@ -228,9 +268,14 @@ p1.then((val) => val + 2)
 
 
 - Creating promises:
-  - initial code with callbacks:
-    https://stackblitz.com/edit/js-m92ra4?file=index.js
-  - CREATING PROMISES and consuming with .then().catch()
-    https://stackblitz.com/edit/js-vemwgp?file=index.js
-  - CREATING PROMISES and consuming with async/await
-    https://stackblitz.com/edit/js-ftozmy?file=index.js
+  - basic syntax to create a promise:
+    https://stackblitz.com/edit/js-rrehzq?file=index.js
+  - Example:
+    - initial code with callbacks:
+      https://stackblitz.com/edit/js-m92ra4?file=index.js
+    - CREATING PROMISES and consuming with .then().catch()
+      https://stackblitz.com/edit/js-vemwgp?file=index.js
+    - CREATING PROMISES and consuming with async/await
+      https://stackblitz.com/edit/js-ftozmy?file=index.js
+
+

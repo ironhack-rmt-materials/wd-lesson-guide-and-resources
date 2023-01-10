@@ -56,6 +56,10 @@ IMPORTANT: ask students for preferences for project2
   // - DEADLINE: thursday 9am
   ```
 
+@students:
+- we will try to take those preferences into consideration.
+- we will also try to avoid pairs with very different levels
+
 ALSO, create channel #project-ideas on Slack.
 
 

@@ -8,12 +8,20 @@
 Status: just some notes
 
 
-
 -->
 
+## Numbers
+
+- represent integers and floating-point numbers in JavaScript
+
+```js
+const age = 34;
+const price = 12.99;
+```
 
 
-NaN:
+
+## NaN
 
 <!-- @Luis: stackblitz doesn't work properly with NaN -->
 
@@ -24,16 +32,20 @@ console.log(result);
 ```
 
 
-Modulo:
+## Modulo
 - Modulo (%) is the remainder operator. 
 <!-- - ex. 10 % 2 pizzas -->
 
 
-Exercise (if we have time): 
-- fizz-buzz or similar
-- can also be an opportunity to create an account on codewars
-  - https://www.codewars.com/kata/5300901726d12b80e8000498
 
+
+<!--
+
+Fizz-Buzz
+- it is in prework ("JS | Loops and iterations")
+- another option is to do this kata together: https://www.codewars.com/kata/5300901726d12b80e8000498
+
+-->
 
 
 ## Numbers:
@@ -53,7 +65,7 @@ Some topics:
 
 
 Slice:
-```
+```js
 slice(beginIndex)
 slice(beginIndex, endIndex)
 ```

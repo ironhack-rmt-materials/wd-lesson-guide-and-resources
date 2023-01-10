@@ -40,7 +40,7 @@ Example:
 
 
 If we want to continue working on "develop"...
-- git checkout develop --> move again to "develop" branch
+- git checkout develop (move again to "develop" branch)
 - make commit(s)
 - repeat points 3. and 4.
 

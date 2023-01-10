@@ -5,8 +5,8 @@
 <!--
 
 Methodology:
-- continue working on e-commerce app
-- example: https://github.com/Ironmaidens-Ironhack-Jan-2022/IronmaidensCommerce/commits/main
+- continue working on IronRestaurant
+- we will create a separate file to practice mongoose methods.
 
 - the part of data models can also be explained based on this project, eg:
   - Product model & Reviews as nested document
@@ -18,7 +18,7 @@ Methodology:
 Consider these changes:
 
 - "LAB | MongoDB - Advanced Querying"
-  - not essential, can be self guided / extra
+  - can be self guided / extra
   - request students to do the only first 5 queries. 
 
 - MongoDB | Data Models

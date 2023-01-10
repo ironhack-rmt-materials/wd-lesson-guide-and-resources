@@ -17,7 +17,7 @@
 
 
 - Show project examples (from previous students)
-  - Somethings cooking: https://recipe-project2.herokuapp.com/
+  - Somethings cooking: https://somethings-cooking.adaptable.app/
 
 
 

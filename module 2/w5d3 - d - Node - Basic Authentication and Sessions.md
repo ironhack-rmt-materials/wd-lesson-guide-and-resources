@@ -65,8 +65,30 @@
 
 -->
 
-  - IMPORTANT: keep user logged in
-    - to keep login in development (ie. when we change code and nodemon restarts the server), make sure the property "ttl" is not commented:
+
+  - OPTION 1 (December 2022):
+    - code from Ironlauncher should work fine (it's a bit shorter than the settings we've used for previous cohorts)
+
+    ```js
+    const MONGO_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/my-app";
+
+    app.use(
+      session({
+        secret: process.env.SESSION_SECRET || "super hyper secret key",
+        resave: false,
+        saveUninitialized: false,
+        store: MongoStore.create({
+          mongoUrl: MONGO_URI,
+        }),
+      })
+    );
+
+    ```
+
+
+
+  - OPTION 2 (previous cohorts):
+    - to keep user logged-in in development (ie. when we change code and nodemon restarts the server), make sure the property "ttl" is not commented:
 
     ```
     store: MongoStore.create({
@@ -97,13 +119,14 @@
                     maxAge: 1000 * 60 * 60 * 24 // 24h
                 },
                 store: MongoStore.create({
-                    mongoUrl: process.env.MONGODB_URI || 'mongodb://localhost/library-project',
+                    mongoUrl: process.env.MONGODB_URI || 'mongodb://127.0.0.1/library-project',
                     ttl: 60 * 60 * 24 // 60sec * 60min * 24h => 1 day
                 })
             })
         );
     };
     ```
+
 
 
 

@@ -30,13 +30,13 @@
 
     - example: https://stackblitz.com/edit/js-jeyw5h?file=index.js
 
-    <!-- @todo: improve this examople -->
+    <!-- @todo: improve this example -->
 
 
   - concepts:
     - extends
     - super()
-    - polymorphism
+    - polymorphism (example: Method Overriding)
 
 
   - Further improvements:
@@ -44,7 +44,7 @@
     - functionality to `move` (dicreases energy)
     - functionality to `eat` (increases energy)
 
-    <!-- @todo: improve this examople -->
+    <!-- @todo: improve this example -->
 
 
 - OOP principles:

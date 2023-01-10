@@ -5,11 +5,12 @@
 
 <!--- 
 
-Status: highlighted
+Status: ready
 
-Time: 1.5 - 2h
+Time: 1.5
 
 -->
+
 
 ## Intro 
 
@@ -47,6 +48,16 @@ Time: 1.5 - 2h
   - Multiple arguments: `username`, `favouriteDrink`
     - Note: order is important
 
+- (skip) Parameter vs. Argument
+  - Parameters = placeholder
+  - Argument = the values (passed to function in the moment of its invocation)
+  - The number of parameters & arguments could be different (ex. expecting 3, passing only 2 arguments)
+
+
+- (bonus) Default parameters
+  - allow parameters to be initialized with default values if no value or undefined is passed.
+
+
 - Return
   - create a function `getMessage` & store the result in a variable
     - alternative: `calcTotal`
@@ -62,16 +73,19 @@ Time: 1.5 - 2h
   - Solution: data structure (array, object)
 
 
+
 - Quick Exercise (5-15min.):
 
-  - Task:
-    - Create a function that accepts 3 numbers as parameters, and returns their sum.
+  - Iteration 1:
+    - Create a function `calcTotal()` that accepts 3 numbers as parameters, and returns their sum.
 
-  - Bonus:
-    - Create a function named isNameOddOrEven() that accepts a string as a parameter. 
+  - Iteration 2:
+    - Create a function named `isNameOddOrEven()` that accepts a string as a parameter. 
     - The function should return whether a received string has an odd or even number of letters. 
-    - The expected return should be in the following format - string: ’<name> has an even/odd number of letters’
+    - The expected return should be in the following format - string: `<name> has an even/odd number of letters`
 
+
+  - Solution: https://stackblitz.com/edit/js-ew4qjq?file=index.js
 
 
 
@@ -85,4 +99,5 @@ Time: 1.5 - 2h
 - Refactoring
 
   > Code Refactoring is a technique in software development by which we change the way the code is structured, keeping the same functionality.
+
 

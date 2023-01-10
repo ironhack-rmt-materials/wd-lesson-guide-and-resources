@@ -1,7 +1,9 @@
 
 # LAB - JavaScript Vikings
 
-LAB applies OOP & ES6 classes
+
+Encourage students to do Bonus iterations (4 & 5), this is when things get interesting.
+
 
 
 TIPS:
@@ -15,3 +17,11 @@ TIPS:
 - Pay attention to the instructions and tests.
   - eg. "A Saxon has received DAMAGE points of damage"
   > `A Saxon has received ${damage} points of damage`
+
+
+
+- BONUS - Iteration 4: War
+
+- BONUS - Iteration 5 (reuse code)
+  - create a generic method (ex. `attack()`)
+  - call that generic method from `vikingAttack()` and `saxonAttack()`.

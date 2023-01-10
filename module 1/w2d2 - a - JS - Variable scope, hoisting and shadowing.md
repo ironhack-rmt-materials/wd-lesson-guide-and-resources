@@ -105,8 +105,8 @@ Example 2:
 
 ## Shadowing
 
-- variable shadowing
-  - a variable declared within a certain scope has the same name as a variable declared in an outer scope.
+Variable shadowing:
+  - when a variable declared within a certain scope has the same name as a variable declared in an outer scope.
   - ie. variables with the same name in different  scopes.
 
 

@@ -131,5 +131,7 @@ Solution: https://codepen.io/luisjunco/pen/yLzwodK
 
   - Advantage: css usually easier to maintain
 
+  - Alternative - The 62.5% Font Size Trick: https://www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/#example-a-user-prefers-larger-font-sizes
+
 
 

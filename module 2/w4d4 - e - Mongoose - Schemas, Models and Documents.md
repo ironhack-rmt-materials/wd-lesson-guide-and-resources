@@ -18,10 +18,10 @@ Summary:
 - Mongoose Schema (what's a schema & how to create it)
 - Data Types in Mongoose
 - Default value
-    ```
-    avatarUrl: {
+    ```js
+    imageFile: {
         type: String,
-        default: 'images/default-avatar.png'
+        default: 'images/default-image.png'
     }
     ```
 - Mongoose built-in validators ("Data types and validation")
@@ -39,11 +39,8 @@ Summary:
 
 
 - Mongoose methods (follow the cheatsheet)
-
-
-- CHEATSHEET: 
-  - https://gist.github.com/luisjunco/28e17edcc21868753ea6d60983427623
-
+  - CHEATSHEET: https://gist.github.com/luisjunco/28e17edcc21868753ea6d60983427623
+  - Note: for update & delete, start from findByIdAndXXX()
 
 
   <!--
@@ -63,7 +60,10 @@ Summary:
 - (extra) Static vs instance methods
   - https://stackoverflow.com/a/29664606/11298742
 
-  
+
+
 - Optional: extract model to specific file
   - why: same pattern as lab + can help us for tomorrow codealong
   - example: https://github.com/ironicHackers-Ironhack-Sept-22/ecommerce-ironic-pizzas/commit/851b985e493bc4920e77f4bb40e55520cb1fb6f8
+
+  

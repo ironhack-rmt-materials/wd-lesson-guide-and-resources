@@ -48,17 +48,25 @@ Project 1 feedback:
 - Intro to module 2 (see: `module 2\w4d1 - - Intro to  module 2.md`)
 
 
+<!--
+@Luis
 
-- (extra) explain object destructuring
+- ADAPTABLE -- ask students to signup for BETA
+  - https://adaptable.io/app/signin
+
+-->
+
+
+
+- (extra) object destructuring
   - @LTs: I do that as a warmup + gives us extra time in the following days.
 
 
 
+- Introduce concepts:
+  - API & REST API
+  - JSON
 
-- Refresh on Asynchronous code & callbacks
-  - create functions `getInfoFromDB` and `displayInfo`
-  - it takes some time to get info from DB. Once it's ready, we want to display it (callback).
-  - Final result: https://stackblitz.com/edit/js-m92ra4?file=index.js
 
 
 
@@ -68,20 +76,17 @@ Project 1 feedback:
 
     ```javascript
       fetch('https://jsonplaceholder.typicode.com/users')
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        console.log(data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+          console.log(data);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
     ```
 
-  - Extra concepts:
-    - API & REST API
-    - JSON
 
   - See how .fetch() returns a Promise
   
@@ -91,13 +96,9 @@ Project 1 feedback:
     ```
 
 
-- Introduce the concept of Promises & explain why they were added to JS
-  - Definition of promise from MDN
-    > The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 
 
-- CONSUMING PROMISES with .then().catch()
-  - follow planning in `w4d1 - a - JS - Promises.md` (starts with callback hell)
+
 
 
 - CONSUMING PROMISES with async/await
@@ -106,11 +107,6 @@ Project 1 feedback:
 - Make sure `.fetch()` is explained during the day
 
 
-- LAB
-  - show how the function obtainInstruction() returns a Promise
-
-
-- (after lab) CREATING PROMISES
 
 
 

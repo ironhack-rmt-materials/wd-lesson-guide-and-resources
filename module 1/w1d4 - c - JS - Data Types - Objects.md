@@ -69,7 +69,7 @@ Status: draft
   const userDetails = ['bob', 20, 'bogotá', false];
 
   const user = {
-    fullName: 'bob smith',
+    userName: 'bob',
     age: 20,
     city: 'Bogotá',
     isLoggedIn: false,
@@ -81,7 +81,7 @@ Status: draft
 ## How to create an object:
 
 
-Object literal syntax
+- Object literal syntax
 
     ```
     let someObject = {
@@ -91,7 +91,7 @@ Object literal syntax
     };
     ```
 
-Object constructor syntax (skip)
+- (skip) Object constructor syntax
 
   ```
 	let someObject = new Object();
@@ -121,7 +121,7 @@ Object constructor syntax (skip)
 
 
 
-## Remove properties (delete operator)
+## (skip) Remove properties (delete operator)
 
     ```
 	delete olympicRecords.doubleOllie;	// dot
@@ -129,10 +129,7 @@ Object constructor syntax (skip)
     ```
 
 
-// (Break)
-
-
-##  Check if a property exists (in operator)
+## (skip) Check if a property exists (in operator)
 	
     ```
         let myCar = {
@@ -145,6 +142,13 @@ Object constructor syntax (skip)
         'model' in myCar; // returns true
     ```
         
+
+
+___
+
+(Break)
+___
+
 
 
 ## List properties
@@ -165,14 +169,18 @@ Object constructor syntax (skip)
 
 - for ... in loop
 
-    ```
-	for (let record in olympicRecords) {
-	  console.log(record)
-	}
-    ```
+  ```js
+  for (let key in user) {
+    console.log(user[key]);
+  }
+  ```
 
 
-// (Break)
+___
+
+(Break)
+___
+
 
 
 ## Declaring an object with CONST
@@ -196,11 +204,11 @@ TIME: 15m + 10m
 - Create an object to store information of our class:
   - location ("remote")
   - field ("web dev")
-  - array of students (at least some)
+  - array with the name of some students (don't need to include all, just some)
 - Later in the code, add a new property "cohortName" (choose a cool name for our class)
 - Update field ("full-stack")
-- Bonus: create a function that receives an object with the details of a class & displays the name of each student.
-- (bonus) how about we want to store info about our students? in the next lesson we will learn how to work with more complex data structures
+- Bonus1: create a function that receives an object with the details of a class & displays the name of each student.
+- Bonus2: how about we want to store info about our students? (in the next lesson we will learn how to work with more complex data structures)
 
 
   <!--

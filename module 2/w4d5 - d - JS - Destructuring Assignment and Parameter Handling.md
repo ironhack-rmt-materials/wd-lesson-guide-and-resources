@@ -46,17 +46,17 @@
 - Example of how to access properties using dot/bracket notation. Eg:
 
     ```javascript
-    let person = {
-        name: 'Ironhacker',
+    let user = {
+        company: 'Ironhacker',
         age: 25,
         favoriteMusic: 'Rock',
     };
 
-    let name = person.name;
-    let age = person.age;
-    let favoriteMusic = person.favoriteMusic;
+    let company = user.company;
+    let age = user.age;
+    let favoriteMusic = user.favoriteMusic;
 
-    console.log(`Hello, ${name}.`);
+    console.log(`You work at ${company}.`);
     console.log(`You are ${age} years old.`);
     console.log(`Your favorite music is ${favoriteMusic}.`);
 
@@ -67,7 +67,7 @@ Problem: it works but, if we have to access many properties it is a bit repetiti
 
 - With object destructuring:
     ```javascript
-    let { name, age, favoriteMusic } = person;
+    let { company, age, favoriteMusic } = user;
     ```
 
 - Note: we're creating variables with the same names as the properties of our object.
@@ -76,12 +76,12 @@ Problem: it works but, if we have to access many properties it is a bit repetiti
 
     ```javascript
     // ES5 way:
-    const name = person.name;
-    const age = person.age;
-    const favoriteMusic = person.favoriteMusic;
+    const company = user.company;
+    const age = user.age;
+    const favoriteMusic = user.favoriteMusic;
 
     // ES6 way (using destructuring)
-    const { name, age, favoriteMusic } = person;
+    const { company, age, favoriteMusic } = user;
 
     ```
 
@@ -89,14 +89,14 @@ Problem: it works but, if we have to access many properties it is a bit repetiti
 - Default values
 
     ```javascript
-    let { name, age, favoriteMusic, country = 'Spain' } = person;
+    let { company, age, favoriteMusic, country = 'Spain' } = user;
     ```
 
 - Different variable names
 
 
     ```javascript
-    const { name: fullName, age, favoriteMusic } = person;
+    const { company: employer, age, favoriteMusic } = user;
     ```
 
 
@@ -109,8 +109,8 @@ Problem: it works but, if we have to access many properties it is a bit repetiti
 Example:
 
     ```javascript
-    const person = {
-      name: 'Ironhacker',
+    const user = {
+      company: 'Ironhacker',
       age: 25,
       favoriteMusic: 'Metal',
       address: {
@@ -122,9 +122,9 @@ Example:
 
 
     let {
-      name,  age, favoriteMusic,
+      company,  age, favoriteMusic,
       address: { street, number, city },
-    } = person;
+    } = user;
 
     ```
 
@@ -217,8 +217,6 @@ Notes:
 
 ## Spread operator
 
-@todo
-
 - The spread operator:
   - lets us "unpack" / "spread" elements of an array/object into individual elements
   - can be used when all elements from an array/object need to be included in a list of some kind.
@@ -227,37 +225,83 @@ Notes:
 
 Examples using the spread operator:
 
-  ```javascript
+  ```js
   const students = ["alice", "bob", "charly"];
   const arrayTwo = ["pikachu", "donald", "pluto"];
   ```
 
 
-- Example 1: Add elements to a new array
-  ```javascript
-  const newArr = [...students, "david"]
-  ```
-
-- Example 2: Merge/Concatenate arrays
-
-  ```javascript
-  const newArr = [...arrOne, ...arrTwo]
-  ```
-
-- Example 3: Copy/clone arrays
+- Example 1: Copy/clone arrays
   
-  ```javascript
+  ```js
   const copy = [...students]; // (shallow copy)
   ```
 
+
+- Example 2: Add elements to a new array
+  ```js
+  const newArr = [...students, "david"]
+  ```
+
+- Example 3: Merge/Concatenate arrays
+
+  ```js
+  const newArr = [...arrOne, ...arrTwo]
+  ```
+
+- Example 4: with objects
+
+  ```js
+  let user = {
+    company: 'Ironhacker',
+    age: 25,
+    favoriteMusic: 'Rock',
+  };
+
+
+  const copy = {
+    ...user,
+    favoriteFood: "pizza"
+  }
+
+  console.log(copy)
+  ```
+
+
+
+Exercise:
+- https://stackblitz.com/edit/js-f87bqx?file=index.js
+- Time: 5min.
+- Solution: https://stackblitz.com/edit/js-t5ydb9?file=index.js
+
+
+<!--
+@todo:
+- change example to other data type ex. numbers, objects
+- or spread operator on objects
+-->
 
 
 
 ## (Extra) Rest parameter
 
 
+Example 1:
 
-```javascript
+```js
+
+  function greetUsers(user1, user2, ...otherUsers) {
+    console.log(otherUsers);
+  }
+
+  greetUsers('alice', 'bob', 'charly', 'david');
+
+```
+
+
+Example 2 (skip):
+
+```js
   function add(...numbers) {
     // numbers represents the arguments passed when function gets invoked
     let sum = 0;

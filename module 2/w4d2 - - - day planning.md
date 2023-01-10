@@ -28,18 +28,20 @@ Notes:
 -->
 
 
-- Intro: explain or show them what we will be able to build at the end of the day
 
-    <!--
-        @Luis: Demo from Zhenni (Studio Ghibli)
-        
-        - labs\labs-demos\m2\w4d2 - lab-express-basic-site - Zhenni\lab-express-basic-site\
+- Destructuring + spread operator:
+  - quick refresh object destructuring
+    - exercise (2min): https://stackblitz.com/edit/js-exphb3?file=index.js
+  - array destructuring:
+    - example: https://stackblitz.com/edit/js-hfvsxk?file=index.js
+    - note: order matters
+  - SPREAD OPERATOR (see `w4d4 - d - JS - Destructuring Assignment and Parameter Handling.md`)
 
-        - node app.js 
-        - http://localhost:3002/home
 
-    -->
 
+
+- Intro: explain them what we will be able to build at the end of the day
+  - Example (from Felipe): https://hugh-laurie.adaptable.app/
 
 
 
@@ -52,6 +54,6 @@ Notes:
 - Practice Promises & .fetch()
   - Create a basic html document with one button
   - When the user clicks on the button, fetch the list of users from here: https://jsonplaceholder.typicode.com/users
-  - From the list of users, get only the users that live in a specific city (hint: .filter())
+  - From the list of users, get only the users that live in a specific city (hint: arr.filter())
   - Display the information of those users in the console (easier) or directly on the page (dom manipulation)
 

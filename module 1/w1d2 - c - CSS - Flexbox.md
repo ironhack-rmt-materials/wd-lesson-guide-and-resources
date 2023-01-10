@@ -123,9 +123,19 @@ Links:
 -->
 
 
-## Additional resources
+## Flexbox Resources
+
+
+Guides and cheatsheets:
+- CSS Tricks' guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- Diagram with terms: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox/flex_terms.png
+- Flex visual cheatsheet: https://flexbox.malven.co/
 - Flex properties live demo: https://codepen.io/ironhack/pen/RLZXZR
-- FreeCodeCamp: https://www.freecodecamp.org/learn/responsive-web-design/#css-flexbox
+
+Joshw Comeau - Interactive Guide:
+https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+
+Practice:
+- Guided tutorial at FreeCodeCamp: https://www.freecodecamp.org/learn/responsive-web-design/#css-flexbox
 - Flexbox Froggy: https://flexboxfroggy.com/
-
-
+- Flexbox Defense: http://www.flexboxdefense.com/

@@ -26,7 +26,7 @@ Status: complete
 
   - User can "sayHello"
 
-  - Can I save a function inside an object? --> Yes.
+  - Can I save a function inside an object? Yes.
 
     ```javascript
       const user = {
@@ -42,8 +42,10 @@ Status: complete
 
 
 - "this" keyword
-  - store userName
-  - display this.userName
+  - add property `userName`
+  - display `this`
+    - `console.log(this);`
+  - display `this.userName`
 
 > "When invoking a method on an object, this becomes the object itself."
 
@@ -57,7 +59,23 @@ Status: complete
   - problem: we repeat code
 
 - old days: we used to do "prototype-based OOP"
-- ES6: we use "classes"
+
+- ES6 Classes (introduce the syntax)
+
+  ```js 
+  class MyClass {
+    constructor(){
+
+    }
+    doSomething(){
+
+    }
+    doSomethingElse(){
+
+    }
+  }
+  ```
+
 
 
 - ES6 class with a method:
@@ -90,7 +108,7 @@ Status: complete
 - Constructor & `this`
 
 
-    ```javascript
+    ```js
     class User {
       constructor(userName) {
         this.userName = userName;
@@ -130,7 +148,8 @@ Status: complete
 
   - Solution: https://stackblitz.com/edit/js-yzcuvt?file=index.js
 
-  - Time: 10min. Individual
+  - How: Individual.
+  - Time: 10min + 5min (compare the solution with your own & read notes). 
 
 
 
@@ -138,7 +157,7 @@ Status: complete
   - Disclaimer: storing age vs. birthdate (it is a good time to introduce JS dates)
     - create a date object
 
-      ```javascript 
+      ```js 
       const now = new Date();
       console.log(now);
       ```
@@ -146,7 +165,7 @@ Status: complete
 
     - create a date object with a specific date
 
-      ```javascript
+      ```js
       const birthDate = new Date('1984-06-14');
       console.log(birthDate);
 
@@ -155,7 +174,7 @@ Status: complete
 
     - date methods. Ex: 
       
-      ```javascript
+      ```js
       const birthDate = new Date('1984-06-14');
 
       const monthIndex = birthDate.getMonth();

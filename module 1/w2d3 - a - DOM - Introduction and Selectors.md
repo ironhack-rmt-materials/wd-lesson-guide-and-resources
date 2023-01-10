@@ -17,14 +17,10 @@ NOTES:
 
 - IMPORTANT: this lesson and the next one feels a bit overwhelming for students (too many properties & methods but too little time to practice with them)
 
-- it also took much longer than expected (it's a lot of methods) [in total, we spent 4h to see the contents, with no time left for the lab]
-
-
 
 TO-DO:
 - simplify: remove all concepts that are not used in the lab
-- crate cheatsheet 
-- crate self-guided lab/exercise
+- create self-guided lab/exercise
 
 
 Suggested approach:
@@ -34,7 +30,14 @@ Suggested approach:
 - pass them a challenge to solve (html doccument & some challenges to complete) [or do a codealong with those challenges]
 
 
-INITIAL CODE: https://github.com/StrangerCodingThings-Ironhack-June-22/dom-manipulation-codealong/blob/main/index.html
+
+Note:
+- link these concepts to today's lab
+- Ironhack Cart Image: https://camo.githubusercontent.com/a8f2f706271dab8fc87fe27077a7fdb0561b7e2573ff684273c42a9ff34c4a2a/68747470733a2f2f692e696d6775722e636f6d2f4a38617365726d2e706e67
+
+
+
+INITIAL CODE: https://github.com/RemoteRaccoons-Ironhack-Nov-22/dom-manipulation-practice
 
 
 --->
@@ -73,16 +76,22 @@ https://stackblitz.com/edit/js-tdylkw?file=index.js
 
 
 - Quick Demo:
-  - show demo on ironhack.com (note: we need to add an id manually)
-    - getElementById() + innerHTML
+  - go to ironhack.com + open dev tools 
+  - add an id to the main title
+  - in the console: `getElementById()` + `innerHTML`
+
 
 - (optional) ask students to do the same
 
-  1. Find an html element with an id (or edit the html)
+  1. Edit the html and add an id to any element.
+    <!-- - important: in the elements panel (chrome), click out so that the changes are not lost -->
   2. Get a reference to that element
     - `document.getElementById(id)`
+    - remember to store that in a variable
   3. Change the content
-    - `myVariable.innerHTML = "new content";`
+    - `myVariable.innerHTML = "new content"`
+
+  Time: 5min.
 
 
 - Show demo lab chronometer (show the demo & the code )
@@ -93,22 +102,16 @@ https://stackblitz.com/edit/js-tdylkw?file=index.js
 
 ## Codealong
 
-- Get boilerplate code from the students portal. Starts from this point:
-    > Let’s create a folder and a couple of files to work in
 
-- ALTERNATIVE: use this html boilerplate:
-  https://github.com/StrangerCodingThings-Ironhack-June-22/dom-manipulation-codealong/blob/main/index.html
+INITIAL CODE: 
+- https://github.com/RemoteRaccoons-Ironhack-Nov-22/dom-manipulation-practice
+- (ask students for fork + clone)
 
-  <!--
-  @Luis:
-  - we usually spend a lot of time to get all working for everyone (create directories, files...)
-  - instead, create a lab repo & ask students for fork + clone
-  -->
 
 
 ## Search for Elements by ID: getElementById()
 
-```
+```js
 let element = document.getElementById('some-id-goes-here');
 ```
 
@@ -121,7 +124,7 @@ Note:
 ## Change the content of an element: .innerHTML property
 
 
-```
+```js
 let elm = document.getElementById('string'); 
 elm.innerHTML = "content";
 ```
@@ -132,7 +135,7 @@ elm.innerHTML = "content";
 
 ## Search elements by Class Name: getElementsByClassName()
 
-```
+```js
 let elements = document.getElementsByClassName(names);
 ```
 
@@ -141,21 +144,18 @@ let elements = document.getElementsByClassName(names);
 - can be called on any element (not only on the document). The element on which it is called will be used as the root of the search.
 
 - Important: returns an **HTMLCollection**
-  - The HTMLCollection is an array-like object but is not an array.
-    - We can not use the array methods like forEach, map, push, etc
-    - We can transform it into an array. Eg., with the spread operator:
-      ```
-      const elementsArr = [...elements]
-      ```
+  - An HTMLCollection is an array-like object but is not an array.
+  - We can not use the array methods like forEach, map, push, etc
+  - But we can transform an HTMLCollection into an array. For example, with the spread operator:
+      - ex.: ` const elementsArr = [...elements] `
   - An HTMLCollection in the HTML DOM is live; it is automatically updated when the document is changed.
 
 
 
 ## Search elements by Tag Name: getElementsByTagName()
 
-```
+```js
 let elements = document.getElementsByTagName(name);
-
 ```
 
 -  returns an HTMLCollection
@@ -192,7 +192,7 @@ let elements = document.getElementsByTagName(name);
 
 ## Change the style: .style object
 
-```
+```js
 elm.style.backgroundColor = 'red';
 elm.style.border = '2px solid green';
 ```
@@ -218,11 +218,10 @@ elm.style.border = '2px solid green';
 
 - gets / sets the value of the class attribute
 
-```
-element.className; // get
- 
-element.className = "something"; // set
-```
+  ```js
+  element.className; // get
+  element.className = "something"; // set
+  ```
 
 
 
@@ -231,7 +230,7 @@ element.className = "something"; // set
   - it is easier than interacting directly with className
     - eg. if an element has multiple classes (eg. "foo primary active") and you want to remove only one, with className you need to parse the string and split white spaces. With classList is much easier.
 
-    ```
+    ```js
     elm.classList.remove("foo");
     elm.classList.add()
     elm.classList.toggle()

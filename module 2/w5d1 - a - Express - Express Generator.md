@@ -37,6 +37,14 @@ Summary:
     - `Views`
     - `No auth`
 
+    <!-- 
+
+    @Luis: 
+      - create with auth & just go through the code ??
+      - (instead of auth codealong)
+
+    -->
+
 
     Note: ironlauncher automatically creates a folder with the name of the app.
 
@@ -108,3 +116,7 @@ npm i nodemon@2.0.19 --save-dev
   - Check data is loaded (Compass)
 
   
+<!--
+@Luis: drop DB library-project (from previous cohorts)
+-->
+

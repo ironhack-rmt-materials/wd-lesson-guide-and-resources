@@ -58,6 +58,24 @@ selector1 selector2 {
     ```
 
 
+## Ancestors vs descendants etc.
+
+
+- An HTML document can be represented as a tree.
+  - example: https://i.imgur.com/YdqDUNh.png
+
+
+
+> A `parent` is an element that is directly above and connected to an element in the document tree
+
+> A `child` is directly below and connected to an element in the document tree.
+
+
+> in any HTML document, the <body> element is the `ancestor` of all other elements. 
+
+> a `descendant` refers to any element that is connected but lower down the document tree - no matter how many levels lower.
+
+
 ## Direct Descendants (Children)
 
 

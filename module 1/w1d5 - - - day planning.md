@@ -20,6 +20,7 @@
 Morning:
 - (optional) refresh concepts from week 1
 - (optional) introduce setTimeout() / setInterval()
+- introduce callback & anonymous functions (do example with forEach)
 - OOP
 
 

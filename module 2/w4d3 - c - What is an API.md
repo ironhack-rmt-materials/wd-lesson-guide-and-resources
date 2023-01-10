@@ -3,7 +3,13 @@
 # What is an API?
 
 
-<!-- Status: draft -->
+<!--
+
+Status: draft
+
+@todo: create slides
+
+-->
 
 
 ## Topics
@@ -18,8 +24,8 @@
   - See MDN: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 
   - Examples:
-    - User-Agent (Identify the user agent / browser)
     - Set-Cookie
+    - User-Agent (Identify the user agent / browser)
     - Content-Type (Indicates the media type of the resource.)
 
 
@@ -29,6 +35,10 @@
 
 
 - JSON
+
+  - JSON (JavaScript Object Notation) 
+  - Format to transfer/exchange data (also used to store)
+  - Very common (even in systems that don't use JavaScript)
 
   - Main differences between JSON and JS objects:
     - JSON: property names must be in quotes
@@ -48,6 +58,7 @@
   - Punk API
     - GET https://api.punkapi.com/v2/beers/
     - GET https://api.punkapi.com/v2/beers/1
+      - Notice: returns an `array of 1 element`!
   - Note: we will use a package to interact with the API
   - The package returns a promise.
 
@@ -56,7 +67,7 @@
       - quick refresh promises (the package returns a promise)
     -->
 
-    ```javascript
+    ```js
       app.get('/beers', (req, res) => {
         
         punkAPI

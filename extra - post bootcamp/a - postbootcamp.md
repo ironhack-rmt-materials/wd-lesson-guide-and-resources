@@ -116,6 +116,8 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
 - Emotions & Mental health (40m.)
 
 
+- Finally, remember: YOU CAN MAKE IT.
+
 
 
 ## Technical interview questions

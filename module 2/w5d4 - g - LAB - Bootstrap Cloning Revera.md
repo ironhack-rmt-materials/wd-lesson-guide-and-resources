@@ -2,6 +2,7 @@
 # LAB - Bootstrap Cloning Revera
 
 
+How: pairs (same pairs as in project2)
 
 
 ## Priorities

@@ -1,12 +1,20 @@
 
 # Project 3 examples
 
-
-<!-- NOTE: heroku projects will be outdated -->
-
-<!-- @todo: review list + put easier first -->
-
+Meet-Them-All (Karina)
 https://meet-them-all.netlify.app/
+
+
+
+Food Finder (Saskia + Marc)
+https://ironic-food-finder.netlify.app/cities
+
+
+<!--
+
+OLD PROJECTS ON HEROKU:
+
+
 https://juniors4seniors.netlify.app/
 https://learn-today-md.netlify.app/
 https://plantpal1.herokuapp.com/
@@ -24,7 +32,5 @@ https://furniturrific.netlify.app/
 https://app-tandem.netlify.app/
 https://bucketeer.netlify.app/
 
------
 
-Bonus (more advanced):
-
+-->

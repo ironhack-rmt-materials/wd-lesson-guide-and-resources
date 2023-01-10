@@ -29,8 +29,19 @@
 Before sharing the link, explain:
 
 - Intro (what is a retro, agile, scrum etc)
-  - Scrum framework: https://zalatni.com/wp-content/uploads/2022/04/What-is-Agile-Scrum-Framework-1024x596-1.webp
-  - Scrum ceremonies: https://i.ytimg.com/vi/33Fk3r9ZSUg/maxresdefault.jpg
+
+  - Waterfall vs. Agile: 
+    - https://www.trustradius.com//wp-content/uploads/agilevswaterfallfromouriken.png
+
+  - Agile (multiple sprints):
+    - https://www.soldevelo.com/blog/wp-content/uploads/Agile-software-dev-1.jpeg
+
+  - Scrum framework: 
+    - https://zalatni.com/wp-content/uploads/2022/04/What-is-Agile-Scrum-Framework-1024x596-1.webp
+
+  - Scrum ceremonies: 
+    - https://i.ytimg.com/vi/33Fk3r9ZSUg/maxresdefault.jpg
+
 - Why it (a retro) is important
 - How we will work (brief intro)
 - How to give good feedback:
@@ -42,4 +53,5 @@ Before sharing the link, explain:
 - How to add a post-it
 - How to vote +1, +2...
 - We start from category 1 (explain what it includes)
+
 

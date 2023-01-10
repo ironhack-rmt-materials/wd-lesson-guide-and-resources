@@ -19,12 +19,12 @@ DO AS SELF_GUIDED
 -->
 
 
-# Intro 
-
 Slides: 
 - https://docs.google.com/presentation/d/1J0z8xEYUORZ1AbAlyQCB-BUepgtZPonvIx5T1MBiPUU/edit?usp=sharing
 
 
 
+Unit Testing - Guided example:
+https://github.com/ironhack-labs/unit-testing-guided-example
 
 

@@ -12,6 +12,8 @@
   - different patterns for promises (then/catch, async/await)
 
 
+
+
 ## Iteration 1 - Recipe Schema
 
 - Model is defined in a specific file `/models/Recipe.model.js`
@@ -23,7 +25,7 @@
 
 - ingredients - Type Array of Strings
   
-  ```
+  ```js
   ingredients: [String]
   ```
 
@@ -39,7 +41,7 @@
 
 To keep chaining promises, remember to return a promise:
 
-    ```javascript
+    ```js
     .then( ()=>{
         return Recipe.create(data);
     })
@@ -54,14 +56,20 @@ To keep chaining promises, remember to return a promise:
 
 - You can pass a third parameter with options:
 
-    ```javascript
+    ```js
     Cat.findOneAndUpdate(condition, update, { returnDocument: 'after' })
     ```
 
 
 
 ## Iteration 6 - Close the Database
-- Bonus
+
+Bonus.
+
+Why closing the connection: 
+- good practice (detailed explanation https://stackoverflow.com/a/4111628/11298742)
+
+How: 
 - you can use `mongoose.connection.close()`
 - but you can only close the connection when you don't need it anymore
   - remember that requests are asynchronous so, if you just add the line to disconnect at the end of your file you will have an error
@@ -69,7 +77,7 @@ To keep chaining promises, remember to return a promise:
 
 Example:
 
-    ```javascript
+    ```js
     Promise.all([recipeUpdate, recipeRemove])
         .then(result => {
             mongoose.connection

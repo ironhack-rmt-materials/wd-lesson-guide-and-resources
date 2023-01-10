@@ -12,20 +12,40 @@
 Explain:
 - middleware
   - ![diagram](./images/express-middleware.png)
+
 - custom middleware
+  ```js
+  app.use( (req, res, next) => {
+    console.log("hello world")
+    //next();
+  });
+  ```
+
 - middleware as an intermediate argument in our routes. eg:
   
-  ```javascript
+  ```js
   router.get('/admin', isUserLoggedIn, () => {
     ...
   })
   ```
 
+- Implement protected routes
+  
+  ```js
+  const isLoggedIn = (req, res, next) => {
+    if(req.session.currentUser){
+        next();
+    } else {
+        res.redirect("/login")
+    }
+  }
+  ```
 
-Make an example with different roles (eg. req.user.admin, req.user.collaborator):
-- create middleware functions in the directory `/middleware` (note: in assessment they are in `/utils/middleware`).
-- protect our routes. eg: GET `/create-thing`, GET `/delete-thing`
-- if not allowed, redirect to login
+- Protect C+U+D books
+
+- Extract the middleware function to a separate file
+  - Example: https://github.com/ironicHackers-Ironhack-Sept-22/ironic-library-project/commit/bb74239f42168550651a132c089f77cd165bbff4
+
 
 
 
@@ -49,17 +69,19 @@ Make an example with different roles (eg. req.user.admin, req.user.collaborator)
 - Demo: run & explain what it has created
   - package.json
     - scripts 
-    - installed bcryptjs, connect-mongo and express-session
+    - dependencies (bcryptjs + connect-mongo + express-session)
   - /config/index.js added configuration for sessions
   - /routes/auth.js
     - signup
-      - note: we have automatic login
     - login
     - logout
       - note: it's a GET request
+  - IMPORTANT: 
+    - see that routes are mounted in `app.js` (ex. on top of "/auth")
+    - ex. `/auth/signup`
   - /middlewares
 
 
 
-- Students can use that to generate project-2
+- Students can use that to generate project2
 

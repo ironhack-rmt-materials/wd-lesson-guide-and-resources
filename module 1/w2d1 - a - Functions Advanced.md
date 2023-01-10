@@ -13,7 +13,7 @@
 
 - We've already seen how we can declare & use functions
 
-    ```
+    ```js
     function calcSum() {
         console.log("hello")
     }
@@ -41,7 +41,7 @@
 
 - Example:
 
-    ```
+    ```js
     const calcSum = function(x, y) {
         return x + y;
     };
@@ -123,7 +123,9 @@
 ## Callbacks
 
 <!--
-@Luis: alternative: explain the concept of a callback & leave the examples for w2d2 (unit "Async and callbacks")
+@Luis: 
+- explain the concept of a callback
+- leave the examples for w2d2 (unit "Async and callbacks")
 -->
 
 - A function can be passed as an argument to another function
@@ -196,8 +198,8 @@ So we can pass it a function to be executed at the end (once dinner is ready)...
 - Usually, when we pass one function as an argument we refer to it as a `'callback'` 
 
 
-- **IMPORTANT: when you're passing a function as a callback, make sure not to use ()**
-  - (with parenthesis, you're actually passing the result of calling that function)
+- IMPORTANT: 
+  - when you're passing a function as a callback, make sure not to use ()
 
 
 - When and why any function would be postponed/delayed in the real world?
@@ -248,13 +250,13 @@ Solution: https://stackblitz.com/edit/js-dzfqat?file=index.js
 
 
 ## Arrow Functions
-- Alternative syntax to a traditional function expression, 
+- Alternative syntax to create an anonymous function
 - (they're a different way to create functions)
 - Introduced with ES6
 
 - Example:
 
-  ```javascript
+  ```js
   // function expression syntax
   const greeting = function(name) {
     console.log(`Hello, ${name}!`);
@@ -268,12 +270,17 @@ Solution: https://stackblitz.com/edit/js-dzfqat?file=index.js
   ```
 
 - when we can ommit parenthesys (only one arg)
+  - `one paramenter -> we can remove the parenthesys`
 - when we can ommit curly braces (only one line)
+  - `The braces can only be omitted if the function directly returns an expression.`
 
 
 - "Normal" vs "Arrow" functions
   - quite much the same
   - in some cases we'll need to use one or the other (scope / this)
+
+- Arrow functions don't have their own bindings to `this`.
+  - "Arrow function expressions should only be used for non-method functions because they do not have their own `this`"
 
 - Arrow functions... "this" is the difference:
 ![this is the difference](./images/arrow-functions-this-is-the-difference.jpg)
@@ -303,7 +310,7 @@ We will practice:
     //
     // - Create the functions below:
     //   1. wakeUp(): use a function declaration (aka statement)
-    //   2. prepareCoffee(): use a function expression
+    //   2. prepareCoffee(): use a function expression (ie. store a traditional anonymous function in a variable)
     //   3. drinkCoffee(): use an arrow function expression
     //
     // - Each function will just print a message on the console

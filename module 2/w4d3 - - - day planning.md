@@ -2,14 +2,17 @@
 # w4d3
 
 <!--
+
+
 - morning (dynamic views, partials etc) 
   - set them more challenges / exercises to do
   - note: these lessons can take time (esp. if we do more exercises)
 
 
-Codealong:
-- Create an e-commerce app (can be expanded in the following days)
-- example: https://github.com/Ironmaidens-Ironhack-Jan-2022/IronmaidensCommerce/commits/main
+Methodology:
+- continue working on IronRestaurant
+- example: https://github.com/RemoteRaccoons-Ironhack-Nov-22/ironrestaurant-pizzaForEach/
+
 
 -->
 
@@ -25,7 +28,7 @@ Codealong:
 
 ## Refresh from prev day
 
-Draw request-response model and refresh the following concepts.
+- Slides (refresh): https://docs.google.com/presentation/d/1-EgP1r7duakjZ6DXfReHIu9cYwEheAWEd_vDL7JtYiU/edit?usp=sharing
 
 - Protocol
   - set of rules for communication between machines.
@@ -40,12 +43,12 @@ Draw request-response model and refresh the following concepts.
 - HTTP Status codes (sent by the server)
 
 
+
 ## Day planning
 
 - Express & Handlebars (views, layout, partials):
   - continue working on the example from yesterday
-  - git repo + share live session
-  - Goal: e-commerce website with,
+  - Goal: restaurant website with,
     - home
     - contact
     - 3 products (1 page per product)
@@ -55,9 +58,7 @@ Draw request-response model and refresh the following concepts.
     - (bonus): display a summary of each product in the homepage
 
 
-
 - LAB (IronBeers)
-
 
 - DataBases: 1.5h (going fast & without getting into examples)
 

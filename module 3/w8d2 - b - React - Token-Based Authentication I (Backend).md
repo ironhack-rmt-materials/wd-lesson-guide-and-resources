@@ -16,7 +16,6 @@ status: draft
 ## Intro
 
 
-
 <!--
 
 @Luis: have prepared (open) project from module 2 (library project)

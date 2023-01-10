@@ -14,7 +14,9 @@ Notes:
 - to start making queries to the DB with mongoose, instead of adding code inside a route (need to send http request to that route), just create a file and execute it directly with node on the CLI (but explain students that later on we will be putting our code inside routes).
 
 
-@to-do: improve these notes
+@to-do: 
+- improve these notes
+- create slides (MVC pattern, mongoose intro)
 
 
 -->
@@ -29,7 +31,7 @@ Summary:
 
 - Example (students portal: "Example of MVC Pattern"):
 
-  ```javascript
+  ```js
     router.get('/product-list', (req, res) => {
       // this CONTROLLER is...
       Product.find() // ... asking for data from the Product MODEL and ...
@@ -40,6 +42,7 @@ Summary:
         .catch(error => console.log(error));
     });
   ```
+  
 
 - ODMs (Object Document Mapper) + Mongoose
   - https://user-images.githubusercontent.com/62245004/98396310-99937000-206e-11eb-9ad1-4799d58e8699.png
@@ -66,28 +69,43 @@ Instead of the steps in the students portal, do the following
 
 
 
-
-
-
 - Connect to DB
 
   <!-- @Luis: create "mongoose-playground.js" -->
 
 
-  ```javascript
+
+  <!--
+
+  IMPORTANT
+  IMPORTANT
+  IMPORTANT
+
+  Update Dic.2022:
+  - Some students a timeout error connecting to DB on Windows ("ECONNREFUSED ::1:27017")
+  - Error details: https://stackoverflow.com/questions/69840504/mongooseserverselectionerror-connect-econnrefused-127017
+  - Solution: use 127.0.0.1 instead of localhost
+    - `mongoose.connect('mongodb://127.0.0.1/myDataBaseName')`
+
+  -->
+
+
+
+  ```js
     const mongoose = require('mongoose');
 
     mongoose
-      .connect('mongodb://localhost/myDataBaseName')
+      .connect('mongodb://127.0.0.1/myDataBaseName')
       .then(x => console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`))
       .catch(err => console.error('Error connecting to mongo', err));
   ```
 
 
 
-- Creating our first model
-  `const Product = mongoose.model('Product', { name: String });`
 
+- Creating our first model
+  `const Pizza = mongoose.model('Pizza', { name: String });`
+  - IMPORTANT: continue inside the .then()
 
 <!-- 
 
@@ -108,25 +126,25 @@ Instead of the steps in the students portal, do the following
 -->
 
 
-- `Product.create()`
+- `Pizza.create()`
 
   ```js
       const data = {
-        title: "margherita",
+        title: "margarita",
         price: 8,
-        imgFile: "pizza-margherita.jpg",
+        imageFile: "pizza-margarita.jpg",
         ingredients: ["mozzarella", "tomato sauce", "basilicum"]
     }
   ```
 
   - IMPORTANT: 
-    - for title, store only a word ("margherita" instead of "pizza margherita")
+    - for title, store only a word ("margarita" instead of "pizza margarita")
     - will make our live much easier if we then implement as a query to DB.
 
 
-- `Product.insertMany()` (optional) 
+- `Pizza.insertMany()` (optional) 
 
-- `Product.find()`
+- `Pizza.find()`
   - we can use it with callbacks
   - we can use promises (explain in detail)
 
@@ -159,6 +177,7 @@ Some things to mention:
 - Mongoose 'static' methods vs. 'instance' methods
   - https://stackoverflow.com/questions/29664499/mongoose-static-methods-vs-instance-methods
 
-  - "statics" are the methods defined on the Model. ex. `Product.find()`
-  - "instance" methods are defined on the document (instance). ex. `myProduct.save()`
+  - "statics" are the methods defined on the Model. ex. `Pizza.find()`
+  - "instance" methods are defined on the document (instance). ex. `myPizza.save()`
+
 

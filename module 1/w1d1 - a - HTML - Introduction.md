@@ -27,6 +27,19 @@ Steps to follow:
   - (from the place where it explains "DOCTYPE Indicates that the markup language for your document content is HTML5.")
 
 
-Final notes / recommendations:
-- Semantics
+- HTML structure (DOCTYPE etc)
+  - note: use emmet abreviation `!`
+- Create an h1
+- Install "Live server" extension + open in browser
+- HTML DOM tree (See it in the dev tools)
+- Block vs. inline
+  - ex. div vs. span
+- Examples of block elements (see students portal: "HTML Block-level elements cheat sheet")
+- Examples of inline elements (see students portal: "HTML Inline elements cheat sheet")
+- Semantics 
+  - ex. difference section vs. div
+- Self-closing tags (ex. hr)
 
+
+- IMPORTANT:
+  - when creating your projects, start from the HTML.

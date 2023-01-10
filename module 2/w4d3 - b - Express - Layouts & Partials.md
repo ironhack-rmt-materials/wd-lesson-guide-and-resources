@@ -3,7 +3,7 @@
 
 <!-- 
 
-- Status: draft (many things incomplete)
+- Status: draft
 
 - Notes:
   - Partials take quite a bit to explain if we do codealong (just mention them)
@@ -13,8 +13,8 @@
 
 ## Intro
 
-- Explain layouts with an example (codealong): we're going to add a navigation menu at the top of all pages
-  - Do that (codealong), repeating the code for all pages/views
+Layout: reuse code for all pages (ex. navigation menu, footer...).
+- example: add a navigation menu at the top of all pages
 
 
 ## Layouts
@@ -56,6 +56,12 @@
 
 ## Partials (Bonus / Self guided)
 
+<!--
+@Luis:
+- do a quick demo (not codealong)
+-->
+
+
 - Configure 
 
   ```javascript
@@ -68,6 +74,15 @@
 
 - Create a Partial (ex. banner / list with other products / contact form)
 
+  ```hbs
+    <div class="banner">
+      <h3>Order now</h3>
+
+      <a href="mailto:iron@ironhack.com">iron@ironhack.com</a>
+    </div>
+  ```
+
+- Filename: `ctaOrderNow.hbs`
 
 - Call a Partial from a View
 
@@ -87,6 +102,49 @@
     {{/each}}
   ```
 
+
+
+## (Bonus) List of pizzas
+
+Create a route `GET /pizzas` to display a full list of pizzas.
+
+
+  ```js
+  app.get("/pizzas", (req, res, next) => {
+
+      const pizzasArr = [
+          {
+              title: "Veggie Pizza",
+              price: 15,
+              imageFile: "pizza-veggie.jpg"
+          }, 
+          {
+              title: "Seafood Pizza",
+              imageFile: "pizza-seafood.jpg"
+          }
+      ];
+
+      const data = {
+          pizzasArr: pizzasArr
+      }
+
+      res.render("pizzas", data)
+
+  })
+  ```
+
+
+
+  ```hbs
+
+  {{#each pizzasArr}}
+      <section>
+          <h2>{{this.title}}</h2>
+          <h3>Price: {{this.price}}€</h3>
+      </section>
+  {{/each}}
+
+  ```
 
 
 ## Summary

@@ -5,13 +5,17 @@
 margin:  0;
 } */
 
-/* Type selectors */
 
+
+/******************/
+/* Type selectors */
+/******************/
 
 body {
     font-size: 16px;
     background: white;
 }
+
 
 
 #first {
@@ -45,7 +49,10 @@ img {
 }
 
 
+
+/*******************/
 /* Class Selectors */
+/*******************/
 
 .rounded-box {
     border: 1px solid black;
@@ -60,15 +67,18 @@ img {
 }
 
 
-
+/****************/
 /* Id Selectors */
+/****************/
 
 #main-image {
     max-width: 600px;
 }
 
 
+/***********************/
 /* Combining Selectors */
+/***********************/
 
 p.highlight {
     background-color: magenta;
@@ -79,7 +89,9 @@ div.even {
 }
 
 
+/***************/
 /* Descendants */
+/***************/
 
 p .highlight {
     background-color: magenta;
@@ -89,4 +101,6 @@ div .even {
     background-color: magenta;
 }
 
-
+ul li a {
+    
+}

@@ -5,7 +5,7 @@
 
 <!--- 
 
-Status: highlighted
+Status: ready
 
 -->
 
@@ -20,32 +20,41 @@ Status: highlighted
 
 - How to create an array (syntax)
 
-  const arrayNames = ['Pedro', 'Jake', 'Joan', 'Mike'];
+  ```js
+  const user1 = "alice"
+  const user2 = "bob";
+  const user3 = "charly";
+
+  const users = ["alice", "bob", "charly"];
+  ```
 
 - Data Types
   - we can store any valid Data Type
   - note: can store different data types 
-    -  const arrayNames = ['Pedro', 2, true];
+    ```js
+    const arrayNames = ['alice', 2, true];
+    ```
 
 
 - Accessing Elements
   - By index (Zero-Indexed)
   - `.length` property
-  - Note: If we try to access an index that does not exist, it will return `undefined`
+  - Note: If we try to access an index that does not exist, we will get `undefined`
 
 
 - Adding Elements: `.push()`
 
-- Push vs. pop vs. unshift vs. shift:
+- push() vs. pop() vs. unshift() vs. shift()
   - https://vishalkukreja.com/wp-content/uploads/2021/03/2-1024x536.png
+  <!-- covered in prework, can do briefly -->
 
 
 - Removing / Modifiying elements in the middle of the array: `.splice()`
   <!-- @LT: briefly -->
 
-  ```
-  array.splice(start, deleteCount)
-  splice(start, deleteCount, item1, item2, itemN)
+  ```js
+  arr.splice(start, deleteCount)
+  arr.splice(start, deleteCount, item1, item2, itemN)
   ```
   - start: Index at which to start changing the array
   - deleteCount: number of old array elements to remove
@@ -72,8 +81,8 @@ Exercise forEach (basic exercise with an array of strings):
 
   - Example: 
 
-    ```javascript
-    const message = "i love pizza";
+    ```js
+    const msg = "i love pizza";
     const mailAddress = "bob@ironhack.com";
 
     const letters = msg.split(''); // split in characters (empty string)

@@ -2,14 +2,9 @@
 # LAB - CSS Flexbox Slack
 
 
-<!--
-
-LAB to be done in pairs
-
--->
 
 
-How: work in pairs
+How: work in PAIRS.
 
 
 

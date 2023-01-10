@@ -42,6 +42,9 @@ Time estimation: 6-10h
   - Learn git concepts 
 
 
+- Warn students: 
+  - some steps today may be a bit fast.
+
 
 ## IMPORTANT
 
@@ -62,10 +65,9 @@ Time estimation: 6-10h
 
 ## Codealong
 
-- Initial planning (once we start coding we will probably follow different paths)
-
-- Plan together (how we can start, what kind of things we need)
-
+- Initial planning 
+  - Share milestones + plan together how we can implement each milestone.
+  - note: once we start coding we will probably follow different paths.
 
 
 <!--
@@ -94,7 +96,7 @@ Milestone 3: make the game more interesting & fix bugs
   - basic structure (board)
   - create repo + initial commit
 
-[ ] Game class
+[ ] Game class (note: we can start from Player and implement this one later)
   - start()
 
 [ ] Player class
@@ -116,6 +118,8 @@ Milestone 3: make the game more interesting & fix bugs
   - Then, change to create multiple obstacles
 
 [ ] Detect collision
+  - Collision detection
+  - Gameover (ex. redirect)
 
   <!--
 
@@ -140,7 +144,7 @@ Fix:
 - prevent player from moving outside
 
 Functionality:
-- obstacles starting from random horizontal positions and/or random sizes for obstacles
+- obstacles starting from random horizontal positions
 - shooting (recommended)
 - drop different things (prizes, different types of obstacles...)
 - count points

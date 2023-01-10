@@ -25,13 +25,36 @@ Status: draft
 - Bootstrap versions
 
 
+## Initial Setup
+
+<!--
+@Luis: 
+- do this before we go through the documentation (so that we can do qyuck demos)
+-->
+
+- `mkdir bootstrap-demo`
+- `cd bootstrap-demo`
+- `touch index.html`
+- `code .`
+- create html structure: `!`
+
+
 
 ## Topics
 
-Documentation 
+Documentation
 
 Initial setup (getting started / introduction)
+- add link to css
+- add link to js (but leave it commented)
+- understand the source code:
+  - open the files & see the code (classes + css)
+  - shall we download the files ?
+  - explain: CDN
 
+
+
+Buttons
 Layout
 - Grid +++
   - Explain the concept of a grid system & why is important
@@ -64,8 +87,10 @@ Desktop:
 
 
 
-Sample repo: 
-https://github.com/ironhack-rmt-materials/bootstrap-codealong
+Repo: 
+- Code: https://github.com/ironhack-rmt-materials/bootstrap-codealong
+- Demo: https://ironhack-rmt-materials.github.io/bootstrap-codealong/
+
 
 
 
@@ -77,10 +102,11 @@ Steps:
 - header & title
 
 
-<!--
-Bonus:
-- responsive nav/hamburger menu (will be helpful for their projects)
--->
+
+(Bonus) Responsive nav/hamburger menu (will be helpful for their projects)
+- https://getbootstrap.com/docs/5.0/components/navbar/
+
+
 
 
 ## Final notes

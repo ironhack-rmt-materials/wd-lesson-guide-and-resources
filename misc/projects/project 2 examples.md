@@ -2,10 +2,27 @@
 # Project 2 examples
 
 
-<!-- NOTE: heroku projects will be outdated -->
+Something's Cooking (Karina + Clara)
+https://somethings-cooking.adaptable.app/
 
 
-<!-- @todo: review list + put easier first -->
+
+More advanced:
+
+Music Event Platform (Alessandra + Berkay)
+https://music-event-platform.adaptable.app/
+
+
+
+Film Gallaxy (Gabriel + Mog)
+https://filmgalaxy.adaptable.app/
+
+
+
+
+<!--
+
+OLD PROJECTS ON HEROKU:
 
 https://recipe-project2.herokuapp.com/
 https://replay-me.herokuapp.com/
@@ -31,7 +48,5 @@ https://wodi-wodpicker.herokuapp.com/
 https://foster4paws.herokuapp.com/
 https://dozema-coffee.herokuapp.com/
 
------
 
-Bonus (more advanced):
-
+-->

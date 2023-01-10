@@ -18,24 +18,6 @@
   - Critical bugs or problems ? Pls report by 11:30h.
 
 
-- Afternoon: prepare presentation, slides & readme, or just enjoy
-
-- Readme:
-  - brief description
-  - instructions to play
-  - link
-
-- For presentation...
-  - Slides
-  - Plan (how we will do presentation)
-  - Remember to do the demo on production (github pages)
-  - If you have sound, you can share screen with sound 
-
-- we can meet for a game/chat (TBC. eg. 14:30h)
-
-- Presentations (TBC. eg. 15:00h)
-
-
 
 <!--
 

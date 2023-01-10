@@ -12,6 +12,9 @@
 
 ## Demo (follow students portal, starting from 'Node HTTP Server')
 
+Time: [30min.]
+
+
 Intro:
 - Goal:
   - We will build a basic server, listening for http requests

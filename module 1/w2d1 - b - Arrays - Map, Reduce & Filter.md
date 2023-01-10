@@ -29,13 +29,22 @@ Status: draft
   ```
 
   Task: 
-  - calculate points from regular baskets for each game.
-  - each basket is 2 points, so we need to multiply by 2.
+  - create an array with the points from regular baskets for each game.
+  - note: each basket is 2 points, so we need to multiply by 2.
+  - expected result:
+    - `const points = [22, 28, 14, 24, 18, 24];`
 
 
+  Options:
   - Solve with for loop
   - Solve with forEach
     - Bonus: solve using different type of functions (anonymous, arrow...)
+
+  Solution: https://stackblitz.com/edit/js-k66y7n?file=index.js
+
+  Time: 10min.
+
+
 
 
 
@@ -57,7 +66,7 @@ Status: draft
 
 
 - Example 2: transform names to uppercase
-  - https://stackblitz.com/edit/js-dm5iu3?file=index.js
+  - Instructions: https://stackblitz.com/edit/js-dm5iu3?file=index.js
   - solution with for loop: https://stackblitz.com/edit/js-reuufm?file=index.js
   - solution with forEach: https://stackblitz.com/edit/js-ypkht5?file=index.js
   - solution with map: https://stackblitz.com/edit/js-i296ku?file=index.js
@@ -65,40 +74,11 @@ Status: draft
 
 
 - Example 3: with objects.
-  ```javascript
-    const games = [
-    {
-      location: 'Utah',
-      twoPointBasekets: 11,
-    },
-    {
-      location: 'Utah',
-      twoPointBasekets: 14,
-    },
-    {
-      location: 'Chicago',
-      twoPointBasekets: 7,
-    },
-    {
-      location: 'Chicago',
-      twoPointBasekets: 12,
-    },
-    {
-      location: 'Chicago',
-      twoPointBasekets: 9,
-    },
-    {
-      location: 'Utah',
-      twoPointBasekets: 12,
-    },
-  ];
 
-  // we want to get an array of points
-  // const points = [22, 28, 14, 24, 18, 24];
+  - Instructions: https://stackblitz.com/edit/js-p3k5so?file=index.js
+  - Solution: https://stackblitz.com/edit/js-ejcare?file=index.js
 
-  ```
-
-
+  Time: 10min.
 
 
 - Example 4: with objects.
@@ -201,7 +181,7 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
 - Signature:
 
-  ```javascript
+  ```js
     reduce(function(accumulator, currentValue) { /* ... */ }, initialValue)
   ```
 
@@ -248,26 +228,11 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
 
 
-- Example: with objects (in this case we need to set an inital value):
+- Example: with objects
 
-  ```javascript
-
-    const people = [
-      { name: 'alice', age: 30 },
-      { name: 'bob', age: 18 },
-      { name: 'charly', age: 49 },
-      { name: 'david', age: 21 },
-      { name: 'emma', age: 17 }
-    ];
-
-  ```
-
-  TASK:
-  1. calc the total age (ie. adding together all the ages from everyone)
-  2. calc the average age (total age divided by number of people)
-  3. (bonus) solve using different types of functions
-
-  Solution: https://stackblitz.com/edit/js-xufcpn?file=index.js
+  - Instructions: https://stackblitz.com/edit/js-aervwj?file=index.js
+  - Solution: https://stackblitz.com/edit/js-xufcpn?file=index.js
+    - IMPORTANT: in this case we need to set an inital value.
 
 
 
@@ -361,7 +326,9 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
 ## (IMPORTANT) Identify & combine:
   - identifying which method we can use can be tricky. Solution: practice.
-  - we can combine multiple methods. Ex: `.filter().map()`
+  - we can combine multiple methods. 
+    - Ex: `.filter().reduce()`
+    - Ex: `.filter().map()`
 
 
 

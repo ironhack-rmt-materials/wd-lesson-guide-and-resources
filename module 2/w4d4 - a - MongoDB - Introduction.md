@@ -29,7 +29,8 @@ https://docs.google.com/presentation/d/1r3QsTfgXEb0BVd1zN4UXqaYYMIvNoa_vXCq5_VUe
   - localhost:27017
 
 
-- Create a Database (ex. school)
+- Create a Database (ex. demo-restaurant)
+  - collection: "pizzas"
 
 
 - Create Documents

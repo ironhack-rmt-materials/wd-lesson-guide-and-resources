@@ -30,22 +30,24 @@
 ## Part 2: codealong
 
 
-<!-- @Luis: create "IronCommerce" -->
-<!-- @Luis: create "IronCommerce" -->
-<!-- @Luis: create "IronCommerce" -->
+Methodology:
+- create "IronRestaurant"
+- we will evolve it during the following days of week 4 (week5 we start using generator)
+- sample repo: https://github.com/RemoteRaccoons-Ironhack-Nov-22/ironrestaurant-pizzaForEach/
 
-- Follow students portal, from "Express Hello World"
-  - ALTERNATIVE: create "IronCommerce" & evolve it during the following days of week 4 (week5 we start using generator)
     
 
-- Goal today: website for a pizza restaurant with:
+- Goal today for "IronRestaurant":
     - home
     - contact
     - one image + css
+    - nav menu
 
 - ask students: how do we want to call our pizza company
 
-- note: for images & css, use an absolute path (we will save time tomorrow)
+- notes: 
+  - some students have problems installing `nodemon`. Just use `sudo`.
+  - for images & css, use an absolute path (we will save time tomorrow)
 
   <!--
   

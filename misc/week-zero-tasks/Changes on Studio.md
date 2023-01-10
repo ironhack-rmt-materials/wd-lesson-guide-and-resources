@@ -24,7 +24,7 @@ I usually remove those:
 Edit:
 - [EXTRA] Guidelines on how to submit the labs → update cohort name
 - Contacts → update details (can copy html table from prev. cohorts)
-- Career Services → add Career Week dates
+- Career Services → remove OR add Career Week dates
 - [EXTRA] Technical interview prep - move to week 10 materials
 
 
@@ -42,20 +42,24 @@ Remove:
   - > During this activity, we will check if all of us have the main tools and software that we will be using during the bootcamp.
 
 - w1d4: seems quite a bit of workload & 2 labs
-  - posible solution: move some contents to d3 and/or mark as self guided ?
-  - "JS | Unit Testing - Guided example" -- SELF_GUIDED
-  - "LAB JavaScript Clue" - mark as extra ??
+  - move both labs to the end of the day.
+  - "LAB JavaScript Clue" - mark as extra
+  - "JS | Arrays & Objects" (nested data structures) - if needed, can be done "self guided"
+  
 
-- w1d5: "JS | Special keyword - this" -- extra (instead of self guided) ?
-
-- w1d5: add week1 retro (there's already a unit, just need to unhide it)
 
 - w1d5: "JS | OOP - Function constructor vs. Class" -- remove
 
+- w1d5: add week1 retro (there's already a unit, just need to unhide it)
 
-- w2d1: "JS | Debugging and Error Handling" 
-  - self-guided (interesting for advanced students)
-  - move it after the mandatory lab
+- w1d5: "JS | Special keyword - this" 
+  - Extra (at that time we haven't even covered arrow functions)
+
+- w1d5: "JS | Debugging and Error Handling" 
+  - Extra (interesting for advanced students)
+
+
+
 
 - w2d4: add "[CLASS_ACTIVITY] OOP Game Codealong"
   - > Class codealong: we will create together a game using OOP and DOM manipulation.
@@ -72,9 +76,20 @@ Remove:
 
 - w4d1: add unit "Intro to module 2"
 
+- w5d5: 
+  - LAB "Express basic auth" -- remove
+  - Asssessment "NodeJS and MongoDB CRUD app (202109)" -- move to w5d3 (after auth)
 
 - w6d1: cloudinary --self-guided
 
+
+<!--
+@Luis - m2 planning: 
+"\misc\feedback - curriculum and students portal\sept22 - mercury schedule m2"
+
+- note: "LAB | Express Drones" - need to configure as assignment + mark with "Required: False" (so that it appears in CT)
+
+-->
 
 
 ## Module 3 (NEW curriculum)
@@ -140,10 +155,11 @@ Update:
 
   - Tomorrow 9am there's Career Services workshop (for those of you taking part in Career Week, you'll have received an email or invitation with the details).
   
-  - We meet in our class at 10am (if the workshop finishes earlier just take a nice break ;) )
+  - We meet in our class at 10am (if the workshop finishes earlier just take a break ;) )
 
    -->
 
 - Schedule alumni talk
+  <!-- alternative (recording Karina): /rec/play/UNay2C6SY4aDHhg8juHNKzJxtDEnMS986H9kuD52_2QHWg050YAz9jIY0e1oEukF8ImsTOX0ir_HxZU1.gp82Uhtdv6LFJ4VT?startTime=1663168072000  -->
 
 

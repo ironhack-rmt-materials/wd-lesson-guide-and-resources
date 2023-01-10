@@ -109,39 +109,12 @@ Time:
 
 
 
-- Install Postman + Test the API
-  - https://www.postman.com/downloads/
-
-
-- How we can send http requests:
-  - Tools:
-    - Postman
-    - cURL
-    - ...
-  - JavaScript code:
-    - http request (https://stackoverflow.com/a/4033310/11298742)
-    - fetch()
-    - libraries (ex. axios)
 
 
 - Explain what we will do (move from DB to API)
   - IMPORTANT: explain that we can make requests from Browser and/or Server
 
 
-- Explain axios
-
-  - It's a JavaScript library that we can use to make http requests
-  - Can run in Browsers + Node.js
-  - Supports promises
-  - Automatically transforms JSON into JS objects
-  - Installation
-    - Using CDN
-    - Using NPM: `npm install axios`
-  - Using axios
-    - Sample syntax
-  - Quick demo on Stackblitz (need to install package)
-    - get, post
-    - final result: https://stackblitz.com/edit/js-hkgykx?file=index.js 
 
 - (extra) JavaScript HTTP requests & AJAX
 
@@ -163,4 +136,7 @@ Move from DB to API
 - Implement with async/await
 
 
+
 ## (Extra) Explain Git conflicts
+
+

@@ -62,8 +62,8 @@ Status: draft
 - Create directory
 
   ```
-    mkdir my-talking-cow
-    cd my-talking-cow
+    mkdir npm-demo
+    cd npm-demo
   ```
 
 - Initialize the project
@@ -89,7 +89,9 @@ Status: draft
   ```
 
 - Explain changes:
+  - `npm install` vs `npm install -g`
   - added dependencies to package.json
+    - semantic versioning
   - added package-lock.json (explain: dependencies of our dependencies)
   - added directory node_modules
 
@@ -104,7 +106,7 @@ Status: draft
 
 
 - Create index.js and use it
-  - documentation: https://www.npmjs.com/package/ > Usage as a module
+  - documentation: https://www.npmjs.com/package/cowsay > Usage as a module
   - note: require() is a NodeJS built-in function (it's not part of the javascript standard)
 
 

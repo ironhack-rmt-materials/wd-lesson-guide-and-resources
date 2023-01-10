@@ -41,6 +41,26 @@
     ```
 
 
+    ```
+    hi @everyone!
+
+    as you know, XXtodayXX we're having "Day Zero".
+
+    In this meeting we will have an intro to the bootcamp and what to expect + we will try to make sure we have everything ready to start on Monday. :hammer_and_wrench: 
+
+    This meeting is not mandatory and will be recorded but attendance is HIGHLY RECOMMENDED :star2: 
+
+
+    When's that? --> XXXX
+    Where's that? here --> XXXX
+    How long? --> 60-90min.
+
+    Looking forward to starting this amazing journey with you!! :rocket: 
+    ```
+
+
+
+
 ## Zoom
 - Confirm zoom link
 - Configure auto recording
