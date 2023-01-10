@@ -44,3 +44,5 @@
 15. **AFTER FRONTEND DEPLOYMENT**
     1. Create a new `Runtime environment variable` called `ORIGIN`.
     2. Set the value as your deployed frontend URL. ex.: `unicorn-farm.netlify.app`
+
+[GIST](https://gist.github.com/TA-Remote/fa2324189c28491e4f8e16accbc05bf6)

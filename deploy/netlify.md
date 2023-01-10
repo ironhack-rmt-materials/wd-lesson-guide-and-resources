@@ -31,3 +31,5 @@
 10. To ensure a better user experience we need to set the redirects for netlify
     1. Create a file called `_redirects` on the folder `Public` of your React application.
     2. Use the code `/* /index.html 200`
+
+[Gist](https://gist.github.com/TA-Remote/67e617f725bbb68f67d534d162c1bc5f)

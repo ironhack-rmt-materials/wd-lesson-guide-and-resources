@@ -19,3 +19,4 @@
 ```env
   MONGODB_URI = mongodb+srv://luis:iloveunicorns@cluster0.hdffjst.mongodb.net/?retryWrites=true&w=majority
 ```
+[Gist](https://gist.github.com/TA-Remote/80801bf13ce27844e1b5b50f858436c7)
