@@ -3,12 +3,20 @@
 # LAB - React IronContacts
 
 
+How:
+- Individual (can also be done in Pairs)
+
+
 Notes: 
 - students find this lab VERY challenging
 
 <!--
 @Luis: share the notes below with students, with a note "spoiler alert"
 -->
+
+
+
+
 
 
 ## Iteration 1: component hierarchy
@@ -35,13 +43,70 @@ For the Component Hierarchy:
 
 ## Iteration 1: getting 5 contacts
 
-let fiveContacts = ???; // store the first 5 contacts in this variable
-const [contacts, setContacts] = useState(fiveContacts);
+  ```js
+  let fiveContacts = ???; // store the first 5 contacts in this variable
+  ```
+
+  ```js
+  const fiveContacts = contactsArr.slice(0, 5);
+  ```
+
+  Notes: 
+  - use `.slice()`
+  - avoid `.splice()` (since it mutates the original array, it would lead to unexpected results).
 
 
 ## Iteration 2:
 
-- Emoji: you can put it directly in your code (will just work), 🏆
+- Emoji: you include emojies directly in your code (copy-paste will work), 🏆
+
+
+## Iteration 3 | Add New Random Contacts
+
+- The list of contacts now will change (and we need to reflect that in our JSX) → now we need state :)
+
+
+  ```js
+  const [contacts, setContacts] = useState(fiveContacts);
+  ```
+
+
+- To add a new contact, avoid mutating the original array.
+
+
+  BAD:
+
+  ```js
+
+    const myRandomContact = xxx;
+
+    setContacts( (prevValue) => {
+        prevValue.push(myRandomContact); //note: push mutates the original array (non-primitive data types are passed by reference).
+        return prevValue;
+    });
+  ```
+
+
+  GOOD:
+
+  ```js
+    setContacts( (prevValue) => {
+        const newList = [...prevValue]; //shallow copy
+        newList.push(myObject); //we modify the copy (not the original array)
+        return newList;
+    });
+  ```
+
+
+  EVEN BETTER:
+
+  ```js
+    setContacts( (prevValue) => {
+        const newList = [myObject, ...prevValue]; //we create a new array
+        return newList;
+    });
+  ```
+
 
 
 ## Iteration 4 | Sort Contacts by Name and Popularity
@@ -51,7 +116,15 @@ const [contacts, setContacts] = useState(fiveContacts);
 - Instead, we should create a copy of the array, for example, with the spread operator (shallow copy):
   
   ```js
-    setMovies( (prevValue) => {
+    setContacts( (prevContactList) => {
+        prevContactList.sort(); //we're modifying state directly
+        return prevContactList;
+    });
+  ```
+
+
+  ```js
+    setContacts( (prevValue) => {
         const copy = [...prevValue]; //shallow copy
         copy.sort( () => {
           // ...
@@ -62,6 +135,7 @@ const [contacts, setContacts] = useState(fiveContacts);
 
 - Why: the list of contacts is an array (non-primitive data type)
   - non-primitive data types are passed by reference.
+
 
 
 ## Iteration 5 | Remove Contacts

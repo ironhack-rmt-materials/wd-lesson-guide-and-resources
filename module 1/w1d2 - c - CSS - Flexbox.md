@@ -23,9 +23,24 @@ Initial code:
 --->
 
 
+<!-- 
+
+@todo: create slides
+
+-->
 
 
 ## Intro
+
+<!--
+
+- Example layout:
+  https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8d374c1e-228a-47e8-be5b-10fa1f4d40c8/mrh-css-grid-fig-01-large-opt.png
+
+- Old website:
+  https://i0.wp.com/css-tricks.com/wp-content/uploads/2017/10/screengrab_css-MacOS81.png?ssl=1
+
+-->
 
 - Evolution of CSS layouts: 
   - tables (still used in email)
@@ -33,7 +48,6 @@ Initial code:
   - css frameworks (Bootstrap)
   - flexbox
   - grid.
-
 
 
 - CSS support: https://caniuse.com
@@ -47,6 +61,7 @@ Initial code:
   - https://res.cloudinary.com/dukp6c7f7/image/upload/f_auto,fl_lossy,q_auto/s3-ghost//2019/09/Flexbox-vs-CSS-Grid.jpg
 
 
+- Disclaimer (flexbox): we're going to see a lot of properties and concepts 
 
 
 ## The 2 axes of flexbox
@@ -90,7 +105,10 @@ Links:
 
 - CSS Tricks' guide: 
   - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-  <!-- @Luis: highlighted  -->
+
+- Joshw Comeau - Interactive Guide:
+  - https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+
 
 - Playground initial code (remember to fork): 
   <!-- @Luis: remember to fooooooork !!  -->
@@ -98,21 +116,36 @@ Links:
   <!-- @Luis: remember to fooooooork !!  -->
   
 
+<!--
 
-## Flexbox Exercises
+.pizza {
+  display: flex;
+  justify-content: end;
+}
 
-- A: Responsive Navigation Menu:
+https://img.ifunny.co/images/3257a1c9654c350aacc2d56069cc6d4a881349e0638dd27cd76fb1a082cb18f7_1.jpg
+
+-->
+
+
+## Practice: FlexBox
+
+Responsive Navigation Menu:
   - Replicate this layout (note, it is responsive): https://codepen.io/team/css-tricks/full/YqaKYR
   - Note to students: 
     - focus on the distrubution of the elements (main goal is to practice flexbox; do not worry about details of the design, colors etc)
     - to simplify: we can target mobile + desktop only (1 breakpoint)
-  - Solution: https://codepen.io/luisjunco/pen/qBYdYom
+  - Time: 20-30min.
+  - Solution (mobile first): https://codepen.io/luisjunco/pen/gOdPERa
 
 
-- B: More layouts in CSS-tricks: https://css-tricks.com/snippets/css/a-guide-to-flexbox/#examples
+Bonus:
 
+- Implement this design (responsive):
+  - https://codepen.io/chriscoyier/full/vWEMWw
 
-- C: This CodePen includes some common patterns. Pick some of them and try to implement it with flexbox: https://codepen.io/paulobrien/pen/xVNMRZ
+- This CodePen includes some common patterns. Pick some of them and try to implement it with flexbox: https://codepen.io/paulobrien/pen/xVNMRZ
+
 
 
 <!--
@@ -123,19 +156,27 @@ Links:
 -->
 
 
+
 ## Flexbox Resources
 
 
-Guides and cheatsheets:
-- CSS Tricks' guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-- Diagram with terms: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox/flex_terms.png
-- Flex visual cheatsheet: https://flexbox.malven.co/
-- Flex properties live demo: https://codepen.io/ironhack/pen/RLZXZR
+** Guides and cheatsheets **
 
-Joshw Comeau - Interactive Guide:
-https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+• A Complete Guide to Flexbox (CSS Tricks):  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-Practice:
-- Guided tutorial at FreeCodeCamp: https://www.freecodecamp.org/learn/responsive-web-design/#css-flexbox
-- Flexbox Froggy: https://flexboxfroggy.com/
-- Flexbox Defense: http://www.flexboxdefense.com/
+• Interactive Guide (Joshw Comeau): https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+
+
+
+** Visual Cheatsheets **
+• https://flexbox.malven.co/
+• https://codepen.io/ironhack/pen/RLZXZR
+
+
+
+** Practice **
+• Flexbox Froggy: https://flexboxfroggy.com/
+• Flexbox Defense: http://www.flexboxdefense.com/
+• Guided tutorial at FreeCodeCamp: https://www.freecodecamp.org/learn/responsive-web-design/#css-flexbox
+
+

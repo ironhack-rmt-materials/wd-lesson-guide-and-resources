@@ -48,13 +48,14 @@ Status: draft
   @Luis: can ask students to do the first 3 steps (15min) 
   -->
 
-  - Upload repo to GitHub
+  - 1: Upload repo to GitHub
   
-  - Run the app
+  - 2: Run the app
 
-  - Create 3 function components: 
-    - Header, Main, Footer
+  - 3: Create the initial structure. 
+    - Create 3 function components: Header, Main, Footer
     - for each of them, just display a text, (ex: "this is the header").
+    - render all of them in App
 
 
   - (extra) style: css file for a component
@@ -140,6 +141,24 @@ Status: draft
       - NOTE: use the `index` as key (tomorrow we will have functionality to add new movies, we don't want to ask the user for the id)
       > "When you don’t have stable IDs for rendered items, you may use the item index as a key as a last resort"
 
+    - (extra) add some basic css to card "movie"
+
+        ```css
+        .Main .card {
+          max-width: 80%;
+          margin: 1rem auto;
+          padding: 1rem;
+          border: 1px solid #666;
+          box-shadow: 5px 5px 10px -5px;
+          transition: 0.4s;
+        }
+
+        .Main .card:hover {
+            cursor: pointer;
+            box-shadow: 5px 5px 15px 0px;
+        }
+        ```
+
 
     - Load list of movies from a `json` file
       - create `data/movies.json`
@@ -191,6 +210,22 @@ Status: draft
       - (`Logical && Operator`) if rating > 8 display a text "RECOMMENDED"
       - (`Ternary Operator`) if imgURL not  available, display placeholder image
       - (bonus) if rating > 8 apply a different background (hint: `className`)
+
+    <!-- @todo: create slides or cheatsheet -->
+
+
+      - (Extra) CSS for "RECOMMENDED":
+
+      ```css
+      .Main .badge {
+        background-color: rgb(4, 128, 0);
+        color: #fff;
+        border-radius: 0.5rem;
+        max-width: 200px;
+        margin: 1rem auto;
+        padding: 0.2rem;
+      }
+      ```
 
 
 

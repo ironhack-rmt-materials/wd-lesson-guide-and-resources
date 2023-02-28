@@ -3,25 +3,20 @@
 
 
 
+<!--- 
+
 How: work in PAIRS.
 
 
+Notes:
+- Most students find this lab is relatively easy.
+- We have also bonus labs from w1d1 and w1d2
 
-## Explain:
-
-- how we work with labs in general (DO THE FIRST ITERATION & ONE COMMIT TO SHOW THEM)
-  - Fork
-  - Clone
-    - remember to clone the lab you forked (not the original one)
-    - keep things organized (computer > ironhack > week1 )
-  - Git essentials
-    - add, commit, push (they're explained in the lab instructions)
-  - Create PR
-  - Submit the LAB (sending the link on the students portal)
+--->
 
 
+Notes:
+- Instructions suggest to use `Replit` (tell them they can use any other editor of their choice)
 
-## Remember
 
-- Submit 9am (can continue improving if you want)
 

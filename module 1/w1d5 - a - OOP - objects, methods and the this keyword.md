@@ -17,7 +17,10 @@ Status: complete
   - Ex. 1:
 
     ```js
-    const user = {}
+    const user = {
+      userName: "Alice",
+      age: 30
+    }
     ```
 
 
@@ -138,6 +141,8 @@ Status: complete
 ## Quick CFU: storing properties & the keyword `this`
 
 
+  Initial Code: https://stackblitz.com/edit/js-tjmjh1?file=index.js
+
   - 1. Add functionality for "age"
     - store the age of the user
     - when the user says hello, display: `hello, my name is xxx and I am xxx years old`
@@ -145,6 +150,7 @@ Status: complete
   -  2. (bonus) Add a method getOlder()
     - when called, this method would increase age by one.
 
+  -  3. (bonus) Everytime the user gets older, call sayHello
 
   - Solution: https://stackblitz.com/edit/js-yzcuvt?file=index.js
 
@@ -238,6 +244,21 @@ Create a class "Ironhack" with:
 - functionality to create random pairs
 - (bonus) if we try to generate pairs with an odd number of students, we can create one group of three.
 - (bonus) functionality to create random groups (3, 4, 5 students...).
+
+
+
+## (skip) Alternative syntax for Class Fields
+
+  ```js
+  class User {
+    age = 20;
+    energy = 1;
+
+    //...
+  }
+  ```
+
+Example: https://stackblitz.com/edit/js-twnm88?file=index.js
 
 
 

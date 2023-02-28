@@ -93,12 +93,12 @@ Status: draft
 
 - (skip) Object constructor syntax
 
-  ```
+  ```js
 	let someObject = new Object();
   ```
 
 
-## Accessing the values
+## Read properties
 - dot notation
 - square bracket notation (with a string inside brackets)
 
@@ -198,23 +198,18 @@ ___
 
 <!-- 
 GOAL: practice objects + get a nice name for our class ;)
-TIME: 15m + 10m
 -->
 
-- Create an object to store information of our class:
-  - location ("remote")
-  - field ("web dev")
-  - array with the name of some students (don't need to include all, just some)
-- Later in the code, add a new property "cohortName" (choose a cool name for our class)
-- Update field ("full-stack")
-- Bonus1: create a function that receives an object with the details of a class & displays the name of each student.
-- Bonus2: how about we want to store info about our students? (in the next lesson we will learn how to work with more complex data structures)
+Practice: JS Objects
+- Instructions: https://stackblitz.com/edit/js-5d6bhn?file=index.js
+- Time: 15min.
 
 
-  <!--
-  @Luis:
-  - take the opportunity to choose a name for our class
-  -->
+<!--
+@Luis:
+- take the opportunity to choose a name for our class
+-->
+
 
 
 

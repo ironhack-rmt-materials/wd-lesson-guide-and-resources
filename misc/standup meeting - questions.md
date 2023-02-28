@@ -45,6 +45,7 @@
 
 ## Other questions....
 
+- You need to prepare for a talent show, what do you do?
 - Beach holiday or ski trip?
 - What would your superpower be and why?
 - If you had to move to another country, which one would you choose?

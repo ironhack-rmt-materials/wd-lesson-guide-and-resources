@@ -35,6 +35,8 @@ Sample code:
 
 ## Linking to resources
 
+  <!-- @todo: create cheatsheet -->
+
     - External url. eg: https://mykittens.com/bob.jpg
 
     - Absolute path. 
@@ -91,36 +93,43 @@ Sample code:
 
 Alternative: watch video together
 
-
-CSS Specificity explained (13min) (Cascade + Specificity)
+- CSS Specificity explained (13min) (Cascade + Specificity)
 https://www.youtube.com/watch?v=c0kfcP_nD9E
-
 
 -->
 
-- Cascade 
-  - "the order of CSS rules matters; when two rules apply that have equal specificity, the one that comes last in the CSS is the one that will be used."
+
+<!-- @todo: create cheatsheet / gist -->
 
 
-- Specificity (Selector precedence)
-  - What it is:
-    - some selectors have higher precedence
-  - How it is calculated: 
-    - https://cms-assets.tutsplus.com/uploads/users/30/posts/34141/image/spec-02.svg
-  - Cheatsheet: 
-    - ![specifishity](./images/specifishity.png)
-    - http://www.standardista.com/wp-content/uploads/2012/01/specificity3.pdf
+```discord
 
-    <!-- worth to mention: vs code displays speficity when you hover a css selector  -->
-
-- Inheritance
-  - some CSS property values set on parent elements are inherited by their child elements (ex. `font-family`)
-  - some aren't (ex. `width`)
-  - full list: https://stackoverflow.com/a/5612360/11298742
+• Cascade 
+  • "the order of CSS rules matters; when two rules apply that have equal specificity, the one that comes last in the CSS is the one that will be used."
 
 
-- Further reading:
-  - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
+• Specificity (Selector precedence)
+  • What it is: "some selectors have higher precedence"
+  • How it is calculated: https://cms-assets.tutsplus.com/uploads/users/30/posts/34141/image/spec-02.svg
+  • Cheatsheet: http://www.standardista.com/wp-content/uploads/2012/01/specificity3.pdf
+  • Tip: VS Code displays speficity when you hover a css selector.
+
+
+
+• Inheritance
+  • Some CSS property values set on parent elements are inherited by their child elements (ex. `font-family`)
+  • Some aren't (ex. `width`)
+  • full list: https://stackoverflow.com/a/5612360/11298742
+
+
+• Further reading:
+  • https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
+
+
+```
+
+Backup (Specifishity):
+- ![specifishity cheatsheet](./images/specifishity.png)
 
 
 

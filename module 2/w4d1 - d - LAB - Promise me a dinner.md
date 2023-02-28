@@ -3,7 +3,15 @@
 # LAB - Promise me a dinner
 
 
-How: work in pairs.
+
+<!--- 
+
+How: work in PAIRS.
+
+--->
+
+
+
 
 Notes:
 - show how the function obtainInstruction() returns a Promise

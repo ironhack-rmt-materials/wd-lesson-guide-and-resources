@@ -75,7 +75,7 @@
 - Recordings & Sharing resources (inc. lab solutions)
 - Attendance tracking
   - note: we need to make sure it's on campus tools
-- Other tasks: spreadsheet
+- Other tasks (ex. spreadsheet)
 
 
 ## Social events

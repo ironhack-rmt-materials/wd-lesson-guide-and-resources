@@ -8,6 +8,10 @@ Status: notes
 @todo: improve planning
 
 
+React Router Version History (dates on the left):
+- https://github.com/remix-run/react-router/releases
+
+
 -->
 
 

@@ -22,6 +22,10 @@ status: draft
 
 -->
 
+- Quick refresh "the concern on users' security"
+  - We will not store passwords
+  - We store a representation: `HASH`
+
 
 - Session-based auth (module2) vs. tokens (module3)
   - Module 2 diagram: 
@@ -34,6 +38,13 @@ status: draft
     - https://camo.githubusercontent.com/10cd8f8251ec9d1acf0d6c7e26d69415575c0f94b27c26c99c893e1743d6f4a2/68747470733a2f2f63646e2e61757468302e636f6d2f626c6f672f636f6f6b6965732d76732d746f6b656e732f636f6f6b69652d746f6b656e2d617574682e706e67
 
 <!-- @todo: create diagrams -->
+
+Token == "a document that is signed" (anyone in possession )
+
+Compare Session vs Token auth
+  - Each have advantages and disadvantages
+  - Advantages & Disadvantages: https://stackoverflow.com/a/71552858/11298742
+  - In depth comparison: https://stackoverflow.com/a/35059874/11298742
 
 
 

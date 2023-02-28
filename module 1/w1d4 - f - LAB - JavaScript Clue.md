@@ -1,3 +1,0 @@
-
-# LAB - JavaScript Clue
-

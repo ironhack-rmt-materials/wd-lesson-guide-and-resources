@@ -1,13 +1,18 @@
 
 
 
-## Alternatives to Heroku
+## Alternatives to Heroku (summary)
 
 - adaptable.io
-  - pros: very easy to use & doesn't ask for credit card
+  - pros: 
+    - very easy to use 
+    - doesn't ask for credit card
+    - can deploy from repos on a github organization
+    - full support for websockets
   - cons: 
     - still in Beta, at the moment, it requires to signup for an invitation code.
     - build process takes some time (5min ish)
+    - can not add collaborators (ex. to see error logs)
 - fly.io
   - cons: 
     - asks for credit card

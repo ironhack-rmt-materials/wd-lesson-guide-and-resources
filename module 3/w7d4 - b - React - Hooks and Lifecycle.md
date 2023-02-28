@@ -12,14 +12,16 @@ Status: draft
 - simplify theory (too many concepts for students)
 - improve planning & examples
 - Prepare exercise for them to practice
-- CREATE SLIDES 
-- CREATE SLIDES
-- CREATE SLIDES
-- CREATE SLIDES
-- CREATE SLIDES
   - diagram mounting + updating & side effect (ex. https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
   - useEffect cheatsheet 
 
+
+- IMPROVE PLANNING & NOTES
+- IMPROVE PLANNING & NOTES
+- IMPROVE PLANNING & NOTES
+- IMPROVE PLANNING & NOTES
+- IMPROVE PLANNING & NOTES
+- IMPROVE PLANNING & NOTES
 
 -->
 
@@ -38,13 +40,6 @@ Status: draft
 
 
 
-## Pre-setup
-
-`npx --yes create-react-app react-characters-app`
-
-
-
-
 
 ## Basic refresh Axios
 
@@ -54,7 +49,8 @@ Status: draft
   - list of characters: GET `/characters` (show on browser)
   - Show table with endpoints: w5d4 "AXIOS | POST, PUT and DELETE request"
 
-- Refresh Axios
+
+- REFRESH Axios
   - Open Stackblitz + GET list of characters
   - TASK:
     - Create a new character: POST /characters + send an object with `{name: "", occupation: "", weapon: ""}`
@@ -69,9 +65,58 @@ Status: draft
 
 
 
+
+
+## Demo: sending API requests in our React App.
+
+How:
+- Show demo on the app from yesterday (popcorn-time).
+
+What we will do: 
+- in the Header, display the number of characters in the API.
+
+Steps:
+- npm i axios
+- send request
+
+  ```js
+  axios
+    .get(baseURL + '/characters')
+    .then((response) => {
+      console.log(response.data);
+    })
+    .catch((e) => {
+      console.log(e);
+    });
+  ```
+
+
+
+
+
+
+## Pre-setup
+
+`npx --yes create-react-app react-characters-app`
+
+
+
+
+## Explain...
+
+
 - Explain concept of a SIDE-EFFECT:
   > A side effect is when a function relies on, or modifies, something outside its parameters to do something.
   - ie. when we read/modify information outside
+
+  <!-- 
+  
+  @todo: 
+  - add definition of "side-effect" to the slides
+  - example 1: function reading variable from parent scope
+  - example 2: function mofifying variable in the parent scope
+  
+  -->
 
 
 - (extra) explain "pure functions"
@@ -242,15 +287,15 @@ Note: students need a lot of guidance to be able to do this task for the first t
 
 
 TASK:
-- Implement functionality to display list of characters
+- Implement functionality to display list of characters (in "App.js")
   - For each character `<div className="character">Name: xxxx</div>`
-- Display more info about the character (name, weapon)
+- Display more info about the character (occupation, weapon)
 - Bonus:
   - display only first 10 characters
-  - css
-  - button to delete one character
+  - add css
+  - implement a button to delete one character (when the user clicks, we send a request to the api)
 
-Time: 20-30m.
+Time: 30m.
 
 
 Hints:
@@ -267,6 +312,8 @@ Explain (after the exercise):
 - initialize to empty array vs. null etc
   - ex: `const [charactersArr, setCharactersArr] = useState([]);`
   - Common problem: we initialize to undefined + we iterate with .map()
+- useEffect:
+  - avoid sending a request everytime (ex. if we don't have a dependency array) `useEffect( () => {})` 
 - conditional rendering (display a message while loading)
   - ex: `charactersArr.length === 0 ? <p>loading...</p> : renderList()`
 
@@ -316,16 +363,6 @@ Docs: https://reactjs.org/docs/hooks-rules.html
 
 - EXPLAIN HOW TO MAKE API REQUEST & how to render results in jsx 
 
-
-## Exercise
-
-API call to characters API
-- Task: display list of characters () 
-  <!-- @todo: this contains the solution -->
-  https://stackblitz.com/edit/react-hhhsgc?file=src/App.js
-
-- Possible solution (API call & conditional rendering):
-  https://stackblitz.com/edit/react-hhhsgc?file=src/App.js
 
 
 

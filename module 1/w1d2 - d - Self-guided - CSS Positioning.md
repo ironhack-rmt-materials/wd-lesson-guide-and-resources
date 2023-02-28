@@ -17,7 +17,9 @@ Video:
 
 - CSS Position Tutorial | Learn CSS For Beginners (10min.)
   - https://www.youtube.com/watch?v=gD3G67oPg-w
-  - Sample code (similar to the one used in the video): https://codepen.io/luisjunco/pen/NWMqBww
+  - Sample code (similar to the one used in the video): 
+    - Initial code: https://codepen.io/luisjunco/pen/ExePJRV
+    - Some options: https://codepen.io/luisjunco/pen/NWMqBww
 
 
 - (Bonus) Learn CSS Position In 9 Minutes (9min.)

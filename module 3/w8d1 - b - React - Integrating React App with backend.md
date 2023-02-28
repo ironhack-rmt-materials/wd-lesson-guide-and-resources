@@ -23,15 +23,21 @@ status: draft
 
 
 
+New concepts in this unit:
+  - All main concepts have been covered already.
+  - Minor diferences:
+    - Directory `pages` for components
+    - Functionality to "Update" (form needs to be prefilled) (MAIN NEW THING)
+
+
+
+
 Methodology:
 
 
 - Option 1: 
   - Self-guided
-  - All main concepts have been covered already
-  - Minor diferences:
-    - Functionality to "Update" (form needs to be prefilled) (MAIN NEW THING)
-    - directory "pages" for components
+
 - Option 2: 
   - follow students portal (copy code & understand what we do)
   - quicker
@@ -98,6 +104,7 @@ Alternative architecture:
 
 
 
+
 <hr />
 
 
@@ -129,4 +136,28 @@ TASK:
 - Implement functionality to delete a project 
 - Functionality on tasks (ex. create tasks, display list of tasks)
 
+
+
+## Things worth to mention (ex. on the day after)
+
+- Pages vs. Components directory
+
+
+- EditProjectPage (pre-populated form)
+  
+  - useEffect
+
+  ```js  
+  useEffect(() => {
+    //...
+  }, [projectId]);
+  ```
+
+- API_URL:
+  - extract to env variable (ex. `REACT_APP_API_URL`)
+
+
+- Hierarchy of components
+  - See hierarchy on react dev tools
+  - Recommendation p3: start with a simple hierarchy (avoid nesting)
 

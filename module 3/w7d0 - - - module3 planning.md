@@ -2,6 +2,18 @@
 # module3 Planning
 
 
+## LABs
+
+- w7d1 (React Tweets)         → Individual
+- w7d2 (React IronContacts)   → Individual
+- w7d3 (React IronNutrition)  → in Pairs
+- w7d4 (Wiki Countries)       → in Pairs
+- w7d5 (React IronBeers)      → Individual
+
+
+
+## Codealongs
+
 day1: React intro + CRA + Components & Props
 - codealong "React playground"
 

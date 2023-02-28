@@ -39,14 +39,14 @@
 
 - We know that we can store a function in a variable
 
-- Example:
+- Example (calc Multiplication):
 
     ```js
-    const calcSum = function(x, y) {
+    const calcMult = function(x, y) {
         return x + y;
     };
 
-    calcSum(2, 3);
+    calcMult(2, 3);
     ```
 
 - Compare both syntaxes
@@ -110,13 +110,22 @@
 
 
 
-- CFU
+Practice: timers and intervals
   1. Create an interval that displays a counter every second
     - in the console, display: "hello 1", "hello 2", "hello 3".....
-  2. (Bonus) After 5 seconds, cancel that interval
+  2. After 5 seconds, cancel that interval
+  3. (Bonus) Apply what we've learned so far and Try to solve it in different ways.
 
   How: individual
-  Time: most students find it difficult, give them 15min. and solve together.
+  Time: 15min.
+
+  Solution 1 (with a timeout): 
+  - https://stackblitz.com/edit/js-vhkxbm?file=index.js
+  Solution 2 (checking the counter): 
+  - https://stackblitz.com/edit/js-sjpn4f?file=index.js
+
+
+Note: most students find it difficult, give them 15min. and solve together.
 
 
 
@@ -128,7 +137,7 @@
 - leave the examples for w2d2 (unit "Async and callbacks")
 -->
 
-- A function can be passed as an argument to another function
+- Callback = when we pass a function as an argument to another function
   - example: `forEach()`
   - example: `setTimeout()`
 
@@ -210,27 +219,12 @@ So we can pass it a function to be executed at the end (once dinner is ready)...
 
 
 
-- CFU:
+- Practice: JS Callbacks
 
-  ```javascript
-  function saveInfoInDatabase() {
-    console.log('saving information in the database');
-    // this operation takes 5 seconds....
-  }
+  - Instructions: https://stackblitz.com/edit/js-graftg?file=index.js
+  - Time: 15min.
 
-  function updateUserInterface() {
-    console.log("updating user interface")
-  }
-  ```
-
-
-TASK:
-- call the function "saveInfoInDatabase"
-- saving the info in the DB takes 5 seconds...
-- once the info is saved, we want to execute "updateUserInterface"
-- note: the function "saveInfoInDatabase" should be generic (use a callback)
-
-Solution: https://stackblitz.com/edit/js-dzfqat?file=index.js
+  - Solution: https://stackblitz.com/edit/js-dzfqat?file=index.js
 
 
 
@@ -250,6 +244,7 @@ Solution: https://stackblitz.com/edit/js-dzfqat?file=index.js
 
 
 ## Arrow Functions
+
 - Alternative syntax to create an anonymous function
 - (they're a different way to create functions)
 - Introduced with ES6
@@ -258,28 +253,35 @@ Solution: https://stackblitz.com/edit/js-dzfqat?file=index.js
 
   ```js
   // function expression syntax
-  const greeting = function(name) {
-    console.log(`Hello, ${name}!`);
+  const sayHello = function(userName) {
+    console.log(`Hello, ${userName}!`);
   };
 
   // arrow function syntax
-  const greeting = (name) => {
-    return name;
+  const sayGoodbye = (name) => {
+    console.log(`Goodbye, ${name}!`);
   };
 
   ```
 
-- when we can ommit parenthesys (only one arg)
-  - `one paramenter -> we can remove the parenthesys`
-- when we can ommit curly braces (only one line)
-  - `The braces can only be omitted if the function directly returns an expression.`
+
+- Syntax:
+  - when we can ommit parenthesys (only one arg)
+    - `one paramenter -> we can remove the parenthesys`
+  - when we can ommit curly braces (only one line)
+    - `if the function directly returns an expression -> curly braces can only be omitted & the return will be implicit.`
 
 
-- "Normal" vs "Arrow" functions
+- "Traditional" vs "Arrow" functions
   - quite much the same
-  - in some cases we'll need to use one or the other (scope / this)
+  - which one to use: 
+    - consistency
+    - in some cases we'll need to use one or the other (ex. this)
 
 - Arrow functions don't have their own bindings to `this`.
+
+  - > Arrow functions don't have their own bindings to this, arguments, or super, and should not be used as methods.
+
   - "Arrow function expressions should only be used for non-method functions because they do not have their own `this`"
 
 - Arrow functions... "this" is the difference:
@@ -289,9 +291,12 @@ Solution: https://stackblitz.com/edit/js-dzfqat?file=index.js
 
 ## Practice: different ways of creating functions (+ delays & callbacks) 
 
-Time: flexible 
--- iteration 1 is great to practice (10min)
--- iteration 3 challenging for many students (10% completed after 20min)
+
+<!--
+
+Notes:
+- iteration 1 is great to practice (10min)
+- iteration 3 can be challenging for many students (10% completed after 20min)
 
 We will practice:
 - different ways to create functions
@@ -301,34 +306,12 @@ We will practice:
 - anonymous functions
 - delays & callbacks
 
-```
-    //
-    // My morning routine:
-    //
-    //
-    // Iteration 1:
-    //
-    // - Create the functions below:
-    //   1. wakeUp(): use a function declaration (aka statement)
-    //   2. prepareCoffee(): use a function expression (ie. store a traditional anonymous function in a variable)
-    //   3. drinkCoffee(): use an arrow function expression
-    //
-    // - Each function will just print a message on the console
-    // (eg. "Good morning", "Coffee is ready", "Drinking coffee" 
-    //
-    // - Call (invoke) those functions, one after each other
-    //
-    //
-    // Iteration 2:
-    // - Prepare coffee takes 3 seconds (we will now display the message after 3 secs.). 
-    // - For this iteration, it's ok if you're drinking coffee without being ready ;)
-    //
-    // Iteration 3:
-    // - Drink coffee only once it is ready (the function prepareCoffee() now expects to receive a callback and will execute it once coffee is ready)
+-->
 
-```
+- Instructions: https://stackblitz.com/edit/js-aqnh5t?file=index.js
+- Time: 15-20min.
 
-Solution: https://stackblitz.com/edit/js-mpq4jv?file=index.js
+- Solution: https://stackblitz.com/edit/js-dmxv6n?file=index.js
 
 
 

@@ -5,9 +5,29 @@ Meet-Them-All (Karina)
 https://meet-them-all.netlify.app/
 
 
+Joltii (Serhii + Jose)
+https://joltii.netlify.app/
 
-Food Finder (Saskia + Marc)
-https://ironic-food-finder.netlify.app/cities
+
+H&B Homes (Berkay + Harida)
+https://renting-house-platform.netlify.app/
+
+
+
+Travel Buddy
+https://travel-buddy-client.netlify.com/
+
+
+
+
+Other Projects:
+
+
+Moonlight Events (Thalita + Jonni)
+- includes real-time chat with websockets
+https://moonlight-events.netlify.app/
+
+
 
 
 <!--

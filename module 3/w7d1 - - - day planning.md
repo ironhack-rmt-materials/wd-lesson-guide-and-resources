@@ -1,12 +1,12 @@
 
 # w7d1 Planning
 
+
 <!-- 
 
 Status: complete
 
 Notes:
-- Section "feeling ready" took a bit of time. Can be good to leave it for end of day or maybe during project week (today we introduce important concepts).
 - w7d2 is challenging. Try to make further progress today so that tomorrow is not so heavy.
 
 -->
@@ -40,75 +40,13 @@ Note: for pair projects, we can apply the same grade, unless there's clear reaso
 -->
 
 
-## Feeling ready ? [45min - 90min]
-
-- [ALTERNATIVE: leaving this to project week + doing a kata with HOF as a Monday warmup]
-
-- Brief: How do you feel towards module 3?
-
-
-- Zoom poll
-  - Do you feel ready to start working as a junior dev?
-  - Yes! Not yet
-
-- (skip) Mural (timer 5 + 5min.)
-    - explain purpose
-    - students can add +1's
-
-- Slides (impostor syndrome + junior-vs-senior): 
-  https://docs.google.com/presentation/d/10Kgs-RNvgxEhDa94HXsfTKUZsHDEtCYaWafcJeso33s/edit?usp=sharing
- 
-  Note: Career week also includes I.S.:
-  https://docs.google.com/presentation/d/1DGsAiKb_bgqbn4AmqyLxODA8psAFFfFP4nxoAzej-mQ/edit?usp=sharing
-
-
-
-  - Junior:
-    - Solve smaller problems
-    - Day to day tasks
-    - Fix bugs
-    - Needs support (learn when & how to ask for support)
-
-  - Senior:
-    - Can solve more complex problems
-    - Can see the bigger picture
-    - Supports other team members
-
-
-
-    - (extra) What Would A Junior Developer Work On? (5min)
-    https://www.youtube.com/watch?v=S-DYjfdZm_0
-
-
-    
-- Different roles etc:
-  https://ironhackremot-psd6577.slack.com/archives/C01K0PS7YKV/p1610971885010900
-  - alternative: "C:\Luis\pro\Ironhack\media\class-imgs\job roles and offers"
-
-
-- Search some roles (eg. linkedin) & read 1 or 2 job offers.
-
-
 
 ## Intro to module 3
 
-<!-- @todo: create slides -->
-
-- WARNING: m3 is very challenging for most students.
-
-
 - Intro to module 3: [30m]
 
-  - React = JavaScript library for building user interfaces
-
-  - MERN Stack
-    https://www.bocasay.com/wp-content/uploads/2020/03/MERN-stack-1.png
-
-
-  - See deployment diagram
-    - NEW: https://docs.google.com/presentation/d/1pGyIT8lYwxq5ftCoye5KK6TbJfgJxO3t2MdoOxsl4ss/edit?usp=sharing
-    - OLD: https://stackoverflow.com/questions/66503751/cross-domain-session-cookie-express-api-on-heroku-react-app-on-netlify
-
+  - Slides (React + MERN + deployment diagram):
+    - https://docs.google.com/presentation/d/1pGyIT8lYwxq5ftCoye5KK6TbJfgJxO3t2MdoOxsl4ss/edit?usp=sharing
 
   - Content overview (7-day lectures + project)
 
@@ -118,16 +56,29 @@ Note: for pair projects, we can apply the same grade, unless there's clear reaso
   - Project 3:
     - individual / pairs (recommended)
 
+    - if a student is falling behind in labs or requirements to graduate, we will ask them to do project 3 individual.
+   - when this is the case, we contact them before we start project 3 (we still have quite a few labs).
+
+    - for all other students. Recommendation: pairs
+      - advantages:
+        - collaboration
+        - being able to go further than an MVP.
+
+  <!-- @Luis: include the notes above in the slides (labs, project etc) -->
+
+
   - See project requirements
     - 3 models
     - 2 repos
 
-  - See sample projects:
-    - https://meet-them-all.netlify.app/ (karina)
-    - https://prepperbuy.netlify.app/ (hongshan)
-    - https://lizzi-guestlist.netlify.app/
-    - https://pomodoce.herokuapp.com/ (not working)
+  - See sample project:
+    - https://meet-them-all.netlify.app
 
+  - On that example, see how it works as an SPA.
+
+  - WARNING: 
+    - m3 is very challenging for most students 
+    - p3 takes time.
 
 
 ## Rest of the day
@@ -151,7 +102,7 @@ Note: for pair projects, we can apply the same grade, unless there's clear reaso
 
 ## Homework Bonus (very recommended)
 
-> Did watching the video helped you?
+> Did watching the video help you?
 > 
 > If so, AFTER YOU FINISH THE LAB, you may want to continue watching the video, from 38:50 to 1:08:00:
 > 

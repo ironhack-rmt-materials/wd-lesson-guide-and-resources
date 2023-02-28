@@ -58,8 +58,23 @@ IMPORTANT: ask students for preferences for project2
 
 @students:
 - we will try to take those preferences into consideration.
-- we will also try to avoid pairs with very different levels
+- in general, we try to avoid pairs with very different levels
 
-ALSO, create channel #project-ideas on Slack.
+
+<!--
+
+- (optional) create channel #project-ideas on Slack.
+
+- Try (automatic groups): 
+  - https://clevergroups.com/tryit.php
+  - https://github.com/A-Fitz/Group-Generator
+
+- Or implement ourselves:
+  - https://www.youtube.com/watch?v=DuDvDrAXXbk (Irving's Algorithm for The Stable Roommate Problem)
+  - https://github.com/gfornari/stable-roommates-problem
+
+
+-->
+
 
 

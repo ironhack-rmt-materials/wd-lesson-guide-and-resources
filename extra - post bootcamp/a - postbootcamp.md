@@ -84,19 +84,23 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
       - TypeScript course: https://rootlearn.notion.site/TypeScript-course-details-96b1df73b90c44f99c61a0a49ab9ecd9
 
 
-  - Technologies (pick one or two): 
+  - Technologies and things to learn (pick one or two at a time): 
     - further practice in React
+    - further practice in JavaScript & problem solving
     - TypeScript +++
+    - Next.js ++
     - TDD / Testing
     - Redux
     - SCSS
-    - SQL (MySQL and PostgreSQL are popular choices)
-    - Next.js
+    - GraphQL (an alterntative to REST -ie. a different way to create an API)
+    - SQL Databases (ex. MySQL and PostgreSQL are popular choices)
+
+    
 
   - Interesting options:
     - build something
     - collaborate with other students
-    - follow tutorials & online courses
+    - follow tutorials & online courses (ex. Udemy or LinkedIn courses)
     - pair with a mentor (networking, linkedin, ex-ironhacker)
 
   - Feeling overwhelmed / "I don't know where to start" 
@@ -125,6 +129,31 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
 https://gist.github.com/IH-WebDev-TA-Remote/324bb37af5886d83622cb82fb3dc6008
 
 
+
+## Understanding job market, roles etc.
+
+Some topics:
+- Junior vs. Mid vs. Senior
+- Search some job offers (eg. linkedin) & read 1 or 2 job offers.
+
+<!--
+@Luis: see some notes in "Feeling ready" (w7d1)
+-->
+
+
+
+## Extra resources:
+
+Codevolution - Preparing for a Frontend Interview
+https://learn.codevolution.dev/p/preparing-for-a-frontend-interview
+
+
+Frontent Challenges (CSS mostly):
+https://www.instagram.com/p/CoxWkrjD3mH/?igshid=YmMyMTA2M2Y%3D
+
+
+
+---
 
 
 

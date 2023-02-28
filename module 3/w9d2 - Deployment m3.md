@@ -4,13 +4,13 @@
 
 <!--
 
-- Time: 6-8h +
+- Time: 4h 
 
 - Make sure we do that 3 DAYS BEFORE final presentation,
 
 - Previos day:
   - it is important that we are all present (otherwise you'll need to do with recording)
-  - ask students to prepare passwords for Heroku & Mongo Atlas
+  - ask students to prepare passwords for Adaptable.io & Mongo Atlas
 
 - Start in the morning
 
@@ -18,12 +18,13 @@
   -- IT IS IMPORTANT THAT WE ALL FOLLOW THE SAME STEPS
      -- Why: otherwise we will all have different configuration & different errors
   -- Please to follow carefully all steps
-  -- Pay 200% attention
+  -- Pay 100% attention
   -- Don't try to go one step ahead.
   -- Copy the names of variables (don't type them)
 
 
-@todo: create slides to put everything very clear for students
+Slides m3 deployment:
+https://docs.google.com/presentation/d/19VRo2Bjae3q8b5wNCMKpEG-DrlDN_4Z3-XdHcP4CHZo/edit?usp=sharing
 
 
 Slides CORS: 
@@ -37,53 +38,32 @@ https://docs.google.com/document/d/16gK6fgwJNGGNyx3Oa9GV40IxHq3RvahjoiBNZFg4Vek/
 -->
 
 
-## Intro
-
-
-- Environments (dev, staging, production):
-  https://nbarger.files.wordpress.com/2010/01/lifecycle_environments2.gif
-  https://i.stack.imgur.com/OBQF7.png
-
-
-- Automation:
-
-  > If we're doing a task frequently, it can be worth to automate the proces...
-
-  Life example: https://www.youtube.com/watch?v=Vzjn9VvprJw
-
-
-
-- DevOps CI/CD Explained in 100 Seconds
-https://www.youtube.com/watch?v=scEDHsr3APg
-
-
-
-
-
-- Diagram & common problems (cookie based auth): https://stackoverflow.com/q/66503751/11298742
-
-
-
-
-
-## Deploy Express App on Heroku
-
-- Follow steps on m2 lesson ("Deploy to Heroku"): from section "Login to the Heroku website and Create New App"
-
 
 ## Deploy DB on Mongo Atlas
 
+- https://account.mongodb.com/account/login
 
-- Create new project (limit of one free cluster per project)
+- IMPORTANT: we need to create a new project (limit of one free cluster per project)
+
+
+## Test DB (compass)
+
+- test db connection with compass
+
+
+
+## Deploy Express App (Adaptable.io / Fly.io)
+
+- Follow steps on m2 lesson.
+
 
 
 
 ## TEST BACKEND
 
-- Test DB (Compass)
-
 - Test API (Postman)
   - We need to add environment variables
+
 
 
 ## Deploy React App on Netlify
@@ -93,9 +73,13 @@ https://www.youtube.com/watch?v=scEDHsr3APg
 <!-- @Luis: NETLIFY - do this from a students computer -->
 
 
+https://netlify.app/
 
 
-Fix (in this order):
+Fix: CI = false
+
+
+IMPORTANT - Fix in this order:
 - react app needs to know where is REST API
 - REST API needs to know origin for CORS config
 
@@ -148,9 +132,10 @@ Ask students to submit urls (github x2 + netlify) on students portal
 
 
 
-## (Extra) Automatic Deploys from Github
 
-https://devcenter.heroku.com/articles/github-integration#automatic-deploys
+## (Extra) Keep me alive
+
+https://github.com/Sepidehatt/KeepMeAlive-hbs-version
 
 
 
@@ -160,18 +145,18 @@ https://devcenter.heroku.com/articles/github-integration#automatic-deploys
 
 - Summary of our setup
   - dev vs. production
-  - production (mongodb Atlas + Heroku + Netlify)
+  - production (mongodb Atlas + Adaptable + Netlify)
 
 - Remember: the databases for development & production are different
 
 - How to publish changes:
   - push to github
-  - deploy backend (need to push to heroku)
-  - deploy frontent (automated, just by pushing to github)
+  - deploy backend (push to main)
+  - deploy frontent (push to main)
 
 - Work in teams (in case they're in teams, how they can deploy etc)
 
-- Troubleshooting (heroku & netlify logs)
+- Troubleshooting (adaptable & netlify logs)
 
 - Disclamer on cloud hosting consumption (eg. Netlify bandwidth)
 

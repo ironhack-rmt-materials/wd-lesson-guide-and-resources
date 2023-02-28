@@ -28,9 +28,8 @@
   - Brief description of the project
 
 - Instructions to run this app in my computer
-  - do I need environment variables? 
-    - explain that I'd need to create a `.env` file and add environment variables (remember to detail all the variables that I may need to create, if I need to create an account to get some credentials for cloudinary or an api etc.)
   - how to install dependencies (`npm install`)
+  - environment variables: explain that I'd need to create a `.env` file and add environment variables (remember to detail all the variables that I may need to create, if I need to create an account to get some credentials for cloudinary or an api etc.)
   - how to run the application (eg. `npm run dev`)
 
 - Demo

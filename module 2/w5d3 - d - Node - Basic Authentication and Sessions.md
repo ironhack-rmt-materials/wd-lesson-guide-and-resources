@@ -98,6 +98,10 @@
     ```
 
 
+    <!--
+    @Luis:  process.env.SESS_SECRET || "unicorns"
+    -->
+
     ```js
     const session = require('express-session');
 

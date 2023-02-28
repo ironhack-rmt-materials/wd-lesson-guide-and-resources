@@ -1,5 +1,7 @@
 # JS - Conditionals and Loops
 
+
+
 Methodology:
 - we probably don't need to go in detail for the theory
 - instead, ask them to solve "FizzBuzz" + solve it together
@@ -12,6 +14,29 @@ FizzBuzz:
 
 
 
+## Notes
+
+
+- if…else
+- switch
+- do…while
+- for
+- for…of
+- break
+- while
+
+
+
+## for...of
+
+```js
+const someIterable = 'amsterdam';
+ 
+for (const value of someIterable) {
+  console.log(value);
+}
+```
+
 
 
 ## EXTRA: Ternary operator
@@ -23,7 +48,7 @@ FizzBuzz:
 
 - Example 1: initial code with if-else 
 
-  ```javascript
+  ```js
   const name = 'alice';
   let likesPizza;
 
@@ -36,9 +61,10 @@ FizzBuzz:
   console.log(likesPizza);
   ```
 
+
 - Example 1 with ternary operator:
 
-  ```javascript
+  ```js
   const name = 'alice';
   const likesPizza = name === 'alice' ? true : false;
 
@@ -52,11 +78,12 @@ FizzBuzz:
 
 - Example 2, returning from a function:
   
-  ```javascript
+  ```js
   function getUserRole() {
-    const isGod = true;
+    
+    let name = "alice";
 
-    if (isGod) {
+    if (name === "alice") {
       return 'admin';
     } else {
       return 'standard';
@@ -70,10 +97,11 @@ FizzBuzz:
 
 - Example 2, with ternary operator:
 
-  ```javascript
+  ```js
   function getUserRole() {
-    const isGod = true;
-    return isGod ? 'admin' : 'standard';
+    let name = "alice";
+
+    return (name === "alice") ? 'admin' : 'standard';
   }
 
   const role = getUserRole();

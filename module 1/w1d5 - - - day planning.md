@@ -18,10 +18,12 @@
 
 
 Morning:
-- (optional) refresh concepts from week 1
-- (optional) introduce setTimeout() / setInterval()
-- introduce callback & anonymous functions (do example with forEach)
-- OOP
+- Questions from lab (30m.)
+- introduce callback & anonymous functions (do example with forEach) (30min.)
+- (extra) introduce setTimeout/setInterval (30min.)
+- OOP: intro + oop with plain objects
+- OOP: ES6 Classes + CFU
+- OOP: OOP Bakery exercise (30min.)
 
 
 
@@ -30,3 +32,6 @@ Afternoon:
 - Retrospective
 
 - Icebreakers
+
+- Weekend!! 
+  - https://www.icegif.com/wp-content/uploads/weekend-icegif-1.gif

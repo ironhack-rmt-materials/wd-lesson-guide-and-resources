@@ -43,7 +43,14 @@ Topics:
 - Github: fork & clone
 
 
-# Cheatsheets
+
+## General guidelines for labs/assignments
+
+General guidelines for labs/assignments:
+https://gist.github.com/ironhack-edu/dd3635de73a6ef07ef337bf184eda985
+
+
+## Cheatsheets
 
 
 - Gittower:
@@ -53,7 +60,7 @@ Topics:
   - http://guides.beanstalkapp.com/version-control/common-git-commands.html
 
   
-# Resources to practice
+## Resources to practice
 - create a repo & play around
 - Visualizing Git: https://git-school.github.io/visualizing-git/
 - Git branches: https://learngitbranching.js.org/

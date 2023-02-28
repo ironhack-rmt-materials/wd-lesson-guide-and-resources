@@ -14,6 +14,16 @@ Notes:
 
 --->
 
+
+
+<!--- 
+
+How: work in PAIRS ?
+
+--->
+
+
+
 Explain:
 - events & add addEventListener
   - (there's already boilerplate code for events in the initial code)

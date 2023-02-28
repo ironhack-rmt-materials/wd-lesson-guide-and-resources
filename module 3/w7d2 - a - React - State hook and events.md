@@ -6,10 +6,8 @@
 Status: draft
 
 @todo: 
-- improve the planning for this unit
-- update planing to hooks
-- prepare examples
-- note: it can also be good to prepare a boilerplate app to start speaking about state (see: "/Luis/pro/Ironhack/_playground/first-react-app/first-react-app")
+- improve the planning for this unit (examples & steps to follow)
+- create slides (ex. syntax, functional updates etc.)
 
 -->
 
@@ -53,11 +51,8 @@ Status: draft
 
 <!-- @Luis: work on the app we built yesterday -->
 
-Codealong: 
-  - OPTIONS:
-    - option1: add a counter to the Header
-    - option2: add a counter to a component that repeats multiple times (ex. User, Movie)
-  - display a message: "Number of times that the user has clicked: XXXX"
+Codealong: add a counter to the Header
+  - display a message: "Number of likes: XXXX"
   - add button 
   - add onClick event
   - Explain different patterns (before implementing the function):
@@ -83,12 +78,14 @@ Codealong:
     - Can change over time
     - We want to reflect the changes in the UI (JSX)
 
+  - useState hook (see syntax):
+    - https://reactjs.org/docs/hooks-reference.html#usestate
+
   - Solve with State
 
     ```js
       const [counter, setCounter] = useState(0);
     ```
-
 
 
 
@@ -99,7 +96,6 @@ Explain:
     const [counter, setCounter] = useState(0);
     const [pizza, setPizza] = useState("margaritta")
   ```
-- see how the counter of each component is independent (state belongs to the component)
 
 
 
@@ -110,6 +106,11 @@ Exercise:
     - Hint: you can use classes (className)
   - (bonus) Solve the previous bonus with inline style (research React inline style)
   - Time: 20min.
+
+
+- (Extra) add a counter to a component that repeats multiple times (ex. User/Movie)
+  - see how the counter of each component is independent (state belongs to the component)
+
 
 
 

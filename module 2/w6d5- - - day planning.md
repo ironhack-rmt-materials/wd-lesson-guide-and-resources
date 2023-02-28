@@ -64,17 +64,30 @@ Homework for this weekend:
 
 ______________
 
+
+
+<!--
+
+@Luis
+
+feb 2023: i've added a unit on w7d1.
+
+-->
+
+
 Task: 
-- watch the first 46min. of this video: https://youtu.be/jLS0TkAHvRg
+  - Watch the first 46min. of this video: https://youtu.be/jLS0TkAHvRg
 
 Goal: 
-- start getting familiar with some React concepts (learning React is challenging).
+  - Start getting familiar with some React concepts (learning React is challenging).
 
 Notes:
-- You don't need to go further that minute 46 (but, if you want, you can watch those 46 minutes 2 times).
-- You don't need to install Node (we already have it installed).
-- You don't need to understand everything (we will be covering all those concepts from the beginning). 
-- The following concepts are specially relevant:
+  - You don't need to go further that minute 46 (but, if you want, you can watch those 46 minutes 2 times).
+  - You don't need to install Node (we already have it installed).
+  - You don't need to understand everything (we will be covering all those concepts from the beginning).
+
+
+The following concepts are specially relevant:
   - Components (what is a component, how we can create a component)
   - Props (what are props, how we pass & use props)
   - State (what is state, how we can use it)

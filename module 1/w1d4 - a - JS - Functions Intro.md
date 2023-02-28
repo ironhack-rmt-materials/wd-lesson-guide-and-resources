@@ -7,17 +7,19 @@
 
 Status: ready
 
-Time: 1.5
+Time: 1h
 
 -->
 
 
 ## Intro 
 
-- warmup (why functions are useful): https://stackblitz.com/edit/js-xe5ej8?file=index.js
+- warmup (why functions are useful): https://stackblitz.com/edit/js-nd3zvj?file=index.js
   <!-- @Luis: fork -->
   - solve with 2 console.log (repeating code)
   - task: "Create a function that receives the age of 3 students + displays the average age"
+
+  - Final result: https://stackblitz.com/edit/js-lzhtaj?file=index.js
 
 
 
@@ -48,9 +50,11 @@ Time: 1.5
   - Multiple arguments: `username`, `favouriteDrink`
     - Note: order is important
 
+
 - (skip) Parameter vs. Argument
   - Parameters = placeholder
   - Argument = the values (passed to function in the moment of its invocation)
+  - (Mnemonic: arguments come from outside).
   - The number of parameters & arguments could be different (ex. expecting 3, passing only 2 arguments)
 
 
@@ -74,16 +78,17 @@ Time: 1.5
 
 
 
-- Quick Exercise (5-15min.):
+- Practice: JS Functions
 
   - Iteration 1:
     - Create a function `calcTotal()` that accepts 3 numbers as parameters, and returns their sum.
 
   - Iteration 2:
     - Create a function named `isNameOddOrEven()` that accepts a string as a parameter. 
-    - The function should return whether a received string has an odd or even number of letters. 
-    - The expected return should be in the following format - string: `<name> has an even/odd number of letters`
+    - The function should return whether a received string has an odd or even number of letters (hint: str.length).
+    - The expected return should be in the following format - string: `<name> has an <even/odd> number of letters`
 
+  - Time: 15min.
 
   - Solution: https://stackblitz.com/edit/js-ew4qjq?file=index.js
 

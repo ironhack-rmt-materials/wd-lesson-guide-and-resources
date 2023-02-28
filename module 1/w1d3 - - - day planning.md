@@ -2,20 +2,26 @@
 # w1d3
 
 
-<!-- Status: OUTDATED (need to update following Mercury) -->
+<!-- 
+
+Status: OUTDATED (need to update following Mercury)
+
+@todo: improve notes/steps today
+
+-->
 
 
 # Morning 
 
 
-- JS intro (0.5h)
+- JS Intro (30m.)
+- JS Data Types - numbers and strings (1.5h)
+- JS Numbers - Advanced Topics [self-guided] (30m.)
+- JS Data Types in JavaScript - boolean, undefined & null (1h)
+- JS - Conditionals and Loops (30min. / 1h)
 
-- Data types (1.5h ?)
 
+<!--
 
-- ...
-
-## Afternoon
-
-- Conditionals & loops (1h)  [Ask an exercise instead]
-
+@todo: Conditionals & loops --   [Ask an exercise instead]
+-->

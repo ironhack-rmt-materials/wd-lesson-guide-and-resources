@@ -159,8 +159,13 @@ https://www.youtube.com/watch?v=ahCwqrYpIuM
 Gitbook - TypeScript Deep Dive 
 https://basarat.gitbook.io/typescript/
 
+
 Codewars - Learning Typescript collection
 https://www.codewars.com/collections/learning-typescript
+
+
+React TypeScript Tutorial for Beginners (Codevolution)
+https://www.youtube.com/playlist?list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK
 
 
 
@@ -174,7 +179,8 @@ Challenge 2: learn how to create a to-do list with TS + React
   - Video - Todo List in ReactJS using TypeScript Tutorial (40min.): https://www.youtube.com/watch?v=bjnW2NLAofI
 
 
-Challenge 3: fork your project3 & convert it to TypeScript.
+Challenge 3: 
+- create a new project (similar to p3 but using TypeScript).
   
 
 

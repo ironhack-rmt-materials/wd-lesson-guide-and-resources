@@ -19,7 +19,8 @@ Time estimation: 6-10h
     - Canvas: https://tylerreichle.github.io/mario_js/
     - DOM: https://florian-rappl.de/html5/projects/SuperMario/
 
-
+- Can I build "a cool game" just with dom manipulation?
+  - Survivor Game (Jonny): https://jogopin.github.io/Survivor-game/
 
 
 - Explain the kind of game that we want to build

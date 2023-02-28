@@ -26,6 +26,7 @@
   https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
 
 
+
 - Explain file & folder structure (for the app we've just created)
 
   - `package.json`
@@ -52,22 +53,29 @@
   - JSX: must return one parent container
 
 
-  - Examples:
-    - Example 1 - embed variables
+  - Example 1 - embed variables
     
+    ```js
+      const user = {
+        name: "bob",
+        surname: "smith"
+      }
+    ```
+
     ```jsx
       {title}
       <h3>
-        Hi, {student.firstName} {student.lastName}!
+        Hi, {user.firstName} {user.lastName}!
       </h3>
     ```
 
 
-    - Example 2 - embed functions (or methods):
+  - Example 2 - embed functions (or methods):
       `{firstName.toUpperCase()}`
 
 
-    - Example 3 - embed function execution
+
+  - Example 3 - embed function execution
       ```jsx
       function capitalizeFirstLetter(str) {
         return str[0].toUpperCase() + str.slice(1);
@@ -83,12 +91,12 @@
       ```
 
 
-    - Example 4: embed the attribute value
-      `<div id={theId}>`
+  - Example 4: embed the attribute value
+    `<div id={theId}>`
 
 
 
-    - Example 5 - embed static files: images
+  - Example 5 - embed static files: images
 
       ```jsx
       import ironhackLogo from './assets/ironhack-logo.png'; //inside src

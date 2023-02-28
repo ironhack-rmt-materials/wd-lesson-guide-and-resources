@@ -11,9 +11,10 @@
 
 - Create quick React App on Stackblitz/CodeSandbox [15m]
   - See index.js:
-    - import "react" & "react-dom" 
-    - ReactDOM.render()
+    - import "React"
+    - root.render()
   - See App.js (component)
+    - JSX: describe the UI.
 
 
 

@@ -22,3 +22,8 @@ Notes:
 - for Edit/Update: remember to add `enctype="multipart/form-data">` to that form as well
 
 
+
+
+## (bonus) Delete from Cloudinary
+
+Example: https://github.com/sarah-jonnathan/lifehack-project/blob/main/utils/deleteFileFromCloudinary.js

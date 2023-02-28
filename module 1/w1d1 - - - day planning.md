@@ -30,6 +30,7 @@ IMPORTANT:
     - where you're from, background...
     - why you're doing the bootcamp
   - option 2: 2 truths 1 lie
+  <!-- @Luis: skip - do on w1d5 instead  -->
 
 (break)
 
@@ -52,7 +53,18 @@ IMPORTANT:
   -->
 
 
-- html + css
+  <!--
+
+  Headlines:
+  - Ironhack's WebDev Bootcamp starting today
+  - World leaders agree to stop fighting each other and start fighting climate change
+
+  -->
+
+
+- html + css (follow specific unites --see .md files)
+  - HTML (project setup + html intro + shortcuts) [1h]
+  - CSS [1.5h ?]
 
   <!--
 
@@ -77,7 +89,7 @@ Notes:
 
 ## Afternoon
 
-- Check installations:
+- Check installations (self-guided):
   - example (DayZero Spreadsheet) https://docs.google.com/spreadsheets/d/1j2eFhKKlLDAgk63F36KIxiU1cGI0jknirELqplem8is/edit?usp=sharing
   
 

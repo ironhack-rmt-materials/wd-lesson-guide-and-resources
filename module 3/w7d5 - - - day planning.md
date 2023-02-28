@@ -29,18 +29,21 @@ Friday: try to finish earlier.
   - (Extra) Add button to delete character from the API
     - Concepts that will appear:
       - Send request to the API without useEffect (ex. when user clicks on a button)
-      - We need to send a new request to the API (to get the new list of characters)
+      - redirect with `useNavigate`: https://reactrouter.com/en/main/hooks/use-navigate
+      - (depending on how we implemented code) We may need to send a new request to the API (to get the new list of characters)
 
   - (Extra) 2 API requests vs. 1 API request in App + pass info as props.
     - In the App from yesterday: show how it is possible to send only a single request to the API (if the API send an array with the details for all resources, we can avoid making a request for each resource).
     - Notes: 
       - takes a bit longer than it seems (30m + 15m)
       - when you access directly `/characters/1`, the app will fail, if we don't do conditional rendering (it is a good moment to see component lifecycle, adding some console.logs)
+    - Sample commit: https://github.com/RemoteRaccoons-Ironhack-Nov-22/raccoons-react-characters-app/commit/d5b72fe8454bc2292de353c7da3890f833acdca6
+    - Note: `const {characterId} = useParams();` give you a `String`
 
   - (Extra) common pain points when sending requests to API
-    - ex:
+    - Pain point 1: Iterate with .map() though something that is not an array:
 
-      ```jsx
+      ```js
       const [charactersArr, setCharactersArr] = useState(); //initialized to undefined
 
       // ...
@@ -52,8 +55,9 @@ Friday: try to finish earlier.
 
       ```
 
-
-      ```jsx
+    - Pain point 2: trying to access properties of something that is not an object
+    
+      ```js
       const [details, setDetails] = useState(); //initialized to undefined
 
       // ...
@@ -96,9 +100,21 @@ Friday: try to finish earlier.
   - wait for coding
 
 
+
+
+
 <!--
-@Luis:
+
+IMPORTANT
+IMPORTANT
+IMPORTANT
+
 - if we ask any student to do project individual, tell them asap
+
+IMPORTANT
+IMPORTANT
+IMPORTANT
+
 -->
 
 

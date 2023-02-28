@@ -31,15 +31,22 @@ TASK:
   - Note: for the delete button, you can remove or comment the onClick event (otherwise it will give you an error)
 3. Functionality to delete will not work. Try to understand why + try to fix it.
 
+
 How: in pairs
 Time: 30m.
 
 
-Hint: 
+Hints for Iteration 3: 
 - Buttons to delete are now in `Movie` component
 - When the user clicks on the button, we need to update state in the parent component (we need to update the list of movies, wich is stored as state in the `Main` component).
 - To solve it, we need communication from the child to the parent component.
 - You can have a function in the parent component (ex. deleteMovie) and send a reference to that function as props. Then, the child component can invoke that function to update state in the parent component.
+
+
+Bonus (note: if you do any bonus, avoid modifying the hierarchy of components):
+- display "genres"
+- add button "order by rating ascending" / "descending"
+- improve CSS
 
 
 LT:

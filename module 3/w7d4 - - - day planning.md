@@ -39,22 +39,19 @@ Ask students for yesterday's LAB (specific questions)
 
 ## Today
 
-Codealong Options:
-
-- option 1: characters API.
-  - sample repo: https://github.com/Ironborn-Ironhack-March-2022/react-characters-app
+Codealong: characters API.
+  - Sample repo: https://github.com/Ironborn-Ironhack-March-2022/react-characters-app
   - Demo: https://react-characters-app.netlify.app/
 
-- option 2: add that functionality to "popcorn time" (movie characters + routing)
-  - can be more complex (many elements in the UI)
 
-
-  <!-- @Luis: choose option 1 (more simple) -->
+Setup:
+-  `npx --yes create-react-app react-characters-app`
 
 
 
 Codealong functionality (draft):
-- (lifecycle and hooks) get & display list of characters from `https://ih-crud-api.herokuapp.com/characters`
+- (lifecycle and hooks) get & display list of characters from `https://ih-crud-api.herokuapp.com/characters` (in App.js)
+- (routing): introduce React Router + show basic example (About + Contact)
 - (routing): one page for the list of characters
 - (routing): one page for each character (with static links and then with URL parameters)
   - note1: for that, create a component `<CharacterDetails>` and send a request to get the details of one character from the API (same pattern that they're asked to do in the LAB)

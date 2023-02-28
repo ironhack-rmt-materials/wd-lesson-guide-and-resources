@@ -23,16 +23,19 @@
 
 
 
-## Contents
+## Day Planning
+
+- Questions from LAB (30m.)
+- Refresh (20m.)
+- Variable scope, hoisting and shadowing
+- Value vs. Reference and Mutable Data Types
+- Async and Callbacks
 
 
-Morning: 
 
+IMPORTANT: 
 
-
-Afternoon:
-
-- Show "project 1" examples:
+Afternoon: Show "project 1" examples:
   - some examples: `project 1 examples.md`
   - they can start thinking what they want to build
 

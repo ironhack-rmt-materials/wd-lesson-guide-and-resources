@@ -38,6 +38,7 @@
 
 
 - Explain Concept of "breakpoint" (see on dev tools)
+  - Common breakpoints (ex. bootstrap)
 
 
 - Show live example: https://codepen.io/ironhack/pen/ozZbmP
@@ -75,6 +76,7 @@ Before we start,
 - How we can have them in the same line:
   - One option is to use `display: inline-block`
   - https://www.w3schools.com/cssref/pr_class_display.asp
+- Also: explain how they can test different screen sizes on Codepen
 
 
 Instructions:

@@ -24,7 +24,7 @@ To do:
 
 - Example: 
 
-  ```javascript
+  ```js
     function doSomething() {
       const amount = 3;
     }
@@ -49,12 +49,13 @@ REMEMBER:
 
 
     Global:
-    > A variable with global level scope is accessible from anywhere within the script where it was created.
+    > A variable with global level scope is accessible from anywhere within the script where it was created (after it has been created).
 
     Function level scope:
     > limited to within the function from which it was declared and any child scopes such as nested functions or statements.
 
-    > Block level scope is limited further to the statement or expression of which the variable was declared. Or in simple terms, anywhere between an opening and closing curly brace {}
+    Block level scope:
+    > limited further to the statement or expression of which the variable was declared. 
 
 
 
@@ -76,7 +77,7 @@ var vs let/const:
 
 Example 1:
 
-  ```javascript
+  ```js
   let outerVar = 1;
 
   function doSomething() {
@@ -92,7 +93,7 @@ Example 1:
 
 Example 2:
 
-  ```javascript
+  ```js
   for (let i = 1; i <= 3; i++) {
     console.log(`Iteration number: ${i}`);
   }
@@ -113,7 +114,7 @@ Variable shadowing:
 Example 1:
 
 
-  ```javascript
+  ```js
   let ironhacker = "alice";
 
   if(true){
@@ -138,7 +139,7 @@ Example 1:
 
 Example 2 (ask students):
 
-  ```javascript
+  ```js
     let a = 1;
     let b = 2;
 
@@ -161,7 +162,17 @@ Example 2 (ask students):
 
 - Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
 
-  > you can use the variable in the parts of your code before you declared it "officially".
+
+- functions declared with `function` keyword are hoisted
+
+  ```js
+    doSomething();
+
+    function doSomething() {
+      console.log('doing something');
+    }
+  ```
+
 
 
 <!--
@@ -196,19 +207,6 @@ Example 2 (ask students):
 
 
 
-- functions declared with `function` keyword are hoisted
-
-
-  ```js
-    doSomething();
-
-    function doSomething() {
-      console.log('doing something');
-    }
-  ```
-
-
-
 
 
 
@@ -228,7 +226,7 @@ Example 2 (ask students):
 Basic: child scope has access to parent scope
 Q: what is the output?
 
-  ```javascript
+  ```js
   let username = 'alice';
   function myFunc() {
     username = 'bob';
@@ -243,7 +241,7 @@ Q: what is the output?
 
 Q: what is the output?
 
-  ```javascript
+  ```js
   let username = 'alice';
   function myFunc() {
     let username = 'bob';
@@ -263,7 +261,7 @@ A: Error: Identifier 'username' has already been declared
 
 Q: what is the output?
 
-  ```javascript
+  ```js
   for (let count = 0; count < 5; count++) {
     console.log(count);
   }
@@ -278,7 +276,7 @@ Q: what is the output?
 
 Q:  what is the output of the following code ?
 
-  ```javascript
+  ```js
     for(var counter = 0; counter< 5; counter++){
       setTimeout(() => console.log(counter), 1000)
       // setTimeout(() => console.log(counter))

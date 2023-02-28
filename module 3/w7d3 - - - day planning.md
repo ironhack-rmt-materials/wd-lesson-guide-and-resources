@@ -55,6 +55,13 @@ Lists
 - .map()
 - https://reactjs.org/docs/lists-and-keys.html
 
+  <!--
+  @Luis:
+  - ex. refresh .map() on react-playground with `<Movie />`
+  -->
+
+
+
 Conditional rendering
 - https://reactjs.org/docs/conditional-rendering.html
 

@@ -76,6 +76,7 @@ selector1 selector2 {
 > a `descendant` refers to any element that is connected but lower down the document tree - no matter how many levels lower.
 
 
+
 ## Direct Descendants (Children)
 
 
@@ -108,9 +109,16 @@ element[attr-name='value'] {
 }
 ```
 
+- Target elements with the specified attribute
 
+- Also allows to do things like "begins with", "contains", etc (see table on students portal)
 
-- Begins with, contains, etc --> see table on students portal
+Ex:
+  ```css
+  img[attribute$=kitten] {
+
+  }
+  ```
 
 
 
@@ -125,3 +133,7 @@ h2 {
 ```
 
 
+## Good practices
+
+- Generic rules first
+- Specific rules later

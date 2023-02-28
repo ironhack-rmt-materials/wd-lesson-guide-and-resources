@@ -21,7 +21,30 @@ Steps to follow:
 
 - Creating HTML
   - Demo on Codepen/Stackblitz
-  - Demo on Visual Studio
+  - Demo on VS Code
+
+- Steps:
+  - Open a new VS Code Window
+  - Open the terminal (View > Terminal)
+  - IMPORTANT: if you use Windows, make sure you're not using Poweshell (you can use "Git Bash" instead)
+  - Navigavigate to the directory where you will work.
+    - `cd xxx`
+    - `cd ..`
+  - (Optional) if you don't have it, create a directry for ironhack: ex. `mkdir ironhack` + enter into that directory `cd ironhack`
+  - Create a directory for module 1: `mkdir module1` + enter into that directory `cd module1`
+  - Create a directory for this exercise: `mkdir html-intro` + enter into that directory `cd html-intro`
+  - Create file: `touch index.html`
+  - Open with VS Code: `code .`
+
+
+<!--
+
+@todo:
+- create cheatsheet Unix commands
+- some examples: see prework
+
+-->
+
 
 - From here, follow students portal 
   - (from the place where it explains "DOCTYPE Indicates that the markup language for your document content is HTML5.")
@@ -43,3 +66,14 @@ Steps to follow:
 
 - IMPORTANT:
   - when creating your projects, start from the HTML.
+
+
+- (Extra) Some Emet shortcuts
+
+  ```
+  div>p*3
+
+  div.container
+
+  div#recipes
+  ```

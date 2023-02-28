@@ -7,7 +7,7 @@ If you installed node through nvm, you can do the following:
 Node:
 - nvm ls
 - nvm use x.x.x
-- nvm install x.x.x (ex. `nvm install 18.12.1`)
+- nvm install x.x.x (ex. `nvm install 18.14.1`)
 
 
 NPM:

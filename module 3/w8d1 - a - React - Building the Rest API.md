@@ -36,14 +36,16 @@
 
 - Create directory `project-management-fullstack`
 
-- Ironlauncher: `npx ironlauncher cohortName-project-management-server --auth --json`
+- Ironlauncher: `npx ironlauncher COHORTNAME-project-management-server --auth --json`
 
 
 <!-- IMPORTANT  -->
 <!-- IMPORTANT  -->
 <!-- IMPORTANT  -->
   
+IMPORTANT:
 - Initialize with `ironlauncher --auth --json` 
+- Replace `COHORTNAME` 
 
 <!-- IMPORTANT  -->
 <!-- IMPORTANT  -->
@@ -68,7 +70,7 @@ REST API Design Best Practices (see students portal):
 In case ironlauncher --auth --json does not install the dependencies:
 
   ```
-  npm install bcrypt@5.0.1 cookie-parser@1.4.6 cors@2.8.5 dotenv@16.0.3 express@4.18.1 express-jwt@7.7.5 jsonwebtoken@8.5.1 mongoose@6.6.7 morgan@1.10.0
+  npm install bcrypt@5.0.1 cookie-parser@1.4.6 cors@2.8.5 dotenv@16.0.3 express@4.18.2 express-jwt@8.3.0 jsonwebtoken@9.0.0 mongoose@6.8.4 morgan@1.10.0
   ```
 
   ```
@@ -125,7 +127,9 @@ In case ironlauncher --auth --json does not install the dependencies:
   - Refresh embeded vs. Reference
 
 
-- Build (advanced students can do that in pairs in breakout rooms)
+- Codealong: 
+  - option1: share the plan & build together in the main session.
+  - option2: advanced students can do that in pairs in breakout rooms.
 
 
 Routes (implement each one + TEST WITH POSTMAP):
@@ -155,10 +159,10 @@ Bonus: full CRUD on tasks
 - Minor improvement: when a project is deleted, remove also the associated tasks.
   - note: make sure to import Task model
 
-  ```javascript
+  ```js
   Project.findByIdAndRemove(projectId)
-    .then( deteletedProject => {
-      return Task.deleteMany( { _id: { $in: deteletedProject.tasks } } );
+    .then( deletedProject => {
+      return Task.deleteMany( { _id: { $in: deletedProject.tasks } } );
     })
     .then(() => res.json({ message: `Project with id ${projectId} & all associated tasks were removed successfully.` }))
     .catch(error => res.status(500).json(error));

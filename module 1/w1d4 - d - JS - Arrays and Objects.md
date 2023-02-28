@@ -3,7 +3,12 @@
 # JS - Arrays & Objects
 
 <!--- 
+
 Status: draft
+
+
+Consider: this unit can be recorded (self-guided).
+
 -->
 
 
@@ -77,19 +82,25 @@ const company = {
 ## Reading data from nested data structures
 - practice
 
+
 ## Updating data
 - practice
+
 
 ## Adding data
 - practice: add a new element at the end of the last class (push)
 
 
+
 ## Check for understanding
-- Create
-  - company: name of company + location + year it was created
-  - the company has 2 products (each product has product name + price)
-  - the company has 3 employees (name + age + hobbies)
-- Read: name & price of the first product
-- Update: age of this 2nd employee
-- Add: new employee
+
+Practice: nested data structures
+
+- Instructions: https://stackblitz.com/edit/js-kca4fv?file=index.js
+- Time: 20min.
+
+- Solution: https://stackblitz.com/edit/js-knwk8d?file=index.js
+
+
+
 

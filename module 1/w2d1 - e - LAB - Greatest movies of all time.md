@@ -5,7 +5,8 @@
 <!--
 
 How:
-- consider doing it in pairs
+- consider doing it in pairs 
+(update feb.2023: let's do it individual)
 
 -->
 
@@ -30,7 +31,7 @@ IMPORTANT:
   - sort() 
 
 
-  ```javascript 
+  ```js
   const original = [2, 3, 4];
   const copy = [...original];
   ```

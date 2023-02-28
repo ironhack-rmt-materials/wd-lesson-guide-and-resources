@@ -22,9 +22,13 @@ Methodology:
 
 New topics introduced in this unit:
 - (context API)
+  <!-- - see code in the students portal -->
 - local storage for the token
+  <!-- - see MDN + make quick demo on the dev tools console -->
 - send token in headers of http request with axios ("Set Request Headers")
-- Private Pages
+  <!-- - see code in the students portal -->
+- Private Pages ("Private Pages")
+  <!-- - see code in the students portal -->
 
 
 

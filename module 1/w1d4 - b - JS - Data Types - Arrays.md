@@ -38,15 +38,22 @@ Status: ready
 
 - Accessing Elements
   - By index (Zero-Indexed)
-  - `.length` property
   - Note: If we try to access an index that does not exist, we will get `undefined`
+
+- Arr length:
+  - `.length` property
+  - diagram (index and length): https://i.imgur.com/BG4RUNt.png
+
 
 
 - Adding Elements: `.push()`
+- Removing (from the end): `.pop()`
 
 - push() vs. pop() vs. unshift() vs. shift()
   - https://vishalkukreja.com/wp-content/uploads/2021/03/2-1024x536.png
   <!-- covered in prework, can do briefly -->
+
+
 
 
 - Removing / Modifiying elements in the middle of the array: `.splice()`
@@ -60,15 +67,19 @@ Status: ready
   - deleteCount: number of old array elements to remove
 
 
-- Iterate through arrays:
+
+
+- (Demo) Iterate through arrays:
   - for loop
   - forEach ++++++
 
 
-Exercise forEach (basic exercise with an array of strings):
-- original instructions: https://stackblitz.com/edit/js-ymq3mb?file=index.js
-- possible solution: https://stackblitz.com/edit/js-grgtur?file=index.js
-- (extra bonus): practice with different loops (for loop, for...of,....)
+Practice: forEach
+<!-- (with an array of strings): -->
+- Instructions: https://stackblitz.com/edit/js-ymq3mb?file=index.js
+- Time: 15-20min.
+- Solution: https://stackblitz.com/edit/js-grgtur?file=index.js
+
 
 
 

@@ -26,6 +26,8 @@
 
 ## Instructions
 
+<!-- @todo: create slides -->
+
 Before sharing the link, explain:
 
 - Intro (what is a retro, agile, scrum etc)

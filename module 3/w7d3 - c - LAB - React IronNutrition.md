@@ -2,11 +2,10 @@
 
 # LAB - React IronNutrition
 
-<!--
 
-How: individual / in pairs
+How:
+- in Pairs
 
--->
 
 
 Notes: 

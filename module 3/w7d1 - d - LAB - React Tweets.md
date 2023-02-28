@@ -3,6 +3,9 @@
 # LAB - React Tweets
 
 
+How:
+- Individual
+
 
 <!-- 
 
@@ -13,9 +16,7 @@ Jan 2022:
  -->
 
 
-## HOW
 
-- Individual
 
 
 ## EXPLAIN
@@ -65,7 +66,8 @@ IMPORTANT:
 
 - mandatory: LAB React Tweets
 - (recommended) continue watching video 
-- (bonus) do some components from lab React Training
+- (bonus) do some katas from "HOF exercises"
+- (bonus) do some components from lab "React Training" (can do steps 1-7)
 - mandatory: take good rest (tomorrow is challenging)
 
  -->

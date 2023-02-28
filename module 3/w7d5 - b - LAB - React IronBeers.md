@@ -2,6 +2,13 @@
 
 # LAB - React - IronBeers
 
+
+How:
+- Individual
+
+
+
+
 Main topics:
 - Routing
 - useEffect & API requests
@@ -11,7 +18,7 @@ Main topics:
 
 Notes:
 - students can choose axios/fetch (instructions do not specify)
-- when user submits form, you can make your API request
+- API request to create new beer (since it happens upon user interaction, we don't need useEffect)
 
 
 

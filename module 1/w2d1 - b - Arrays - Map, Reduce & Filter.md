@@ -5,27 +5,14 @@ Status: draft
 -->
 
 
-## Important:
-
-.map(), .filter() and .reduce():
-  - these methods DON’T modify the original (they don’t mutate the original array but rather create a new array)
-
-- Visual cheatsheet with some array methods:
-  https://res.cloudinary.com/practicaldev/image/fetch/s--sYEjzdnw--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/sr8koff729gxcvpnoty6.jpeg
-
-
-
-## Map:
-
-
-- Intro exercise (before explaining map): 
+## Intro exercise (before explaining map): 
 
   - Any basket fan? Michael Jordan last shot with the Bulls: 
     - https://pbs.twimg.com/media/EYWEL13XkAcHnxm?format=jpg&name=4096x4096
 
 
-  ```javascript
-  const baskets = [11, 14, 7, 12, 9, 12]; // 2 point baskets in his last games with the bulls
+  ```js
+  const baskets = [11, 14, 7, 12, 9, 12]; // regular (2 point) baskets in his last games with the bulls
   ```
 
   Task: 
@@ -40,12 +27,33 @@ Status: draft
   - Solve with forEach
     - Bonus: solve using different type of functions (anonymous, arrow...)
 
-  Solution: https://stackblitz.com/edit/js-k66y7n?file=index.js
 
   Time: 10min.
 
+  Solution: https://stackblitz.com/edit/js-k66y7n?file=index.js
+
+  <!-- Hint: declare an empty array + keep adding elements to that array -->
 
 
+
+## Important:
+
+
+Slides (in progress):
+- https://docs.google.com/presentation/d/1fwO9zcU-xCZoS4EYz4GSMc-na5Ugy2ETTZ-rwQI7n1k/edit?usp=sharing
+
+
+.map(), .filter() and .reduce():
+  - these methods DON’T modify the original (they don’t mutate the original array but rather create a new array)
+
+- Visual cheatsheet with some array methods:
+  https://res.cloudinary.com/practicaldev/image/fetch/s--sYEjzdnw--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/sr8koff729gxcvpnoty6.jpeg
+
+
+
+
+
+## Map:
 
 
 - Explain map() method.
@@ -65,25 +73,20 @@ Status: draft
 
 
 
-- Example 2: transform names to uppercase
+- Example 2: map with an array of strings (transform names to uppercase)
   - Instructions: https://stackblitz.com/edit/js-dm5iu3?file=index.js
-  - solution with for loop: https://stackblitz.com/edit/js-reuufm?file=index.js
-  - solution with forEach: https://stackblitz.com/edit/js-ypkht5?file=index.js
-  - solution with map: https://stackblitz.com/edit/js-i296ku?file=index.js
+  - Time: 10min.
+
+  - Solutions:
+    - with map: https://stackblitz.com/edit/js-i296ku?file=index.js
+    - with for loop: https://stackblitz.com/edit/js-reuufm?file=index.js
+    - with forEach: https://stackblitz.com/edit/js-ypkht5?file=index.js
 
 
 
 - Example 3: with objects.
 
-  - Instructions: https://stackblitz.com/edit/js-p3k5so?file=index.js
-  - Solution: https://stackblitz.com/edit/js-ejcare?file=index.js
-
-  Time: 10min.
-
-
-- Example 4: with objects.
-
-  ```javascript
+  ```js
     const students = [
       {
         name: 'alice',
@@ -110,6 +113,15 @@ Status: draft
 
 
   Note: they will need something similar in today's LAB (iteration 1)
+
+
+
+- Example 4: with objects (get an array with the points scored in each game).
+
+  - Instructions: https://stackblitz.com/edit/js-p3k5so?file=index.js
+  - Solution: https://stackblitz.com/edit/js-ejcare?file=index.js
+
+  Time: 10min.
 
 
 
@@ -162,11 +174,14 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 - Intro (helps understand reduce better):
 
 
-```javascript
+```js
   const baskets = [4, 6, 7, 0, 10];
 
   // Task:
   // Calculate the total amount of baskets
+  //
+  // Expected result: 27
+  //
 
 
   // Option 1: with a forEach()
@@ -228,18 +243,20 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
 
 
-- Example: with objects
+- Example: reduce() with an array objects
 
   - Instructions: https://stackblitz.com/edit/js-aervwj?file=index.js
-  - Solution: https://stackblitz.com/edit/js-xufcpn?file=index.js
     - IMPORTANT: in this case we need to set an inital value.
+  - Time: 15min.
+
+  - Solution: https://stackblitz.com/edit/js-xufcpn?file=index.js
 
 
 
-- CFU (same as students portal)
+- Extra exercise (same as students portal)
 
 
-  ```javascript
+  ```js
   const menu = [
     { name: 'Carrots', calories: 150 },
     { name: 'Steak', calories: 350 },
@@ -303,7 +320,7 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 - Example 2: with an array of objects
 
 
-  ```javascript
+  ```js
 
     const people = [
       { name: 'alice', age: 30 },

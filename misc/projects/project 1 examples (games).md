@@ -65,4 +65,8 @@ Bonus (more advanced):
   https://begumeryildiz.github.io/bubble-shooter-game/
 
 
+- Survivor Game (Jonny)
+  https://jogopin.github.io/Survivor-game/
+
+
   

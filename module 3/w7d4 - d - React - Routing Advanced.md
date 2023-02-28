@@ -15,7 +15,7 @@ Status: notes
 - URL structure: 
   https://cdn.cognitiveseo.com/blog/wp-content/uploads/2019/11/url-structure-1024x538.jpg
 
-- Examples of Route Params
+- Examples of URL Params
 
   https://localhost:3000/countries/42
   https://localhost:3000/artists/madonna
@@ -33,7 +33,7 @@ Status: notes
 ## URL parameters
 
 
-```javascript
+```js
 <Routes>
     <Route path="/" element={<HomePage />} />
     <Route path="/characters/:characterId" element={<CharacterDetails />} />
@@ -41,7 +41,7 @@ Status: notes
 ```
 
 
-```javascript
+```js
 import { useParams } from "react-router";
 
 function CharacterDetails(props) {

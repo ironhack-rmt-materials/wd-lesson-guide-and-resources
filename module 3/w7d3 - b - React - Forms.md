@@ -76,6 +76,18 @@ Time: 15min
 
 
 
+## (Fix) Functionality to delete movies may not work anymore
+
+  If we delete movies based on their id, the functionality to delete may not work.
+
+
+  Fix: delete movies based on title
+
+  Example: https://github.com/RemoteRaccoons-Ironhack-Nov-22/raccoons-popcorn-time/commit/215ee0bbe02603ccf00a918546401a8e02d73c56
+
+
+
+
 
 ## (extra) Handling multiple inputs with a single stateful variable
 
@@ -108,6 +120,30 @@ Functionality for searchbox (asked in today's lab)
 - option1: show how to do 
 - option2: provide an example with code so that they can see it (ex. in popcorn time)
 
+
+IMPORTANT: keep searchbar in App.js 
+IMPORTANT: keep searchbar in App.js 
+IMPORTANT: keep searchbar in App.js 
+
+
+Example commit 1 (searchbar in App.js): 
+- https://github.com/RemoteRaccoons-Ironhack-Nov-22/raccoons-popcorn-time/commit/e2c1abc8e4ef0217537e30ca07e8a87357e8f49f
+
+
+Example commit 2 (extract search box to a specific component "SearchBox"): 
+- https://github.com/RemoteRaccoons-Ironhack-Nov-22/raccoons-popcorn-time/commit/5f8559833f5d79b08dde32243cb9daafd378f395
+- From all possible patterns (without useEffect), keeping a stateful variable "searchQuery" in App.js would be the easiest (otherwise you need to keep a second stateful variable in App.js + update it everytime you add/delete a movie).
+
+
+Video (web dev simplified):
+- https://www.youtube.com/watch?v=E1cklb4aeXA&t=335s
+
+
+<!--
+@todo: record video
+- how to implement search box (ex. directly in app.js)
+- extract to specific component (ex. "SearchBox" component)
+-->
 
 
 ## React Forms Cheatsheet:

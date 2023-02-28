@@ -8,7 +8,7 @@
 
   - Example 1:
 
-    ```javascript
+    ```js
 
       const amount = 10;
       amount = 20;
@@ -19,14 +19,9 @@
     ``` 
 
 
+  - Other examples (mutating arrays):
 
-
-  - Example 2:
-
-    ```javascript
-
-      //const numbers = [10, 10, 10];
-      
+    ```js
       numbers.push(50); //mutates the original array
       numbers.reverse(); //mutates the original array
 
@@ -41,17 +36,19 @@
   - Non-Primitive data types are stored (and copied) by reference.
 
 
-  > Object and array variables don’t hold the value of a specific object or array (since what exactly is their value, right?), but instead, they hold the "address in memory" which is the reference to that object or array. 
+- Slides:
+  - https://docs.google.com/presentation/d/1BIgfKvQq6lR8QaSBmscUROQ961-ZbgzY6XDMdToqShY/edit?usp=sharing
 
 
-  - (optional) make a diagram
-    - example diagram (memory, heap): https://i.stack.imgur.com/60b4B.jpg
+
+
+
 
 
 
   - Example 3 (comparing variables):
 
-    ```javascript
+    ```js
       const name1 = "alice";
       const name2 = "alice";
 
@@ -78,7 +75,7 @@
 
   - Example 4 (modifying a copy):
 
-    ```javascript
+    ```js
 
       let amount = 10;
 
@@ -103,7 +100,8 @@
 
     > since both objects or arrays are pointing to the same address in the memory (have the same reference), changes in one will cause the same changes in the other one as well.
 
-
+    - visual explanation (fill cup): 
+      - https://res.cloudinary.com/practicaldev/image/fetch/s--CHOh2r59--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/00irkh2jsmre37ngzdgt.gif
 
 
 
@@ -126,8 +124,11 @@
   ```
 
 
-- Shallow vs. deep copy
+- Explain: Shallow vs. deep copy
 
+
+
+<!-- Note: different options to clone arrays/objects can be self guided -->
 
 
 ## How to clone an object
@@ -135,7 +136,8 @@
   - Deep Copy: `JSON.parse(JSON.stringify( myObject ))`
 
   - Note: there's many other ways. Ex.:
-    ```javascript
+
+    ```js
     const book2 = Object.assign({}, book1); // shallow copy
     ```
 
@@ -156,7 +158,7 @@ Note:
   - if you come accross a syntax that you don't understand, you may need to do some research.
     - Example:
 
-      ```javascript
+      ```js
       const numbers = [10, 20, 30];
       const n = [].concat(numbers); // someone chose a poor name for the variable, we need to find out what this line does.
       ``` 

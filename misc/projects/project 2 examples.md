@@ -6,17 +6,51 @@ Something's Cooking (Karina + Clara)
 https://somethings-cooking.adaptable.app/
 
 
+Lifehacks (Jonny + Sarah)
+https://lifehacks.adaptable.app
 
-More advanced:
+
+
+*** More Examples ***
+
+
+Outbackers (Thalita + Rudy)
+https://outbackers.adaptable.app/
 
 Music Event Platform (Alessandra + Berkay)
 https://music-event-platform.adaptable.app/
 
 
-
 Film Gallaxy (Gabriel + Mog)
 https://filmgalaxy.adaptable.app/
 
+
+Mingle - Reddit Clone (Lovro + Marine + Rumeli)
+https://mingle.adaptable.app/
+
+
+
+*** Examples from Remote Raccoons (need to test) ***
+
+
+
+The Broke Globetrotter (Jorge + Thomas)
+https://the-broke-globetrotter.adaptable.app
+
+
+
+
+
+
+*** Examples from Germán (Madrid) ***
+
+
+Horizons
+https://horizons.fly.dev/
+
+
+Digital Nomad World
+https://dnw.fly.dev/
 
 
 

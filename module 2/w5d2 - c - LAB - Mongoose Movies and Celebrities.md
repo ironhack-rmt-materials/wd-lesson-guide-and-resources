@@ -11,5 +11,8 @@ Topics:
   - cast - Array of object IDs referencing the Celebrity model
 
 
-
+<!--
+@Luis:
+- ask students for preferences for project2
+-->
 

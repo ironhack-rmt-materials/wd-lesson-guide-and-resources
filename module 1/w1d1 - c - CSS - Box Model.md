@@ -35,11 +35,11 @@ Follow the lesson starting from this simple code: https://codepen.io/luisjunco/p
 
 - Width, style, color:
 
-```
+    ```
     border-color: #17212e;
     border-style: solid;
     border-width: 1px;
-```
+    ```
 
 - Shorthand:
     ```
@@ -120,6 +120,11 @@ border-radius: 12px;
 - Units:
   - Absolute (px)
   - Relative (%, em, vw....)
+    - %: Relative to the parent element
+    - em: Relative to the font-size of the element (2em means 2 times the size of the current font)
+    - rem: Relative to font-size of the root element
+    - vw/vh: Relative to 1% of the width/height of the viewport
+
 
 - Possible values (4, 3, 2, 1):
   - https://learnwebcode.com/images/lessons/css-shorthand-1.gif

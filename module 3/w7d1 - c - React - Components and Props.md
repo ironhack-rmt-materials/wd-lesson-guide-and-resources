@@ -86,9 +86,14 @@ Exercise (OPTION 1) to practice the syntax:
 
 
 
+
+Note: As props, we can pass any valid data type
+
+
+
 Exercise (OPTION 2) same but with movies (instead of users)
 
-  ```javascript
+  ```js
     const moviesArray = [
       {
         title: 'the godfather',
@@ -118,14 +123,20 @@ Exercise (OPTION 2) same but with movies (instead of users)
 
 
 
-
-
 - Todays lab:
   - They will be passing elements of an array:
     `<Tweet tweet={ tweetsArray[0] }>`
     `<Tweet tweet={ tweetsArray[1] }>`
     `<Tweet tweet={ tweetsArray[2] }>`
   - Each element is an object (ie. `props.tweet` is an object)
+
+
+
+## (Introduce) How to iterate through a list
+
+```jsx
+  arr.map();
+```
 
 
 
@@ -145,7 +156,8 @@ Exercise (OPTION 2) same but with movies (instead of users)
 `<ReactPlayer url="https://vimeo.com/channels/top/22439234" playing />`
 
 - (extra) Component Libraries
-  - Show an example with one of them (eg. "Material UI" or "Semantic UI React")
+  - Show an example with one of them (eg. "Material UI"/ "Semantic UI React" / "Ant Design")
+  - https://ant.design/components/button
 
 
 
@@ -154,6 +166,9 @@ Exercise (OPTION 2) same but with movies (instead of users)
 - As props you can pass...
   - string, number, boolean, array, object, function... 
   - A JS expression (eg. foo={2+2})
+
+- props.children
+
 
 
 - (Extra) Props defaults to true
@@ -164,7 +179,32 @@ Exercise (OPTION 2) same but with movies (instead of users)
   ```
 
 
-- props.children
+- (Extra) Receive props with object destructuring
+
+  - Option1: 
+    ```js
+      function User(props) {
+
+        const {name, surname} = props;
+
+        //...
+      }
+    ```
+
+
+  - Option2 (directly): 
+
+  ```js
+    function User({name, surname}) {
+      //...
+    }
+  ```
+
+
+- (Extra) Syntax for Class components
+  - if we have time, see an example.
+
+
 
 
 ## IMPORTANT CONCEPTS

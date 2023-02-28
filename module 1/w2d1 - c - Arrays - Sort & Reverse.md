@@ -11,6 +11,12 @@ Status: draft (just some notes)
 ## Cheatsheet:
 - sort(): https://stackblitz.com/edit/ih-arr-sort?file=index.js
 
+<!--
+UPDATE: NOW WE HAVE DETAILED EXAMPLES OF .sort() IN THE FAQs
+UPDATE: NOW WE HAVE DETAILED EXAMPLES OF .sort() IN THE FAQs
+UPDATE: NOW WE HAVE DETAILED EXAMPLES OF .sort() IN THE FAQs
+UPDATE: NOW WE HAVE DETAILED EXAMPLES OF .sort() IN THE FAQs
+-->
 
 
 

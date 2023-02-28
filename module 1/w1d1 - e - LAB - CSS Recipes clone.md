@@ -6,6 +6,8 @@
 
 Status: draft
 
+How: individual
+
 --->
 
 Notes to TA/LT:
@@ -36,12 +38,38 @@ Main title alignment
 
 
 
+## Explain:
+
+- how we work with labs in general (DO THE FIRST ITERATION & ONE COMMIT TO SHOW THEM)
+  - Fork
+  - Clone
+    - remember to clone the lab you forked (not the original one)
+    - keep things organized (computer > ironhack > week1 )
+  - Git essentials
+    - add, commit, push (they're explained in the lab instructions)
+  - Create PR
+  - Submit the LAB (sending the link on the students portal)
+    - Submit by 9am 
 
 
 
-## Guidelines for LABS
+## IMPORTANT: Guidelines for LABS
 
 - General guidelines for labs/assignments (it's also in the prework)
   https://gist.github.com/ironhack-edu/dd3635de73a6ef07ef337bf184eda985
+
+- Remind students to submit on Students Portal.
+
+
+
+
+## (Extra) Center CSS
+
+Centering in CSS: A Complete Guide
+https://css-tricks.com/centering-css-complete-guide/
+
+
+Centering in CSS
+https://ishadeed.com/article/learn-css-centering/
 
 
