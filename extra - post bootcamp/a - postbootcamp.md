@@ -124,10 +124,13 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
 - Finally, remember: YOU CAN MAKE IT.
 
 
+<!--
 
 ## Technical interview questions
 
 https://gist.github.com/IH-WebDev-TA-Remote/324bb37af5886d83622cb82fb3dc6008
+
+-->
 
 
 
