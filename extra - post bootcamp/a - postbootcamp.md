@@ -92,6 +92,7 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
     - TDD / Testing
     - Redux
     - SCSS
+    - Tailwind (an alternative to Bootstrap)
     - GraphQL (an alterntative to REST -ie. a different way to create an API)
     - SQL Databases (ex. MySQL and PostgreSQL are popular choices)
 
@@ -151,6 +152,9 @@ https://learn.codevolution.dev/p/preparing-for-a-frontend-interview
 Frontent Challenges (CSS mostly):
 https://www.instagram.com/p/CoxWkrjD3mH/?igshid=YmMyMTA2M2Y%3D
 
+
+ColorCode Playlist - 20 Things JavaScript Developers Should Know, but Probably Don't:
+https://www.youtube.com/playlist?list=PL1PqvM2UQiMoGNTaxFMSK2cih633lpFKP
 
 
 ---
