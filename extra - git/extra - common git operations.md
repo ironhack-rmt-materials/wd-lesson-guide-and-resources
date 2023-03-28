@@ -6,16 +6,9 @@
 
 ## Branches
 
-Create a new branch: 
-- `git checkout -b myNewBranch`: creates a new branch "myNewBranch" & moves to that branch
+- See  (`\extra - git branches.md`)
 
 
-Switch to a different branch: 
-- `git switch branchName`
-
-
-Integrate changes from one branch to another:
-- `git merge branchName`: integrates changes from "branchName" in the current branch
 
 
 

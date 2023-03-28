@@ -12,45 +12,23 @@
   - Diagram 2 (complex): https://miro.medium.com/max/1110/0*4l_7lT1qH1wv7I99.png
 
 
-- See useful commands (`\extra - common git operations.md`)
 
 
 ## Demo
 
-<!-- @todo: create gist -->
+How:
+- Initialize a repo + follow cheatsheet.
 
 
-How: 
-- on a repo 
-- or here: https://git-school.github.io/visualizing-git/
 
+## Cheatsheet
 
-Example:
-
-1. git checkout -b <branchname> (create branch and move to it)
-  ex. `git checkout -b develop`
-
-2. make commit(s) in the new branch
-  ex. `git commit -m "abc"`
-
-3. git checkout <branchname> (move to a different branch)
-   ex. `git checkout main`
-
-4. git merge <branchname> (merge code from "branchname" into current branch)
-
-
-If we want to continue working on "develop"...
-- git checkout develop (move again to "develop" branch)
-- make commit(s)
-- repeat points 3. and 4.
+https://gist.github.com/luisjunco/d9d0a7d62e7633568533b7214f6af840
 
 
 
 
-
-
-
-## Git Workflows
+## (Bonus) Git Workflows
 
 Some common strategies ("workflows"):
 
@@ -67,19 +45,5 @@ Note:
 - Those are just some examples.
 - Each team/product has different needs and policies.
   - ex. how code is merged onto the main branch (code review, PR, ...)
-
-
-
-
-
-## Extra resources to practice git branches:
-
-Visualizing Git: 
-- a playground where you can try commands and see a diagram with the result
-- https://git-school.github.io/visualizing-git/
-
-Learn Git Branching
-- guided tutorial to learn about git branches
-- https://learngitbranching.js.org/
 
 
