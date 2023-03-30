@@ -14,8 +14,9 @@
 - What's my favourite food ?
 - What languages do you speak?
 - One thing I want to learn
-- What is your absolute dream job?
-  - THURSDAY: Is my MVP ready? What is missing?
+- THURSDAY (only 2 questions):
+  - What is your absolute dream job?
+  - Is my MVP ready? What is missing?
 - Show us (or tell us) about your office space! (optional thing)
 - Extra: Draw your most-used emoji.
 
@@ -24,9 +25,10 @@
 - What’s your favourite movie / TV show?
 - What's the best piece of advice you've ever been given?
 - Do you play any sports?
-- What’s your favorite place of all the places you’ve travelled?
-  - THURSDAY: Remind them what exacly MVP is + "Is our MVP ready? What is missing?"
-  - MVP Checklist P2: https://www.checkli.com/process/62d8fd8b11769
+- THURSDAY (only 2 questions):
+  - What’s your favorite place of all the places you’ve travelled?
+  - Is my MVP ready? What is missing?
+  <!-- MVP Checklist P2: https://www.checkli.com/process/62d8fd8b11769 -->
 - Are you a good dancer?
 
 
@@ -34,17 +36,19 @@
 - What did you eat for breakfast?
 - What did you want to be when you grew up?
 - Which band / artist – dead or alive would play at your funeral?
-- What was your first job?
-- What song or album could you listen to on repeat?
 - What is your favorite part of working from home?
-  - WEDNESDAY: Remind them what exacly MVP is + "Is my MVP ready? What is missing?"
-  - even better: give them user stories / a list of things they need to test (so that they test themselves)
+- What song or album could you listen to on repeat?
+- WEDNESDAY (only 2 questions):
+  - What was your first job?
+  - Is my MVP ready? What is missing?
+  <!-- @todo: give them user stories / a list of things they need to test (so that they test themselves) -->
 - What’s is one thing we don’t know about you?
 - LAST DAY: What are you doing to celebrate end of bootcamp? ;)
 
 
 ## Other questions....
 
+- How do you pronounce Squirrel?
 - You need to prepare for a talent show, what do you do?
 - Beach holiday or ski trip?
 - What would your superpower be and why?
