@@ -1,11 +1,9 @@
 
-# Deployment m2
+# Deployment m2 (old version)
 
 <!--
 
-Status: ready
-
-@Luis: materials in students portal have been updated (a bit more clear)
+Status: draft
 
 
 
@@ -68,16 +66,6 @@ Those doing the library project, make sure you have it ready in your computer. I
 
 
 
-- Ask students to create accounts (one account per student, even if they work in teams):
-  - Mongo Atlas (DB Server)
-  - Fly.io / Adaptable.io (aka "server")
-
-- If working in teams:
-  - One person of each team will do the deployment of m2 projects
-  - The other team members can watch demo OR deploy a dummy project (eg. library-project)
-
-
-
 
 
 ## Intro:
@@ -86,9 +74,6 @@ Slides:
 - https://docs.google.com/presentation/d/1tHpGGAFdEy9lKv87Qs7uzs4UfQAXGOCSHyXzHQ4RIDU/edit?usp=sharing
 
 
-- We need to deploy:
-  - DB
-  - Server
 
 
 
@@ -107,10 +92,6 @@ Slides:
 ## IMPORTANT NOTES TO STUDENTS
 
 
-<!--
-@todo:
-- add the notes below to the slides
--->
 
 Deployment & setup takes time. We need to be efficient:
 
@@ -144,10 +125,12 @@ If you need the library project:
 
 
 
-## DB: Create cluster [2. Sign Up & Create a Free Cluster]
+## Step 1: deploy our DB on MongoDB Atlas
+
+<!-- for up-to-date steps & screenshots, check students portal -->
 
 
-- (create account)
+- Create account on MongoDB Atlas
 
 - login + follow students portal
   - https://account.mongodb.com/account/login
@@ -166,7 +149,7 @@ If you need the library project:
 
 
 
-## DB: Test
+## Test our DB
 - test on Compass
   - IMPORTANT: replace `username` and `password` to the Connection String.
   - (Optional) customiza DB name: "...mongodb.net/mydbname?"
@@ -175,18 +158,23 @@ If you need the library project:
 
 
 
-## Adaptable.io: create account
 
-https://adaptable.io/app/signin
-
+## Step 2: deploy our code on Adaptable
 
 
+- Create an account on Adaptable.io
+  - https://adaptable.io/app/signin
 
-## Create new App
+
+- IMPORTANT (before we go further):
+  - if you have an organization, make sure all members are owners of the github organization (before we go further).
+  - .git must be in same directory as package.json
+    - common error: git repo in the parent directory + subdirectory with the app and package.json 
 
 
-- IMPORTANT: if you have an organization, make sure all members are owners of the github organization (before we go further).
 
+
+- Login 
 
 - Select repo from github.
 
@@ -216,6 +204,13 @@ https://adaptable.io/app/signin
 - make a dummy commit + push to main branch
 
 - git push origin main
+
+
+
+
+## How to trigger new deploy
+- push
+- or, manually: "update deployment"
 
 
 
@@ -276,19 +271,19 @@ Ask students to submit urls (github + adaptable) on students portal
 
 ## Seed file (seed data on production DB)
 
-<!-- @Luis: share instructions on slack (no need to demo) -->
+<!-- @Luis: share instructions on Discord (no need to demo) -->
 
 
 To seed data on production, you can do the following:
 
   1. Modify your seeds file so that it points to the production DB (see screenshot)
-    - Note: save the changes on this file but don't make a commit.
+    - Note: save the changes on this file but do NOT make a commit.
 
   2. Execute your seeds file in your computer: `node bin/seeds.js`
 
   3. Confirm that data was created on production (you can do that on MongoDB Compass, connecting to your production DB)
 
-  4. Undo the changes we made in step1 (so that they are not added to the repo)
+  4. Undo the changes we made in "step 1" (so that they are not added to the repo)
   - Note: this step is important, otherwise you may be pushing your DB credentials to github.
 
   
@@ -319,12 +314,18 @@ https://github.com/Sepidehatt/KeepMeAlive-hbs-version
   - how we can see production
   - how to switch between local & production on Compass
 
+<!--
 
-## Error: 405 from Adaptable
+Error: 405 from Adaptable
+
 - Jan 2023: me + 4 students had that error
 - when we test with Postman, we get a 405 "Not allowed"
 - in the response body, can see "nginx" (it's probably an error from Adaptable, not from our code)
 - Quick Fix: create a new app on Adaptable (so far it has worked for 2 out of 2)
+
+UPDATE: they mentioned they had an issue with their load balancer. Should not happen again.
+
+-->
 
 
 ## Common problem: .git not in same directory as package.json

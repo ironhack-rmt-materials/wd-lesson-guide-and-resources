@@ -14,6 +14,8 @@
     - build process takes some time (5min ish)
     - can not add collaborators (ex. to see error logs)
 - fly.io
+  - pros:
+    - reliable
   - cons: 
     - asks for credit card
     - I've had some issues & some TAs also reported issues deploying
@@ -22,6 +24,7 @@
   - cons:
     - no support for web sockets
     - only supports personal repos (atm, it is not possible to deploy repos from a GH organization, even if they are public)
+    - prerformance is not great.
 - render.com
   - cons: after 15min inactivity it goes iddle and takes a bit longer for the first request
 
