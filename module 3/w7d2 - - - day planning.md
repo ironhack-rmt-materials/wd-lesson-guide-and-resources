@@ -23,7 +23,7 @@ LAB "React IronContacts" is very challenging
 
 
 Refresh from yesterday:
-- Module 3 & Requirements project 3
+- (skip) Module 3 & Requirements project 3
 - React intro
 - create-react-app
 - 2 types of components

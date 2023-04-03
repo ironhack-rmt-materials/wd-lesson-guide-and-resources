@@ -99,7 +99,7 @@ Explain:
 
 
 
-Exercise:
+## Practice: React State
   - add a button to decrease counter
   - counter will never be below 0
   - (bonus) if counter above 10, change bg color of the component
@@ -108,7 +108,7 @@ Exercise:
   - Time: 20min.
 
 
-- (Extra) add a counter to a component that repeats multiple times (ex. User/Movie)
+- (extra) add a counter to a component that repeats multiple times (ex. User/Movie)
   - see how the counter of each component is independent (state belongs to the component)
 
 

@@ -70,7 +70,7 @@ Status: draft
 
 
   - Inside <Main />, create 3 divs with a movie
-    ```javascript
+    ```js
       <div className="Main">
 
         <div>movie one</div>
@@ -82,7 +82,7 @@ Status: draft
 
   - Put those 3 divs in an array and show how it is possible to display an array
 
-    ```javascript
+    ```js
     const list = [
       <div>movie one</div>, 
       <div>movie two</div>, 

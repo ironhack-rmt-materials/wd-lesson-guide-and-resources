@@ -53,16 +53,26 @@ Note: for pair projects, we can apply the same grade, unless there's clear reaso
   - LABs
     - individual / pairs (confirm)
 
+    <!-- 
+    @todo: add lab planning to the slides
+     -->
+
   - Project 3:
-    - individual / pairs (recommended)
+    - pairs
 
+    <!--
+    
     - if a student is falling behind in labs or requirements to graduate, we will ask them to do project 3 individual.
-   - when this is the case, we contact them before we start project 3 (we still have quite a few labs).
+    
+    - when this is the case, we contact them before we start project 3 (we still have quite a few labs).
 
-    - for all other students. Recommendation: pairs
-      - advantages:
+    -->
+
+
+    - Why we do p3 in pairs:
         - collaboration
         - being able to go further than an MVP.
+
 
   <!-- @Luis: include the notes above in the slides (labs, project etc) -->
 
@@ -75,10 +85,12 @@ Note: for pair projects, we can apply the same grade, unless there's clear reaso
     - https://meet-them-all.netlify.app
 
   - On that example, see how it works as an SPA.
+    - compare with project 2 (ex. https://somethings-cooking.adaptable.app/)
 
   - WARNING: 
     - m3 is very challenging for most students 
     - p3 takes time.
+
 
 
 ## Rest of the day

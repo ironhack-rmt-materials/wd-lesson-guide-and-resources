@@ -7,25 +7,25 @@ How:
 - Individual
 
 
-<!-- 
-
-Jan 2022: 
-- some students running node v.17 we're having a problem running the problem.
-- quick fix: https://stackoverflow.com/a/69713899/11298742
-
- -->
-
-
 
 
 
 ## EXPLAIN
+
+<!-- @IMPORTANT -->
+<!-- @IMPORTANT -->
+<!-- @IMPORTANT -->
 
 - IMPORTANT: 
   - Students feel overwhelmed about creating one component for each small thing in the UI
   - Explain them that the goal of this lab is to practice components (this is why we over do it)
 
 - Advice: force yourself to code & practice the syntax
+
+<!-- @IMPORTANT -->
+<!-- @IMPORTANT -->
+<!-- @IMPORTANT -->
+
 
 
 ## Iteration 2 | Pass the Tweet as a Prop
@@ -64,10 +64,11 @@ IMPORTANT:
 
 <!-- 
 
-- mandatory: LAB React Tweets
-- (recommended) continue watching video 
+- LAB: React Tweets
+- (recommended) Continue watching React Tutorial
 - (bonus) do some katas from "HOF exercises"
-- (bonus) do some components from lab "React Training" (can do steps 1-7)
-- mandatory: take good rest (tomorrow is challenging)
+- (super bonus) do some components from lab "React Training" (can do steps 1-7)
+
+In any case: make sure you also rest properly (tomorrow is challenging)
 
  -->

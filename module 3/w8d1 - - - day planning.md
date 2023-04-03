@@ -121,6 +121,6 @@ const myPreferences = {
 ```
 
 - DEADLINE: xxx
-- HOW: msg TA on slack
+- HOW: msg TA on Discord
 - We strongly recommend you doing project 3 in pairs (collaborating is essential as a web dev + you'll have more time to build a better project). If you really want to do it individually, mention that in your message to your TA
 

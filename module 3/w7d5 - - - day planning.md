@@ -92,7 +92,7 @@ Friday: try to finish earlier.
 
   - they choose the pairs (ie. we will not do the pairs)
   - they can start thinking who they want to do it with + what they want to build
-  - create slack channel #project-ideas
+  - create Discord channel #project-ideas
 
 
 - Should I start project3 this weekend ?

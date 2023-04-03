@@ -10,7 +10,8 @@ Status: just some notes as a summary
 Notes:
 - Some students find it difficult to remember how to pass & receive props (even after a few days).
 
-- Do more practice with a basic exercise. Ex: 
+
+@todo: prepare a basic exercise to practice Components + props.
   - create stackblitz
   - ask students to create a child component
   - pass info from parent to child
@@ -66,6 +67,13 @@ Intro example (why props):
 - `<Footer />`
 
 
+<!-- 
+  @Luis: 
+  we can also start simple passing props to the header (ex. title).
+-->
+
+
+
 > Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called props) and return React elements describing what should appear on the screen.
 
   - Example with functions (show how we can create a generic function using arguments): https://stackblitz.com/edit/js-5tsf94?file=index.js
@@ -82,6 +90,7 @@ Exercise (OPTION 1) to practice the syntax:
   - render User in App.js
   - using props, display Alice & Bob
   - (bonus): pass a second prop to display the fav food of each of them (ex. salad, pizza)
+- (bonus): pass a third prop to display the age of each of them (hint: `age={20}`)
   - (bonus): pass an object as props (ex. an object with name and favFood)
 
 
@@ -90,37 +99,44 @@ Exercise (OPTION 1) to practice the syntax:
 Note: As props, we can pass any valid data type
 
 
+## Practice: react props
 
-Exercise (OPTION 2) same but with movies (instead of users)
+<!-- same but with movies (instead of users) -->
 
-  ```js
-    const moviesArray = [
-      {
-        title: 'the godfather',
-        rating: 9,
-      },
-      {
-        title: 'Pulp Fiction',
-        rating: 8,
-      },
-      {
-        title: 'Coco',
-        rating: 9,
-      },
-    ];
-  ```
-    
-  - create a component Movie
-  - render 3 Movie in App.js
 
+  Initial code: 
+  - https://stackblitz.com/edit/react-flgcfo?file=src/App.js
+  -  note: in App.js we have an array of movies
+
+  Iteration 1: 
+    - create a component "Movie" (for this iteration, just display an h1 ex. `this is the Movie component`).
+    - note: in stackblitz, you need to import react in each file:
+      - `import React from 'react';`
+
+  Iteration 2: 
+    - in App.js, render 3 times the Movie component
+
+  Iteration 3: 
   - use props to make the component generic
   - in app.js, you will need to send each element of the array as props.
 
   ```jsx
+    <Movie details={moviesArray[0]} />
     <Movie details={moviesArray[1]} />
+    <Movie details={moviesArray[2]} />
   ```
 
+  Bonus: display in the Header the number of movies.
+  Bonus: add some cool CSS.
 
+
+  Time: 15min.
+
+
+  Solution: https://stackblitz.com/edit/react-e2bf8p?file=src/components/Movie.js
+
+
+---
 
 
 - Todays lab:
@@ -140,7 +156,17 @@ Exercise (OPTION 2) same but with movies (instead of users)
 
 
 
+## Props and Data Types
+
+- As props you can pass...
+  - string, number, boolean, array, object, function... 
+  - A JS expression (eg. foo={2+2})
+
+- `props.children`
+
+
 ## props.children
+
 
 
 
@@ -148,7 +174,22 @@ Exercise (OPTION 2) same but with movies (instead of users)
 
 
 
-## Components from npm
+
+
+
+
+## IMPORTANT: props are immutable
+
+- props are immutable: you must never modify the `props` that a component receives.
+  - https://reactjs.org/docs/components-and-props.html#props-are-read-only
+
+  - (extra) explain the concept of a `pure function`
+    > All React components must act like pure functions with respect to their props.
+
+
+
+
+## (extra) Components from npm
 
 - React Player:
 `npm install react-player`
@@ -161,25 +202,9 @@ Exercise (OPTION 2) same but with movies (instead of users)
 
 
 
-## Extra Concepts
-
-- As props you can pass...
-  - string, number, boolean, array, object, function... 
-  - A JS expression (eg. foo={2+2})
-
-- props.children
 
 
-
-- (Extra) Props defaults to true
-
-  ```jsx
-  <MyTextBox autocomplete />
-  <MyTextBox autocomplete={true} />
-  ```
-
-
-- (Extra) Receive props with object destructuring
+## (extra) Receive props with object destructuring
 
   - Option1: 
     ```js
@@ -200,18 +225,4 @@ Exercise (OPTION 2) same but with movies (instead of users)
     }
   ```
 
-
-- (Extra) Syntax for Class components
-  - if we have time, see an example.
-
-
-
-
-## IMPORTANT CONCEPTS
-
-- props are immutable: you must never modify the `props` that a component receives.
-  - https://reactjs.org/docs/components-and-props.html#props-are-read-only
-
-  - (extra) explain the concept of a `pure function`
-    > All React components must act like pure functions with respect to their props.
 

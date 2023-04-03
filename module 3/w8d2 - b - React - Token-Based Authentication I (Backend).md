@@ -80,7 +80,7 @@ UPDATE OCT. 2022:
 Improvements:
 - Protected routes: if we use ironlauncher, in `error-handling\index.js`, we can add the following:
 
-  ```javascript
+  ```js
       if (err.name === "UnauthorizedError") {
         res.status(401).json({message: "invalid token..."});
       }

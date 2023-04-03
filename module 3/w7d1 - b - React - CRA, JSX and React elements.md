@@ -31,7 +31,7 @@
 
   - `package.json`
     - dependencies
-    - how we can run our app (`npm start`)
+    - scripts: `npm run start`
       - mention yarn
 
   - `public/index.html` is the only .html file for the entire React app.
@@ -105,7 +105,7 @@
       ```
 
 
-- (bonus) config JSX autocomplete on VS Code:
+- (Bonus, self-guided) config JSX autocomplete on VS Code:
   - https://stackoverflow.com/questions/39320393/jsx-or-html-autocompletion-in-visual-studio-code
 
 
@@ -128,6 +128,7 @@
 - (Extra) inline CSS (mention very briefly)
   - For inline css, you will need a JavaScript object with camelCased properties.
   - https://reactjs.org/docs/dom-elements.html#style
+  - legacy docs: https://legacy.reactjs.org/docs/dom-elements.html#style
 
 
 - Comments in JSX

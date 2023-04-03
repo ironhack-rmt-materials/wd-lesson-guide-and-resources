@@ -236,7 +236,7 @@ Stages:
 
 - the function passed to useEffect may return a cleanup function.
 
-```javascript
+```js
   useEffect(() => {
     console.log("useEffect - Mounting (initial render)");
     const id = setInterval(() => {
@@ -259,7 +259,7 @@ Stages:
 
 - dependency array.
 
-```javascript
+```js
  useEffect(() => {
    // ...
   }, [counter] ); 
@@ -335,7 +335,7 @@ Docs: https://reactjs.org/docs/hooks-rules.html
 
   - Note: If we want to run an effect conditionally, we can put that condition inside our Hook.
 
-    ```javascript
+    ```js
       useEffect( () => {
         if(condition){
 

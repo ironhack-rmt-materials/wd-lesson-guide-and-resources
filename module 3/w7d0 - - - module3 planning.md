@@ -49,7 +49,7 @@ day6: Building the REST API + Integrating React app with backend
   <!-- 
     @Luis: 
     
-    initialize with ironlauncher --auth --json 
+    initialize with ironlauncher --auth --json  !!!!!
     (so that we can speed up backend auth lecture)
 
   -->
