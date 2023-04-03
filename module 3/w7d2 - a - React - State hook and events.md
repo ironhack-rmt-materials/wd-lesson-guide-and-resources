@@ -113,33 +113,7 @@ Exercise:
 
 
 
-
-## (extra) State in class components
-
-<!-- 
-
-- 2 ways to initialize (show syntax):
-  - with constructor method
-  - Alternative class syntax - without constructor method
-
-- Note:
-  - Notice how state is defined as an object.
-  - We can have as many key-value pairs as we need
-
-- IMPORTANT:
-  - To manipulate the state, we have to use setState() method
-  - Never try to manipulate the state directly!
-
-  ```
-    this.state.count++; // BAAAAAD
-  ```
-
-- setState (see documentation):
-  - `setState(updater, [callback])`
-    - First argument: Function or Object
-    - Second argument (optional): callback
-
--->
+## Using State correctly
 
 
 - Remember (https://reactjs.org/docs/state-and-lifecycle.html#using-state-correctly):
