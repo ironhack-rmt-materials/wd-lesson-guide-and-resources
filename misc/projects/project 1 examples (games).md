@@ -7,11 +7,18 @@ Action games:
 - Potato Run (Clara)
   https://claradrojas.github.io/potato-run/
 
-- Ninja the hacker (Hongshan)
-  https://zhosde.github.io/ninja-the-hacker/
+
+- Banana Lover (Bartosz)
+  https://bartoszde.github.io/banana-lover/index.html
+
+
+- Spaceship Shooter (Eric)
+  https://ericveganoguera.github.io/ProjectGame/#
+
 
 - Snek (Dominika)
   https://dominikalipka.github.io/javascript-game-project/game-window/index.html
+
 
 
 Non-action games:
@@ -33,20 +40,15 @@ Even more examples....
 - Sticky Bullets (Valentin)
   https://valentin-paul.github.io/Game-Javascript/
 
-- Dogshitty (Zena):
-  https://zenabos.github.io/dogshitty/
-
-- Diver cleans the ocean (Oscar)
+- The good diver (Oscar)
   https://oscargonzalezdev.github.io/project-game/
 
-- Pong game 1 (Dennis):
-  https://dennisdeuling.github.io/ball_and_bricks/
-
-- Pong game 2 (Daina):
-  https://daina-slezaite.github.io/key-pong/
+- Unfriendly Planet (Fernando)
+  https://fndoramos.github.io/Project1-Game-OOP-DOM/index.html
 
 
------
+---
+
 
 Bonus (more advanced):
 
@@ -60,6 +62,9 @@ Bonus (more advanced):
 - Tetris (Sepid):
   https://sepidehatt.github.io/Tetris-Game/
 
+
+- Tower Defense (Alexandre)
+  https://abenat1988.github.io/Classic-Tower-Defense/
 
 - Furry Bubble Shooter (Begum):
   https://begumeryildiz.github.io/bubble-shooter-game/
