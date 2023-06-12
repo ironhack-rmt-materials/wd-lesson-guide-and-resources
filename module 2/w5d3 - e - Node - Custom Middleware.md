@@ -57,11 +57,12 @@ Explain:
 
 <!--
 
-  In case Ironlauncher didn't install dependencies correctly:
+  In case "ironlauncher --auth" didn't install dependencies correctly:
 
-  - npm i bcrypt@5.0.1 connect-mongo@4.6.0 cookie-parser@1.4.6 dotenv@16.0.3 express@4.18.1 express-session@1.17.3 hbs@4.2.0 mongoose@6.6.4 morgan@1.10.0 serve-favicon@2.5.0
+  - npm install bcrypt@5.1.0, connect-mongo@5.0.0, cookie-parser@1.4.6, dotenv@16.1.4, express@4.18.2, express-session@1.17.3, hbs@4.2.0, mongoose@7.2.2, morgan@1.10.0, serve-favicon@2.5.0
 
-  - npm i nodemon@2.0.20 --save-dev
+
+  - npm install nodemon@2.0.22 --save-dev
 
 -->
 
