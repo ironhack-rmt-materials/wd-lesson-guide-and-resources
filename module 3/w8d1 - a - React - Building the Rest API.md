@@ -71,10 +71,12 @@ In case ironlauncher --auth --json does not install the dependencies:
 
   ```
   npm install bcrypt@5.0.1 cookie-parser@1.4.6 cors@2.8.5 dotenv@16.0.3 express@4.18.2 express-jwt@8.3.0 jsonwebtoken@9.0.0 mongoose@6.8.4 morgan@1.10.0
+
+  npm install bcrypt@5.1.0 cookie-parser@1.4.6 cors@2.8.5 dotenv@16.3.1 express@4.18.2 express-jwt@8.4.1 jsonwebtoken@9.0.0 mongoose@7.3.1 morgan@1.10.0
   ```
 
   ```
-  npm install nodemon@2.0.20 --save-dev
+  npm install nodemon@2.0.22 --save-dev
   ```
 
 
