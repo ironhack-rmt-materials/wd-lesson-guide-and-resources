@@ -50,14 +50,56 @@ Status: draft
   - Show table with endpoints: w5d4 "AXIOS | POST, PUT and DELETE request"
 
 
-- REFRESH Axios
+Demo: Refresh Axios GET
   - Open Stackblitz + GET list of characters
-  - TASK:
-    - Create a new character: POST /characters + send an object with `{name: "", occupation: "", weapon: ""}`
-    - (Bonus) get the details of a specific character, update, delete...
-    - Time: 10min.
-  - SOLUTION: https://stackblitz.com/edit/js-hkgykx?file=index.js
-  <!-- @Luis: ask users to disable auto-save in stackblitz (so that we don't repeat names many time) -->
+  <!-- (note: on stackblitz, use axios v.0.27.2) -->
+  - Example: https://codesandbox.io/s/icy-rain-igs74w?file=/src/index.js
+
+
+Practice: Axios Post request
+  - Using axios, create a new character in our API.
+  - BaseURL: https://ih-crud-api.herokuapp.com
+  - We need to send POST request to `/characters`
+  - In the body of the request, send an object with `{name: "", occupation: "", weapon: ""}`
+
+  - Bonus 1: get the details of a specific character
+  - Bonus 2: update your character
+  - Bonus 3: delete your character
+
+  - Time: 12min.
+
+
+    Note:
+    - On Stackblitz, you can install `axios@0.27.2`
+    - Example of a GET request: https://stackblitz.com/edit/js-vajlut?file=index.js
+
+    Endpoints:
+    ![characters api](./images/characters-api-endoints.png)
+
+    Hints:
+      - Example with a GET request https://codesandbox.io/s/icy-rain-igs74w?file=/src/index.js
+      - Documentation for POST: https://axios-http.com/docs/post_example
+
+
+  - SOLUTION: https://codesandbox.io/s/lively-cache-olz44t?file=/src/index.js
+
+
+  <!-- 
+  @Luis: 
+  - ask users to DISABLE AUTO-SAVE (so that we don't repeat names many time)
+
+  - on CodeSandbox: https://stackoverflow.com/a/74508939/11298742
+  
+  -->
+
+
+  <!--
+    Stackblitz + Axios v.1.x
+
+  - Bug report: https://github.com/stackblitz/core/issues/2463
+  - Option 1: axios@0.27.2
+  - Option 1: codesandbox.io (works fine with axios@1.x)
+  -->
 
 
 - Remember, there's many ways to send http requests:
@@ -66,48 +108,17 @@ Status: draft
 
 
 
+## Intro/Explain: concept of Side-Effect
 
-## Demo: sending API requests in our React App.
+Alternative: 
+- ask students to do some research
+- "what is a side effect in programming?"
 
-How:
-- Show demo on the app from yesterday (popcorn-time).
-
-What we will do: 
-- in the Header, display the number of characters in the API.
-
-Steps:
-- npm i axios
-- send request
-
-  ```js
-  axios
-    .get(baseURL + '/characters')
-    .then((response) => {
-      console.log(response.data);
-    })
-    .catch((e) => {
-      console.log(e);
-    });
-  ```
-
-
-
-
-
-
-## Pre-setup
-
-`npx --yes create-react-app react-characters-app`
-
-
-
-
-## Explain...
-
-
-- Explain concept of a SIDE-EFFECT:
+Explain concept of a SIDE-EFFECT:
   > A side effect is when a function relies on, or modifies, something outside its parameters to do something.
   - ie. when we read/modify information outside
+
+Examples: https://stackblitz.com/edit/js-sefk58?file=index.js
 
   <!-- 
   
@@ -128,6 +139,66 @@ Steps:
 
 
 - Today, we will learn how to make HTTP requests in React & display the info
+
+
+
+
+
+## (DEMO) sending API requests in our React App.
+
+<!-- DEMO ONLY -->
+
+How:
+- Show demo on the app from yesterday (popcorn-time).
+
+What we will do: 
+- in the Header, display the number of characters in the API.
+
+<!--
+@Luis: 
+
+- display number of characters
+- DO NOT display list of characters (we will do an exercise later)
+
+-->
+
+Steps:
+- npm i axios
+- send request
+
+  ```js
+
+  import axios from "axios";
+
+  //...
+
+  const baseURL = "https://ih-crud-api.herokuapp.com";
+
+  axios
+    .get(baseURL + '/characters')
+    .then((response) => {
+      console.log(response.data);
+    })
+    .catch((e) => {
+      console.log(e);
+    });
+  ```
+
+
+Step 1: 
+  - Store numberOfCharacters in a `NORMAL VARIABLE`
+  - Issue: UI not updated
+
+Step 2: 
+- Store numberOfCharacters in `STATE`
+- Issue: Re-render loop (intro useEffect & side effects).
+
+
+
+
+## Pre-setup
+
+`npx --yes create-react-app react-characters-app`
 
 
 
@@ -169,6 +240,10 @@ Stages:
   - Classes: https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 
+React hooks (summary & list of basic hooks):
+https://legacy.reactjs.org/docs/hooks-reference.html
+
+
 - Change in `props` or `state` = update
 
 
@@ -186,10 +261,6 @@ Stages:
 
 - Show wrong example (axios.get at the beginning of function component)
 
-- Intro / Mention "hooks"
-  - useXXXX
-  - custom hooks
-
 - Introduce useEffect()
 
   > Sometimes, we want to run some additional code after React has updated the DOM.
@@ -201,10 +272,6 @@ Stages:
 
     useEffect(didUpdate, dependencyArray);
 
-    //run after a component has been mounted + after every component update
-    useEffect(() => {
-    });
-
     //run after a component has been mounted (only once)
     useEffect(() => {
     }, []);
@@ -212,6 +279,11 @@ Stages:
     //run after a component has been mounted + every time "somePropsOrState" changes
     useEffect(() => {
     }, [somePropsOrState]);
+
+
+    //run after a component has been mounted + after every component update
+    useEffect(() => {
+    });
     
 
   ```
@@ -277,7 +349,7 @@ Stages:
 
 
 
-## Fetching data with useEffect
+## Practice: useEffect (get a list of characters)
 
 <!-- 
 
@@ -286,25 +358,47 @@ Note: students need a lot of guidance to be able to do this task for the first t
 -->
 
 
-TASK:
-- Implement functionality to display list of characters (in "App.js")
-  - For each character `<div className="character">Name: xxxx</div>`
-- Display more info about the character (occupation, weapon)
-- Bonus:
-  - display only first 10 characters
-  - add css
-  - implement a button to delete one character (when the user clicks, we send a request to the api)
 
+Iteration 0:
+- We will work on our app "react-characters-app"
+- Make sure your app is running (`npm start`)
+
+
+Iteration 1:
+- In App.js: use `useEffect` & `axios` to get a list of characters from the API.
+- Endpoint: GET "https://ih-crud-api.herokuapp.com/characters"
+- Once you have the list of characters, display that in the console.
+- You can also display the number of characters in the JSX (ex. so that the user can see how many characters there are).
+- Note: you will need to install axios as a dependency
+
+Iteration 2:
+- Display info about each character in the user interface.
+- Ex. for each character, something like this:
+  ```html
+    <div className="character">
+      Name: xxxx
+      Weapon: xxxx
+    </div>
+  ```
+
+- Hints:
+  - We will work on `App.js` (for now, DO NOT CREATE OTHER COMPONENTS)
+  - You will need a stateful variable to store the list of characters
+    - Ex.: ` const [characters, setCharacters] = useState([]); `
+  - Once we get the response from the API, update state so that React re-renders the component.
+  - In our JSX, we need to iterate through the stateful variable. Ex.: `charactersArr.map()`
+
+Bonus:
+  - Display only first 10 characters
+  - Add css
+  - Implement a button to delete one character (when the user clicks, we send a request to the api)
+
+<!-- @Luis: share with them the example we did earlier -->
+
+How: work in pairs.
 Time: 30m.
 
 
-Hints:
-- create a stateful variable where you will store the list of characters (initialize this variable to an empty array)
-  - ex. `const [foobar, setFoobar] = useState([]);`
-- send query to API (useEffect)
-- once we get the response, update state
-- in our JSX, we need to iterate through the stateful variable 
-  - ex. `charactersArr.map()`
 
 
 
@@ -315,7 +409,7 @@ Explain (after the exercise):
 - useEffect:
   - avoid sending a request everytime (ex. if we don't have a dependency array) `useEffect( () => {})` 
 - conditional rendering (display a message while loading)
-  - ex: `charactersArr.length === 0 ? <p>loading...</p> : renderList()`
+  - ex: `charactersArr === null ? <p>loading...</p> : renderList()`
 
 
 
