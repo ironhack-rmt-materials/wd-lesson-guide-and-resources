@@ -42,7 +42,11 @@ Remove:
 - w1d1: add "[CLASS_ACTIVITY] Check installations"
   - > During this activity, we will check if all of us have the main tools and software that we will be using during the bootcamp.
 
-- "JS | Numbers - Advanced Topics" - [SELF_GUIDED] 
+- w1d1: "Problem Solving and Support" - [SELF_GUIDED] 
+  - Ask the teaching team for help
+
+
+- w1d3: "JS | Numbers - Advanced Topics" - [SELF_GUIDED] 
 
 - w1d4: seems quite a bit of workload & 2 labs
   - move both labs to the end of the day.
@@ -67,14 +71,10 @@ Remove:
 
 
 
-
 - w2d4: add "[CLASS_ACTIVITY] OOP Game Codealong"
   - > Class codealong: we will create together a game using OOP and DOM manipulation.
 
-- Canvas (w2d4 & w2d5)
-  - Mark all as extra (we usually build a dom-based game instead)
-  - Move the Assessment to beginning of w2d4.
-  - Put all canvas units at the end of w2d4.
+
 
 <!-- @Luis: schedule reminder to check m2 installations -->
 
@@ -94,28 +94,39 @@ Remove:
 - w4d1: add unit "Intro to module 2"
   > During this session, we will do a quick intro to module 2 (what we will learn + how we will work to achieve those goals).
 
-- w4d1: add unit "JS | Object and array destructuring"
-  > In this unit, we will learn how to use JS Object and Array destructuring.
-
 
 - "JS | Destructuring Assignment and Parameter Handling" (w4d5)
-  - move to w4d2
+  - move to w4d1
+
+- w4d2: "Node | Intro & Installation" - [EXTRA]
+- w4d2: "Node | The Internet & HTTP Server" - [EXTRA]
+
+
+- w4d4: " Data Models" 
+  - (it also includes mongoose syntax)
+  - move to w5 (before we introduce Relationships)
+
 
 - w4d4: "MongoDB | Indexing & Aggregation Framework" -- remove
+- w4d4: "LAB | MongoDB - Advanced Querying" -- extra
+
 - w4d5: "Node | Asynchrony" -- remove
 
 
+- w5d1 "Mongoose&Express | Update - Delete documents" - [SELF_GUIDED]
+
+
 - w5d1 "LAB | Express Drones"
-  - IMPORTANT: configure as assignment + mark with "Required: False" (so that it appears in CT)
+  - IMPORTANT: configure as assignment + mark with `Required: TRUE` (so that it appears in CT)
 
 
-- w5d5: 
-  - LAB "Express basic auth" -- remove
-  - Asssessment "NodeJS and MongoDB CRUD app (202109)" -- move to w5d3 (after auth)
+- w5d3: LAB "Express basic auth" -- remove
+
+- w5d5: Asssessment "NodeJS and MongoDB CRUD app (202109)" -- move to w5d3 (after auth)
 
 - w6d1: cloudinary --extra
 
-
+- w6d5: retrospectives -- remove
 
 
 ## Module 3
@@ -137,7 +148,7 @@ Remove:
 
 - w7d1: add "[EXTRA] Continue watching React Tutorial"
 
-- w7d2: "HOF exercises" -- w7d1 + "EXTRA"
+- w7d2: "HOF exercises" - move to w7d1 + mark as [EXTRA] 
 
 
 - "LAB | React training" (w7d2) -- split in two & mark both of them as "extra"
@@ -145,43 +156,55 @@ Remove:
     - "LAB | React training [steps 8-16]" -- w7d2 + "EXTRA"
 
 
-- w7d3: "LAB | Thinking in React" -- mark as "extra"
 
-
-- w8d1 "[EXTRA] Assessment review - React Fundamentals 1" (most students perform well + they will receive solutions + if they have questions they can ask)
-
-- w8d3 "[EXTRA] Assessment review - React Fundamentals 2" (most students perform well + they will receive solutions + if they have questions they can ask)
-
-
-- w8d1 "React | Integrating React App with backend" - Self-guided
+- w8d1 "React | Integrating React App with backend" - [SELF_GUIDED]
 
 
 <!-- - w8d2 Context API --self guided + move to w8d1 (as task to do in the evening) -->
 
+- w8d2: "React | Token-Based Authentication II (Frontend)" - [SELF_GUIDED]
 
-- w8d2: "React - Token-Based Authentication II (Frontend)" -- move it to next day (it can well take a whole day)
-- "Project #3 Guidelines: MERN Web Application"
-
-
-- w8d2: "React | Organizing HTTP Requests" - Self-guided
+- w8d2: "React | Organizing HTTP Requests" - [SELF_GUIDED]
 
 
-Update:
-- "Project #3 Guidelines: MERN Web Application"
-  - Rubrics: "use them as a guideline"
+<!-- 
+
+  Frontend auth:
+  - option 1: self guided
+      - we can kick-off project earlier
+      - students usuall say everything is clear but then seem to struggle with those concepts.
+  - option 2: demo in class
+      - it can well take a whole day
+  - option 3: record a video so that they can follow the video self-guided.
+
+  -->
+
+
+
+- "Project #3 Guidelines: MERN Web Application" 
+  - move to w8d3
+  - ~~Update: Rubrics - "use them as a guideline"~~
 
 
 
 
 ## Other changes
 
+
 - Add Careerhack Individual Work Sessions.
   - 1h during p1 (week 3) + 1h during p2 (week 6)
   - Students to work on the tasks given by Carrer Services.
 
 - Add Careers Workshop Sessions.
-
   <!-- @Luis: info in course tracker spreadsheet  -->
+
+
+- Consider: setting DL for assessments (as part of the title for each assessment)
+  - ex. "NodeJS and MongoDB CRUD app (202109) [Deadline: by Friday 9am]"
+  
+
+- Define LAB/assessment planning & share with students, at the beginning of each week.
+  (ex. which labs are individual/in pairs)
 
 
   <!-- 
@@ -203,4 +226,8 @@ Update:
 - Schedule alumni talk
   <!-- alternative (recording Karina): /rec/play/UNay2C6SY4aDHhg8juHNKzJxtDEnMS986H9kuD52_2QHWg050YAz9jIY0e1oEukF8ImsTOX0ir_HxZU1.gp82Uhtdv6LFJ4VT?startTime=1663168072000  -->
 
+
+- LT/TAs: Update tools
+  - node
+  - compass
 
