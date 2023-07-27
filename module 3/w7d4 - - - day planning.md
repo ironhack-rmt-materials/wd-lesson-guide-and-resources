@@ -44,9 +44,6 @@ Codealong: characters API.
   - Demo: https://react-characters-app.netlify.app/
 
 
-Setup:
--  `npx --yes create-react-app react-characters-app`
-
 
 
 Codealong functionality (draft):
@@ -56,5 +53,6 @@ Codealong functionality (draft):
 - (routing): one page for each character (with static links and then with URL parameters)
   - note1: for that, create a component `<CharacterDetails>` and send a request to get the details of one character from the API (same pattern that they're asked to do in the LAB)
   - note2: display the nav menu in all pages (same pattern as today's lab) (or explain the two options: all pages vs. homepage only)
-- extra: pass the list of characters to Header & render a dynamic menu in the Header
+
+- extra challenge: pass the list of characters to Header & render a dynamic menu in the Header
 

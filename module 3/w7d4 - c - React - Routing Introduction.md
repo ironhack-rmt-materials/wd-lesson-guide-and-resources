@@ -5,12 +5,15 @@
 
 Status: notes
 
-@todo: improve planning
+@todo: improve planning (consider adding guided exercise)
 
 
 React Router Version History (dates on the left):
 - https://github.com/remix-run/react-router/releases
 
+Latest cohort:
+- Apr. 2023: v.6.10 (all working good)
+- June. 2023: v.6.13 
 
 -->
 
@@ -20,6 +23,26 @@ React Router Version History (dates on the left):
 - show examples on some react apps
   - https://meet-them-all.netlify.app/
   - airbnb
+
+
+# Cheatsheet
+
+https://gist.github.com/luisjunco/cbd1fe157c7f2f2b6b4983adbea9ae1e
+
+
+
+# Slides
+
+<!--
+
+Slides OLD: 
+https://docs.google.com/presentation/d/159a7pMKmloZ7-xxamjChtkh6Y2j_I931JJaR9kVVqeU/edit?usp=sharing
+
+@Luis:
+- include useful exercises but they're based on react-router v.5.2
+
+-->
+
 
 
 # Basic example on Stackblitz
@@ -78,6 +101,7 @@ Possible final code: https://stackblitz.com/edit/react-bwzc2z?file=src/App.js
 - notes: 
   - keep the code to display the list of characters in App.js
   - create 2 components: Home, About
+    - update: instead, just display paragraphs.
 
 
 ----------
