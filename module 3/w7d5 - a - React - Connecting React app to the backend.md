@@ -25,7 +25,7 @@ Notes:
 
 ## LAB/Exercise IronBnB
 
-Instructions: https://github.com/luisjunco/exercise-react-ironbnb-client
+Instructions: https://github.com/luisjunco/exercise-react-ironbnb-client-vite
 
 How:
 - individual
