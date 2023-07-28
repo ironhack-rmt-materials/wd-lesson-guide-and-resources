@@ -13,10 +13,16 @@ H&B Homes (Berkay + Harida)
 https://renting-house-platform.netlify.app/
 
 
-
 Travel Buddy
 https://travel-buddy-client.netlify.com/
 
+
+Mindful Mates (Carolin K + Nuno)
+https://mindfulmates.netlify.app/
+
+
+PetHub (Cristian + Ismael)
+https://pethubpet.netlify.app/
 
 
 
@@ -29,28 +35,3 @@ https://moonlight-events.netlify.app/
 
 
 
-
-<!--
-
-OLD PROJECTS ON HEROKU:
-
-
-https://juniors4seniors.netlify.app/
-https://learn-today-md.netlify.app/
-https://plantpal1.herokuapp.com/
-
-https://project-learning.netlify.app/
-https://hospify.netlify.app/
-https://vinevibe.herokuapp.com/
-
-https://one-d-shop.herokuapp.com/
-https://puppies-palace.netlify.app/
-https://plato-planner.netlify.app/
-https://ninja-coder.herokuapp.com/
-https://memedia.netlify.app/
-https://furniturrific.netlify.app/
-https://app-tandem.netlify.app/
-https://bucketeer.netlify.app/
-
-
--->
