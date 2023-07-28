@@ -5,7 +5,15 @@
 <!--
 
 Codealong Final Result (README.md includes all the steps):
-- https://github.com/Coding-Ninjas-Ironhack-Sept-2021/mongoose-express-CRUD-codealong
+- https://github.com/ironhack-rmt-resources/library-project-crud-codealong
+
+
+
+How: SELF_GUIDED
+
+
+@Luis: 
+- IMPORTANT (for tomorrow): implement U+D on our existing repo (15min.)
 
 -->
 
