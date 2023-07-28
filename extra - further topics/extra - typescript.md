@@ -3,14 +3,25 @@
 # Extra - TypeScript
 
 
-## Demo Option I:
 
-Quick demo on stackblitz.
+TypeScript in 100 Seconds (Fireship.io, 2min):
+https://www.youtube.com/watch?v=zQnBQ4tB3ZA
 
 
-## Demo Option II:
+
+
+
+
+
+## Initial Setup
 
 - `npm i -g typescript`
+
+- `tsc --version`
+
+- `mkdir typescript-demo`
+
+- `cd typescript-demo`
 
 - create `index.ts` & add `console.log()`
 
@@ -23,14 +34,19 @@ Quick demo on stackblitz.
     ```json
     {
         "compilerOptions": {
-            "target": "ES2017",
-            "watch": true, //listen for changes
+            "target": "ES5", //compile to ES5, to ensure compatibility for old browsers
         }
     }
     ```
 
 
-- run with `tsc` (will listen for changes in current directory)
+- run with `tsc`
+
+- run with `tsc --watch` (will listen for changes in current directory)
+
+
+
+## Types
 
 - 2 ways to define types: Implicit & Explicit
 
@@ -152,7 +168,7 @@ Quick demo on stackblitz.
 
 ## Learning Resources
 
-Video: TypeScript - The Basics (12min.)
+Video: TypeScript - The Basics (Fireship, 12min.)
 https://www.youtube.com/watch?v=ahCwqrYpIuM
 
 
@@ -164,7 +180,7 @@ Codewars - Learning Typescript collection
 https://www.codewars.com/collections/learning-typescript
 
 
-React TypeScript Tutorial for Beginners (Codevolution)
+React TypeScript Tutorial for Beginners (Codevolution, playlist ~2h)
 https://www.youtube.com/playlist?list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK
 
 
