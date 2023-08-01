@@ -133,6 +133,33 @@ h2 {
 ```
 
 
+## (bonus) CSS custom properties (variables)
+
+- Set using custom property notation
+  - `--main-color: black;`
+- Use with the var() function
+  - `color: var(--main-color);`
+
+
+  ```css
+
+  :root {
+    --main-color: orange;
+  }
+
+  body{
+    color: var(--main-color);
+  }
+
+  .box {
+    border: 2px solid var(--main-color);
+  }
+
+  ```
+
+
+
+
 ## Good practices
 
 - Generic rules first
