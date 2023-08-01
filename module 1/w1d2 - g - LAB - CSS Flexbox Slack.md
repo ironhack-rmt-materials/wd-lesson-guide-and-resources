@@ -10,8 +10,6 @@ How: work in PAIRS.
 
 
 
-
-
 Notes to students:
 - HTML is given (`starter_code/index.html`)
 - Before you start, have a quick look at the whole final result

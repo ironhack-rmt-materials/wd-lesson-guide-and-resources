@@ -34,7 +34,7 @@ Initial code:
 
 <!--
 
-- Example layout:
+- Example website layout:
   https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8d374c1e-228a-47e8-be5b-10fa1f4d40c8/mrh-css-grid-fig-01-large-opt.png
 
 - Old website:
@@ -49,6 +49,8 @@ Initial code:
   - flexbox
   - grid.
 
+  <!-- @todo: create image (ex. https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/consequences-of-evolution-631.jpg) -->
+
 
 - CSS support: https://caniuse.com
 
@@ -62,6 +64,8 @@ Initial code:
 
 
 - Disclaimer (flexbox): we're going to see a lot of properties and concepts 
+
+
 
 
 ## The 2 axes of flexbox
@@ -101,6 +105,12 @@ How:
 - We can also see/change in chrome dev tools
 
 
+
+
+
+<!-- @todo: create an exercise to practice just rules on flex container -->
+
+
 Links:
 
 - CSS Tricks' guide: 
@@ -116,27 +126,48 @@ Links:
   <!-- @Luis: remember to fooooooork !!  -->
   
 
-<!--
+- Properties for the Parent (flex container)
+  - `display`
+  - `flex-direction`
+  - `flex-wrap`
+  - (skip) `flex-flow` (shorthand)
+  - `justify-content`
+  - `align-items`
+  - (skip) `align-content`
+  - (skip) `gap, row-gap, column-gap`
 
-.pizza {
-  display: flex;
-  justify-content: end;
-}
 
-https://img.ifunny.co/images/3257a1c9654c350aacc2d56069cc6d4a881349e0638dd27cd76fb1a082cb18f7_1.jpg
+- Intro "Joshw Comeau - Interactive Guide"
 
--->
+- (break)
 
 
-## Practice: FlexBox
+- Properties for the Children (flex items)
+  - `order`
+  - `flex-basis` 
+    <!-- @Luis: explain flex-basis before grow & shrink -->
+    - This defines the default size of an element before the remaining space is distributed
+  - `flex-grow`
+  - `flex-shrink`
+    - This defines the ability for a flex item to shrink if necessary.
+  - `flex` (shorthand)
+    `- flex: <'flex-grow'> <'flex-shrink'> <'flex-basis'>`
+  - `align-self`
 
-Responsive Navigation Menu:
+
+## Practice: Responsive Navigation Menu (Media Queries + FlexBox)
+
+Task:
   - Replicate this layout (note, it is responsive): https://codepen.io/team/css-tricks/full/YqaKYR
-  - Note to students: 
-    - focus on the distrubution of the elements (main goal is to practice flexbox; do not worry about details of the design, colors etc)
-    - to simplify: we can target mobile + desktop only (1 breakpoint)
-  - Time: 20-30min.
-  - Solution (mobile first): https://codepen.io/luisjunco/pen/gOdPERa
+  
+Notes:
+  - focus on the distrubution of the elements (main goal is to practice flexbox; do not worry about details of the design, colors etc)
+  - to simplify: we can target mobile + desktop only (1 breakpoint)
+
+Time: 25min.
+
+Solution (mobile first): https://codepen.io/luisjunco/pen/gOdPERa
+
 
 
 Bonus:

@@ -26,24 +26,22 @@
 
 - Syntax:
 
-    ```
+    ```html
     <link rel="stylesheet" media="(media-features)" href="styles.css" />
     ```
 
-    ```
+    ```css
     @media [(media-features) ] {
     // Styles
     }
     ```
 
 
-- Explain Concept of "breakpoint" (see on dev tools)
-  - Common breakpoints (ex. bootstrap)
-
-
 - Show live example: https://codepen.io/ironhack/pen/ozZbmP
 
-    ```
+  <!-- @Luis: show example on the code from yesterday -->
+
+    ```css
     @media (min-width: 1000px) {
     .responsive-div {
         background-color: blue;
@@ -52,9 +50,14 @@
     ```
 
 
+- Explain Concept of "breakpoint" (see on dev tools)
+  - Common breakpoints (ex. bootstrap)
+
+
+
 - Multiple conditions:
 
-    ```
+    ```css
     @media (min-width: 650px) and (max-width: 999px) {
     .responsive-div {
         background-color: green;
@@ -68,7 +71,8 @@
     - media queries for bigger screen later in the code
 
 
-## Exercise: Responsive layout (2 boxes, mobile first)
+
+## Practice: Responsive layout (2 boxes, mobile first)
 
 Before we start, 
 - see the initial code
@@ -83,7 +87,8 @@ Instructions:
 - Initial code: https://codepen.io/luisjunco/pen/yLvZYLO
 - Task: when screen is bigger than 600px, display the boxes in a row & change background color
 - Expected result (demo): https://codepen.io/luisjunco/full/yLzwodK
-- Bonus: add multiple breakpoints
+- Bonus 1: add multiple breakpoints
+- Bonus 2: explore other things (ex. rounded corners, shadows, etc)
 
 - Time: 10-15m
 
@@ -101,13 +106,13 @@ Solution: https://codepen.io/luisjunco/pen/yLzwodK
 > A typical mobile-optimized site contains something like the following:
 
 
-    ```
+    ```html
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     ```
 
 
 
-## Responsive Font Size (bonus)
+## (skip) Responsive Font Size
 
 - Intro A. Recommendations from usability experts:
   - font-size of at least 16px

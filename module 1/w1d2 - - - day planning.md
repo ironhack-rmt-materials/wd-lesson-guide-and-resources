@@ -1,9 +1,19 @@
 
 # w1d2
 
+
+<!-- 
+
+@Luis: share lab planning with students (which labs are in pairs etc)
+
+-->
+
+
 - Questions from yesterday? (20min.)
 
 - Bootcamp Intro (part 2) (20min.)
+
+- (optional) refresh css selectors (10min.)
 
 - CSS Advanced Selectors (skip or very brief)
 
@@ -15,7 +25,4 @@
 - CSS Positioning
 
 - LAB Collaboration Demo (30m)
-
-
-
 
