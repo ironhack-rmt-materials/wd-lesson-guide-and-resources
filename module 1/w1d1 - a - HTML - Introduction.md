@@ -23,17 +23,33 @@ Steps to follow:
   - Demo on Codepen/Stackblitz
   - Demo on VS Code
 
-- Steps:
+
+Codealong:
+- demo (github pages): https://ironhack-rmt-materials.github.io/html-css-intro-codealong/
+- repo: https://github.com/ironhack-rmt-materials/html-css-intro-codealong
+
+
+
+# Inital Setup
+
   - Open a new VS Code Window
+
   - Open the terminal (View > Terminal)
-  - IMPORTANT: if you use Windows, make sure you're not using Poweshell (you can use "Git Bash" instead)
+
+  - IMPORTANT: if you use Windows, make sure you're not using Poweshell (you can use `Git Bash` instead)
+
   - Navigavigate to the directory where you will work.
     - `cd xxx`
     - `cd ..`
-  - (Optional) if you don't have it, create a directry for ironhack: ex. `mkdir ironhack` + enter into that directory `cd ironhack`
+
+  - create a directry for ironhack (if you don't have it yet): ex. `mkdir ironhack` + enter into that directory `cd ironhack`
+
   - Create a directory for module 1: `mkdir module1` + enter into that directory `cd module1`
+
   - Create a directory for this exercise: `mkdir html-intro` + enter into that directory `cd html-intro`
+
   - Create file: `touch index.html`
+
   - Open with VS Code: `code .`
 
 
@@ -50,18 +66,20 @@ Steps to follow:
   - (from the place where it explains "DOCTYPE Indicates that the markup language for your document content is HTML5.")
 
 
+
 - HTML structure (DOCTYPE etc)
   - note: use emmet abreviation `!`
 - Create an h1
 - Install "Live server" extension + open in browser
-- HTML DOM tree (See it in the dev tools)
-- Block vs. inline
+- IMPORTANT: Block vs. inline
   - ex. div vs. span
 - Examples of block elements (see students portal: "HTML Block-level elements cheat sheet")
 - Examples of inline elements (see students portal: "HTML Inline elements cheat sheet")
 - Semantics 
   - ex. difference section vs. div
 - Self-closing tags (ex. hr)
+- HTML DOM tree (See it in the dev tools)
+  - DOM tree Diagram: https://i.imgur.com/m08deQC.png
 
 
 - IMPORTANT:
