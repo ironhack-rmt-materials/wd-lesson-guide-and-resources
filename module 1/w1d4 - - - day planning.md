@@ -3,21 +3,20 @@
 
 
 
-<!-- Status: OUTDATED (need to update following Mercury) -->
+<!-- Status: ready -->
 
 
 
 
-## Refresh: JS Intro
+## Refresh: JS Intro & Data Types
 
-Refresh Exercise: 
-  - https://stackblitz.com/edit/ih-w1d2-refresh?file=index.js
-    - first-class functions
-    - data types
-    - typeof
-  - Time: (20min. in pairs) OR (20min. in main room)
+<!-- typeof, data types, first-class functions... -->
 
-  - Solution: https://stackblitz.com/edit/ih-w1d2-refresh-cruswp?file=index.js
+- Instructions: https://stackblitz.com/edit/ih-w1d2-refresh-zzgfcl?file=index.js
+
+- Time: (20min. in pairs) OR (20min. in main room)
+
+- Solution: https://stackblitz.com/edit/ih-w1d2-refresh-chkkkv?file=index.js
 
 
 

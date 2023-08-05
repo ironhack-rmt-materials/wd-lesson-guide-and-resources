@@ -6,7 +6,6 @@
 
 Status: draft
 
-
 --->
 
 
@@ -28,6 +27,8 @@ Before git topics:
 
 Topics:
 - what is git & why it is useful.
+  - keep track of changes
+  - share code with other developers & integrate changes
 - initialize a repo: `git init`
 - create a file: `touch index.html`
 - create a file: `touch about.html`
@@ -37,6 +38,7 @@ Topics:
 - (optional) unstage: `git rm --cached <file-name-1>`
 - make a commit: `git commit -m "msg"`
 - see history: `git log`
+- Git vs. Github
 - Github: upload an existing repository
   - create a repo on github
   - push the repo we've created

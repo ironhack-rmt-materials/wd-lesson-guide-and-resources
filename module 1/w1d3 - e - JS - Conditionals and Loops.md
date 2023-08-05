@@ -12,30 +12,77 @@ FizzBuzz:
   - time: 20-25m + solve together
   - https://stackblitz.com/edit/js-fizbuzz-exercise-p4hr4j?file=index.js
 
+  - Solution: https://stackblitz.com/edit/js-fhyx8t?file=index.js
+
+
+<!-- 
+
+may 2023:
+- FizzBuzz is in prework but not in module zero
+
+-->
 
 
 ## Notes
 
 
-- if…else
-- switch
-- do…while
-- for
-- for…of
-- break
+- if…else +++
+- if…else if…else  ++
+- nested if…else +
+- switch (skip)
 - while
+- do…while
+- for ++
+- for…of +
+- break
+- continue
+- (extra) ternary operator
+
+
+## Switch
+
+SKIP (tell students that are not familiar with it to go through it self-guided)
+
+
+
+```js
+switch (expression) {
+  case value1:
+    // executed code when the expression === value1
+    break;
+  case value2:
+    //...
+    break;
+  case value3:
+    //...
+    break;
+  default:
+  // executed code when none of the values match the expression
+}
+```
 
 
 
 ## for...of
 
 ```js
-const someIterable = 'amsterdam';
+const someIterable = 'hello world';
  
 for (const value of someIterable) {
   console.log(value);
 }
 ```
+
+
+## break
+
+> The break statement exits a switch statement or a loop (for, for … in, while, do … while).
+
+
+# continue
+
+> The continue statement breaks one iteration (in the loop) if a specified condition occurs, and continues with the next iteration in the loop.
+
 
 
 

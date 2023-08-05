@@ -18,20 +18,28 @@
 
 
 Morning:
-- Questions from lab (30m.)
-- introduce callback & anonymous functions (do example with forEach) (30min.)
-- (extra) introduce setTimeout/setInterval (30min.)
-- OOP: intro + oop with plain objects
-- OOP: ES6 Classes + CFU
-- OOP: OOP Bakery exercise (30min.)
-
+- Questions from lab [30min.]
+- Bootcamp Intro V [5min.]
+- introduce callback & anonymous functions (do example with forEach) [30min.]
+- (extra) introduce setTimeout/setInterval [30min.]
+- OOP: intro + oop with plain objects [30min.]
+- OOP: ES6 Classes + Exercise I [1.5h]
+- OOP: OOP Bakery exercise [30min.]
 
 
 Afternoon:
 
-- Retrospective
+- Retrospective [1h]
 
-- Icebreakers
+- OOP Concepts [1h]
+  - OOP principles
+  - inheritance
+  - super
+
+- LAB kick-off (+ open assessment)
+
+- Icebreakers (optional)
+  <!-- Gatheround Template: "totally random" // "Week One Icebreakers" -->
 
 - Weekend!! 
   - https://www.icegif.com/wp-content/uploads/weekend-icegif-1.gif

@@ -2,7 +2,8 @@
 
 
 <!--- 
-Status: draft
+
+Status: ready
 
 -->
 
@@ -43,7 +44,7 @@ const day = "friday"
 const isHungry = true;
 
 
-if(day==="friday" && isHungry){
+if(day==="friday" && isHungry === true){
     console.log("pizza please");
 } else {
     console.log("salad please");
@@ -76,9 +77,20 @@ Table with logical operators:
 
 ## An undefined as data type
 
+```js
+    let amount;
+    console.log(amount); // <== undefined
+```
+
 
 ## A null as data type
 
+> In computer science, a null value represents a reference that points, generally intentionally, to a nonexistent address in memory
+
+```js
+    let amount = null;
+    console.log(amount); // <== null
+```
 
 
 ## Truthy and falsy values
@@ -98,7 +110,7 @@ Truthy:
 ## Exercise
 
 Practice: Truthy or Falsy + Logical Operators
-- Instructions: https://stackblitz.com/edit/js-wco8d2?file=index.js
+- Instructions: https://stackblitz.com/edit/js-4kzkn3?file=index.js
 - Time: 10min.
 
 

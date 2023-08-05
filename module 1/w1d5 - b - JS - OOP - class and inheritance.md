@@ -4,6 +4,7 @@
 <!-- 
   status: draft 
   to-do: improve example
+  to-do: create slides (oop principles)
 -->
 
 
@@ -26,7 +27,8 @@
 
     - "Dog" extends "Animal"
       - property `name`
-      - method `sayHello` (dogs say hello in a different way)
+      - method `bark()`
+      - method `sayHello()` (dogs say hello in a different way)
 
     - example: https://stackblitz.com/edit/js-jeyw5h?file=index.js
 
@@ -44,7 +46,31 @@
     - functionality to `move` (dicreases energy)
     - functionality to `eat` (increases energy)
 
-    <!-- @todo: improve this example -->
+    <!-- 
+    
+    @todo: 
+    - improve this example 
+    - prepare quick exercise with inheritance
+    
+    -->
+
+
+
+- (Extra) further examples with inheritance & super:
+  - Video: JavaScript super keyword 🦸‍♂️ (Bro Code, 7min.)
+    https://www.youtube.com/watch?v=khuDeNwXkfI
+
+    <!-- 
+    
+    Person
+    - Student
+    - Teacher
+
+    Includes:
+    - super();
+    - super.hello();
+    
+     -->
 
 
 - OOP principles:

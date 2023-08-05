@@ -4,14 +4,22 @@
 
 <!--- 
 
-Status: JUST SOME NOTES
+Status: draft 
 
-@todo: make summary of topics
+@todo: 
+- improve notes & examples
+- add mini-exercise
 
 -->
 
 
+## Intro
 
+<!-- Skip or make some brief slides. -->
+
+- ECMAScript & versions
+
+-  JS version history: https://cdn-media-1.freecodecamp.org/images/uBY4n5MuFWvc81VWSWVk2wc1ZYQ4MF1RM39A
 
 ## Comments
 
@@ -34,12 +42,40 @@ Status: JUST SOME NOTES
 
 
 
+## Changing values
+
+```js
+  let userName = 'alice'; //declare + initialize
+  userName = 'bob'; //reassign
+  console.log(userName);
+```
+
+
+## Type Conversion
+
+> You can reassign values and change the data type of variables in JavaScript.
+
+
+```js
+  let amount = 10;
+  amount = 'eleven';
+  console.log(amount);
+```
+
+
+## Type
+
+- data types
+- operator typeof
+
+
+
 ## Scope
 
 
 ```js
 
-// Scope = where in the code we can access a variable
+// Scope === where in the code we can access a variable
 //
 // - children have access to parent's scope
 // - parent do not have access to child's scope
@@ -61,16 +97,10 @@ Scope Differences:
 - let, const: global/block scope
 
 
-Video:
+(Extra) Video:
 - let vs. var vs. const - Mosh (7m): 
   https://www.youtube.com/watch?v=XgSjoHgy3Rk
 
-
-
-## Type
-
-- data types
-- operator typeof
 
 
 
@@ -88,6 +118,7 @@ const sayHello = function () {
 
 sayHello();
 ```
+
 
 
 ```js

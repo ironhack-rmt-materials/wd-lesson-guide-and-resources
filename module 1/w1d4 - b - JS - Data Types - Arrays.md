@@ -56,7 +56,7 @@ Status: ready
 
 
 
-- Removing / Modifiying elements in the middle of the array: `.splice()`
+- Add / Remove / Modify elements in the middle of the array: `.splice()`
   <!-- @LT: briefly -->
 
   ```js
@@ -69,9 +69,14 @@ Status: ready
 
 
 
-- (Demo) Iterate through arrays:
-  - for loop
-  - forEach ++++++
+Iterate through arrays:
+
+- for loop
+  - demo (ask a student to help me)
+  - note: some students still struggle with this, go slowly
+
+- forEach ++++++
+  - `const menu = ["pizza", "salad", "pasta", "falafel"]`
 
 
 Practice: forEach
@@ -81,10 +86,22 @@ Practice: forEach
 - Solution: https://stackblitz.com/edit/js-grgtur?file=index.js
 
 
+  <!-- @todo: create cheatsheet forEach() -->
 
 
-- String `.split()` (briefly)
+
+
+## (skip) String `.split()`
   
+  <!-- 
+  
+    @LT: skip or very brief
+  
+    (they don't need it for today's lab)
+
+  -->
+
+
   > The split method allows us to separate a string into pieces and will return all the pieces as elements of a new array.
 
   - Syntax: `.split(separator)`

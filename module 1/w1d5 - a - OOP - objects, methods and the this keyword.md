@@ -4,7 +4,7 @@
 
 <!--
 
-Status: complete
+Status: ready
 
 -->
 
@@ -19,7 +19,8 @@ Status: complete
     ```js
     const user = {
       userName: "Alice",
-      age: 30
+      age: 30,
+      languages: ["english", "french"]
     }
     ```
 
@@ -31,7 +32,7 @@ Status: complete
 
   - Can I save a function inside an object? Yes.
 
-    ```javascript
+    ```js
       const user = {
         sayHello: function() {
             console.log('hello');
@@ -85,7 +86,7 @@ Status: complete
   - create a class and add a method
   - create a new "instance" of this class
 
-    ```javascript
+    ```js
     class User {
       sayHello() {
         console.log('hello');
@@ -109,6 +110,8 @@ Status: complete
 
 
 - Constructor & `this`
+
+  <!-- @Luis: do not add "age" (we will do it in an exercise)  -->
 
 
     ```js
@@ -138,69 +141,68 @@ Status: complete
 
 
 
-## Quick CFU: storing properties & the keyword `this`
+## Practice: OOP - properties & the keyword `this`
 
 
-  Initial Code: https://stackblitz.com/edit/js-tjmjh1?file=index.js
+Initial Code: https://stackblitz.com/edit/js-tjmjh1?file=index.js
 
-  - 1. Add functionality for "age"
-    - store the age of the user
-    - when the user says hello, display: `hello, my name is xxx and I am xxx years old`
+1. Add functionality for "age"
+  - store the age of the user
+  - when the user says hello, display: `hello, my name is xxx and I am xxx years old`
 
-  -  2. (bonus) Add a method getOlder()
-    - when called, this method would increase age by one.
+2. (bonus) Add a method getOlder()
+  - when called, this method would increase age by one.
 
-  -  3. (bonus) Everytime the user gets older, call sayHello
+3. (bonus) Everytime the user gets older, call sayHello
 
-  - Solution: https://stackblitz.com/edit/js-yzcuvt?file=index.js
+Solution: https://stackblitz.com/edit/js-yzcuvt?file=index.js
 
-  - How: Individual.
-  - Time: 10min + 5min (compare the solution with your own & read notes). 
+- How: Individual.
 
-
-
-
-  - Disclaimer: storing age vs. birthdate (it is a good time to introduce JS dates)
-    - create a date object
-
-      ```js 
-      const now = new Date();
-      console.log(now);
-      ```
+- Time: 10min + 5min (compare the solution with your own & read notes). 
 
 
-    - create a date object with a specific date
-
-      ```js
-      const birthDate = new Date('1984-06-14');
-      console.log(birthDate);
-
-      ```
 
 
-    - date methods. Ex: 
-      
-      ```js
-      const birthDate = new Date('1984-06-14');
+- Disclaimer: storing age vs. birthdate (it is a good time to introduce JS dates)
+  - create a date object
 
-      const monthIndex = birthDate.getMonth();
-      const monthName = birthDate.toLocaleString('default', { month: 'long' });
+    ```js 
+    const now = new Date();
+    console.log(now);
+    ```
 
-      console.log(monthIndex);
-      console.log(monthName);
 
-      ```
+  - create a date object with a specific date
 
+    ```js
+    const birthDate = new Date('1984-06-14');
+    console.log(birthDate);
+
+    ```
+
+
+  - date methods. Ex: 
     
-    - MDN:
-      - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
+    ```js
+    const birthDate = new Date('1984-06-14');
+
+    const monthIndex = birthDate.getMonth();
+    const monthName = birthDate.toLocaleString('default', { month: 'long' });
+
+    console.log(monthIndex);
+    console.log(monthName);
+
+    ```
+
+  
+  - MDN:
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
 
 
 
 
-## CFU: Bakery
-
-Practice ES6 Classes:
+## Practice: ES6 Classes (OOP Bakery)
 
 - Iteration 1: create a Bakery class with the following information and functionality:
   - property "brandName", which needs to be the same one for all our bakeries (ie. for all instances of the Bakery class)

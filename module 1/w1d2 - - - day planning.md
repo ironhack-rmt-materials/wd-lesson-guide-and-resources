@@ -9,7 +9,7 @@
 -->
 
 
-- Questions from yesterday? (20min.)
+- Questions yesterday's LAB? (20min.)
 
 - Bootcamp Intro (part 2) (20min.)
 

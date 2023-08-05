@@ -8,16 +8,19 @@ Self-guided (25-40min.)
 -->
 
 
+Your task:
+- Go through the contents in the students portal: "JS | Numbers - Advanced Topics"
 
+Recommendation:
+- open an editor & type as you go.
 
-
-
+Time: 25min.
 
 Bonus:
 - create a function that generates a random number between 2 values
 - (you may need to do some research)
 
-ex. 
+- example: 
 
     ```js
 

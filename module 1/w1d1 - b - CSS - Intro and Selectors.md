@@ -15,15 +15,10 @@ Feedback from students:
 
 
 Sample code:
-- This is the code we ended up with in cohort sept2021: 
-  - "./module 1/code-samples/w1d3 - b - CSS - Intro and Selectors/"
+https://github.com/ByteWarriors-Ironhack-Feb-23/feb23-html-intro
+  
 
 -->
-
-
-## Intro
-
-- disable CSS
 
 
 
@@ -49,6 +44,7 @@ Sample code:
 
 
 
+
 ## Intro CSS Selectors (2 min.)
 - what are they
 
@@ -67,10 +63,6 @@ Sample code:
 
 - type selector: div, p, h1...
 
-- class: `class=""`
-    - CONVENTION: underscore-with-dashes (kebab-case)
-    - Can assign more than one class to an element (but do not add multiple times the class attribute: class="" class="") 
-
 
 - id: `id=""`
   - CONVENTION: underscore-with-dashes
@@ -78,11 +70,17 @@ Sample code:
   - Each element can have only one ID
 
 
-- Universal selector
+- class: `class=""`
+    - CONVENTION: underscore-with-dashes (kebab-case)
+    - Can assign more than one class to an element (but do not add multiple times the class attribute: class="" class="") 
+
+
+- (skip) Universal selector
   - Warning: Be very careful when using the universal selector
 
 
 - Combine selectors (only mention it, we will go in detail later)
+  - example, descendant selector: `.course-summary img`
 
 
 
@@ -93,16 +91,12 @@ Sample code:
 
 Alternative: watch video together
 
-- CSS Specificity explained (13min) (Cascade + Specificity)
+- CSS Specificity explained - Kevin Powell (13min) (Cascade + Specificity)
 https://www.youtube.com/watch?v=c0kfcP_nD9E
 
 -->
 
 
-<!-- @todo: create cheatsheet / gist -->
-
-
-```discord
 
 • Cascade 
   • "the order of CSS rules matters; when two rules apply that have equal specificity, the one that comes last in the CSS is the one that will be used."
@@ -116,26 +110,28 @@ https://www.youtube.com/watch?v=c0kfcP_nD9E
 
 
 
-• Inheritance
+• (skip) Inheritance
   • Some CSS property values set on parent elements are inherited by their child elements (ex. `font-family`)
   • Some aren't (ex. `width`)
   • full list: https://stackoverflow.com/a/5612360/11298742
 
 
-• Further reading:
+• (skip) Further reading:
   • https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
 
 
-```
+
 
 Backup (Specifishity):
 - ![specifishity cheatsheet](./images/specifishity.png)
 
 
 
+<!-- @todo: create cheatsheet / gist -->
 
 
-## Colors (SKIP)
+
+## (skip) Colors
 
   - GREAT VIDEO (4 minutes, explains color names, hex, rgb, rgba): https://www.youtube.com/watch?v=HxztHgRN8I4
 

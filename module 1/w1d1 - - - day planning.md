@@ -47,7 +47,7 @@ IMPORTANT:
   <!-- 
   
   @Luis: 
-  - simplify this a lot (some students may find this overwhelming -especially the network panel)
+  - simplify this a lot (some students may find this overwhelming, especially the network panel)
   - alternative: show the dev tools while we do a codealong (code much more simple)
   
   -->
@@ -61,8 +61,14 @@ IMPORTANT:
 
   -->
 
+- Intro Students Portal
+  <!-- 
+    Notes: 
+    - We will use it as a guideline 
+    - You can find there interesting contents.
+  -->
 
-- html + css (follow specific unites --see .md files)
+- html + css (follow .md files)
   - HTML (project setup + html intro + shortcuts) [1h]
   - CSS [1.5h ?]
 

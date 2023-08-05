@@ -26,7 +26,9 @@ const price = 12.99; //decimal
 
 <!-- 
 
-@Luis: stackblitz doesn't work properly with NaN (UPDATE: seems to work now)
+@Luis: stackblitz doesn't work properly with NaN 
+
+(UPDATE: seems to work now)
 
 -->
 
@@ -47,14 +49,19 @@ Example:
 
 
   ```js
-  const cakes = 5;
-  const kids = 2;
+  const pizzas = 10;
+  const people = 3;
 
-  const remainder = 12 % 5;
+  const remainder = 10 % 3;
   // console.log(remainder);
   ```
 
+  <!-- 
 
+    Aug 2023 - Week Zero:
+    - includes "Check if number is even or odd" (in unit "JS | Data types: Numbers")
+    
+  -->
 
 
 Demo (together):
@@ -62,7 +69,11 @@ Demo (together):
 - if number is odd, display `x is odd`
 - if number is even, display `x is even`
 
+
   ```js
+
+  // for(initialization; condition; afterthought)
+
   for (let i = 1; i <= 12; i++) {
     // console.log(i);
     if (i % 2 === 0) {
@@ -97,9 +108,9 @@ Fizz-Buzz
 
 ## Assignment Operators
 
-Assignment: =	x = y
-Addition assignment: +=
-...
+- Assignment: =	x = y
+- Addition assignment: +=
+- (brief) Others: see students portal
 
 
 ## Expressions
@@ -107,7 +118,7 @@ Addition assignment: +=
 
 
 
-## Numbers:
+## Operator Precedence
 
 > Operator Precedence: `4 * ( 5 - 2 ) + (2 + 2 ** 3) - 24 / 2`
 
@@ -130,15 +141,10 @@ Creating a String
   const user3 = `charly`; // ES6
   ```
 
-
-Template literals:
-- multiple lines
-- interpolation
-
 Ex:
 
   ```js
-  const title = 'TLOTR';
+  const title = 'Harry Potter';
 
   //string concatenation (old way)
   const msg1 = 'my favourite book is ' + title + ' and i love it';
@@ -151,16 +157,23 @@ Ex:
 
 
 
+Template literals:
+- multiple lines
+- interpolation
+
+
+
 Some topics: 
 <!-- @todo: not comprehensive -->
 > find out length of a string (str.length)
 > concatenate 2 strings 
 > get character at position N
 > check if string contains a substring (indexOf() / includes() )
-> get a substring of a string
 
 
   ```js
+  const message = `My favourite book is Harry Potter and I love it`;
+
   console.log(msg2);
   console.log(msg2.length);
   console.log(msg2.charAt(1));
@@ -169,6 +182,9 @@ Some topics:
   console.log(msg2.indexOf('m')); //0
   console.log(msg2.indexOf('w')); //-1 --> character does not exist
   console.log(msg2.indexOf('favourite')); //3
+
+  const result = message.includes('f');
+  console.log(result);
   ```
 
 
@@ -180,6 +196,8 @@ Some topics:
   slice(beginIndex)
   slice(beginIndex, endIndex)
   ```
+
+  Note: character at `endIndex` not included
 
 
 Practice: strings & string methods: 

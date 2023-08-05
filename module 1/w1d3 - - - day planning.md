@@ -2,23 +2,23 @@
 # w1d3
 
 
-<!-- 
-
-Status: OUTDATED (need to update following Mercury)
+<!--
 
 @todo: improve notes/steps today
 
 -->
 
 
-# Morning 
+# Day Planning 
 
-
-- JS Intro (30m.)
+- Questions yesterday's LAB? (30min.)
+- JS Intro (1h)
 - JS Data Types - numbers and strings (1.5h)
 - JS Numbers - Advanced Topics [self-guided] (30m.)
 - JS Data Types in JavaScript - boolean, undefined & null (1h)
 - JS - Conditionals and Loops (30min. / 1h)
+
+- LAB | JavaScript Basic Algorithms
 
 
 <!--

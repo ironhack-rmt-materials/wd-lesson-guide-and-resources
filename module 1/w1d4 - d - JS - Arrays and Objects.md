@@ -7,7 +7,9 @@
 Status: draft
 
 
-Consider: this unit can be recorded (self-guided).
+Consider: 
+- this unit can be recorded (self-guided).
+- or, prepare a self-guided exercise with hints (can be done in pairs)
 
 -->
 
@@ -92,9 +94,7 @@ const company = {
 
 
 
-## Check for understanding
-
-Practice: nested data structures
+## (bonus) Practice: nested data structures
 
 - Instructions: https://stackblitz.com/edit/js-kca4fv?file=index.js
 - Time: 20min.

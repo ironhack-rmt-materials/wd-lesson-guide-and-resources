@@ -9,8 +9,6 @@ Status: draft
 
 
 
-
-
 ## Intro:
 
 - Array & Objects: 2 ways of organizing information (more on that in a moment: "Why we use objects")
@@ -22,7 +20,7 @@ Status: draft
 
 - example:
 
-  ```
+  ```js
   let user = {
     key1: value,
     key2: value,
@@ -51,7 +49,7 @@ Status: draft
 
   Example 1:
 
-  ```javascript  
+  ```js  
   const employees = ['alice', 'bob', 'charly'];
 
   const company = {
@@ -65,7 +63,7 @@ Status: draft
 
   Example 2:
 
-  ```javascript  
+  ```js  
   const userDetails = ['bob', 20, 'bogotá', false];
 
   const user = {
@@ -83,7 +81,7 @@ Status: draft
 
 - Object literal syntax
 
-    ```
+    ```js
     let someObject = {
         key1: value,
         key2: value,
@@ -123,24 +121,24 @@ Status: draft
 
 ## (skip) Remove properties (delete operator)
 
-    ```
+  ```js
 	delete olympicRecords.doubleOllie;	// dot
 	delete olympicRecords['doubleOllie'];	// bracket
-    ```
+  ```
 
 
 ## (skip) Check if a property exists (in operator)
 	
-    ```
-        let myCar = {
-            make: 'Honda',
-            model: 'Accord',
-            year: 1998
-        };
+  ```js
+      let myCar = {
+          make: 'Honda',
+          model: 'Accord',
+          year: 1998
+      };
 
-        'make' in myCar; // returns true
-        'model' in myCar; // returns true
-    ```
+      'make' in myCar; // returns true
+      'model' in myCar; // returns true
+  ```
         
 
 
@@ -151,13 +149,15 @@ ___
 
 
 
-## List properties
+## List properties: Object.keys() 
+
 - Object.keys(myObj) 
   - returns and array (we can then loop through the array etc)
 
 
-## List values
-- Object.values()
+## List values: Object.values
+
+- Object.values(myObj)
   - returns an array
 
 
@@ -194,22 +194,21 @@ ___
 
 
 
-## CHECK FOR UNDERSTANDING
+## Practice: JS Objects
 
-<!-- 
-GOAL: practice objects + get a nice name for our class ;)
--->
 
-Practice: JS Objects
 - Instructions: https://stackblitz.com/edit/js-5d6bhn?file=index.js
+
 - Time: 15min.
 
 
 <!--
-@Luis:
-- take the opportunity to choose a name for our class
--->
 
+Goals: 
+- practice objects
+- get a nice name for our class ;)
+
+-->
 
 
 
