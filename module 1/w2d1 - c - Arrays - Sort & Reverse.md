@@ -44,7 +44,7 @@ UPDATE: NOW WE HAVE DETAILED EXAMPLES OF .sort() IN THE FAQs
 
 - First example (numbers below 10):
 
-  ```
+  ```js
     const numbers = [4, 1, 2, 3];
     numbers.sort();
 
@@ -53,7 +53,7 @@ UPDATE: NOW WE HAVE DETAILED EXAMPLES OF .sort() IN THE FAQs
 
 - Second example (numbers above 9):
 
-  ```
+  ```js
   const numbers = [20, 1, 2, 3];
   numbers.sort();
   
@@ -68,14 +68,14 @@ UPDATE: NOW WE HAVE DETAILED EXAMPLES OF .sort() IN THE FAQs
 
 - Example:
 
-```
-const numbers = [5, 6, 10, 20, 3];
+  ```js
+  const numbers = [5, 6, 10, 20, 3];
 
-numbers.sort();
+  numbers.sort();
 
-console.log(numbers);
+  console.log(numbers);
 
-```
+  ```
 
 
 ### Sorting strings

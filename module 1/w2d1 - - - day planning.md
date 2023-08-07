@@ -13,6 +13,7 @@
 
 
  Planning:
+  - LAB Q&A (short)
   - JS functions [3h] -- `focus!!`
   - Arrays: map, reduce, filter [2h] -- `focus!!`
   - Arrays: sort and reverse -- self guided

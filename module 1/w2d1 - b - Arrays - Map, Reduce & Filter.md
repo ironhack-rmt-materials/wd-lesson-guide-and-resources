@@ -2,6 +2,12 @@
 
 <!-- 
 Status: draft
+
+@todo:
+- create cheatsheet +++
+- do some cleanup
+- some of the activities in pairs ?
+
 -->
 
 
@@ -11,36 +17,25 @@ Status: draft
     - https://pbs.twimg.com/media/EYWEL13XkAcHnxm?format=jpg&name=4096x4096
 
 
-  ```js
-  const baskets = [11, 14, 7, 12, 9, 12]; // regular (2 point) baskets in his last games with the bulls
-  ```
+  Refresh: arrays & forEach()
 
-  Task: 
-  - create an array with the points from regular baskets for each game.
-  - note: each basket is 2 points, so we need to multiply by 2.
-  - expected result:
-    - `const points = [22, 28, 14, 24, 18, 24];`
-
-
-  Options:
-  - Solve with for loop
-  - Solve with forEach
-    - Bonus: solve using different type of functions (anonymous, arrow...)
-
+  Instructions: https://stackblitz.com/edit/js-nmrwqu?file=index.js
 
   Time: 10min.
 
+  <!-- @Luis: 
+  
+  - give some HINTS before we start 
+  - declare an empty array + keep adding elements to that array -->
+
   Solution: https://stackblitz.com/edit/js-k66y7n?file=index.js
 
-  <!-- Hint: declare an empty array + keep adding elements to that array -->
+  
 
 
 
-## Important:
+## Notes:
 
-
-Slides (in progress):
-- https://docs.google.com/presentation/d/1fwO9zcU-xCZoS4EYz4GSMc-na5Ugy2ETTZ-rwQI7n1k/edit?usp=sharing
 
 
 .map(), .filter() and .reduce():
@@ -68,12 +63,25 @@ Slides (in progress):
     - very similar to .forEach()
 
 
-- Solve using .map()
+
+- Example: map() with an array of numbers
+  - Solve the intro exercise using .map().
+
+  ```js
+    const baskets = [11, 14, 7, 12, 9, 12]; // regular (2 point) baskets in his last games with the bulls
+
+    const newArray = baskets.map(function (amount) {
+      return amount * 2;
+    });
+
+    console.log(newArray);
+  ```
+
   - NOTE: .map() returns a new array but DOES NOT modify the original 
 
 
 
-- Example 2: map with an array of strings (transform names to uppercase)
+- Practice: map with an array of strings (transform names to uppercase)
   - Instructions: https://stackblitz.com/edit/js-dm5iu3?file=index.js
   - Time: 10min.
 
@@ -84,39 +92,20 @@ Slides (in progress):
 
 
 
-- Example 3: with objects.
+- Practice: map() with an array of objects (create an array with the names of all students).
 
-  ```js
-    const students = [
-      {
-        name: 'alice',
-        city: 'paris',
-      },
-      {
-        name: 'bob',
-        city: 'tokio',
-      },
-      {
-        name: 'charly',
-        city: 'berlin',
-      },
-    ];
-  ```
+  <!-- Note: they will need something similar in today's LAB (iteration 1) -->
 
-  
-  - TASK:
+  Instructions: https://stackblitz.com/edit/js-ylftrs?file=index.js
 
-  1. Create an array with the names of all students. Example: ["alice", "bob", "charly"]
-  2. (Bonus) Same as above but with all names in uppercase. Example: ["ALICE", "BOB", "CHARLY"]
+  Time: 10min. + solve together.
 
-  - solution: https://stackblitz.com/edit/js-9urdsg?file=index.js
-
-
-  Note: they will need something similar in today's LAB (iteration 1)
+  Solution: https://stackblitz.com/edit/js-9urdsg?file=index.js
 
 
 
-- Example 4: with objects (get an array with the points scored in each game).
+
+- Bonus: map() with an array of objects (create an array with the points scored in each game).
 
   - Instructions: https://stackblitz.com/edit/js-p3k5so?file=index.js
   - Solution: https://stackblitz.com/edit/js-ejcare?file=index.js
@@ -125,35 +114,6 @@ Slides (in progress):
 
 
 
----
----
-
-
-Even more exercises with .map()
-
-
-
-- Students portal I: 
-  > Given an array of cities, return an array with the first letter of each city’s name capitalized...
-
-- Students portal II: 
-  > Imagine you are a Math teacher ...
-
-
-- Exercise 3: Sales + average
-
-
-- Exercise 4 (with objects): 
-
-
-- Bonus: solve it with different kind of functions
-  - with an anonymous function
-  - with an anonymous arrow function
-  - with function that has been declared previously
-
-
----
----
 
 
 
@@ -210,6 +170,13 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
   });
   ```
 
+  <!--
+  Steps to follow:
+  - signature + add initial value 0
+  - console.log(currentValue)
+  - console.log(accumulator)
+  -->
+
   - accumulator is an accumulated value of each call
     - (IMPORTANT) In the first round, it’s assumed it’s the first value from the array unless we state differently (which we will see how).
 
@@ -243,13 +210,25 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
 
 
-- Example: reduce() with an array objects
+- Practice: reduce() with an array objects
 
   - Instructions: https://stackblitz.com/edit/js-aervwj?file=index.js
     - IMPORTANT: in this case we need to set an inital value.
   - Time: 15min.
 
   - Solution: https://stackblitz.com/edit/js-xufcpn?file=index.js
+  - Solution with bonus: https://stackblitz.com/edit/js-zb2mxv?file=index.js
+
+
+  <!--
+
+  TODAY'S LAB: 
+  
+  They'll need to pass extra tests:
+  - ex. what happens if a recipe does not have the property `calories`
+  - ex. returning the average in a specific format (rounded to 2 decimals)
+  
+  -->
 
 
 
@@ -276,15 +255,7 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
   Solution: https://stackblitz.com/edit/ih-reduce-method-explained-q3quwc?file=index.js
 
 
-  <!--
 
-  TODAY'S LAB: 
-  
-  They'll need to pass extra tests:
-  - ex. what happens if a recipe does not have the property `calories`
-  - ex. returning the average in a specific format (rounded to 2 decimals)
-  
-  -->
 
 
 
@@ -296,7 +267,7 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
 - Example 1:
 
-  ```javascript
+  ```js
   const cities = [
     'miami',
     'barcelona',
@@ -367,8 +338,13 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
   - https://gist.github.com/TA-Remote/505bb6969851737d76603143a6b45c55
 
 
+- LinkedIn article - Javascript​: Array methods cheatsheet
+  - https://www.linkedin.com/pulse/javascript-array-methods-cheatsheet-igor-gonchar/?trk=read_related_article-card_title
+  - https://media.licdn.com/dms/image/C5612AQE90tEudo8eUg/article-inline_image-shrink_1500_2232/0/1623137760585?e=1689206400&v=beta&t=UW_whrS3qHniCQtY8lXQhXOAnctNXd32IvXrDgB2m9c
 
 
+- Slides (in progress):
+  - https://docs.google.com/presentation/d/1fwO9zcU-xCZoS4EYz4GSMc-na5Ugy2ETTZ-rwQI7n1k/edit?usp=sharing
 
 
 

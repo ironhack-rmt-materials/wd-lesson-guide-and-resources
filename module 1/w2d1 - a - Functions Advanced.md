@@ -4,7 +4,13 @@
 
 
 <!--- 
-    Status: complete
+  Status: complete
+
+
+  Notes:
+  - some concepts could even be moved for tomorrow (ex. clearTimout, clearInterval...)
+  - arrow functions: can be explained after "function expressions"
+
 --->
 
 
@@ -93,7 +99,7 @@
 
 - Timeout
 
-  ```javascript
+  ```js
     setTimeout(function () {
       console.log('done!');
     }, 1000);
@@ -106,6 +112,7 @@
 - Clearing timeout / interval
   - clearTimeout()
   - clearInterval()
+    - demo: clear interval after 3 iterations (solve with a counter)
 
 
 
@@ -113,23 +120,27 @@
 Practice: timers and intervals
   1. Create an interval that displays a counter every second
     - in the console, display: "hello 1", "hello 2", "hello 3".....
+    - hint: you may want to create a counter in the parent scope (ex. `let counter = 1`)
   2. After 5 seconds, cancel that interval
   3. (Bonus) Apply what we've learned so far and Try to solve it in different ways.
+  4. (Bonus) Can you solve it without a setInterval? (hint: setTimeout + research "js recursive function")
 
   How: individual
-  Time: 15min.
+  Time: 20min.
 
   Solution 1 (with a timeout): 
   - https://stackblitz.com/edit/js-vhkxbm?file=index.js
   Solution 2 (checking the counter): 
   - https://stackblitz.com/edit/js-sjpn4f?file=index.js
+  Bonus 2 (recursion):
+  - https://stackblitz.com/edit/js-nbe32j?file=index.js
 
 
 Note: most students find it difficult, give them 15min. and solve together.
 
 
 
-## Callbacks
+## Callbacks I (intro)
 
 <!--
 @Luis: 
@@ -142,89 +153,9 @@ Note: most students find it difficult, give them 15min. and solve together.
   - example: `setTimeout()`
 
 
-- How else can be useful?
-
-Initial example:
-
-    ```javascript
-        function cookDinner() {
-            console.log('Preparing dinner...');
-            console.log('Dinner is ready');
-        }
-
-        function eatDinner() {
-            console.log('Eating dinner');
-        }
-
-        cookDinner();
-        eatDinner();
-    ```
-
-
-
-But... dinner takes time to be prepared....
-
-
-    ```javascript
-    function cookDinner() {
-        console.log('Preparing dinner...');
-        setTimeout(function() {
-            console.log('Dinner is ready');
-        }, 1000);
-    }
-
-    function eatDinner() {
-    console.log('Eating dinner');
-    }
-
-    cookDinner();
-    eatDinner();
-
-    ```
-
-
-
-So we can pass it a function to be executed at the end (once dinner is ready)...
-
-  ```javascript
-  function cookDinner(myCallback) {
-    console.log('Preparing dinner...');
-    setTimeout(function() {
-        console.log('Dinner is ready');
-        myCallback();
-    }, 1000);
-  }
-
-  function eatDinner() {
-    console.log('Eating dinner');
-  }
-
-  cookDinner(eatDinner); //notice: we don't have ()
-
-  ```
-
-
 - Usually, when we pass one function as an argument we refer to it as a `'callback'` 
 
-
-- IMPORTANT: 
-  - when you're passing a function as a callback, make sure not to use ()
-
-
-- When and why any function would be postponed/delayed in the real world?
-  - Interact with the UI
-  - Wait for some data from a database
-  - Wait for some data that we get from a different server
-  - ...
-
-
-
-- Practice: JS Callbacks
-
-  - Instructions: https://stackblitz.com/edit/js-graftg?file=index.js
-  - Time: 15min.
-
-  - Solution: https://stackblitz.com/edit/js-dzfqat?file=index.js
+- Note: tomorrow we'll see more examples of how this can be useful.
 
 
 
@@ -237,7 +168,7 @@ So we can pass it a function to be executed at the end (once dinner is ready)...
 
 - Example:
   - call setTimeout
-    - pass a function created with a function declaration / function expression
+    - create a function `sayHello` (declaration / function expression) & pass it as an argument
     - pass an anonymous function
 
 
@@ -267,9 +198,9 @@ So we can pass it a function to be executed at the end (once dinner is ready)...
 
 - Syntax:
   - when we can ommit parenthesys (only one arg)
-    - `one paramenter -> we can remove the parenthesys`
+    - `only one paramenter -> we can remove the parenthesys`
   - when we can ommit curly braces (only one line)
-    - `if the function directly returns an expression -> curly braces can only be omitted & the return will be implicit.`
+    - `only one line -> curly braces can removed & the return is implicit.`
 
 
 - "Traditional" vs "Arrow" functions
@@ -284,36 +215,64 @@ So we can pass it a function to be executed at the end (once dinner is ready)...
 
   - "Arrow function expressions should only be used for non-method functions because they do not have their own `this`"
 
+
+  ```js
+  const user = {
+    userName: 'alice',
+    age: 30,
+    sayHello: function () {
+      console.log(`hello my name is ${this.userName}`);
+    },
+    sayGoodbye: () => {
+      console.log(`goodbye my name is ${this.userName}`);
+    },
+  };
+
+  user.sayHello();
+  user.sayGoodbye();
+
+  ```
+
 - Arrow functions... "this" is the difference:
 ![this is the difference](./images/arrow-functions-this-is-the-difference.jpg)
 
+- f*** this:
+![cant-remember-what-this-refers-to.png](./images/cant-remember-what-this-refers-to.png)
 
 
-## Practice: different ways of creating functions (+ delays & callbacks) 
+
+## Practice: arrow function syntax
+
+Using "Arrow Functions syntax", create the following functions:
+
+1. A function sayHello():
+  - expects zero arguments.
+  - displays the message "hello world".
+
+2. A function offerDrink():
+  - expects one argument (a string with the name of a drink).
+  - displays the message "hello, would you like a XXX ?".
+
+3. A function calcAverage():
+  - expects 3 arguments (numbers).
+  - returns the average (note: it needs to RETURN the average)
 
 
-<!--
-
-Notes:
-- iteration 1 is great to practice (10min)
-- iteration 3 can be challenging for many students (10% completed after 20min)
-
-We will practice:
-- different ways to create functions
-  - function declaration
-  - function expression
-  - arrow function
-- anonymous functions
-- delays & callbacks
-
--->
-
-- Instructions: https://stackblitz.com/edit/js-aqnh5t?file=index.js
-- Time: 15-20min.
-
-- Solution: https://stackblitz.com/edit/js-dmxv6n?file=index.js
+Bonus: a function displayCurrentDate() (may need to do some research)
 
 
+Time: 10min.
+
+
+Solution: https://stackblitz.com/edit/js-gkzf8e?file=index.js
+
+
+
+# Different ways of creating functions 
+
+Summary: function declaration (statement) vs. function expression vs. arrow function
+
+https://stackblitz.com/edit/js-evfgcy?file=index.js
 
 
 
@@ -327,16 +286,16 @@ We will practice:
 
 
 Example:
-```
-    function printSomething() {
-        console.log(arguments);
-    }
+  ```js
+      function printSomething() {
+          console.log(arguments);
+      }
 
-    printSomething('hi');
+      printSomething('hi');
 
-    // [Arguments] { '0': 'hello' }
+      // [Arguments] { '0': 'hello' }
 
-```
+  ```
 
 - It is a special kind of object called `array-like object`
 
@@ -346,7 +305,7 @@ Example:
 
   - One option is to convert it to an array. For example:
 
-    ```
+    ```js
     function printSomething() {
         const args = Array.from(arguments);
         console.log(args);

@@ -2,13 +2,6 @@
 
 # LAB - Greatest movies of all time
 
-<!--
-
-How:
-- consider doing it in pairs 
-(update feb.2023: let's do it individual)
-
--->
 
 
 Notes: 
