@@ -9,8 +9,13 @@ Notes:
 - we've introduced setTimeout() on w2d1, now we just need a few notes so that they can refresh and start the LAB
 
 
+@todo:
+- improve intro to synchronous vs. asynchronous code
+- to do some cleanup & improve structure
 
 --->
+
+
 
 ## Synchronicity vs. Asynchronicity
 
@@ -28,7 +33,7 @@ Asynchronous way:
 - then organize the room
 - food is here
 
-
+<!-- @Luis: improve this example -->
 
 
 ## Asynchronous Programming
@@ -42,7 +47,7 @@ Asynchronous way:
 
     setTimeout(function () {
         console.log("dinner's ready!!");
-    }, 3000);
+    }, 2000);
 
     for (let i = 1; i <= 5; i++) {
         console.log('washing dishes....' + i);
@@ -91,6 +96,12 @@ Asynchronous way:
 
 
 
+
+Synchronous: blocks code (ie. a line of code is not executed until previous one is completed)
+Asynchronous: non-blocking
+
+
+
 ## JavaScript and (a)synchronicity
 
 - "JavaScript is not an asynchronous language, but synchronous one with some asynchronous behaviors."
@@ -101,16 +112,121 @@ JavaScript is:
 
 
 
+
+## Callbacks II (further examples)
+
+
+- Callback = when we pass a function as an argument to another function
+  - example: `forEach()`
+  - example: `setTimeout()`
+
+
+- How else can be useful?
+
+
+Initial example:
+
+    ```js
+        function cookDinner() {
+            console.log('Preparing dinner...');
+            console.log('Dinner is ready');
+        }
+
+        function eatDinner() {
+            console.log('Eating dinner');
+        }
+
+        cookDinner();
+        eatDinner();
+    ```
+
+
+
+But... dinner takes time to be prepared....
+
+
+    ```js
+    function cookDinner() {
+        console.log('Preparing dinner...');
+        setTimeout(function() {
+            console.log('Dinner is ready');
+        }, 1000);
+    }
+
+    function eatDinner() {
+    console.log('Eating dinner');
+    }
+
+    cookDinner();
+    eatDinner();
+
+    ```
+
+Options?
+- add a delay in `eatDinner()`
+  - problem: we need to know how much it takes to cook
+- call `eatDinner()` from `cookDinner()`, once dinner is ready,
+  - problem: cookDinner needs to know what to do once dinner is ready.
+
+
+So we can pass it a function to be executed at the end (once dinner is ready)...
+
+  ```js
+  function cookDinner(myCallback) {
+    console.log('Preparing dinner...');
+    setTimeout(function() {
+        console.log('Dinner is ready');
+        myCallback();
+    }, 1000);
+  }
+
+  function eatDinner() {
+    console.log('Eating dinner');
+  }
+
+  cookDinner(eatDinner); //notice: we don't have ()
+
+  ```
+
+
+
+- IMPORTANT: 
+  - when you're passing a function as a callback, make sure not to use ()
+
+
+- When and why any function would be postponed/delayed in the real world?
+  - Interact with the UI
+  - Wait for some data from a database
+  - Wait for some data that we get from a different server
+  - ...
+
+
+
+Practice: JS Callbacks
+
+- Instructions: https://stackblitz.com/edit/js-graftg?file=index.js
+- Time: 15min.
+
+- Solution: https://stackblitz.com/edit/js-dzfqat?file=index.js
+
+
+
+- (Extra) how to pass arguments
+
+    ```js
+    cookDinner(function(){ eatDinner("wine") });
+    ```
+
+
+
+
 ## Refresh 
 
-Concepts:
-- "callback"
+IMPORTANT: refresh some topics for today's lab (JS Chronometer):
+
 - setTimeout + clearTimeout
 - setInterval + clearInterval
 
-
-
-IMPORTANT: refresh some topics for today's lab (JS Chronometer):
 - OOP 
   - refresh constructor
   - refresh properties (store any info that we need to access from different methods)

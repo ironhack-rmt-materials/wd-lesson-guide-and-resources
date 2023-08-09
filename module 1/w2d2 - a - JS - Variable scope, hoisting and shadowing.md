@@ -1,15 +1,12 @@
 
 # JS - Variable scope, hoisting and shadowing
 
+
 <!--- 
 
-Status: ready 
+Status: ready
 
-Consider: 
-- simplify (eg. skip hoisting)
-
-To do:
-- improve quick exercises to practice scope.
+Consider: including closures.
 
 --->
 
@@ -18,7 +15,7 @@ To do:
 ## Scope
 
 
-- Scope = the region of the program where a particular variable is accessible
+- Scope === the region of the program where a particular variable is accessible
 
 
 
@@ -149,8 +146,8 @@ Example 2 (ask students):
     }
 
     sayHello();
-    console.log("a..." + a); // => 4
-    console.log("b..." + b); // => 2
+    console.log("a..." + a);
+    console.log("b..." + b);
   ```
 
 
@@ -269,12 +266,11 @@ Q: what is the output?
   console.log('final: ', count);
   ```
 
+  - Also: show using `var` (instead of `let`)
 
 
 
-<!-- advanced qustions (skip) -->
-
-Q:  what is the output of the following code ?
+Q: (SKIP)  what is the output of the following code ?
 
   ```js
     for(var counter = 0; counter< 5; counter++){
@@ -286,7 +282,7 @@ Q:  what is the output of the following code ?
 A:  5 (x5 times)
 
 
-Q: Can you make the output of the above question as sequential like 0,1,2,3,4 instead of 5 (5 times)?
+Q: (SKIP) Can you make the output of the above question as sequential like 0,1,2,3,4 instead of 5 (5 times)?
 
 
 

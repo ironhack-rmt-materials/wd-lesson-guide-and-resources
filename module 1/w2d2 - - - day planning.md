@@ -22,14 +22,14 @@
 
 
 
-
 ## Day Planning
 
-- Questions from LAB (30m.)
-- Refresh (20m.)
-- Variable scope, hoisting and shadowing
-- Value vs. Reference and Mutable Data Types
-- Async and Callbacks
+- Questions from LAB [30m.]
+  - consider: solve together it.4 + it.5
+- Refresh [20m.]
+- Variable scope, hoisting and shadowing [1h]
+- Value vs. Reference and Mutable Data Types [1.5h]
+- Async and Callbacks  [1h?]
 
 
 

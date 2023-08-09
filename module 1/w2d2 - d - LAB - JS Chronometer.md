@@ -24,7 +24,14 @@ constructor:
 
 IMPORTANT:
 
-- expects a callback (`printTimeCallback`)
+- expects a callback (`printTimeCallback`). They'll need to check if it's provided: 
+
+  ```js
+    if(printTimeCallback){
+      //...
+    }
+  ```
+
 
 - every second (`setInterval`), we need to:
   - increases counter
