@@ -1,7 +1,13 @@
 
+
 # JS - Value vs. Reference and Mutable Data Types
 
 
+<!-- 
+
+Status: ready
+
+-->
 
 
 - Intro: mutating arrays
@@ -29,7 +35,6 @@
 
 
 
-
 - Why it happens
 
   - Primitive data types are stored (and copied) by value
@@ -42,10 +47,6 @@
 
 
 
-
-
-
-
   - Example 3 (comparing variables):
 
     ```js
@@ -54,7 +55,7 @@
 
       if(name1 === name2){
         console.log("same string");
-      }  else {
+      } else {
         console.log("different string");
       }
 
@@ -100,9 +101,6 @@
 
     > since both objects or arrays are pointing to the same address in the memory (have the same reference), changes in one will cause the same changes in the other one as well.
 
-    - visual explanation (fill cup): 
-      - https://res.cloudinary.com/practicaldev/image/fetch/s--CHOh2r59--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/00irkh2jsmre37ngzdgt.gif
-
 
 
 -  IMPORTANT: all this examples are with arrays but the same applies to objects.
@@ -127,26 +125,41 @@
 - Explain: Shallow vs. deep copy
 
 
+  ```js
+  // Shallow copy
+  //  --> we copy the top-level by value
+  //  --> but, if we have nested levels, they're still copied by reference
 
-<!-- Note: different options to clone arrays/objects can be self guided -->
+  // Deep copy --> we copy all levels by value (including nested levels)
+  ```
 
 
-## How to clone an object
 
-  - Deep Copy: `JSON.parse(JSON.stringify( myObject ))`
+## How to clone arrays/objects
 
-  - Note: there's many other ways. Ex.:
+Summary & examples: https://stackblitz.com/edit/js-tdtwkb?file=index.js
+
+
+### How to clone an array
+
+- Shallow copy: `const ironhackers = [...students];`
+- Deep copy 1: `JSON.parse(JSON.stringify())`
+- Deep copy 2: `const copy = structuredClone(original);`
+
+
+### How to clone an object
+
+  - Deep Copy 1: `JSON.parse(JSON.stringify( myObject ))`
+  - Deep Copy 2: `const copy = structuredClone(original);`
+
+
+  - (skip) Object.assign:
 
     ```js
     const book2 = Object.assign({}, book1); // shallow copy
     ```
 
 
-
-
-## How to clone an array
-- Shallow copy: `const ironhackers = [...students];`
-- Deep copy: `JSON.parse(JSON.stringify())`
 
 
 Note: 
@@ -162,14 +175,4 @@ Note:
       const numbers = [10, 20, 30];
       const n = [].concat(numbers); // someone chose a poor name for the variable, we need to find out what this line does.
       ``` 
-
-
-
-
-## Summary
-
-Some options to clone arrays and objects
-  - https://stackblitz.com/edit/ih-arr-sort-us6skb?file=index.js
-
-
 
