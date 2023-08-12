@@ -3,15 +3,20 @@
 
 <!--
 
-Time estimation: 6-10h
+Time estimation: 6h (+ on next day we keep doing improvements)
 
 -->
 
 
 
 
-
 ## Intro 
+
+- What is Canvas. 
+- Examples:
+  - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
+  - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations#result
+
 
 - Canvas vs DOM
 
@@ -26,7 +31,6 @@ Time estimation: 6-10h
 - Explain the kind of game that we want to build
   - examples (we will not have time for all): 
     - https://claradrojas.github.io/potato-run/index.html
-    - https://zhosde.github.io/ninja-the-hacker/
     - https://ironborn-ironhack-march-2022.github.io/ironborn-oop-game/
 
 
@@ -43,24 +47,17 @@ Time estimation: 6-10h
   - Learn git concepts 
 
 
-- Warn students: 
-  - some steps today may be a bit fast.
+- How:
+  - Initial planning
+  - Project setup
+  - Codealong
 
 
-## IMPORTANT
-
-1. Building a game together is a very interesting exercise but some students may have a tendency to then copy most of the code we produce (specially, if they find it difficult to start with their own code). To address that, 2 options:
-  - Option1: 
-    - build a "dog cross the road" type of game (and don't allow the option of this same game)
-    - example: https://zenabos.github.io/dogshitty/
-  - Option2: 
-    - Be very very clear. If they build this kind of game they're expected to start from scratch and come up with they're own solution.
-    - Also, show other patterns that they can use (OOP vs functions, etc)
+- Note (make this very clear): 
+  - Some steps today may be fast.
+  - Most students find it difficult (code is complex). Stay focused.
 
 
-2. Students find it difficult if we try to decouple logic from DOM manipulation. Instead, just build it together:
-  - example1 (logic+dom): https://github.com/StrangerCodingThings-Ironhack-June-22/oop-game-codealong
-  - example2 (aiming to detach logic & dom): https://github.com/Ironborn-Ironhack-March-2022/ironborn-oop-game
 
 
 
@@ -78,13 +75,20 @@ Time estimation: 6-10h
 - then do the planning together with students.
 
 
+note: we will use OOP + DOM.
+
+
 Milestone 1: user can move the player left/right
 
-Milestone 2: obstacles appearing in the UI + obstacles move + we detect if there's a collision
-  
-  (note: for this milestone, it's ok if obstacles appear always at the same position)
+- GOAL: by lunch break 
 
-Milestone 3: make the game more interesting & fix bugs
+Milestone 2: obstacles appearing in the UI + obstacles move
+  
+- note: for this milestone, it's ok if obstacles appear always at the same position
+
+Milestone 3: detect if there's a collision
+
+Milestone 4: make the game more interesting & fix bugs
   - random position for obstacles
   - prevent player from going outside
 
@@ -92,18 +96,39 @@ Milestone 3: make the game more interesting & fix bugs
 
 
 
-[ ] initial code
-  - files
+[ ] (demo) initial setup [30min]
+  
+  <!-- @Luis: 
+  
+  - to speed up, tell students to just follow me for this first step 
+  - (later, they can clone)
+
+  -->
+  
+  - create files (html, css, js)
   - basic structure (board)
   - create repo + initial commit
 
-[ ] Game class (note: we can start from Player and implement this one later)
+  <!-- also, share live session -->
+
+[ ] Upload to Github + ask students to fork + clone
+
+  - fork + clone
+  - open with VS Code
+  - open with Live Server
+
+[ ] Introduce Pomodoro technique
+  - https://pomofocus.io/
+
+[ ] (SKIP FOR NOW) Game class
+  - note: we can start from Player and implement this one later.
   - start()
 
 [ ] Player class
   - position (x, y)
   - moveLeft(), moveRight()
-  - draw()
+  - draw() [skip]
+  <!-- @Luis: add event listeners before drawing ?) -->
 
 [ ] When game starts:
   - create Player and draw it on the board
@@ -113,10 +138,19 @@ Milestone 3: make the game more interesting & fix bugs
 [ ] Obstacle class (create generic class and extend)
 
 [ ] Create Obstacles
-  - Start by creating only one obstacle
+  - step1: start by creating `only one obstacle`
     - create new instance of the class Obstacle
     - move the obstacle (setInterval)
-  - Then, change to create multiple obstacles
+  - step2: then, change to create `multiple obstacles`
+
+  <!--
+
+  @Luis: 
+  - to explain these concepts, sometimes it helps to open a new file & create a simplified version of our code.
+  - ex. "Enemy" class + "sayHello()" method
+
+  -->
+
 
 [ ] Detect collision
   - Collision detection
@@ -126,7 +160,16 @@ Milestone 3: make the game more interesting & fix bugs
 
   @Luis: 
 
-  gameover functionality (ex. redirect to gameover.html)
+  gameover functionality
+  - redirect to gameover.html
+  - include link to play again
+
+
+  Recommendation:
+  - index.html (instructions)
+  - game.html (game)
+  - gameover.html
+
 
   -->
 
@@ -169,10 +212,27 @@ Code quality:
 - store settings as property of the Game class (ex. refreshRate)
 
 
+<!-- 
+
+Other improvements:
+
+- diagonal movement
+  -- @todo: create a codepen example
+
+- gameover page: display score (localstorage)
+- gameover page: list of max scores (localstorage)
+
+-->
+
+
 
 ## Final notes
-- If they pick a similar game they will need to go further (implement other features etc)
+- If they pick a similar game:
+  - start from scratch 
+  - go further (implement other features etc)
+- Show other patterns that they can use (OOP vs functions, etc)
 - Some notes: https://stackblitz.com/edit/js-jvpqgw?file=index.js
+
 
 
 
@@ -185,7 +245,21 @@ Code quality:
   - https://raw.githubusercontent.com/StrangerCodingThings-Ironhack-June-22/oop-game-codealong/main/js/main.js
 
 
-## Extra Resources
+
+
+## (skip) requestAnimationFrame()
+
+- example commit: 
+https://github.com/ironhack-tech-trash-july2023/oop-game-codealong/commit/fcb32f91872b7f9aa5fc066061c80314d64eb6fd
+
+
+
+## (Extra) Refresh CSS Position
+
+
+- Initial code: https://codepen.io/luisjunco/pen/GRYYdjX
+  <!-- @luis: remember to fork -->
+
 
 - CSS Position property (refresh, before we write the css)
   - Learn CSS Position In 9 Minutes (9m): 
@@ -194,5 +268,19 @@ Code quality:
   - (Bonus) CSS Position Tutorial For Beginners (10min.): 
     - explains in further detail (more slowly)
     - https://www.youtube.com/watch?v=gD3G67oPg-w
+
+
+
+## (Extra) Axis
+
+Axis (x, y) without legend: 
+- https://nova-live.imgix.net//migration-HowtoUseChartsandGraphsEffectivelyIMGB2.jpg?q=60&fm=webp&w=700&h=700
+
+
+Axis (with legend): 
+- https://www.freemathhelp.com/images/lessons/xy1.png
+
+Axis with legend (inc. negative values):
+- https://study.com/cimages/multimages/16/axisgraph3795074999033209767.png
 
 
