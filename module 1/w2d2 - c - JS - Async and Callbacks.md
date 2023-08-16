@@ -220,6 +220,45 @@ Practice: JS Callbacks
 
 
 
+## (extra) JavaScript errors
+
+In most cases, when an error occurs in JavaScript, it will halt the execution of the code at the point where the error occurred.
+
+<!-- 
+
+@Luis
+
+just mention briefly: an error stops code execution (in most cases)
+
+-->
+
+
+Exeptions:
+1. Code inside a try-catch block
+2. Asynchronous Code
+3. Event handlers
+
+
+Example:
+
+    ```js
+        const amount = 10;
+
+        console.log("green")
+
+        setTimeout(() => {
+            console.log("orange");
+        }, 1000);
+
+
+        amount = 42; // error: assignment to constant variable
+
+        console.log("blue");
+
+    ```
+
+
+
 ## Refresh 
 
 IMPORTANT: refresh some topics for today's lab (JS Chronometer):
