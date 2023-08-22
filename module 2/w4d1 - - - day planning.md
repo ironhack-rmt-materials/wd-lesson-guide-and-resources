@@ -5,11 +5,12 @@
 
 Status: ready
 
+
 Goal: 
 - 15:00 start lab
   - advanced students: if they finsih, they can start this one: https://github.com/ironhack-labs/lab-js-es6-reinforcement
 
-- 17:00: (bonus) explain how to create promises
+- 17:00: (bonus) explain how to create promises / record video
 
 
 -->
@@ -23,17 +24,10 @@ Goal:
 
 Project 1 feedback:
 
-- pls check students projects and, for each project, do the following 2 things (you may need Monday + Tuesday):
-
-1. Give feedback to students (ex. if you see anything to they can learn from).
+Give feedback to students (ex. if you see anything to they can learn from).
 - Let's keep it positive.
 - Let's keep it brief (they'll be busy)
 - Let's keep it focused on things they can learn from (they will probably not have time to implement any suggestions)
-
-2. Grade each project.
-- I believe we don't have specific guidelines for that grade, so let's take into account both code + final result.
-- That grade can be done from the same person that reviews each project
-- Let's also aim for simplicity (we should not spend more than 2-5 minutes to decide each mark :pray:).
 
 
 -->
@@ -45,74 +39,43 @@ Project 1 feedback:
 ## Planning
 
 
-- Intro to module 2 (see: `module 2\w4d1 - - Intro to  module 2.md`)
+- Intro to module 2 (see .md file) [30min]
 
-
-<!--
-@Luis
-
-- ADAPTABLE -- ask students to signup for BETA
-  - https://adaptable.io/app/signin
-
--->
-
-
-
-- (extra) object destructuring
-  - @LTs: I do that as a warmup + gives us extra time in the following days.
-
-
-
-- Introduce concepts:
-  - API & REST API
-  - JSON
+- Object destructuring [30min]
 
 
 
 
-- Introduce .fetch(). 
+PROMISES:
 
-  - Show this code (at the end of the day it should be much more clear):
+0. Intro to what we will see today
+   -- https://miro.medium.com/v2/resize:fit:1838/1*AqkCUN-kD_fLefEFPnX2Uw.png
+   -- https://stackblitz.com/edit/js-mbknjw?file=index.js
 
-    ```javascript
-      fetch('https://jsonplaceholder.typicode.com/users')
-        .then((response) => {
-          return response.json();
-        })
-        .then((data) => {
-          console.log(data);
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-    ```
+1. Callback Pattern
+  -- what the heck is a promise?
+2. Consuming promises with .then().catch()
+  -- Include one Exercise
+3. Consuming promises with async/await.
+  -- Include one Exercise
 
 
-  - See how .fetch() returns a Promise
-  
-    ```javascript
-      const result = fetch('https://jsonplaceholder.typicode.com/users');
-      console.log(result);
-    ```
+Other patterns:
+- Promise.all()
+  <!-- @todo: record a video + self-guided (once they're on the lab) -->
 
 
-
-
-
-
-
-- CONSUMING PROMISES with async/await
-  
-
-- Make sure `.fetch()` is explained during the day
-
+Bonus:
+- fetch API (self-guided and/or video ColorCode)
+- creating promises (video)
+- ES6 LAB 
 
 
 
 
 ## Extra challenges
 
-- Advanced users can do this lab (currently not in the schedule):
+- Advanced students can do this lab (currently not in the schedule):
   - LAB JS ES6 Reinforcement (for...of loop, .filter()):
     https://github.com/ironhack-labs/lab-js-es6-reinforcement
   
