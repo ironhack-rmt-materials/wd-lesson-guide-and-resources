@@ -22,6 +22,15 @@
 
 
 
+<!--
+@Luis
+
+Check that students can create an account at adaptable.
+https://adaptable.io/app/signin
+
+-->
+
+
 - 2 weeks content + 1 week projects
 
 
@@ -34,6 +43,17 @@
     - if any student has a difficult agenda any day
     - if you prefer to practice a lab individually
 
+<!-- 
+
+@Luis: 
+
+- share lab planning with students
+- do not start labs before kick-off
+
+-->
+
+
 - Projects in pairs
   - We will ask you for preferences
+
 
