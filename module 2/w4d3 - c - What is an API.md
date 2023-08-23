@@ -46,8 +46,14 @@ Status: draft
     - JSON: cannot store the following data types: functions, date, undefined
 
 
+  - JSON vs. JavaScript objects:
+    - https://cope-ali.github.io/cope-ali261.github.io/img/JSONcomp.jpg
+
+
+
 - APIs 
   - explain concept of API
+  - Diagram (with browsers, native apps): https://www.erp-information.com/wp-content/uploads/2021/01/Application-programming-interface-new.jpg
   - examples: 
     - twitter
     - spotify

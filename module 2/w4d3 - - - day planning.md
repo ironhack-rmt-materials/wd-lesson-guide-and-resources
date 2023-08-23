@@ -3,10 +3,10 @@
 
 <!--
 
-
 - morning (dynamic views, partials etc) 
   - set them more challenges / exercises to do
   - note: these lessons can take time (esp. if we do more exercises)
+    -- have all assets & code prepared
 
 
 Methodology:
@@ -19,28 +19,28 @@ Methodology:
 
 
 
-## Notes:
-
-
-- "LAB | IronBeers": IMPORTANT
-
-
 
 ## Refresh from prev day
 
-- Slides (refresh): https://docs.google.com/presentation/d/1-EgP1r7duakjZ6DXfReHIu9cYwEheAWEd_vDL7JtYiU/edit?usp=sharing
 
-- Protocol
-  - set of rules for communication between machines.
+- Slides Refresh "How the internet works".
+  -  https://docs.google.com/presentation/d/1-EgP1r7duakjZ6DXfReHIu9cYwEheAWEd_vDL7JtYiU/edit?usp=sharing
 
-- HTML vs HTTP
+  
+- (optional) quick refresh Object/Array Destructuring
 
-- URL structure
-  https://www.affde.com/uploads/article/22287/uutuA1y8TyrZ8GRC.jpg
+  ```js
+  const company = {
+    name: 'Ironhack',
+    numberOfEmployees: 200,
+    campuses: ['madrid', 'barcelona', 'berlin', 'sao paulo'],
+    website: 'https://www.ironhack.com/',
+    email: 'hello@ironhack.com',
+  };
+  ```
 
-- HTTP Verbs ("HTTP request methods")
-
-- HTTP Status codes (sent by the server)
+- (optional) quick refresh Spread Operator
+  - ex. with objects (add property best cohort)
 
 
 
@@ -58,7 +58,8 @@ Methodology:
     - (bonus): display a summary of each product in the homepage
 
 
-- LAB (IronBeers)
+- LAB (IronBeers) - IMPORTANT
 
-- DataBases: 1.5h (going fast & without getting into examples)
+
+<!-- - DataBases: 1.5h (going fast & without getting into examples) -->
 

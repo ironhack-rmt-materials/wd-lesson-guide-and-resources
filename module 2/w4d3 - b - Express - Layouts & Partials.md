@@ -1,6 +1,7 @@
 
 # Express - Layouts & Partials
 
+
 <!-- 
 
 - Status: draft
@@ -17,10 +18,12 @@ Layout: reuse code for all pages (ex. navigation menu, footer...).
 - example: add a navigation menu at the top of all pages
 
 
+
 ## Layouts
 
 
 - create `layout.hbs`
+- add html
 - inside layout.hbs, add `{{{ body }}}`
   
   - IMPORTANT: notice the "TRIPLE" curly brace
@@ -40,11 +43,27 @@ Layout: reuse code for all pages (ex. navigation menu, footer...).
     ```
 
 
-## (Extra) Skipping layouts
+## (Extra) Reading data from layout
+
+Example:
+
+  ```js
+    app.get("/contact", (request, response, next) => {
+
+        const data = {
+            loadCoolCss: true
+        }
+
+        response.render("contact-page", data);
+    });
+  ```
+
+
+## (skip) Skipping layouts
 
 - Set `layout: false` in the object we pass to the view
 
-    ```javascript
+    ```js
     app.get("/teams", (req, res, next) => {
         const data = {
             layout: false
@@ -54,7 +73,8 @@ Layout: reuse code for all pages (ex. navigation menu, footer...).
     ```
 
 
-## Partials (Bonus / Self guided)
+
+## Partials (Bonus / Self guided / Demo)
 
 <!--
 @Luis:
@@ -64,13 +84,14 @@ Layout: reuse code for all pages (ex. navigation menu, footer...).
 
 - Configure 
 
-  ```javascript
+  ```js
     const hbs = require("hbs");
 
     // ...
 
-    hbs.registerPartials(__dirname + "/views/partials");
+    hbs.registerPartials(__dirname + "/views/partials"); //tell HBS which directory we use for partials
   ```
+
 
 - Create a Partial (ex. banner / list with other products / contact form)
 
@@ -84,6 +105,7 @@ Layout: reuse code for all pages (ex. navigation menu, footer...).
 
 - Filename: `ctaOrderNow.hbs`
 
+
 - Call a Partial from a View
 
   ```hbs
@@ -94,7 +116,23 @@ Layout: reuse code for all pages (ex. navigation menu, footer...).
   - use `camelCase.hbs` for names of partials (`kebab-case.hbs` will not work)
 
 
+  <!-- IMPORTANT: nodemon may not listen to changes on partials (may need to restart) -->
+
+- Note:
+
+  In the partial, we can access data from the view that renders the partial.
+  (Example, if we want to display "Order your Pizza Margarita")
+
+  ```hbs
+    {{> ctaOrderNow}}
+  ```
+  ```hbs
+    {{title}}
+  ```
+
+
 - Passing parameters to partials
+
 
   ```hbs
     {{#each players}} 
@@ -114,6 +152,11 @@ Create a route `GET /pizzas` to display a full list of pizzas.
 
       const pizzasArr = [
           {
+            title: 'Pizza Margarita',
+            price: 12,
+            imageFile: 'pizza-margarita.jpg',
+          },
+          {
               title: "Veggie Pizza",
               price: 15,
               imageFile: "pizza-veggie.jpg"
@@ -128,7 +171,7 @@ Create a route `GET /pizzas` to display a full list of pizzas.
           pizzasArr: pizzasArr
       }
 
-      res.render("pizzas", data)
+      res.render("product-list", data)
 
   })
   ```

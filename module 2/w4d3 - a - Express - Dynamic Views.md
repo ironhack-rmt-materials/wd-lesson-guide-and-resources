@@ -3,7 +3,7 @@
 # Express - Dynamic Views
 
 
-<!-- Status: draft -->
+<!-- Status: complete -->
 
 
 
@@ -13,46 +13,54 @@
 
 
 
+## Exercise: Initial setup + adding new routes
 
-- (Optional) Ask students how we want to call our pizzas:
-  - https://pixabay.com/photos/pizza-plate-food-cheese-lunch-3010062/
-    - margarita
-  - https://pixabay.com/photos/pizza-italian-homemade-cheese-3007395/
-    - veggie
-  - https://pixabay.com/photos/pizza-italian-pasta-food-cheese-5179939/
-    - seafood
-
+0. In case you don't have the app from yesterday:
+- `REPO_URL`
+- (fork)
+- clone
+- npm install
 
 
-## First step
+1. Make sure you're running the project from yesterday: `nodemon app.js`
+
+2. Create 3 routes (one for each pizza):
+  - /pizzas/margarita → response.send("page for margarita")
+  - /pizzas/veggie → response.send("page for veggie")
+  - /pizzas/seafood → response.send("page for seafood")
+
+Notes:
+- IMPORTANT: for each route, just do `response.send()` with a short message.
+- Test in the browser (make sure you can see all 3 pages)
+
+Bonus: 
+- research/practice "js rest parameters"
+
+Time: 15min.
 
 
-Task:
 
-- Make sure you're running the project from yesterday
-  - `nodemon app.js`
+(After exercise):
+- Add/update Navbar
 
-- Create 3 routes (one for each pizza)
-- For each route, just do `response.send()` with a short message
-  - /pizzas/margherita --> response.send("page for margherita")
-  - /pizzas/carbonara --> response.send("page for carbonara")
-  - /pizzas/funghi --> response.send("page for funghi")
 
-Time: 5-10min.
+(break)
 
+<!-- @LT: can use the break to do the next step -->
 
 
 ## Second step
 
 - Create 3 html files (one for each product)
+  - title
+  - price
   <!-- Only LT (ask students to skip this step) -->
-
-- Add a navbar
 
 - Explain why this is not ideal (DRY)
 
 - Solution:
   - We will use a template engine (handlebars)
+  - Logo: https://user-images.githubusercontent.com/23629340/34818880-6dab9b04-f6bc-11e7-8719-99981c59d03a.png
 
 
 - Handlebars Summary:
@@ -96,7 +104,7 @@ Time: 5-10min.
 
 - Render a view
 
-    ```javascript
+    ```js
     app.get("/", (req, res, next) => res.render("product"));
     ```
 
@@ -107,37 +115,71 @@ Time: 5-10min.
 
 - res.render() method can take an additional parameter that will contain a JavaScript object with information we can use in the view
 
+  <!-- 
+  
+  @Luis: 
+  - for now, show only with 1 property (title) 
+  - in the exercise below, we will do title + price
+  -->
 
-    ```javascript
-      app.get("/", (req, res, next) => {
-        const data = {
-            title: "Pizza Margherita",
-            price: 8,
-            imgFile: "pizza-margherita.jpg",
-            ingredients: ["mozzarella", "tomato sauce", "basilicum"]
-        }
-
-        res.render("index", data);
+    ```js
+      app.get("/pizzas/margarita", (req, res, next) => {
+        res.render("product", {title: "margarita"});
       });
 
     ```
 
-
     ```hbs
-      <h1>Title {{title}}</h1>
-      <p>Price {{price}}</p>
+      <h1>Pizza {{title}}</h1>
     ```
 
 
 
-TASK:
-- Add images for our 3 pizzas
-- You can use these:
-  - https://pixabay.com/photos/pizza-plate-food-cheese-lunch-3010062/
-  - https://pixabay.com/photos/pizza-italian-homemade-cheese-3007395/
-  - https://pixabay.com/photos/pizza-italian-pasta-food-cheese-5179939/
+Explain: some possible patterns
 
-- Time: 12min
+  - passing an object directly
+
+    ```js
+      app.get("/pizzas/margarita", (req, res, next) => {
+        res.render("product", {title: "margarita"});
+      });
+    ```
+
+  - variable with an object
+
+    ```js
+      app.get("/pizzas/margarita", (req, res, next) => {
+
+        const data = {
+          title: "margarita"
+        };
+
+        res.render("product", data);
+      });
+    ```
+
+  - Note: usually, this info will come from the DB.
+
+
+## Practice: passing info to Handlebars
+
+- Iteration 1:
+  - For each pizza, display `title` + `price`
+  - You can use data from here: https://stackblitz.com/edit/js-bzqmw5?file=index.js
+
+
+- Bonus:
+  - Add images for our 3 pizzas
+  - You can use these:
+    - https://pixabay.com/photos/pizza-plate-food-cheese-lunch-3010062/
+    - https://pixabay.com/photos/pizza-italian-homemade-cheese-3007395/
+    - https://pixabay.com/photos/pizza-italian-pasta-food-cheese-5179939/
+  - Note: click "free download" (1280x854px is fine)
+
+
+- Time: 15min
+
+  <!-- @Luis: alternative, send images on Slack -->
 
 
 
@@ -145,7 +187,7 @@ TASK:
 ## (skip) Escaping HTML
 
 - We can send HTML to the view
-  - Scape with `{{{ }}}`
+  - escape with `{{{ }}}`
 
 
 
@@ -206,7 +248,7 @@ TASK:
 
 
 
-  - `each` Example 2: with an array of objects
+  - (skip) Example 2: `each` with an array of objects
 
     - Goal: display a list of all pizzas (title + price + link) in the homepage
 
@@ -244,8 +286,25 @@ TASK:
 
 - (skip) `with` block helper
 
+  > allows you to change the evaluation context
 
-- (bonus) `log` helper (useful for debugging)
+
+  ```hbs
+      <p>{{address.street}}</p>
+      <p>{{address.postcode}}</p>
+  ```
+
+
+  ```hbs
+    {{#with address}}
+      <p>{{street}}</p>
+      <p>{{postcode}}</p>
+    {{/with}}
+  ```
+
+
+
+- (bonus) `log` helper (useful for debugging, displayed in the CLI)
 
   ```hbs
     {{log "hello world"}}
@@ -257,3 +316,35 @@ TASK:
 
 
 
+## Extra: show how to work with an array of objects
+
+Why: common pattern + today's lab
+
+Data:
+
+  ```js
+
+  ingredients: [
+    {
+        ingredientName: "mozzarella",
+        calories: 400
+    },
+    {
+        ingredientName: "tomato sauce",
+        calories: 200
+    },
+    {
+        ingredientName: "basilicum",
+        calories: 30
+    },
+  ],
+
+  ```
+
+View (`product.hbs`):
+
+```hbs
+  {{#each ingredients}}
+    {{log this}}
+  {{/each}}
+```

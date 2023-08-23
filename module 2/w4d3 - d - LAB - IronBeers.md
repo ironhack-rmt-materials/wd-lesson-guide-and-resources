@@ -20,6 +20,7 @@ Concepts:
 
 
 
+
 - Getting information from an API
   - We can use .fetch(), axios()...
   - We can use a Package that gets info from an API (as we do in this lab)
@@ -31,7 +32,7 @@ Concepts:
 
 - IMPORTANT (1): creating routes + rendering a view
 
-  ```javascript
+  ```js
     app.get('/beers', (req, res) => {
       res.render('beers');
     });
@@ -43,7 +44,7 @@ Concepts:
 - IMPORTANT (2): if you don't know the information you receive, just console.log the result you get in the promise.
 
 
-  ```javascript
+  ```js
     punkAPI
       .getBeers()
       .then(beersFromApi => console.log(beersFromApi))
@@ -52,7 +53,7 @@ Concepts:
 
   - You may want to check the details of only one element....
 
-  ```javascript
+  ```js
     console.log(beersFromApi[0])
     console.log(beersFromApi[0].ingredients)
   ```
@@ -63,7 +64,7 @@ Concepts:
 
 - IMPORTANT (3): sending information to the view
 
-  ```javascript
+  ```js
     app.get('/beers', (req, res) => {
       
       punkAPI
@@ -97,7 +98,7 @@ Concepts:
 
 - IMPORTANT (5): Make sure you wait for the promise....
 
-  ```javascript
+  ```js
     app.get('/beers', (req, res) => {
       
       punkAPI
