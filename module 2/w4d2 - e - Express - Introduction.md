@@ -14,6 +14,8 @@
 
 - What is a Framework and why we use it
 
+  <!-- @todo: create slides -->
+
   - Framework vs library:
     - https://www.digitaltechmedia.in/wp-content/uploads/2020/11/framework-vs-library-dtm.jpg
     - https://qph.cf2.quoracdn.net/main-qimg-b21ba6c5e7ab388225dfafa0c96075d5-pjlq
@@ -45,9 +47,16 @@ Methodology:
 
 - ask students: how do we want to call our pizza company
 
-- notes: 
-  - some students have problems installing `nodemon`. Just use `sudo`.
-  - for images & css, use an absolute path (we will save time tomorrow)
+- Follow similar steps as in the students portal
+  - "Express | Introduction" -- "Express Hello World"
+
+
+- IMPORTANT: 
+  - some students have problems installing `nodemon`.
+    - Just use `sudo`.
+    - alternative: `npx nodemon my-file.js`
+  - show example when nodemon crashes (ex. syntax error)
+  - for images & css, use an `ABSOLUTE PATH` (we will save time tomorrow)
 
   <!--
   
@@ -57,6 +66,9 @@ Methodology:
 
   -->
 
+- Create repo + upload to Github [20min]
+  - Add `.gitignore`
+  - Note: mention that if they clone, they'll need to do `npm install`
 
 
 

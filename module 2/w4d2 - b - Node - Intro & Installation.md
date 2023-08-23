@@ -11,7 +11,7 @@ Status: draft
 
 - @todo: 
   - improve this notes/planning
-  - create slides +++
+  - create slides
 
 -->
 
@@ -34,7 +34,6 @@ Status: draft
 
 - What is NodeJS?
   - NodeJS = "Node"
-  - "runtime environment" (environment with tools that allow to execute JavaScript)
 
 
 - Node is "not":
@@ -50,6 +49,7 @@ Status: draft
 
 - Node Package Manager (npm)
   - what is a package manager
+  - Example of a package: convert Celsius to Farenheit
 
 
 
@@ -58,6 +58,12 @@ Status: draft
 
 - Explain what we want to achieve + Search for the package we want to use on NPM (https://www.npmjs.com/package/cowsay)
 
+
+- Navigate to ironhack directory + create  `module2` directory
+  ```
+    mkdir module2
+    cd module2
+  ```
 
 - Create directory
 
@@ -78,7 +84,7 @@ Status: draft
   ```
 
 
-- Explain package.json
+- Explain `package.json`
 
 
 
@@ -105,9 +111,15 @@ Status: draft
   - In our projects, we will create a .gitignore file and add node_modules to it.
 
 
-- Create index.js and use it
+- Create `index.js` and use it
   - documentation: https://www.npmjs.com/package/cowsay > Usage as a module
   - note: require() is a NodeJS built-in function (it's not part of the javascript standard)
+
+
+
+Tip: Debugging vs. reading documentation:
+![debugging vs reading](./images/debugging%20vs%20reading%20documentation.jpg)
+
 
 
 

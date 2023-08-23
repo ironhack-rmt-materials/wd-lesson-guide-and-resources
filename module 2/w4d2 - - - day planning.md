@@ -27,21 +27,38 @@ Notes:
 
 -->
 
+- Refresh Promises
+  - `.then().catch()`
+  - `async/await`
 
 
-- Destructuring + spread operator:
-  - quick refresh object destructuring
-    - exercise (2min): https://stackblitz.com/edit/js-exphb3?file=index.js
-  - array destructuring:
+- Refresh: Object Destructuring
+  - https://stackblitz.com/edit/js-exphb3?file=index.js
+  - Time: 2min
+
+
+- (optional) Refresh/introduce array destructuring:
     - example: https://stackblitz.com/edit/js-hfvsxk?file=index.js
     - note: order matters
-  - SPREAD OPERATOR (see `w4d4 - d - JS - Destructuring Assignment and Parameter Handling.md`)
 
 
+- Spread operator
 
 
-- Intro: explain them what we will be able to build at the end of the day
+- Intro: explain what we will be able to build at the end of the day
   - Example (from Felipe): https://hugh-laurie.adaptable.app/
+  - 3 pages: home + work + about
+  - main difference with module 1: backend code
+
+
+
+<!--
+@Luis
+
+Check that students can create an account at adaptable.
+https://adaptable.io/app/signin
+
+-->
 
 
 
