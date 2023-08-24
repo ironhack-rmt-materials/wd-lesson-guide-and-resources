@@ -3,7 +3,7 @@
 
 <!-- 
 
-- Status: draft (until "## Delete Documents" is ready)
+- Status: draft 
 
 - Methodology: for all the part of operators, rather than explaing one by one
   - explain only the basic concepts (eg. projection)
@@ -38,7 +38,8 @@ Note:
     <!--  
       @Luis: 
       - downloaded here: "\Ironhack\misc\backup-imdb-movies"
-      - send json directly on ZOOM (sharing on slack sometimes gives problems)
+      - option 1: send .JSON directly on ZOOM 
+      - option 2: send on Slack (works just fine, but students may not see where it is downloaded)
     -->
 
   2. Import: 
@@ -65,6 +66,8 @@ Note:
     - LT: Update the type of one document (ex. change year to string)
     - takover: *documents of the same collection can have a different schemas*
 
+    - meme: SQL vs. MongoDB
+      - https://programmerhumor.io/wp-content/uploads/2021/07/programmerhumor-io-databases-memes-backend-memes-1798da956a4b96a-758x954.png
 
 
 
@@ -74,6 +77,8 @@ Note:
   - add fields
   - update fields
   - delete fields
+
+
 
 
 ## Delete Documents
@@ -92,9 +97,9 @@ Note:
 
 - Query Bar & Filter - Basic Query
 
-{title: "The Godfather"}
-{year: "1994"}
-{director: "Quentin Tarantino"}
+  {title: "The Godfather"}
+  {director: "Quentin Tarantino"}
+  {year: "1994"}
 
 
 
@@ -129,10 +134,12 @@ Advantage: performance (Using projections makes our database queries faster).
 
 
 
+
 - Sort Query Documents
 
 {rate: 1} (ascending)
 {rate: -1} (descending)
+
 
 
 - Query Documents - Skip & Limit
@@ -143,7 +150,6 @@ Advantage: performance (Using projections makes our database queries faster).
 
 
 ## Comparison Query Operators
-
 
 
 <!-- @luis: improve ?? -->
@@ -163,72 +169,78 @@ Advantage: performance (Using projections makes our database queries faster).
 
 
 
+
 ## Array Query Operators
 
-$in
+$in:
+- selects the documents where the value of a filed equals ANY (Logical OR) value in the specified array.
 
 {year: { $in: ["1990", "1991", "1992"] } }
 
+
 $nin
+- selects the documents where the field value is not in the specified array or the field does not exist.
+
 
 $all
+- documents where the value of a field is an array that contains all the specified elements
 
 
 
-## Element Query Operators
 
-<!-- @todo -->
+## (SKIP) Element Query Operators
 
 
+$exists
+- Matches documents that have the specified field.	
+- { field: { $exists: <boolean> } }
+
+$type: 
+- Selects documents if a field is of the specified type.
+- { field: { $type: <BSON type> } }
 
 
 
 
 ## Exercise:
 
-- Get all movies released in "2010"
-  - Note: year is a string
-    <!-- Solution: {year: "2010"} -->
+Practice: MongoDB CRUD operations
 
-- Get all movies released in "2010" OR "2011"
-  - Hint: { $or: [ {field: value}, {field: value} ] }
-  - You can also use the $in operator. Ex: {field: { $in: [value1, value2, ...] } }
-  <!-- {$or: [{year: "2010"}, {year: "2011"}]} -->
+- Instructions: https://gist.github.com/luisjunco/42d608e3f96d712bc136ffbc4b2627bf
 
+- Time: 20min.
+- How: work in pairs
 
-- Get all movies released after 2010 (hint: $gt)
-  <!-- {year: {$gt: "2010"}} -->
+<!-- @Luis: make hints collapsible  -->
 
 
-- From the previous movies, get only `title`, `year` and `rate` 
-  - Hint: projection
-  <!-- PROYECTION: {title: 1, year: 1, rate: 1} -->
+SOLUTIONS (below):
 
-- Sort the previous results by `rate` in descending order
-  <!-- SORT: {rate: -1} -->
+1. 
+- Solution: {year: "2010"}
+
+2. 
+- Solution: {$or: [{year: "2010"}, {year: "2011"}]}
+
+3. 
+- Solution: {year: {$gt: "2010"}}
+
+4. 
+- Solution: PROYECTION: {title: 1, year: 1, rate: 1}
+
+5. 
+- Solution: SORT: {rate: -1}
 
 
+Bonus 1: 
+- Option 1: {$and: [{genre: "Action"}, {rate: {$gt: "8.5"}}]}
+- Option 2: {genre: "Action"}, {rate: {$gt: "8.5"}
 
-- Bonus: 
-  - Get all "Action" movies with rate above "8.5".
-  <!-- 
-    {$and: [{genre: "Action"}, {rate: {$gt: "8.5"}}]}
-    
-    or just:
-    {genre: "Action"}, {rate: {$gt: "8.5"}
-   -->
 
-  - Get all movies with the genres "Family" AND "Musical" 
+Bonus 2: Get all movies with the genres "Family" AND "Musical" 
 
-  <!--
-  
-  {$and: [{genre: "Family"}, {genre: "Musical"}]}
-
-  other option:
-  {genre: {$all: ["Family", "Musical"]}}
-  
-  -->
-
+- Option 1: {$and: [{genre: "Family"}, {genre: "Musical"}]}
+- Option 2: {genre: {$all: ["Family", "Musical"]}}
 
 
 

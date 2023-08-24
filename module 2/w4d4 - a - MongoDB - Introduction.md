@@ -33,7 +33,9 @@ https://docs.google.com/presentation/d/1r3QsTfgXEb0BVd1zN4UXqaYYMIvNoa_vXCq5_VUe
   - collection: "pizzas"
 
 
-- Create Documents
+
+- Create Documents  
+  - @LT: use visual interface (so that we can see data types)
   - create new document with different data types (sting, number, array)
   - fields:
     - title (string)
@@ -52,4 +54,6 @@ https://docs.google.com/presentation/d/1r3QsTfgXEb0BVd1zN4UXqaYYMIvNoa_vXCq5_VUe
   - it is a unique reference, automatically created when we insert a new document
   - we will use objectID's to identify specific documents
 
+
+<!-- @Luis: before the break, it can be good to import IMDB -->
 

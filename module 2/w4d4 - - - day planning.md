@@ -6,21 +6,20 @@
 
 Methodology:
 - continue working on IronRestaurant
-- we will create a separate file to practice mongoose methods.
+- create a separate file to practice mongoose methods ("mongoose-playground.js")
 
-- the part of data models can also be explained based on this project, eg:
+- DATA MODELS: the part of data models can also be explained based on this project, eg:
   - Product model & Reviews as nested document
   - Product model & Seller model
 
 -->
 
 
-Consider these changes:
+- MongoDB Intro + MongoDB Compass + CRUD Operations + Exercise [2.5h]
+- Mongoose [4h]
 
-- "LAB | MongoDB - Advanced Querying"
-  - can be self guided / extra
-  - request students to do the only first 5 queries. 
 
-- MongoDB | Data Models
-  - move to next day (it also includes mongoose syntax)
+Note: 
+- all the part of Mongoose is usually demanding for students.
+- try to ask for challenges/exercises 
 

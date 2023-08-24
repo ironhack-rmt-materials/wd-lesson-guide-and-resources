@@ -6,14 +6,6 @@
 <!-- 
 
 
-Methodology:
-- follow lesson on students portal (~~partly highlighted~~)
-- at the same time, practice all the examples with the students (eg. create a DB for sport players).
-
-Notes:
-- to start making queries to the DB with mongoose, instead of adding code inside a route (need to send http request to that route), just create a file and execute it directly with node on the CLI (but explain students that later on we will be putting our code inside routes).
-
-
 @to-do: 
 - improve these notes
 - create slides (MVC pattern, mongoose intro)
@@ -22,9 +14,9 @@ Notes:
 -->
 
 
-Summary:
 
-- MVC pattern
+
+## MVC pattern
   - https://media.geeksforgeeks.org/wp-content/uploads/20210629165722/mvc.png
   - https://seguridad.cicese.mx/uploads/notautic/utic23-5a3c250c42cae.png
 
@@ -44,11 +36,17 @@ Summary:
   ```
   
 
-- ODMs (Object Document Mapper) + Mongoose
-  - https://user-images.githubusercontent.com/62245004/98396310-99937000-206e-11eb-9ad1-4799d58e8699.png
+## ODMs (Object Document Mapper) + Mongoose
 
 
-- Mongoose setup
+Diagram MERN (including Mongoose):
+- https://user-images.githubusercontent.com/62245004/98396310-99937000-206e-11eb-9ad1-4799d58e8699.png
+
+
+
+## Mongoose setup
+
+`npm install mongoose`
 
 
 
@@ -56,67 +54,83 @@ Summary:
 @Luis:
 
 Instead of the steps in the students portal, do the following
-  - create "mongoose-playground.js"
   - Start creating a basic Schema
       const productSchema = new Schema({});
   - Then create the model
-  - Then connect to DB
   - Then Model.create()
   - Then Model.find()
 
 -->
 
 
+## Create a file to practice Mongoose
+
+- `mongoose-playground.js`
+- explain: in the following days, we'll have the queries in our routes
+- why we use a file (and not routes): easier to test (we don't need to keep sending requests)
 
 
-- Connect to DB
 
-  <!-- @Luis: create "mongoose-playground.js" -->
-
-
-
-  <!--
-
-  IMPORTANT
-  IMPORTANT
-  IMPORTANT
-
-  Update Dic.2022:
-  - Some students a timeout error connecting to DB on Windows ("ECONNREFUSED ::1:27017")
-  - Error details: https://stackoverflow.com/questions/69840504/mongooseserverselectionerror-connect-econnrefused-127017
-  - Solution: use 127.0.0.1 instead of localhost
-    - `mongoose.connect('mongodb://127.0.0.1/myDataBaseName')`
-
-  -->
-
+## Connect to DB
 
 
   ```js
     const mongoose = require('mongoose');
 
     mongoose
-      .connect('mongodb://127.0.0.1/myDataBaseName')
-      .then(x => console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`))
-      .catch(err => console.error('Error connecting to mongo', err));
+      .connect("mongodb://127.0.0.1:27017/myDataBaseName")
+      .then((response) => {
+        console.log(`Connected! Database Name: "${response.connections[0].name}"`);
+      })
+      .catch((err) => console.error("Error connecting to Mongo", err));
+
   ```
 
+IMPORTANT:
+- all code that we'll produce now will go inside the .then() (once we're connected to the DB)
 
 
 
-- Creating our first model
-  `const Pizza = mongoose.model('Pizza', { name: String });`
-  - IMPORTANT: continue inside the .then()
+
+
+## Schema:
+
+
+```js
+
+  const { mongoose, Schema } = require("mongoose");
+
+  //...
+
+  //create Schema
+  const pizzaSchema = new Schema({
+    title: String,
+  }); 
+```
+
+
+## Model:
+
+
+```js
+  //create Model
+  const Pizza = mongoose.model("Pizza", pizzaSchema);
+```
+
+
+
 
 <!-- 
 
-[IMPORTANT: skip this part (instance + save). Later we will do it in one step with Model.create())]
+SKIP: instance + save.
 
 
-- Creating an instance of our model  
-  `const kitty = new Cat({ name: 'Ironhacker' });`
+Students portal: 
 
-- If we want to save it in the database...
+
 ```
+  const kitty = new Cat({ name: 'Ironhacker' });
+
   kitty
   .save()
   .then(newCat => console.log(`A new cat is created: ${newCat}!`))
@@ -126,23 +140,63 @@ Instead of the steps in the students portal, do the following
 -->
 
 
-- `Pizza.create()`
+## Create a document
+
+
+Step 1: just title
 
   ```js
+    //create a new document (a new pizza)
+    Pizza.create({ title: "margarita" });
+  ```
+
+  <!-- @Luis: for title, use "margarita" instead of "pizza margarita". -->
+
+
+  - Note: a new document will be created every time we execute our file.
+
+
+
+Step 2: in a separate object
+
+
+  ```js
+      const pizza2 = {
+        title: "veggie",
+    }
+  ```
+
+  <!-- ```js
       const data = {
         title: "margarita",
         price: 8,
         imageFile: "pizza-margarita.jpg",
         ingredients: ["mozzarella", "tomato sauce", "basilicum"]
     }
-  ```
+  ``` -->
 
   - IMPORTANT: 
-    - for title, store only a word ("margarita" instead of "pizza margarita")
+    - for `title`, store only a word (`margarita` instead of `pizza margarita`)
     - will make our live much easier if we then implement as a query to DB.
 
 
+Step 3: display confirmation
+
+  ```js
+  Pizza.create()
+    .then()
+    .catch()
+  ```
+
+
+
+
+
+ ## Some other methods
+
+
 - `Pizza.insertMany()` (optional) 
+
 
 - `Pizza.find()`
   - we can use it with callbacks
@@ -150,12 +204,11 @@ Instead of the steps in the students portal, do the following
 
 
 
+
 - (skip) Organize code (eg. move to functions)
 
 
-
 - (brief) Mongoose connection events
-
 
 
 - (brief) Promises & Promise.all
@@ -163,6 +216,8 @@ Instead of the steps in the students portal, do the following
 
 
 
+
+## FAQs
 
 Some things to mention:
 

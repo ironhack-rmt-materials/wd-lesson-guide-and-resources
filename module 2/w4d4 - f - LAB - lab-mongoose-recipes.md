@@ -37,17 +37,31 @@
     - Make sure it is inside the `.then` in `mongoose.connect.then()`
 
 
+
 ## Iteration 3
+
+
+<!-- IMPORTANT -->
+<!-- Note: this require is already in the initial code  -->
+<!-- IMPORTANT -->
+
+- Import json file:
+
+  ```js
+    const data = require('./data'); //Import of the data from './data.json'
+  ```
+
+
 
 To keep chaining promises, remember to return a promise:
 
-    ```js
-    .then( ()=>{
-        return Recipe.create(data);
-    })
-    .then()
-    .then()
-    ```
+  ```js
+  .then( ()=>{
+      return Recipe.create(data);
+  })
+  .then()
+  .then()
+  ```
 
 
 ## Iteration 4
@@ -75,18 +89,19 @@ How:
   - remember that requests are asynchronous so, if you just add the line to disconnect at the end of your file you will have an error
   - instead of that, you can use Promise.all();
 
+
 Example:
 
-    ```js
-    Promise.all([recipeUpdate, recipeRemove])
-        .then(result => {
-            mongoose.connection
-                .close()
-                .then(() => console.log(`connection closed`))
-                .catch(err => console.log(`error closing connection: ${err}`));
-        })
-        .catch(err => console.log(`an error has occurred: ${err}`));
-    ```
+  ```js
+  Promise.all([recipeUpdate, recipeRemove])
+      .then(result => {
+          mongoose.connection
+              .close()
+              .then(() => console.log(`connection closed`))
+              .catch(err => console.log(`error closing connection: ${err}`));
+      })
+      .catch(err => console.log(`an error has occurred: ${err}`));
+  ```
 
 
 
