@@ -76,11 +76,12 @@ Summary:
 
 ## Fix: ironlauncher not installing dependencies:
 ```
-npm install cookie-parser@1.4.6 dotenv@16.1.4 express@4.18.2 hbs@4.2.0 mongoose@7.2.2 morgan@1.10.0 serve-favicon@2.5.0
+npm install cookie-parser@1.4.6 dotenv@16.3.1 express@4.18.2 hbs@4.2.0 mongoose@7.4.5 morgan@1.10.0 serve-favicon@2.5.0 
+
 ```
 
 ```
-npm i nodemon@2.0.22 --save-dev
+npm install nodemon@3.0.1 --save-dev
 ```
 
 
