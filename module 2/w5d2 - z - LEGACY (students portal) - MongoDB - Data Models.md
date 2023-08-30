@@ -3,9 +3,9 @@
 
 <!--
 
-Status: draft
+Status: old 
 
-@todo: define detailed examples
+(I now follow "w5d2 - b2 - ALTERNATIVE Codealong")
 
 -->
 
@@ -14,6 +14,12 @@ Status: draft
 
 - in our documents, we may need to store more complex data (eg. object)
   - explain with an object.
+
+- 3 types of relationship:
+  - one-to-one
+  - one-to-many
+  - many-to-many
+
 
 - relationships between data:
   - Embedded documents
@@ -104,7 +110,7 @@ books: [id1, id2, ...]
 
 - Reference ()
 
-  ```javascript
+  ```js
   const bookSchema = new mongoose.Schema({
       title: String,
       author: {type: mongoose.Schema.Types.ObjectId, ref: 'Author'}, //single reference
@@ -115,7 +121,7 @@ books: [id1, id2, ...]
 
 - Embed documents (source: https://mongoosejs.com/docs/subdocs.html):
 
-    ```javascript
+    ```js
     const parentSchema = new Schema({
         child: childSchema // Single nested subdocuments
         children: [childSchema], // Array of subdocuments
