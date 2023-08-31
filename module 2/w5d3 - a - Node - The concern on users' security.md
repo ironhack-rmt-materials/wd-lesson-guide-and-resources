@@ -3,12 +3,12 @@
 
 <!--
   
-  Status: ready (just need to link slides)
+  Status: ready 
 
 
 Time: 
-  - Slides: 1h15min (try to make it in 1h)
-  - Bcrypt Demo: 40min.
+  - Slides: 1h
+  - Bcrypt Demo: 30min.
 
 -->
 
@@ -53,3 +53,11 @@ https://bcrypt-generator.com/
 Password Strength: using a passphrase (an alternative for password requirements)
 https://protonmail.com/blog/wp-content/uploads/2019/03/passwords_blog_protonmail.png
 
+
+## Extra Resources 2 (videos with further topics)
+
+Video: 7 Cryptography Concepts EVERY Developer Should Know (Fireship, 12min.)
+https://www.youtube.com/watch?v=NuyzuNBFWxQ
+
+Video Playlist: Basic Cryptography (Sunny Classroom)
+https://www.youtube.com/playlist?list=PLSNNzog5eyduN6o4e6AKFHekbH5-37BdV

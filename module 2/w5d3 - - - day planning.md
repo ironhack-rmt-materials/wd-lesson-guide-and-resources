@@ -12,19 +12,45 @@ Methodology:
 - Continue adding functionality on our library app
 - Example: https://github.com/Ironmaidens-Ironhack-Jan-2022/mongoose-express-CRUD-codealong/commits/main
 
+
+
+
+
+@LT:
+- finish by 3pm-4pm
+- Assessment DEADLINE today.
+
+
+Assessment "NodeJS and MongoDB CRUD app (202306)" 
+(aka. "[WEB] M2 - CRUD App with populate [V6]")
+
+  - does  not work on current version Qualified:
+    const {mongoose, Schema, model } = require("mongoose");
+
+  - can do the following:
+     const mongoose = require("mongoose");
+     const { Schema, model } = require("mongoose");
+
+  - or just use Schema
+
+UPDATE (aug. 2023): fixed in V6. 
+
+
 -->
 
 
 
 
-Summary:
-- Some notes on security (storing passwords, cryptography)
+Planning:
+- Notes on security (storing passwords, cryptography) [1h]
+- bcrypt demo
 - Registration: Creating user accounts
 - Form validation
 - Login & Sessions
 - Logout
+
+Tomorrow:
 - Middleware (Custom middleware for user authorization)
-- Passport
 - ironlauncher --auth
 
 
@@ -40,41 +66,6 @@ ALTERNATIVE (instead of codealong, which can take the whole day):
   - research & understand code (eg. why validation works etc)
 - then, explain concepts (eg. login, sessions etc...)
 
-
-
-
-IMPORTANT: ask students for preferences for project2
-
-
-  ```js
-  const myPreferences = {
-      iWantToWorkwith: ["alice", "bob", "charly", "david", "elisabeth", "frank"], // 6 names, ordered by preference
-      iPreferToAvoid: ["", ""] // max 3 names
-  }
-
-  // - HOW: msg TA on slack
-  // - DEADLINE: thursday 9am
-  ```
-
-@students:
-- we will try to take those preferences into consideration.
-- in general, we try to avoid pairs with very different levels
-
-
-<!--
-
-- (optional) create channel #project-ideas on Slack.
-
-- Try (automatic groups): 
-  - https://clevergroups.com/tryit.php
-  - https://github.com/A-Fitz/Group-Generator
-
-- Or implement ourselves:
-  - https://www.youtube.com/watch?v=DuDvDrAXXbk (Irving's Algorithm for The Stable Roommate Problem)
-  - https://github.com/gfornari/stable-roommates-problem
-
-
--->
 
 
 

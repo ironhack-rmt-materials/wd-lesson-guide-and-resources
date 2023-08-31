@@ -4,10 +4,8 @@
 
 <!-- 
 
-- @Luis: follow students portal (~~highlighted, july21~~)
-
 - Sample repo:
-https://github.com/Ironborn-Ironhack-March-2022/node-codealong-library-app/commits/main
+https://github.com/ByteWarriors-Ironhack-Feb-23/warriors-library-project/
 
 -->
 
@@ -15,7 +13,9 @@ https://github.com/Ironborn-Ironhack-March-2022/node-codealong-library-app/commi
 
 - GOAL: allow users to create an account
 
-
+- NOTE:
+  - today, we will see a lot of code
+  - don't need to memorize all this (ironlauncher), just understand what we do
 
 
 ## Step 0: User Model
@@ -23,7 +23,7 @@ https://github.com/Ironborn-Ironhack-March-2022/node-codealong-library-app/commi
 - email
 - passwordHash
 
-Sample: https://github.com/Ironmaidens-Ironhack-Jan-2022/mongoose-express-CRUD-codealong/blob/dc3b9c95d60d62e181183cebef1fdfd63cae63e0/models/User.model.js
+Sample: https://github.com/ByteWarriors-Ironhack-Feb-23/warriors-library-project/blob/main/models/User.model.js
 
 
 
@@ -56,8 +56,8 @@ Sample: https://github.com/Ironmaidens-Ironhack-Jan-2022/mongoose-express-CRUD-c
     bcryptjs
         .genSalt(saltRounds)
         .then(salt => bcryptjs.hash(password, salt))
-        .then(hashedPassword => {
-        console.log(`Password hash: ${hashedPassword}`);
+        .then(hash => {
+        console.log(`Password hash: ${hash}`);
         })
         .catch(error => next(error));
     ```
@@ -68,15 +68,22 @@ Sample: https://github.com/Ironmaidens-Ironhack-Jan-2022/mongoose-express-CRUD-c
   User.create(
     {
       email,
-      passwordHash: hashedPassword
+      passwordHash: hash
     }
   )
   ```
 
 
+  Example `POST /signup`:
+  https://github.com/ByteWarriors-Ironhack-Feb-23/warriors-library-project/blob/b20b1d6cbaf74525fe4471b7286766abe2ad419e/routes/auth.routes.js#L17
+
+
+## Step 3: once account is created, redirect to user profile page
+
 - Once the account is created, redirect to a profile page
-  - Create view (`views/auth/profile.hbs`)
   - Create route (GET `/user-profile`)
-  - Redirect (`res.redirect('/user-profile');`)
+  - Create view (`views/auth/user-profile.hbs`)
+    - for now, just display a paragraph, (ex. "This is your profile page my friend!")
+  - When account is created, Redirect (`res.redirect('/user-profile');`)
 
 

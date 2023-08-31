@@ -10,7 +10,7 @@
 - provide boilerplate code with steps 1-4 (or at least 1-2) already done (students would clone, avoiding all those steps that by now they should know)
 
 
-@Luis: follow students portal (~~highlighted, july21~~)
+@Luis: follow students portal
 
 -->
 
@@ -23,8 +23,10 @@
 
 ## Login
 
-- See "Step 4: functionality to login":
-  https://github.com/Coding-Ninjas-Ironhack-Sept-2021/basic-auth-express-mongoose
+- (README) See "Step 4: functionality to login":
+  https://github.com/Coding-Ninjas-Ironhack-Sept-2021/basic-auth-express-mongoose/blob/main/README.md
+
+
 
 
 
@@ -32,38 +34,61 @@
 
 - See how, when we refresh the page, we loose the user details
 
+  Visit in the browser: http://localhost:3000/user-profile
+
+  ```js
+    <button>
+      <a href="/user-profile">Reload the page</a>
+    </button>
+  ```
+
+
 - Explanation: HTTP is a stateless protocol
   - "every time a new request is sent from the client to the server, the information about the previous request is lost"
   - wikipedia: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP_application_session
 
 
 
+
+
 - Data persistance using session and cookies
 
-  - Set cookie to 24h:
-
-    ```
-    cookie: {
-      // ...
-      maxAge: 1000 * 60 * 60 * 24 // 24h
-    },
-    ```
-
-
-- Session management
 
 
 <!-- 
 
   @luis: 
   - to keep the codealong a little bit shorter, apply this changes at the same time of the previous step (sessions + store sessions in DB, at the same time).
-  - for that, 
-    - install both packages together
-      - npm i express-session connect-mongo
-    - create "session.config.js" with the final result:
-      - example with valid config: https://raw.githubusercontent.com/StrangerCodingThings-Ironhack-June-22/mongoose-express-CRUD-codealong/main/config/session.config.js
 
 -->
+
+
+Install dependencies:
+ - `npm i express-session connect-mongo`
+
+
+
+Create `config/session.config.js`:
+
+  - Example: https://github.com/ByteWarriors-Ironhack-Feb-23/warriors-library-project/blob/main/config/session.config.js
+
+
+
+Require in app.js:
+
+```js
+  const app = express();
+  require("./config")(app);
+
+  require('./config/session.config')(app); // <<<<<<<<< Add this line
+```
+
+Configure environment variable in .env: `SESS_SECRET`
+
+
+<!--
+
+    OLD
 
 
   - OPTION 1 (December 2022):
@@ -85,52 +110,7 @@
 
     ```
 
-
-
-  - OPTION 2 (previous cohorts):
-    - to keep user logged-in in development (ie. when we change code and nodemon restarts the server), make sure the property "ttl" is not commented:
-
-    ```
-    store: MongoStore.create({
-      mongoUrl: MONGO_URI,
-      ttl: 60 * 60
-    }),
-    ```
-
-
-    <!--
-    @Luis:  process.env.SESS_SECRET || "unicorns"
-    -->
-
-    ```js
-    const session = require('express-session');
-
-    const MongoStore = require('connect-mongo');
-    const mongoose = require('mongoose');
-
-    module.exports = app => {
-        app.set('trust proxy', 1);
-
-        app.use(
-            session({
-                secret: process.env.SESS_SECRET,
-                resave: true,
-                saveUninitialized: false,
-                cookie: {
-                    sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
-                    secure: process.env.NODE_ENV === 'production',
-                    httpOnly: true,
-                    maxAge: 1000 * 60 * 60 * 24 // 24h
-                },
-                store: MongoStore.create({
-                    mongoUrl: process.env.MONGODB_URI || 'mongodb://127.0.0.1/library-project',
-                    ttl: 60 * 60 * 24 // 60sec * 60min * 24h => 1 day
-                })
-            })
-        );
-    };
-    ```
-
+-->
 
 
 
@@ -147,29 +127,43 @@
 ## Logout
 
 
+```js
+router.post('/logout', (req, res, next) => {
+  req.session.destroy(err => {
+    if (err) next(err);
+    res.redirect('/');
+  });
+});
+```
+
+```hbs
+  <form id="logout-form" action="/logout" method="POST">
+    <button>Logout</button>
+  </form>
+```
 
 
-
-## Bonus & Extra challenges:
-
-- Display "Logout" button only if user is logged-in.
+## Bonus: update navbar based on user status
 
 - Implement header with:
-  - If user is logged-in: display the message "Welcome ${username}" + Logut button
-  - If user is logged-out: display "Register" + "Login" buttons
+  - If user is logged-in: display the message "Welcome ${username}" + Logout button
+  - If user is logged-out: display only "Register" + "Login" links
 
 
   - Hint: 
-    - we need to pass info to all routes
+    - we need to access the info from req.session from all views
+    - since we don't want to pass it to each view, we can use res.locals
     - see here: https://expressjs.com/en/api.html#res.locals
 
 
-    ```javascript
+    ```js
     res.locals.pizza = true;
     ```
 
 
-    ```javascript
+Ex, in app.js you can add something like this:
+
+    ```js
     app.use((req, res, next) => {
       res.locals.session = req.session; // allow access to session data from layout.hbs
       next()
