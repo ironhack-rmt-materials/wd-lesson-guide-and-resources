@@ -70,7 +70,11 @@ Install dependencies:
 
 Create `config/session.config.js`:
 
-  - Example: https://github.com/ByteWarriors-Ironhack-Feb-23/warriors-library-project/blob/main/config/session.config.js
+  - Example: https://github.com/ironhack-tech-trash-july2023/techtrash-library-project/blob/main/config/session.config.js
+  - Notes:
+    - Will create a session cookie.
+    - These are similar settings as ironlauncher.
+    <!-- - we prob. don't need "trust proxy" anymore -->
 
 
 
@@ -83,34 +87,7 @@ Require in app.js:
   require('./config/session.config')(app); // <<<<<<<<< Add this line
 ```
 
-Configure environment variable in .env: `SESS_SECRET`
 
-
-<!--
-
-    OLD
-
-
-  - OPTION 1 (December 2022):
-    - code from Ironlauncher should work fine (it's a bit shorter than the settings we've used for previous cohorts)
-
-    ```js
-    const MONGO_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/my-app";
-
-    app.use(
-      session({
-        secret: process.env.SESSION_SECRET || "super hyper secret key",
-        resave: false,
-        saveUninitialized: false,
-        store: MongoStore.create({
-          mongoUrl: MONGO_URI,
-        }),
-      })
-    );
-
-    ```
-
--->
 
 
 
@@ -161,7 +138,7 @@ router.post('/logout', (req, res, next) => {
     ```
 
 
-Ex, in app.js you can add something like this:
+Ex. in app.js you can add something like this:
 
     ```js
     app.use((req, res, next) => {
