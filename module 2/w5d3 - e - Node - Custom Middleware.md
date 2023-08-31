@@ -6,14 +6,21 @@
 ## Custom middleware for user authorization
 
 @students: 
-- students portal includes a very detailed explanation, they may find it useful (login process, sessions, etc  )
+- students portal includes a very detailed explanation, they may find it useful (login process, sessions, etc)
 
 
 Explain:
 - middleware
   - ![diagram](./images/express-middleware.png)
 
-- custom middleware
+  - diagram 2: https://res.cloudinary.com/practicaldev/image/fetch/s--PHYkGiKU--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/73eusy0bc095c9w8tstw.png
+
+
+
+- Custom middleware
+
+  <!-- @Luis: search documentation for app.use() -->
+
   ```js
   app.use( (req, res, next) => {
     console.log("hello world")
@@ -21,13 +28,15 @@ Explain:
   });
   ```
 
-- middleware as an intermediate argument in our routes. eg:
+
+- Middleware as an intermediate argument in our routes. eg:
   
   ```js
   router.get('/admin', isUserLoggedIn, () => {
     ...
   })
   ```
+
 
 - Implement protected routes
   
@@ -41,18 +50,42 @@ Explain:
   }
   ```
 
+
 - Protect C+U+D books
+
 
 - Extract the middleware function to a separate file
   - Example: https://github.com/ironicHackers-Ironhack-Sept-22/ironic-library-project/commit/bb74239f42168550651a132c089f77cd165bbff4
 
+
+- Explain: exporting multiple things from the same file 
+
+  - Exporting:
+
+    ```js
+    module.exports = { isLoggedIn, logRequests };
+    ```
+
+  - Importing:
+    ```js
+    const { isLoggedIn, logRequests } = require("./my-file.js");
+    ```
 
 
 
 
 ## Ironlauncher with Auth boilerplate
 
-- Command: `npx ironlauncher just-a-demo --auth`
+
+<!-- 
+
+This is the command we've used so far:
+"npx --yes ironlauncher library-project"
+
+-->
+
+<!-- OLD `npx ironlauncher just-a-demo --auth` -->
+- Command: `npx ironlauncher@latest just-a-demo --auth`
   - IMPORTANT: remind students to select the option "views"
 
 <!--
