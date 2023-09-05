@@ -131,9 +131,30 @@ Example:
 
   - IMPORTANT: explain why we take this approach
 
-<!-- @Luis:
-  compare options to store relationships (1 vs. 2 vs. 3)
- -->
+
+## Compare options to store relationships (1 vs. 2 vs. 3)
+
+Discuss briefly:
+- option 1: include a reference in model A
+- option 2: include a reference in model B 
+- option 3: include a reference in both models (aka Two-way referencing)
+
+Comparison:
+- option 3:
+  - reading is easier (we just need to read collection)
+  - update/delete is more complex (we may need to modify both collections)
+
+Mention: "Single Source of Truth"
+
+Recommendation: single reference.
+
+<!--
+
+More info (do not share with students):
+- https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design
+- section "Intermediate: Two-way referencing"
+
+-->
 
 
 ## Update Seeds file
