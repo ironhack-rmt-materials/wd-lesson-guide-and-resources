@@ -1,6 +1,6 @@
 
 
-# React - CRA, JSX and React elements
+# React - Vite, JSX and React elements
 
 
 <!-- Status: complete -->
@@ -11,31 +11,41 @@
   - Using a toolchain
     https://reactjs.org/docs/create-a-new-react-app.html#recommended-toolchains
 
+Some options to create a React App:
+- Online editor
+  - stackblitz
+  - ...
+- Tool
+  - Create React App (CRA)
+  - Vite
+  - Next.js
+  - Remix 
+  - Gatsby
+  - ...
 
-- uninstall CRA `npm uninstall -g create-react-app`
-  - note: we've tested with CRA install globally vs. not, and takes the same time to create an app.
+<!--
+Legacy CRA:
+  - `npx --yes create-react-app react-playground`
+-->
+
+- Create app with Vite:
+  - `npm create vite@latest react-playground -- --template react`
 
 
-- Create app with CRA `npx --yes create-react-app react-playground`
-  
-  Note: `--yes` flag 
-  - Appartently in recent versions (I'm using npm v.6.14, students were using npm v.8) (https://stackoverflow.com/questions/69006097/does-npx-no-longer-do-install-less-run)
-
-
-- (while CRA is installing) Install React Dev Tools 
+- Install React Dev Tools 
   https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
 
 
 
 - Explain file & folder structure (for the app we've just created)
-
   - `package.json`
-    - dependencies
-    - scripts: `npm run start`
+    - dependencies & dev dependencies
+    - scripts: `npm run dev`
       - mention yarn
-
-  - `public/index.html` is the only .html file for the entire React app.
-  - `src/index.js` file is the default entry point to any React app.
+  - `vite.config.js` config file for Vite (customize Vite, options, plugins etc)
+  - `index.html` is the only .html file for the entire React app.
+  - `src/main.jsx` file is the default entry point to our React app.
+  - `src/App.jsx` root component 
 
 
 
@@ -57,7 +67,7 @@
     
     ```js
       const user = {
-        name: "bob",
+        firstName: "bob",
         surname: "smith"
       }
     ```
@@ -98,11 +108,21 @@
 
   - Example 5 - embed static files: images
 
+    <!-- 
+    
+    Link to logo
+
+    https://seeklogo.com/images/I/ironhack-logo-F751CF4738-seeklogo.com.png
+    
+    -->
+
       ```jsx
       import ironhackLogo from './assets/ironhack-logo.png'; //inside src
 
       <img src={ironhackLogo} alt="ironhack logo" />
       ```
+
+
 
 
 - (Bonus, self-guided) config JSX autocomplete on VS Code:
