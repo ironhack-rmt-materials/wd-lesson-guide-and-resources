@@ -63,7 +63,7 @@ For the Component Hierarchy:
 
 ## Iteration 3 | Add New Random Contacts
 
-- The list of contacts now will change (and we need to reflect that in our JSX) → now we need state :)
+- The list of contacts now will change (and we need to reflect that in our JSX) → now we need state.
 
 
   ```js

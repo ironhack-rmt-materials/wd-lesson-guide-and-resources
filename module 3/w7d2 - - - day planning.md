@@ -12,8 +12,6 @@ Status: just some notes
 
 w7d2 is quite challenging for students. Start at good pace from beginning.
 
-Mark bonus labs as "extra" in the students portal
-
 
 LAB "React IronContacts" is very challenging
 - offer students the possibility to work in pairs
@@ -25,22 +23,24 @@ LAB "React IronContacts" is very challenging
 Refresh from yesterday:
 - (skip) Module 3 & Requirements project 3
 - React intro
-- create-react-app
+- Vite
 - 2 types of components
 - props (how to pass and receive props)
 
 
 
-Summary Today:
+## Summary Today
 
-- State
-  - start with a basic counter
+State
+- demo (start with a basic counter) [1h]
+- exercise to practice state [1h]
 
-- Create "popcorn-time" with CRA
+Create "popcorn-time" with Vite
 
 Popcorn Time I:
-- Initialize project with CRA
-- Create component structure
+- Initialize project with Vite
+- (Warmup) exercise to refresh forEach() and map() [30min.]
+- Create component structure [30min.]
 - Import json with array of movies
 - Iterate through array
 - Conditional rendering (3 options)
