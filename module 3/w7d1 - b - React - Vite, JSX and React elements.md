@@ -6,16 +6,11 @@
 <!-- Status: complete -->
 
 
-- Different options to create a React app:
-  - Stackblitz
-  - Using a toolchain
-    https://reactjs.org/docs/create-a-new-react-app.html#recommended-toolchains
-
 Some options to create a React App:
 - Online editor
   - stackblitz
   - ...
-- Tool
+- Tools & frameworks:
   - Create React App (CRA)
   - Vite
   - Next.js
@@ -23,17 +18,20 @@ Some options to create a React App:
   - Gatsby
   - ...
 
+
+More details:
+- https://reactjs.org/docs/create-a-new-react-app.html#recommended-toolchains
+
+
 <!--
 Legacy CRA:
   - `npx --yes create-react-app react-playground`
 -->
 
+- create your `module3` directory
+
 - Create app with Vite:
   - `npm create vite@latest react-playground -- --template react`
-
-
-- Install React Dev Tools 
-  https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
 
 
 
@@ -50,8 +48,20 @@ Legacy CRA:
 
 
 
+- Install React Dev Tools 
+  https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+
+
+
+
 - JSX:
   
+  <!--
+  @todo:
+  - simplify this part (JSX)
+  - show first how to create & render components ? (and then, inside a specific component, add jsx examples)
+  -->
+
   - components: can receive info + return JSX
 
   - Inside the curly braces, we can put any valid JavaScript expression. 
@@ -85,7 +95,7 @@ Legacy CRA:
 
 
 
-  - Example 3 - embed function execution
+  - (skip) Example 3 - embed function execution
       ```jsx
       function capitalizeFirstLetter(str) {
         return str[0].toUpperCase() + str.slice(1);
@@ -101,12 +111,28 @@ Legacy CRA:
       ```
 
 
-  - Example 4: embed the attribute value
+  - Example 4: function that returns JSX
+
+      ```jsx
+      function renderTitle() {
+        return <h1>this is a title</h1>;
+      }
+      ```
+
+      ```jsx
+      return (
+        <>
+          renderTitle()
+        </>
+      )
+
+
+  - Example 5: embed the attribute value
     `<div id={theId}>`
 
 
 
-  - Example 5 - embed static files: images
+  - Example 6 - embed static files: images
 
     <!-- 
     

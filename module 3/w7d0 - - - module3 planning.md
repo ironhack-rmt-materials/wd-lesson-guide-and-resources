@@ -14,7 +14,7 @@
 
 ## Codealongs
 
-day1: React intro + CRA + Components & Props
+day1: React intro + Vite + Components & Props
 - codealong "React playground"
 
 

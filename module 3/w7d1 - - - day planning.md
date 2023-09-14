@@ -14,7 +14,6 @@ Notes:
 
 
 
-
 ## Project feedback (ask TAs)
 
 
@@ -22,20 +21,10 @@ Notes:
 
 Project 2 feedback:
 
-- just as we did for project1, pls check students projects and, for each project, do the following 2 things (you may need Monday + Tuesday):
-
-1. Give feedback to students (ex. if you see anything to they can learn from).
+Give feedback to students (ex. if you see anything to they can learn from).
 - Let's keep it positive.
 - Let's keep it brief (they'll be busy)
 - Let's keep it focused on things they can learn from (they will probably not have time to implement any suggestions)
-
-2. Grade each project.
-- I believe we don't have specific guidelines for that grade, so let's take into account both code + final result.
-- That grade can be done from the same person that reviews each project
-- Let's also aim for simplicity (we should not spend more than 2-5 minutes to decide each mark :pray:).
-
-
-Note: for pair projects, we can apply the same grade, unless there's clear reasons to assign a different grade to a student in the same team.
 
 -->
 
@@ -54,11 +43,10 @@ Note: for pair projects, we can apply the same grade, unless there's clear reaso
     - individual / pairs (confirm)
 
     <!-- 
-    @todo: add lab planning to the slides
+    @Luis: share lab planning with students
      -->
 
-  - Project 3:
-    - pairs
+  - Project 3: in pairs.
 
     <!--
     
@@ -95,24 +83,46 @@ Note: for pair projects, we can apply the same grade, unless there's clear reaso
 
 ## Rest of the day
 
-- [LESSON] React | Introduction
+- [LESSON] React | Introduction [1h]
 
-- (extra) ES6 modules
+- [EXTRA] ES6 modules [30min.]
   - Slides: https://docs.google.com/presentation/d/1SqJP7b9cQ9UpvTmfVpdojcFXjsTL0g1HH_cn0sq3SLs/edit?usp=sharing
 
-- [LESSON] React | Create React App, JSX and React elements
+- [LESSON] React | Create React App, JSX and React elements [1h]
 
 - [LESSON] React | Components & Props
 
 - [LAB] LAB | React Tweets
+  
+  
+  <!-- 
+  
+  @Luis:
 
-- Extra: try to do some Katas from [LESSON] | HOF exercises.
+  Consider doing "React training [steps 1-7]" (instead of "React Tweets")
 
-- Bonus homework: continue watching video (see below)
+  Topics Covered in steps 1-7:
+  - components, props
+  - inline style / conditional css
+  - props.children
+  - conditional rendering
+  
+  Things to Consider:
+  - would need to move Conditional Rendering to w7d1 (can be good to make d2 ligher)
+  - currently we don't have solutions (solutions for 1-7 can be enough)
+
+  -->
+
+
+- Self-guided: "Continue watching React Tutorial"
+
+- Bonus: HOF exercises
 
 
 
-## Homework Bonus (very recommended)
+
+## (self-guided) Continue watching React Tutorial
+
 
 > Did watching the video help you?
 > 

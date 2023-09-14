@@ -21,7 +21,7 @@ Notes:
 -->
 
 
-Intro Slides (function vs class components): 
+Intro Slides (conponents + function vs. class components): 
 https://docs.google.com/presentation/d/1iqYSImZj7p58ahLWryMSp00ooCCEf2cnIhjwc-pMFqw/edit?usp=sharing
 
 <!-- 
@@ -47,6 +47,16 @@ Example: create a sample app with the following components inside `<App />`:
 - `<Footer />`
 
 
+For User:
+```jsx
+  function User(){
+      return(
+        <h1>Name: Alice</h1>
+      );
+  }
+```
+
+
 Notes:
 - Class component: we must import React in the file.
 - Class component: must contain a render(){} method:
@@ -56,10 +66,32 @@ Notes:
 -  component tree 
 
 
-## Props
+## Props Warmup (making a function generic with arguments)
 
 
-Intro example (why props):
+> Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called props) and return React elements describing what should appear on the screen.
+
+Example with functions (show how we can create a generic function using arguments): https://stackblitz.com/edit/js-5tsf94?file=index.js
+
+
+
+## (DEMO) Props
+
+- Intro to props & syntax:
+  - passing props to the Header (ex. title).
+
+
+- Second example (why props are useful)
+
+  ```jsx
+  function User(){
+      return <h1>Name: Alice</h1>;
+  }
+
+  export default UserOne;
+  ```
+
+
 - `<Header />`
 - `<UserOne />`
 - `<UserTwo />`
@@ -67,84 +99,62 @@ Intro example (why props):
 - `<Footer />`
 
 
-<!-- 
-  @Luis: 
-  we can also start simple passing props to the header (ex. title).
--->
-
-
-
-> Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called props) and return React elements describing what should appear on the screen.
-
-  - Example with functions (show how we can create a generic function using arguments): https://stackblitz.com/edit/js-5tsf94?file=index.js
-
 
 - Passing and accessing a prop
 - Passing multiple props
-
-
-Exercise (OPTION 1) to practice the syntax:
-- Ask students to delete User component (and the lines to render it in App.js)
-- Task:
-  - create User component (function component)
-  - render User in App.js
-  - using props, display Alice & Bob
-  - (bonus): pass a second prop to display the fav food of each of them (ex. salad, pizza)
-- (bonus): pass a third prop to display the age of each of them (hint: `age={20}`)
-  - (bonus): pass an object as props (ex. an object with name and favFood)
-
+  - Note: we could also pass an object (ex. `userDetails={}`)
 
 
 
 Note: As props, we can pass any valid data type
 
 
-## Practice: react props
 
-<!-- same but with movies (instead of users) -->
+## Practice: components and props
 
+Initial code: 
+- https://stackblitz.com/edit/react-flgcfo?file=src/App.js
+-  note: in App.js we have an array of movies
 
-  Initial code: 
-  - https://stackblitz.com/edit/react-flgcfo?file=src/App.js
-  -  note: in App.js we have an array of movies
+Iteration 1: 
+  - create a component "Movie" (for this iteration, just display an h1 ex. `this is the Movie component`).
+  - IMPORTANT: in stackblitz, you need to import react in each file (`import React from 'react';`)
 
-  Iteration 1: 
-    - create a component "Movie" (for this iteration, just display an h1 ex. `this is the Movie component`).
-    - note: in stackblitz, you need to import react in each file:
-      - `import React from 'react';`
+Iteration 2: 
+  - in App.js, render 3 times the Movie component
 
-  Iteration 2: 
-    - in App.js, render 3 times the Movie component
+Iteration 3: 
+- use props to make the component generic
+- in app.js, you will need to send each element of the array as props.
 
-  Iteration 3: 
-  - use props to make the component generic
-  - in app.js, you will need to send each element of the array as props.
+```jsx
+  <Movie details={moviesArray[0]} />
+  <Movie details={moviesArray[1]} />
+  <Movie details={moviesArray[2]} />
+```
 
-  ```jsx
-    <Movie details={moviesArray[0]} />
-    <Movie details={moviesArray[1]} />
-    <Movie details={moviesArray[2]} />
-  ```
-
-  Bonus: display in the Header the number of movies.
-  Bonus: add some cool CSS.
+Bonus: display in the Header the number of movies.
+Bonus: add some cool CSS.
 
 
-  Time: 15min.
+Time: 15min.
 
 
-  Solution: https://stackblitz.com/edit/react-e2bf8p?file=src/components/Movie.js
+Solution: https://stackblitz.com/edit/react-e2bf8p?file=src/components/Movie.js
+
 
 
 ---
 
+Note: Todays lab
 
-- Todays lab:
-  - They will be passing elements of an array:
+- They will be passing elements of an array:
     `<Tweet tweet={ tweetsArray[0] }>`
     `<Tweet tweet={ tweetsArray[1] }>`
     `<Tweet tweet={ tweetsArray[2] }>`
-  - Each element is an object (ie. `props.tweet` is an object)
+- Each element is an object (ie. `props.tweet` is an object)
+
+
 
 
 
@@ -204,7 +214,7 @@ Note: As props, we can pass any valid data type
 
 
 
-## (extra) Receive props with object destructuring
+## (skip for now) Receive props with object destructuring
 
   - Option1: 
     ```js
