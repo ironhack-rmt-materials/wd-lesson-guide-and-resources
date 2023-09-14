@@ -3,6 +3,14 @@
 
 <!-- 
 
+
+
+Today:
+- DEMO (instead of codealong)
+- @todo: prepare quick exercises (stackblitz/codesandbox)
+
+
+
 Notes:
 - We will work on the app "popcorn-time" we created the day before
 - React Forms can take much longer than it seems (about 4h)
@@ -27,12 +35,22 @@ Ask students for yesterday's LAB (specific questions)
 
 State:
 
-- State vs. props.
+- props vs. State
 
-- When should we use the state
+- When should we use the PROPS:
+  - Pass information to a child component
+  - ex. reusable component that has different behaviour depending on info that it receives.
+
+- When should we use the STATE:
   - Store information that belongs to a component
   - Can change over time
   - We want to reflect the changes in the UI (JSX)
+
+
+- A Component will Re-render if:
+  - receives new props from the outside
+  - its own state changes
+
 
 - Syntax
   - hooks
@@ -64,6 +82,7 @@ Lists
 
 Conditional rendering
 - https://reactjs.org/docs/conditional-rendering.html
+- Cheatsheet: https://gist.github.com/luisjunco/7eab10cd2991fab11a759add4a15b7cc
 
 
 Show the app we were building yesterday
@@ -76,11 +95,11 @@ Show the app we were building yesterday
 
 Popcorn Time II...
 
-Lifting state up:
-- extract Controls or Movie to a specific component (communication child-parent, now we need to pass a callback to the child component) 
-- Display number of movies (in the same component where we have the list)
-- Display number of movies in the header (Lifting state up)
-- functionality to filter based on minRating (passing arguments in the callback)
+Lifting state up [3h]
+- Create a Movie component (will display the details of a movie)
+  - Fix Delete functionality (Passing callbacks)
+- Display number of movies in the Header component (Lifting state up)
+  - Fix Delete functionality (Passing callback to grandchild)
 
 
 Forms:
