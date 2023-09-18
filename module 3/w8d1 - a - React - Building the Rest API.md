@@ -2,9 +2,31 @@
 
 # React - Building the Rest API
 
+<!--
+@todo: improve planning & notes
+-->
 
 
-<!-- 
+<!--
+
+
+- Codealong final result:
+  https://github.com/Ironborn-Ironhack-March-2022/ironborn-project-management-server/commits/main
+
+
+  note: the last commits are for Auth ("functionality to register" + "functionality for authentication")
+
+
+- Approach: 
+  - option 1: codealong (takes quite a bit of time, 4h )
+  - option 2: giving students the code & ask them to try to understand it ? (they may feel overwhelmed)
+
+-->
+
+
+
+
+## What is REST API ?
 
 - Slides (REST + endpoints we will implement): 
   https://docs.google.com/presentation/d/194i1dCV2vpqTN5T3yC5lysvfS-_fnEkok97QpaOtb3w/edit?usp=sharing
@@ -14,29 +36,11 @@
 
 
 
-- Students portal: some things highlighted
+## Codealong: Initial Setup
 
-
-- Final result:
-  https://github.com/Ironborn-Ironhack-March-2022/ironborn-project-management-server/commits/main
-
-
-  note: the last commits are for Auth ("functionality to register" + "functionality for authentication")
-
-
-- Approach: 
-  - option 1: codealong (takes quite a bit of time, 4-6h )
-  - option 2: giving students the code & ask them to try to understand it ? (they may feel overwhelmed)
-
--->
-
-
-
-## Setup
-
-- Create directory `project-management-fullstack`
-
-- Ironlauncher: `npx ironlauncher COHORTNAME-project-management-server --auth --json`
+- Create directory: `mkdir project-management-fullstack`
+- Enter inside this directory: `cd project-management-fullstack`
+- Ironlauncher: `npx --yes ironlauncher@latest project-management-server --auth --json`
 
 
 <!-- IMPORTANT  -->
@@ -45,24 +49,12 @@
   
 IMPORTANT:
 - Initialize with `ironlauncher --auth --json` 
-- Replace `COHORTNAME` 
 
 <!-- IMPORTANT  -->
 <!-- IMPORTANT  -->
 <!-- IMPORTANT  -->
 
 
-
-
-## Part 1: intro to REST & best practices 
-
-
-REST API Design Best Practices (see students portal):
-- Use lowercase letters when naming endpoints
-- Do not use underscores ( _ ), use hyphens (-)
-- Use nouns instead of verbs in endpoint paths
-- Use HTTP verbs to indicate the action (GET, POST, PUT, DELETE)
-- Handle errors uniformly and respond with standard HTTP status codes
 
 
 ## If dependencies missing...
@@ -70,13 +62,11 @@ REST API Design Best Practices (see students portal):
 In case ironlauncher --auth --json does not install the dependencies:
 
   ```
-  npm install bcrypt@5.0.1 cookie-parser@1.4.6 cors@2.8.5 dotenv@16.0.3 express@4.18.2 express-jwt@8.3.0 jsonwebtoken@9.0.0 mongoose@6.8.4 morgan@1.10.0
-
-  npm install bcrypt@5.1.0 cookie-parser@1.4.6 cors@2.8.5 dotenv@16.3.1 express@4.18.2 express-jwt@8.4.1 jsonwebtoken@9.0.0 mongoose@7.3.1 morgan@1.10.0
+  npm install bcrypt@5.1.1 cookie-parser@1.4.6 cors@2.8.5 dotenv@16.3.1 express@4.18.2 express-jwt@8.4.1 jsonwebtoken@9.0.2 mongoose@7.5.2 morgan@1.10.0
   ```
 
   ```
-  npm install nodemon@2.0.22 --save-dev
+  npm install nodemon@3.0.1 --save-dev
   ```
 
 
@@ -149,7 +139,7 @@ Routes (implement each one + TEST WITH POSTMAP):
 - 4, 5, 6: 
   - copy code from students portal
   - ask students to read & understand code + test
-
+  - time: 15min.
 
 Bonus: full CRUD on tasks
   - GET /tasks
@@ -185,7 +175,8 @@ Bonus: full CRUD on tasks
   <!-- @todo: improve slides -->
   <!-- @todo: improve slides -->
 
-
+Note:
+- with "ironlauncher --auth --json", CORS is already implemented.
 
 
 ## EXTRA CHALLENGES
@@ -210,5 +201,6 @@ we will explain what is CORS and all those details a bit later but the code to d
 
 
 
-
-
+<!-- 
+@LT
+- (if we do React as self-guided) explain how to run 2 projects in dev -->
