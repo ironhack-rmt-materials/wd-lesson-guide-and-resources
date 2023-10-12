@@ -5,6 +5,15 @@
 
 Status: draft
 
+
+
+Today:
+- DEMO (instead of codealong)
+- @todo: prepare quick exercises (stackblitz/codesandbox)
+
+
+
+
 Notes:
 - Heavy concepts today (esp. lifecycle, useEffect, API calls, etc).
 - On top of that, students are usually tired (yesterday's lab is demanding)
@@ -28,10 +37,16 @@ Notes:
 
 Ask students for yesterday's LAB (specific questions)
 
+(extra) do demo with component library
+- ex. Chakra UI (note: follow setup guide)
+
 
 
 ## Refresh
-- communication between components (props & callbacks)
+- props:
+  - passing a `string` to a child component (show quick demo on code from yesterday)
+  - passing a `callback` 
+- state
 - lifting state up
 - forms (controlled components)
 

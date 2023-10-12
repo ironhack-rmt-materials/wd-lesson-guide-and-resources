@@ -3,8 +3,16 @@
 # React - Context API
 
 
-
 <!-- status: draft -->
+
+<!-- 
+
+@todo: 
+- create cheatsheet
+- create repo to fork (for codealong)
+
+
+-->
 
 
 
@@ -12,14 +20,9 @@
 ## Intro (slides + students portal)
 
 Slides: Passing information between components
-- React data-flow
-- Context API
-- Redux
-https://docs.google.com/presentation/d/1VqmAj_VPWQ2htbWhEXrXT-L1KatZo1FEcixcVyAS2Z4/edit?usp=sharing
+- https://docs.google.com/presentation/d/1VqmAj_VPWQ2htbWhEXrXT-L1KatZo1FEcixcVyAS2Z4/edit?usp=sharing
+- topics: props drilling, context API, Redux
 
-
-Students portal (highlighted)
-- prop drilling, etc
 
 
 
@@ -81,21 +84,22 @@ ex. in `index.js`
 
 ## Codealong Pre-Setup
 
-Option 1 (quicker + we can live share):
-- work from this codesandbox:
-  <!-- @Luis: remember to fork !! -->
-  <!-- @Luis: remember to fork !! -->
-  <!-- @Luis: remember to fork !! -->
-  https://codesandbox.io/s/relaxed-rumple-vb9p4i?file=/src/App.js
-  
-  - fork + live share
-  
-  <!-- @Luis: remember to fork !! -->
-  <!-- @Luis: remember to fork !! -->
-  <!-- @Luis: remember to fork !! -->
 
-Option 2:
-`npx create-react-app react-context-api`
+Initial code:
+https://github.com/ironhack-rmt-resources/react-context-api-demo
+
+Steps:
+- fork
+- clone
+- npm install
+- npm run dev
+<!-- @Luis: remember to fork !! -->
+
+
+Alternative - work from this codesandbox:
+- https://codesandbox.io/s/relaxed-rumple-vb9p4i?file=/src/App.js
+- NOTE: now Live Share is now a premium feature in CodeSandbox
+  <!-- @Luis: remember to fork !! -->
 
 
 
@@ -109,11 +113,17 @@ Option 2:
 
 - ask students to have a look & understand the initial code
 
-- follow students portal (highlighted)
+- initial intro to the syntax:
+  - Here, in index.js we provide the context
+  - ...and in ProjectCard.js we consume it.
+  - Basic syntax intro: https://codesandbox.io/s/fancy-rain-fyzklj?file=/src/index.js
+
+- follow students portal
   - 2 steps: providing context + consuming
 
-- oficial documentation (highlighted): https://reactjs.org/docs/context.html#reactcreatecontext
-
+- documentation:
+  - (old): https://reactjs.org/docs/context.html#reactcreatecontext
+  - (new) https://react.dev/reference/react/useContext
 
 - Final result:
   - Possible final result (not finished, only applied to homepage):

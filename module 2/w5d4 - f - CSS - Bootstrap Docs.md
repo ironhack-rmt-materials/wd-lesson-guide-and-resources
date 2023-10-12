@@ -2,7 +2,13 @@
 # CSS - Bootstrap Docs
 
 <!--
-Status: draft
+Status: ready
+
+@todo:
+- codealong design screenshots: make it generic (ex. plain buttons) 
+- record video + QA
+
+
 -->
 
 
@@ -25,11 +31,12 @@ Status: draft
 - Bootstrap versions
 
 
+
 ## Initial Setup
 
 <!--
 @Luis: 
-- do this before we go through the documentation (so that we can do qyuck demos)
+- do this before we go through the documentation (so that we can do quick demos)
 -->
 
 - `mkdir bootstrap-demo`
@@ -41,6 +48,8 @@ Status: draft
 
 
 ## Topics
+
+<!-- aug. 2023: v.5.3.1  -->
 
 Documentation
 
@@ -91,10 +100,22 @@ Repo:
 - Code: https://github.com/ironhack-rmt-materials/bootstrap-codealong
 - Demo: https://ironhack-rmt-materials.github.io/bootstrap-codealong/
 
+  <!-- @luis: deploy on another account -->
+
+
+Initial setup:
+<!-- @luis: follow this so that they have a .html file -->
+- mkdir bootstrap-demo
+- cd bootstrap-demo
+- touch index.html
+- code -r .
+- right click on  "index.html" and choose open with live server
+- create html structure with `!`
 
 
 
 Steps:
+
 - installation
 - grid
 - 3 cards
@@ -103,10 +124,63 @@ Steps:
 
 
 
-(Bonus) Responsive nav/hamburger menu (will be helpful for their projects)
+(Bonus) Responsive nav/hamburger menu (will be helpful for your projects)
 - https://getbootstrap.com/docs/5.0/components/navbar/
+- (v.5.3) https://getbootstrap.com/docs/5.3/components/navbar/#nav
 
 
+(Bonus) Quick demo on codealong project (library project)
+- ex. some css for list of books
+
+  ```hbs
+  <div class="container">
+      <div class="row">
+          {{#each books}}
+          <div class="col-12 col-lg-4 text-center mt-4 mb-4">
+              <section class="book-summary">
+
+              </section>
+          </div>
+          {{/each}}
+      </div>
+  </div>
+  ```
+
+
+  ```css
+  .book-summary {
+      border: 1px solid #aaa;
+      box-shadow: 2px 2px 2px #999;
+      padding: 2rem;
+  }
+  ```
+
+
+(Bonus) Emmet abbreviations:
+- Emmet cheatsheet: https://docs.emmet.io/cheat-sheet/
+- Emmet quickref: https://quickref.me/emmet
+
+
+## (Bonus) How to customize Bootstrap 5
+
+How to customize Bootstrap 5 (16min.):
+https://www.youtube.com/watch?v=nCX3QVl_PiI
+
+Topics covered:
+- install bootstrap as an npm package
+- scss
+- compile scss (vs code extension `Live Sass Compiler`)
+- override variables
+- add custom variables
+
+
+## (Bonus) Bootstrap vs. Tailwind CSS
+- Bootstrap vs. Tailwind CSS (1min.)
+  - https://www.youtube.com/shorts/CcWIj3oiX80
+
+- Tailwind CSS is the worst… (Fireship, 4min.)
+  - https://www.youtube.com/watch?v=lHZwlzOUOZ4
+  - topics: why tailwind, challenges and some tips
 
 
 ## Final notes

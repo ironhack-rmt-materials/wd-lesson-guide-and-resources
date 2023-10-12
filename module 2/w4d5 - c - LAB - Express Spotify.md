@@ -13,7 +13,7 @@
 
 Concepts:
 - APIs & Promises
-    ```javascript
+    ```js
     spotifyApi
       .searchArtists()
       .then()

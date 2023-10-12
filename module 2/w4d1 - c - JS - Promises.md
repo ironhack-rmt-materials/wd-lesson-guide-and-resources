@@ -469,8 +469,14 @@ Fetch API - JavaScript Tutorial for beginners:
   - fetch()
   - aynct/await
 
+
 - JavaScript Promises -- Tutorial for Beginners (ColorCode, 37min.)
 https://www.youtube.com/watch?v=TnhCX0KkPqs
+
+
+- Async Await vs. Promises - JavaScript Tutorial for beginners (ColorCode, 24min.)
+  https://www.youtube.com/watch?v=spvYqO_Kp9Q
+
 
 - Create your own Promises in JavaScript (dcode, 17min)
 https://www.youtube.com/watch?v=Y-aWVUAul9w

@@ -108,6 +108,14 @@ Time: 15min.
     app.get("/", (req, res, next) => res.render("product"));
     ```
 
+  <!--
+
+    UPDATE: use this syntax
+
+    res.render("product.hbs");
+    res.render("./subdirectory/product.hbs");
+
+  -->
 
 
 ## Passing info to Handlebars

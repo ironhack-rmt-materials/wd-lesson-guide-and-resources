@@ -41,52 +41,58 @@ Status: draft
 
 
 
-## Basic refresh Axios
 
-
-- Intro/Refresh Characters API:
+## Intro Characters API:
   - Base URL: https://ih-crud-api.herokuapp.com
   - list of characters: GET `/characters` (show on browser)
   - Show table with endpoints: w5d4 "AXIOS | POST, PUT and DELETE request"
 
 
-Demo: Refresh Axios GET
-  - Open Stackblitz + GET list of characters
+## Refresh Axios GET
+
+Demo:
+- Open Stackblitz + GET list of characters
   <!-- (note: on stackblitz, use axios v.0.27.2) -->
-  - Example: https://codesandbox.io/s/icy-rain-igs74w?file=/src/index.js
+- Example: https://codesandbox.io/s/icy-rain-igs74w?file=/src/index.js
 
 
-Practice: Axios Post request
-  - Using axios, create a new character in our API.
-  - BaseURL: https://ih-crud-api.herokuapp.com
-  - We need to send POST request to `/characters`
-  - In the body of the request, send an object with `{name: "", occupation: "", weapon: ""}`
+## Practice: Axios Post request
 
-  - Bonus 1: get the details of a specific character
-  - Bonus 2: update your character
-  - Bonus 3: delete your character
+Initial Setup:
+  - Start from this project (it already has axios installed): https://stackblitz.com/edit/js-8lg6qc?file=index.js
+  - Go to settings and choose "Page reload" + "Save"
 
-  - Time: 12min.
+Iteration 1: create a character with your name
+- Using axios, create a new character in our API.
+- BaseURL: https://ih-crud-api.herokuapp.com
+- We need to send POST request to `/characters`
+- In the body of the request, send an object with `{name: "", occupation: "", weapon: ""}`
 
+- Bonus 1: get the details of a specific character
+- Bonus 2: update your character
+- Bonus 3: delete your character
 
-    Note:
-    - On Stackblitz, you can install `axios@0.27.2`
-    - Example of a GET request: https://stackblitz.com/edit/js-vajlut?file=index.js
-
-    Endpoints:
-    ![characters api](./images/characters-api-endoints.png)
-
-    Hints:
-      - Example with a GET request https://codesandbox.io/s/icy-rain-igs74w?file=/src/index.js
-      - Documentation for POST: https://axios-http.com/docs/post_example
+- Time: 12min.
 
 
-  - SOLUTION: https://codesandbox.io/s/lively-cache-olz44t?file=/src/index.js
+Note:
+- On Stackblitz, you can install `axios@0.27.2`
+
+Endpoints:
+![characters api](./images/characters-api-endoints.png)
+
+Hints:
+  - Example with a GET request https://codesandbox.io/s/icy-rain-igs74w?file=/src/index.js
+  - Documentation for POST: https://axios-http.com/docs/post_example
+
+
+Solution: 
+  - https://codesandbox.io/s/lively-cache-olz44t?file=/src/index.js
 
 
   <!-- 
   @Luis: 
-  - ask users to DISABLE AUTO-SAVE (so that we don't repeat names many time)
+  - ask students to DISABLE AUTO-SAVE (so that we don't repeat names many time)
 
   - on CodeSandbox: https://stackoverflow.com/a/74508939/11298742
   
@@ -143,7 +149,6 @@ Examples: https://stackblitz.com/edit/js-sefk58?file=index.js
 
 
 
-
 ## (DEMO) sending API requests in our React App.
 
 <!-- DEMO ONLY -->
@@ -193,15 +198,21 @@ Step 2:
 - Store numberOfCharacters in `STATE`
 - Issue: Re-render loop (intro useEffect & side effects).
 
+Step 3: 
+- quick demo with `useEffect()`
 
 
 
-## Pre-setup
+## Initial Setup
 
-`npx --yes create-react-app react-characters-app`
+- `npm create vite@latest react-characters-app -- --template react`
+- cd react-characters-app
+- code -r .
+- npm install
+- npm run dev
 
-
-
+To run on a specific port:
+- npm run dev -- --port=3002
 
 
 ## Component Lifecycle
@@ -304,7 +315,7 @@ https://legacy.reactjs.org/docs/hooks-reference.html
 
 
 
-## useEffect - Unmounting phase
+## (skip) useEffect - Unmounting phase
 
 - the function passed to useEffect may return a cleanup function.
 
@@ -361,17 +372,17 @@ Note: students need a lot of guidance to be able to do this task for the first t
 
 Iteration 0:
 - We will work on our app "react-characters-app"
-- Make sure your app is running (`npm start`)
+- Make sure your app is running (`npm run dev`)
 
 
-Iteration 1:
+Iteration 1: display the number of characters (in App.jsx)
 - In App.js: use `useEffect` & `axios` to get a list of characters from the API.
 - Endpoint: GET "https://ih-crud-api.herokuapp.com/characters"
 - Once you have the list of characters, display that in the console.
-- You can also display the number of characters in the JSX (ex. so that the user can see how many characters there are).
-- Note: you will need to install axios as a dependency
+- Now, display the number of characters in the JSX (ex. so that the user can see how many characters there are).
 
-Iteration 2:
+
+Iteration 2: display a list of characters (in App.jsx)
 - Display info about each character in the user interface.
 - Ex. for each character, something like this:
   ```html
@@ -381,8 +392,8 @@ Iteration 2:
     </div>
   ```
 
-- Hints:
-  - We will work on `App.js` (for now, DO NOT CREATE OTHER COMPONENTS)
+- Notes:
+  - We will work on `App.jsx` (for now, DO NOT CREATE OTHER COMPONENTS)
   - You will need a stateful variable to store the list of characters
     - Ex.: ` const [characters, setCharacters] = useState([]); `
   - Once we get the response from the API, update state so that React re-renders the component.
@@ -449,7 +460,7 @@ Docs: https://reactjs.org/docs/hooks-rules.html
 
 ## IMPORTANT CONCEPTS
 
-- If `props` or `state` change, React will (can) re-render the component.
+- If `props` or `state` change, React will (may) re-render the component.
 
 - Avoid side effects during render phase
 

@@ -6,7 +6,7 @@
 
 ### EASY Kata => [Beginner - Lost Without a Map 8kyu](https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript)
 
-```javascript
+```js
 function maps(x){
   return x.map(e => e * 2)
 }
@@ -17,7 +17,7 @@ console.log( maps([1, 2, 3]) ) // [2, 4, 6]
 
 ### MID Kata => [Sum without highest and lowest number 8kyu](https://www.codewars.com/kata/576b93db1129fcf2200001e6/train/javascript)
 
-```javascript
+```js
 function sumArray(array) {
   if (!array) return 0
   let sum = 0;
@@ -40,7 +40,7 @@ console.log( sumArray([ 6, 2, 1, 8, 10 ]) ) // 16
 
 ### HARD Kata => [Bit Counting 6kyu](https://www.codewars.com/kata/526571aae218b8ee490006f4)
 
-```javascript
+```js
 var countBits = function (n) {
   let bin = n.toString(2);
   let sum = 0;
@@ -84,7 +84,7 @@ console.log( countBits(7) ) // 3
 
 ### EASY Kata => [Abbreviate a Two Word Name 8kyu](https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3)
 
-```javascript
+```js
 function abbrevName(name){
   const arr = name.split(" ")
   return `${arr[0][0].toUpperCase()}.${arr[1][0].toUpperCase()}`
@@ -96,7 +96,7 @@ console.log( abbrevName("harry potter") ) // H.P
 
 ### MID Kata => [Jaden Casing Strings 5kyu](https://www.codewars.com/kata/jaden-casing-strings/train/javascript)
 
-```javascript
+```js
 String.prototype.toJadenCase = function () {
   let strToArr = this.split(" ");
   let jadenArr = strToArr.map((word) => word[0].toUpperCase() + word.slice(1));
@@ -117,7 +117,7 @@ console.log( str.toJadenCase() );
 
 ### HARD Kata => [Pete, the baker 5kyu](https://www.codewars.com/kata/525c65e51bf619685c000059)
 
-```javascript
+```js
 function cakes(recipe, available) {
   const ings = Object.keys(recipe);
   const availablePerIng = ings.map(eachIng => {
@@ -139,7 +139,7 @@ console.log(cakes(recipe, available)); // 2
 
 ### EASY Kata => [Fake Binary 8kyu](https://www.codewars.com/kata/57eae65a4321032ce000002d)
 
-```javascript
+```js
 function fakeBin(x){
   let bin = ""
   for (let i = 0; i < x.length; i++) {
@@ -158,7 +158,7 @@ console.log( fakeBin('45385593107843568') ) // '01011110001100111'
 
 ### MID Kata => [Exes and Ohs 7kyu](https://www.codewars.com/kata/55908aad6620c066bc00002a)
 
-```javascript
+```js
 function XO(str) {
   let counterO = 0, counterX = 0;
   for (let i = 0; i < str.length; i++) {
@@ -175,7 +175,7 @@ console.log( XO("xxxm") ) // false
 
 ### HARD Kata => [Valid Parentheses 5kyu](https://www.codewars.com/kata/52774a314c2333f0a7000688)
 
-```javascript
+```js
 // with recursive function
 function validParentheses(parens) {
   function check() {

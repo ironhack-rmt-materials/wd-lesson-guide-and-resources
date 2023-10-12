@@ -23,6 +23,8 @@ This usally works: `git filter-branch -f --index-filter 'git rm --cached --ignor
 
 Source: https://stackoverflow.com/a/68569889/11298742
 
+Alternative: https://sentry.io/answers/delete-a-file-from-a-git-repository/
+
 
 NOTE:
 - git filter-branch rewrites history

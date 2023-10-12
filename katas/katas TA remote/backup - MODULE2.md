@@ -6,7 +6,7 @@
 
 ### EASY Kata => [A Needle in the Haystack 8kyu](https://www.codewars.com/kata/56676e8fabd2d1ff3000000c/train/javascript)
 
-```javascript
+```js
 function findNeedle(haystack) {
   return "found the needle at position " + haystack.indexOf("needle")
 }
@@ -18,7 +18,7 @@ console.log( findNeedle(haystack_1) ) // 'found the needle at position 3'
 
 ### MID Kata => [Complementary DNA 7kyu](https://www.codewars.com/kata/complementary-dna/javascript)
 
-```javascript
+```js
 function DNAStrand(dna) {
   let newDNA = ""
   for (let i = 0; i < dna.length; i++) {
@@ -50,7 +50,7 @@ console.log(DNAStrand("ATTGC")); //"TAACG"
 
 ### HARD Kata => [Array Exchange 6kyu](https://www.codewars.com/kata/5353212e5ee40d4694001114/train/javascript)
 
-```javascript
+```js
 function exchangeWith(a, b) {
   let aLength = a.length;
   let bLength = b.length;
@@ -89,7 +89,7 @@ console.log(otherArray); // ['c', 'b', 'a']
 
 ### EASY Kata => [Get the mean of an array 8kyu](https://www.codewars.com/kata/563e320cee5dddcf77000158/train/javascript)
 
-```javascript
+```js
 function getAverage(marks){
   let sum = 0;  
   for (let i = 0; i < marks.length; i++){
@@ -107,7 +107,7 @@ console.log(getAverage([1,2,3,4,5,])) // 3
 
 ### MID Kata => [Flatten 7kyu](https://www.codewars.com/kata/5250a89b1625e5decd000413/train/javascript)
 
-```javascript
+```js
 // using push
 var flatten = function (array) {
   let newArr = [];
@@ -144,7 +144,7 @@ console.log(
 
 ### HARD Kata => [Your Order, please 6kyu](https://www.codewars.com/kata/55c45be3b2079eccff00010f/train/javascript)
 
-```javascript
+```js
 function order(words) {
   let wordsArr = words.split(" ");
   let orderedArr = [];
@@ -182,7 +182,7 @@ console.log(order("is2 Thi1s T4est 3a"));
 
 ### EASY Kata => [Keep Hydrated! 8kyu](https://www.codewars.com/kata/582cb0224e56e068d800003c)
 
-```javascript
+```js
 function litres(time) {
   return Math.floor(time/2)
 }
@@ -193,7 +193,7 @@ console.log(litres(5.4)) // 2
 
 ### MID Kata => [Drone Fly-By 7kyu](https://www.codewars.com/kata/drone-fly-by/train/javascript)
 
-```javascript
+```js
 // with .replace
 function flyBy(lamps, drone) {
   let lightLamps = lamps;
@@ -228,7 +228,7 @@ console.log(flyBy("x", "=T")); // 'o'
 
 ### HARD Kata => [Number of anagrams in an array of words 6kyu](https://www.codewars.com/kata/587e18b97a25e865530000d8)
 
-```javascript
+```js
 function anagramCounter(wordsArray) {
   let sortedArr = wordsArray.map((e) => e.split("").sort().join(""));
   // [ 'dell', 'dell', 'abc', 'abc', 'abc', 'abc' ]
@@ -370,7 +370,7 @@ console.log(anagramCounter(arr));
 
 ### EASY Kata => [Remove the time 8kyu](https://www.codewars.com/kata/56b0ff16d4aa33e5bb00008e)
 
-```javascript
+```js
 function shortenToDate(longDate) {
   let shortDate = ""
   for (let i = 0; i < longDate.length; i++) {
@@ -392,7 +392,7 @@ console.log( shortenToDate(date) ) // "Tuesday January 29"
 
 ### MID Kata => [Disemvowel Trolls 7kyu](https://www.codewars.com/kata/52fba66badcd10859f00097e)
 
-```javascript
+```js
 function disemvowel(str) {
   let newStr = "";
   for (let i = 0; i < str.length; i++) {
@@ -434,7 +434,7 @@ console.log( disemvowel("This website is for losers LOL!") )
 
 ### HARD Kata => [Find the odd int 6kyu](https://www.codewars.com/kata/find-the-odd-int/train/javascript)
 
-```javascript
+```js
 function findOdd(A) {
   let oddNumber = 0;
 
@@ -467,7 +467,7 @@ console.log(findOdd([20, 1, -1, 2, 5, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2]));
 
 ### HARD KATA => [Find the missing letter 6kyu](https://www.codewars.com/kata/find-the-missing-letter/javascript)
 
-```javascript
+```js
 function findMissingLetter(array) {
   for (let i = 0; i < array.length - 1; i++) {
     if (array[i + 1].charCodeAt() - array[i].charCodeAt() === 2) {
@@ -494,7 +494,7 @@ console.log(findMissingLetter(["a", "b", "c", "d", "f"])); // 'e'
 
 ### HARD Kata => [Clocky Mc Clock-Face 6kyu](https://www.codewars.com/kata/clocky-mc-clock-face/javascript)
 
-```javascript
+```js
 var whatTimeIsIt = function (angle) {
   // 360 degrees in a circle. 720 minutes in 12 hour.
   let totalMinutes = angle * 2;
@@ -518,7 +518,7 @@ console.log(whatTimeIsIt(90)); //  "03:00"
 
 ### HARD Kata => [Street Fighter 2 - Character Selection 6kyu](https://www.codewars.com/kata/street-fighter-2-character-selection/train/javascript)
 
-```javascript
+```js
 function streetFighterSelection(fighters, position, moves) {
   let charMove = [];
 

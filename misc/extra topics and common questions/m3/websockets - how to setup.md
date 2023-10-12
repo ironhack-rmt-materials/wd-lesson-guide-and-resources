@@ -42,6 +42,15 @@ https://github.com/ManishPoduval/simple-chat-socketio
 
 
 
+## Example of p2 project with websockets:
+
+Cristian + Ismael:
+https://bytes-and-dungeons.adaptable.app/
+https://github.com/bytes-and-dungeons/bytes-and-dungeons
+
+
+
+
 ## Example of p3 project with websockets:
 
 Note: had issue with socket.io disconnecting
@@ -57,7 +66,7 @@ Frontend:
 
 
 
-## Another example of p3 project with websockets:
+## Project 3:  example2
 
 Notes:
 - solved issue with socket.io disconnected
@@ -70,3 +79,11 @@ Frontend: https://github.com/JoTa-Events/moonlight-client
 
 Handle disconnection: https://github.com/JoTa-Events/moonlight-client/blob/main/src/components/ChatBox.js
 
+
+
+## Project 3:  example3
+
+PetHub (Cristian + Ismael):
+
+https://github.com/PetHub-MERN/pethub-client
+https://github.com/PetHub-MERN/pethub-server

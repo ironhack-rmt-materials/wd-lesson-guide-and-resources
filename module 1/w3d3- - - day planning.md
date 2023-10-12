@@ -18,23 +18,55 @@
 
 - deploy game (github pages)
 
+- explain that `index.html` will be the entry point.
+  - example 1: index.html - gameover.html
+  - example 2: index.html - game.html - gameover.html
 
+
+<!-- IMPORTANT -->
+<!-- IMPORTANT -->
 <!-- IMPORTANT -->
 - Ask students to submit urls (repo + github pages) on students portal
+  - (Set DEADLINE)
+<!-- IMPORTANT -->
+<!-- IMPORTANT -->
 <!-- IMPORTANT -->
 
 
+- add image
+  - start with absolute path (will work on localhost but fail on GH pages)
+  - show how commit & push will be reflected live
+  - see how it fails on production + explain cache
+  - fix using relative path.
 
-- show how commit & push will be reflected live
+
+- common pain points:
+  - index.html (should be your initial page)
+  - relative paths
+  - cache
+  - case-sensitive on github
+
+<!-- @todo: create slides deployment m1 -->
 
 
 - fix bugs (ex. images, css or js not loaded).
+
 
 - intro git branches (see `extra - git branches.md`)
   - note: do just a quick demo on a visual tool (it can be a bit too early to introduce branches)
 
 
-- Readme (add link to deployment)
+- Readme file: add link to deployment (so that anyone can test your game)
+
+
+
+<!-- IMPORTANT -->
+<!-- IMPORTANT -->
+<!-- IMPORTANT -->
+- Ask students to submit urls (repo + github pages) on students portal
+<!-- IMPORTANT -->
+<!-- IMPORTANT -->
+<!-- IMPORTANT -->
 
 
 

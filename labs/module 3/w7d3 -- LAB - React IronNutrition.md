@@ -16,7 +16,7 @@
 
 ### 2. import antd to the index.js and foods.json to App.js
 
-```javascript
+```js
   import 'antd/dist/antd.min.css';
   import foods from './foods.json';
 ```
@@ -33,11 +33,11 @@
 
 ### 3. import FoodBox component into App.js and render in return
 
-```javascript
+```js
   import FoodBox from './components/FoodBox';
 ```
 
-```javascript
+```js
   return <FoodBox />
 ```
 
@@ -49,7 +49,7 @@
 
 -> change values accordingly (check json file for keys) - for example:
 
-```javascript
+```js
   <img src={props.image} alt={props.name} />
 ```
 
@@ -59,7 +59,7 @@
 
 -> (no state neccessary here)
 
-```javascript
+```js
    {foods.map((food) => {
    return (
    <FoodBox
@@ -79,7 +79,7 @@
 
 ### 2. create onSubmit-Form with all input values (name, image, calories, servings)
 
-```javascript
+```js
   <div class="AddFoodForm">
     <div className={isHide ? 'show' : 'hide'}>
       <form onSubmit={submitButton}>
@@ -121,7 +121,7 @@
 
 ### 3. create useState for addedFood with initial states for these values (empty strings)
 
-```javascript
+```js
    const [addedFood, setAddedFood] = useState({
    name: '',
    image: '',
@@ -134,7 +134,7 @@
 
 --> all fields with onChange
 
-```javascript
+```js
    const handleInputChange = (event) => {
    const value = event.target.value;
    setAddedFood({ ...addedFood, [event.target.name]: value });
@@ -143,7 +143,7 @@
 
 ### 5. create function for submitButton and define function handleSubmit as props to App.js
 
-```javascript
+```js
 const submitButton = (event) => {
 props.handleSubmit(event, addedFood);
 };
@@ -153,19 +153,19 @@ props.handleSubmit(event, addedFood);
 
 ### 10. import AddFoodForm.js to App.js
 
-```javascript
+```js
   import AddFoodForm from './components/AddFoodForm';
 ```
 
 ## 11. add useState to change rendered FoodsList
 
-```javascript
+```js
   const [foods, setFoods] = useState(foodsList);
 ```
 
 ## 12. add function handleSubmit (for props from AddFoodForm)
 
-```javascript
+```js
     const handleSubmit = (event, newFood) => {
     event.preventDefault();
     const updateFood = [newFood, ...foods];
@@ -175,7 +175,7 @@ props.handleSubmit(event, addedFood);
 
 ## 13. add AddFoodForm.js component in return to render
 
-```javascript
+```js
   <AddFoodForm handleSubmit={handleSubmit} />
 ```
 
@@ -184,7 +184,7 @@ props.handleSubmit(event, addedFood);
 -> now we not tell to render foodsList from json only, but also the added food
 -> so use foods from state
 
-```javascript
+```js
   foods.map()
 ```
 
@@ -194,13 +194,13 @@ props.handleSubmit(event, addedFood);
 
 ### 1. add state for filteredFoods
 
-```javascript
+```js
   const [filteredFoods, setFilteredFoods] = useState('');
 ```
 
 ### 2. add function handleSearchInput
 
-```javascript
+```js
   const handleSearchInput = (event) => {
     setFilteredFoods(event.target.value);
   };
@@ -210,7 +210,7 @@ props.handleSubmit(event, addedFood);
 
 -> add input field in return of App.js (no need to create extra component)
 
-```javascript
+```js
   <div className="Searchbar">
     <input
       value={filteredFoods}
@@ -226,7 +226,7 @@ props.handleSubmit(event, addedFood);
 -> filter before map + iternary operator for when foodsList = 0)
 -> when filter make it case-insensitive with toLocaleLowerCase()
 
-```javascript
+```js
   {foods.length === 0 
     ? 
     <h1>Oops! There is no more content to show</h1>
@@ -258,7 +258,7 @@ props.handleSubmit(event, addedFood);
 
 -> set initial state to 'false'
 
-```javascript
+```js
 const [isHide, setIsHide] = useState(false);
 ```
 
@@ -266,7 +266,7 @@ const [isHide, setIsHide] = useState(false);
 
 -> setIsHide function will always do what is different the current state (!isHide)
 
-```javascript
+```js
   const handleHide = () => {
     setIsHide(!isHide);
   };
@@ -274,7 +274,7 @@ const [isHide, setIsHide] = useState(false);
 
 ## 3. add property in App.css with class with default not displayed
 
-```javascript
+```js
   .hide {
     display: none;
   }
@@ -284,7 +284,7 @@ const [isHide, setIsHide] = useState(false);
 
 -> use iternary to change className
 
-```javascript
+```js
   <div className={isHide ? 'show' : 'hide'}>
 ```
 
@@ -295,7 +295,7 @@ const [isHide, setIsHide] = useState(false);
 
 -> state with empty array
 
-```javascript
+```js
   const [todaysFoods, setTodaysFoods] = useState([]);
 ```
 
@@ -303,7 +303,7 @@ const [isHide, setIsHide] = useState(false);
 
 -> function to add value to todaysFood, when clicking on add-button
 
-```javascript
+```js
  const handleAddFood = (addedFood) => {
     setTodaysFoods((prevTodaysFood) => [addedFood, ...prevTodaysFood]);
   };
@@ -311,7 +311,7 @@ const [isHide, setIsHide] = useState(false);
 
 ### 3. Pass down handleAddFood into child component FoodBox.js
 
-```javascript
+```js
   <FoodBox food={food} onAddFood={handleAddFood} />
 ```
 
@@ -319,7 +319,7 @@ const [isHide, setIsHide] = useState(false);
 
 --> add onClick event on button(+); through onClick we sending the updated food object with new amount from input field
 
-```javascript
+```js
  <button
    onClick={() => {
    props.onAddFood({
@@ -332,13 +332,13 @@ const [isHide, setIsHide] = useState(false);
 
 --> create state to hold amount
 
-```javascript
+```js
  const [amount, setAmount] = useState(1);
 ```
 
 --> create function to handle amount input field
 
-```javascript
+```js
  const handleChangeAmount = (event) => {
     setAmount(event.target.value);
   };
@@ -354,13 +354,13 @@ Just minor suggestions (see above);
 As a hint to hide the "AddFood"-Form:
 -> add a state, so you can change if hide or shown
 
-```javascript
+```js
   const [isHide, setIsHide] = useState(false);
 ```
 
 -> Wrap a div around whole form:
 
-```javascript
+```js
   <div className={isHide ? 'show' : 'hide'}>
   ...
   </div>
@@ -368,7 +368,7 @@ As a hint to hide the "AddFood"-Form:
 
 -> write function to handle this state:
 
-```javascript
+```js
   const handleHide = () => {
    setIsHide(!isHide);
   };
@@ -376,7 +376,7 @@ As a hint to hide the "AddFood"-Form:
 
 -> add these html in your return:
 
-```javascript
+```js
   <button id={isHide ? 'hide' : 'show'} onClick={handleHide}>
     {isHide ? 'Hide' : 'Show'}
   </button>
@@ -384,7 +384,7 @@ As a hint to hide the "AddFood"-Form:
 
 -> at least define a class in your CSS
 
-```javascript
+```js
   .hide {
   display: none;
   }

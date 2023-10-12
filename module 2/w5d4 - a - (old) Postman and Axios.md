@@ -26,7 +26,11 @@ Install Postman
   - https://www.postman.com/downloads/
   - Don't need to create an account (link at the bottom: "Skip")
 
-- Test Characters API with Postman
+Test:
+- option 1: against an express app on localhost
+- option 2: GET https://dog.ceo/api/breeds/image/random
+- option 3: Characters API: https://ih-crud-api.herokuapp.com/characters
+
 
 
 ## (optional) Introduce REST
@@ -66,7 +70,7 @@ Install Postman
 
 - Demo (with IronBnb API):
   - See documentation ("React | Connecting React app to the backend")
-    - also here: https://github.com/luisjunco/exercise-react-ironbnb-client
+    - (also here: https://github.com/luisjunco/exercise-react-ironbnb-client-vite)
   - Go to Stackblitz + install `axios`
     - Note: stackblitz seems to fail with latest version of axios.
     - Can fork this one (v.0.27.2): https://stackblitz.com/edit/js-hkgykx?file=index.js
@@ -106,6 +110,16 @@ Practice:
 - We will use Axios a lot in m3.
 - Project2: can be a bonus
   - ex. connect to a 3rd party API to get Weather info.
+  
 
+<!--
+Example of a nice integration with a 3rd party API in project 2:
+- https://github.com/chapter-verse/chapter-verse
+
+- Google Books API
+- A user can search for books (from the API)
+- A user can add books to a collection (they implement full CRUD on Collection)
+
+-->
   
 

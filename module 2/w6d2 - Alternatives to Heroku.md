@@ -13,6 +13,7 @@
     - still in Beta, at the moment, it requires to signup for an invitation code (update may23: not in Beta anymore).
     - build process takes some time (5-8min)
     - can not add collaborators (ex. to see error logs)
+    - invoking external apis from backend may be problematic in the free plan (in premium plan you can choose region)
 - fly.io
   - pros:
     - reliable

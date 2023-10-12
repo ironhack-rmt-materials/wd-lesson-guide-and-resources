@@ -3,9 +3,10 @@
 # README.md for your projects
 
 
+<!-- @todo: move to a gist -->
 
 
-## Project 1
+## README Project 1
 
 - Description
   - Brief description of the project
@@ -18,11 +19,14 @@
   - Link to the deployed version of your project (github pages)
 
 
+WARNING:
+- If you create/edit your readme directly on GitHub (on the browser), it will create a commit (and we still haven't seen how to integrate that with our own commits).
+- To avoid this, just create it on VS Code (create a file `README.md` + commit + push).
 
 
 
 
-## Project 2
+## README Project 2
 
 - Description 
   - Brief description of the project
@@ -33,13 +37,13 @@
   - how to run the application (eg. `npm run dev`)
 
 - Demo
-  - Link to the deployed version of your project (heroku)
+  - Link to the deployed version of your project (adaptable.io)
 
 
 
 
 
-## Project 3
+## README Project 3
 
 
 For each repo (front/backend), add a readme file with the following:

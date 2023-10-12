@@ -7,13 +7,9 @@
 
 status: draft 
 
-students portal: highlighted
-
 
 Methodology:
-- follow steps on students portal & get code from there
-- make sure students understand
-- ALTERNATIVE: ask students to do self-guided (at least some parts)
+- self-guided 
 
 
 

@@ -56,7 +56,7 @@
   - 1 fun question
 - Independent work
   - one group with each TA
-  - If students need support, they can ask on slack (eg. #ask-for-help-during-class)
+  - If students need support, they can ask on Slack (eg. #ask-for-help-during-class)
      
 
 

@@ -11,7 +11,18 @@
 
 ## Setup
 
-- We use https://app.mural.co/
+- We use one of those:
+  - https://app.mural.co (more flexible)
+  - https://www.goretro.ai/ (more simple)
+
+  <!-- 
+  
+  @Luis: 
+  - may be better to add columns one by one
+  - limit votes: 10. (or tell them one vote per card)
+
+  -->
+
 
 - On there, we add 4 "feedback" frameworks to gather feedback in the following categories:
 
@@ -36,13 +47,14 @@ Before sharing the link, explain:
     - https://www.trustradius.com//wp-content/uploads/agilevswaterfallfromouriken.png
 
   - Agile (multiple sprints):
-    - https://www.soldevelo.com/blog/wp-content/uploads/Agile-software-dev-1.jpeg
+    - https://soldevelo.com/wp-content/uploads/2020/12/Agile-software-dev-1.jpeg.webp
 
   - Scrum framework: 
     - https://zalatni.com/wp-content/uploads/2022/04/What-is-Agile-Scrum-Framework-1024x596-1.webp
 
   - Scrum ceremonies: 
     - https://i.ytimg.com/vi/33Fk3r9ZSUg/maxresdefault.jpg
+
 
 - Why it (a retro) is important
 - How we will work (brief intro)
@@ -56,4 +68,4 @@ Before sharing the link, explain:
 - How to vote +1, +2...
 - We start from category 1 (explain what it includes)
 
-
+![good feedback](./feedback-ih.png)

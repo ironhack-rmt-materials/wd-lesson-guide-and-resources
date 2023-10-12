@@ -84,7 +84,6 @@ This is the command we've used so far:
 
 -->
 
-<!-- OLD `npx ironlauncher just-a-demo --auth` -->
 - Command: `npx ironlauncher@latest just-a-demo --auth`
   - IMPORTANT: remind students to select the option "views"
 

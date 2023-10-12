@@ -5,7 +5,7 @@
 ## WEEK 1. DAY 3.
 ### INTRO KATA => [Are You Playing Banjo? 8 kyu](https://www.codewars.com/kata/53af2b8861023f1d88000832/train/javascript)
 
-```javascript
+```js
 function areYouPlayingBanjo(name) {
   if (name[0].toLowerCase() === "r") {
     return `${name} plays banjo`
@@ -21,7 +21,7 @@ console.log( areYouPlayingBanjo("Franco") )
 
 ### INTRO KATA => [Double Char 8 kyu](https://www.codewars.com/kata/56b1f01c247c01db92000076/train/javascript)
 
-```javascript
+```js
 function doubleChar(str) {
   let myStr = ""
   for (let i = 0; i < str.length; i++) {
@@ -41,7 +41,7 @@ console.log( doubleChar("FTW") )
 
 ### INTRO KATA => [The Feast of Many Beasts 8 kyu](https://www.codewars.com/kata/5aa736a455f906981800360d/train/javascript)
 
-```javascript
+```js
 function feast(beast, dish) {
   if (beast[0] === dish[0] && beast[beast.length-1] === dish[dish.length-1]) {
     return true
@@ -57,7 +57,7 @@ console.log( feast("brown bear", "bear claw") )
 
 ### INTRO KATA => [Count the Monkeys! 8 kyu](https://www.codewars.com/kata/56f69d9f9400f508fb000ba7/train/javascript)
 
-```javascript
+```js
 function monkeyCount(n) {
   // for loop and arrays
   let myArr = []
@@ -74,7 +74,7 @@ console.log( monkeyCount(3) ) // [1, 2, 3]
 
 ### EASY Kata => [Remove First and Last Character 8kyu](https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0)
 
-```javascript
+```js
 function removeChar(str){
   let newStr = str.slice(1, str.length - 1)
   return newStr
@@ -95,7 +95,7 @@ console.log( removeChar('eloquent') ) // 'loquen'
 
 ### EASY Kata => [String repeat 8kyu](https://www.codewars.com/kata/57a0e5c372292dd76d000d7e/javascript)
 
-```javascript
+```js
 function repeatStr(n, s) {
   let newStr = "";
   for (let i = 0; i < n; i++) {
@@ -116,7 +116,7 @@ console.log( repeatStr(2, "ha ") ) // "ha ha "
 
 ### MID Kata => [List Filtering 7kyu](https://www.codewars.com/kata/list-filtering/javascript)
 
-```javascript
+```js
 function filter_list(l) {
   let newArr = [];
   l.forEach((e) => {
@@ -138,7 +138,7 @@ console.log(filter_list([1, "a", "b", 0, 15])); // [1,0,15]
 
 ### MID Kata => [Sum of All the multiples 7kyu](https://www.codewars.com/kata/sum-of-all-the-multiples-of-3-or-5/javascript)
 
-```javascript
+```js
 function findSum(n) {
   let sum = 0;
   for (let i = 1; i <= n; i++) {
@@ -153,7 +153,7 @@ console.log( findSum(5) ) //  8
 
 ### BONUS Kata => [Unique In Order 6 kyu](https://www.codewars.com/kata/54e6533c92449cc251001667/javascript)
 
-```javascript
+```js
 var uniqueInOrder=function(iterable){
   let newArr = []
   for (let i = 0; i < iterable.length; i++) {
@@ -173,7 +173,7 @@ console.log( uniqueInOrder('AAAABBBCCDAABBB') ) // ['A','B','C','D','A','B']
 
 ### EASY Kata => [Short Long Short](https://www.codewars.com/kata/50654ddff44f800200000007/train/javascript)
 
-```javascript
+```js
 function solution(a, b){
   if (a.length < b.length) {
     return `${a}${b}${a}`
@@ -188,7 +188,7 @@ console.log( solution('Soon', 'Me') ) // 'MeSoonMe'
 
 ### MID Kata => [Vowel Count 7kyu](https://www.codewars.com/kata/vowel-count)
 
-```javascript
+```js
 function getCount(str) {
   let vowelsCount = 0;
   for (let i = 0; i < str.length; i++) {
@@ -231,7 +231,7 @@ console.log( getCount("abracadabra") ) // 5
 
 ### HARD Kata => [Find The Parity Outlier 6kyu](https://www.codewars.com/kata/5526fc09a1bbd946250002dc)
 
-```javascript
+```js
 function findOutlier(integers) {
   let evenArr = [], oddArr = [];
   integers.forEach(e => {
@@ -259,7 +259,7 @@ console.log( findOutlier([2, 6, 8, 10, 3]) ); // 3
 
 ### EASY Kata => [Reversed Strings 8kyu](https://www.codewars.com/kata/5168bb5dfe9a00b126000018)
 
-```javascript
+```js
 function solution(str){
   let newStr = "";
   for (let i = str.length-1; i >= 0 ; i--) {
@@ -279,7 +279,7 @@ console.log( solution('world') ) // 'dlrow'
 
 ### MID Kata => [Credit Card Mask 7kyu](https://www.codewars.com/kata/credit-card-mask/javascript)
 
-```javascript
+```js
 function maskify(cc) {
   if (cc.length > 4) {
     let hashtagStr = "#";
@@ -303,7 +303,7 @@ console.log(maskify("4556364607935616"));
 
 ### MID Kata => [Inverting a Hash 7kyu](https://www.codewars.com/kata/inverting-a-hash/train/javascript)
 
-```javascript
+```js
 function invertHash(hash) {
   let keys = Object.keys(hash);
   let values = Object.values(hash);
@@ -335,7 +335,7 @@ console.log( invertHash({ a: '1', b: '2', c: '3' }) )
 
 ### MID Kata (OPTIONAL) => [Square Every Digit 7kyu](https://www.codewars.com/kata/square-every-digit/train/javascript)
 
-```javascript
+```js
 function squareDigits(num) {
   let numStr = num.toString()
   let newNum = ""
@@ -356,7 +356,7 @@ console.log( squareDigits(9119) ); // 811181
 
 ### MID Kata (OPTIONAL) => [Isograms 7kyu](https://www.codewars.com/kata/54ba84be607a92aa900000f1)
 
-```javascript
+```js
 function isIsogram(str) {
   let check = true;
   str = str.toLowerCase();
@@ -376,7 +376,7 @@ function isIsogram(str) {
 
 ### HARD Kata (OPTIONAL) => [Playing with digits 6kyu](https://www.codewars.com/kata/playing-with-digits/train/javascript)
 
-```javascript
+```js
 function digPow(n, p) {
   let sum = 0;
   let numberStr = n.toString();

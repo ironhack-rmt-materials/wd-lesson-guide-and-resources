@@ -34,9 +34,12 @@ Make sure all have Adaptable.io INVITATION CODE.
 
 - Standup (after Q&A)
 
-- Submit URLs in the students portal. 
-  - Deadline: today, 5pm
-  - Note: it's Wed., it's normal if there's bugs (but make sure to submit URLs).
+- Submit URLs in the students portal (Deadline: today, 5pm) 
+  - IMPORTANT:
+    - Those are the urls for project 2 (ie. not the library project)
+    - Make sure to submit the correct urls
+    - It's Wed., it's normal if there's bugs (but make sure to submit).
+
 
 <!--
 @todo: 
@@ -50,13 +53,16 @@ Make sure all have Adaptable.io INVITATION CODE.
 https://www.loom.com/share/f905d44b81414eeeb5c6ddf0715ae3c5
 
 
+
 📝 Update Sept. 2023:
+
 - MongoDB Atlas has changed some details on their website (some pages are slightly different). 
 - You should be able to follow all steps without any problem but, in doubt, let us know.
 
-- example:
-  - video: ![mongodb-atlas-old](./images/deployment-m2-mongodbatlas-old.png)
-  - current: ![mongodb-atlas-new](./images/deployment-m2-mongodbatlas-new.png)
+- (minor) MongoDB Atlas has dome some changes in the UI:
+  - example from the video: https://drive.google.com/file/d/1noGvA2uOzr7xTo-gm91aEA9X_C9yHkkq/view?usp=sharing
+  - example of their new interface: https://drive.google.com/file/d/1KU6Rg5fM-bm3ZfTBmIOABlq8BlEp2cod/view?usp=sharing
+
 
 
 📌 Links & other things I mention in the video:
@@ -78,6 +84,24 @@ IMPORTANT:
 
 -->
 
+
+<!--
+@todo:
+
+IMPROVEMENTS / THINGS TO ADD ON THAT VIDEO
+
+1. (minor) some students may get an error creating an account on MongoDB Atlas with Github
+  - "Error: We were unable to log you in with that login method. Ensure that you have a public verified email address set on your GitHub account."
+  - In those cases, create the account with email & password (instead of social login).
+
+2. Testing with Compass
+  - how we can see production DB
+  - how to switch between local & production on Compass
+
+3. Emphasise that, if they have any bug in localhost, it will also be in production (but it shouldn't be the other way around). Give an example
+
+
+-->
 
 
 
@@ -112,6 +136,7 @@ Ask students to submit urls (github + adaptable) on students portal
 ## Seed file (seed data on production DB)
 
 <!-- @Luis: share instructions on Slack (no need to demo) -->
+<!-- @todo: create a gist -->
 
 
 To seed data on production, you can do the following:

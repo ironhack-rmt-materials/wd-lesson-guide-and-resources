@@ -88,7 +88,7 @@ Give feedback to students (ex. if you see anything to they can learn from).
 - [EXTRA] ES6 modules [30min.]
   - Slides: https://docs.google.com/presentation/d/1SqJP7b9cQ9UpvTmfVpdojcFXjsTL0g1HH_cn0sq3SLs/edit?usp=sharing
 
-- [LESSON] React | Create React App, JSX and React elements [1h]
+- [LESSON] React | Vite, JSX and React elements [1h]
 
 - [LESSON] React | Components & Props
 

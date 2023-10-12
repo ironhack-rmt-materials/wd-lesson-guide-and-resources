@@ -30,8 +30,10 @@ Status: notes
 
 
 
-## URL parameters
+## URL parameters (aka. dynamic routes)
 
+
+OPTION 1:
 
 ```js
 <Routes>
@@ -39,6 +41,24 @@ Status: notes
     <Route path="/characters/:characterId" element={<CharacterDetails />} />
 </Routes>
 ```
+
+
+OPTION 2:
+
+```jsx
+<Route path='/' element={renderListOfCharacters()}
+```
+
+<!--
+@Luis: use this approach 
+(no need to extract to a different component + will make things easier to explain single API request)
+-->
+
+
+
+
+
+
 
 
 ```js

@@ -78,6 +78,7 @@ https://netlify.app/
 
 Fix: CI = false
 
+Customise domain name.
 
 IMPORTANT - Fix in this order:
 - react app needs to know where is REST API
@@ -153,8 +154,6 @@ https://github.com/Sepidehatt/KeepMeAlive-hbs-version
   - push to github
   - deploy backend (push to main)
   - deploy frontent (push to main)
-
-- Work in teams (in case they're in teams, how they can deploy etc)
 
 - Troubleshooting (adaptable & netlify logs)
 

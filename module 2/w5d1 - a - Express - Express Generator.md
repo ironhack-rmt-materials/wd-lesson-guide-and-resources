@@ -26,22 +26,28 @@ Summary:
 
 ## IronLauncher
 
+Create a project with Ironlauncher;
+
+- Open VS code + a terminal
+- Navigate to your module2 directory
 
 - Setup your project (with NPX):
 
-    ```
-    npx --yes ironlauncher library-project
-    ```
+  <!-- OLD `npx --yes ironlauncher library-project` -->
+  - `npx ironlauncher@latest library-project`
+      <!-- note: students get a message "do you want to install 0.39..." choose yes -->
 
-    Choose:
-    - `Views`
-    - `No auth`
+
+- Choose: `Views`
+- Choose: `No auth`
+
 
     <!-- 
 
     @Luis: 
       - create with auth & just go through the code ??
       - (instead of auth codealong)
+      - Nope: I think it's better that in m2 we code auth from scratch.
 
     -->
 
@@ -53,16 +59,18 @@ Summary:
 
 - Explain...
   - Open `package.json` & explain scripts (start / dev)
-  - run: `npm run dev`
   - Opinionated (dependencies + structure)
     - we could use other packages
     - the structure created by the generator is just one of many ways to structure Express apps
   - dependencies
-  - general folder structure (`/models`, `/routes`, `/views`)
+  - dev dependencies
+  - run: `npm run dev`
   - .env & environment variables
     <!-- IMPORTANT: explain `environment variables` here -->
   - .gitignore
+  - general folder structure (`/models`, `/routes`, `/views`)
   - general flow of the application (starting from server.js)
+    - NOTE: get the "BIG PICTURE"
   - error handling
   - express.Router (create mountable route handlers)
     - https://expressjs.com/en/guide/routing.html#express-router
@@ -99,6 +107,11 @@ npm install nodemon@3.0.1 --save-dev
 
 - Start VS Code live session
 
+- Git init + commit
+
+<!-- @Luis: create initial commit + push -->
+
+
 
 ### Adding the model
 
@@ -106,6 +119,8 @@ npm install nodemon@3.0.1 --save-dev
   `models/Book.model.js`
 
   - IMPORTANT: follow the same model as students portal (so that we can use seed file later)
+
+  - Example: https://github.com/ironhack-rmt-resources/library-project-crud-codealong/blob/main/models/Book.model.js
 
 
 ### Seed File
@@ -116,8 +131,14 @@ npm install nodemon@3.0.1 --save-dev
   - Run seed file (`$ node bin/seeds.js`)
   - Check data is loaded (Compass)
 
-  
-<!--
-@Luis: drop DB library-project (from previous cohorts)
--->
+  - Example Seeds File: 
+    - https://github.com/ironhack-rmt-resources/library-project-crud-codealong/blob/main/bin/seeds.js
+
+
+
+    <!--
+    @Luis: drop DB library-project (from previous cohorts)
+    -->
+
+
 

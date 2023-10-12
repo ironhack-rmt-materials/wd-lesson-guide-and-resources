@@ -8,7 +8,7 @@ Tasks during presentation (Instruction Team):
 - [ ] Submit project marks on CT
 - [ ] Submit rubrics-presentation on CT
 
-- [ ] Slack msg students + ideas for improvements
+- [ ] Slack: msg students + ideas for improvements
 
 
 

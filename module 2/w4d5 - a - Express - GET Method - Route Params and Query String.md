@@ -36,48 +36,89 @@ Suggested approach:
 -->
 
 
-## Step Zero
 
-- In the app from yesterday, we can replace the static objects with a query to the DB (allows to refresh + it will make code easier to follow when we do route params)
+## Warmup
 
-- INSTEAD OF:
+- Explain the problem we currently have:
+  - one route for each pizza
+  - if we have 50 pizzas, it is not sustainable
+
+- Create multiple routes with drinks
 
   ```js
-      const data = {
-          title: "Pizza Margherita",
-          price: 8,
-          imgFile: "pizza-margherita.jpg",
-          ingredients: ["mozzarella", "tomato sauce", "basilicum"]
-      }
+    app.get("/drinks/beer", (req, res, next) => {
+        res.send("display info about beer")
+    });
 
-      res.render("pizza-page", data);
+    app.get("/drinks/wine", (req, res, next) => {
+        res.send("display info about wine")
+    });
+
+    app.get("/drinks/gintonic", (req, res, next) => {
+        res.send("display info about gintonic")
+    });
   ```
 
-- DO:
+- Explain how we can create generic routes
+
   ```js
-    Pizza.findOne({title: ""});
+    //GET /drinks/XXXX
+    app.get("/drinks/:something", (request, response, next) => {
+        console.log("our cool route has been executed")
+    });
   ```
 
-- Example: https://github.com/Ironmaidens-Ironhack-Jan-2022/IronmaidensCommerce/commit/b65a5d226c363c5e15acde6c69b6b5ca03d2a443
+- See how we can get the info:
+
+  ```js
+
+    //
+    // ROUTE PARAMS
+    //
+
+    //GET /drinks/XXXX
+    app.get("/drinks/:something", (request, response, next) => {
+        console.log(request.params)
+    });
+  ```
 
 
-TASK:
-- modify the other pizza routes:
-    - app.get("/pizzas/veggie",
-    - app.get("/pizzas/seafood"
-- instead of creating an object, now we want to get the info from the DB
+Practice: route params
+
+1. comment the routes that we currrently have for pizzas
+2. implement a generic route: GET /pizzas/XXX
+3. Inside that generic route, you need to send a query to the DB.
+
 Time: 10min.
 
 
+<!--
+
+July23:
+- we did lunch break here.
+- remember to create Spotify account
+
+-->
+
+
+<!--
+
+@todo: 
+- improve planning for the following steps
+- (too much info - simplify)
+
+-->
 
 
 ## Intro
 
 
+
+
 - Slides (Route params vs. query string vs. request body): 
   https://docs.google.com/presentation/d/1Z-f8heYSALVVuaevvMBcsE5OvOH1rSvyhkZXgY-JXW4/edit?usp=sharing
 
-
+  <!-- note: skip slides ? -->
 
 - When we use each one (typically):
   - Route params > Identify unique resources
@@ -212,16 +253,18 @@ Solution: put before the routes that are more specific (and later the ones with 
   {{/each}}
   ```
 
-TASK:
-- implement a new route `GET /pizzas`
+
+Practice: GET /pizzas
+
+- implement the route `GET /pizzas`
 - Inside this route:
   - Send a query to get all the pizzas in our DB
   - Once we have the result, render the view `product-list.hbs`
-    - Note: the view expects to receive an array with the name `pizzasArr`
-- (Bonus 1): modify the view, including a link for each pizza
+    - Note: the view expects to receive a property with the name `pizzasArr`
+- (Bonus 1): modify the view "product-list", so that it displays a link to see the details for each pizza
 - (Bonus 2): add some css
 
-Time: 10min.
+Time: 12min.
 
 
 
@@ -239,6 +282,32 @@ Time: 10min.
     maxPrice = Number(maxPrice);
 
 -->
+
+
+
+Filter by max price:
+
+```js
+
+    let maxPrice = req.query.maxPrice;
+    // const {maxPrice} = req.query;
+
+    maxPrice = Number(maxPrice); //convert to a number
+
+
+    let filter = {};
+    if(maxPrice){
+        filter = {price: {$lte: maxPrice}};
+    }
+
+
+    Pizza.find(filter)
+      .then()
+      .catch()
+
+```
+
+
 
 
 - One query param
@@ -270,7 +339,14 @@ Time: 10min.
 
 ## Query String from Forms
 
-- `<form action="/search" method="GET">`
+```hbs
+  <section>
+      <h3>Search by price:</h3>
+  </section>
+```
+
+
+- `<form method="GET" action="/search">`
 
 
 Things to mention:

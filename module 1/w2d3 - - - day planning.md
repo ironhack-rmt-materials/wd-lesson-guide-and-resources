@@ -6,6 +6,8 @@
 
 DOM manipulation: 
 - the day is VERY demanding (and overwhelming) for most students
+- we see a lot of methods & properties.
+- tell students they don't need to memorize all (just make sure to understand & be familiar with it).
 
 -->
 
@@ -19,27 +21,17 @@ DOM manipulation:
   - then change to 0ms
   - then uncomment the interval
 
-- ALTERNATIVE: ask if students have questions from chronometer lab.
 
+## Planning
 
+- LAB review
+- Project 1 examples
 
-## Contents
+- DOM manipulation: methods & properties [2.5h]
+- DOM manipulation: create DOM node [0.5h]
+- DOM manipulation: events [1.5h]
+- (skip) DOM manipulation: inputs [0.5h?]
 
-
-DOM manipulation:
-- can be good to prepare a short, easy exercise to practice.
-
-
-LAB "ironhack cart" -- DO IT IN PAIRS
-  - option 1: in PAIRS
-  - option 2: solve iteration 1 in main room
-    - time estimation (solving together in class): iteration 1 - 90min. 
-  - option 3: together (with LT) or small groups (with TAs)
-
-
-  - Time:
-    - As reference: working in pairs, in 1.5h they usually do iterations 1 and 2, possibly with help.
-    - instead, consider doing it together with LT (or in small groups with TAs), so that they have a feeling that we finish it.
-
+- LAB "DOM + OOP Memory Card Game" -- In pairs
 
 

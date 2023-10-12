@@ -2,33 +2,15 @@
 # DOM - Introduction and Selectors
 
 
-
-
-
-
 <!--- 
 
 Status: in progress
 
 
-NOTES: 
-
-- i've changed the order of some concepts compared to students portal (first ways to select elements, then properties)
-
-- IMPORTANT: this lesson and the next one feels a bit overwhelming for students (too many properties & methods but too little time to practice with them)
-
 
 TO-DO:
 - simplify: remove all concepts that are not used in the lab
-- create self-guided lab/exercise
-
-
-Suggested approach:
-- intro basic concepts (getElementById(), innerHTML, style property)
-- provide the students a cheatsheet or table with the main properties & methods that we see (or refer them to the students portal).
-- IMPORTANT: explain the differences with HTML collection / nodelist
-- pass them a challenge to solve (html doccument & some challenges to complete) [or do a codealong with those challenges]
-
+- create self-guided lab/exercise ?
 
 
 Note:
@@ -37,12 +19,16 @@ Note:
 
 
 
-INITIAL CODE: https://github.com/RemoteRaccoons-Ironhack-Nov-22/dom-manipulation-practice
-
 
 --->
 
 
+
+Bad news: 
+- lots of topics
+Good news:
+- m3: all this will be done by React
+- don't need to memorize all (just be familiar)
 
 
 
@@ -51,7 +37,7 @@ INITIAL CODE: https://github.com/RemoteRaccoons-Ironhack-Nov-22/dom-manipulation
 
 DOM manipulation cheatsheet: 
 https://stackblitz.com/edit/js-tdylkw?file=index.js
-
+<!-- @todo: convert to a gist -->
 
 
 
@@ -64,7 +50,6 @@ https://stackblitz.com/edit/js-tdylkw?file=index.js
 - Document Object Model (DOM)
   - API (Application Programming Interface) for HTML documents
     - introduce the concepts of "Interface" & "API"
-  - provides a structured representation of the document (web page) + defines a way that the structure can be accessed from JavaScript. 
   - The DOM is a fully object-oriented representation of the web page, and it can be modified from JavaScript.
 
 
@@ -78,7 +63,7 @@ https://stackblitz.com/edit/js-tdylkw?file=index.js
 - Quick Demo:
   - go to ironhack.com + open dev tools 
   - add an id to the main title
-  - in the console: `getElementById()` + `innerHTML`
+  - in the console: `document.getElementById()` + `innerHTML`
 
 
 - (optional) ask students to do the same
@@ -100,12 +85,24 @@ https://stackblitz.com/edit/js-tdylkw?file=index.js
 
 
 
-## Codealong
+## Initial Setup for DOM Codealong
 
 
-INITIAL CODE: 
-- https://github.com/RemoteRaccoons-Ironhack-Nov-22/dom-manipulation-practice
-- (ask students for fork + clone)
+Initial Code: 
+- https://github.com/ironhack-rmt-resources/dom-manipulation-practice
+- Fork + clone + open in VS Code.
+  
+
+  <!-- 
+  
+  @todo: add quick exercise in the middle 
+   (ex. before we see attributes)
+
+  -->
+
+
+LTs: Guided steps (with comments): 
+- https://github.com/RemoteRaccoons-Ironhack-Nov-22/dom-manipulation-practice/blob/f3cea5efd73bcac65f8acde5ceb8c1d43045ddd9/js/main.js
 
 
 
@@ -115,10 +112,8 @@ INITIAL CODE:
 let element = document.getElementById('some-id-goes-here');
 ```
 
-Note:
-- id must be a string
-- We can search on a different context (will apply to other methods we see later)
-  - document.method() vs elm.method()
+Note: id must be a string
+
 
 
 ## Change the content of an element: .innerHTML property
@@ -141,7 +136,6 @@ let elements = document.getElementsByClassName(names);
 
 - returns an HTMLCollection of all child elements which have all of the given class names.
 
-- can be called on any element (not only on the document). The element on which it is called will be used as the root of the search.
 
 - Important: returns an **HTMLCollection**
   - An HTMLCollection is an array-like object but is not an array.
@@ -178,10 +172,14 @@ let elements = document.getElementsByTagName(name);
 
 ## Search on a different context
 
+
 - document.method() vs elm.method()
   - explain the difference
 
 
+Example:
+
+> When called on the document object, the complete document is searched, including the root node. You may also call getElementsByClassName() on any element; it will return only elements which are descendants of the specified root element with the given class name(s).
 
 
 

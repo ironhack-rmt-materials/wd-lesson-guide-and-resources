@@ -15,22 +15,29 @@ Summary of the main topics:
 - Form with POST
 
   ```hbs
-  <form action="/login" method="POST">
-      <h3>Login</h3>
 
-      <label>
-          Email:
-          <input type="email" name="email" />
-      </label>
+  <section>
 
-      <label>
-          Password:
-          <input type="password" name="pw" />
-      </label>
+    <h3>Login:</h3>
 
-      <button type="submit">Login</button>
+    <form method="POST" action="/login">
+        <h3>Login</h3>
 
-  </form>
+        <label>
+            Email:
+            <input type="email" name="email" />
+        </label>
+
+        <label>
+            Password:
+            <input type="password" name="pw" />
+        </label>
+
+        <button type="submit">Login</button>
+
+    </form>
+
+  </section>
   ```
 
 - see: data is not sent in the URL
@@ -54,10 +61,28 @@ Summary of the main topics:
   - what is a ".env" file
 
 
-- Middleware
+- (skip for now) Middleware
   - introduce the concept of middleware
     - https://expressjs.com/en/guide/using-middleware.html
     - https://res.cloudinary.com/practicaldev/image/fetch/s--PHYkGiKU--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/73eusy0bc095c9w8tstw.png
     - https://d33wubrfki0l68.cloudfront.net/a22bb45df146d43b57f2f6c90182d19e7394cd96/d6e10/assets-jekyll/blog/express-middleware-examples/middleware-30b3b30ad54e21d8281719042860f3edd9fb1f40f93150233a08165d908f4631.png
 
 
+
+<!--
+
+
+For today's lab, we'll need a Spotify account.
+(doesn't need to be premium)
+
+https://developer.spotify.com/
+  - if you have a Spotify account, make sure you can login
+  - if you don't, pls create one (it doesn't need to be premium)
+
+
+
+
+Also, fork + clone lab
+
+
+-->

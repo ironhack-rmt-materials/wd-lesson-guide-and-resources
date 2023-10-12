@@ -86,7 +86,7 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
 
   - Technologies and things to learn (pick one or two at a time): 
     - further practice in React
-    - further practice in JavaScript & problem solving
+    - further practice in JavaScript & problem solving (ex. katas)
     - TypeScript +++
     - Next.js ++
     - TDD / Testing
@@ -94,7 +94,7 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
     - SCSS
     - Tailwind (an alternative to Bootstrap)
     - GraphQL (an alterntative to REST -ie. a different way to create an API)
-    - SQL Databases (ex. MySQL and PostgreSQL are popular choices)
+    - SQL Databases (for example, MySQL or PostgreSQL are popular choices)
 
     
 

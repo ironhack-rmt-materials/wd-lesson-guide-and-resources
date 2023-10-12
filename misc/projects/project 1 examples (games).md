@@ -16,6 +16,12 @@ Action games:
   https://ericveganoguera.github.io/ProjectGame/#
 
 
+- Chubby Buddies (Beatriz)
+  https://beatriz-96.github.io/project-1/
+  <!-- Note: play with keys "1" and "2" -->
+  <!-- Similar: "stacky-bird" -->
+
+
 - Snek (Dominika)
   https://dominikalipka.github.io/javascript-game-project/game-window/index.html
 

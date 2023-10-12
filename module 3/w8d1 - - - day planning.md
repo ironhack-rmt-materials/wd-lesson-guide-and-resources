@@ -1,21 +1,34 @@
 
 # w8d1
 
+<!-- 
+
+  @todo:
+  - improve this notes for day planning
+
+ -->
+
 
 - Project 3: 
   - Show 2 examples of m3 projects.
-    - first project with MVP requirements (auth, 3 models, CRUD)
-    - second project more advanced.
   - They can start thinking what they want to build
   - Ask students to write TAs their preferences (pairs, teams etc)
 
 
-- (optional) Refresh React concepts:
+- (OLD) Refresh React concepts:
   - can be done in pairs (45m+15m) or all together (30m.)
   https://docs.google.com/document/d/1D20pulIvbXX70ljTCDvMj4wZyvCpM1ggGgZAZj-Nr7I/edit?usp=sharing
 
 
 
+- Refresh:
+  - useEffect & API calls
+  - POST request to create a resource.
+
+
+- Intro:
+  - show architercture module 3 (react app + api)
+  - plan for the day
 
 
 - Run Commands:
@@ -30,25 +43,20 @@
   - client: includes auth functionality (inc. context, navbar, etc)
     - it also has .jsx extension + SERVICES + component for "loading", etc
 
-  -- PROBLEM: if we use that, all the auth functionality will be given
-     (students may not learn by implementing it)
+  -- PROBLEM: if we use that, all the auth functionality will be given (students may not learn by implementing it)
 
   -- ALTERNATIVE:
-    - generate as usual (ironlauncher --auth --json + CRA)
+    - generate as usual (ironlauncher --auth --json + Vite)
     - go through the units (students implement auth following students portal).
     - after that, we generate a project with "--fs" and we explain the little differences.
 
-
   -->
-
   
   - `mkdir project-management-fullstack` (IMPORTANT: create directory for both repos)
   - `cd project-management-fullstack`
-  - `npx --yes ironlauncher@latest COHORTNAME-project-management-server --auth --json` 
+  - `npx --yes ironlauncher@latest project-management-server --auth --json` 
     - (IMPORTANT: "--auth --json" )
-    - (IMPORTANT: replace "COHORTNAME" )
-  - `npx --yes create-react-app cohortName-project-management-client`
-
+  - `npm create vite@latest project-management-client -- --template react`
 
     <!-- 
   
@@ -74,11 +82,26 @@
   -> (otherwise they take toooo much time)
 
 
-  - Second lesson (" Integrating the React App")
-    - will be better to ask students to do as self-guided (or provide a video)
+  - Second lesson ("Integrating React App")
+    - Self-guided
 
 
 -->
+
+
+Common Pain point for many students:
+- we will have 2 apps running (front & back)
+  - Express API (Ironlauncher) - `npm run dev` (port 5xxx)
+  - React App (Vite) - `npm run dev` (port 3xxx)
+- naming:
+  - frontend / client / react app
+  - backend / server / express app
+
+  <!-- @Luis: show them (ie. run both apps on my computer) -->
+
+
+
+
 
 
 
@@ -115,12 +138,18 @@ Project 3 preferences:
 
 ```js
 const myPreferences = {
-      iWantToWorkwith: ["alice", "bob", "charly", "david", "elisabeth", "frank"], // 6 names, ordered by preference
+      iWantToWorkwith: ["alice", "bob", "charly", "david", "elisabeth", "frank", "george"], // 7 names, ordered by preference
       iPreferToAvoid: ["", ""] // max 3 names
 }
-```
 
-- DEADLINE: xxx
-- HOW: msg TA on Discord
-- We strongly recommend you doing project 3 in pairs (collaborating is essential as a web dev + you'll have more time to build a better project). If you really want to do it individually, mention that in your message to your TA
+/*
+
+- NOTE: in your preferences, do not include ppl that you feel have a very different level than you.
+
+- HOW: msg TA on Slack
+- DEADLINE: Wednesday 13:00
+
+*/
+
+```
 

@@ -3,22 +3,13 @@
 
 <!--- 
 
-@Luis:
-- live demo (there's a bug when you add new products): file:///C:/Luis/pro/Ironhack/labs/labs-further-solutions/m1-ironhack-cart-zhenni/lab-dom-ironhack-cart/index.html
-
+How: 
+- work in Pairs
 
 
 Notes:
-  - students find it very difficult (even iteration 1) -> solve together in class (eg. 1-3)
-
-
---->
-
-
-
-<!--- 
-
-How: work in PAIRS ?
+  - students find it very difficult (even iterations 1-2-3) 
+  - lab kick-off: show how to solve iteration 1
 
 --->
 

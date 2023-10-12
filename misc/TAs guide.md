@@ -22,7 +22,7 @@
   - eg. Feedback on 1 LAB/week (TBC)
 
 - Support students (breakout rooms, Slack...)
-  - eg. if there are questions unanswered on the slack channel for questions (not just TA, also LT and other students)
+  - eg. if there are questions unanswered on the Slack channel for questions (not just TA, also LT and other students)
 
 
 - Activities
@@ -34,7 +34,8 @@
     - if any student is expecting to be late, can not join etc, they should ideally write to TA on Slack
 
 
-- Upload recordings + lab solutions to slack
+- Share recordings + lab solutions (on Studio)
+
 
 
 

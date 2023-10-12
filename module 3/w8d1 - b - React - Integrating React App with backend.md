@@ -15,11 +15,10 @@ status: draft
 - ex. https://github.com/ironhack-labs/lesson-code-project-management-client-v2/tree/master
 
 
-
 -->
 
 
-`npx create-react-app project-management-client`
+- `npm create vite@latest project-management-client -- --template react`
 
 
 
@@ -27,7 +26,7 @@ New concepts in this unit:
   - All main concepts have been covered already.
   - Minor diferences:
     - Directory `pages` for components
-    - Functionality to "Update" (form needs to be prefilled) (MAIN NEW THING)
+    - Functionality to "Update" (form needs to be prefilled), "Edit Project Page" (MAIN NEW THING)
 
 
 
@@ -118,7 +117,9 @@ Then, we did the task below
 TASK:
 
 0. Initial setup:
-- clone repos and run both apps (`npm run dev`, `npm start`)
+- clone repos
+- start the server (`npm run dev`)
+- start the client (`npm run dev`)
 - server: https://github.com/Ironborn-Ironhack-March-2022/ironborn-project-management-server
 - client: https://github.com/Ironborn-Ironhack-March-2022/ironborn-project-management-client
 

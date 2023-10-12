@@ -6,15 +6,17 @@
 Methodology:
 - Codealong for a library app
 - This project can be expanded in the following days.
-- Example: https://github.com/Ironmaidens-Ironhack-Jan-2022/mongoose-express-CRUD-codealong/commits/main
+- Sample repo: https://github.com/ironhack-rmt-resources/library-project-crud-codealong
 
 
 IMPORTANT:
 - takes a lot of time.
-- create a cheatsheet explaining steps for CRUD
+- create a cheatsheet/guided gist with steps for CRUD
 
 - C+R: codealong
-- U+D: SELF GUIDED.
+- U+D: SELF GUIDED --- try to finish early.
+
+
 
 
 -->
@@ -25,9 +27,23 @@ IMPORTANT:
   - they can start thinking what they want to build
 
 
+Planning:
+- (Refresh)
+- (Overview of the week + overview of the day)
+- Ironlauncher
+- Model + Seeds file
+- R + C 
+- U + D (self-guided)
+
+
+
 
 ## Refresh
 - Refresh previous day(s).
+
+
+Monday!
+- https://www.digitalmomblog.com/wp-content/uploads/2021/09/fresh-start-meme.jpeg
 
 
 ## Codealong:
@@ -41,7 +57,7 @@ IMPORTANT:
 
 
 ## LABS:
-- LAB | Express Cinema (seed + Read)
+- LAB | Express Cinema (seed + Read) (Extra)
 - LAB | Express Drones (seed + CRUD)
 
 - To avoid repeating work, we can do only one LAB (ex. ask students to implement CRUD on Express Cinema + leave the other lab as optional)

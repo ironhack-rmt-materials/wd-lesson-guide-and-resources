@@ -2,10 +2,24 @@
 
 # Slack config
 
-these are the channels we create on our slack workspace ;)
+
+## How to add all workspace members to channels.
+
+0. Create the channels.
+
+1. Configure workspace default channels (so that new members are automatically added to those channels).
+
+2. To add all existing members:
+  - To get a list of members type `/who` (for example, in the general channel)
+  - Copy that list & paste when adding new members.
+
+
 
 
 ## channels
+
+
+These are the channels we create on our slack workspace.
 
 
 - help

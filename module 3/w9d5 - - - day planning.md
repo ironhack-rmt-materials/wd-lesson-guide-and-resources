@@ -10,6 +10,13 @@
   - MAKE SURE ALL STUDENTS HAVE SUBMITTED URLs ON STUDENTS PORTAL (github x2 + netlify)
 
 
+Also:
+- share contact details.
+
+
+
+
+
 Survey:
 https://media.istockphoto.com/photos/survey-picture-id876886576?k=20&m=876886576&s=170667a&w=0&h=0r4YA7oWdxgNTfmluYZCi6RLhcttxfNaV4qV-BKw8tA=
 

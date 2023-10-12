@@ -12,8 +12,8 @@ React Router Version History (dates on the left):
 - https://github.com/remix-run/react-router/releases
 
 Latest cohort:
-- Apr. 2023: v.6.10 (all working good)
-- June. 2023: v.6.13 
+- June. 2023: v.6.13 (all working good)
+- Sept. 2023: v.6.16
 
 -->
 
@@ -45,74 +45,42 @@ https://docs.google.com/presentation/d/159a7pMKmloZ7-xxamjChtkh6Y2j_I931JJaR9kVV
 
 
 
-# Basic example on Stackblitz
+## (Demo/codealong) Initial Setup + Basic Routing
 
-Show basice example on stackblitz
+
+Notes: 
+  - work on "react-characters-app"
+  - IMPORTANT: keep the code to display the list of characters in App.js (!!)
+
+Steps:
 - install `react-router-dom`
-- Render `<BrowserRouter>` in index.js
+- Render `<BrowserRouter>` in main.jsx
 - Add routes
 
-  ```js
+  ```jsx
     <Routes>
-      <Route path="/cats" element={<h2>display list of cats</h2>} />
-      <Route path="/dogs" element={<h2>display list of dogs</h2>} />
+      <Route path="/" element={<h1>this is the HOME page</h1>} />
+      <Route path="/about" element={<h1>this is the ABOUT page</h1>} />
+      <Route path="/contact" element={<h1>this is the CONTACT page</h1>} />
     </Routes>
   ```
 
-- Add Links
+- Add nav menu
 
-  ```js
-  <header>
-    <Link to="/dogs">Dogs</Link> |
-    <Link to="/cats">Cats</Link>
-  </header>
+  ```jsx
+    <nav>
+      <NavLink to="/">Home</NavLink> |
+      <NavLink to="/contact">Contact</NavLink> |
+      <NavLink to="/about">About</NavLink> |
+    </nav>
   ```
-
-
-Final result:
-https://stackblitz.com/edit/react-alhmi8?file=src/App.js
 
 
 
 Notes: 
-- explain what we're trying to achive first
-  - install `npm install react-router-dom`
-  - <Navigate />
-  - ...
-
+- Show how we can display the nav menu in all pages or only in the homepage
 - Explain: Backend vs. Frontend Routes
 
 
-
-
-## Old example
-
-Old Initial Code: https://stackblitz.com/edit/react-cucskj?file=src/App.js
-Possible final code: https://stackblitz.com/edit/react-bwzc2z?file=src/App.js
-
-
-
-
-
-# Codealong
-
-
-- work on "react-characters-app"
-- notes: 
-  - keep the code to display the list of characters in App.js
-  - create 2 components: Home, About
-    - update: instead, just display paragraphs.
-
-
-----------
-
-
-
-
-- Note: show how we can display the nav menu in all pages or only in the homepage
-
-
-
-(Follow students portal)
 
 

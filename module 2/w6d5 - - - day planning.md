@@ -10,21 +10,13 @@
   - ask students to submit urls in the students portal (repo + github pages)
 
 
-
-
-- 11h code freeze
-  - MVP must be ready (make sure you meet all requirements)
-  - From that moment on, we should make further changes on production.
-  - Full test on production (test all the functionality)
-  - All working fine ? Drop a line to your TA "all working fine, I don't make further changes on production"
-  - Critical bugs or problems ? Pls report by 11:30h.
-
 <!-- 
   Code Freeze. 
   
   Avoid:
   
   https://thecodinglove.com/when-we-add-one-last-feature-before-the-demo 
+
 -->
 
 
@@ -39,31 +31,35 @@
 
 - game (TBC. eg. 14:30h)
 
-- Presentations (TBC. eg. 15:00h)
-  - can invite family&friends
-
-
-## Weekend homework (before we start module3)
-
-
-Before we finish the day, tell students:
-- module 3 is very demanding
-- project 3 is very demanding (takes a lot of time). They need to focus 100% on MVP.
-
-
----
 
 
 
 
-Homework for this weekend:
-- pls fill in our weekly survey (3 minutes)
-- do the task below (46min.)
-- (optional) if you want, improve your project 2 (make sure you coordinate with your team mates)
-- take some rest & enjoy the weekend ;) 
+## After Presentations:
 
-______________
+Planning to improve project 2 ?
+- keep in mind that now it's a pair project
+- agree with your partner
+- some options:
+  - a. coordinate or do pair programming
+  - b. branch & PR
+  - c. you can also fork + deploy a different version (you'd need to deploy DB + code).
 
+
+Module 3:
+  - module 3 is very demanding
+  - (skip) project 3 takes a lot of time. They need to focus 100% on MVP.
+
+
+
+Task: Getting Familiar with React
+- see below (46min.)
+
+
+
+
+
+## Task: Getting Familiar with React
 
 
 <!--
@@ -105,5 +101,5 @@ Other alternatives / bonus:
 - Codevolution (https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
 
 
-
  -->
+

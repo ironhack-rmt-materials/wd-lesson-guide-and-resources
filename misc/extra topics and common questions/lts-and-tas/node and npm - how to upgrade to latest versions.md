@@ -2,12 +2,14 @@
 # How to upgrade Node and NPM to latest versions
 
 
-If you installed node through nvm, you can do the following:
+NVM:
 
-Node:
-- nvm ls
-- nvm use x.x.x
 - nvm install x.x.x (ex. `nvm install 18.14.1`)
+- nvm alias default x.x.x (ex.`nvm alias default 18.14.1`)
+
+- other useful commands: 
+  - nvm ls
+  - nvm use x.x.x
 
 
 NPM:
