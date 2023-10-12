@@ -10,6 +10,28 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
 
 
 
+## Intro: what is typescript
+
+- Quick demo:
+
+  <!-- @LT: create TypeScript project in Stackblitz -->
+
+    ```js
+    function calcTotal(a, b) {
+    return a + b;
+    }
+
+    const result = calcTotal(5, '10');
+
+    console.log(result);
+
+    ```
+
+## Intro: why TypeScript
+
+- Avoid run-time errors
+- Speed up development (sometimes)
+- Very common in the industry + job opportunities
 
 
 
@@ -23,9 +45,13 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
 
 - `cd typescript-demo`
 
-- create `index.ts` & add `console.log()`
+- `touch index.ts`
 
-- `tsc index.ts`
+- `code -r .`
+
+- add `console.log()`
+
+- Run file: `tsc index.ts`
 
 - by default, it translates to ES3 (ex. let will be translated to var)
 
@@ -40,8 +66,6 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
     ```
 
 
-- run with `tsc`
-
 - run with `tsc --watch` (will listen for changes in current directory)
 
 
@@ -53,8 +77,8 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
 - Implicit types
 
     ```ts
-    let amount = 20;
-    amount = "fifty";
+    let amount = 10;
+    amount = "20";
     ```
 
 - Explicit types
@@ -113,7 +137,7 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
     interface User {
         userName: string,
         age: number,
-        favFood?: string, // ? --> optional
+        likesPizza?: boolean, // ? --> optional
     }
 
     let user1: User;
@@ -142,25 +166,18 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
     ```ts
     interface User {
         userName: string,
-        age: number
-    }
-
-    const user1: User = {
-        userName: "alice",
-        age: 20
-    }
-
-    const user2: User = {
-        userName: "bob",
-        age: 21
+        age: number,
+        likesPizza?: boolean, // ? --> optional
     }
 
 
     let usersArr: User[];
 
-    usersArr.push(user1)
-    usersArr.push(user2)
-    // usersArr.push({foo: "bar"}); //error
+    usersArr = [
+        {userName: "alice", age: 30, likesPizza: true},
+        {userName: "bob", age: 40},
+        {userName: "charly", age: 50},
+    ];
 
     ```
 
