@@ -13,19 +13,23 @@ Alternative (if we have time): WATCH VIDEO TOGETHER
 
 ## CSS Position Videos
 
-Video:
 
-- CSS Position Tutorial | Learn CSS For Beginners (10min.)
-  - https://www.youtube.com/watch?v=gD3G67oPg-w
-  - Sample code (similar to the one used in the video): 
-    - Initial code: https://codepen.io/luisjunco/pen/ExePJRV
-    - Some options: https://codepen.io/luisjunco/pen/NWMqBww
+Self-guided: learn about CSS "position" property.
+
+Task:
+- Watch this video: https://www.youtube.com/watch?v=gD3G67oPg-w
+- While you watch the video, you can play with the code here: https://codepen.io/luisjunco/pen/ExePJRV
+
+Time: 20min.
 
 
-- (Bonus) Learn CSS Position In 9 Minutes (9min.)
+
+<!--
+
+(Alternative) Learn CSS Position In 9 Minutes (9min.)
   - https://www.youtube.com/watch?v=jx5jmI0UlXU
 
-
+-->
 
 
 

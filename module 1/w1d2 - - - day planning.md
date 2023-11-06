@@ -9,11 +9,11 @@
 -->
 
 
-- Questions yesterday's LAB? (20min.)
+- Questions yesterday's LAB? (20m.)
 
-- Bootcamp Intro (part 2) (20min.)
+- Bootcamp Intro (part 2) (20m.)
 
-- (optional) refresh css selectors (10min.)
+- (optional) refresh css selectors (10m.)
 
 - CSS Advanced Selectors (skip or very brief)
 
@@ -22,7 +22,10 @@
 
 - Flexbox 2h (1h concepts + 30min. practice)
 
-- CSS Positioning
+- CSS Positioning  (20m.)
 
-- LAB Collaboration Demo (30m)
+- Pair Programming Introduction (20m.)
+
+- LAB Collaboration Demo (30m.)
+
 

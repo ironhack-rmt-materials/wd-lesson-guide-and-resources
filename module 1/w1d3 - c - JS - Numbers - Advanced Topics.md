@@ -32,3 +32,7 @@ Bonus:
     generateRandomInInterval(20, 25); //generate a random number between 20 and 25
 
     ```
+
+Bonus: hint/solution
+- https://stackoverflow.com/a/1527820/11298742
+

@@ -2,6 +2,18 @@
 
 # CSS - Box Model
 
+
+
+ALTERNATIVE: watch this video together
+
+- Box Model In 8 Minutes (Web Dev Simplified) [8min.]
+  https://www.youtube.com/watch?v=rIO5326FgPE
+
+
+
+
+
+
 <!--- 
 
 Status: complete
@@ -9,6 +21,7 @@ Status: complete
 
 Notes:
 - box model is also covered in the prework (some things like "box-sizing" are not)
+
 
 -->
 
@@ -26,7 +39,12 @@ Notes:
 
 ## Codealong
 
-Follow the lesson starting from this simple code: https://codepen.io/luisjunco/pen/yLppaYV
+Initial code: 
+- https://codepen.io/luisjunco/pen/yLppaYV
+  <!-- @Luis: remember to fork -->
+
+Possible final result:
+- https://codepen.io/luisjunco/pen/wvRbLmx
 
 
 

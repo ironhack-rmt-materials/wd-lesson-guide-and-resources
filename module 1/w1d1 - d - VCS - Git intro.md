@@ -6,6 +6,8 @@
 
 Status: draft
 
+@todo: record video
+
 --->
 
 
@@ -29,6 +31,7 @@ Topics:
 - what is git & why it is useful.
   - keep track of changes
   - share code with other developers & integrate changes
+- create a directory & go inside it: `mkdir git-demo` + `cd git-demo`
 - initialize a repo: `git init`
 - create a file: `touch index.html`
 - create a file: `touch about.html`

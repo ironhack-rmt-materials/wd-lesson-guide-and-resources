@@ -21,6 +21,13 @@ Status: draft
 
 -  JS version history: https://cdn-media-1.freecodecamp.org/images/uBY4n5MuFWvc81VWSWVk2wc1ZYQ4MF1RM39A
 
+
+- Create blank project on stackblitz
+
+
+## console.log
+
+
 ## Comments
 
 

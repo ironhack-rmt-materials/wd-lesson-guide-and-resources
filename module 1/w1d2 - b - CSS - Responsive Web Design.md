@@ -42,7 +42,7 @@
   <!-- @Luis: show example on the code from yesterday -->
 
     ```css
-    @media (min-width: 1000px) {
+    @media (min-width: 800px) {
     .responsive-div {
         background-color: blue;
     }
@@ -65,10 +65,13 @@
     }
     ```
 
-- Note:  media queries do not change the specificity of your selectors.
-  - Common approach:
-    - mobile-first
-    - media queries for bigger screen later in the code
+
+- Note: 
+  - media queries do not change the specificity of your selectors.
+
+- Common approach:
+  - mobile-first
+  - media queries for bigger screen later in the code
 
 
 
@@ -109,6 +112,12 @@ Solution: https://codepen.io/luisjunco/pen/yLzwodK
     ```html
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     ```
+
+
+Why:
+- watch this video (from 0:00 to 2:00): https://www.youtube.com/watch?v=SElOdK2qTpI
+- see how viewport metatag was added to the code we produced yesterday
+
 
 
 

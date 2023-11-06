@@ -47,7 +47,7 @@ Status: ready
 
 
 
-  - Example 3 (comparing variables):
+  - Example 1 (comparing variables):
 
     ```js
       const name1 = "alice";
@@ -74,7 +74,7 @@ Status: ready
 
 
 
-  - Example 4 (modifying a copy):
+  - Example 2 (modifying a copy):
 
     ```js
 
@@ -111,6 +111,8 @@ Status: ready
 - If we don't want to mutate the array, we can make a copy (copy the values)
   - ex. use a for loop
 
+  <!-- @Luis: create a new stackblitz project -->
+
   ```js
   numbers = [1, 2, 3];
   numbersCopy = [];
@@ -122,8 +124,7 @@ Status: ready
   ```
 
 
-- Explain: Shallow vs. deep copy
-
+- Explain: Shallow vs. deep copy 
 
   ```js
   // Shallow copy
@@ -133,24 +134,28 @@ Status: ready
   // Deep copy --> we copy all levels by value (including nested levels)
   ```
 
+- Make a quick example of shallow copy (with nested data structure)
 
 
 ## How to clone arrays/objects
 
-Summary & examples: https://stackblitz.com/edit/js-tdtwkb?file=index.js
+Summary & examples: https://stackblitz.com/edit/js-ecmhxh?file=index.js
+
+<!-- @todo: create cheatsheet (ex. gist with a table of common ways) -->
 
 
 ### How to clone an array
 
 - Shallow copy: `const ironhackers = [...students];`
-- Deep copy 1: `JSON.parse(JSON.stringify())`
+- Deep copy 1: `JSON.parse(JSON.stringify());`
 - Deep copy 2: `const copy = structuredClone(original);`
 
 
 ### How to clone an object
 
-  - Deep Copy 1: `JSON.parse(JSON.stringify( myObject ))`
-  - Deep Copy 2: `const copy = structuredClone(original);`
+- Shallow copy: `const userCopy = { ...user };`
+- Deep Copy 1: `JSON.parse(JSON.stringify( myObject ));`
+- Deep Copy 2: `const copy = structuredClone(original);`
 
 
   - (skip) Object.assign:

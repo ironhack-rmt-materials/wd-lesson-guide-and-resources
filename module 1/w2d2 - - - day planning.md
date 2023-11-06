@@ -4,23 +4,6 @@
 
 
 
-## Refresh from prev day
-
-- functions
-  - Function declaration vs. function expression
-  - Arrow Functions
-  - Anonymous functions
-  - Callbacks
-- Timeouts & intervals
-  - setTimeout(), setInterval()
-
-- Array methods
-  - https://i.redd.it/t2f5w9bms1271.jpg
-  - .map(), .filter(), .reduce()
-  - .reverse(), .sort()
-
-
-
 
 ## Day Planning
 
@@ -33,10 +16,27 @@
 
 
 
-IMPORTANT: 
+## Refresh from prev day
 
-Afternoon: Show "project 1" examples:
-  - some examples: `project 1 examples.md`
+- Different ways of creating functions 
+  - function declaration (statement) vs. function expression vs. arrow function
+  - https://stackblitz.com/edit/js-evfgcy?file=index.js
+
+- Anonymous functions
+- Callbacks
+- Timeouts & intervals
+  - setTimeout(), setInterval()
+
+- Array methods
+  - https://i.redd.it/t2f5w9bms1271.jpg
+  - .map(), .filter(), .reduce()
+  - .reverse(), .sort()
+
+
+
+
+## Afternoon: show "project 1" examples:
+  - see: `project 1 examples.md`
   - they can start thinking what they want to build
 
 

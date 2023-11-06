@@ -31,7 +31,6 @@
 
 
 
-
 Today's LABs:
 - "LAB | JavaScript Functions and Arrays" → mandatory
 - "LAB | JavaScript Clue" → EXTRA (but very recommended)

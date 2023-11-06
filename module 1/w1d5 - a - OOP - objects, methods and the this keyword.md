@@ -109,9 +109,33 @@ Status: ready
 - Instance
 
 
-- Constructor & `this`
+- Constructor + storing info in properties
 
   <!-- @Luis: do not add "age" (we will do it in an exercise)  -->
+
+
+    ```js
+    class User {
+      constructor() {
+        console.log('the constructor method was invoked');
+        const userName = 'alice';
+        //this.userName = 'alice';
+      }
+      sayHello() {
+        console.log('hello, my name is...' + this.userName);
+      }
+      sayGoodbye() {
+        console.log('goodbye, my name is...' + this.userName);
+      }
+    }
+
+    const userOne = new User(); // create a new instance
+    userOne.sayHello();
+    userOne.sayGoodbye();
+
+    ```
+
+- Passing arguments to the constructor()
 
 
     ```js
@@ -159,7 +183,7 @@ Solution: https://stackblitz.com/edit/js-yzcuvt?file=index.js
 
 - How: Individual.
 
-- Time: 10min + 5min (compare the solution with your own & read notes). 
+- Time: 15min + 5min (compare the solution with your own & read notes). 
 
 
 

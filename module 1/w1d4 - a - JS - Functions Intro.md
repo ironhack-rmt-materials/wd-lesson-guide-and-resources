@@ -12,25 +12,8 @@ Time: 1h
 -->
 
 
-## Intro 
-
-- warmup (why functions are useful): https://stackblitz.com/edit/js-nd3zvj?file=index.js
-  
-  <!-- @Luis: fork -->
-  <!-- @todo: improve example (do any operation that requires multiple lines (ex. any code from yesterday's lab)) -->
-
-
-  - solve with 2 console.log (repeating code)
-  - task: "Create a function that receives the age of 3 students + displays the average age"
-
-  - Final result: https://stackblitz.com/edit/js-lzhtaj?file=index.js
-
-
 
 ## Functions Basics
-
-
-- Why functions are useful (reuse code)
 
 - How to create a function (syntax)
   
@@ -119,6 +102,11 @@ function calcMult(a, b){
 
 
 
+# Why functions are useful
+  - Reuse code
+  - Keep code organized
+
+  <!-- @todo: prepare an example of "reuse code" -->
 
 
 

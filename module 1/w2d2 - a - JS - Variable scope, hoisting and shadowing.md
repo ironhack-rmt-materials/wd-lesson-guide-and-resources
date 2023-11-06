@@ -45,15 +45,14 @@ REMEMBER:
   - Block scope
 
 
-    Global:
-    > A variable with global level scope is accessible from anywhere within the script where it was created (after it has been created).
+    Block level scope:
+    > limited further to the statement or expression of which the variable was declared. 
 
     Function level scope:
     > limited to within the function from which it was declared and any child scopes such as nested functions or statements.
 
-    Block level scope:
-    > limited further to the statement or expression of which the variable was declared. 
-
+    Global:
+    > A variable with global level scope is accessible from anywhere within the script where it was created (after it has been created).
 
 
 REMEMBER (again):
@@ -122,15 +121,15 @@ Example 1:
   console.log(`Name OUTSIDE if statement: ${ironhacker}`);
   ```
 
+> When JavaScript sees a reference to a variable, it will try to find the variable declaration within the same scope where it has been referenced. If it can’t find that declaration, it will look for it within the parent scope. If it can’t find it there, it will look for the grand-parent scope… and will keep trying until it reaches the global scope.
+
+
 
 - Bonus: in the previous example....
   replace `let ironhacker = "bob";`
   with `ironhacker = "bob";`
 
 
-
-
-> When JavaScript sees a reference to a variable, it will try to find the variable declaration within the same scope where it has been referenced. If it can’t find that declaration, it will look for it within the parent scope. If it can’t find it there, it will look for the grand-parent scope… and will keep trying until it reaches the global scope.
 
 
 

@@ -11,11 +11,18 @@ Consider:
 - this unit can be recorded (self-guided).
 - or, prepare a self-guided exercise with hints (can be done in pairs)
 
+
+Alternative:
+- Self-guided
+- Tell students to make all the exercises in "Time to practice" (and ask if blocked)
+- Time: 1h +
+
 -->
 
 
 
 ## Data structures
+
 - The better we can organize our data → The better we can represent reallity → better code.
 
 

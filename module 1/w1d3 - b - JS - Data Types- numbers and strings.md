@@ -3,8 +3,6 @@
 
 <!--- 
 
-@Luis: follow students portal (highlighted)
-
 Status: just some notes
 
 -->
@@ -24,15 +22,6 @@ const price = 12.99; //decimal
 
 ## NaN
 
-<!-- 
-
-@Luis: stackblitz doesn't work properly with NaN 
-
-(UPDATE: seems to work now)
-
--->
-
-
 ```js
 const result = 10 / 'pizza';
 console.log(result);
@@ -40,9 +29,8 @@ console.log(result);
 
 
 
+## Modulo % (aka remainder operator)
 
-## Modulo
-- Modulo (%) is the remainder operator. 
 <!-- - ex. 10 % 2 pizzas -->
 
 Example:
@@ -64,11 +52,42 @@ Example:
   -->
 
 
-Demo (together):
-- display numbers 1 to 12
-- if number is odd, display `x is odd`
-- if number is even, display `x is even`
+## Practice: even or odd (together)
 
+- Intro: even vs. odd
+
+```js
+// even --> if we divide by 2, there is no remainder
+// odd --> if we divide by 2, there is a remainder
+```
+
+
+- How we can check if a number is even ?
+
+
+Ex.: 
+
+  ```js
+  const myNumer = 25;
+
+  if (myNumer % 2 === 0) {
+    console.log('your number is even!');
+  } else {
+    console.log('your number is odd!');
+  }
+
+  ```
+
+- Solve together:
+
+Task:
+- Iteration 1: display numbers 1 to 12
+- Iteration 2: we want to display if each number is even or odd
+  - ex. if number is odd, display `x is odd`
+  - ex. if number is even, display `x is even`
+
+
+Solution:
 
   ```js
 
@@ -85,13 +104,13 @@ Demo (together):
   ```
 
 
-Practice: FizzBuzz
-  - how: individual / small teams (2-3 people)
-  - time: 20-25m + solve together
-  - https://stackblitz.com/edit/js-fizbuzz-exercise-p4hr4j?file=index.js
+## (skip) Practice: FizzBuzz
 
-  - Solution: https://stackblitz.com/edit/js-fizbuzz-exercise-a6bphh?file=index.js
+- how: individual / small teams (2-3 people)
+- time: 20-25m + solve together
+- https://stackblitz.com/edit/js-fizbuzz-exercise-p4hr4j?file=index.js
 
+- Solution: https://stackblitz.com/edit/js-fizbuzz-exercise-a6bphh?file=index.js
 
 
 <!--
@@ -106,22 +125,31 @@ Fizz-Buzz
 -->
 
 
+
 ## Assignment Operators
 
-- Assignment: =	x = y
+- Assignment: x = y
 - Addition assignment: +=
 - (brief) Others: see students portal
 
 
+
 ## Expressions
 
+> Expression = a combination of any value (number, string, array, object) and set of operators that result in another value.
 
+  ```js
+  const total = 2 + 4;
+  const result = (7 + 5) / 3 - 8;
+  ```
 
 
 ## Operator Precedence
 
-> Operator Precedence: `4 * ( 5 - 2 ) + (2 + 2 ** 3) - 24 / 2`
+(brief) see students portal
 
+
+> Operator Precedence: `4 * ( 5 - 2 ) + (2 + 2 ** 3) - 24 / 2`
 
 
 
@@ -166,7 +194,6 @@ Template literals:
 Some topics: 
 <!-- @todo: not comprehensive -->
 > find out length of a string (str.length)
-> concatenate 2 strings 
 > get character at position N
 > check if string contains a substring (indexOf() / includes() )
 
@@ -180,7 +207,7 @@ Some topics:
   console.log(msg2[1]);
 
   console.log(msg2.indexOf('m')); //0
-  console.log(msg2.indexOf('w')); //-1 --> character does not exist
+  console.log(msg2.indexOf('w')); //-1 --> str does not exist
   console.log(msg2.indexOf('favourite')); //3
 
   const result = message.includes('f');

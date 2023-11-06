@@ -13,24 +13,31 @@ Status: draft
 
 ## Intro exercise (before explaining map): 
 
-  - Any basket fan? Michael Jordan last shot with the Bulls: 
-    - https://pbs.twimg.com/media/EYWEL13XkAcHnxm?format=jpg&name=4096x4096
+- Intro: Any basket fan? Michael Jordan last shot with the Bulls: 
+  - https://pbs.twimg.com/media/EYWEL13XkAcHnxm?format=jpg&name=4096x4096
 
 
-  Refresh: arrays & forEach()
+- Practice: working with arrays
 
   Instructions: https://stackblitz.com/edit/js-nmrwqu?file=index.js
 
   Time: 10min.
 
-  <!-- @Luis: 
+
+  <!-- 
+  
+  @LT: 
   
   - give some HINTS before we start 
-  - declare an empty array + keep adding elements to that array -->
+  - declare an empty array + keep adding elements to that array
+  
+  -->
 
   Solution: https://stackblitz.com/edit/js-k66y7n?file=index.js
 
   
+- Solve together [5min.]
+
 
 
 
@@ -48,7 +55,7 @@ Status: draft
 
 
 
-## Map:
+## map()
 
 
 - Explain map() method.
@@ -81,7 +88,8 @@ Status: draft
 
 
 
-- Practice: map with an array of strings (transform names to uppercase)
+### Practice: map with an array of strings (transform names to uppercase)
+
   - Instructions: https://stackblitz.com/edit/js-dm5iu3?file=index.js
   - Time: 10min.
 
@@ -92,7 +100,7 @@ Status: draft
 
 
 
-- Practice: map() with an array of objects (create an array with the names of all students).
+### Practice: map() with an array of objects (create an array with the names of all students).
 
   <!-- Note: they will need something similar in today's LAB (iteration 1) -->
 
@@ -105,7 +113,7 @@ Status: draft
 
 
 
-- Bonus: map() with an array of objects (create an array with the points scored in each game).
+### Bonus: map() with an array of objects (create an array with the points scored in each game).
 
   - Instructions: https://stackblitz.com/edit/js-p3k5so?file=index.js
   - Solution: https://stackblitz.com/edit/js-ejcare?file=index.js
@@ -117,7 +125,7 @@ Status: draft
 
 
 
-## Reduce:
+## reduce()
 
 
 <!--
@@ -193,7 +201,7 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
 
 
-- (optional) Example: with strings
+### Demo: reduce() with an array of strings
 
   <!-- @Luis: optional / quick extra example -->
 
@@ -210,7 +218,7 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
 
 
-- Practice: reduce() with an array objects
+### Practice: reduce() with an array objects
 
   - Instructions: https://stackblitz.com/edit/js-aervwj?file=index.js
     - IMPORTANT: in this case we need to set an inital value.
@@ -231,8 +239,9 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
   -->
 
 
+### Bonus: reduce() with an array of objects
 
-- Extra exercise (same as students portal)
+<!-- - Extra exercise (same as students portal) -->
 
 
   ```js
@@ -260,7 +269,7 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
 
 
-## Filter:
+## filter()
 
 -  iterates through an array and creates a new array with all elements that pass the condition we set
 

@@ -9,7 +9,7 @@
 
   Notes:
   - some concepts could even be moved for tomorrow (ex. clearTimout, clearInterval...)
-  - arrow functions: can be explained after "function expressions"
+  - consider doing together all ways of creating functions (ie. arrow functions can be explained after "function expressions")
 
 --->
 
@@ -117,21 +117,25 @@
 
 
 
-Practice: timers and intervals
+## Practice: timers and intervals
+
   1. Create an interval that displays a counter every second
     - in the console, display: "hello 1", "hello 2", "hello 3".....
     - hint: you may want to create a counter in the parent scope (ex. `let counter = 1`)
   2. After 5 seconds, cancel that interval
-  3. (Bonus) Apply what we've learned so far and Try to solve it in different ways.
+  3. (Bonus) Apply what we've learned so far and try to solve it in a different way.
   4. (Bonus) Can you solve it without a setInterval? (hint: setTimeout + research "js recursive function")
 
   How: individual
-  Time: 20min.
+  Time: 15min. + 5min. to check solutions.
 
-  Solution 1 (with a timeout): 
-  - https://stackblitz.com/edit/js-vhkxbm?file=index.js
-  Solution 2 (checking the counter): 
+  
+  Solution 1 (checking the counter): 
   - https://stackblitz.com/edit/js-sjpn4f?file=index.js
+
+  Solution 2 (with a timeout): 
+  - https://stackblitz.com/edit/js-vhkxbm?file=index.js
+
   Bonus 2 (recursion):
   - https://stackblitz.com/edit/js-nbe32j?file=index.js
 
@@ -196,11 +200,9 @@ Note: most students find it difficult, give them 15min. and solve together.
   ```
 
 
-- Syntax:
-  - when we can ommit parenthesys (only one arg)
-    - `only one paramenter -> we can remove the parenthesys`
-  - when we can ommit curly braces (only one line)
-    - `only one line -> curly braces can removed & the return is implicit.`
+- Simplifying arrow functions:
+  - `only one paramenter -> we can remove the parenthesys`
+  - `only one line -> we can remove the curly braces & the return (return is implicit)`
 
 
 - "Traditional" vs "Arrow" functions
@@ -258,7 +260,8 @@ Using "Arrow Functions syntax", create the following functions:
   - returns the average (note: it needs to RETURN the average)
 
 
-Bonus: a function displayCurrentDate() (may need to do some research)
+Bonus 1: a function displayCurrentDate() (may need to do some research)
+Bonus 2: play further with JavaScript dates
 
 
 Time: 10min.
@@ -268,7 +271,7 @@ Solution: https://stackblitz.com/edit/js-gkzf8e?file=index.js
 
 
 
-# Different ways of creating functions 
+# Refresh: Different ways of creating functions 
 
 Summary: function declaration (statement) vs. function expression vs. arrow function
 
@@ -314,3 +317,4 @@ Example:
     printSomething('hi', 'hello');
 
     ```
+

@@ -202,7 +202,7 @@ So we can pass it a function to be executed at the end (once dinner is ready)...
 
 
 
-Practice: JS Callbacks
+## Practice: JS Callbacks
 
 - Instructions: https://stackblitz.com/edit/js-graftg?file=index.js
 - Time: 15min.
@@ -211,7 +211,8 @@ Practice: JS Callbacks
 
 
 
-- (Extra) how to pass arguments
+
+## (Extra) how to pass arguments
 
     ```js
     cookDinner(function(){ eatDinner("wine") });
@@ -222,16 +223,17 @@ Practice: JS Callbacks
 
 ## (extra) JavaScript errors
 
-In most cases, when an error occurs in JavaScript, it will halt the execution of the code at the point where the error occurred.
 
 <!-- 
 
-@Luis
+@LT
 
 just mention briefly: an error stops code execution (in most cases)
 
 -->
 
+
+In most cases, when an error occurs in JavaScript, it will halt the execution of the code at the point where the error occurred.
 
 Exeptions:
 1. Code inside a try-catch block

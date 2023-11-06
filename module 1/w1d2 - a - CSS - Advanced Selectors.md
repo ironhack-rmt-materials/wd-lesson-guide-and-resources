@@ -6,7 +6,10 @@
 
 <!--
 
-methodology: self-guided, just mention a few things
+methodology: 
+- go briefly through them on the students portal (5min.)
+
+(it could also be self guided)
 
 -->
 
@@ -164,3 +167,4 @@ h2 {
 
 - Generic rules first
 - Specific rules later
+

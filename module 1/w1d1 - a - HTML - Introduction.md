@@ -32,11 +32,24 @@ Codealong:
 
 # Inital Setup
 
+  <!-- @todo: create list/gist with the steps to follow -->
+
   - Open a new VS Code Window
 
   - Open the terminal (View > Terminal)
 
   - IMPORTANT: if you use Windows, make sure you're not using Poweshell (you can use `Git Bash` instead)
+
+    <!-- 
+      
+    Windows users
+    - click on the little triangle
+    - Select default profile
+    - Click "git bash"
+    - type "exit" in the terminal
+    - open it again (View > Terminal)
+    
+    -->
 
   - Navigavigate to the directory where you will work.
     - `cd xxx`
@@ -86,7 +99,7 @@ Codealong:
   - when creating your projects, start from the HTML.
 
 
-- (Extra) Some Emet shortcuts
+- (brief) Some Emet shortcuts
 
   ```
   div>p*3
@@ -95,3 +108,9 @@ Codealong:
 
   div#recipes
   ```
+
+
+- Cheatsheet: VS Code shortcuts
+
+https://gist.github.com/luisjunco/2c57a9f514a5773242afe8f96b342cbd
+

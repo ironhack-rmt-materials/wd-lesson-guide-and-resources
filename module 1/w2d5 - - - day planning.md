@@ -26,6 +26,8 @@ Game Improvements:
   - [ ] Display player in the center
   - [ ] Obstacles starting from random horizontal positions
   - [ ] fix: remove obstacles when they go outside board
+        - opt1: hide with overflow hidden
+        - opt2: remove (from array + dom element) 
 
   - [ ] (bonus) Refactor: create a Game class
       <!-- 

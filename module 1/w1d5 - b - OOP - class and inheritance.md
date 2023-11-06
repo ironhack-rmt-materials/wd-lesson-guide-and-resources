@@ -32,7 +32,13 @@
 
     - example: https://stackblitz.com/edit/js-jeyw5h?file=index.js
 
-    <!-- @todo: improve this example -->
+    <!-- 
+    
+      @todo: improve this example
+
+      ex. company + bakery + school  
+      
+    -->
 
 
   - concepts:
@@ -49,7 +55,7 @@
     <!-- 
     
     @todo: 
-    - improve this example 
+    - improve this example (or prepare a stackblitz with an extra example)
     - prepare quick exercise with inheritance
     
     -->

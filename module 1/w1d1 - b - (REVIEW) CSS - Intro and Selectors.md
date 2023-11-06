@@ -3,7 +3,27 @@
 # CSS - Intro & Selectors
 
 <!--- 
-Status: draft
+
+@todo: improve planning & examples (build something together)
+
+
+
+- Example codealong (repo):
+https://github.com/ironhack-tech-trash-july2023/html-css-intro-codealong
+
+
+- Final result (gh pages):
+https://ironhack-tech-trash-july2023.github.io/html-css-intro-codealong/
+
+
+Note, this selectors can be covered in w1d2:
+- "selector list" (h1, h2)
+- "descendant" (div p)
+- "and" (h3.highlight)
+- examples: https://github.com/ByteWarriors-Ironhack-Feb-23/feb23-html-intro/blob/main/css/main.css
+
+
+
 -->
 
 
@@ -12,11 +32,6 @@ Status: draft
 Feedback from students:
 - Too much information for only one lesson (specially for those who didn't cover this in the prework).
 - Make sure to start explaining why CSS + why selectors are useful +  clear examples
-
-
-Sample code:
-https://github.com/ByteWarriors-Ironhack-Feb-23/feb23-html-intro
-  
 
 -->
 
@@ -35,7 +50,7 @@ https://github.com/ByteWarriors-Ironhack-Feb-23/feb23-html-intro
     - External url. eg: https://mykittens.com/bob.jpg
 
     - Absolute path. 
-        eg: href="C:\Luis\pro\Ironhack\_playground\html-hello-world\css\main.css"
+        eg: href="C:\Luis\Ironhack\module1\html-intro\css\main.css" (avoid !!)
         eg: href="/images/bob.jpg"
 
     - Relative path. 
@@ -43,15 +58,17 @@ https://github.com/ByteWarriors-Ironhack-Feb-23/feb23-html-intro
       - `href="../images/bob.jpg"` (one directory above in the hierarchy)
 
 
+- Example Filesystem diagram: 
+  - https://tree.nathanfriend.io/?s=(%27options!(%27fancy!true~fullPath3~trailingSlash3~rootDot3)~4(%274%27Root0cs8reset.cs5css0image8background.jpg*player.png0j8data.j5js0index.html%27)~version!%271%27)*6270672%20%203!false4source!58main.6%5Cn27-%208s*%0187654320*
+
 
 
 ## Intro CSS Selectors (2 min.)
 - what are they
 
 - why they're useful + how typical CSS looks like +++
-
-- why keeping CSS tidy is important
   - example of CSS project: https://codepen.io/celincky/pen/zdqso
+  - why keeping CSS tidy is important
 
 - selector & declaration block
 
@@ -109,8 +126,7 @@ https://www.youtube.com/watch?v=c0kfcP_nD9E
   • Tip: VS Code displays speficity when you hover a css selector.
 
 
-
-• (skip) Inheritance
+• (brief) Inheritance
   • Some CSS property values set on parent elements are inherited by their child elements (ex. `font-family`)
   • Some aren't (ex. `width`)
   • full list: https://stackoverflow.com/a/5612360/11298742

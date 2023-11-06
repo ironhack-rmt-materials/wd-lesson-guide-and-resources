@@ -5,6 +5,10 @@
 
 Time estimation: 6h (+ on next day we keep doing improvements)
 
+
+Demo (type of game that we'll be building):
+https://ironborn-ironhack-march-2022.github.io/ironborn-oop-game/
+
 -->
 
 
@@ -42,7 +46,7 @@ Time estimation: 6h (+ on next day we keep doing improvements)
 
 
 - Goals:
-  - Practice (dom, oop, js fundamentals...)
+  - Practice (js fundamentals + oop)
   - Learn coding good practices 
   - Learn git concepts 
 
@@ -98,7 +102,9 @@ Milestone 4: make the game more interesting & fix bugs
 
 [ ] (demo) initial setup [30min]
   
-  <!-- @Luis: 
+  <!-- 
+  
+  IMPORTANT: 
   
   - to speed up, tell students to just follow me for this first step 
   - (later, they can clone)
@@ -108,13 +114,13 @@ Milestone 4: make the game more interesting & fix bugs
   - create files (html, css, js)
   - basic structure (board)
   - create repo + initial commit
+  - upload repo to github
 
   <!-- also, share live session -->
 
 [ ] Upload to Github + ask students to fork + clone
 
-  - fork + clone
-  - open with VS Code
+  - fork + clone + open in VS Code + run with Live Server
   - open with Live Server
 
 [ ] Introduce Pomodoro technique

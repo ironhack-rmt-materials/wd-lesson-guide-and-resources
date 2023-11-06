@@ -32,17 +32,12 @@ Initial code:
 
 ## Intro
 
-<!--
 
 - Example website layout:
   https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8d374c1e-228a-47e8-be5b-10fa1f4d40c8/mrh-css-grid-fig-01-large-opt.png
 
-- Old website:
-  https://i0.wp.com/css-tricks.com/wp-content/uploads/2017/10/screengrab_css-MacOS81.png?ssl=1
 
--->
-
-- Evolution of CSS layouts: 
+- (skip) Evolution of CSS layouts: 
   - tables (still used in email)
   - floats
   - css frameworks (Bootstrap)
@@ -131,8 +126,8 @@ Links:
   - `flex-direction`
   - `flex-wrap`
   - (skip) `flex-flow` (shorthand)
-  - `justify-content`
-  - `align-items`
+  - `justify-content` (alignment in the main axis)
+  - `align-items` (alignment in the cross axis)
   - (skip) `align-content`
   - (skip) `gap, row-gap, column-gap`
 
@@ -145,26 +140,30 @@ Links:
 - Properties for the Children (flex items)
   - `order`
   - `flex-basis` 
-    <!-- @Luis: explain flex-basis before grow & shrink -->
-    - This defines the default size of an element before the remaining space is distributed
+    <!-- @Luis: introduce flex-basis before grow & shrink -->
+    - This defines the default size (in the main axis) before the remaining space is distributed
+    <!-- (we will see how it can be distributed in a moment, with grow & shrink) -->
   - `flex-grow`
   - `flex-shrink`
     - This defines the ability for a flex item to shrink if necessary.
   - `flex` (shorthand)
     `- flex: <'flex-grow'> <'flex-shrink'> <'flex-basis'>`
-  - `align-self`
+  - `align-self` (alignment in the cross axis)
+
 
 
 ## Practice: Responsive Navigation Menu (Media Queries + FlexBox)
 
 Task:
   - Replicate this layout (note, it is responsive): https://codepen.io/team/css-tricks/full/YqaKYR
-  
+
 Notes:
+  - you will need to create html + css
   - focus on the distrubution of the elements (main goal is to practice flexbox; do not worry about details of the design, colors etc)
-  - to simplify: we can target mobile + desktop only (1 breakpoint)
+  - for breakpoints, you can use 600px and 800px.
 
 Time: 25min.
+
 
 Solution (mobile first): https://codepen.io/luisjunco/pen/gOdPERa
 

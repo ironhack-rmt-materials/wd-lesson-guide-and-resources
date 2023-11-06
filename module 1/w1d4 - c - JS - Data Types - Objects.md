@@ -36,6 +36,14 @@ Status: draft
 - group values that belong together
 - relationships between variables
 
+<!-- 
+
+Arrays vs Objects:
+- array: collection of things
+- object: info about 1 single thing
+
+-->
+
 - Arrays vs Objects
   - both of them are useful to group information (collection of things)
   - arrays: (usually) elements with the same relationship
@@ -155,7 +163,7 @@ ___
   - returns and array (we can then loop through the array etc)
 
 
-## List values: Object.values
+## List values: Object.values()
 
 - Object.values(myObj)
   - returns an array
@@ -209,6 +217,10 @@ Goals:
 - get a nice name for our class ;)
 
 -->
+
+
+## Choose name for our cohort :) 
+
 
 
 
