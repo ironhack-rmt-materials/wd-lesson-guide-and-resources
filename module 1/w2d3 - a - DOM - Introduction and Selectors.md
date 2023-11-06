@@ -26,6 +26,7 @@ Note:
 
 Bad news: 
 - lots of topics
+
 Good news:
 - m3: all this will be done by React
 - don't need to memorize all (just be familiar)
@@ -95,7 +96,7 @@ Initial Code:
 
   <!-- 
   
-  @todo: add quick exercise in the middle 
+  @todo: add quick exercise in the middle of this session
    (ex. before we see attributes)
 
   -->

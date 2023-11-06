@@ -57,7 +57,7 @@ Explain:
   - Document (DOMContentLoaded, ...)
 - events can be attached to an html element (or multiple)
 
-- 3 ways to attach events to a dom element:
+- (brief) 3 ways to attach events to a dom element:
   - Inline event handlers (don't use)
     - Problem: html+js
     - Also, some systems disallow inline JS for security reasons.
@@ -95,6 +95,8 @@ Demo: append a paragraph everytime the user clicks on a button
     ```
 
 
+List of possible events:
+- https://www.w3schools.com/jsref/dom_obj_event.asp
 
 
 
@@ -135,28 +137,29 @@ Detect spacebar:
   ```
 
 
+
 ## Attach an event listener to multiple elements
 
 
 Practice: attach an event listener to multiple elements
 
-- Iteration 1: add an event listener to detect if the user clicks on any h2 of the header.
+- Iteration 1: add an event listener to detect if the user clicks on any title.
 
-- Bonus: when the user clicks, modify the text of that h2.
-
+- Bonus: when the user clicks, modify the css of that title.
 
 
 Example:
 
   ```js
-  const btnList = document.querySelectorAll('.btn');
+  const titles = document.querySelectorAll(".interactive-title");
 
-  btnList.forEach((button) => {
-    button.addEventListener('click', () => {
-      console.log('a click event was fired in our BUTTON');
-    });
+  titles.forEach( (elm) => {
+      elm.addEventListener("click", () => {
+          elm.classList.toggle("active");
+      })
   });
   ```
+
 
 
 
