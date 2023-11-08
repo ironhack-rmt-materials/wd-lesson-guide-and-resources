@@ -1,64 +1,94 @@
 
 # w4s2
 
-<!--
-
-Notes:
-
-- Morning includes a lot of theory and concepts (how the internet works, intro to node etc)
-
-- Try to make it "FUN, SHORT AND DYNAMIC"
-
-- Finish early to start lab early
-
-- IF WE HAVE TIME:
-  - Explain how to collaborate on the same repo on git
-    - Student 1:
-      - forks lab
-      - adds the other student as collaborator
-      - pair programming
-      - commit + push
-    - Student 2:
-      - clones the same repo (we will not fork it)
-      - pull
-      - pair programming
-      - commit + push
-  - Intro git conflicts
-
--->
-
-- Refresh Promises
-  - `.then().catch()`
-  - `async/await`
-
-
-- Refresh: Object Destructuring
-  - https://stackblitz.com/edit/js-exphb3?file=index.js
-  - Time: 2min
-
-
-- (optional) Refresh/introduce array destructuring:
-    - example: https://stackblitz.com/edit/js-hfvsxk?file=index.js
-    - note: order matters
-
-
-- Spread operator
-
-
-- Intro: explain what we will be able to build at the end of the day
-  - Example (from Felipe): https://hugh-laurie.adaptable.app/
-  - 3 pages: home + work + about
-  - main difference with module 1: backend code
 
 
 
-<!--
-@Luis
 
-Check that students can create an account at adaptable.
-https://adaptable.io/app/signin
+## Day planning
 
--->
+- LAB Q&A [20m]
+
+- Refresh [20m]
+
+  - Slides Refresh "How the internet works": https://docs.google.com/presentation/d/1-EgP1r7duakjZ6DXfReHIu9cYwEheAWEd_vDL7JtYiU/edit?usp=sharing
+
+  - Refresh Promises:
+    - `.then().catch()`
+    - `async/await`
+
+
+- [LESSON] React | Introduction [1h]
+
+- [EXTRA] ES6 modules [30min.]
+  - Slides: https://docs.google.com/presentation/d/1SqJP7b9cQ9UpvTmfVpdojcFXjsTL0g1HH_cn0sq3SLs/edit?usp=sharing
+
+  <!--
+  @todo: 
+
+  Quick unit about NPM [30m.]
+  - intro to npm
+  - creating an npm repo
+  - installing a package
+  - package.json 
+
+  Note: it can be linked to the concepts of ES6 modules
+  ex.:
+  - students for an initial repo with 2 files
+  - explain ES6 modules
+  - explain NPM & install one dependency
+
+  -->
+
+- [LESSON] React | Vite, JSX and React elements [1h]
+
+- [LESSON] React | Components & Props
+
+- [LAB] LAB | React Tweets
+  
+  
+  <!-- 
+  
+  @Luis:
+
+  Consider doing "React training [steps 1-7]" (instead of "React Tweets")
+
+  Topics Covered in steps 1-7:
+  - components, props
+  - inline style / conditional css
+  - props.children
+  - conditional rendering
+  
+  Things to Consider:
+  - would need to move Conditional Rendering to w7d1 (can be good to make d2 ligher)
+  - currently we don't have solutions (solutions for 1-7 can be enough)
+
+  -->
+
+
+- Self-guided: "Continue watching React Tutorial"
+
+- Bonus: HOF exercises
+
+
+
+
+## (self-guided) Continue watching React Tutorial
+
+
+> Did watching the video help you?
+> 
+> If so, AFTER YOU FINISH THE LAB, you may want to continue watching the video, from 38:50 to 1:08:00:
+> 
+> https://youtu.be/jLS0TkAHvRg?t=2324
+> 
+> Concepts covered:
+> - state 
+> - events
+> - conditional rendering 
+> - lists
+
+
 
 
 
