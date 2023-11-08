@@ -1,65 +1,51 @@
 
 # w4d3
 
-<!--
+<!-- 
 
-- morning (dynamic views, partials etc) 
-  - set them more challenges / exercises to do
-  - note: these lessons can take time (esp. if we do more exercises)
-    -- have all assets & code prepared
+Status: just some notes
+
+@todo:
+- improve notes, describing each step (esp. for state)
+- create slides or cheatsheet
 
 
-Methodology:
-- continue working on IronRestaurant
-- example: https://github.com/RemoteRaccoons-Ironhack-Nov-22/ironrestaurant-pizzaForEach/
+w7d2 is quite challenging for students. Start at good pace from beginning.
 
+
+LAB "React IronContacts" is very challenging
+- offer students the possibility to work in pairs
+- give extra guidance for iteration 1
 
 -->
 
 
+Refresh from yesterday:
+- (skip) Module 2 & Requirements project 2
+- React intro
+- Vite
+- 2 types of components
+- props (how to pass and receive props)
 
 
 
-## Refresh from prev day
+## Summary Today
+
+State
+- demo (start with a basic counter) [1h]
+- exercise to practice state [1h]
+
+Create "popcorn-time" with Vite
+
+Popcorn Time I:
+- Initialize project with Vite
+- (Warmup) exercise to refresh forEach() and map() [30min.]
+- Create component structure [30min.]
+- Import json with array of movies
+- Iterate through array with .map()
+- Removing elements from a list (will apply State)
+- Conditional rendering (3 options)
+- (extra) sort or display only top-rated movies (store in state) 
 
 
-- Slides Refresh "How the internet works".
-  -  https://docs.google.com/presentation/d/1-EgP1r7duakjZ6DXfReHIu9cYwEheAWEd_vDL7JtYiU/edit?usp=sharing
-
-  
-- (optional) quick refresh Object/Array Destructuring
-
-  ```js
-  const company = {
-    name: 'Ironhack',
-    numberOfEmployees: 200,
-    campuses: ['madrid', 'barcelona', 'berlin', 'sao paulo'],
-    website: 'https://www.ironhack.com/',
-    email: 'hello@ironhack.com',
-  };
-  ```
-
-- (optional) quick refresh Spread Operator
-  - ex. with objects (add property best cohort)
-
-
-
-## Day planning
-
-- Express & Handlebars (views, layout, partials):
-  - continue working on the example from yesterday
-  - Goal: restaurant website with,
-    - home
-    - contact
-    - 3 products (1 page per product)
-      - title
-      - price
-      - image
-    - (bonus): display a summary of each product in the homepage
-
-
-- LAB (IronBeers) - IMPORTANT
-
-
-<!-- - DataBases: 1.5h (going fast & without getting into examples) -->
 
