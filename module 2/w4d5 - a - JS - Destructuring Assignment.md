@@ -1,5 +1,6 @@
 # JS - Destructuring Assignment
 
+
 <!--- 
 
 - Status: ready
@@ -11,20 +12,19 @@
 -->
 
 
-
 ## Intro
 
 - So far we've learn how to read data from arrays and objects
 
 - Arrays: we can access individual elements in an array by their position (index)
-  -- students[0]
+  - students[0]
 
 - Objects: we can access elements using `dot notation` or `bracket notation`
-  -- student.name
-  -- student['name']
+  - student.name
+  - student['name']
 
 - In this lesson, we will learn an easy and convenient way of extracting data from arrays and objects: `Destructuring`
-  -- Destructuring == breaking down complex data structures into simpler ones that are easier to use.
+  - Destructuring == breaking down complex data structures into simpler ones that are easier to use.
 
 
 ```js
@@ -103,30 +103,6 @@ Problem: it works but, if we have to access many properties it is a bit repetiti
 
 ## (skip) Nested objects and destructuring
 
-- We can also apply destructuring for nested objects.
-
-Example:
-
-    ```js
-    const user = {
-      company: 'Ironhacker',
-      age: 25,
-      favoriteMusic: 'Metal',
-      address: {
-          street: 'Super Cool St',
-          number: 123,
-          city: 'Miami',
-        },
-    };
-
-
-    let {
-      company,  age, favoriteMusic,
-      address: { street, number, city },
-    } = user;
-
-    ```
-
 
 
 ## Practice: object destructuring
@@ -141,7 +117,7 @@ Practice: Object Destructuring
 
 
 
-## (skip) Array destructuring
+## (brief) Array destructuring
 
 - Very similar to object destructuring, we give names to the variables inside brackets.
 
@@ -163,7 +139,7 @@ Practice: Object Destructuring
     ```
 
 
-- Default values
+- (skip) Default values
 
   - If there are not enough elements in the array, we'd get `undefined`
   - It is also possible to set a default value.
@@ -175,28 +151,41 @@ Practice: Object Destructuring
 
 
 
+
+
+## (brief) Destructuring function parameters
+
+- It is also possible to apply destructuring when we receive arguments in a function declaration.
+
+Example:
+
+  ```js
+  function printFullName(actor) {
+    console.log(`${actor.firstName} ${actor.lastName}`);
+  }
+
+  const actor = { firstName: 'Brad', lastName: 'Pitt' };
+
+  printFullName(actor);
+
+  ```
+
+
+We can also do the following:
+
+  ```js
+  function printFullName({ firstName, lastName }) {
+    console.log(`${firstName} ${lastName}`);
+  }
+  ```
+
+
+
+
+
+
 ## (skip) Nested arrays and destructuring
 
-
-    ```js
-    const europeanCampuses = [
-      ['madrid', 'es'],
-      ['barcelona', 'es'],
-      ['berlin', 'de'],
-      ['paris', 'fr'],
-      ['amsterdam', 'nl'],
-      ['lisbon', 'pt']
-    ];
-
-    const [
-      [campusOneCity, campusOneLang],
-      [campusTwoCity, campusTwoLang]
-    ] = europeanCampuses;
-
-    console.log(campusOneCity, campusOneLang);
-    console.log(campusTwoCity, campusTwoLang);
-
-    ```
 
 
 ## (skip) Exercise: practice array destructuring
@@ -206,10 +195,8 @@ https://stackblitz.com/edit/js-7uq7wm
 
 
 
-
-Notes:
+## Final notes:
 - We will use Object destructuring a lot.
 - Array destructuring is less common
-
 
 
