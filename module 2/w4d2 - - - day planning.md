@@ -20,25 +20,9 @@
 
 - [LESSON] React | Introduction [1h]
 
-- [EXTRA] ES6 modules [30min.]
-  - Slides: https://docs.google.com/presentation/d/1SqJP7b9cQ9UpvTmfVpdojcFXjsTL0g1HH_cn0sq3SLs/edit?usp=sharing
+- [EXTRA] ES6 modules [30m]
 
-  <!--
-  @todo: 
-
-  Quick unit about NPM [30m.]
-  - intro to npm
-  - creating an npm repo
-  - installing a package
-  - package.json 
-
-  Note: it can be linked to the concepts of ES6 modules
-  ex.:
-  - students for an initial repo with 2 files
-  - explain ES6 modules
-  - explain NPM & install one dependency
-
-  -->
+- [EXTRA] Intro to NPM [30m]
 
 - [LESSON] React | Vite, JSX and React elements [1h]
 
