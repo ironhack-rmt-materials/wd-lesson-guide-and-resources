@@ -44,13 +44,15 @@ Status: draft
 
 
 ## Initial Setup:
-  - navigate to your module3 directory
-  - `npm create vite@latest popcorn-time -- --template react`
-  - cd popcorn-time
-  - npm install
-  - code -r .
-  - npm run dev
-    - Custom port through CLI: `npm run dev -- --port 3000`
+
+- open VS Code + a terminal
+- navigate to your module2 directory
+- `npm create vite@latest popcorn-time -- --template react`
+- cd popcorn-time
+- npm install
+- code -r .
+- npm run dev
+  - In case you need to define a custom port (for example, if you have another app running in your computer): `npm run dev -- --port 3000`
 
 
  
@@ -59,25 +61,25 @@ Status: draft
 
 <!-- @LT: if short of time, do as a codealong instead -->
 
-
 Iteration 1: Create the initial structure. 
   - Create 3 function components: Header, Main, Footer
-  - for each of them, just display a text, (ex: "this is the header").
+  - for each of them, just display a text, (ex: "this is the Header").
   - render all of them in App
+
+  <!-- @update: use MovieList instead of Main -->
 
 Iteration 2: Make a commit + Upload repo to GitHub
 
 Bonus: add some css for the Header component with a specific file
     - create `Header.css`
-    - in Header component:
-      - `import "./Header.css";`
-    - NOTE: any css rules would apply to the whole application
-      - in the component add `<header className="Header">`
+    - in Header.jsx, import the css file you've created: `import "./Header.css";`
+    - NOTE: any css rules would apply to the whole application. To avoid this, you can do the following:
+      - add a className to the parent htlm element of your component. Ex: `<header className="Header">`
       - in the css, add the class to all rules
         - ex: https://github.com/Ironborn-Ironhack-March-2022/react-popcorn-time/blob/main/src/components/Header.css
 
 
-  Time: 15min.
+Time: 10min. + solve together.
 
 
 
@@ -104,6 +106,7 @@ Bonus: add some css for the Header component with a specific file
 
 
 - Inside <Main />, create 3 divs with a movie
+  <!-- @update: use MovieList instead of Main -->
 
   ```jsx
     <div className="Main">
@@ -138,11 +141,21 @@ Bonus: add some css for the Header component with a specific file
 
 ## DEMO: Import json file
 
+<!-- 
+
+LT: 
+- demo only 
+- (later, we'll ask students to replicate these steps) 
+
+-->
+
 Load list of movies from a `json` file
   - create `data/movies.json`
   - Sample json file: https://github.com/Ironborn-Ironhack-March-2022/react-popcorn-time/blob/main/src/data/movies.json
   - Import in Main.js: `import movies from "../data/movies.json";`
 
+  <!-- IMPORTANT: add this in Main.js -->
+  <!-- IMPORTANT: add this in Main.js -->
   <!-- IMPORTANT: add this in Main.js -->
 
 

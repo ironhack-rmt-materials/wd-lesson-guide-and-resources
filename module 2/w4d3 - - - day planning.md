@@ -20,16 +20,16 @@ LAB "React IronContacts" is very challenging
 -->
 
 
-Refresh from yesterday:
-- (skip) Module 2 & Requirements project 2
-- React intro
-- Vite
-- 2 types of components
-- props (how to pass and receive props)
-
 
 
 ## Summary Today
+
+(skip) LAB Q&A
+
+Quick Refresh:
+- props (how to pass and receive props)
+  - Create a component `<Banner />` + pass "message" as props
+
 
 State
 - demo (start with a basic counter) [1h]
@@ -39,10 +39,9 @@ Create "popcorn-time" with Vite
 
 Popcorn Time I:
 - Initialize project with Vite
-- (Warmup) exercise to refresh forEach() and map() [30min.]
-- Create component structure [30min.]
-- Import json with array of movies
-- Iterate through array with .map()
+- (Warmup) exercise to refresh forEach() and map() [30m]
+- Create component structure [30m]
+- Import json + iterate through array with .map() [1h]
 - Removing elements from a list (will apply State)
 - Conditional rendering (3 options)
 - (extra) sort or display only top-rated movies (store in state) 

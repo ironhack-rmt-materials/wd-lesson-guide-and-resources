@@ -34,11 +34,11 @@ Status: draft
 > "State is similar to props, but it is private and fully controlled by the component."
 
 
-- Things to keep in mind:
-  - ~~state is an object~~
-  - state can change overtime
-  - state "lives" in the component and belongs to the component itself (props come from outside)
-  - changes in state can affect component rendering and what the component displays
+- State: 
+  - Store information that belongs to a component
+  - Can change over time
+  - We want to reflect the changes in the UI (JSX)
+
 
 
 - Function vs Class components
@@ -91,6 +91,9 @@ DEMO: add a counter to the Header
     - Can change over time
     - We want to reflect the changes in the UI (JSX)
 
+
+
+
   - useState hook:
     - https://react.dev/reference/react/useState#reference
 
@@ -142,12 +145,12 @@ Iteration 3:
 
 Bonus 1: 
 - if counter above 10, change bg color of the component
-- Hint: you can use css classes (className)
+- Hint: you can use css classes (className). For example, displaying the following, depending on state:
+    - `<div className="">`
+    - `<div className="popular">` (if counter above 10)
+
 
 Bonus 2:
-- Solve the previous bonus with inline style (research React inline style)
-
-Bonus 3:
 - You may have solved the previous challenges using two functions (ex. "increaseCounter" and "dicreaseCounter")
 - Can we solve it with only one function ?
 
@@ -163,12 +166,21 @@ const updateCounter = (diff) => {
 
 ```
 
+Bonus 3:
+- Add 2 buttons so that the user can switch theme.
+  - ex. if user clicks "Switch to dark theme", display a dark background
+  - ex. if user clicks "Switch to light theme", display a light background
 
-Time: 20min.
+Bonus 4:
+- Implement the functionality to change theme with a single button (ex. toggleTheme) and a single function.
+- If theme changes, update the button (ex. display a different emoji).
+
+
+
+Time: 30min.
 
 Solution 1 (with 2 functions):
 - https://stackblitz.com/edit/stackblitz-starters-2abw6z?file=src%2FApp.js
-
 
 Solution 2 (with only one function):
 - https://stackblitz.com/edit/stackblitz-starters-xgf1gt?file=src%2FApp.js
@@ -176,56 +188,18 @@ Solution 2 (with only one function):
 Solution 3 (with `counter` + `theme`): 
 - https://stackblitz.com/edit/react-hjbhv8?file=src/App.js
 
+Solution 4 (with `counter` + single button to toggle `theme`): 
+- https://stackblitz.com/edit/react-9uzbxh?file=src%2FApp.js
 
 
 
 
-- (extra) add a counter to a component that repeats multiple times (ex. User/Movie)
-  - see how the counter of each component is independent (state belongs to the component)
-
-<!-- @todo: create example on stackblitz & share with students -->
+## (extra) add a counter to a component that repeats multiple times (ex. User/Movie)
 
 
-## (extra) Practice: React State 2 (add buttons to change theme)
+See how the counter of each component is independent (state belongs to the component)
 
-
-<!--
-@Luis:
-
-- Skip ??
-
-- Instead of this exercise, we can implement Theme as "bonus 1" iteration in the previous exercise & give more time.
-
--->
-
-Initial code:
-- Work on the app we've been building.
-- or, use this link: https://stackblitz.com/edit/react-zp3sjk?file=src/App.js
-
-
-In App.js, add 2 buttons:
-  - "switch to light theme"
-  - "switch to dark theme"
-
-Implement functionality for those 2 buttons.
-- ex. if user clicks "switch to dark theme", display a dark background
-- ex. if user clicks "switch to light theme", display a light background
-
-Hints:
-- we can have `<div className="light">` and `<div className="dark">`
-- it is information that changes over time + we want to reflect it in our JSX (we will need state)
-- in a component we can have multiple stateful variables
-- where we should store it (easiest option atm is in `App.js`)
-
-
-Bonus:
-- implement with a single button (ex. toggleTheme) and a single function.
-- if theme changes, update the button (ex. display a different emoji). You may need to do some research.
-
-Time: 20min.
-
-
-Solution: https://stackblitz.com/edit/react-ykh1uk?file=src/App.js
+  <!-- @todo: create example on stackblitz & share with students -->
 
 
 
@@ -270,6 +244,7 @@ Why should I use a function if the new state depends on the previous? Example: h
   - Can change over time
   - We want to reflect the changes in the UI (JSX)
 
+Remember: NEVER MODIFY STATE DIRECTLY  
 
 
 ## State vs. Props (IMPORTANT)

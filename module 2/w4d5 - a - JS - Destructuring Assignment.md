@@ -45,19 +45,19 @@ let user = {
 - Example of how to access properties using dot/bracket notation. Eg:
 
     ```js
-    let user = {
+    const user = {
         company: 'Ironhacker',
         age: 30,
         favoriteMusic: 'Rock',
     };
 
-    let company = user.company;
-    let age = user.age;
-    let favoriteMusic = user.favoriteMusic;
+    const company = user.company;
+    const age = user.age;
+    const favoriteMusic = user.favoriteMusic;
 
-    console.log(`You work at ${company}.`);
-    console.log(`You are ${age} years old.`);
-    console.log(`Your favorite music is ${favoriteMusic}.`);
+    console.log(`You work at ${company}`);
+    console.log(`You are ${age} years old`);
+    console.log(`Your favorite music is ${favoriteMusic}`);
 
     ```
 
@@ -66,7 +66,7 @@ Problem: it works but, if we have to access many properties it is a bit repetiti
 
 - With object destructuring:
     ```js
-    let { company, age, favoriteMusic } = user;
+    const { company, age, favoriteMusic } = user;
     ```
 
 - Note: we're creating variables with the same names as the properties of our object.
@@ -160,11 +160,16 @@ Practice: Object Destructuring
 Example:
 
   ```js
+
+  const actor = { 
+    firstName: 'Brad', 
+    lastName: 'Pitt' 
+  };
+
+
   function printFullName(actor) {
     console.log(`${actor.firstName} ${actor.lastName}`);
   }
-
-  const actor = { firstName: 'Brad', lastName: 'Pitt' };
 
   printFullName(actor);
 

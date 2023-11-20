@@ -3,20 +3,6 @@
 # LAB - React IronContacts
 
 
-How:
-- Individual (can also be done in Pairs)
-
-
-Notes: 
-- students find this lab VERY challenging
-
-<!--
-@Luis: share the notes below with students, with a note "spoiler alert"
--->
-
-
-
-
 
 
 ## Iteration 1: component hierarchy
@@ -71,40 +57,42 @@ For the Component Hierarchy:
   ```
 
 
-- To add a new contact, avoid mutating the original array.
+- To add a new contact, avoid mutating state:
 
 
   BAD:
 
   ```js
-
     const myRandomContact = xxx;
-
-    setContacts( (prevValue) => {
-        prevValue.push(myRandomContact); //note: push mutates the original array (non-primitive data types are passed by reference).
-        return prevValue;
-    });
+    
+    const newList = contacts.push(myRandomContact); // BAD: push mutates the original array
+    
+    setContacts(newList);
   ```
 
 
   GOOD:
 
   ```js
-    setContacts( (prevValue) => {
-        const newList = [...prevValue]; //shallow copy
-        newList.push(myObject); //we modify the copy (not the original array)
-        return newList;
-    });
+    const myRandomContact = xxx;
+
+    const newList = [...contacts]; // shallow copy
+    newList.push(myRandomContact); // GOOD: we modify the copy (not the original)
+
+    setContacts(newList);
   ```
 
 
   EVEN BETTER:
 
   ```js
-    setContacts( (prevValue) => {
-        const newList = [myObject, ...prevValue]; //we create a new array
-        return newList;
-    });
+
+    const myRandomContact = xxx;
+
+    const newList = [myRandomContact, ...contacts]; // we create a new array (with the rand contact at the beginning)
+
+    setContacts(newList);
+
   ```
 
 
@@ -151,4 +139,5 @@ For the Component Hierarchy:
 - Adding contacts works but if I click the button very quickly, at some point the application crashes.
   - Possible reason: you may be modifying state directly (if you mutate an array with the previous state, make sure you a copy and mutate the copy)
 
+  
   

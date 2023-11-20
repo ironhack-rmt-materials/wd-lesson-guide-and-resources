@@ -33,7 +33,7 @@ Examples using the spread operator:
   ```
 
 
-- Example 2: Add elements to a new array
+- Example 2: Create a new array +  Add elements to it
   ```js
   const newArr = [...students, "david"]
   ```
@@ -67,14 +67,14 @@ Examples using the spread operator:
 
 Practice: spread operator (& refresh forEach)
 - https://stackblitz.com/edit/js-f87bqx?file=index.js
-- Time: 5min.
+- Time: 10min.
 - Solution: https://stackblitz.com/edit/js-t5ydb9?file=index.js
 
 
 
 
 
-## (Extra) Rest parameter
+## (skip) Rest parameter
 
 
 Example 1:

@@ -25,7 +25,7 @@ Slides: https://docs.google.com/presentation/d/1SqJP7b9cQ9UpvTmfVpdojcFXjsTL0g1H
   Quick unit about NPM [30m.]
   - intro to npm
   - creating an npm repo
-  - installing a package
+  - installing a package (ex. cowsay)
   - package.json 
 
   Note: it can be linked to the concepts of ES6 modules

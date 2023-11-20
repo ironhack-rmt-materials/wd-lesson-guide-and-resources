@@ -315,7 +315,14 @@ getUsersFromDB()
 
 ## Practice: JS Promises
 
-<!-- @todo: improve this example + add bonus -->
+<!-- 
+
+@todo: 
+
+- improve this example (use a different API)
+- add bonus
+
+-->
 
 Initial code: https://stackblitz.com/edit/js-bznxzw?file=index.js
 
@@ -393,13 +400,18 @@ https://stackoverflow.com/a/46515787/11298742
 ## (optional) Practice async/await
 
 
+Using async/await:
 
 https://jsonplaceholder.typicode.com/users
 https://jsonplaceholder.typicode.com/posts
 https://jsonplaceholder.typicode.com/albums
 
+Time: 10min.
+
+<!-- @todo: improve this exercise -->
 
 (same exercise that we did with .then().catch() but using async/await)
+
 
 
 
@@ -420,9 +432,9 @@ Final result:
 
 
 
-Timing diagrams:
-- Diagram .then().then().then(): https://images.viblo.asia/e716d79d-3c38-4957-a490-c98c4ce147c9.png
-- Diagram Promise.all(): https://images.viblo.asia/21563dac-e13c-43b5-aab3-a46fff1a8125.png
+Diagrams (timing):
+- then().then().then(): https://images.viblo.asia/e716d79d-3c38-4957-a490-c98c4ce147c9.png
+- Promise.all(): https://images.viblo.asia/21563dac-e13c-43b5-aab3-a46fff1a8125.png
 
 
 Promise static methods:
@@ -471,7 +483,13 @@ Fetch API - JavaScript Tutorial for beginners:
 
 
 - JavaScript Promises -- Tutorial for Beginners (ColorCode, 37min.)
-https://www.youtube.com/watch?v=TnhCX0KkPqs
+  - https://www.youtube.com/watch?v=TnhCX0KkPqs
+  - Topics:
+    - Creating promises
+    - Consuming
+    - Chaining
+    - fetch()
+    - ...
 
 
 - Async Await vs. Promises - JavaScript Tutorial for beginners (ColorCode, 24min.)

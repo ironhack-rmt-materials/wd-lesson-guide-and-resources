@@ -1,19 +1,6 @@
 
 # w4d1
 
-<!--
-
-Status: ready
-
-
-Goal: 
-- 15:00 start lab
-  - advanced students: if they finsih, they can start this one: https://github.com/ironhack-labs/lab-js-es6-reinforcement
-
-- 17:00: (bonus) explain how to create promises / record video
-
-
--->
 
 
 
@@ -29,7 +16,6 @@ Give feedback to students (ex. if you see anything to they can learn from).
 - Let's keep it brief (they'll be busy)
 - Let's keep it focused on things they can learn from (they will probably not have time to implement any suggestions)
 
-
 -->
 
 
@@ -41,8 +27,13 @@ Give feedback to students (ex. if you see anything to they can learn from).
 
 - Intro to module 2 (see .md file) [30min]
 
-- Object destructuring [30min]
+- Warmup: object + array destructuring ? [20m.]
 
+- How the internet works
+
+- What is an API
+
+- Promises
 
 
 
@@ -60,16 +51,6 @@ PROMISES:
   -- Include one Exercise
 
 
-Other patterns:
-- Promise.all()
-  <!-- @todo: record a video + self-guided (once they're on the lab) -->
-
-
-Bonus:
-- fetch API (self-guided and/or video ColorCode)
-- creating promises (video)
-- ES6 LAB 
-
 
 
 
@@ -79,6 +60,4 @@ Bonus:
   - LAB JS ES6 Reinforcement (for...of loop, .filter()):
     https://github.com/ironhack-labs/lab-js-es6-reinforcement
   
-
-
 
