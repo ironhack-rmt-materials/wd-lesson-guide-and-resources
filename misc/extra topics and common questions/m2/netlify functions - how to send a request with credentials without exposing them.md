@@ -65,3 +65,38 @@ For debugging / testing:
 
  -->
 
+
+
+## Google Maps JS API
+
+
+- For google maps api, you need a `<script>` tag in the frontend, including the api key
+
+  - Example: 
+
+    ```jsx
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+    ```
+
+  - Documentation: https://developers.google.com/maps/documentation/javascript/overview#Loading_the_Maps_API
+
+
+- As far as I know, this is the only way to do that (api key needs to be in the browser). For, airbnb, does it this way at the moment (if you see their source code, you can see their google maps api key).
+
+- more info: https://stackoverflow.com/questions/38153734/do-i-need-to-hide-api-key-when-using-google-maps-js-api-if-so-how
+
+
+- RECOMMENDATIONS:
+  1. Restrict your API keys (for example, by domain)
+    - https://developers.google.com/maps/documentation/javascript/get-api-key#restrict_key
+  2. Plus, limit the number of requests (so that you don't get a bad surprise)
+    - https://developers.google.com/maps/documentation/javascript/usage-and-billing#set-caps
+
+
+
+
+
+
+
