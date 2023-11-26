@@ -8,12 +8,7 @@
 Status: ready
 
 
-Can be self-guided (or recorded).
-
-
-@LT: 
-- do this with the example we have in the students portal 
-(projects + tasks )
+@LT: do this with the example we have in the students portal (projects + tasks )
 
 -->
 
@@ -30,7 +25,6 @@ Can be self-guided (or recorded).
   - https://docs.google.com/presentation/d/194i1dCV2vpqTN5T3yC5lysvfS-_fnEkok97QpaOtb3w/edit?usp=sharing
 
 - Video: What is a REST API? (explains RESTful) (6 min., Mosh)
-  <!-- @LT: watch video together / ask to do as class activity -->
   - https://www.youtube.com/watch?v=SLwpqD8n3d0
 
 
@@ -152,8 +146,31 @@ Test second resource: "tasks"
 
 
 
+<!-- IMPORTANT -->
+<!-- IMPORTANT -->
+
+IMPORTANT: explain that json-server does not do any validation (you can put any data)
+
+<!-- IMPORTANT -->
+<!-- IMPORTANT -->
+
+
+
 ## Deployment
 
 - Create repo + upload to GitHub
 - Deploy on Adaptable.io
+
+
+
+## (extra) Test in production
+
+- Test with Postman
+
+
+
+## (extra) Connect our React app
+
+- Connect our React app to the API in production
+  (for now, don't use env variables, just connect directly to production)
 
