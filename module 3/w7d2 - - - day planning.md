@@ -1,48 +1,34 @@
 
+
 # w7d2
 
-<!-- 
-
-Status: just some notes
-
-@todo:
-- improve notes, describing each step (esp. for state)
-- create slides or cheatsheet
 
 
-w7d2 is quite challenging for students. Start at good pace from beginning.
+## Day planning
+
+- LAB Q&A [20m]
+
+- Refresh [20m]
+  - express routes
+    - ex. `app.get(path, callbackFn)`
+    - req, res, next
+  - different ways to send a response
+    - `res.send()`
+    - `res.sendFile()`
+    - `res.json()`
+  - Middleware
+    - diagram: https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m2/expressjs/express-middleware-1.png
+    - show example of a custom middleware function
+    - (extra) see documentation for app.get
+      - `app.get(path, callback [, callback ...])`
+  - nodemon
+    - in development, we will usually run with nodemon
 
 
-LAB "React IronContacts" is very challenging
-- offer students the possibility to work in pairs
-- give extra guidance for iteration 1
-
--->
+- (extra) introduce req.params [30m]
+  <!-- why: w7d3 has a lot of contents, can be good to introduce it today -->
 
 
-Refresh from yesterday:
-- (skip) Module 3 & Requirements project 3
-- React intro
-- Vite
-- 2 types of components
-- props (how to pass and receive props)
+- MongoDB Intro + MongoDB Compass + CRUD Operations + Exercise [2.5h]
 
-
-
-## Summary Today
-
-State
-- demo (start with a basic counter) [1h]
-- exercise to practice state [1h]
-
-Create "popcorn-time" with Vite
-
-Popcorn Time I:
-- Initialize project with Vite
-- (Warmup) exercise to refresh forEach() and map() [30min.]
-- Create component structure [30min.]
-- Import json with array of movies
-- Iterate through array
-- Conditional rendering (3 options)
-- (extra) sort or display only top-rated movies (store in state) 
 
