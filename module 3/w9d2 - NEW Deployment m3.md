@@ -5,15 +5,18 @@
 
 Status: 
 
-Slides (shown in the video):
+Slides (shown in the video): https://docs.google.com/presentation/d/19VRo2Bjae3q8b5wNCMKpEG-DrlDN_4Z3-XdHcP4CHZo/edit?usp=sharing
+
+
+todo: record new video or update to take into account a few updates
+- how we will work: ask both students to follow video together (instead of deploying 2 apps)
+- current video mentions multiple times that they already have an account from m2 (not anymore since m2-m3 swap)
+- ui changes (atlas, netlify)
+- video 3: environment variables Vite (towards the beginning)
+
 
 -->
 
-
-
-## REQUIREMENTS
-
-- repos (client + server)
 
 
 
@@ -35,81 +38,100 @@ Slides (shown in the video):
 
 
 
+---
+---
+---
 
 
 ## Project 3 Deployment
 
-⛳ Follow instructions in these three videos:
+### 1. Using env variables for the location of our API
 
-Using env variables for the location of our API
-https://www.loom.com/share/52429b07880c44b2801956d42dcd2e06
-
-Intro + Server:
-https://www.loom.com/share/45058811db3640a2944046a8ffb8cba4
-
-Client + Summary:
-https://www.loom.com/share/1503025f85344dacad7e914cc759ceba
+- Follow this video: https://www.loom.com/share/52429b07880c44b2801956d42dcd2e06
 
 
-➡️ IMPORTANT: working in pairs
-  - Make sure both of you follow the steps for deployment.
+### 2. Intro + Backend:
 
+- Follow this video: https://www.loom.com/share/45058811db3640a2944046a8ffb8cba4
 
-➡️ IMPORTANT: environment variables prefix:
-  - CRA: `REACT_APP_`
-  - Vite: `VITE_`
+- How to work: 
+  - Instead of deploying two applications, you may find it easier to deploy project 3 together.
+  - In any case, make sure both of you follow the video.
 
-
-➡️ Update Sept. 2023:
-
-- MongoDB Atlas and Netlify have changed some details on their website (some pages are slightly different). 
-- You should be able to follow all steps without any problem but, in doubt, let us know.
-
-- (minor) MongoDB Atlas has dome some changes in the UI:
-  - example from the video: https://drive.google.com/file/d/1noGvA2uOzr7xTo-gm91aEA9X_C9yHkkq/view?usp=sharing
-  - example of their new interface: https://drive.google.com/file/d/1KU6Rg5fM-bm3ZfTBmIOABlq8BlEp2cod/view?usp=sharing
-
-- (minor) Netlify has changed the UI:
-  - old interface (horizontal menu): https://drive.google.com/file/d/1GSaam-vABRarKLaq3lzjS-zF5JwKH8-M/view?usp=sharing
-  - new interface (sidebar): https://drive.google.com/file/d/1wAfkU8PEIgJ-plGQkLIqbjbG5P9HGo3I/view?usp=sharing
+- Update: 
+  - MongoDB Atlas and Adaptable have done some changes in the UI:
+    - example from the video: https://drive.google.com/file/d/1noGvA2uOzr7xTo-gm91aEA9X_C9yHkkq/view?usp=sharing
+    - example of their new interface: https://drive.google.com/file/d/1KU6Rg5fM-bm3ZfTBmIOABlq8BlEp2cod/view?usp=sharing
 
 
 
-📌 Repos that I use (in case you don't have your own):
+### 3. Frontend + Summary:
 
-- Server: https://github.com/ironhack-rmt-resources/project-management-server-deployment-demo
-
-- Client: https://github.com/ironhack-rmt-resources/project-management-client-deployment-demo
+- Follow this video: https://www.loom.com/share/1503025f85344dacad7e914cc759ceba
 
 
-
-📝 Links & other things I mention in the video:
-
-
-- Pattern for all ip address: 0.0.0.0/0
-
-- To avoid treating warnings as errors: `CI = false`
-
-- To fix error when user doesn't go directly to the homepage of our react app, create a file `_redirects` (needs to go in /public directory) with this content:   `/*  /index.html  200`
-
-- Note: if you are on Mac, make sure the filename (`_redirects`) does not contain a whitespace at the end.
+- IMPORTANT: environment variables in our React apps:
+  - CRA (in the video): `REACT_APP_XXX` + `process.env.REACT_APP_XXX`
+  - Vite (in our case): `VITE_XXX` + `import.meta.env.VITE_XXX`
 
 
-- Cheatsheet branches --> https://gist.github.com/luisjunco/d9d0a7d62e7633568533b7214f6af840
+- Update:
+  - Netlify has also changed the UI:
+    - example from the video: https://drive.google.com/file/d/1GSaam-vABRarKLaq3lzjS-zF5JwKH8-M/view?usp=sharing
+  - new interface (sidebar): https://drive.google.com/file/d/10LsxHM-AQmr87IcNfaHiaDXqsN2qmE7e/view?usp=sharing
+
+
+- During the video I mention some things (ex. `_redirects` file + cheatsheet for `git branches`). You can find them in the description.
 
 
 
-
-## Submit URLs in students portal
-
-Ask students to submit URLs in the students portal (set DEADLINE)
+### 4. Submit URLs in students portal
 
 
-![m3 project urls](./images/m3-submit-project-urls.png)
+As soon as you finish deployment, submit URLs in the students portal.
+
+Make sure you submit the correct urls. 
+
+Screenshot: https://drive.google.com/file/d/1un8OZoDSpSr33VmqziNPOJT8qGVpAwch/view?usp=sharing
+
+Deadline: today, 5pm
+
+
+
+### Need help ?
+
+If you're blocked or have doubts, let us know ;)
+
+
+
+
+---
+---
+---
+
+
 
 
 
 ## Seed file (seed data on production DB)
 
 <!-- @LT: share instructions on Slack (no need to demo) -->
+<!-- @todo: create a gist -->
+
+
+To seed data on production, you can do the following:
+
+  1. Modify your seeds file so that it points to the production DB (see screenshot)
+    - Note: save the changes on this file but do NOT make a commit.
+
+  2. Execute your seeds file in your computer: `node bin/seeds.js`
+
+  3. Confirm that data was created on production (you can do that on MongoDB Compass, connecting to your production DB)
+
+  4. Undo the changes we made in "step 1" (so that they are not added to the repo)
+  - Note: this step is important, otherwise you may be pushing your DB credentials to github.
+
+  
+![Seed on production](./images/seed-adaptable.png)
+
 
