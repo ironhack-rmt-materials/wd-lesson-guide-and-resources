@@ -19,6 +19,8 @@ Slides: https://docs.google.com/presentation/d/1SqJP7b9cQ9UpvTmfVpdojcFXjsTL0g1H
 
 ## (Extra) Intro to NPM [30m]
 
+- see: "Node - Introduction.md"
+
   <!--
   @todo: 
 
@@ -27,6 +29,7 @@ Slides: https://docs.google.com/presentation/d/1SqJP7b9cQ9UpvTmfVpdojcFXjsTL0g1H
   - creating an npm repo
   - installing a package (ex. cowsay)
   - package.json 
+  - explain scripts ? (it can also be done later)
 
   Note: it can be linked to the concepts of ES6 modules
   ex.:

@@ -55,6 +55,23 @@ Status: draft
   - In case you need to define a custom port (for example, if you have another app running in your computer): `npm run dev -- --port 3000`
 
 
+
+
+## Explain "Ports"
+
+- Similarity: hardware ports
+  https://miro.medium.com/max/775/1*OzI8He-ZBEcnrDgV6CLOfw.jpeg
+
+- Common port numbers:
+  https://en.wikipedia.org/wiki/Port_(computer_networking)#Common_port_numbers
+
+> A port is a virtual point where network connections start and end. 
+> Ports are software-based and managed by a computer's operating system. 
+> Each port is associated with a specific process or service.
+
+
+
+
  
 ## Practice: Create the initial structure for "popcorn time"
 

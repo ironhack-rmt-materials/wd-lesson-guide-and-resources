@@ -13,7 +13,7 @@ How:
 -->
 
 
-# Fundamentals
+## Fundamentals
 
 - Intro
   - what is git ?
@@ -41,11 +41,30 @@ How:
 - ...
 
 
-# Advanced
+## Intermediate
+
+
+- Source Control in VS Code:
+  - see files changed + compare changes
+  - add to staging area
+  - make a commit
+  - other operations:
+    - stage / unstage / stage only some parts of a file
+    - git restore 
+  - commit history in a user friendly format
+    - ex.: https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+
+
+
+
+## Advanced
 
 - Stash
 - Undo changes
+  - git revert
 - Travel in time
+
+
 
 
 ## Ready to rock
@@ -68,13 +87,14 @@ How:
 git - the simple guide
 https://rogerdudler.github.io/git-guide/
 
+Git Tutorial for Beginners: Learn Git in 1 Hour (Mosh)
+https://www.youtube.com/watch?v=8JJ101D3knE
+
 Intermediate Git Tutorial (how to make a good commit, branching strategies, PRs, merge vs rebase)
 https://www.youtube.com/watch?v=Uszj_k0DGsg&t=1549s
 
 Advanced Git Tutorial (interactive Rebase, Cherry-Picking, Reflog, Submodules)
 https://www.youtube.com/watch?v=qsTthZi23VE
-
-
 
 
 

@@ -11,7 +11,7 @@ Status: ready but needs improvement.
 
 Concepts:
 - Try to simplify / remove some concepts 
-- Include "software ports"
+- Include "software ports" (note, this can also be introduced in w4d3, when we run our second app)
 - Try to make more clear main concepts (verbs, status codes)
 
 -->

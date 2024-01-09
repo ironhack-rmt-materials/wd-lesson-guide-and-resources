@@ -5,7 +5,13 @@
 
 <!-- 
 
-Status: ready (updated after m2-m3 swap)
+Status: 
+- ready (updated after m2-m3 swap)
+
+
+@todo: 
+- Record video "continuous deployment + branches" 
+- (see slide 27)
 
 -->
 
@@ -32,13 +38,6 @@ Status: ready (updated after m2-m3 swap)
 - Known errors in the recording:
   - not for now.
 
-
-
-<!--
-@todo:
-- record bonus video for continues deployment + branches (develop branch)
-- see slide 27
--->
 
 
 

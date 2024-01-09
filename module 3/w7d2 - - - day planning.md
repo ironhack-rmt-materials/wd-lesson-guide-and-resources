@@ -25,10 +25,28 @@
     - in development, we will usually run with nodemon
 
 
+- (extra) explain "npm scripts"
+
+  ```json
+  {
+    "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js"
+    }
+  }
+  ```
+
 - (extra) introduce req.params [30m]
   <!-- why: w7d3 has a lot of contents, can be good to introduce it today -->
 
 
 - MongoDB Intro + MongoDB Compass + CRUD Operations + Exercise [2.5h]
 
+- Data Models ? [20m]
 
+  <!-- 
+  
+  consider doing a quick intro to "Data Models" + relationships.
+  (so that we're more familiar with that concept when we do relationships)
+  
+  -->

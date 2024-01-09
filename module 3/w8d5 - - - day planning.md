@@ -15,5 +15,5 @@ React App
   - CSS Frameworks 
   - Component Libraries
     - ex: Bootstrap
-    - ex: React Bootstrap, Semantic UI, Ant Design, Chakra, Material UI (MUI)
+    - ex: React Bootstrap, Mantine, Semantic UI, Ant Design, Chakra, Material UI (MUI)
 

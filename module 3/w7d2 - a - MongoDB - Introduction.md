@@ -49,9 +49,10 @@ Use cases:
 
   <!--
   Note: 
-  - there seems to be a bug in Compass, often tells you "Insert not permitted while document contains errors"
-  - compass keeps rejecting, even after choosing the right format.
-  - quick workaround: click on a different collection & try again
+  - there's a bug in Compass "Insert not permitted while document contains errors"
+  - summary: if you enter the wrong format, Compass will keep showing that error, even after choosing the right format.
+  - bug report: https://jira.mongodb.org/browse/COMPASS-3246
+  - Quick workaround: click on a different collection & try again
   -->
 
 

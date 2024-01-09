@@ -15,6 +15,7 @@ https://docs.google.com/presentation/d/1yAm3sAO8IC3K12AUlbQ5VesdTxMmfHFNNeNi96tT
 
 <!-- @todo: add Responsive (+ remove from slide 22) -->
 
+<!-- @LT: during project week, check installations for m3 -->
 
 
 ## (skip) UX, MVP

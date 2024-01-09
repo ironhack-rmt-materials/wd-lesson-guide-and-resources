@@ -16,7 +16,7 @@
   <!-- @todo: 
 
   - add Responsive (+ remove from slide 22)
-  - improve steps for initial setup (ex. include steps for REST API)
+  - improve steps for initial setup (ex. create directory project 2, steps for REST API, etc)
   
   -->
 

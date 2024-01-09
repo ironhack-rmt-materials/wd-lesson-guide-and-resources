@@ -8,12 +8,16 @@ Action games:
   https://claradrojas.github.io/potato-run/
 
 
-- Banana Lover (Bartosz)
-  https://bartoszde.github.io/banana-lover/index.html
+- Bat Game (Maya)
+  https://mayakilbertus.github.io/project-bat-game/
 
+
+- DBugger Game (Cristina):
+  https://cramosp.github.io/dbugger-game/
+  <!-- Shoot with spacebar -->
 
 - Spaceship Shooter (Eric)
-  https://ericveganoguera.github.io/ProjectGame/#
+  https://ericveganoguera.github.io/ProjectGame/
 
 
 - Chubby Buddies (Beatriz)
@@ -33,6 +37,9 @@ Non-action games:
   https://codingeinhorndeu.github.io/guess-game/
 
 
+- World Map (Marine)
+  https://marinerossi.github.io/keep-world-mind/world-map.html
+
 
 
 Even more examples....
@@ -46,11 +53,6 @@ Even more examples....
 - Sticky Bullets (Valentin)
   https://valentin-paul.github.io/Game-Javascript/
 
-- The good diver (Oscar)
-  https://oscargonzalezdev.github.io/project-game/
-
-- Unfriendly Planet (Fernando)
-  https://fndoramos.github.io/Project1-Game-OOP-DOM/index.html
 
 
 ---

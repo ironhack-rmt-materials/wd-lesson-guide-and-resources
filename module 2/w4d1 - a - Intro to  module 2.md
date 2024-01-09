@@ -37,3 +37,6 @@
   - We will ask you for preferences
   - Why: in almost any company, you'll be working in a team with other developers
 
+
+<!-- @todo: include the notes above in the slides (labs, project etc) -->
+

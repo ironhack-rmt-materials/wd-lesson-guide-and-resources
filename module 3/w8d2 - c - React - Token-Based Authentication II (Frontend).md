@@ -67,6 +67,4 @@ Sections in the student portal:
 ## Extra challenges and improvements:
 - After signup, automatically login the user
 - Add a component library
-  - some examples: React Bootstrap, Semantic UI, Ant Design, Chakra, Material UI (MUI)
-
 

@@ -1,7 +1,9 @@
 
 # w4d1
 
-
+<!--
+@LT: include 1 or 2 activities/challenges in the morning.
+-->
 
 
 

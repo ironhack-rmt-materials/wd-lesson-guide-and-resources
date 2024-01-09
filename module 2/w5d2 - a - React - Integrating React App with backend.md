@@ -35,6 +35,7 @@ Methodology:
 
 Intro: 
 - explain goal + show API endpoints
+- provide a list of milestones to follow (for each milestone, discuss how to implement it)
 
 Summary of steps:
 - [ ] Getting Started (initial setup)
@@ -54,7 +55,7 @@ Summary of steps:
 - [ ] Add Task Form
   - form
   - POST /tasks
-  - Note: json-server expects projectId as a number (passing a string will not work)
+  - Note: make sure to pass projectId as a number (passing it as a string will not work)
   - Example: https://github.com/ironhack-fulltime-degenerates-oct2023/codealong-integrating-react-app/blob/86c78481f9c62bdde49ec1eca5f475af1f9d886b/src/components/AddTask.jsx#L15
 - [ ] Extracting Components (project card + task card)
 

@@ -174,3 +174,28 @@ IMPORTANT: explain that json-server does not do any validation (you can put any 
 - Connect our React app to the API in production
   (for now, don't use env variables, just connect directly to production)
 
+
+
+## (extra) Explain that data will be re-setted from db.json
+
+Any data added manually (ie. anything that is not in db.json), will be overwritten after some time.
+
+Reasons / when:
+- when we push (adaptable will redeploy)
+- periodically (we've seen that adaptable will reset the data from db.json periodically, even without pushing code to the remote repo)
+
+<!--
+
+These slides may help explain those concepts:
+https://docs.google.com/presentation/d/1IBUEju2Ho2s6X-_XZfvUWdKPCyThYjQbkJfYuR4MLbY/edit?usp=sharing
+
+-->
+
+
+
+## Other resources
+
+- JSON Server Auth: https://github.com/jeremyben/json-server-auth
+
+- Validation (not supported, can be done with middleware): https://github.com/typicode/json-server/issues/76
+

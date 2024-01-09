@@ -2,6 +2,21 @@
 # React - Conditional Rendering
 
 
+<!--
+
+@todo: Record video
+
+- initial code for video: https://codesandbox.io/s/cool-smoke-t68mxc?file=/src/App.js
+
+- recording:
+  - explain initial code
+  - why we can not use if-else statement
+  - intro cheatsheet + 3 ways
+  - (bonus) can also create another app to show that conditional rendering applies to other cases, not just props (ex. when a counter of likes reaches a number - state)
+  
+-->
+
+
 
 ## Conditional Rendering
 

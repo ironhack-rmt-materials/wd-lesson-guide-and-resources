@@ -90,7 +90,7 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
     - TypeScript +++
     - Next.js ++
     - TDD / Testing
-    - Redux
+    - React Query
     - SCSS
     - Tailwind (an alternative to Bootstrap)
     - GraphQL (an alterntative to REST -ie. a different way to create an API)
