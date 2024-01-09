@@ -116,7 +116,7 @@ If you need the library project:
 
 @Luis: do not push button...
 
-- ![Do not push button](./images/do-not-push-button.png "Do not push button")
+- ![Do not push button](../media/images/do-not-push-button.png "Do not push button")
 
 -->
 
@@ -284,8 +284,7 @@ To seed data on production, you can do the following:
   - Note: this step is important, otherwise you may be pushing your DB credentials to github.
 
   
-![Seed on production](./images/seed-adaptable.png)
-
+![Seed on production](../media/images/seed-adaptable.png)
 
 
 

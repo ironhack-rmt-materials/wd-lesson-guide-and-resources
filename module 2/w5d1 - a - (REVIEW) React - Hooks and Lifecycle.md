@@ -49,7 +49,7 @@ Notes:
 
 - https://ih-crud-api.herokuapp.com/characters
 - See documentation: w5d4 "AXIOS | POST, PUT and DELETE request"
-  - ![Characters API Endpoints](./images/characters-api-endpoints.jpg)
+  - ![Characters API Endpoints](../media/images/characters-api-endoints.png)
 - explain the concept of `endpoint`
 - mention the concept of: `REST API`
 - test `GET` on the browser
@@ -94,7 +94,7 @@ Note:
 - On Stackblitz, you can install `axios@0.27.2`
 
 Endpoints:
-![characters api](./images/characters-api-endoints.png)
+![characters api](../media/images/characters-api-endoints.png)
 
 Hints:
   - Example with a GET request https://codesandbox.io/s/icy-rain-igs74w?file=/src/index.js
@@ -310,7 +310,7 @@ https://legacy.reactjs.org/docs/hooks-reference.html
   ```
 
   - See this cheatsheet: https://pbs.twimg.com/media/FEzs8twXsAYETEt?format=jpg&name=4096x4096
-    - Image: ![useEffect summary](./images/useEffect-summary.jpg)
+    - Image: ![useEffect summary](../media/images/useEffect-summary.jpg)
 
 
 

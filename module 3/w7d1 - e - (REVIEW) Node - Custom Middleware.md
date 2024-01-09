@@ -13,7 +13,7 @@
 
 Explain:
 - middleware
-  - ![diagram](./images/express-middleware.png)
+  - ![diagram](../media/images/express-middleware.png)
 
   - diagram 2: https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m2/expressjs/express-middleware-1.png
 

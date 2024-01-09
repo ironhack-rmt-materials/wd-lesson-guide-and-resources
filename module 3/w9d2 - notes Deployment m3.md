@@ -99,7 +99,7 @@ Ask students to submit urls (github x2 + netlify) on students portal
 <!-- IMPORTANT -->
 
 
-![screenshot students portal](./images/students-portal-project-urls.png)
+![screenshot students portal](../media/images/m3-submit-project-urls.png)
 
 
 
@@ -171,5 +171,5 @@ Ask students to submit urls (github x2 + netlify) on students portal
 <!-- IMPORTANT -->
 
 
-![screenshot students portal](./images/students-portal-project-urls.png)
+![screenshot students portal](../media/images/m3-submit-project-urls.png)
 

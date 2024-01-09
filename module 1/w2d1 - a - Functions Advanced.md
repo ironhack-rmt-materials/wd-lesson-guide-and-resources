@@ -236,10 +236,10 @@ Note: most students find it difficult, give them 15min. and solve together.
   ```
 
 - Arrow functions... "this" is the difference:
-![this is the difference](./images/arrow-functions-this-is-the-difference.jpg)
+![this is the difference](../media/images/arrow-functions-this-is-the-difference.jpg)
 
 - f*** this:
-![cant-remember-what-this-refers-to.png](./images/cant-remember-what-this-refers-to.png)
+![cant-remember-what-this-refers-to.png](../media/images/cant-remember-what-this-refers-to.png)
 
 
 

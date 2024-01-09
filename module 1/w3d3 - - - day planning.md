@@ -51,7 +51,7 @@
 
 How to submit project URLs:
 
-![project1-urls](./images/project1-%20submit%20urls.png)
+![project1-urls](../media/images/project1-%20submit%20urls.png)
 
 
 

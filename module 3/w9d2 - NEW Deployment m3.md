@@ -132,6 +132,6 @@ To seed data on production, you can do the following:
   - Note: this step is important, otherwise you may be pushing your DB credentials to github.
 
   
-![Seed on production](./images/seed-adaptable.png)
+![Seed on production](../media/images/seed-adaptable.png)
 
 

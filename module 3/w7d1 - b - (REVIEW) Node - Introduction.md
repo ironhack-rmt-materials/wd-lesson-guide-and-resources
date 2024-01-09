@@ -115,7 +115,7 @@ update - m2-m3 swap:
 
 
 Tip: Debugging vs. reading documentation:
-![debugging vs reading](./images/debugging%20vs%20reading%20documentation.jpg)
+![debugging vs reading](../media/images/debugging%20vs%20reading%20documentation.jpg)
 
 
 

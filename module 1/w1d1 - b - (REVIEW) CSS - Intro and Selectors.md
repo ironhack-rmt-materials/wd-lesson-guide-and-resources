@@ -139,7 +139,7 @@ https://www.youtube.com/watch?v=c0kfcP_nD9E
 
 
 Backup (Specifishity):
-- ![specifishity cheatsheet](./images/specifishity.png)
+- ![specifishity cheatsheet](../media/images/specifishity.png)
 
 
 

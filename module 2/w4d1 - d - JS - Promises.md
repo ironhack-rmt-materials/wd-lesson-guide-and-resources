@@ -32,7 +32,7 @@
 What we'll see today:
 
 - Callback hell vs. vertical code: 
-  - ![callbacks-vs-promises](./images/callbacks-vs-promises.png)
+  - ![callbacks-vs-promises](../media/images/callbacks-vs-promises.png)
 
 
 - Show:
@@ -146,7 +146,7 @@ What we'll see today:
 
 
 - Callback hell vs. vertical code: 
-  - ![callbacks-vs-promises](./images/callbacks-vs-promises.png)
+  - ![callbacks-vs-promises](../media/images/callbacks-vs-promises.png)
 
 
 - Advantage of promises: code easier to read and maintain.
@@ -177,7 +177,7 @@ What we'll see today:
   - error message (reason)
 
 
-- ![from-callback-hell-to-promises](./images/from-callback-hell-to-promises.jpg)
+- ![from-callback-hell-to-promises](../media/images/from-callback-hell-to-promises.jpg)
 
 
 
