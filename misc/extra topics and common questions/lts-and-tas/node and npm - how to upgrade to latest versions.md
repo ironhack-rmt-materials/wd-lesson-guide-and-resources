@@ -4,8 +4,8 @@
 
 NVM:
 
-- nvm install x.x.x (ex. `nvm install 18.14.1`)
-- nvm alias default x.x.x (ex.`nvm alias default 18.14.1`)
+- nvm install x.x.x (ex. `nvm install 20.11.0`)
+- nvm alias default x.x.x (ex.`nvm alias default 20.11.0`)
 
 - other useful commands: 
   - nvm ls
