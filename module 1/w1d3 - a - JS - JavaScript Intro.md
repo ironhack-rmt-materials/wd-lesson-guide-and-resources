@@ -58,6 +58,14 @@ Status: draft
 ```
 
 
+
+## Type
+
+- data types
+- operator typeof
+
+
+
 ## Type Conversion
 
 > You can reassign values and change the data type of variables in JavaScript.
@@ -68,12 +76,6 @@ Status: draft
   amount = 'eleven';
   console.log(amount);
 ```
-
-
-## Type
-
-- data types
-- operator typeof
 
 
 

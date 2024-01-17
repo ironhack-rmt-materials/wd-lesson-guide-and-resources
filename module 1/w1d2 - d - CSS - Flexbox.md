@@ -129,7 +129,7 @@ Links:
   - `justify-content` (alignment in the main axis)
   - `align-items` (alignment in the cross axis)
   - (skip) `align-content`
-  - (skip) `gap, row-gap, column-gap`
+  - (brief) `gap, row-gap, column-gap`
 
 
 - Intro "Joshw Comeau - Interactive Guide"
@@ -138,14 +138,15 @@ Links:
 
 
 - Properties for the Children (flex items)
-  - `order`
+  - (skip) `order`
   - `flex-basis` 
-    <!-- @Luis: introduce flex-basis before grow & shrink -->
+    <!-- @LT: introduce flex-basis before grow & shrink -->
     - This defines the default size (in the main axis) before the remaining space is distributed
     <!-- (we will see how it can be distributed in a moment, with grow & shrink) -->
   - `flex-grow`
   - `flex-shrink`
     - This defines the ability for a flex item to shrink if necessary.
+    <!-- flex-shrink: see in interactive-guide-to-flexbox-->
   - `flex` (shorthand)
     `- flex: <'flex-grow'> <'flex-shrink'> <'flex-basis'>`
   - `align-self` (alignment in the cross axis)

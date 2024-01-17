@@ -13,18 +13,28 @@
 
 # Day Planning 
 
-- Questions yesterday's LAB? (30m.)
+- (skip) Questions yesterday's LAB? (30m.)
   - LAB "Flexbox Slack": demo with logos (airbnb, spotify, etc)
     - images (sizes, ratios)
     - flexbox (row + flex-wrap)
     - media queries
-- Quick refresh from yesterday (20m.)
-- JS Intro (1h)
-- JS Data Types - numbers and strings (1.5h)
-- JS Numbers - Advanced Topics [self-guided] (30m.)
-- JS Data Types in JavaScript - boolean, undefined & null (1h)
-- JS - Conditionals and Loops (30m. / 1h)
 
-- LAB | JavaScript Basic Algorithms
+- (skip) Quick refresh from yesterday (20m.)
+
+- Slides: Bootcamp Intro IV (10m)
+
+- JS Intro (1h)
+- JS Data Types - numbers and strings (2h)
+- JS Data Types in JavaScript - boolean, undefined & null (1h)
+
+
+
+## Active Learning
+
+- (self-guided) JS Numbers - Advanced Topics [30m]
+- (individual) LAB | JS Data Types [1.5h]
+- (in pairs) LAB | JavaScript Basic Algorithms [2.5h]
+
+<!-- LT: introduce AI LAB feedback -->
 
 

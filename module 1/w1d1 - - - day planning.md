@@ -8,10 +8,13 @@
 @LT:
 
 IMPORTANT:
-- Go very fast through basic concepts +++
-- Give plenty of time for Git concepts +++++
-- Give plenty of time for LAB  +++++
+- Go very fast through basic concepts
+- Give plenty of time for Git concepts +++
+- Give plenty of time for LAB
 
+
+@todo:
+- improve demo/codealong (make it more interesting)
 
  -->
 

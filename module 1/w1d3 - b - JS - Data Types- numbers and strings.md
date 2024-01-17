@@ -31,7 +31,14 @@ console.log(result);
 
 ## Modulo % (aka remainder operator)
 
-<!-- - ex. 10 % 2 pizzas -->
+<!-- 
+
+- ex. 11 % 2 pizzas 
+
+- interactive demo: https://www.joshwcomeau.com/javascript/modulo-operator
+
+-->
+
 
 Example:
 
@@ -229,7 +236,7 @@ Some topics:
 
 Practice: strings & string methods: 
 - Instructions: https://stackblitz.com/edit/js-1am8e2?file=index.js
-- Time: 15-20min.
+- Time: 15min.
 - Solution: https://stackblitz.com/edit/js-tsenus?file=index.js
 
 
@@ -264,3 +271,4 @@ they need it for today's lab
 // 0 --> same strings
 // 1  --> if the main string goes after the other one
 ```
+
