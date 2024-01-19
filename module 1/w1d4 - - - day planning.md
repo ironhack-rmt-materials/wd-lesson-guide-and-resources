@@ -22,18 +22,20 @@
 
 ## DAY PLANNING:
 
-- Questions from yesterday lab AND/OR Refresh JS Intro (40m)
-- Bootcamp Intro IV (10m)
-- Functions Intro (1h +)
-- Data Types - Arrays (1.5h)
-- Data Types - Objects (1h +)
-- Arrays & Objects (nested data structures) (1h)
+- Q&A [20m]
+- (skip) Refresh
+- Slides: Bootcamp Intro IV [10m]
+- Conditionals and Loops [30m/1h]
+- Functions Intro [1.5h]
+- Data Types - Arrays [1.5h]
 
 
 
-Today's LABs:
-- "LAB | JavaScript Functions and Arrays" → mandatory
-- "LAB | JavaScript Clue" → EXTRA (but very recommended)
+## Active Learning
+
+- (individual) LAB | JS Functions & Arrays [1.5h]
+- (in pairs) LAB | JS Challenges I (Arrays & Functions) [2.5h]
+- (bonus - self-guided) JS | Debugging and Error Handling
 
 
 

@@ -18,28 +18,33 @@
 
 
 Morning:
-- Questions from lab [30min.]
-- Bootcamp Intro V [5min.]
-- introduce callback & anonymous functions (do example with forEach) [30min.]
-- (extra) introduce setTimeout/setInterval [30min.]
-- OOP: intro + oop with plain objects [30min.]
-- OOP: ES6 Classes + Exercise I [1.5h]
-- OOP: OOP Bakery exercise [30min.]
-
+- Q&A [30min.]
+- Slides: Bootcamp Intro V [5min.]
+- Data Types - Objects [1.5h]
+- Arrays & Objects (nested data structures) [1h]
+- Test Driven Development (TDD) [20m.]
+- Unit Testing with Jasmine [40m.]
 
 Afternoon:
+- Quick retro [30m.]
+- Survey [5min.]
 
+
+<!--
 - Retrospective [1h]
-
-- OOP Concepts [1h]
-  - OOP principles
-  - inheritance
-  - super
-
-- LAB kick-off (+ open assessment)
-
 - Icebreakers (optional)
-  <!-- Gatheround Template: "totally random" // "Week One Icebreakers" -->
+  - Gatheround Template: "totally random" // "Week One Icebreakers" 
+- Weekend! https://www.icegif.com/wp-content/uploads/weekend-icegif-1.gif
+-->
 
-- Weekend!! 
-  - https://www.icegif.com/wp-content/uploads/weekend-icegif-1.gif
+
+
+## Active Learning
+
+- survey [5min.]
+- (individual) LAB | JS Book Objects [30m.]
+- (individual) LAB | Unit Testing with Jasmine [1h]
+- (in pairs) LAB | JavaScript Clue
+- (individual) Assessment | JS Foundations (202208)
+<!-- LT: Make sure to publish the assessment -->
+
