@@ -11,19 +11,22 @@ https://www.loom.com/share/a183261549334d4aad2c916c54c266e0?sid=434fba10-37d3-49
 
 Known errors in the recording:
 
-- (minor): 14:45 correct syntax should be `elm.style.backgroundImage = "url('./images/background.jpg')";`
+- (minor): 14:45 syntax for background image is not correct.
+  - in the video: `elm.style.backgroundImage = "./images/background.jpg";`
+  - correct syntax: `elm.style.backgroundImage = "url('./images/background.jpg')";`
 
 
 
 
-## Summary (Common Pain Points + How to Debug)
+## Summary (Common Pain Points + Debugging tips)
 
 
 Common Pain Points:
 
 1. You need an `index.html` file (your entry point)
-   - index.html  --> gameover.html
-   - index.html  --> play.html --> gameover.html
+   - Example 1: index.html  ➜  gameover.html
+   - Example 2 (if you have an initial page with instructions): index.html  ➜  play.html  ➜  gameover.html
+
 
 2. Make sure to use `RELATIVE PATHS`
    ./
@@ -34,8 +37,8 @@ Common Pain Points:
 3. If you don't see your changes, it may be because of the `cache`.
    - Check that your code is actually on Github.
    - If you need to invalidate the cache, these are some options:
-     - Ctrl + F5 (hard reload)
-     - Ctrl + hold click on the refresh button
+     - Hard reload: Ctrl + F5 (Win) // Cmd + Shift + R (Mac)
+     - or, hold down Ctrl and click the Reload button.
      - Add "?pizza1" at the end of the URL
      - Clear the cache in your browser
 
@@ -45,11 +48,14 @@ Common Pain Points:
 
 
 
-How to debug:
-  - Check if there's any error in the console.
-  - Resources not loaded ? Check that the path is correct.
-  - Check if your code on GitHub is the same one that in localhost
-    - ex. forgot to push, error when you push, etc.
+Debugging tips:
+  - Check if there's any error in the console. If so, try to read & understand the error.
+  - If you have a problem with a resources not loading (ex. images)
+    - Open the dev tools ("Elements" panel) & try to find what is actually the path the browser is trying to load.
+    - Sometimes it helps to see the source code the the browser is loading (for that, right click on the page and select "View page source").
+  - If the problem is appears when you run the game on production but not in your computer:
+    - Make sure you have pushed (and double check that there's no errors when you push).
+  - Take 5 minutes break (don't think about the problem) and then try again.
 
 
 

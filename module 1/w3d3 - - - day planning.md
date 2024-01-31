@@ -44,6 +44,11 @@
 - Once you finish deployment, submit your project URLs in the students portal.
   - DEADLINE to submit project urls: 13:00h.
 
+- Note: 
+  - It's completely normal that the game is not finished yet.
+  - Once you finish deployment, submit the urls and then keep working on the game as usual (everytime you push new changes, they will be reflected on github pages).
+  - Games must be ready end of Thursday (Friday 9am).
+
 - 13:00: lunch break 🥗
 - 14:00: standups
 
