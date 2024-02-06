@@ -2,12 +2,23 @@
 # w2d4
 
 
-<!--
-Pong game codealong (dom + functions) (Jorge):
 
-- https://codepen.io/jorgeberrizbeitia/pen/QWVQeXq
 
-- https://gist.github.com/jorgeberrizbeitia/30a1a846ca837090423e921bf9d173ac
+## Planning
 
--->
+- Variable scope, hoisting and shadowing [1h]
+- Value vs. Reference and Mutable Data Types [1.5h]
+- Async and Callbacks  [1h]
+
+
+
+
+## Active Learning
+
+- (individual) LAB | JS Challenges II (Intermediate) [45m]
+- (individual) LAB | JS Countdown [45m]
+- (in pairs) Mini Project - JavaScript Quiz - Day 4 [2.5h]
+  - Deadline: Mon 9am
+
+
 

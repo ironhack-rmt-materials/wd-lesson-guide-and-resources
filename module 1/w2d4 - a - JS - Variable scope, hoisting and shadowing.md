@@ -173,7 +173,6 @@ Example 2 (ask students):
 
 <!--
 
-@Luis:
 - skip variable hoisting (we will always use let/const)
 
 -->

@@ -22,7 +22,7 @@
 <!--
 
 
-@Luis: share a few minutes before presentation.
+@LT: share a few minutes before presentation.
 
 Remember:
 - keep it brief (5min.)

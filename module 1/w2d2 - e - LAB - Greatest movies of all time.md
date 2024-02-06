@@ -10,9 +10,7 @@ Notes:
 
 
 
-<!-- @Luis: IMPORTANT -->
-<!-- @Luis: IMPORTANT -->
-<!-- @Luis: IMPORTANT -->
+<!-- IMPORTANT -->
 
 IMPORTANT: 
 
@@ -30,9 +28,7 @@ IMPORTANT:
   ```
 
 
-<!-- @Luis: IMPORTANT -->
-<!-- @Luis: IMPORTANT -->
-<!-- @Luis: IMPORTANT -->
+<!-- IMPORTANT -->
 
 
 

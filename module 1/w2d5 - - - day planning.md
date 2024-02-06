@@ -2,24 +2,27 @@
 
 # w2d5
 
-Morning:
 
-- Practice time:
-  - improve game from previous day (some notes below)
-  - students can also work on bonus labs OR time for questions (TA's)
 
-Afternoon:
-- Project 1 guidelines
-  - see "w2d5 - f - Project 1 Guidelines (project 1 kick-off).md"
-- Project planning session
-  - students share what they have in mind and get feedback (main room / breakout rooms)
-- Time to start planning / working on projects
-- Game / Icebreakers
+## Day Planning
+- OOP Game: demo  [5-6h]
+- Project 1 kick-off [1h]
+- Project planning session / feedback [1h]
+
+ <!-- mark lab "DOM | Race Car Game" as bonus -->
+
+
+# (skip) Refresh
+  - value vs. reference
+  - implications (ex.: comparing 2 arrays with the same contents)
+  - how to copy arrays / objects
+  - Timeouts & intervals
+    - setTimeout(), setInterval()
+
 
 
 
 ## Game Improvements
-
 
 Game Improvements:
 
@@ -32,7 +35,6 @@ Game Improvements:
   - [ ] (bonus) Refactor: create a Game class
       <!-- 
       
-      @Luis: 
       - alternative 1: record video (self-guided bonus)
       - alternative 2: give the final code + ask them to read & understand the code
       
@@ -50,7 +52,6 @@ Game Improvements:
         - timers (avoid nesting)
         - further improvements
         - if students build this type of game
-
 
 
   - Images (ex. background)
@@ -72,5 +73,4 @@ Bonus:
     - allow moving the player up and down
     - one interval only (hint: you'll need to keep track of time -ex. a new property this.time)
     - implement/think: shooting
-    - add images
 

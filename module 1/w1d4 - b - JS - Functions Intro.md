@@ -7,8 +7,6 @@
 
 Status: ready
 
-Time: 1h
-
 -->
 
 

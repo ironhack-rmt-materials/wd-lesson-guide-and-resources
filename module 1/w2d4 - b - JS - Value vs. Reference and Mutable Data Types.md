@@ -111,11 +111,11 @@ Status: ready
 - If we don't want to mutate the array, we can make a copy (copy the values)
   - ex. use a for loop
 
-  <!-- @Luis: create a new stackblitz project -->
+  <!-- @LT: create a new stackblitz project -->
 
   ```js
-  numbers = [1, 2, 3];
-  numbersCopy = [];
+  const numbers = [1, 2, 3];
+  const numbersCopy = [];
 
   for (i = 0; i < numbers.length; i++) {
     const value = numbers[i];

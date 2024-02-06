@@ -7,6 +7,23 @@
 
 
 
+<!-- 
+
+@LT: 
+- today's lab includes a lot of problem solving
+- solve together at least 1 or 2 iterations from the lab
+
+EXAMPLE
+
+LAB | JS Challenges - Arrays & Functions:
+- Iteration 1 | Count Repetition
+  - Possible solution: https://stackblitz.com/edit/js-gan8bw?file=index.js
+
+
+-->
+
+
+
 
 ## Refresh: JS Intro & Data Types
 
@@ -26,8 +43,9 @@
 - (skip) Refresh
 - Slides: Bootcamp Intro IV [10m]
 - Conditionals and Loops [30m/1h]
-- Functions Intro [1.5h]
+- Functions Intro [1h]
 - Data Types - Arrays [1.5h]
+- Problem-solving: Solve together 1 or 2 iterations from LAB [30m]
 
 
 

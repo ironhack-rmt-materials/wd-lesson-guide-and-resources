@@ -16,7 +16,6 @@ Status: draft
 - Object = collections of properties 
 - key-value pair
 - keys are unique (one key will always have just one value associated to it)
-- "Dictionary"
 
 - example:
 
@@ -26,6 +25,14 @@ Status: draft
     key2: value,
     key3: value
   };
+
+
+  const userOne = {
+    userName: 'alice',
+    age: 30,
+    isLoggedIn: true,
+  };
+
   ```
 
 - Data types: we can store any valid data type
@@ -63,7 +70,7 @@ Arrays vs Objects:
   const company = {
     director: 'alice',
     pm: 'bob',
-    develor: 'charly',
+    developer: 'charly',
   };
   ```
 
@@ -112,8 +119,19 @@ Arrays vs Objects:
 - dot notation vs bracket notation
   - in most cases we use dot notation (more simple and easier to read)
   - you may need bracket notation for:
+    - (skip) access keys with numeric values (`myObj[400]`)
     - access keys with multiple words (`myObj["marketing manager"]`)
     - access keys with dynamic names (`myObj[myVariable]`)
+
+
+```js
+const errorCodeLookupTable = {
+  "400": 'Bad Request',
+  "401": 'Unauthorized',
+  "404": 'Not Found',
+  "500": 'Internal Server Error',
+};
+```
 
 
 

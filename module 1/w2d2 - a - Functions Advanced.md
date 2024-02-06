@@ -3,15 +3,8 @@
 # Functions Advanced
 
 
-<!--- 
-  Status: complete
+<!--- Status: complete --->
 
-
-  Notes:
-  - some concepts could even be moved for tomorrow (ex. clearTimout, clearInterval...)
-  - consider doing together all ways of creating functions (ie. arrow functions can be explained after "function expressions")
-
---->
 
 
 ## Intro
@@ -73,7 +66,7 @@
 - Main difference:
   - function expression: we can not call the function before it has been created
     - makes sense: show example of the same with variables
-  - function declaration: a function call can be 'before' the function declaration
+  - function declaration: a function can be invoked 'before' the function declaration
     - why? Hoisting (lesson next week)
 
 
@@ -90,78 +83,6 @@
 --- 
 
 
-## Timeouts & intervals
-
-- Why?
-  - Sometimes we want to perform an action after a specific time.
-    - Example: display a confirmation message + hide it after 10 seconds.
-
-
-- Timeout
-
-  ```js
-    setTimeout(function () {
-      console.log('done!');
-    }, 1000);
-  ```
-
-
-- Interval
-
-
-- Clearing timeout / interval
-  - clearTimeout()
-  - clearInterval()
-    - demo: clear interval after 3 iterations (solve with a counter)
-
-
-
-
-## Practice: timers and intervals
-
-  1. Create an interval that displays a counter every second
-    - in the console, display: "hello 1", "hello 2", "hello 3".....
-    - hint: you may want to create a counter in the parent scope (ex. `let counter = 1`)
-  2. After 5 seconds, cancel that interval
-  3. (Bonus) Apply what we've learned so far and try to solve it in a different way.
-  4. (Bonus) Can you solve it without a setInterval? (hint: setTimeout + research "js recursive function")
-
-  How: individual
-  Time: 15min. + 5min. to check solutions.
-
-  
-  Solution 1 (checking the counter): 
-  - https://stackblitz.com/edit/js-sjpn4f?file=index.js
-
-  Solution 2 (with a timeout): 
-  - https://stackblitz.com/edit/js-vhkxbm?file=index.js
-
-  Bonus 2 (recursion):
-  - https://stackblitz.com/edit/js-nbe32j?file=index.js
-
-
-Note: most students find it difficult, give them 15min. and solve together.
-
-
-
-## Callbacks I (intro)
-
-<!--
-@Luis: 
-- explain the concept of a callback
-- leave the examples for w2d2 (unit "Async and callbacks")
--->
-
-- Callback = when we pass a function as an argument to another function
-  - example: `forEach()`
-  - example: `setTimeout()`
-
-
-- Usually, when we pass one function as an argument we refer to it as a `'callback'` 
-
-- Note: tomorrow we'll see more examples of how this can be useful.
-
-
 
 ## Anonymous functions
 
@@ -174,6 +95,25 @@ Note: most students find it difficult, give them 15min. and solve together.
   - call setTimeout
     - create a function `sayHello` (declaration / function expression) & pass it as an argument
     - pass an anonymous function
+
+
+
+## Callbacks I (intro)
+
+<!--
+@LT: 
+- just explain the concept of a callback
+- leave examples for the unit "Async and callbacks"
+-->
+
+- Callback = when we pass a function as an argument to another function
+  - example: `forEach()`
+  - example: `setTimeout()`
+
+
+- Usually, when we pass one function as an argument we refer to it as a `'callback'` 
+
+- Note: in the following days we'll see more examples of how this can be useful.
 
 
 
@@ -282,7 +222,6 @@ https://stackblitz.com/edit/js-evfgcy?file=index.js
 
 ## (skip) The arguments object
 
-<!-- skip this part (arguments object) -->
 
 - Inside the body of a function, you can access an object called `arguments`.
 - This object contains the values of the arguments passed to that function.

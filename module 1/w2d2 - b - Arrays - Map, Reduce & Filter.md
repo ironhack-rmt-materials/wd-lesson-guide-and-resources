@@ -1,5 +1,6 @@
 # Arrays - Map, Reduce & Filter
 
+
 <!-- 
 Status: draft
 
@@ -90,35 +91,37 @@ Status: draft
 
 ### Practice: map with an array of strings (transform names to uppercase)
 
-  - Instructions: https://stackblitz.com/edit/js-dm5iu3?file=index.js
-  - Time: 10min.
+- Instructions: https://stackblitz.com/edit/js-dm5iu3?file=index.js
 
-  - Solutions:
-    - with map: https://stackblitz.com/edit/js-i296ku?file=index.js
-    - with for loop: https://stackblitz.com/edit/js-reuufm?file=index.js
-    - with forEach: https://stackblitz.com/edit/js-ypkht5?file=index.js
+- Time: 10min. + solve together.
+
+- Solutions:
+  - with map: https://stackblitz.com/edit/js-i296ku?file=index.js
+  - with for loop: https://stackblitz.com/edit/js-reuufm?file=index.js
+  - with forEach: https://stackblitz.com/edit/js-ypkht5?file=index.js
 
 
 
 ### Practice: map() with an array of objects (create an array with the names of all students).
 
-  <!-- Note: they will need something similar in today's LAB (iteration 1) -->
 
-  Instructions: https://stackblitz.com/edit/js-ylftrs?file=index.js
+- Instructions: https://stackblitz.com/edit/js-ylftrs?file=index.js
 
-  Time: 10min. + solve together.
+- Time: 10min. + solve together.
 
-  Solution: https://stackblitz.com/edit/js-9urdsg?file=index.js
+- Solution: https://stackblitz.com/edit/js-9urdsg?file=index.js
 
 
 
 
 ### Bonus: map() with an array of objects (create an array with the points scored in each game).
 
-  - Instructions: https://stackblitz.com/edit/js-p3k5so?file=index.js
-  - Solution: https://stackblitz.com/edit/js-ejcare?file=index.js
+- Instructions: https://stackblitz.com/edit/js-p3k5so?file=index.js
 
-  Time: 10min.
+- Time: 10min.
+
+- Solution: https://stackblitz.com/edit/js-ejcare?file=index.js
+
 
 
 
@@ -186,7 +189,7 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
   -->
 
   - accumulator is an accumulated value of each call
-    - (IMPORTANT) In the first round, it’s assumed it’s the first value from the array unless we state differently (which we will see how).
+    - (IMPORTANT) In the first round, it's assumed it’s the first value from the array unless we state differently (which we will see how).
 
   - currentValue is the current element in each iteration that will be added to the accumulator.
 
@@ -203,7 +206,7 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
 ### Demo: reduce() with an array of strings
 
-  <!-- @Luis: optional / quick extra example -->
+  <!-- optional / quick extra example -->
 
   ```js
   const words = ["the", "quick", "brown", "fox"];
@@ -230,7 +233,7 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
   <!--
 
-  TODAY'S LAB: 
+  Greatest Movies Lab: 
   
   They'll need to pass extra tests:
   - ex. what happens if a recipe does not have the property `calories`
@@ -321,9 +324,12 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
 
 
-## (IMPORTANT) Identify & combine:
-  - identifying which method we can use can be tricky. Solution: practice.
-  - we can combine multiple methods. 
+## (IMPORTANT) Identify & chaining:
+
+  - Identifying which method we can use can be tricky. 
+    - Solution: practice.
+
+  - We can also chain array methods. 
     - Ex: `.filter().reduce()`
     - Ex: `.filter().map()`
 

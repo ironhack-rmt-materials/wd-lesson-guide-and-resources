@@ -29,6 +29,9 @@ Action games:
 - Snek (Dominika)
   https://dominikalipka.github.io/javascript-game-project/game-window/index.html
 
+- Brick Breaker
+  https://huguiz.github.io/Brick-Breaker/
+
 
 
 Non-action games:
@@ -77,6 +80,9 @@ Bonus (more advanced):
 - Furry Bubble Shooter (Begum):
   https://begumeryildiz.github.io/bubble-shooter-game/
 
+
+- Chess Game (Thomas, "don't choose a chess game")
+  https://thomas-deblay.github.io/chess-game-project---Diagrams/
 
 - Survivor Game (Jonny)
   https://jogopin.github.io/Survivor-game/

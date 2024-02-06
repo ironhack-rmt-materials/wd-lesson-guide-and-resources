@@ -57,7 +57,7 @@ https://ironborn-ironhack-march-2022.github.io/ironborn-oop-game/
   - Codealong
 
 
-- Note (make this very clear): 
+- @students: 
   - Some steps today may be fast.
   - Most students find it difficult (code is complex). Stay focused.
 
@@ -74,7 +74,7 @@ https://ironborn-ironhack-march-2022.github.io/ironborn-oop-game/
 
 <!--
 
-@Luis:
+@LT:
 - first share with them the milestones / goals
 - then do the planning together with students.
 
@@ -134,7 +134,7 @@ Milestone 4: make the game more interesting & fix bugs
   - position (x, y)
   - moveLeft(), moveRight()
   - draw() [skip]
-  <!-- @Luis: add event listeners before drawing ?) -->
+  <!-- consider: add event listeners before drawing ? -->
 
 [ ] When game starts:
   - create Player and draw it on the board
@@ -151,7 +151,7 @@ Milestone 4: make the game more interesting & fix bugs
 
   <!--
 
-  @Luis: 
+  @LT: 
   - to explain these concepts, sometimes it helps to open a new file & create a simplified version of our code.
   - ex. "Enemy" class + "sayHello()" method
 
@@ -163,8 +163,6 @@ Milestone 4: make the game more interesting & fix bugs
   - Gameover (ex. redirect)
 
   <!--
-
-  @Luis: 
 
   gameover functionality
   - redirect to gameover.html
@@ -199,7 +197,7 @@ Functionality:
 - drop different things (prizes, different types of obstacles...)
 - count points
 - improve game over
-- leves
+- levels
 - multiple lives
 - allow moving the player up and down
 - settings (speed of the game, distance between obstacles)
@@ -214,8 +212,9 @@ Good practices:
 - Add README file
 
 Code quality:
-- reuse code with OOP inheritance 
+- create a Game class
 - store settings as property of the Game class (ex. refreshRate)
+- reuse code with OOP inheritance 
 
 
 <!-- 
@@ -252,6 +251,15 @@ Other improvements:
 
 
 
+<!--
+Pong game codealong (dom + functions) (Jorge):
+
+- https://codepen.io/jorgeberrizbeitia/pen/QWVQeXq
+
+- https://gist.github.com/jorgeberrizbeitia/30a1a846ca837090423e921bf9d173ac
+
+-->
+
 
 ## (skip) requestAnimationFrame()
 
@@ -263,13 +271,14 @@ https://github.com/ironhack-tech-trash-july2023/oop-game-codealong/commit/fcb32f
 ## (Extra) Refresh CSS Position
 
 
+  <!-- remember to fork -->
 - Initial code: https://codepen.io/luisjunco/pen/GRYYdjX
-  <!-- @luis: remember to fork -->
+  <!-- remember to fork -->
 
 
 - CSS Position property (refresh, before we write the css)
   - Learn CSS Position In 9 Minutes (9m): 
-      <!-- @Luis: for the game, the first 6min. are enough (the other 3 min are useful: fixed, sticky) -->
+      <!-- @LT: for the game, the first 6min. are enough (the other 3 min are useful: fixed, sticky) -->
     - https://www.youtube.com/watch?v=jx5jmI0UlXU
   - (Bonus) CSS Position Tutorial For Beginners (10min.): 
     - explains in further detail (more slowly)
@@ -290,3 +299,8 @@ Axis with legend (inc. negative values):
 - https://study.com/cimages/multimages/16/axisgraph3795074999033209767.png
 
 
+## (Extra) Collision detection
+
+- Video: Rectangular Collision Detection with JavaScript (11min.)
+  - https://www.youtube.com/watch?v=_MyPLZSGS3s&t=469s
+  - Note: uses canvas + sets the origin in the top-left corner (in class, we use bottom left as a reference)

@@ -3,34 +3,18 @@
 
 
 
+ IMPORTANT: Contents heavy + LAB really demanding = focus on fundamentals.
 
 
 ## Day Planning
 
-- Questions from LAB [30m.]
-  - consider: solve together it.4 + it.5
-- Refresh [20m.]
-- Variable scope, hoisting and shadowing [1h]
-- Value vs. Reference and Mutable Data Types [1.5h]
-- Async and Callbacks  [1h?]
-
-
-
-## Refresh from prev day
-
-- Different ways of creating functions 
-  - function declaration (statement) vs. function expression vs. arrow function
-  - https://stackblitz.com/edit/js-evfgcy?file=index.js
-
-- Anonymous functions
-- Callbacks
-- Timeouts & intervals
-  - setTimeout(), setInterval()
-
-- Array methods
-  - https://i.redd.it/t2f5w9bms1271.jpg
-  - .map(), .filter(), .reduce()
-  - .reverse(), .sort()
+ 
+ Planning:
+  - LAB Q&A (short) [20m.]
+  - Refresh [20m.]
+  - JS functions [1.5h]
+  - Arrays: map, reduce, filter [2h] -- `focus!!`
+  - Arrays: sort and reverse -- self guided
 
 
 
@@ -39,6 +23,15 @@
   - see: `project 1 examples.md`
   - they can start thinking what they want to build
 
+
+
+## Active Learning
+
+<!-- afternoon: show some project examples -->
+
+- (individual) LAB | JS Presidents [1.5h]
+- (in pairs) Mini Project - JavaScript Quiz - Day 2 [2.5h]
+- (bonus) LAB | Greatest movies of all time
 
 
 

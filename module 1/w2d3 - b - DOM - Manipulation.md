@@ -101,15 +101,22 @@ List of possible events:
 
 
 Practice & Research: detect keyboard events
+- Initial Code: https://stackblitz.com/edit/web-platform-oz1yyy?file=script.js
 - Goal: 
   - Add functionality to detect if the user presses "spacebar"
   - Ex. if user presses spacebar, `console.log("you've pressed the spacebar")`
+  <!-- Note: to test your code, make sure you click on the html document before you press space  -->
 - (bonus 1): detect also arrow keys (down, up, left, right)
 - (bonus 2): if user presses spacebar, add a div to the dom.
 - (bonus 3): if user presses arrow up, move that div (hint: `position: relative`)
 Time: 15min.
 
+Solution: https://stackblitz.com/edit/web-platform-jbaohu?file=script.js
+Solution bonus 1: https://stackblitz.com/edit/web-platform-jbaohu?file=script.js
+Solution bonus 2: https://stackblitz.com/edit/web-platform-w2w9r7?file=script.js
+
 <!-- note: students will need to use the event object (which is what we'll explain next) -->
+
 
 
 
@@ -217,7 +224,6 @@ JS Events cheatsheet:
 
 
 <!--
-@Luis: 
 
 event bubbling + "Detect Events on elements created dynamically":
 - take a bit of time & students find it confussing
@@ -240,7 +246,7 @@ Video: Javascript Dom Manipulation | Javascript Tutorial For Beginners
 (developedbyed, 17min.)
 https://www.youtube.com/watch?v=wiozYyXQEVk
 
-<!-- @Luis: includes some interesting examples that we can use in demo -->
+<!-- includes some interesting examples that we can use in demo -->
 
 
 

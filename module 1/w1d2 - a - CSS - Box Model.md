@@ -41,7 +41,7 @@ Notes:
 
 Initial code: 
 - https://codepen.io/luisjunco/pen/yLppaYV
-  <!-- @Luis: remember to fork -->
+  <!-- @LT: remember to fork -->
 
 Possible final result:
 - https://codepen.io/luisjunco/pen/wvRbLmx

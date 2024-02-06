@@ -39,7 +39,7 @@
 
 - Show live example: https://codepen.io/ironhack/pen/ozZbmP
 
-  <!-- @Luis: show example on the code from yesterday -->
+  <!-- @LT: show example on the code from yesterday -->
 
     ```css
     @media (min-width: 800px) {

@@ -13,9 +13,6 @@ Status: draft (just some notes)
 
 <!--
 UPDATE: NOW WE HAVE DETAILED EXAMPLES OF .sort() IN THE FAQs
-UPDATE: NOW WE HAVE DETAILED EXAMPLES OF .sort() IN THE FAQs
-UPDATE: NOW WE HAVE DETAILED EXAMPLES OF .sort() IN THE FAQs
-UPDATE: NOW WE HAVE DETAILED EXAMPLES OF .sort() IN THE FAQs
 -->
 
 
@@ -25,7 +22,7 @@ UPDATE: NOW WE HAVE DETAILED EXAMPLES OF .sort() IN THE FAQs
 - Show how to create a copy.
   - ex. `const copy = [...original]`
 
-
+- Alternative: `arr.toSorted()`
 
 
 ## sort()

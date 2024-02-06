@@ -45,7 +45,7 @@ IMPORTANT:
   - Slides: https://docs.google.com/presentation/d/1mGIVU9fWTYII9sUHcIu2RYJ-2KwU6FtNnUtsyZFyiNc/edit?usp=sharing
   <!-- 
   
-  @Luis: 
+  @todo: 
   - simplify this a lot (some students may find this overwhelming, especially the network panel)
   - alternative: show the dev tools while we do a codealong (code much more simple)
   

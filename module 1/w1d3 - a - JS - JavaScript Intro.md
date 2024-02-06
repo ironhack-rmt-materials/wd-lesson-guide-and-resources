@@ -84,10 +84,28 @@ Status: draft
 
 ```js
 
-// Scope === where in the code we can access a variable
-//
-// - children have access to parent's scope
-// - parent do not have access to child's scope
+  // Scope === where in the code we can access a variable
+  //
+  // - global
+  // - function scope
+  // - block scope
+
+  const a = 1;
+
+  function sayHello(){
+    const b = 2;
+
+    if(true){
+      const c = 3;
+    }
+  }
+
+```
+
+
+```js
+  // - children have access to parent's scope
+  // - parent do not have access to child's scope
 
 ```
 

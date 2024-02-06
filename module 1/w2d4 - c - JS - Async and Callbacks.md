@@ -3,10 +3,7 @@
 
 <!--- 
 
-Status: ready
-
-Notes:
-- we've introduced setTimeout() on w2d1, now we just need a few notes so that they can refresh and start the LAB
+Status: draft 
 
 
 @todo:
@@ -17,9 +14,66 @@ Notes:
 
 
 
+
+## Timeouts & intervals
+
+- Why?
+  - Sometimes we want to perform an action after a specific time.
+    - Example: display a confirmation message + hide it after 10 seconds.
+
+
+- Timeout
+
+  ```js
+    setTimeout(function () {
+      console.log('done!');
+    }, 1000);
+  ```
+
+
+- Interval
+
+
+- Clearing timeout / interval
+  - clearTimeout()
+  - clearInterval()
+    - demo: clear interval after 3 iterations (solve with a counter)
+
+
+
+
+## Practice: timers and intervals
+
+  1. Create an interval that displays a counter every second
+    - in the console, display: "hello 1", "hello 2", "hello 3".....
+    - hint: you may want to create a counter in the parent scope (ex. `let counter = 1`)
+  2. After 5 seconds, cancel that interval
+  3. (Bonus) Apply what we've learned so far and try to solve it in a different way.
+  4. (Bonus) Can you solve it without a setInterval? (hint: setTimeout + research "js recursive function")
+
+  How: individual
+  Time: 15min. + 5min. to check solutions.
+
+  
+  Solution 1 (checking the counter): 
+  - https://stackblitz.com/edit/js-sjpn4f?file=index.js
+
+  Solution 2 (with a timeout): 
+  - https://stackblitz.com/edit/js-vhkxbm?file=index.js
+
+  Bonus 2 (recursion):
+  - https://stackblitz.com/edit/js-nbe32j?file=index.js
+
+
+Note: most students find it difficult, give them 15min. and solve together.
+
+
+
+
+
 ## Synchronicity vs. Asynchronicity
 
-
+<!-- @todo: improve this example -->
 
 Synchronous way:
 - prepare something to eat
@@ -33,7 +87,7 @@ Asynchronous way:
 - then organize the room
 - food is here
 
-<!-- @Luis: improve this example -->
+
 
 
 ## Asynchronous Programming
@@ -114,6 +168,20 @@ JavaScript is:
 
 
 ## Callbacks II (further examples)
+
+
+
+```js
+/*
+
+first-class functions = functions are treated like any other variable
+
+- we can store a function in a variable
+- we can pass a function as an argument to another function
+- a function can return a function
+
+*/
+```
 
 
 - Callback = when we pass a function as an argument to another function
@@ -226,9 +294,8 @@ So we can pass it a function to be executed at the end (once dinner is ready)...
 
 <!-- 
 
-@LT
-
-just mention briefly: an error stops code execution (in most cases)
+@LT: 
+- just mention briefly: an error stops code execution (in most cases)
 
 -->
 
@@ -271,4 +338,5 @@ IMPORTANT: refresh some topics for today's lab (JS Chronometer):
 - OOP 
   - refresh constructor
   - refresh properties (store any info that we need to access from different methods)
+
 

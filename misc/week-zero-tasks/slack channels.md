@@ -63,16 +63,16 @@ Do you have any question related to the course, code or technical challenges? Yo
 Why/when:
 - If you think other students may be having the same question.
 - or, outside of support hours
-- or, when the team is too busy to provide support (TA/LA may not have availability to answer your questions but other students may be able to help).
+- or, when the team is too busy to provide support (TAs/LTs may not have availability to answer your questions but other students may be able to help).
 
 How to ask good technical questions:
-- Before you post a message, make sure you've used your own resources (eg. google, take a short break, re-think the problem, write some code and see what happens...)
+- Before you post a message, make sure you've used your own resources (ex. google, take a short break, re-think the problem, write some code and see what happens...)
 - Write a clear explanation of the problem
 - Write a clear question (eg. what I am trying to do)
 - IMPORTANT: Provide code, so that others can test/play with the code (make it easy for others to help you!)
 
 Answering:
-- Answering is great. It helps other students but it can also help yourself (finding bugs in the code from other people is essential for any developer + when we try to explain why something is not working we're forced to really understand a problem)
+- Answering is great. It helps other classmates but it can also help yourself (finding bugs in the code from other people is an essential skill for any developer + when we try to explain why something is not working we're forced to really understand a problem)
 - Please, answer on the same thread of the original question (so that we keep everything more organized)
 
 

@@ -2,24 +2,27 @@
 # w2d1
 
 
-<!-- 
-  @Luis: 
-  - day is heavy (and, on top of that, it's monday)
-  - move some contents to w1d5 or w2d2 ?
--->
+
+## Day Planning
+
+Planning:
+- introduce callback & anonymous functions (do example with forEach) [30min.]
+- ~~(extra) introduce setTimeout/setInterval~~ [30min.]
+
+- OOP: intro + oop with plain objects [30min.]
+- OOP: ES6 Classes + Exercise I [1.5h]
+- OOP: OOP Bakery exercise [30min.]
+- OOP: OOP principles [1h]
+  - OOP principles
+  - inheritance
+  - super
 
 
- IMPORTANT: Contents heavy + LAB really demanding = focus on fundamentals.
 
 
- Planning:
-  - LAB Q&A (short)
-  - JS functions [3h] -- `focus!!`
-  - Arrays: map, reduce, filter [2h] -- `focus!!`
-  - Arrays: sort and reverse -- self guided
+## Active Learning
 
-
-- Make sure to kick-off lab very early.
-  - REMEMBER: lab is very demanding !!
-
+- (individual) LAB | JS Expense Tracker [1.5h]
+- (in pairs) Mini Project - JavaScript Quiz [2.5h]
+- (bonus) LAB | JavaScript Vikings
 

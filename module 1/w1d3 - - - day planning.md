@@ -21,11 +21,10 @@
 
 - (skip) Quick refresh from yesterday (20m.)
 
-- Slides: Bootcamp Intro IV (10m)
-
-- JS Intro (1h)
-- JS Data Types - numbers and strings (2h)
-- JS Data Types in JavaScript - boolean, undefined & null (1h)
+- Slides: Bootcamp Intro III (10m)
+- JS Intro [1h]
+- JS Data Types - numbers and strings [2h]
+- JS Data Types in JavaScript - boolean, undefined & null [1h]
 
 
 

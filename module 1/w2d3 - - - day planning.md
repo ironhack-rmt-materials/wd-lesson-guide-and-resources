@@ -21,17 +21,29 @@ Old planning (guided):
 
 - (Project 1 examples)
 
-- Refresh from previous day
-  - value vs. reference
-  - implications (ex.: comparing 2 arrays with the same contents)
-  - how to copy arrays / objects
-
 - Self-guided: DOM (details below) [2.5h]
 
 - Group session: Q&A + create DOM element + JS Events (details below)
 
 - LAB "DOM + OOP Memory Card Game" -- In pairs
 
+
+
+
+## Refresh from prev day
+
+- Different ways of creating functions 
+  - function declaration (statement) vs. function expression vs. arrow function
+  - https://stackblitz.com/edit/js-evfgcy?file=index.js
+
+- Anonymous functions
+- Callbacks
+
+
+- Array methods
+  - https://i.redd.it/t2f5w9bms1271.jpg
+  - .map(), .filter(), .reduce()
+  - .reverse(), .sort()
 
 
 
@@ -76,4 +88,14 @@ Time: 2.5h
 
 
 
+
+## Active Learning
+
+- (individual) LAB | DOM IronContacts [1.5h]
+- (in pairs) Mini Project - JavaScript Quiz - Day 3 [2.5h]
+
+- (individual) Assessment | JS OOP [max. 1.5h]
+  - Deadline: Tue 9am
+- (individual) Assessment | JS DOM [max. 1.5h]
+  - Deadline: Tue 9am
 

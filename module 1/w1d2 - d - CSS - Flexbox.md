@@ -116,9 +116,9 @@ Links:
 
 
 - Playground initial code (remember to fork): 
-  <!-- @Luis: remember to fooooooork !!  -->
+  <!-- @LT: remember to fooooooork !!  -->
   https://codepen.io/luisjunco/pen/rNppeBZ
-  <!-- @Luis: remember to fooooooork !!  -->
+  <!-- @LT: remember to fooooooork !!  -->
   
 
 - Properties for the Parent (flex container)

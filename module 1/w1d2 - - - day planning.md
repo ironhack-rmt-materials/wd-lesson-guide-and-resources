@@ -2,16 +2,9 @@
 # w1d2
 
 
-<!-- 
-
-@Luis: share lab planning with students (which labs are in pairs etc)
-
--->
-
-
 - Questions yesterday's LAB? (20m.)
 
-- Bootcamp Intro (part 2) (20m.)
+- Slides: Bootcamp Intro II (10m)
 
 - (optional) refresh css selectors (10m.)
 
