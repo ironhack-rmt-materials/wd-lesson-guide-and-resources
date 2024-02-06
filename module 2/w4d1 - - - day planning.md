@@ -1,13 +1,6 @@
 
 # w4d1
 
-<!--
-@LT: include 1 or 2 activities/challenges in the morning.
--->
-
-
-
-## Project feedback (ask TAs)
 
 <!--
 
@@ -22,44 +15,60 @@ Give feedback to students (ex. if you see anything to they can learn from).
 
 
 
-
-
 ## Planning
 
 
-- Intro to module 2 (see .md file) [30min]
+- Intro to module 2 [30min]
 
-- Warmup: object + array destructuring ? [20m.]
+- (skip) Warmup - object + array destructuring ?
 
-- How the internet works
+- [LESSON] Intro to module2 [20m]
 
-- What is an API
+- [LESSON] React | Introduction [1h]
 
-- Promises
+- [EXTRA] ES6 modules [30m]
 
+- [EXTRA] Intro to NPM [30m]
 
+- [LESSON] React | Vite, JSX and React elements [1h]
 
-PROMISES:
+- [LESSON] React | Components & Props [1h]
 
-0. Intro to what we will see today
-   -- https://miro.medium.com/v2/resize:fit:1838/1*AqkCUN-kD_fLefEFPnX2Uw.png
-   -- https://stackblitz.com/edit/js-mbknjw?file=index.js
-
-1. Callback Pattern
-  -- what the heck is a promise?
-2. Consuming promises with .then().catch()
-  -- Include one Exercise
-3. Consuming promises with async/await.
-  -- Include one Exercise
+<!-- @LT: focus on syntax Components + Props -->
 
 
 
+## Active Learning
+
+<!-- 
+@LT: students found the activities overwhelming ("too many things to do")
+-->
+
+- (individual) LAB | React Discord Hero [45m]
+- (individual) LAB | LAB | React Props Training [45m]
+  - Do iterations 1+2+3 & then start mini-project
+
+- (in pairs) Mini Project | React App (Day 1) [2.5h]
+  - Read project brief + work on the tasks for day 1.
+
+- Bonus: (self-guided) "Continue watching React Tutorial"
 
 
-## Extra challenges
 
-- Advanced students can do this lab (currently not in the schedule):
-  - LAB JS ES6 Reinforcement (for...of loop, .filter()):
-    https://github.com/ironhack-labs/lab-js-es6-reinforcement
-  
+## (self-guided) Continue watching React Tutorial
+
+
+> Did watching the video help you?
+> 
+> If so, AFTER YOU FINISH THE LAB, you may want to continue watching the video, from 38:50 to 1:08:00:
+> 
+> https://youtu.be/jLS0TkAHvRg?t=2324
+> 
+> Concepts covered:
+> - state 
+> - events
+> - conditional rendering 
+> - lists
+
+
 

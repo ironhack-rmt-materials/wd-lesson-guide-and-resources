@@ -7,8 +7,9 @@
 
 
 - Show project examples (from previous students)
-  - Somethings cooking: https://somethings-cooking.adaptable.app/
-  <!-- @todo: update example after m2-m3 swap -->
+  - Wordrobe Wonderland: https://wordrobe-wonderland.netlify.app
+  - Perfect example for an MVP (CRUD on 1 resource)
+  - Responsive.
 
 
 - Requirements
@@ -17,21 +18,6 @@
 
 - 2 weeks content + 1 week projects
 
-- m2: most of work in pairs (LABs, project)
-
-- LABs in pairs
-  - exceptions:
-    - if we finish late (as some students may find it more difficult to coordinate times)
-    - if any student has a difficult agenda any day
-    - if you prefer to practice a lab individually
-
-  <!-- 
-
-  @LT: 
-  - share lab planning with students
-  - do not start labs before kick-off
-
-  -->
 
 - Projects 2 & 3: in pairs
   - We will ask you for preferences
@@ -39,4 +25,8 @@
 
 
 <!-- @todo: include the notes above in the slides (labs, project etc) -->
+
+
+<!-- Adaptable: ask all students to create an account + verify all accounts -->
+
 

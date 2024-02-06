@@ -16,11 +16,11 @@
 -->
 
 
-day2: React intro + Vite + Components & Props
-- codealong `React playground`
+day1: React intro + Vite + Components & Props
+- codealong `React intro`
 
 
-day3: State & events + List & keys + Conditional Rendering
+day2: State & events + List & keys + Conditional Rendering
 - codealong: `Popcorn Time I`
 - sample repo: https://github.com/Ironborn-Ironhack-March-2022/react-popcorn-time
 
