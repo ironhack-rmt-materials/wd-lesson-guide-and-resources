@@ -1,90 +1,57 @@
 
-# w4s2
+# w4d2
+
+
+<!-- 
+
+
+@todo:
+- improve planning + improve steps in demo (ex. create .md with steps to follow)
+- create slides or cheatsheet for state ?
+
+-->
 
 
 
 
+## Summary Today
 
-## Day planning
+(skip) LAB Q&A
 
-- LAB Q&A [20m]
-
-- Refresh [20m]
-
-  - Slides Refresh "How the internet works": https://docs.google.com/presentation/d/1-EgP1r7duakjZ6DXfReHIu9cYwEheAWEd_vDL7JtYiU/edit?usp=sharing
-
-  - Refresh Promises:
-    - `.then().catch()`
-    - `async/await`
+Quick Refresh:
+- components + props (how to pass and receive props)
+  - Create a component `<Banner />` + pass "message" as props
 
 
-- [LESSON] React | Introduction [1h]
+State
+- demo (start with a basic counter) [1h]
+- exercise to practice state [30m]
 
-- [EXTRA] ES6 modules [30m]
+Create "popcorn-time" with Vite
 
-- [EXTRA] Intro to NPM [30m]
-
-- [LESSON] React | Vite, JSX and React elements [1h]
-
-- [LESSON] React | Components & Props
-
-- [LAB] LAB | React Tweets
-  
-  
-  <!-- 
-  
-  @Luis:
-
-  Consider doing "React training [steps 1-7]" (instead of "React Tweets")
-
-  Topics Covered in steps 1-7:
-  - components, props
-  - inline style / conditional css
-  - props.children
-  - conditional rendering
-  
-  Things to Consider:
-  - would need to move Conditional Rendering to w7d1 (can be good to make d2 ligher)
-  - currently we don't have solutions (solutions for 1-7 can be enough)
-
-  -->
-
-
-- Self-guided: "Continue watching React Tutorial"
-
-- Bonus: HOF exercises
+Popcorn Time I:
+- Initialize project with Vite
+- Create component structure [20m]
+- (skip) exercise to refresh forEach() and map()
+- Import json + iterate through array with .map() [40m]
+- Removing elements from a list (will apply State) [40m]
+- Conditional rendering (3 options) [40m]
+- (extra) sort or display only top-rated movies (store in state) 
 
 
 
 
-## (self-guided) Continue watching React Tutorial
+## Active Learning
 
+- (individual) LAB | React State Training [45m]
+  - The main goal of this lab is to practice syntax for useState
+  - Do 2-3 iterations and move on to the next lab.
 
-> Did watching the video help you?
-> 
-> If so, AFTER YOU FINISH THE LAB, you may want to continue watching the video, from 38:50 to 1:08:00:
-> 
-> https://youtu.be/jLS0TkAHvRg?t=2324
-> 
-> Concepts covered:
-> - state 
-> - events
-> - conditional rendering 
-> - lists
+- (individual) LAB | React Iron Travels [45m]
+
+- (in pairs) Mini Project | React App (Day 2) [2.5h]
+  - You will find the json files in "Project Brief: React App"
 
 
 
-
-
-
-## Extra challenges
-
-- LAB JS ES6 Reinforcement (for...of loop, .filter()):
-  https://github.com/ironhack-labs/lab-js-es6-reinforcement
-
-- Practice Promises & .fetch()
-  - Create a basic html document with one button
-  - When the user clicks on the button, fetch the list of users from here: https://jsonplaceholder.typicode.com/users
-  - From the list of users, get only the users that live in a specific city (hint: arr.filter())
-  - Display the information of those users in the console (easier) or directly on the page (dom manipulation)
 
