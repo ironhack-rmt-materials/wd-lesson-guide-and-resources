@@ -14,26 +14,40 @@ Status: ready
 
 
 
+
+
+
+
 ## REST APIs
 
-- APIs
 
-- REST APIs
+- Task: watch this video 
+  - Video: What is a REST API? (explains RESTful) (6 min., Mosh)
+  - https://www.youtube.com/watch?v=SLwpqD8n3d0
+  - Time: 10min.
 
-- Slides: 
+
+- (skip for now) Slides: 
   <!-- @LT: skip for now (we will see REST in detail in m3) -->
   - https://docs.google.com/presentation/d/194i1dCV2vpqTN5T3yC5lysvfS-_fnEkok97QpaOtb3w/edit?usp=sharing
 
-- Video: What is a REST API? (explains RESTful) (6 min., Mosh)
-  - https://www.youtube.com/watch?v=SLwpqD8n3d0
 
 
 
-## JSON Server
+## Intro
 
-- It's an npm package.
-- Allows you to create a mock REST API from a JSON file
-- Ideal for prototype and mock APIs (ex. you're working on the frontend & need to wait for the backend to be ready).
+- project 2 requirements: 
+  - CRUD on an API
+
+- Options:
+  - Option 1: research & use an existing external API
+    - example: https://github.com/public-apis/public-apis
+  - Option 2: create your own mock API with json-server
+
+- json-server
+  - it's an npm package.
+  - allows you to create a mock REST API from a JSON file
+  - ideal for prototype and mock APIs (ex. you're working on the frontend & need to wait for the backend to be ready).
 
 
 
@@ -41,7 +55,7 @@ Status: ready
 
 Follow steps in the students portal.
 
-
+<!-- Remember to fork -->
 
 
 ## (skip) JSON Server Setup - Step by Step guide
@@ -160,7 +174,9 @@ IMPORTANT: explain that json-server does not do any validation (you can put any 
 
 - Create repo + upload to GitHub
 - Deploy on Adaptable.io
-
+  - template: node
+  - db: no
+  - waiting for deployment meme: https://i.imgflip.com/8ft6f3.jpg
 
 
 ## (extra) Test in production
@@ -175,19 +191,30 @@ IMPORTANT: explain that json-server does not do any validation (you can put any 
   (for now, don't use env variables, just connect directly to production)
 
 
+## Limitations
 
-## (extra) Explain that data will be re-setted from db.json
+- Data persistance
+  - Adaptable provides an "ephimeral" file system: when the app is not in use for some time they discard all changes. Then, when the app needs to run again, it gets the latest version of the code from GitHub.
+  - Many other hosting services (Heroku, Render.com, etc) work like that nowadays, specially in the free tier.
+  - As a result, data will be restored from your db.json periodically.
+  - ie. any data added manually (ie. anything that is not in db.json), will be overwritten after some time.
+  - This will happen when you push (adaptable will redeploy) but also periodically (even without pushing code to the remote repo)
 
-Any data added manually (ie. anything that is not in db.json), will be overwritten after some time.
+  <!--
 
-Reasons / when:
-- when we push (adaptable will redeploy)
-- periodically (we've seen that adaptable will reset the data from db.json periodically, even without pushing code to the remote repo)
+  These slides may help explain those concepts:
+  https://docs.google.com/presentation/d/1IBUEju2Ho2s6X-_XZfvUWdKPCyThYjQbkJfYuR4MLbY/edit?usp=sharing
+
+  -->
+
+- Data validation
+
+- No support for users
+
 
 <!--
 
-These slides may help explain those concepts:
-https://docs.google.com/presentation/d/1IBUEju2Ho2s6X-_XZfvUWdKPCyThYjQbkJfYuR4MLbY/edit?usp=sharing
+Also: confussion 2 repos etc (to avoid this, do not run in localhost)
 
 -->
 
