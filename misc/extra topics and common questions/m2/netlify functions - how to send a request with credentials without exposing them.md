@@ -54,17 +54,24 @@ Key files:
 Demo: https://demo-netlify-functions.netlify.app/
 
 
-
 <!-- 
 
-For debugging / testing:
-
+Example:
 - This request will not work: https://api.openweathermap.org/data/2.5/weather?q=amsterdam&appid=${API_KEY}&units=metric
-
-- This request will work: https://demo-netlify-functions.netlify.app/.netlify/functions/api-request-with-credentials
-
+- This request works: https://demo-netlify-functions.netlify.app/.netlify/functions/api-request-with-credentials
  -->
 
+
+
+POST requests:
+- For a post request, same patterns as get.
+- To read from the request body, just use `event.body`.
+- Example: https://github.com/Aleale81/netlify-functions-demo/blob/main/netlify/functions/get-city-weather.js
+
+To use dependencies (npm packages):
+- Install it in your react app (ie. added to package.json)
+- To access those npm packages, using require() in your Netlify Functions.
+- More info: https://flaviocopes.com/netlify-functions-npm-packages/
 
 
 ## Google Maps JS API
