@@ -17,6 +17,7 @@ Give feedback to students (ex. if you see anything to they can learn from).
 
 ## Planning
 
+<!-- @LT: focus on React Components + Props -->
 
 - Intro to module 2 [30min]
 
@@ -34,7 +35,7 @@ Give feedback to students (ex. if you see anything to they can learn from).
 
 - [LESSON] React | Components & Props [1h]
 
-<!-- @LT: focus on syntax Components + Props -->
+
 
 
 

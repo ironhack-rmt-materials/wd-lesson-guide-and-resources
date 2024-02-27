@@ -41,7 +41,7 @@ The idea is the following:
 - Browser receives the response.
 
 
-## Example
+## Example 1 (demo)
 
 Repo with an example:
 https://github.com/ironhack-fulltime-degenerates-oct2023/netlify-functions-demo/
@@ -72,6 +72,13 @@ To use dependencies (npm packages):
 - Install it in your react app (ie. added to package.json)
 - To access those npm packages, using require() in your Netlify Functions.
 - More info: https://flaviocopes.com/netlify-functions-npm-packages/
+
+
+## Example 2
+
+Huetopia:
+- https://github.com/Huetopia/Huetopia/blob/main/netlify/functions/api-request-with-credentials.js
+
 
 
 ## Google Maps JS API

@@ -85,14 +85,18 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
 
 
   - Technologies and things to learn (pick one or two at a time): 
-    - further practice in React
-    - further practice in JavaScript & problem solving (ex. katas)
+    - further practice in JavaScript
+      - Get better at problem solving (codewars)
+      - Learn Data Structures and Algorithms (youtube / leetcode)
+    - further practice in React: <!-- @todo: create repo/gist with some info/videos -->
+      - React Query (Why: 11m video - https://www.youtube.com/watch?v=vxkbf5QMA2g)
+      - Custom Hooks
+      - Component Libraries
     - TypeScript +++
-    - Next.js ++
+    - Next.js +++
     - TDD / Testing
-    - React Query
     - SCSS
-    - Tailwind (an alternative to Bootstrap)
+    - Tailwind
     - GraphQL (an alterntative to REST -ie. a different way to create an API)
     - SQL Databases (for example, MySQL or PostgreSQL are popular choices)
 

@@ -11,6 +11,7 @@
 - (optional) demo on popcorn-time: display number of characters in the Header.
 
 - codealong: create a new app ("react characters app")
+  - Note: DON'T do the full demo on popcorn-time (we have a form to create new movies)
 
 
 -->
@@ -21,7 +22,16 @@
 ## Day planning
 
 
-- LAB Q&A
+- LAB Q&A [20m]
+
+- Refresh [20m]
+
+  - Slides Refresh "How the internet works": https://docs.google.com/presentation/d/1-EgP1r7duakjZ6DXfReHIu9cYwEheAWEd_vDL7JtYiU/edit?usp=sharing
+
+  - Refresh Promises:
+    - `.then().catch()`
+    - `async/await`
+
 
 - Refresh: react concepts (see below) (skip?)
 

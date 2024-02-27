@@ -47,6 +47,7 @@ Notes:
 
 ## Introduce "characters API"
 
+- What's an API
 - https://ih-crud-api.herokuapp.com/characters
 - See documentation: w5d4 "AXIOS | POST, PUT and DELETE request"
   - ![Characters API Endpoints](../media/images/characters-api-endoints.png)
@@ -423,14 +424,60 @@ Time: 30m.
 
 
 
-Explain (after the exercise):
-- initialize to empty array vs. null etc
-  - ex: `const [charactersArr, setCharactersArr] = useState([]);`
-  - Common problem: we initialize to undefined + we iterate with .map()
-- useEffect:
-  - avoid sending a request everytime (ex. if we don't have a dependency array) `useEffect( () => {})` 
-- conditional rendering (display a message while loading)
-  - ex: `charactersArr === null ? <p>loading...</p> : renderList()`
+
+## (Extra) common pain points when sending requests to API
+
+  - Pain point 1: Iterate with .map() though something that is not an array:
+
+    ```js
+      const [charactersArr, setCharactersArr] = useState(); //initialized to undefined
+
+      return(
+        <h2>List:</h2>
+        {charactersArr.map()}
+      );
+
+    ```
+
+- Pain point 2: trying to access properties of something that is not an object
+
+    ```js
+      const [details, setDetails] = useState(); //initialized to undefined
+
+      return(
+        <h2>Details:</h2>
+        {details.name}
+      );
+
+    ```
+
+  - Options:
+    - initialize array to empty array/object
+    - optional chaining operator (https://www.joshwcomeau.com/operator-lookup?match=optional-chaining)
+    - conditional rendering
+
+
+
+
+## Example of when you need dependency array
+
+- Navbar includes list of characters (when user clicks, we want to see the details of a new character)
+- Component `CharacterDetails` always present (never unmounted)
+
+  ```jsx
+    <nav>
+      <Link to="/characters/1">One</Link> | 
+      <Link to="/characters/2">Two</Link> | 
+      <Link to="/characters/3">Three</Link> | 
+    </nav>
+
+
+    <Routes>
+      <Route path='/' element={<CharactersList />} />
+      <Route path='/characters/:characterId' element={<CharacterDetails />} />
+      <Route path='*' element={<h2>Page Not Found</h2>} />
+    </Routes>
+  ```
 
 
 

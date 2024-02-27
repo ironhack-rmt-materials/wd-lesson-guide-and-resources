@@ -115,10 +115,12 @@ generate a unique id (will make our life easier when we implement routing)
 
 
 Exercise: 
-- Find max in array of numbers + array of objects.
+- Find max in array of numbers + array of objects
+- note: do some research
 - Instructions: https://stackblitz.com/edit/js-wjdmct?file=index.js
 - Solution: https://stackblitz.com/edit/js-miexdw?file=index.js
-- Time: 15min.
+
+- Time: 12min.
 
 
 
@@ -142,21 +144,6 @@ Possible solution:
     const newList = [movieDetails, ...moviesToDisplay];
     setMoviesToDisplay(newList);
   }
-```
-
-
-
-
-## (Fix) warning unique key
-
-<!-- @update: not needed if we generate a unique id -->
-
-When a movie is added, now we don't have a unique id.
-
-Use the index instead of the id:
-
-```jsx
-  <Movie key={index} 
 ```
 
 

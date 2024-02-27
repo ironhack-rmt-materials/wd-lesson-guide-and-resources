@@ -11,7 +11,7 @@ update m2-m3 swap:
   - Middleware
   - Working with JSON
 
-
+@todo: review planning & update Demo example.
 
 -->
 
@@ -58,7 +58,7 @@ Follow students portal.
 -->
 
 Methodology:
-- create "IronRestaurant"
+- create "IronRestaurant" (iron-restaurant)
 - we will evolve it during the following days of week 4 (week5 we start using generator)
 - sample repo: https://github.com/RemoteRaccoons-Ironhack-Nov-22/ironrestaurant-pizzaForEach/
 
@@ -69,6 +69,7 @@ Methodology:
     - contact
     - one image + css
     - nav menu
+    - "endpoint" to get a list of pizzas
 
 - (skip) ask students: how do we want to call our pizza company
 
@@ -90,9 +91,9 @@ Also, show example when nodemon crashes (ex. syntax error)
 
 
 
-## Middleware 
 
-see `Node - Custom Middleware.md`
+## (extra) Add nav menu [10m]
+
 
 
 ## res.json
@@ -117,8 +118,28 @@ see `Node - Custom Middleware.md`
 ```
 
 
+## Middleware 
 
-## (extra) Add nav menu [10m]
+see `Node - Custom Middleware.md`
+
+
+
+
+## JSON Middleware - express.json() [20m]
+
+
+Configure Express to be able to read incoming HTTP request that contain JSON data in the body.
+
+
+```js
+  // JSON middleware to parse incoming HTTP requests that contain JSON
+  app.use(express.json()); 
+```
+
+<!-- 
+Express < 4.16: body-parser: 
+https://medium.com/@mmajdanski/express-body-parser-and-why-may-not-need-it-335803cd048c
+-->
 
 
 
@@ -126,15 +147,6 @@ see `Node - Custom Middleware.md`
   - Add `.gitignore`
   - Note: mention that if they clone, they'll need to do `npm install`
 
-
-
-## (extra) Common JS
-
-<!-- @todo: create a diagram/image with code snippets comparing both -->
-
-- https://stackabuse.com/how-to-use-module-exports-in-node-js 
-
-- Can do an exercise to practice with that.
 
 
 

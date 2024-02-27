@@ -56,10 +56,10 @@ update - m2-m3 swap:
 - Explain what we want to achieve + Search for the package we want to use on NPM (https://www.npmjs.com/package/cowsay)
 
 
-- Navigate to ironhack directory + create  `module2` directory
+- Navigate to ironhack directory + create  `module3` directory
   ```
-    mkdir module2
-    cd module2
+    mkdir module3
+    cd module3
   ```
 
 - Create directory
@@ -116,6 +116,40 @@ update - m2-m3 swap:
 
 Tip: Debugging vs. reading documentation:
 ![debugging vs reading](../media/images/debugging%20vs%20reading%20documentation.jpg)
+
+
+
+## ES6 modules vs. Common JS
+
+<!-- @todo: create a diagram/image with code snippets comparing both -->
+
+ES6 modules
+- export
+- import
+
+
+Common JS
+- module.exports = 
+- require()
+
+
+Example:
+
+  ```js
+  function calcTotal(a, b){
+      return a * b;
+  }
+
+  function calcDivision(a, b){
+      return a / b;
+  }
+
+  function calcAverage(a, b){
+      return (a + b) / 2;
+  }
+
+  module.exports = { calcTotal, calcDivision, calcAverage, };
+  ```
 
 
 

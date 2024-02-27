@@ -11,7 +11,7 @@
   - https://docs.google.com/presentation/d/1pGyIT8lYwxq5ftCoye5KK6TbJfgJxO3t2MdoOxsl4ss/edit?usp=sharing
 
 
-- See project requirements
+- Project3 requirements:
   - 2 repos
   - 3 models
   - Auth (create account, login, logout etc)
@@ -26,20 +26,6 @@
 
 - 2 weeks content + 1 week projects
 
-
-
-
-- LABs
-  - individual / pairs (confirm)
-
-
-  <!-- 
-
-  @LT: 
-  - share lab planning with students
-  - do not start labs before kick-off
-
-  -->
 
 
 - Mini-project

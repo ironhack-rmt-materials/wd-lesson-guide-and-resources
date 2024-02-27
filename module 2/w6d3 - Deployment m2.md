@@ -18,26 +18,39 @@ Status:
 
 ## Instructions
 
-⛳ Follow instructions in this video:
+⛳ Deployment project 2:
 - https://www.loom.com/share/915ec9d82f10412eb1e6fb4f77815cab?sid=1fc15197-4f5d-4336-8f92-e08640bd7d90
 
 
-📌 Note:
-- Remember to submit project URLs in the students portal.
-- DEADLINE: today 5pm.
+📌 Notes:
+
+- Make sure both of you do deployment together.
+- Make sure to follow the whole video.
+
+
+📮 Submit project urls:
+
+- As soon as you finish deployment, make sure both of you submit URLs in the students portal.
+- Screenshot: https://drive.google.com/file/d/1DbOuV-w94tZqaKNWPlnx873xnf_hrsib/view?usp=sharing
+- DEADLINE: today, 5pm
+
+
+
 
 
 
 ## Notes
 
 - I've tried to keep it generic, so that it serves for m2 + m3.
+  - Video explicitly states that p2 & p3 are in pairs + asks both of them to follow the recording.
+  - It also includes the concept of environment variables ("for m2, you probably don't need this concept but in m3 we'll need it")
+  - End of the video, asks to submit project URLs (showing students portal m2 & m3) 
 
 - Slides used in the recording: https://docs.google.com/presentation/d/1tHpGGAFdEy9lKv87Qs7uzs4UfQAXGOCSHyXzHQ4RIDU/edit?usp=sharing
 
 
 - Known errors in the recording:
   - not for now.
-
 
 
 

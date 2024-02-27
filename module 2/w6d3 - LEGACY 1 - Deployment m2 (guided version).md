@@ -1,6 +1,10 @@
 
 # Deployment m2 (old version)
 
+
+Legacy 1 (guided version): MongoDB Atlas + Adaptable.
+
+
 <!--
 
 Status: draft
@@ -110,15 +114,14 @@ If you need the library project:
 
 
 
-
-
 <!-- 
 
-@Luis: do not push button...
+do not push button...
 
 - ![Do not push button](../media/images/do-not-push-button.png "Do not push button")
 
 -->
+
 
 
 
@@ -152,6 +155,7 @@ If you need the library project:
   - (Optional) customiza DB name: "...mongodb.net/mydbname?"
       - ex: `mongodb+srv://<username>:<password>@<cluster_name>.jqzujwt.mongodb.net/<dbname(optional)>?retryWrites=true&w=majority`
   - If Compass is already open and connected to localhost, you will need to close it and open (the button to "disconnect" may not work, there's a bug)
+
 
 
 
@@ -245,24 +249,6 @@ If you need the library project:
 
 
 
-## Submit URLs in students portal
-
-<!-- IMPORTANT -->
-<!-- IMPORTANT -->
-<!-- IMPORTANT -->
-
-Ask students to submit urls (github + adaptable) on students portal
-
-- "Project 2 Deliverables/GitHub repo"
-  - URL to your project's GitHub repository (ie. project2 repo).
-
-- "Project 2 Deliverables/Deployed project"
-  - URL of your deployed project (on Adaptable)
-  - Note: you may need to get this URL from your partner.
-
-<!-- IMPORTANT -->
-<!-- IMPORTANT -->
-<!-- IMPORTANT -->
 
 
 

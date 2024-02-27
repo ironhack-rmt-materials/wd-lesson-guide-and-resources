@@ -50,3 +50,9 @@
   (so that we're more familiar with that concept when we do relationships)
   
   -->
+
+
+## Active Learning
+
+- 2pm: LAB | MongoDB - Advanced Querying (individual)
+- 3:30pm Mini Project - REST API - Day 2 (in groups)

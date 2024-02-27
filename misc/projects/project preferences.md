@@ -16,13 +16,35 @@ Notes:
 - in your preferences, do not include ppl that you feel have a very different level than you.
 - DEADLINE: tomorrow 10am
 
-  
-IMPORTANT: 
+
+About levels:
+
+- We've learned from experience that it is important to have people with a relatively similar level, at least for projects (for mini-projects we often mix levels).
+
+- We do that for multiple reasons:
+
+  1. If the difference is big, the student with a higher level may not develop their full potential (so they don't learn as much as they could).
+
+  2. If the difference is big, the student with a lower level may not have the chance to practice the main topics and find solutions when a problem comes (so they may not learn essential skills).
+
+  3. To graduate, a student needs to demonstrate a good understanding of the topics we teach and show that they can build the 3 projects that we have (if the difference is big, the student with a lower level is not really proving that point).
+
+
+
+
+<!--  
+@LT: 
 - If we ask any student to do project individual, tell them asap 
 - In some cases, this is also an option:
   - inform them in advance
   - ask them to still submit their preferences 
   - assess with the team (based on their preferences)
+-->
+
+
+## Example: why sometimes we can not match preferences
+
+https://docs.google.com/spreadsheets/d/1BGw37TXbRC07nhYk5Kz9I5Wel8NuNIEiYDEqOCIk0Cc/edit?usp=sharing
 
 
 

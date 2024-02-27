@@ -5,14 +5,11 @@
 ## Day planning
 
 
-- LAB Q&A [40m.]
-  - updates on state are asynchronous
+- LAB Q&A [20m]
 
-- refresh [20m.]
+- How the internet works [30m]
 
-- How the internet works
-
-- What is an API
+- What is an API [30m]
 
 - Promises
 
@@ -29,8 +26,10 @@ PROMISES:
 
 1. Callback Pattern
   -- what the heck is a promise?
+
 2. Consuming promises with .then().catch()
   -- Include one Exercise
+  
 3. Consuming promises with async/await.
   -- Include one Exercise
 

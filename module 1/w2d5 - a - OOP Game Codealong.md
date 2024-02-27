@@ -160,7 +160,9 @@ Milestone 4: make the game more interesting & fix bugs
 
 [ ] Detect collision
   - Collision detection
-  - Gameover (ex. redirect)
+  - some notes: "collision detection - common errors.md"
+
+[ ] Gameover (ex. redirect)
 
   <!--
 

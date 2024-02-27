@@ -2,6 +2,24 @@
 # week 7
 
 
+
+
+<!-- 
+
+m3 challenges & things to improve:
+
+- mixing res.send & res.json
+- w7d2 very light / not essential (lab mongodb queries)
+- w7d3 very heavy / students feel a bit overwhelmed
+- w7d4 not much attention to relationships
+- w7d5 not much attention to auth concepts (salt, hash, etc)
+  - option: record video on those concepts & do as research in d4
+
+-->
+
+
+
+
 <!-- 
 
 Notes: 

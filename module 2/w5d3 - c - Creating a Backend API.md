@@ -193,23 +193,17 @@ IMPORTANT: explain that json-server does not do any validation (you can put any 
 
 ## Limitations
 
-- Data persistance
+1. Data persistance
   - Adaptable provides an "ephimeral" file system: when the app is not in use for some time they discard all changes. Then, when the app needs to run again, it gets the latest version of the code from GitHub.
   - Many other hosting services (Heroku, Render.com, etc) work like that nowadays, specially in the free tier.
   - As a result, data will be restored from your db.json periodically.
   - ie. any data added manually (ie. anything that is not in db.json), will be overwritten after some time.
   - This will happen when you push (adaptable will redeploy) but also periodically (even without pushing code to the remote repo)
 
-  <!--
 
-  These slides may help explain those concepts:
-  https://docs.google.com/presentation/d/1IBUEju2Ho2s6X-_XZfvUWdKPCyThYjQbkJfYuR4MLbY/edit?usp=sharing
+2. Data validation
 
-  -->
-
-- Data validation
-
-- No support for users
+3. No support for users / auth
 
 
 <!--

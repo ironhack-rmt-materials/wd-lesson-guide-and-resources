@@ -14,13 +14,13 @@ Status: ready (updated after m2-m3 swap)
 Wordrobe Wonderland: https://wordrobe-wonderland.netlify.app/
 - (Huseyin + Nisha)
 - Perfect example for an MVP (CRUD on 1 resource)
-- Bonus: responsive.
+- Responsive.
 
 
 Board Games App: https://board-games-project.netlify.app/
 - (Isabel + Julia)
-- 1 resource
-- Bonus: responsive, searchbar, random game....
+- 1 resource, responsive.
+- Bonus: searchbar, random dice....
 
 
 Food Managers: https://food-managers.netlify.app/
@@ -40,13 +40,35 @@ Date Flow: https://dateflow.netlify.app/
     <!-- example with 2 resources -->
 
 
-https://esg-tracker.netlify.app/
+Wander World: https://wander-world.netlify.app/
+- (Amparo + Senay)
+- 1 resource, responsive.
+- Nice functionality & UX
+- Bonus: searchbar, maps
+
+
+ESG Tracker: https://esg-tracker.netlify.app/
 - (Jaime + Marco)
-- 1 resource
+- 1 resource, responsive.
 - Amazing UI & functionality
-- Bonus: responsive, favourites, charts, filter, maps (leaflet)...
+- Bonus: favourites, charts, filter, maps (leaflet)...
 
 
+Huetopia: https://huetopia.netlify.app/
+- (Stefan, Laia, Erik)
+- 1 resouce, responsive.
+- Fantastic UX.
+- Bonus: integration with OpenAI API (plus, netlify functions to keep api key private)
+
+
+---
+
+## With auth (Firebase)
+
+IronLegacy: https://ironhack-projects.netlify.app/projects
+- (Alastair, Thomas)
+- auth & db with firebase
+- they used firebase SDK + react-firebase-hooks (not using the REST API)
 
 
 

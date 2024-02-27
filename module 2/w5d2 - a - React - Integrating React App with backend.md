@@ -9,6 +9,10 @@
 status: draft
 
 
+API_URL: 
+- declare as const an export/import
+- (don't introduce environment variables yet)
+
 -->
 
 
@@ -34,10 +38,21 @@ Methodology:
 <hr />
 
 Intro: 
-- explain goal + show API endpoints
+- explain goal + show API endpoints (see Students Portal "Endpoints")
 - provide a list of milestones to follow (for each milestone, discuss how to implement it)
 
-Summary of steps:
+Roadmap:
+- [ ] Initial setup
+- [ ] List of projects
+- [ ] Create new projects
+- [ ] Project details page
+- [ ] Edit projects
+- [ ] Delete projects
+- [ ] Create new tasks
+- [ ] Improvements
+
+
+Steps (in more detail):
 - [ ] Getting Started (initial setup)
 - [ ] React Router Setup
 - [ ] Project Management API (explains API and available endpoints)
@@ -53,11 +68,15 @@ Summary of steps:
   - PUT /projects/:id
 - [ ] Delete the Project 
 - [ ] Add Task Form
-  - form
-  - POST /tasks
-  - Note: make sure to pass projectId as a number (passing it as a string will not work)
-  - Example: https://github.com/ironhack-fulltime-degenerates-oct2023/codealong-integrating-react-app/blob/86c78481f9c62bdde49ec1eca5f475af1f9d886b/src/components/AddTask.jsx#L15
-- [ ] Extracting Components (project card + task card)
+  - create component `<AddTask>` (form + controlled component)
+  - render it in `<ProjectDetailsPage>`
+  - modify `AddTask.jsx`:
+    - on submit: POST /tasks
+      - Note: make sure to pass projectId as a number (passing it as a string will not work)
+      - Example: https://github.com/ironhack-fulltime-degenerates-oct2023/codealong-integrating-react-app/blob/86c78481f9c62bdde49ec1eca5f475af1f9d886b/src/components/AddTask.jsx#L15
+    - after a task is created, refresh project details: `props.refreshProject();`
+
+- [ ] (skip) Extracting Components (project card + task card)
 
 
 

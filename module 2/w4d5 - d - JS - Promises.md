@@ -273,11 +273,6 @@ Final result:
 
 
 
-Note: 
-- after the example, introduce concepts: API + json
-
-
-
 
 ## Chaining Promises: .then().then().catch()
 
@@ -313,6 +308,7 @@ getUsersFromDB()
 
 
 
+
 ## Practice: JS Promises
 
 <!-- 
@@ -320,7 +316,6 @@ getUsersFromDB()
 @todo: 
 
 - improve this example (use a different API)
-- add bonus
 
 -->
 
@@ -334,7 +329,8 @@ Using promises:
   - https://jsonplaceholder.typicode.com/posts
 3. If any of those operation fails, display a message in the console.
 
-Bonus: research about .finally()
+Bonus 1: research about .finally()
+Bonus 2: research/implement it with async/await
 
 Time: 15min.
 

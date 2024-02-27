@@ -7,9 +7,10 @@
 
 
 - Show project examples (from previous students)
-  - Wordrobe Wonderland: https://wordrobe-wonderland.netlify.app
-  - Perfect example for an MVP (CRUD on 1 resource)
-  - Responsive.
+  - Traditional App: https://somethings-cooking.adaptable.app/
+  - SPA: https://wordrobe-wonderland.netlify.app
+    - Perfect example for an MVP (CRUD on 1 resource)
+    - Responsive.
 
 
 - Requirements

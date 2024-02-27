@@ -9,6 +9,9 @@
 ## Day planning:
 
 - Github organizations [20min.]
+  - start by creating repo in localhost (with Vite)
+  - then, upload to github
+  
 - Git merge conflicts & how to solve them [1h]
 
 - Project kickoff [1h]

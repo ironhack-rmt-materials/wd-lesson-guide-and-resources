@@ -12,6 +12,7 @@ How:
 
 In order to choose:
 - spreadsheet "mini-project 2 - groups & categories"
+    <!-- example: https://docs.google.com/spreadsheets/d/1jmlv0opMNoeiMbua2xwCJys2LqxvDrT8LiBxn8_twDU/edit?usp=sharing -->
 - choose random group: https://stackblitz.com/edit/js-pydkph?file=index.js
 
 

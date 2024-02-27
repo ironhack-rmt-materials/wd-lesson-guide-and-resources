@@ -1,6 +1,10 @@
 
 # Deployment m2
 
+
+Legacy 2 (recording): MongoDB Atlas + Adaptable.
+
+
 <!--
 
 Status: ready
@@ -35,11 +39,6 @@ https://docs.google.com/presentation/d/1tHpGGAFdEy9lKv87Qs7uzs4UfQAXGOCSHyXzHQ4R
     - It's Wed., it's normal if there's bugs (but make sure to submit).
 
 
-<!--
-@todo: 
-- create a gist with the links, how to solve LoadBalancer error, how to seeds data etc.
--->
-
 
 ## Project 2 Deployment
 
@@ -71,7 +70,6 @@ https://www.loom.com/share/f905d44b81414eeeb5c6ddf0715ae3c5
 
 <!-->
 
-IMPORTANT:
 - share also instructions for seeds file 
 - ask students to submit URLs in the students portal (set DEADLINE)
 - (interesting) explain how we can see production DB & local DB on Compass (I don't mention it explicitly in the video)
@@ -79,59 +77,26 @@ IMPORTANT:
 -->
 
 
+
 <!--
-@todo:
 
-IMPROVEMENTS / THINGS TO ADD ON THAT VIDEO
+Things missing in the recording:
 
-1. (minor) some students may get an error creating an account on MongoDB Atlas with Github
-  - "Error: We were unable to log you in with that login method. Ensure that you have a public verified email address set on your GitHub account."
-  - In those cases, create the account with email & password (instead of social login).
-
-2. Testing with Compass
+1. Testing with Compass
   - how we can see production DB
   - how to switch between local & production on Compass
 
-3. Emphasise that, if they have any bug in localhost, it will also be in production (but it shouldn't be the other way around). Give an example
+2. Emphasise that, if they have any bug in localhost, it will also be in production (but it shouldn't be the other way around). Give an example
 
 
 -->
 
 
 
-## Submit URLs in students portal
-
-
-<!-- Note: at the end of the the video, I mention briefly that they need to submit urls in the students portal  -->
-
-
-
-<!-- IMPORTANT -->
-<!-- IMPORTANT -->
-<!-- IMPORTANT -->
-
-Ask students to submit urls (github + adaptable) on students portal
-
-- "Project 2 Deliverables/GitHub repo"
-  - URL to your project's GitHub repository (ie. project2 repo).
-
-- "Project 2 Deliverables/Deployed project"
-  - URL of your deployed project (on Adaptable)
-  - Note: you may need to get this URL from your partner.
-
-<!-- IMPORTANT -->
-<!-- IMPORTANT -->
-<!-- IMPORTANT -->
-
-
-
-
 
 ## Seed file (seed data on production DB)
 
-<!-- @Luis: share instructions on Slack (no need to demo) -->
-<!-- @todo: create a gist -->
-
+<!-- share instructions on Slack (no need to demo) -->
 
 To seed data on production, you can do the following:
 
@@ -147,30 +112,6 @@ To seed data on production, you can do the following:
 
   
 ![Seed on production](../media/images/seed-adaptable.png)
-
-
-
-
-
-
-## LoadBalancer error
-
-From time to time, building the app on Adaptable fails with this error message:
-
-```
-ERROR: --Error while Creating load balancer 'main'
-Conflict: LoadBalancer 'main' is being configured
-```
-
-It is an error on Adaptable (I've already reported it, hopefully they can fix it at some point soon).
-
-
-If you get this error, you can try the following:
-
-1. Trigger a manual deploy, clicking on "Update Deployment" (see screenshot).
-   - https://drive.google.com/file/d/1Iwy1_5iPKE-qVpRw_uJiM2jH32wwO5bi/view?usp=sharing
-
-2. If that doesn't work, plan b is to create a new app again.
 
 
 
@@ -204,13 +145,12 @@ Mentioned in the video:
 - Choose Database Type: "NONE" (deploy will be a bit faster)
 
 
+
 Not explained in the video:
 - how to how to trigger new deploy manually: "update deployment"
 
 
 Some other notes:
-
-- Twitter invitation (may not work anymore): https://mobile.twitter.com/adaptableio/status/1540400042065833993
 
 - (not very common) one of the students reported it was due to being members of a github organization with a huge number of members (when they left that organization, the issue was solved).
 
@@ -222,7 +162,8 @@ Some other notes:
 https://github.com/Sepidehatt/KeepMeAlive-hbs-version
 
 <!--
-@Luis (Keep me alive):
+
+(Keep me alive):
 
 - test in detail + integrate in our deployment day planning.
 

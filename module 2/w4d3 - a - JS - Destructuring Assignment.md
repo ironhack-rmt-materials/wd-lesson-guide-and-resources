@@ -139,15 +139,15 @@ Example:
 
   ```js
 
-  const actor = { 
-    firstName: 'Brad', 
-    lastName: 'Pitt' 
-  };
-
 
   function printFullName(actor) {
     console.log(`${actor.firstName} ${actor.lastName}`);
   }
+
+  const actor = { 
+    firstName: 'Brad', 
+    lastName: 'Pitt' 
+  };
 
   printFullName(actor);
 
