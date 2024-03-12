@@ -42,6 +42,22 @@ https://github.com/ManishPoduval/simple-chat-socketio
 
 
 
+
+
+
+## Websockets connection
+
+Note: 
+
+Many hosting services set a timout limit for WS connections.
+Example, Adaptable: https://drive.google.com/file/d/1Li-siYc6EGM-kC0l0NyZgm16Ee3KtKMt/view
+
+To fix that, client needs to reconnect everytime the connection is lost.
+
+
+
+
+
 ## Example of p2 project with websockets:
 
 Cristian + Ismael:
