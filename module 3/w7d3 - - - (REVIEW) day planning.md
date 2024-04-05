@@ -6,7 +6,23 @@
 - Ask p3 preferences (ex. ask in the afternoon, with DL tomorow 9am)
 
 
+update:
+- create model in a separate file (ex. Pizza.model.js)
+- LAB "Express Mongoose Recipes" now queries to DB are inside each route (IMPORTANT)
 
+  ```js
+  app.post("/recipes", () => {
+    Recipe.create()
+  })
+  ```
+
+<!-- 
+
+  IMPORTANT: 
+  - follow this patterns during demo (queries inside routes)
+  - also, don't forget to explain req.body
+  
+-->
 
 
 
@@ -47,7 +63,10 @@ Notes:
   - Sample query
   - Today, we will start doing this things with code
 
-- Express - Route Params & Query String [1h]
+- Express - Route Params & Query String [1.5h]
+  - GET /drinks/:drinkName (req.params)
+  - GET /drinks/ + maxPrice (req.query)
+  - POST /drinks/ (req.body)
 
 - Mongoose - Introduction
 

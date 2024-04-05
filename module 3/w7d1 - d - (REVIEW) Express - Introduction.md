@@ -13,6 +13,10 @@ update m2-m3 swap:
 
 @todo: review planning & update Demo example.
 
+
+UPDATE: 
+- demo: project-management-server (instead of restaurant)
+
 -->
 
 

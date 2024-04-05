@@ -358,6 +358,10 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
   - https://media.licdn.com/dms/image/C5612AQE90tEudo8eUg/article-inline_image-shrink_1500_2232/0/1623137760585?e=1689206400&v=beta&t=UW_whrS3qHniCQtY8lXQhXOAnctNXd32IvXrDgB2m9c
 
 
+- Map, Filter and Reduce - JavaScript Tutorial (Lydia Hallie, 10min.)
+  - https://www.youtube.com/watch?v=UXiYii0Y7Nw
+
+
 - Slides (in progress):
   - https://docs.google.com/presentation/d/1fwO9zcU-xCZoS4EYz4GSMc-na5Ugy2ETTZ-rwQI7n1k/edit?usp=sharing
 

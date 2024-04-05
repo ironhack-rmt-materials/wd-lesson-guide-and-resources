@@ -43,12 +43,8 @@ Create a project with Ironlauncher;
 
 
     <!-- 
-
-    @Luis: 
-      - create with auth & just go through the code ??
-      - (instead of auth codealong)
-      - Nope: I think it's better that in m2 we code auth from scratch.
-
+      with Auth:
+      npx  --yes  ironlauncher@latest  our-cool-project-backend  --auth   --json
     -->
 
 

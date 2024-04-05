@@ -59,6 +59,9 @@ Give feedback to students (ex. if you see anything to they can learn from).
 
 - Express | Introduction
   <!-- update: now includes Middleware -->
+  
+
+<!-- UPDATE: for demo, create "project-management-server" (instead of restaurant) and evolve it in the following days -->
 
 
 

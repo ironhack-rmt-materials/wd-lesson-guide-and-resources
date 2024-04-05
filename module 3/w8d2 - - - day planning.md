@@ -1,14 +1,6 @@
 
 # w8d3
 
-<!--
-@todo: 
-
-create project 3 MVP checklist + add to slides
-  - example: https://www.checkli.com/process/62d8fd8b11769
-
--->
-
 
 ## Day planning:
 

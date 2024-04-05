@@ -8,7 +8,7 @@
 Status: summary is complete
 
 Methodology:
-- follow lesson on students portal (~~all highlighted~~)
+- follow lesson on students portal
 - at the same time, practice all the examples with the students.
 
 -->
@@ -144,7 +144,7 @@ make sure we have at least these fields (so that the model is in line with tomor
 
 
 
-## Close connection to DB
+## (skip) Close connection to DB
 
 Brief (students can do research)
 

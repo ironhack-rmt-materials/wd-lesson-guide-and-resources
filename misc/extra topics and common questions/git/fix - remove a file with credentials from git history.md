@@ -14,7 +14,21 @@
 
 
 
-## Solution
+
+## Option 1
+
+The best option is to change the code to use environment variables.
+However, your secret will still be part of the history on github.
+
+In this case, the easiest solution is to change the password/secret.
+
+
+
+
+## Option 2
+
+In some cases, you can not change that password/secret.
+In those cases, `filter-branch` may be an option, since it allows you to rewrite the history (this has a lot of implications so it should be the last resort).
 
 
 `$ git filter-branch --tree-filter 'rm -f ./path/to/passwords.txt' HEAD`

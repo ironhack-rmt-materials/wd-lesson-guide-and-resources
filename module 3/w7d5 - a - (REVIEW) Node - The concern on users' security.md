@@ -18,6 +18,11 @@ Time:
 https://docs.google.com/presentation/d/1gNCZq7lZiph_Dzde34FuL6MI01c0ge1u3djxZMNWxPk/edit?usp=sharing
 
 
+Recording (dec. 2023):
+https://www.loom.com/share/99e0abae2c9346a3ba84d1e178c06b48?sid=e471b840-b8a6-44a1-9070-4f5a5f662518
+
+
+
 
 ## Bcrypt Demo
 

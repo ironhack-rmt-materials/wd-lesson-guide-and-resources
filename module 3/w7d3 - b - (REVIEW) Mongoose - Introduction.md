@@ -8,7 +8,7 @@
 
 @to-do: 
 - improve these notes
-- create slides (MVC pattern, mongoose intro)
+- create slides (mongoose intro)
 
 
 -->
@@ -16,7 +16,7 @@
 
 
 
-## MVC pattern
+## (skip) MVC pattern
   - https://media.geeksforgeeks.org/wp-content/uploads/20210629165722/mvc.png
   - https://seguridad.cicese.mx/uploads/notautic/utic23-5a3c250c42cae.png
 
@@ -120,24 +120,17 @@ IMPORTANT:
 
 
 
-<!-- 
+## (skip) instance + save.
 
-SKIP: instance + save.
+  ```js
+    const kitty = new Cat({ name: 'Ironhacker' });
 
+    kitty
+    .save()
+    .then(newCat => console.log(`A new cat is created: ${newCat}!`))
+    .catch(err => console.log(`Error while creating a new cat: ${err}`));
+  ```
 
-Students portal: 
-
-
-```
-  const kitty = new Cat({ name: 'Ironhacker' });
-
-  kitty
-  .save()
-  .then(newCat => console.log(`A new cat is created: ${newCat}!`))
-  .catch(err => console.log(`Error while creating a new cat: ${err}`));
-```
-
--->
 
 
 ## Create a document

@@ -36,7 +36,7 @@
   - Deployed & fully working in production.
   -->
 
-  <!-- MVP Checklist P2: https://www.checkli.com/process/62d8fd8b11769 -->
+  <!-- @todo: create checklist for p2 (so that they test themselves)  -->
 - Are you a good dancer?
 
 
@@ -48,8 +48,8 @@
 - 60s, 70s, 80s, 90s: Which decade do you love the most and why?
 - WEDNESDAY (only 2 questions):
   - What was your first job?
-  - Is my MVP ready? What is missing?
-  <!-- @todo: give them user stories / a list of things they need to test (so that they test themselves) -->
+  - Is our MVP ready? What is missing?
+  <!-- MVP Checklist p3: https://codepen.io/luisjunco/full/gOywmQv  -->
 - What’s is one thing we don’t know about you?
 - LAST DAY: What are you doing to celebrate end of bootcamp? ;)
 

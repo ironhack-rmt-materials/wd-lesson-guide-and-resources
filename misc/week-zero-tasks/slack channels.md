@@ -22,25 +22,26 @@
 These are the channels we create on our slack workspace.
 
 
-- help
-  - description: use this channel if you need support OUTSIDE class hours (make it easy for others to help --> see pinned message).
+- 1--general
+  - Topic: This is the main channel for announcements and general topics
+Check what’s pinned at the top!
+
+- 2--class-activities
+  - Topic: Class activities and exercises will be added here.
+
+- 3--resources
+  - Topic: Additional resources, helpful links, etc. will be shared here.
+
+- 4--ask-for-support
+  - Topic: Need help from the Instruction Team? Use this channel to send us a request.
+
+- 5--ask-the-class
+  - Topic: Use this channel to ask questions to your classmates and/or outside support hours.
   - pinned message: (see below)
 
+- 6--random-and-memes
+  - Topic: Random stuff and memes ;) 
 
-- help-during-class
-  - description: use this channel if you need support during class time.
-
-- class-activities
-  - description: Class activities and exercises will be added here
-
-- general
-  - description: General channel. It’s a great spot for announcements and team-wide conversations.
-
-- random
-  - description: Random stuff and memes ;) 
-
-- resources
-  - description: Additional resources, helpful links etc
 
 
 

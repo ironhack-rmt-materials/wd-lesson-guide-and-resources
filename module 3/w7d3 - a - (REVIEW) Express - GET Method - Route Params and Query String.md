@@ -5,12 +5,14 @@
 
 <!-- 
 
-Status: draft (contains all the topics to cover but would be good to improve details)
+Status: outdated (ex. handlebars)
+
+@todo: update after m2-m3 swap & nemo
+
+-->
 
 
-Note:
-- this lesson took much longer than it seems (we also saw many examples)
-- students find it complex to understand.
+<!-- 
 
 Suggested approach: 
 - show theory first:
@@ -92,13 +94,6 @@ Practice: route params
 Time: 10min.
 
 
-<!--
-
-July23:
-- we did lunch break here.
-- remember to create Spotify account
-
--->
 
 
 <!--

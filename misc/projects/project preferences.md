@@ -28,6 +28,7 @@ About levels:
   2. If the difference is big, the student with a lower level may not have the chance to practice the main topics and find solutions when a problem comes (so they may not learn essential skills).
 
   3. To graduate, a student needs to demonstrate a good understanding of the topics we teach and show that they can build the 3 projects that we have (if the difference is big, the student with a lower level is not really proving that point).
+    <!-- Note: if graduating is not a priority for you, let us know. -->
 
 
 

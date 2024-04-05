@@ -163,6 +163,13 @@ h2 {
 
 
 
+## (extra) CSS custom properties (variables)
+
+CSS Variables in 100 Seconds (Fireship, 2min.):
+https://www.youtube.com/watch?v=NtRmIp4eMjs
+
+
+
 ## Good practices
 
 - Generic rules first

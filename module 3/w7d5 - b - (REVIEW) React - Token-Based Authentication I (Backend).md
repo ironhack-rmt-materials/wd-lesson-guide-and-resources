@@ -19,6 +19,12 @@ Jan 2024: see PR JWT middleware simplified
 - https://github.com/jorgeberrizbeitia/lesson-code-h-react-authentication-backend/blob/938643359c4a7edf6b28f7169a93d3b7a216df37/middleware/jwt.middleware.js
 
 
+Update (March 2024):
+- PR applies to repo with the final code
+- Will also be fixed in the students portal in the next re-run.
+- Ironlauncher ?
+
+
 -->
 
 
@@ -27,12 +33,6 @@ Jan 2024: see PR JWT middleware simplified
 
 ## Intro
 
-
-<!--
-
-@Luis: have prepared (open) project from module 2 (library project)
-
--->
 
 - Quick refresh "the concern on users' security"
   - We will not store passwords
@@ -104,12 +104,9 @@ Summary:
 ## JSON Web Tokens (JWT)
 
 
-- Session-based auth (module2) vs. tokens (module3)
-  - Module 2 diagram: 
-    - session (server keeps information about the state of the user)
-    - sessionId (sent on each request)
-  - JWT Diagram: https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/token-auth/jwt-authentication-flow-1.png
-  - Token-based authentication is stateless which means that no information is stored on the server.
+- JWT Diagram: https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/token-auth/jwt-authentication-flow-1.png
+
+- Token-based authentication is stateless, which means no information is stored on the server.
 
 <!-- @todo: create diagrams -->
 
