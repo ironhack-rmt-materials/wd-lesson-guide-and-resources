@@ -302,3 +302,43 @@ Example: https://stackblitz.com/edit/js-twnm88?file=index.js
 
 
 
+
+
+## (skip) Private Properties & Methods (#)
+
+> Private properties and methods are accessible only within the class and not from the outside. They are used to encapsulate certain properties and methods of the class.
+
+
+> To define a private property or method, we use the # symbol followed by the name of the property or method.
+
+
+Example:
+
+```js
+class BankAccount{
+
+  #balance; // create a private property
+
+  constructor(initialBalance, accountHolder){
+    this.#balance = initialBalance;
+    this.accountHolder = accountHolder;
+    this.#increaseBalance(); // can invoke private methods within the class ✅
+  }
+
+  #increaseBalance(){
+    this.#balance += 50;  // can access private properties within the class ✅
+  }
+  
+  displayBalance(){
+    console.log(this.#balance)
+  }
+}
+
+const account = new BankAccount(1000, "alice");
+
+// account.#balance = 5000; // can not access properties from outside ❌
+// account.#increaseBalance(); // can not invoke methods from outside ❌
+
+account.displayBalance();
+```
+
