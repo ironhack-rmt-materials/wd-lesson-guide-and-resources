@@ -228,42 +228,14 @@ Solution: https://stackblitz.com/edit/js-yzcuvt?file=index.js
 
 ## Practice: ES6 Classes (OOP Bakery)
 
-<!--
-@todo:
-- improve instructions/wording
-  - rename to "display" instead of "print"
-- create gist.
--->
+
+Instructions: 
+- https://gist.github.com/luisjunco/c7ea4d03c6db5c6923e5b767e6935ca1
 
 
-- Iteration 1: create a Bakery class with the following information and functionality:
-  - property "brandName", which needs to be the same one for all our bakeries (ie. for all instances of the Bakery class)
-  - property "location" (specific for each bakery we build)
-  - method "printLocation" (displays the location of the bakery)
+Solutions: 
+- link to solutions is included in that gist.
 
-- Iteration 2: we will add functionality to bake cakes & keep track of the number of cakes we have.
-  - Store information about the amount of cakes in stock (initial value: 0)
-  - Add functionality to display the amount of cakes in stock
-  - Add functionality to bake one more cake (when that function is called, we need to increase the amount of cakes by 1). After you bake a cake, you can display the number of cakes in stock (reuse the function that you already have).
-
-
-- Iteration 3:
-  - Money collected (initial value: 0)
-  - Functionality to display the money we have
-  - Functionality to sell one cake (decrease stock & increases money by 3)
-
-- Iteration 4:
-  - We shouldn't sell a cake if we don't have cakes, right?
-  - Hint: when a cake is sold, make sure there's actually stock ;)
-
-- (Bonus) Iteration 5: let's apply some real life economics...
-  - Everytime a new cake is created, it costs 1 (deducted from the cash available)
-  - Everytime a cake is sold, you collect 3
-  - You can not make new cakes if there's no money
-  - Initial cash: 2 -we need some initial investment, otherwise we can not start making cakes ;)
-
-
-Solution: https://stackblitz.com/edit/js-kftsnf?file=index.js
 
 Time: 30min. in pairs
 
