@@ -10,6 +10,7 @@ Status:
 --->
 
 
+
 ## Attributes
 - get: element.getAttribute(attributeName);
 - modify and create: element.setAttribute(name, value);
@@ -35,9 +36,11 @@ Status:
   ```
 
 
+
 ## (skip) Remove an element from the DOM
 - `parent.removeChild(myElm);`
 - note: parentContainer needs to be the direct parent.
+
 
 
 ## (skip) Clear html
@@ -45,7 +48,7 @@ Status:
 
 
 
-## Evemts 
+## JS Evemts 
 
 Explain:
 - what are events
@@ -55,6 +58,8 @@ Explain:
   - mouse events (ex. click, mouseover...)
   - keyboard events (ex. keydown, keypress, keyup)
   - Document (DOMContentLoaded, ...)
+  - Full list: https://www.w3schools.com/jsref/dom_obj_event.asp
+
 - events can be attached to an html element (or multiple)
 
 - (brief) 3 ways to attach events to a dom element:
@@ -72,7 +77,7 @@ Explain:
 
 
 
-Demo: append a paragraph everytime the user clicks on a button
+## Demo: append a paragraph everytime the user clicks on a button
 
   1. Detect click event:
 
@@ -95,12 +100,9 @@ Demo: append a paragraph everytime the user clicks on a button
     ```
 
 
-List of possible events:
-- https://www.w3schools.com/jsref/dom_obj_event.asp
 
 
-
-Practice & Research: detect keyboard events
+## Practice & Research: detect keyboard events
 - Initial Code: https://stackblitz.com/edit/web-platform-oz1yyy?file=script.js
 - Goal: 
   - Add functionality to detect if the user presses "spacebar"
@@ -108,21 +110,24 @@ Practice & Research: detect keyboard events
   <!-- Note: to test your code, make sure you click on the html document before you press space  -->
 - (bonus 1): detect also arrow keys (down, up, left, right)
 - (bonus 2): if user presses spacebar, add a div to the dom.
-- (bonus 3): if user presses arrow up, move that div (hint: `position: relative`)
+- (bonus 3): if user presses arrow up, move that all the divs (hint: `position: relative`)
 Time: 15min.
 
-Solution: https://stackblitz.com/edit/web-platform-jbaohu?file=script.js
+Solution: https://stackblitz.com/edit/web-platform-6bfg8u?file=script.js
 Solution bonus 1: https://stackblitz.com/edit/web-platform-jbaohu?file=script.js
 Solution bonus 2: https://stackblitz.com/edit/web-platform-w2w9r7?file=script.js
+Solution bonus 3: https://stackblitz.com/edit/web-platform-mxx7fn?file=script.js
 
 <!-- note: students will need to use the event object (which is what we'll explain next) -->
 
 
 
 
-Event object:
-  - Event object: automatically passed to event handlers to provide extra features and information.
-  - MDN: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_objects
+## Event object
+
+- Event object: automatically passed to event handlers to provide extra features and information.
+
+- MDN: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_objects
 
   ```js
   btn.addEventListener('click', (e) => {
@@ -131,7 +136,7 @@ Event object:
   ```
 
 
-Detect spacebar:
+## Example: detect spacebar
 
   ```js
   document.addEventListener('keydown', (e) => {

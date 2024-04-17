@@ -2,41 +2,25 @@
 # DOM - Introduction and Selectors
 
 
-<!--- 
+<!---
 
-Status: in progress
-
+Status: ready
 
 
 TO-DO:
 - simplify: remove all concepts that are not used in the lab
-- create self-guided lab/exercise ?
-
-
-Note:
-- link these concepts to today's lab
-- Ironhack Cart Image: https://camo.githubusercontent.com/a8f2f706271dab8fc87fe27077a7fdb0561b7e2573ff684273c42a9ff34c4a2a/68747470733a2f2f692e696d6775722e636f6d2f4a38617365726d2e706e67
-
-
 
 
 --->
 
 
 
-Bad news: 
-- lots of topics
-
-Good news:
-- m3: all this will be done by React
-- don't need to memorize all (just be familiar)
-
 
 
 ## Cheatsheet (DOM manipulation)
 
 
-DOM manipulation cheatsheet: 
+DOM manipulation cheatsheet:
 https://stackblitz.com/edit/js-tdylkw?file=index.js
 <!-- @todo: convert to a gist -->
 
@@ -48,10 +32,14 @@ https://stackblitz.com/edit/js-tdylkw?file=index.js
 
 - We can see an HTML document as a hierarchy of nodes (tree): https://i.imgur.com/m08deQC.png
 
+
 - Document Object Model (DOM)
-  - API (Application Programming Interface) for HTML documents
-    - introduce the concepts of "Interface" & "API"
   - The DOM is a fully object-oriented representation of the web page, and it can be modified from JavaScript.
+
+
+- Example: today's lab (IronContacts): 
+  - https://camo.githubusercontent.com/2c705dace5f645575f909f42fcf8adb3b3c02933526fda6a3574450825855373/68747470733a2f2f656475636174696f6e2d7465616d2d323032302e73332e65752d776573742d312e616d617a6f6e6177732e636f6d2f7765622d6465762f6c6162732f6c61622d646f6d2d69726f6e636f6e74616374732f30302d6c61622d646f6d2d69726f6e636f6e74616374732d696e74726f2e676966
+
 
 
 - The Document object
@@ -62,52 +50,37 @@ https://stackblitz.com/edit/js-tdylkw?file=index.js
 
 
 - Quick Demo:
-  - go to ironhack.com + open dev tools 
+  - go to ironhack.com + open dev tools
   - add an id to the main title
-  - in the console: `document.getElementById()` + `innerHTML`
+  - in the console: `document.getElementById()` + `innerText`
 
 
-- (optional) ask students to do the same
+- Good & Bad news:
+  - Bad news: lots of topics
+  - Good news:
+    - don't need to memorize all (just be familiar)
+    - m2: all this will be done by React
 
-  1. Edit the html and add an id to any element.
-    <!-- - important: in the elements panel (chrome), click out so that the changes are not lost -->
-  2. Get a reference to that element
-    - `document.getElementById(id)`
-    - remember to store that in a variable
-  3. Change the content
-    - `myVariable.innerHTML = "new content"`
-
-  Time: 5min.
-
-
-- Show demo lab chronometer (show the demo & the code )
-  - demo: https://sandrabosk.github.io/demo-chrono/index.html
-  - index.js (with dom manipulation): https://github.com/ironhack-labs/lab-js-chronometer/blob/master/src/index.js
 
 
 
 ## Initial Setup for DOM Codealong
 
 
-Initial Code: 
+Initial Code:
 - https://github.com/ironhack-rmt-resources/dom-manipulation-practice
 - Fork + clone + open in VS Code.
-  
-
-  <!-- 
-  
-  @todo: add quick exercise in the middle of this session
-   (ex. before we see attributes)
-
-  -->
 
 
-LTs: Guided steps (with comments): 
+
+LTs: Guided steps (with comments):
+  <!-- @LT: follow this steps -->
 - https://github.com/RemoteRaccoons-Ironhack-Nov-22/dom-manipulation-practice/blob/f3cea5efd73bcac65f8acde5ceb8c1d43045ddd9/js/main.js
 
 
 
-## Search for Elements by ID: getElementById()
+
+## Search for Elements by ID: `getElementById()`
 
 ```js
 let element = document.getElementById('some-id-goes-here');
@@ -117,19 +90,21 @@ Note: id must be a string
 
 
 
-## Change the content of an element: .innerHTML property
+
+## Change the content of an element: `.innerText` property
 
 
 ```js
-let elm = document.getElementById('string'); 
-elm.innerHTML = "content";
+let elm = document.getElementById('string');
+elm.innerText = "content";
 ```
 
 - Important: it is a property (not a function)
 
 
 
-## Search elements by Class Name: getElementsByClassName()
+
+## Search elements by Class Name: `getElementsByClassName()`
 
 ```js
 let elements = document.getElementsByClassName(names);
@@ -147,26 +122,46 @@ let elements = document.getElementsByClassName(names);
 
 
 
-## Search elements by Tag Name: getElementsByTagName()
+
+## Search elements by Tag Name: `getElementsByTagName()`
 
 ```js
 let elements = document.getElementsByTagName(name);
 ```
 
--  returns an HTMLCollection
+- returns an HTMLCollection
 
 
-##  Search one element by CSS Selector: querySelector()
+
+##  Search one element by CSS Selector: `querySelector()`
 
 - returns the first element that matches the css selector
 
 
-## Search all elements by CSS Selector: querySelectorAll()
+
+## Search all elements by CSS Selector: `querySelectorAll()`
 
 - returns a NodeList
 
 - note: you CAN use a forEach to iterate on a NodeList
   (https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach)
+
+
+
+
+## Practice: selecting elements from the DOM
+
+<!--
+@LT:
+- before doing the exercise, make a quick demo on how to change the style
+- ex. elm.style.background = "orange"
+-->
+
+Instructions: https://stackblitz.com/edit/web-platform-ydtmzw?file=script.js
+
+Time: 10-15min.
+
+Solution: https://stackblitz.com/edit/web-platform-doucbe?file=script.js
 
 
 
@@ -189,6 +184,8 @@ Example:
 ## .innerText & .innerHTML
 
 
+
+
 ## Change the style: .style object
 
 ```js
@@ -208,7 +205,7 @@ elm.style.border = '2px solid green';
 
 ## .id property
 
-- gets / sets 
+- gets / sets
 
 
 
