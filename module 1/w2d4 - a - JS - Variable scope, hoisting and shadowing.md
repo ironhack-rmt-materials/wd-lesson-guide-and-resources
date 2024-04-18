@@ -71,6 +71,7 @@ var vs let/const:
 - let & const: global / block scope
 
 
+
 Example 1:
 
   ```js
@@ -104,7 +105,7 @@ Example 2:
 
 Variable shadowing:
   - when a variable declared within a certain scope has the same name as a variable declared in an outer scope.
-  - ie. variables with the same name in different  scopes.
+  - ie. variables with the same name in different scopes.
 
 
 Example 1:
@@ -140,13 +141,20 @@ Example 2 (ask students):
     let b = 2;
 
     function sayHello() {
-      a = 4; // reassigned
-      let b = 3; // declared in an inner scope
+      a = 4;
+      let b = 3;
     }
 
     sayHello();
     console.log("a..." + a);
     console.log("b..." + b);
+  ```
+
+
+  Explanation: 
+  ```js
+    a = 4; // reassigned
+    let b = 3; // declared in an inner scope
   ```
 
 

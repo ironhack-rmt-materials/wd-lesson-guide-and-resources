@@ -8,8 +8,14 @@
 
 - Variable scope, hoisting and shadowing [1h]
 - Value vs. Reference and Mutable Data Types [1.5h]
-- Async and Callbacks  [1h]
+- Async and Callbacks [1h]
 
+- extra: intro concepts that we'll use tomorrow [30m]
+  - position (relative vs. absolute)
+  - units (px vs. vw)
+  - detect keyboard events
+  - Initial code: https://stackblitz.com/edit/web-platform-mxnyde?file=index.html
+  - Final result (player can move with arrow keys): https://stackblitz.com/edit/web-platform-e7lwsa?file=script.js
 
 
 
@@ -18,7 +24,8 @@
 - (individual) LAB | JS Challenges II (Intermediate) [45m]
 - (individual) LAB | JS Countdown [45m]
 - (in pairs) Mini Project - JavaScript Quiz - Day 4 [2.5h]
-  - Deadline: Mon 9am
 
-
+Deadlines:
+- Mini-project: Monday 9am
+- Assessments x2: Monday 9am
 

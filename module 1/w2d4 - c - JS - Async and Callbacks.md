@@ -47,7 +47,7 @@ Status: draft
   1. Create an interval that displays a counter every second
     - in the console, display: "hello 1", "hello 2", "hello 3".....
     - hint: you may want to create a counter in the parent scope (ex. `let counter = 1`)
-  2. After 5 seconds, cancel that interval
+  2. After 5 times, cancel that interval
   3. (Bonus) Apply what we've learned so far and try to solve it in a different way.
   4. (Bonus) Can you solve it without a setInterval? (hint: setTimeout + research "js recursive function")
 
@@ -215,14 +215,14 @@ But... dinner takes time to be prepared....
 
     ```js
     function cookDinner() {
-        console.log('Preparing dinner...');
-        setTimeout(function() {
-            console.log('Dinner is ready');
-        }, 1000);
+      console.log('Preparing dinner...');
+      setTimeout(function() {
+          console.log('Dinner is ready');
+      }, 1000);
     }
 
     function eatDinner() {
-    console.log('Eating dinner');
+      console.log('Eating dinner');
     }
 
     cookDinner();
@@ -294,8 +294,7 @@ So we can pass it a function to be executed at the end (once dinner is ready)...
 
 <!-- 
 
-@LT: 
-- just mention briefly: an error stops code execution (in most cases)
+@LT: just mention briefly, an error stops code execution (in most cases)
 
 -->
 
@@ -325,18 +324,5 @@ Example:
         console.log("blue");
 
     ```
-
-
-
-## Refresh 
-
-IMPORTANT: refresh some topics for today's lab (JS Chronometer):
-
-- setTimeout + clearTimeout
-- setInterval + clearInterval
-
-- OOP 
-  - refresh constructor
-  - refresh properties (store any info that we need to access from different methods)
 
 
