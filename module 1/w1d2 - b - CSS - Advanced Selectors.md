@@ -92,7 +92,7 @@ parent > child {
 
 
 
-## Adjacent Sibling
+## (skip) Adjacent Sibling
 
 ```
 formerElement + targetElement {
@@ -103,7 +103,7 @@ formerElement + targetElement {
 - separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent 
 
 
-## Attribute Selector
+## (skip) Attribute Selector
 
 
 ```
@@ -134,6 +134,7 @@ h2 {
     background-color: yellow;
 }
 ```
+
 
 
 ## (bonus) CSS custom properties (variables)

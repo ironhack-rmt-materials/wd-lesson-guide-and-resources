@@ -34,6 +34,14 @@
 - (individual) LAB | JS Data Types [1.5h]
 - (in pairs) LAB | JavaScript Basic Algorithms [2.5h]
 
-<!-- LT: introduce AI LAB feedback -->
+<!-- @LT: students find workload relatively light today -->
 
 
+<!--
+
+(bonus) LAB | JS Strings Cardio
+https://github.com/ironhack-labs/lab-js-strings-cardio
+
+(note: this lab is quite easy/simple)
+
+-->

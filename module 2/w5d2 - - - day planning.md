@@ -14,6 +14,8 @@ m2-m3 swap:
 
 ## Planning
 
+<!-- @LT: ask p2 preferences  -->
+
 - LAB review
   
 - Refresh

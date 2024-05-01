@@ -9,7 +9,7 @@
 - Project 1 kick-off [1h]
 - Project planning session / feedback [1h]
 
- <!-- mark lab "DOM | Race Car Game" as bonus -->
+ <!-- IMPORTANT: mark lab "DOM | Race Car Game" as bonus -->
 
 
 # (skip) Refresh

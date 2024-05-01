@@ -27,7 +27,7 @@ Slides: https://docs.google.com/presentation/d/1SqJP7b9cQ9UpvTmfVpdojcFXjsTL0g1H
 
   Quick unit about NPM [30m.]
   - intro to npm
-  - creating an npm repo
+  - creating an npm project
   - installing a package (ex. cowsay)
   - package.json 
   - explain scripts ? (it can also be done later)
@@ -40,4 +40,24 @@ Slides: https://docs.google.com/presentation/d/1SqJP7b9cQ9UpvTmfVpdojcFXjsTL0g1H
 
   -->
 
-  
+
+Demo: cowsay:
+- mkdir module2
+- cd module2
+- mkdir npm-demo
+- cd npm-demo
+- touch index.js
+- code -r .
+- console.log("hello")
+- node index.js
+- npm init --yes
+- npm install cowsay
+- add code to index.js
+  - see "Usage in the browser"
+  ```js
+  import { say } from 'cowsay';
+  console.log(say({ text: 'hello world' }));
+  ```
+- fix: "cannot use import statement outside a module"
+  - package.json:
+    - add `"type": "module",`

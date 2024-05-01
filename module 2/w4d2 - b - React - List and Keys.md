@@ -48,14 +48,16 @@ Status: draft
 - open VS Code + a terminal
 - navigate to your module2 directory
 - create app with Vite:
-  - `npm create vite@latest`
   - `npm create vite@latest popcorn-time -- --template react`
 - cd popcorn-time
-- npm install
 - code -r .
+- npm install
 - npm run dev
   - In case you need to define a custom port (for example, if you have another app running in your computer): `npm run dev -- --port 3000`
 
+- git init
+- initial commit
+- upload to github
 
 
 
@@ -65,8 +67,10 @@ Status: draft
 
 <!-- @LT: if short of time, do as a codealong instead -->
 
+Iteration 0: Cleanup - delete initial code from Vite
+
 Iteration 1: Create the initial structure. 
-  - Create 3 function components: Header, Main, Footer
+  - Create 3 function components: Header, MovieList, Footer
   - for each of them, just display a text, (ex: "this is the Header").
   - render all of them in App
 
@@ -75,7 +79,7 @@ Iteration 1: Create the initial structure.
 Iteration 2: Make a commit + Upload repo to GitHub
 
 Bonus: add some css for the Header component with a specific file
-    - create `Header.css`
+    - create `Header.css` + add rules for `h1` (ex. `color: orange`)
     - in Header.jsx, import the css file you've created: `import "./Header.css";`
     - NOTE: any css rules would apply to the whole application. To avoid this, you can do the following:
       - add a className to the parent htlm element of your component. Ex: `<header className="Header">`
@@ -228,19 +232,25 @@ Load list of movies from a `json` file
 
 ## Practice: iterate through an array with .map()
 
-<!-- @todo: create exercise on stackblitz -->
 
-1. In App.jsx, import this json file:
+Initial code: https://stackblitz.com/edit/stackblitz-starters-2hqmjf?file=src%2Fcomponents%2FMain.js
+
+
+1. In Main.js, import this json file:
   - `import events from "../data/events.json"`
 2. For each element of the array, display the title and the location (use `.map()`)
 
 Time: 10min.
 
+Solution: https://stackblitz.com/edit/stackblitz-starters-knjkk5?file=src%2Fcomponents%2FMain.js
 
 
 
 
 ## Removing elements from a list (will apply State)
+
+Initial step:
+- add: `<button>Delete this movie</button>`
 
 Discuss: 
 - how we can implement functionality to delete movies

@@ -31,9 +31,10 @@ Afternoon:
 ## Active Learning
 
 - survey [5min.]
-- (individual) LAB | JS Book Objects [30m.]
-- (individual) LAB | Unit Testing with Jasmine [1h]
-- (in pairs) LAB | JavaScript Clue
-- (individual) Assessment | JS Foundations (202208)
-<!-- LT: Make sure to publish the assessment -->
+- (individual) LAB | JS Book Objects
+- (individual) LAB | Unit Testing with Jasmine
+- (individual) Assessment | JS Foundations (202208) [2h]
+  <!-- LT: Make sure to publish the assessment -->
+
+- (bonus) LAB | JavaScript Clue
 

@@ -46,7 +46,7 @@ Status: ready
 
 
 
-- Adding Elements: `.push()`
+- Adding Elements (at the end): `.push()`
 - Removing (from the end): `.pop()`
 
 - push() vs. pop() vs. unshift() vs. shift()

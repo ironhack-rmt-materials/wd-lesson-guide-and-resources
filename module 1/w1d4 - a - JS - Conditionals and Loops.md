@@ -35,7 +35,9 @@ may 2023:
 - for ++
 - for…of +
 - break
+  - The break statement exits a switch statement or a loop (for, for … in, while, do … while).
 - continue
+  - The continue statement breaks one iteration (in the loop) if a specified condition occurs, and continues with the next iteration in the loop.
 - (extra) ternary operator
 
 
@@ -96,31 +98,29 @@ for (const value of someIterable) {
 - Example 1: initial code with if-else 
 
   ```js
-  const name = 'alice';
-  let likesPizza;
+  const userName = 'alice';
+  let role;
 
-  if (name === 'alice') {
-    likesPizza = true;
+  if (userName === 'alice') {
+    role = "admin";
   } else {
-    likesPizza = false;
+    role = "standard";
   }
 
-  console.log(likesPizza);
+  console.log(role);
   ```
+
 
 
 - Example 1 with ternary operator:
 
   ```js
-  const name = 'alice';
-  const likesPizza = name === 'alice' ? true : false;
+  const userName = 'alice';
+  const likesPizza = userName === 'alice' ? "admin" : "standard";
 
   console.log(likesPizza);
   ```
 
-
-
-  
 
 
 - Example 2, returning from a function:
@@ -154,3 +154,4 @@ for (const value of someIterable) {
   const role = getUserRole();
   console.log(role);
   ```
+

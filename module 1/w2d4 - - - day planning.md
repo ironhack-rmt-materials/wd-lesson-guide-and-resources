@@ -11,11 +11,11 @@
 - Async and Callbacks [1h]
 
 - extra: intro concepts that we'll use tomorrow [30m]
-  - position (relative vs. absolute)
-  - units (px vs. vw)
-  - detect keyboard events
+  - a) position (relative vs. absolute)
+  - b) units (px vs. vw)
+  - c) detect keyboard events
   - Initial code: https://stackblitz.com/edit/web-platform-mxnyde?file=index.html
-  - Final result (player can move with arrow keys): https://stackblitz.com/edit/web-platform-e7lwsa?file=script.js
+  - Final result (player can move with arrow keys): https://stackblitz.com/edit/web-platform-favhat?file=script.js
 
 
 

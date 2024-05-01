@@ -1,11 +1,6 @@
 
 # JS - Data Types - numbers and strings
 
-<!--- 
-
-Status: just some notes
-
--->
 
 
 
@@ -20,7 +15,16 @@ const price = 12.99; //decimal
 
 
 
-## NaN
+### Number expressions
+
+- `+` addition
+- `-` subtraction
+- `*` multiplication
+- `/` division
+
+
+
+### NaN
 
 ```js
 const result = 10 / 'pizza';
@@ -29,7 +33,8 @@ console.log(result);
 
 
 
-## Modulo % (aka remainder operator)
+
+### Modulo % (aka remainder operator)
 
 <!-- 
 
@@ -59,7 +64,8 @@ Example:
   -->
 
 
-## Practice: even or odd (together)
+
+### Practice: even or odd (together)
 
 - Intro: even vs. odd
 
@@ -111,7 +117,8 @@ Solution:
   ```
 
 
-## (skip) Practice: FizzBuzz
+
+### (skip) Practice: FizzBuzz
 
 - how: individual / small teams (2-3 people)
 - time: 20-25m + solve together
@@ -133,7 +140,7 @@ Fizz-Buzz
 
 
 
-## Assignment Operators
+### Assignment Operators
 
 - Assignment: x = y
 - Addition assignment: +=
@@ -141,7 +148,7 @@ Fizz-Buzz
 
 
 
-## Expressions
+### Expressions
 
 > Expression = a combination of any value (number, string, array, object) and set of operators that result in another value.
 
@@ -151,7 +158,7 @@ Fizz-Buzz
   ```
 
 
-## Operator Precedence
+### Operator Precedence
 
 (brief) see students portal
 
@@ -198,11 +205,7 @@ Template literals:
 
 
 
-Some topics: 
-<!-- @todo: not comprehensive -->
-> find out length of a string (str.length)
-> get character at position N
-> check if string contains a substring (indexOf() / includes() )
+### Some string properties and methods
 
 
   ```js
@@ -224,7 +227,7 @@ Some topics:
 
 
 
-## Slice
+### Slice
 
   ```js
   slice(beginIndex)
@@ -243,11 +246,11 @@ Practice: strings & string methods:
 
 
 
-## Sorting strings - .localeCompare()
+### Sorting strings - .localeCompare()
 
 <!-- 
 
-they need it for today's lab 
+@LT: they need it for today's lab (iteration. 3.3) 
 
 -->
 
@@ -263,12 +266,18 @@ they need it for today's lab
 
 
 ```js
-//
-// str.localeCompare()
-//
+/*
 
-// -1 --> if the main string goes before the other one
-// 0 --> same strings
-// 1  --> if the main string goes after the other one
+str.localeCompare()
+
+can be used to compare strings in alphabetical/lexicographic order
+(it also considers locale-specific rules, such as language-specific sorting conventions and special characters)
+
+It returns:
+-1 --> if the main string goes before the other one
+0 --> same strings
+1  --> if the main string goes after the other one
+
+*/
 ```
 

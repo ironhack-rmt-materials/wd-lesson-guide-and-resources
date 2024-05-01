@@ -8,7 +8,8 @@
 Status: complete
 
 @todo:
-- simplify / remove anything that is not essential
+- simplify & remove anything that is not essential
+- too theorical. It will be do to define a goal (ie. show the design of a simple app) and explain these concepts while we create it.
 
 -->
 
@@ -40,9 +41,13 @@ Initial Setup:
 - `cd module2`
 
 - Create app with Vite:
-  - `npm create vite@latest`
-  - `npm create vite@latest react-intro -- --template react`
-  - source: https://vitejs.dev/guide/
+  - option 1: `npm create vite@latest`
+  - option 2: `npm create vite@latest react-intro -- --template react`
+    <!-- - source: https://vitejs.dev/guide/ -->
+  - `cd react-intro`
+  - `code -r .`
+  - `npm install`
+  - `npm run dev`
 
 
   <!--
@@ -86,20 +91,17 @@ Initial Setup:
   -->
 
 
-- Install React Dev Tools 
-  https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
 
-
-
-
-Creating our first component:
+## Creatie our first component
   - Create a basic component: `<MyFirstComponent / >` 
+  - Optional: create also Header & Footer.
     <!--
     - Note: this is useful so that we keep all the JSX examples inside that a specific component.
     -->
 
 
-Practice: create a React component
+## Practice: create a React component
+  <!-- @LT: alternative - create repo & upload to stackblitz -->
 - initial code: https://stackblitz.com/edit/stackblitz-starters-mfdjv4?file=src%2FApp.js
 - Step 1: Create a component Header
   - Note: in stackblitz, you need this line at the beginning of your component `import React from 'react';`
@@ -111,102 +113,103 @@ Practice: create a React component
 
 
 
-JSX:
 
-  - components: can receive info + return JSX
+## JSX
 
-  - Inside the curly braces, we can put any valid JavaScript expression. 
-    - "an expression is a snippet of code that evaluates to a value"
-    - (extra) What is a JavaScript Expression? (includes examples, expression vs. statement, etc)
-      https://masteringjs.io/tutorials/fundamentals/expressions
+- components: can receive info + return JSX
 
-
-  - JSX: must return one parent container
+- Inside the curly braces, we can put any valid JavaScript expression. 
+  - "an expression is a snippet of code that evaluates to a value"
+  - (extra) What is a JavaScript Expression? (includes examples, expression vs. statement, etc)
+    https://masteringjs.io/tutorials/fundamentals/expressions
 
 
-  - Example 1 - embed variables
-    
-    ```js
-      const user = {
-        firstName: "bob",
-        surname: "smith"
-      }
+- JSX: must return one parent container
+
+
+- Example 1 - embed variables
+  
+  ```js
+    const user = {
+      firstName: "bob",
+      surname: "smith"
+    }
+  ```
+
+  ```jsx
+    {title}
+    <h3>
+      Hi, {user.firstName} {user.lastName}!
+    </h3>
+  ```
+
+
+- Example 2 - embed functions (or methods):
+    `{firstName.toUpperCase()}`
+
+
+
+- (skip) Example 3 - embed function execution
+    ```jsx
+    function capitalizeFirstLetter(str) {
+      return str[0].toUpperCase() + str.slice(1);
+    }
     ```
 
     ```jsx
-      {title}
-      <h3>
-        Hi, {user.firstName} {user.lastName}!
-      </h3>
+    return (
+      <h1>
+        { capitalizeFirstLetter(firstName) }
+      </h1>
+    )
     ```
 
 
-  - Example 2 - embed functions (or methods):
-      `{firstName.toUpperCase()}`
+- Example 4: function that returns JSX
+
+    ```jsx
+    function renderTitle() {
+      return <h1>this is a title</h1>;
+    }
+    ```
+
+    ```jsx
+    return (
+      <>
+        renderTitle()
+      </>
+    )
+
+
+- (skip) Example 5: embed the attribute value
+  `<div id={theId}>`
 
 
 
-  - (skip) Example 3 - embed function execution
-      ```jsx
-      function capitalizeFirstLetter(str) {
-        return str[0].toUpperCase() + str.slice(1);
-      }
-      ```
+- (skip) Example 6 - embed static files: images
 
-      ```jsx
-      return (
-        <h1>
-          { capitalizeFirstLetter(firstName) }
-        </h1>
-      )
-      ```
+  <!-- 
+  
+  Link to logo
 
+  https://seeklogo.com/images/I/ironhack-logo-F751CF4738-seeklogo.com.png
+  
+  -->
 
-  - Example 4: function that returns JSX
+    ```jsx
+    import ironhackLogo from './assets/ironhack-logo.png'; //inside src
 
-      ```jsx
-      function renderTitle() {
-        return <h1>this is a title</h1>;
-      }
-      ```
-
-      ```jsx
-      return (
-        <>
-          renderTitle()
-        </>
-      )
-
-
-  - (skip) Example 5: embed the attribute value
-    `<div id={theId}>`
+    <img src={ironhackLogo} alt="ironhack logo" />
+    ```
 
 
 
-  - (skip) Example 6 - embed static files: images
-
-    <!-- 
-    
-    Link to logo
-
-    https://seeklogo.com/images/I/ironhack-logo-F751CF4738-seeklogo.com.png
-    
-    -->
-
-      ```jsx
-      import ironhackLogo from './assets/ironhack-logo.png'; //inside src
-
-      <img src={ironhackLogo} alt="ironhack logo" />
-      ```
-
-
-
-
-- (Bonus, self-guided) config JSX autocomplete on VS Code:
+## (Bonus, self-guided) config JSX autocomplete on VS Code:
   - https://stackoverflow.com/questions/39320393/jsx-or-html-autocompletion-in-visual-studio-code
 
 
-- Self-closing tags
+## Self-closing tags
+
   ```jsx
   <MyComponent />
   <MyComponent> </MyComponent>
@@ -215,23 +218,34 @@ JSX:
   Note: self-closing HTML tags (eg. <br />, <hr />, <img />) must always have a closing / to be valid JSX.
 
 
-- Attributes Names are camelCased
+## Attributes Names are camelCased
   
   - class —> `className`
   - html attributes are camelCased
     - onlclick —> `onClick`
 
 
-- (Extra) inline CSS (mention very briefly)
+## (Extra) inline CSS (mention very briefly)
   - For inline css, you will need a JavaScript object with camelCased properties.
   - https://reactjs.org/docs/dom-elements.html#style
   - legacy docs: https://legacy.reactjs.org/docs/dom-elements.html#style
 
+  ```jsx
+    const divStyle = {
+        border: "1px solid #fff",
+        margin: "2em auto",
+        padding: "2em",
+    }
 
-- Comments in JSX
+    return (
+      <div style={divStyle}>
+      </div>
+    )   
+  ```
+
+
+
+## Comments in JSX
   ` {/* jsx comment */} `
-
-
-- React Dev Tools
 
 

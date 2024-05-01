@@ -75,7 +75,7 @@ Table with logical operators:
 
 
 
-## An undefined as data type
+## undefined
 
 ```js
     let amount;
@@ -83,7 +83,8 @@ Table with logical operators:
 ```
 
 
-## A null as data type
+
+## null
 
 > In computer science, a null value represents a reference that points, generally intentionally, to a nonexistent address in memory
 
@@ -91,6 +92,7 @@ Table with logical operators:
     let amount = null;
     console.log(amount); // <== null
 ```
+
 
 
 ## Truthy and falsy values

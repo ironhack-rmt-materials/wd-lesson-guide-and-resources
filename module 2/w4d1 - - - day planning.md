@@ -19,11 +19,10 @@ Give feedback to students (ex. if you see anything to they can learn from).
 
 <!-- @LT: focus on React Components + Props -->
 
-- Intro to module 2 [30min]
+- [LESSON] Intro to module2 [30m]
+  - Create account Adaptable.io
 
 - (skip) Warmup - object + array destructuring ?
-
-- [LESSON] Intro to module2 [20m]
 
 - [LESSON] React | Introduction [1h]
 

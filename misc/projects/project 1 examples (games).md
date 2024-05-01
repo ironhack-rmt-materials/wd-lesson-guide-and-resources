@@ -20,6 +20,10 @@ Action games:
   https://ericveganoguera.github.io/ProjectGame/
 
 
+- Kick4Kick (Klod) (variation of the pong game)
+  https://kafdhali.github.io/Kick4Kick/
+
+
 - Chubby Buddies (Beatriz)
   https://beatriz-96.github.io/project-1/
   <!-- Note: play with keys "1" and "2" -->

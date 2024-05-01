@@ -6,7 +6,12 @@
 ## Day Planning
 
 Planning:
+
 - introduce callback & anonymous functions (do example with forEach) [30min.]
+  - Practice forEach (arr of strings + array of objects): https://stackblitz.com/edit/js-me2yip?file=index.js
+  - Time: 10min.
+  - Solution: https://stackblitz.com/edit/js-byttax?file=index.js
+
 - ~~(extra) introduce setTimeout/setInterval~~ [30min.]
 
 - OOP: intro + oop with plain objects [30min.]

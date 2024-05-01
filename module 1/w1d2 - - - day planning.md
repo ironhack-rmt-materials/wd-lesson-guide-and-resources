@@ -19,9 +19,6 @@
 
 - CSS Positioning  (20m.)
 
-- Pair Programming Introduction (20m.)
-
-- LAB Collaboration Demo (30m.)
 
 
 
@@ -31,9 +28,7 @@
   - Read and practice the first section: "Positioning"
   - Skip the rest (floats etc)
 
-- (individual) LAB | Flexbox [30m]
-
-- (individual) LAB | CSS Ironhack News [60m]
+- (individual) LAB | CSS Ironhack News
 
 - (in pairs) LAB | CSS Flexbox Slack
 

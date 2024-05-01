@@ -56,7 +56,8 @@ Notes:
 - test `GET` on the browser
 - how can we test other endpoints ? (ex. form with POST)
 
-
+- (extra) Chrome extension to parse json: 
+  - https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
 
 
 ## Refresh Axios GET

@@ -49,6 +49,13 @@
 
 ## Setup Jasmine
 
+<!-- 
+
+@LT:  
+- very brief (can also be done in advance)
+- for today's lab setup is already done
+
+-->
 
 - follow stepts in students portal:
     - visit: https://github.com/jasmine/jasmine/releases

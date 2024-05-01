@@ -79,7 +79,7 @@ const company = {
   - ex: array of students
 
   ```js
-  const students = [
+  const employees = [
     { name: 'alice', city: 'paris' },
     { name: 'bob', city: 'berlin' },
     { name: 'charly', city: 'madrid' },

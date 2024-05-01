@@ -17,8 +17,13 @@
 
   <!-- 
   
-  @Luis: 
+  @LT: 
   - may be better to add columns one by one
+    - What went well ?
+    - What can be improved ?
+    - Suggestions / Things to try
+    - Kudos
+
   - limit votes: 10. (or tell them one vote per card)
 
   -->

@@ -58,7 +58,7 @@ Option 2 (prefered, since its easier to share the code):
 
 
 
-DEMO: add a counter to the Header
+DEMO: add a counter in `<Header />`:
 
   <!-- @Luis:  DEMO (we will do an exercise in a few moments)  -->
 
@@ -129,7 +129,6 @@ https://stackblitz.com/edit/stackblitz-starters-723xsm?file=src%2FApp.js
 
 Note: work on the App component (do not create other components)
 
-
 Iteration 1:
 - implement functionality to increase counter
 
@@ -188,6 +187,8 @@ Solution 3 (with `counter` + `theme`):
 Solution 4 (with `counter` + single button to toggle `theme`): 
 - https://stackblitz.com/edit/react-9uzbxh?file=src%2FApp.js
 
+
+<!-- How: individual / in pairs -->
 
 
 

@@ -26,8 +26,8 @@
         - `hello, I am a ${this.species} living in ${this.location} `
 
     - "Dog" extends "Animal"
+      - method `bark()` (important: explain this before adding properties !!)
       - property `name`
-      - method `bark()`
       - method `sayHello()` (dogs say hello in a different way)
 
     - example: https://stackblitz.com/edit/js-jeyw5h?file=index.js
@@ -53,6 +53,9 @@
     
     -->
 
+
+- (skip) Example 2 of inheritance + polymorphism (vehicle + track)
+  - https://stackblitz.com/edit/js-pzkwun?file=index.js
 
 
 - (Extra) further examples with inheritance & super:

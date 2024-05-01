@@ -2,14 +2,15 @@
 
 
 <!-- 
-Status: draft
+
+Status: ready
 
 @todo:
 - create cheatsheet +++
-- do some cleanup
 - some of the activities in pairs ?
 
 -->
+
 
 
 ## Intro exercise (before explaining map): 
@@ -39,18 +40,6 @@ Status: draft
   
 - Solve together [5min.]
 
-
-
-
-## Notes:
-
-
-
-.map(), .filter() and .reduce():
-  - these methods DON’T modify the original (they don’t mutate the original array but rather create a new array)
-
-- Visual cheatsheet with some array methods:
-  https://res.cloudinary.com/practicaldev/image/fetch/s--sYEjzdnw--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/sr8koff729gxcvpnoty6.jpeg
 
 
 
@@ -324,14 +313,26 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
 
 
-## (IMPORTANT) Identify & chaining:
+## Identify & chaining:
 
   - Identifying which method we can use can be tricky. 
     - Solution: practice.
 
+  - Visual cheatsheet with some array methods:
+    - https://res.cloudinary.com/practicaldev/image/fetch/s--sYEjzdnw--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/sr8koff729gxcvpnoty6.jpeg
+
   - We can also chain array methods. 
     - Ex: `.filter().reduce()`
     - Ex: `.filter().map()`
+
+
+
+## Mutating vs. non-mutating methods
+
+
+- `.map()`, `.filter()` and `.reduce()`  DON’T modify the original 
+
+- (they don’t mutate the original array but rather create a new array)
 
 
 

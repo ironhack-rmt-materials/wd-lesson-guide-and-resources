@@ -153,24 +153,27 @@ Solution bonus 3: https://stackblitz.com/edit/web-platform-mxx7fn?file=script.js
 ## Attach an event listener to multiple elements
 
 
-Practice: attach an event listener to multiple elements
+Example: 
 
-- Iteration 1: add an event listener to detect if the user clicks on any title.
+```js
+  const allBtn = document.querySelectorAll(".btn");
 
-- Bonus: when the user clicks, modify the css of that title.
-
-
-Example:
-
-  ```js
-  const titles = document.querySelectorAll(".interactive-title");
-
-  titles.forEach( (elm) => {
+  allBtn.forEach( (elm) => {
       elm.addEventListener("click", () => {
-          elm.classList.toggle("active");
-      })
+          console.log("click on a generic button...")
+      });
   });
-  ```
+```
+
+
+
+## (extra) Practice: attach an event listener to multiple elements
+
+Instructions: https://stackblitz.com/edit/web-platform-fppahh?file=script.js
+
+Time: 15min.
+
+Solution: https://stackblitz.com/edit/web-platform-wc6dzu?file=script.js
 
 
 
@@ -203,6 +206,7 @@ JS Events cheatsheet:
 
 ## (skip) Event bubbling
 
+<!-- not needed for today's lab -->
 
 - Explain what is event bubbling (briefly)
 
@@ -211,6 +215,8 @@ JS Events cheatsheet:
 
 
 ## (skip) Detect Events on elements created dynamically
+
+<!-- not needed for today's lab -->
 
 - Today's lab (bonus iteration): they will need to add events to elements created dynamically
 
@@ -242,8 +248,6 @@ TO-Do:
 
 
 
-## (skip) Scraping a Website
-
 
 ## Extra resources
 
@@ -252,8 +256,6 @@ Video: Javascript Dom Manipulation | Javascript Tutorial For Beginners
 https://www.youtube.com/watch?v=wiozYyXQEVk
 
 <!-- includes some interesting examples that we can use in demo -->
-
-
 
 
 

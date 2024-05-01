@@ -200,8 +200,8 @@ Bonus:
 
 
 ** Visual Cheatsheets **
-• https://flexbox.malven.co/
 • https://codepen.io/ironhack/pen/RLZXZR
+• https://flexbox.malven.co/
 
 
 

@@ -111,7 +111,7 @@ Arrays vs Objects:
   ```
 
 
-## Read properties
+## Read properties (dot notation / bracket notation)
 - dot notation
 - square bracket notation (with a string inside brackets)
 
@@ -119,9 +119,9 @@ Arrays vs Objects:
 - dot notation vs bracket notation
   - in most cases we use dot notation (more simple and easier to read)
   - you may need bracket notation for:
-    - (skip) access keys with numeric values (`myObj[400]`)
     - access keys with multiple words (`myObj["marketing manager"]`)
     - access keys with dynamic names (`myObj[myVariable]`)
+    - (skip) access keys with numeric values (`myObj[400]`)
 
 
 ```js
@@ -189,11 +189,9 @@ ___
 
 ## Loop through objects
 
-- We can loop through the array returned by Object.keys()
-- We can loop through the array returned by Object.values()
-
-
-- for ... in loop
+- (just mention it) We can loop through the array returned by Object.keys()
+- (just mention it) We can loop through the array returned by Object.values()
+- (demo) for ... in loop
 
   ```js
   for (let key in user) {

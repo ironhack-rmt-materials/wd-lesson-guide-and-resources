@@ -3,8 +3,6 @@
 
 <!--
 
-Time estimation: 6h (+ on next day we keep doing improvements)
-
 
 Demo (type of game that we'll be building):
 https://ironborn-ironhack-march-2022.github.io/ironborn-oop-game/
@@ -26,7 +24,7 @@ https://ironborn-ironhack-march-2022.github.io/ironborn-oop-game/
 
   - Mario:
     - Canvas: https://tylerreichle.github.io/mario_js/
-    - DOM: https://florian-rappl.de/html5/projects/SuperMario/
+    - DOM: https://mario5.florian-rappl.de/
 
 - Can I build "a cool game" just with dom manipulation?
   - Survivor Game (Jonny): https://jogopin.github.io/Survivor-game/
@@ -84,7 +82,6 @@ note: we will use OOP + DOM.
 
 Milestone 1: user can move the player left/right
 
-- GOAL: by lunch break 
 
 Milestone 2: obstacles appearing in the UI + obstacles move
   
@@ -197,11 +194,13 @@ Functionality:
 - obstacles starting from random horizontal positions
 - shooting (recommended)
 - drop different things (prizes, different types of obstacles...)
-- count points
-- improve game over
+- score
+- improve game over page
+- display score in gameover page (can be implemented using localstorage)
 - levels
 - multiple lives
 - allow moving the player up and down
+- allow diagonal movement (example: https://codepen.io/luisjunco/pen/yLZaoKN)
 - settings (speed of the game, distance between obstacles)
 
 UX:
@@ -218,18 +217,6 @@ Code quality:
 - store settings as property of the Game class (ex. refreshRate)
 - reuse code with OOP inheritance 
 
-
-<!-- 
-
-Other improvements:
-
-- diagonal movement
-  -- @todo: create a codepen example
-
-- gameover page: display score (localstorage)
-- gameover page: list of max scores (localstorage)
-
--->
 
 
 

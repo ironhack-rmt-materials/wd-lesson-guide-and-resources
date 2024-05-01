@@ -43,6 +43,16 @@ Popcorn Time I:
 
 ## Active Learning
 
+- (individual) LAB | React Tweets
+- (in pairs) Mini Project | React App
+
+- Bonus: LAB | React Props Training
+
+
+
+
+## Active Learning (prev. to 9.4)
+
 - (individual) LAB | React State Training [45m]
   - The main goal of this lab is to practice syntax for useState
   - Do 2-3 iterations and move on to the next lab.
@@ -51,7 +61,5 @@ Popcorn Time I:
 
 - (in pairs) Mini Project | React App (Day 2) [2.5h]
   - You will find the json files in "Project Brief: React App"
-
-
 
 

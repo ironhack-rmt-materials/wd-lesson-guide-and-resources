@@ -30,7 +30,7 @@ https://docs.google.com/presentation/d/1iqYSImZj7p58ahLWryMSp00ooCCEf2cnIhjwc-pM
 -->
 
 
-## Function and Class Components
+## (brief) Function vs. Class Components
 
 - Differences
 - How to create a function component
@@ -40,7 +40,7 @@ Examples:
 - https://reactjs.org/docs/components-and-props.html#function-and-class-components
 
 
-Example: create a sample app with the following components inside `<App />`:
+## Create components
 
 - `<Header />`
 - `<User />`
@@ -59,9 +59,13 @@ For User:
 
 
 
+## Install React Dev Tools 
+  https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+
+
+
 ## Know how the Component tree works
 -  component tree 
-
 
 
 
@@ -71,41 +75,41 @@ For User:
   - passing props to the `Header` (ex. title).
 
 
-## Explain: props are similar to function arguments 
-
-> Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called props) and return React elements describing what should appear on the screen.
-
-Example with functions (show how we can create a generic function using arguments): https://stackblitz.com/edit/js-5tsf94?file=index.js
-
 
 ## Props II (using props to make our components more reusable)
 
-- Second example (why props are useful)
+- Create a component for each user:
 
   ```jsx
-  function User(){
+  function UserOne(){
       return <h1>Name: Alice</h1>;
   }
 
   export default UserOne;
   ```
 
+  ```jsx
+    <Header />
+    <UserOne />
+    <UserTwo />
+    <UserThree />
+    <Footer />
+  ```
 
-- `<Header />`
-- `<UserOne />`
-- `<UserTwo />`
-- `<UserThree />`
-- `<Footer />`
+
+- Explain: props are similar to function arguments 
+
+  > Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called props) and return React elements describing what should appear on the screen.
+
+  - Example with functions (show how we can create a generic function using arguments): https://stackblitz.com/edit/js-5tsf94?file=index.js
 
 
 
 - Passing and accessing a prop
 - Passing multiple props
-  - Note: we could also pass an object (ex. `userDetails={}`)
 
-
-
-Note: As props, we can pass any valid data type
+- Note: we could also pass an object (ex. `userDetails={}`)
+- Note: As props, we can pass any valid data type
 
 
 
@@ -186,7 +190,7 @@ Mention:
 
 
 
-## IMPORTANT: props are immutable
+## (skip) props are immutable
 
 - props are immutable: you must never modify the `props` that a component receives.
   - https://reactjs.org/docs/components-and-props.html#props-are-read-only
@@ -233,4 +237,14 @@ Mention:
     }
   ```
 
+
+
+
+<!-- 
+
+@LT: install React Dev Tools
+
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+
+-->
 
