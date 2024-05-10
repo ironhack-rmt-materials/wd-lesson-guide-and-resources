@@ -10,13 +10,30 @@ status: draft
 
 
 API_URL: 
+- create config/api.js
 - declare as const an export/import
 - (don't introduce environment variables yet)
+
+
+Note:
+- day is heavy (we see a lot of code).
+- try to make it as light & fast as possible
+
+@todo: 
+- create quick exercise (ex. bug hunt with functionality for "Project details page")
 
 -->
 
 
-- `npm create vite@latest integrating-react-app -- --template react`
+- navigate to module2 directory
+- `npm create vite@latest react-project-management -- --template react`
+- cd react-project-management
+- code -r .
+- npm install
+- npm run dev
+
+To run on a specific port:
+- npm run dev -- --port=3002
 
 
 
@@ -43,30 +60,54 @@ Intro:
 
 Roadmap:
 - [ ] Initial setup
+      - create app
+      - git init
+      - cleanup initial code
+      - copy index.css
+      - install dependencies (npm install axios react-router-dom)
+      - setup routing
+      - create components/Navbar and pages/HomePage
 - [ ] List of projects
 - [ ] Create new projects
 - [ ] Project details page
 - [ ] Edit projects
 - [ ] Delete projects
 - [ ] Create new tasks
-- [ ] Improvements
+- [ ] (skip) Extracting Components (project card + task card)
 
+
+Extra:
+- show: keep constants in a specific file (ex. config/api.js)
+- mention: toast
+- show: loader
+  ```jsx
+    if (projects === null) {
+      return <div className="loader"></div>;
+    }
+  ```
 
 Steps (in more detail):
 - [ ] Getting Started (initial setup)
 - [ ] React Router Setup
 - [ ] Project Management API (explains API and available endpoints)
 - [ ] Project List Page
+      - ProjectListPage.jsx
+      - path="/projects"
 - [ ] Create Project Page
-  - component + render it in App.jsx
+  - CreateProjectPage.jsx
+  - exact path="/projects/create"
   - form
   - POST /projects
 - [ ] Project Details Page
+  - ProjectDetailsPage.jsx
+  - path="/projects/:projectId" 
 - [ ] Edit Project Page (form must be pre-populated)
-  - component + render it in App.jsx
+  - EditProjectPage.jsx
+  - path="/projects/edit/:projectId"
   - form (prepopulated)
   - PUT /projects/:id
 - [ ] Delete the Project 
+  - modify EditProjectPage.jsx (add function "deleteProject" + button)
 - [ ] Add Task Form
   - create component `<AddTask>` (form + controlled component)
   - render it in `<ProjectDetailsPage>`

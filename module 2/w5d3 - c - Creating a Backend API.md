@@ -10,6 +10,10 @@ Status: ready
 
 @LT: do this with the example we have in the students portal (projects + tasks )
 
+
+@todo:
+- if we use json-server, create recording
+
 -->
 
 
@@ -17,8 +21,7 @@ Status: ready
 
 
 
-
-## REST APIs
+## Intro: REST APIs
 
 
 - Task: watch this video 
@@ -43,6 +46,11 @@ Status: ready
   - Option 1: research & use an existing external API
     - example: https://github.com/public-apis/public-apis
   - Option 2: create your own mock API with json-server
+
+- Topics we will see in this unit:
+  - How to create an API (quick way)
+  - How to test it
+  - How to deploy
 
 - json-server
   - it's an npm package.
@@ -172,11 +180,11 @@ IMPORTANT: explain that json-server does not do any validation (you can put any 
 
 ## Deployment
 
-- Create repo + upload to GitHub
+- Create repo + commit + upload to GitHub
 - Deploy on Adaptable.io
   - template: node
   - db: no
-  - waiting for deployment meme: https://i.imgflip.com/8ft6f3.jpg
+  - waiting for deployment meme: https://i.pinimg.com/736x/63/05/0a/63050ae9df594c789a0710ab02559837.jpg
 
 
 ## (extra) Test in production

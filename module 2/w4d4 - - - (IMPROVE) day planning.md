@@ -61,6 +61,7 @@ Lifting state up [~~3h~~] [1.5h]
 Forms: [2.5h]
 - functionality to add movies (Step 1: form with 1 field)
 - functionality to add movies (Step 2: form with multiple fields)
+  - as an exercise (see "React - Forms.md")
 - fix: routing (generate unique id's)
 - (extra) functionality to add movies (Step 3: extract to a separate component)
 - (extra) Handling multiple inputs with a single method

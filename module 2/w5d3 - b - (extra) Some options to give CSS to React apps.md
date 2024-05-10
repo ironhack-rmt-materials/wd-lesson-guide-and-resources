@@ -2,6 +2,17 @@
 
 # Some options to give CSS to React apps
 
+<!--
+
+How: demo on popcorn time
+
+Note:
+- consider doing a full session where we give style to the whole app popcorn-time (ex. using Chakra)
+
+-->
+
+
+Some options to apply CSS to our React apps:
 
 - 1. Global CSS
 
@@ -13,6 +24,13 @@
 - 4. Component libraries
     - Example: Chakra UI, Mantine, Semantic UI
 
+
+
+## Example Global CSS
+- Refresh: media queries / responsive
+
+
+## (skip) Example CSS Framework
 
 
 ## Example Chakra UI

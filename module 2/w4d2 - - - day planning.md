@@ -58,6 +58,7 @@ Popcorn Time I:
   - Do 2-3 iterations and move on to the next lab.
 
 - (individual) LAB | React Iron Travels [45m]
+  - Note: focus on functionality
 
 - (in pairs) Mini Project | React App (Day 2) [2.5h]
   - You will find the json files in "Project Brief: React App"

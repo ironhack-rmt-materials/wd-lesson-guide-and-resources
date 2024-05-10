@@ -2,34 +2,55 @@
 # w4d3
 
 
+<!-- 
+
+- Continue working on "popcorn-time"
+
+- UPDATE: before routing, do "Lifting State Up"
+  - Display number of movies in the header
+
+- todo: add quick exercise with routing
+
+-->
+
 
 
 
 ## Day Planning
  
 - LAB Q&A [20m]
+
+- Optional: solve Bonus iteration 4 
+  - "Bonus: Iteration 4 | Extract Component"
+  - Solve it on the app "popcorn-time"
+    - extract movie details to `Movie` component
+    - Note: will need to pass a function as props.
+
 - Refresh [30m]
   - see below
 
-- Intro to today 
-  - Example of routing: 
-    - https://wordrobe-wonderland.netlify.app
-    - https://meet-them-all.netlify.app/
-    - airbnb
 
-- Destructuring Assignment [30m]
+- ~~Destructuring Assignment~~ [30m]
+
+
+- Examples of routing: 
+  - https://meet-them-all.netlify.app/
+  - https://wordrobe-wonderland.netlify.app
+  - airbnb
 - Routing intro [1h]
 - Routing advanced - url params [1h]
-- Routing advanced - query string (just some notes) [10m]
-
+- Routing advanced - query string [10m]
+  - (just some notes / show cheatsheet) 
+  - In lab "React Cohort Tools": not needed (as of may24)
+  - In lab "React Stack Tracker" it's a bonus iteration.
 
 
 
 ## Active Learning
 
-- (individual) LAB | React Cohort Tools [1.5h]
+- (individual) LAB | React Cohort Tools
 
-- (in pairs) Mini Project | React App (Day 3) [2.5h]
+- (in pairs) Mini Project | React App (Day 3)
 
 - Bonus: 
   - LAB | React Stack Tracker

@@ -75,9 +75,10 @@ Diagram promises (fullfilled, rejected):
 
 ## Practice: Axios Post request
 
-Initial Setup:
-  - Start from this project (it already has axios installed): https://stackblitz.com/edit/js-8lg6qc?file=index.js
-  - Go to settings and choose "Page reload" + "Save"
+Initial code (it already has axios installed): https://stackblitz.com/edit/js-8lg6qc?file=index.js
+
+Iteration 0:
+  - Go to settings and choose "Page reload" + "Save" (so that we don't send a requeste everytime we change the code)
 
 Iteration 1: create a character with your name
 - Using axios, create a new character in our API.
@@ -85,15 +86,13 @@ Iteration 1: create a character with your name
 - We need to send POST request to `/characters`
 - In the body of the request, send an object with `{name: "", occupation: "", weapon: ""}`
 
-- Bonus 1: get the details of a specific character
-- Bonus 2: update your character
-- Bonus 3: delete your character
+Bonus 1: get the details of a specific character
+Bonus 2: update your character
+Bonus 3: delete your character
 
-- Time: 12min.
+Time: 12min.
 
 
-Note:
-- On Stackblitz, you can install `axios@0.27.2`
 
 Endpoints:
 ![characters api](../media/images/characters-api-endoints.png)
@@ -108,10 +107,13 @@ Solution:
 
 
   <!-- 
-  @Luis: 
-  - ask students to DISABLE AUTO-SAVE (so that we don't repeat names many time)
 
-  - on CodeSandbox: https://stackoverflow.com/a/74508939/11298742
+  @LT: 
+
+  - On Stackblitz, can install `axios@0.27.2`
+
+  - Ask students to DISABLE AUTO-SAVE (so that we don't repeat names many time)
+    - on CodeSandbox: https://stackoverflow.com/a/74508939/11298742
   
   -->
 
@@ -122,6 +124,15 @@ Solution:
 - Remember, there's many ways to send http requests:
   - fetch(), libraries (ex. axios)
 
+
+
+
+## (optional) introduce the syntax that we'll see today (useEffect)
+
+Example API request in React:
+https://stackblitz.com/edit/vitejs-vite-gn4dd9?file=src%2FApp.jsx
+
+<!-- @todo: create components (Header, Footer, CharactersList) -->
 
 
 
@@ -216,6 +227,7 @@ Step 3:
 
 ## Initial Setup
 
+- navigate to module2 directory
 - `npm create vite@latest react-characters-app -- --template react`
 - cd react-characters-app
 - code -r .
@@ -381,10 +393,7 @@ Note: students need a lot of guidance to be able to do this task for the first t
 -->
 
 
-
-Iteration 0:
-- We will work on our app "react-characters-app"
-- Make sure your app is running (`npm run dev`)
+Initial code: https://stackblitz.com/edit/vitejs-vite-qpqbnd?file=src%2FApp.jsx
 
 
 Iteration 1: display the number of characters (in App.jsx)
@@ -416,7 +425,7 @@ Bonus:
   - Add css
   - Implement a button to delete one character (when the user clicks, we send a request to the api)
 
-<!-- @Luis: share with them the example we did earlier -->
+<!-- @LT: share with them the example we did earlier -->
 
 How: work in pairs.
 Time: 30m.

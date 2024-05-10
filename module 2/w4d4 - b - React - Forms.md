@@ -70,6 +70,14 @@ Notes:
 
 Practice: React Forms
 
+<!-- 
+
+- Initial code: https://stackblitz.com/~/github.com/ironhack-apr2024-theScriptSociety/popcorn-time
+
+- Alternative: create a Stackblitz app from the code we do in class.
+-->
+
+
 - Add a new field for "rating"
 - (Bonus) Add a new field for "image Url"
 - (Bonus) Research/apply html form attributes to improve user experience (required, type=number, min, max...)

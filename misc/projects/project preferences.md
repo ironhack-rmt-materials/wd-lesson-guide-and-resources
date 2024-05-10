@@ -6,7 +6,7 @@
 ```js
 const myPreferences = {
     iWantToWorkwith: ["alice", "bob", "charly", "david", "elisabeth", "frank", "george"], // at least 7 names, ordered by preference
-    iPreferToAvoid: ["", ""] // max 3 names
+    iPreferToAvoid: ["", ""] // max 2 names
 }
 
 ```

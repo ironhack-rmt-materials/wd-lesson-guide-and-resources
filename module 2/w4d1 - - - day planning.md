@@ -50,6 +50,7 @@ Give feedback to students (ex. if you see anything to they can learn from).
 
 - (in pairs) Mini Project | React App (Day 1) [2.5h]
   - Read project brief + work on the tasks for day 1.
+  - Note: work in pair-programming.
 
 - Bonus: (self-guided) "Continue watching React Tutorial"
 

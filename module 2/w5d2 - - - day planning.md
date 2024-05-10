@@ -33,7 +33,9 @@ m2-m3 swap:
 ## Active Learning
 
 - (individual) React Iron Brewers
-- (in pairs) Finish Mini Project
+- (in pairs) Mini Project
+  - Deadline to submit mini-projects: Friday 9am.
+
 
 Tomorrow: mini-projects presentation 
 - 1 presentation for each category (todo list, e-commerce etc)

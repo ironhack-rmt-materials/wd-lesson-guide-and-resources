@@ -7,6 +7,8 @@
 
 - LAB Q&A [20m]
 
+<!-- @todo: create a small warmup activity (before we start with "how the internet works") -->
+
 - How the internet works [30m]
 
 - What is an API [30m]

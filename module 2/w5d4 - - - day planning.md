@@ -8,8 +8,12 @@
 
 ## Day planning:
 
+- (in case we haven't done it yet) Some options to give CSS to React apps
+  - see: `(extra) Some options to give CSS to React apps.md`
+
 - Github organizations [20min.]
-  - start by creating repo in localhost (with Vite)
+  - start by creating repo in localhost (with Vite):
+    - `npm create vite@latest our-cool-name -- --template react`
   - then, upload to github
   
 - Git merge conflicts & how to solve them [1h]
@@ -50,8 +54,8 @@ Suggested path 1 (EASIER FOR STUDENTS ? -- test with them):
 - git pull
   - "You have divergent branches and need to specify how to reconcile them"
 
-- git config --global pull.ff true
-  - Pull is fast-forwarded if possible, otherwise it's merged.
+- git config --global pull.rebase false
+  - git will try to fast-forward; if not possible, it will create a merge commit.
 
 
 

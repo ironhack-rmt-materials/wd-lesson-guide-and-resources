@@ -6,6 +6,8 @@ Status: ready but needs improvement.
 
 - too much theory & concepts
   - Try to make it short, fun & dynamic.
+  - add images & examples
+  - add quizz
   - Split in 2 days ?
 
 

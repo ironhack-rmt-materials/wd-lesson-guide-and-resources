@@ -137,7 +137,7 @@ What we'll see today:
 - Example final code: https://stackblitz.com/edit/js-sysuje?file=index.js
   - cookDinner > setTheTable > callFamily > eatDinner
   - getUsersFromDB > sendEmail > updateUI
-  
+  - Note: in this example, we're not even handling errors.
 
 
 
@@ -338,6 +338,7 @@ Solution: https://stackblitz.com/edit/js-iecrbf?file=index.js
 
 
 
+
 ## async/await
 
 
@@ -395,19 +396,31 @@ https://stackoverflow.com/a/46515787/11298742
 
 ## (optional) Practice async/await
 
-
-Using async/await:
-
-https://jsonplaceholder.typicode.com/users
-https://jsonplaceholder.typicode.com/posts
-https://jsonplaceholder.typicode.com/albums
-
-Time: 10min.
-
 <!-- @todo: improve this exercise -->
+<!-- @todo: add bonus -->
 
 (same exercise that we did with .then().catch() but using async/await)
 
+Initial code: https://stackblitz.com/edit/js-ma6jx6?file=index.js
+
+
+Using async/await:
+
+1. Send 3 different requests to these endpoints:
+  - GET: https://jsonplaceholder.typicode.com/users
+  - GET: https://jsonplaceholder.typicode.com/posts
+  - GET: https://jsonplaceholder.typicode.com/albums
+
+2. Display in the console the number of users, posts and albums
+
+3. Make sure you write your code in a try/catch block for error handling
+
+Bonus: display the number of users with an email address that ends in ".biz".
+
+Time: 15min.
+
+Solution: https://stackblitz.com/edit/js-xdcchp?file=index.js
+Solution with bonus: https://stackblitz.com/edit/js-ktus8q?file=index.js
 
 
 

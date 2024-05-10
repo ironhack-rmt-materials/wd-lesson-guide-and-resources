@@ -23,7 +23,7 @@
 - Intro: refresh ternary operator
 
 - Explain:
-  - Cheatsheet: https://gist.github.com/luisjunco/7eab10cd2991fab11a759add4a15b7cc
+  - Cheatsheet (React conditional rendering): https://gist.github.com/luisjunco/7eab10cd2991fab11a759add4a15b7cc
 
   <!-- @todo: add demos (stackbliz) to the cheatsheet (plus quick exercise) -->
 

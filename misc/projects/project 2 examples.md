@@ -11,6 +11,15 @@ Status: ready (updated after m2-m3 swap)
 -->
 
 
+Wordrobe Wonderland (clothing products catalogue): https://wordrobe-wonderland.netlify.app/
+Board Games App (collaborative catalogue of games): https://board-games-project.netlify.app/
+Wander World (travel destinations around the globe): https://wander-world.netlify.app/
+ESG Tracker (an app to track social responsibility from companies): https://esg-tracker.netlify.app/
+Huetopia (an app to generate color palettes): https://huetopia.netlify.app/
+
+---
+
+
 Wordrobe Wonderland: https://wordrobe-wonderland.netlify.app/
 - (Huseyin + Nisha)
 - Perfect example for an MVP (CRUD on 1 resource)

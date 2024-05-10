@@ -57,10 +57,9 @@ Status: draft
   - examples: 
     - twitter
     - spotify
-    - Fake apis (http://jsonplaceholder.typicode.com/)
-
-
-  - Punk API: 
-    - GET https://api.punkapi.com/v2/beers/
-    - GET https://api.punkapi.com/v2/beers/1
+    - Fake apis
+      - Json Placeholder: http://jsonplaceholder.typicode.com/
+    - Punk API: 
+      - GET https://api.punkapi.com/v2/beers/
+      - GET https://api.punkapi.com/v2/beers/1
 
