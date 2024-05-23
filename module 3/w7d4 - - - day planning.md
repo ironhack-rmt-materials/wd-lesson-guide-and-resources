@@ -60,8 +60,10 @@ Explain: some other topics that they'll find in "Express | REST API"
 - Validation: `mongoose.Types.ObjectId.isValid(projectId)` (check if format is valid, even if it doesnt exist in the db)
 
 
-Mention "IronLauncher"
+Quick intro to "IronLauncher"
 - In the unit "Express | REST API", the initial code is created with ironlauncher
+- When you generate the app, you will be asked if you want to have auth. Choose `No, thank you 🚀`
+- ![ironlauncher auth](../media/images/ironlauncher-auth.jpg)
 
 
 
