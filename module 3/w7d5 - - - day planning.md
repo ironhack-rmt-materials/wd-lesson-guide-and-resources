@@ -3,8 +3,7 @@
 # w7d5
 
 <!--
-@todo: 
-- record video "the concern on user's security + bcrypt"
+@todo: record video "the concern on user's security + bcrypt" (1h)
 -->
 
 
@@ -24,11 +23,7 @@
     - Salt  (slides 26, 28)
 
 
-- 
-
-- 
-
-- 
+- React | Token-Based Authentication I (Backend) [3h]
 
 
 
