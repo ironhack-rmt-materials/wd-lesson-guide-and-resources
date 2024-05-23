@@ -200,20 +200,20 @@ Note:
 
 Some options for extra challenges (they're not exclusive, can be combined):
 
-- Bonus1: full CRUD on tasks
+- Bonus 1: full CRUD on tasks
   - plan endpoints for tasks, following REST
   - implement the routes for those endpoints
 
-- Bonus2: plan a React app to interact with this API
+- Bonus 2: plan a React app to interact with this API
   - how would you build it (component structure etc)?
 
-- Bonus3: build a React app to interact with this API
+- Bonus 3: build a React app to interact with this API
   - it is the next lesson in the students portal but some advanced students may want to start building it.
   - main thing to keep in mind is that you will need to enable CORS requests on the API
 we will explain what is CORS and all those details a bit later but the code to do that is in "React | Building the Rest API" > "Enable CORS requests"
 
-- Bonus3: deploy your API on fly.io + mongoAtlas
-  - Next week  we will do deployment for project3 but, if you want, you can also put this project online. 
+- Bonus 3: deploy your API on fly.io + mongoAtlas
+  - Next week  we will do deployment for project 3 but, if you want, you can also put this project online. 
   - You woud be able to test it with Postman/Compass, just as we're doing on localhost.
 
 
