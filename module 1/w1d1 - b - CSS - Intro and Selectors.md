@@ -4,16 +4,11 @@
 
 <!--- 
 
-@todo: improve planning & examples (build something together)
 
+Codealong (continue):
+- demo / final result: https://ironhack-rmt-materials.github.io/html-css-intro-codealong/
+- repo: https://github.com/ironhack-rmt-materials/html-css-intro-codealong
 
-
-- Example codealong (repo):
-https://github.com/ironhack-tech-trash-july2023/html-css-intro-codealong
-
-
-- Final result (gh pages):
-https://ironhack-tech-trash-july2023.github.io/html-css-intro-codealong/
 
 
 Note, this selectors can be covered in w1d2:

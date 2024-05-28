@@ -55,10 +55,13 @@ Give feedback to students (ex. if you see anything to they can learn from).
 
 - Optional: ES6 modules vs. Common JS [30min]
 
-- Node | The Internet & HTTP Server
+- Refresh: "how the internet works" (request methods, status codes)
+  - https://docs.google.com/presentation/d/1-EgP1r7duakjZ6DXfReHIu9cYwEheAWEd_vDL7JtYiU/edit?usp=sharing
+
+- (skip) Node | The Internet & HTTP Server
 
 - Express | Introduction
-  <!-- update: now includes Middleware -->
+  <!-- update: now includes Morgan + Middleware + express.json() -->
   
 
 <!-- UPDATE: for demo, create "project-management-server" (instead of restaurant) and evolve it in the following days -->
@@ -68,8 +71,11 @@ Give feedback to students (ex. if you see anything to they can learn from).
 
 ## Active Learning
 
-- 2pm: LAB | Express Basic Server  (individual)
-- 3:30pm Mini Project - REST API - Day 1 (in groups)
+- (individual) LAB | Express Basic Server
+- (in groups, 3:30pm) Mini Project
+  - Read project brief + work on tasks for day 1.
 
 <!-- workload is relatively light (most students finished mini-project early) -->
+
+
 

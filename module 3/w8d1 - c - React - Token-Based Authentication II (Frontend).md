@@ -27,6 +27,9 @@ New topics introduced in this unit:
   <!-- - see code in the students portal -->
 
 
+Diagram jwt: https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/token-auth/jwt-authentication-flow-1.png
+
+
 
 Sections in the student portal:
 - Auth Context

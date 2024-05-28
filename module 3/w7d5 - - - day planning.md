@@ -15,6 +15,7 @@
 - Refresh [20m]
 
 - Refresh Auth intro + Hash [20m]
+    - slides: https://docs.google.com/presentation/d/1gNCZq7lZiph_Dzde34FuL6MI01c0ge1u3djxZMNWxPk/edit?usp=sharing
     - Diferent types of auth (ex. email + pw) (slide 9)
     - Safe passwords: https, post, never in plain text  (slide 12 + 13)
     - We will store a representation (hash) (slides 16, 17, 18, 19)

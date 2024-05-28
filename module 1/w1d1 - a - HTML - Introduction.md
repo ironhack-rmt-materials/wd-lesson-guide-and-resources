@@ -2,9 +2,9 @@
 # HTML - Introduction
 
 <!-- 
-Status: just some notes
 
-Recommendation: veeery brief (mention just the basics)
+Note: very brief (mention just the basics)
+
 -->
 
 
@@ -25,7 +25,7 @@ Steps to follow:
 
 
 Codealong:
-- demo (github pages): https://ironhack-rmt-materials.github.io/html-css-intro-codealong/
+- demo / final result: https://ironhack-rmt-materials.github.io/html-css-intro-codealong/
 - repo: https://github.com/ironhack-rmt-materials/html-css-intro-codealong
 
 
@@ -38,18 +38,7 @@ Codealong:
 
   - Open the terminal (View > Terminal)
 
-  - IMPORTANT: if you use Windows, make sure you're not using Poweshell (you can use `Git Bash` instead)
-
-    <!-- 
-      
-    Windows users
-    - click on the little triangle
-    - Select default profile
-    - Click "git bash"
-    - type "exit" in the terminal
-    - open it again (View > Terminal)
-    
-    -->
+  - Windows users: configure default terminal (ex. `Git Bash`)
 
   - Navigavigate to the directory where you will work.
     - `cd xxx`

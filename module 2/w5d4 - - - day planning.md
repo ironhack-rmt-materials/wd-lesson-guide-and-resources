@@ -18,14 +18,11 @@
   
 - Git merge conflicts & how to solve them [1h]
 
+  <!-- @todo: create self-guided lab (or video) so that they can do in pairs. -->
+
+
 - Project kickoff [1h]
   
-  <!-- @todo: 
-
-  - add Responsive (+ remove from slide 22)
-  - improve steps for initial setup (ex. create directory project 2, steps for REST API, etc)
-  
-  -->
 
 
 - Project planning (in pairs)

@@ -29,6 +29,8 @@
 
 
 - explain: plan today + tomorrow.
+  - today:
+  - tomorrow: will be demanding (auth)
 
 
 - (skip) Ironlauncher
@@ -69,6 +71,8 @@ Quick intro to "IronLauncher"
 
 
 ## Active Learning / Afternoon
+
+<!-- @LT: workload to do this 3 things (self-guided + mini-project + recording) is very reasonable, specially if we finish lectures by 1pm -->
 
 
 1. "Express | REST API"

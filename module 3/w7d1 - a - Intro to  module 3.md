@@ -24,7 +24,7 @@
 
 
 
-- 2 weeks content + 1 week projects
+- 1.5 weeks content + 1.5 weeks projects
 
 
 

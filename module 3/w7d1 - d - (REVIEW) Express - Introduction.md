@@ -11,25 +11,33 @@ update m2-m3 swap:
   - Middleware
   - Working with JSON
 
-@todo: review planning & update Demo example.
+
+@todo: 
+- review planning & update Demo (ie. which app we build)
+- add quick exercise
 
 
-UPDATE: 
-- demo: project-management-server (instead of restaurant)
+
+Codealong:
+- create "IronRestaurant" (iron-restaurant)
+- we will evolve it during the following days
+- Sample repo: https://github.com/ironhack-apr2024-theScriptSociety/iron-restaurant
+
 
 -->
 
 
-<!--
 
-- Part 1: some concepts
-- Part 2: codealong
-  - follow students portal (just changing the topic to a restaurant)
-
--->
 
 
 ## Part 1: some concepts
+
+
+
+- Refresh HTTP Verbs
+  - slides (Refresh "How the internet works"): https://docs.google.com/presentation/d/1-EgP1r7duakjZ6DXfReHIu9cYwEheAWEd_vDL7JtYiU/edit?usp=sharing
+
+
 
 - What is a Framework and why we use it
 
@@ -46,10 +54,6 @@ UPDATE:
   - MERN logos: https://miro.medium.com/max/1400/1*FVtCyRdJ6KOr4YswTtwMeA.jpeg
 
 
-- Refresh HTTP Verbs
-  - slides (Refresh "How the internet works"): https://docs.google.com/presentation/d/1-EgP1r7duakjZ6DXfReHIu9cYwEheAWEd_vDL7JtYiU/edit?usp=sharing
-
-
 
 ## Part 2: codealong (from "Create Express App")
 
@@ -61,11 +65,8 @@ Follow students portal.
 
 -->
 
-Methodology:
-- create "IronRestaurant" (iron-restaurant)
-- we will evolve it during the following days of week 4 (week5 we start using generator)
-- sample repo: https://github.com/RemoteRaccoons-Ironhack-Nov-22/ironrestaurant-pizzaForEach/
 
+- Demo: create "IronRestaurant" (iron-restaurant)
 
 
 - Goal today for "IronRestaurant":
@@ -75,7 +76,25 @@ Methodology:
     - nav menu
     - "endpoint" to get a list of pizzas
 
+    Also:
+    - Request Logging (morgan)
+    - Middleware
+      - JSON Middleware - express.json()
+
+
+
 - (skip) ask students: how do we want to call our pizza company
+
+
+
+Initial setup:
+
+  ```shell
+  mkdir iron-restaurant
+  cd iron-restaurant
+  npm init --yes
+  npm install express
+  ```
 
 
 ## Static Files
@@ -102,24 +121,39 @@ Also, show example when nodemon crashes (ex. syntax error)
 
 ## res.json
 
-```js
-  const pizzasArr = [
-      {
-        title: 'Pizza Margarita',
-        price: 12,
-        imageFile: 'pizza-margarita.jpg',
-      },
-      {
+
+
+  ```js
+    const pizzasArr = [
+        {
+          id: 1,
+          title: 'Pizza Margarita',
+          price: 12,
+          imageFile: 'pizza-margarita.jpg',
+        },
+        {
+          id: 2,
           title: "Veggie Pizza",
           price: 15,
           imageFile: "pizza-veggie.jpg"
-      }, 
-      {
+        }, 
+        {
+          id: 3,
           title: "Seafood Pizza",
           imageFile: "pizza-seafood.jpg"
-      }
-  ];
-```
+        }
+    ];
+  ```
+
+<!--
+@LT: extract this `data/pizzas.json`
+
+Why:
+- Same pattern as lab
+- It will also help us when we explain req.params and query
+
+-->
+
 
 
 ## Middleware 
@@ -131,6 +165,7 @@ see `Node - Custom Middleware.md`
 
 ## JSON Middleware - express.json() [20m]
 
+<!-- Important: instructions in lab "lab-express-basic-server" ask to configure json middleware -->
 
 Configure Express to be able to read incoming HTTP request that contain JSON data in the body.
 

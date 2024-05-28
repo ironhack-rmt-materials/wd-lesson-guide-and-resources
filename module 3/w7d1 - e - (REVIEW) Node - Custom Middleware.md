@@ -91,15 +91,11 @@ This is the command we've used so far:
 - Command: `npx ironlauncher@latest just-a-demo --auth`
   - IMPORTANT: remind students to select the option "views"
 
-<!--
 
-  In case "ironlauncher --auth" didn't install dependencies correctly:
+- Fix: ironlauncher not installing dependencies
+  - see `Express - Ironlauncher.md`
 
-  - npm install bcrypt@5.1.1 connect-mongo@5.0.0 cookie-parser@1.4.6 dotenv@16.3.1 express@4.18.2 express-session@1.17.3 hbs@4.2.0 mongoose@7.5.0 morgan@1.10.0 serve-favicon@2.5.0 
 
-  - npm install nodemon@3.0.1 --save-dev
-
--->
 
 
 - Demo: run & explain what it has created

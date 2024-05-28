@@ -23,7 +23,7 @@ Some options to apply CSS to our React apps:
 
 - 4. Component libraries
     - Example: Chakra UI, Mantine, Semantic UI
-
+    - (skip) Tailwind component libraries: Flowbite, daisyU
 
 
 ## Example Global CSS

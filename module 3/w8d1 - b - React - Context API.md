@@ -40,6 +40,7 @@ Slides: Passing information between components
   - pass that variable to GrandChild using props drilling.
 
 - Show Context API syntax:
+
   1. Create the context with `createContext()`
 
     ```js
@@ -82,32 +83,18 @@ ex. in `index.js`
 
 
 
-## Codealong Pre-Setup
-
-
-Initial code:
-https://github.com/ironhack-rmt-resources/react-context-api-demo
-
-Steps:
-- fork
-- clone
-- npm install
-- npm run dev
-<!-- @Luis: remember to fork !! -->
-
-
-Alternative - work from this codesandbox:
-- https://codesandbox.io/s/relaxed-rumple-vb9p4i?file=/src/App.js
-- NOTE: now Live Share is now a premium feature in CodeSandbox
-  <!-- @Luis: remember to fork !! -->
-
-
-
 ## Codealong
 
 
-- initial code: https://codesandbox.io/s/relaxed-rumple-vb9p4i?file=/src/App.js
-  <!-- @Luis: remember to fork !! -->
+- Initial code - Option 1 - Stackblitz:
+  - https://stackblitz.com/edit/vitejs-vite-kx7enk?file=src%2FApp.jsx
+    <!-- @LT: remember to fork !! -->
+
+- Initial code - Option 2 - fork from Github:
+  - https://github.com/ironhack-rmt-resources/react-context-api-demo
+    <!-- @LT: remember to fork !! -->
+
+
 
 - explain goal. Demo: https://wnj6h.csb.app/projects/
 

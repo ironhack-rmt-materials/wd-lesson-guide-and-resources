@@ -6,10 +6,12 @@
 
 ## Demo:
 
+- url: https://github.com/features/copilot/plans 
+
 - settings
     - ex: enable/disable
 
-- ghost test:
+- ghost text:
     - `function findLongestStringInArray(){}`
     - `const words = []`
 

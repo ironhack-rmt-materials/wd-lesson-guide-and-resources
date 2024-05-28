@@ -13,9 +13,12 @@
 
 https://docs.google.com/presentation/d/1yAm3sAO8IC3K12AUlbQ5VesdTxMmfHFNNeNi96tTL34/edit?usp=sharing
 
-<!-- @todo: add Responsive (+ remove from slide 22) -->
+
+<!-- @todo: improve steps for initial setup (ex. create directory project 2, steps for REST API, etc) -->
 
 <!-- @LT: during project week, check installations for m3 -->
+
+  
 
 
 ## (skip) UX, MVP

@@ -73,18 +73,11 @@ IMPORTANT:
 
 
 
-
 ## If dependencies missing...
 
-In case ironlauncher --auth --json does not install the dependencies:
+Fix: ironlauncher not installing dependencies
+  - see `Express - Ironlauncher.md`
 
-  ```
-  npm install bcrypt@5.1.1 cookie-parser@1.4.6 cors@2.8.5 dotenv@16.3.1 express@4.18.2 express-jwt@8.4.1 jsonwebtoken@9.0.2 mongoose@7.5.2 morgan@1.10.0
-  ```
-
-  ```
-  npm install nodemon@3.0.1 --save-dev
-  ```
 
 
 ## Part 2:

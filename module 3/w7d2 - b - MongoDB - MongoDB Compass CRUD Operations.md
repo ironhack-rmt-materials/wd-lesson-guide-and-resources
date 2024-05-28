@@ -235,7 +235,7 @@ SOLUTIONS (below):
 
 Bonus 1: 
 - Option 1: {$and: [{genre: "Action"}, {rate: {$gt: "8.5"}}]}
-- Option 2: {genre: "Action"}, {rate: {$gt: "8.5"}
+- Option 2: {genre: "Action", rate: {$gt: "8.5"}}
 
 
 Bonus 2: Get all movies with the genres "Family" AND "Musical" 
@@ -245,4 +245,8 @@ Bonus 2: Get all movies with the genres "Family" AND "Musical"
 
 
 
+<!--
+Bonus Exercise: 
+- Practice req.query here: https://stackblitz.com/edit/stackblitz-starters-6lhrym?file=index.js
 
+-->

@@ -25,7 +25,7 @@ Status:
 📌 Notes:
 
 - Make sure both of you do deployment together.
-- Make sure to follow the whole video.
+- Even if your app seems to work, follow the whole video.
 
 
 📮 Submit project urls:

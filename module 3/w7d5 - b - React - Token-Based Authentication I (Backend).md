@@ -145,7 +145,10 @@ Code summary:
 
 ## Create middleware for auth ("JWT Validation Middleware")
 
-Follow code from the students portal.
+Follow code from the students portal (file: `middleware/jwt.middleware.js`)
+
+- ![diagram middleware](../media/images/express-middleware.png)
+
 
 <!-- @students: we don't need to remember all the details, we will use a generator to create this for us -->
 

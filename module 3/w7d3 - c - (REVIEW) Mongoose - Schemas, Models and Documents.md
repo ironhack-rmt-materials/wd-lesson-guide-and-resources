@@ -59,7 +59,7 @@ make sure we have at least these fields (so that the model is in line with tomor
 
 
 - Type
-  - Show both syntaxes
+  - Show both syntaxes (ie. explain longer syntax)
 
 - `default`
     ```js

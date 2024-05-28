@@ -32,6 +32,12 @@ Board Games App: https://board-games-project.netlify.app/
 - Bonus: searchbar, random dice....
 
 
+F1 News: https://f1-news-project.netlify.app/
+- (Greg + Richard)
+- 2 resources, responsive
+- Bonus: rich editor, toasts...
+
+
 Food Managers: https://food-managers.netlify.app/
 - (Amir + Hugo P)
 - 1 resource

@@ -8,6 +8,9 @@
 
 - LAB Q&A [20m]
 
+- Explain: CORS [20m]
+
+
 - Refresh [20m]
   - express routes
     - ex. `app.get(path, callbackFn)`
@@ -38,8 +41,7 @@
 
 - (extra) introduce req.params [30m]
   <!-- why: w7d3 has a lot of contents, can be good to introduce it today -->
-  <!-- @todo: prepare quick exercise to apply req.params -->
-
+  <!-- Sample repo: https://github.com/ironhack-apr2024-theScriptSociety/iron-restaurant -->
 
 
  - Practice: URL params
@@ -54,10 +56,14 @@
 
   - Solution: https://stackblitz.com/edit/stackblitz-starters-gvhcqw?file=index.js
   
-  
+    <!-- @LT: show how they can test a route in stackblitz (ex. /artists) -->
+
+
+- (extra) introduce req.query [30m]
 
 
 - MongoDB Intro + MongoDB Compass + CRUD Operations + Exercise [2h]
+
 
 - Data Models ? [20m]
 
@@ -72,7 +78,9 @@
 ## Active Learning
 
 - 2pm: LAB | MongoDB - Advanced Querying (individual)
+  - Note: to import the db, you can use MongoDB Compass.
+  
 - 3:30pm Mini Project - REST API - Day 2 (in groups)
 
-- Bonus: follow the steps in the unit from tomorrow "Mongoose | Getting Started"
+- Bonus: follow the steps in the unit from tomorrow "Mongoose | Introduction"
 
