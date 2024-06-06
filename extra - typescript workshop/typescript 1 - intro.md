@@ -1,6 +1,6 @@
 
 
-# Extra - TypeScript
+# TypeScript intro
 
 
 
@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
 
     ```js
     function calcTotal(a, b) {
-    return a + b;
+        return a + b;
     }
 
     const result = calcTotal(5, '10');
@@ -29,8 +29,9 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
 
 ## Intro: why TypeScript
 
-- Avoid run-time errors
-- Speed up development (sometimes)
+- Advantages:
+    - Type safety (early errors during development vs. run-time errors)
+    - Can speed up development (sometimes...)
 - Very common in the industry + job opportunities
 
 
@@ -68,11 +69,21 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
 
 - run with `tsc --watch` (will listen for changes in current directory)
 
+- note: 
+    - typescript is a superset of JavaScript
+    - you can write plain JavaScript code in TypeScript files, and it will still work.
 
 
-## Types
+## String, Numbers and Booleans
 
-- 2 ways to define types: Implicit & Explicit
+```ts
+let userName: string = "alice";
+let age: number = 30;
+let isLoggedIn: boolean = false;
+```
+
+
+## Implicit vs. explicit types
 
 - Implicit types
 
@@ -91,8 +102,26 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
     amount2 = "60";
     ```
 
+## Unions
 
-- Function arguments:
+- Union types allow you to define a variable that can hold one of several specific types.
+
+    ```ts
+    let statusCode: number | string;
+
+    statusCode = 200;
+    statusCode = "not found";
+    statusCode = true; // Error: Type 'boolean' is not assignable to type 'string | number'.
+    ```
+
+## (skip) Any
+
+- any can be convenient in some cases but it also comes at the cost of losing type safety (which is one of the main motivations for using TypeScript).
+
+
+## Functions
+
+- Function parameters:
 
     ```ts
     function calcTotal(a:number, b:number) {
@@ -114,7 +143,7 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
     ```
 
 
-- Arrays:
+## Arrays:
 
     ```ts
     const numbers = [1, 2, 3]; //implicit
@@ -128,13 +157,29 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
     ```
 
 
-- (extra) Interfaces
+## Type alias
 
-    > Interfaces let you compose multiple type annotations into a single named annotation. 
+- The keyword type (aka. type alias), provides a simple way to reuse type declarations.
+
+
+Example 1: Player
+
+    ```ts
+    type Player = { 
+        name: string, 
+        year: number, 
+        favouriteDrink?: string
+    };
+
+    const player1: Player = { name: "cristiano", year: 1985};
+    const player2: Player = { name: "lionel", year: 1987, favouriteDrink: "mate"};
+    ```
+
+Example 2: User
 
     ```ts
 
-    interface User {
+    type User = {
         userName: string,
         age: number,
         likesPizza?: boolean, // ? --> optional
@@ -161,10 +206,10 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
     ```
 
 
-- (extra) array of interfaces
+Example 3: array of users:
 
     ```ts
-    interface User {
+    type User = {
         userName: string,
         age: number,
         likesPizza?: boolean, // ? --> optional
@@ -185,6 +230,10 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
 
 ## Learning Resources
 
+
+TypeScript Playground
+https://www.typescriptlang.org/play
+
 Video: TypeScript - The Basics (Fireship, 12min.)
 https://www.youtube.com/watch?v=ahCwqrYpIuM
 
@@ -197,7 +246,7 @@ Codewars - Learning Typescript collection
 https://www.codewars.com/collections/learning-typescript
 
 
-React TypeScript Tutorial for Beginners (Codevolution, playlist ~2h)
+React + TypeScript Tutorial for Beginners (Codevolution, playlist ~2h)
 https://www.youtube.com/playlist?list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK
 
 
