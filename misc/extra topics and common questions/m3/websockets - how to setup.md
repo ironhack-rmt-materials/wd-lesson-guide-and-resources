@@ -57,49 +57,23 @@ To fix that, client needs to reconnect everytime the connection is lost.
 
 
 
+## Project 3 examples
 
-## Example of p2 project with websockets:
+Moonlight events:
+- Demo: https://moonlight-events.netlify.app/
+- Backend: https://github.com/JoTa-Events/moonlight-server
+- Frontend: https://github.com/JoTa-Events/moonlight-client
+- Handle disconnection: https://github.com/JoTa-Events/moonlight-client/blob/main/src/components/ChatBox.js
 
-Cristian + Ismael:
-https://bytes-and-dungeons.adaptable.app/
-https://github.com/bytes-and-dungeons/bytes-and-dungeons
-
-
-
-
-## Example of p3 project with websockets:
-
-Note: had issue with socket.io disconnecting
-
-Backend: 
-- Repo: https://github.com/J-S-app/MeMedia-fullstack-webapp-server
-- Server config: https://github.com/J-S-app/MeMedia-fullstack-webapp-server/blob/main/server.js
-
-
-Frontend: 
-- Repo: https://github.com/J-S-app/MeMedia-fullstack-webapp-client
-- Component with WS: https://github.com/J-S-app/MeMedia-fullstack-webapp-client/blob/main/src/pages/Messages.jsx
-
-
-
-## Project 3:  example2
-
-Notes:
-- solved issue with socket.io disconnected
-- deployed on adaptable
-
-
-Demo: https://moonlight-events.netlify.app/
-Backend: https://github.com/JoTa-Events/moonlight-server
-Frontend: https://github.com/JoTa-Events/moonlight-client
-
-Handle disconnection: https://github.com/JoTa-Events/moonlight-client/blob/main/src/components/ChatBox.js
-
-
-
-## Project 3:  example3
 
 PetHub (Cristian + Ismael):
+- https://github.com/PetHub-MERN/pethub-client
+- https://github.com/PetHub-MERN/pethub-server
 
-https://github.com/PetHub-MERN/pethub-client
-https://github.com/PetHub-MERN/pethub-server
+
+Artist Connection (Greg + Jesus)
+- Demo: https://artist-connection.netlify.app/
+- Backend: https://github.com/mitte-script-society/artist-network-server
+- Frontend: https://github.com/mitte-script-society/artist-network-client
+- includes feedback when user's typing.
+
