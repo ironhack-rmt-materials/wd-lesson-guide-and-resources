@@ -89,7 +89,9 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
       - Get better at problem solving (codewars)
       - Learn Data Structures and Algorithms (youtube / leetcode)
     - further practice in React: <!-- @todo: create repo/gist with some info/videos -->
-      - React Query (Why: 11m video - https://www.youtube.com/watch?v=vxkbf5QMA2g)
+      - React Query
+        - Why: 11m video - https://www.youtube.com/watch?v=vxkbf5QMA2g
+        - Also: https://www.youtube.com/watch?v=OrliU0e09io
       - Custom Hooks
       - Component Libraries
     - TypeScript +++

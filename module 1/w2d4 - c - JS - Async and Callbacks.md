@@ -280,7 +280,7 @@ So we can pass it a function to be executed at the end (once dinner is ready)...
 
 
 
-## (Extra) how to pass arguments
+## (extra) how to pass arguments
 
     ```js
     cookDinner(function(){ eatDinner("wine") });
@@ -301,7 +301,7 @@ So we can pass it a function to be executed at the end (once dinner is ready)...
 
 In most cases, when an error occurs in JavaScript, it will halt the execution of the code at the point where the error occurred.
 
-Exeptions:
+Exceptions:
 1. Code inside a try-catch block
 2. Asynchronous Code
 3. Event handlers

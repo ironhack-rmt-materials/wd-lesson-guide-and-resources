@@ -20,10 +20,10 @@ IMPORTANT:
 
 
 
-## Intro from PMs (30min.)
+## Intro from PMs [30m]
 
 
-## (skip) Icebreaker activity (30min.)
+## (skip) Icebreaker activity
   - option 1: introduce yourself
     - tell us about you
     - where you're from, background...
@@ -33,7 +33,7 @@ IMPORTANT:
 
 (break)
 
-## LT intro to bootcamp (1h)
+## LT intro to bootcamp [1h]
 
   - Slides: https://docs.google.com/presentation/d/1rYCVx5wNFST7uh6_hknnrKtpXPVeQ29ytAxeE9mxHWI/edit?usp=sharing
 
@@ -41,7 +41,7 @@ IMPORTANT:
 (break)
 
 
-## How the web works (30 min.)
+## How the web works [30m]
   - Slides: https://docs.google.com/presentation/d/1mGIVU9fWTYII9sUHcIu2RYJ-2KwU6FtNnUtsyZFyiNc/edit?usp=sharing
   <!-- 
   
@@ -82,19 +82,34 @@ Notes:
 Fill in spreadsheet.
   
 
+## Pair programming [10m]
 
-## Git intro (0.5h - ideally 1h) 
+
+## Git intro (30min. - ideally 1h)  [1h]
 
 - git diagram: https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png
 
 <!-- @todo: prepare slides git  -->
 
 
-
-## LAB: min. 90min. (1.5h)
+## LAB Kick-off
 
 <!-- IMPORTANT: leave plenty of time for lab kick-off  -->
 
 - demo with students how to work with labs.
+- Explain: ticketing system
 
 
+## LAB: min. 90min. (1.5h)
+- Time for students to work on LAB
+
+
+
+## Active Learning
+
+- (in pairs) LAB | CSS Recipes clone
+
+- General guidelines for labs/assignments: https://gist.github.com/ironhack-edu/dd3635de73a6ef07ef337bf184eda985
+
+<!-- Ticketing system  -->
+- If you get stuck or need help: [link to ticketing system]

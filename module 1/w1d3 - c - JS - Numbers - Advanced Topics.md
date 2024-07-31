@@ -18,7 +18,7 @@ Time: 25min.
 
 Bonus:
 - create a function that generates a random number between 2 values
-- (you may need to do some research)
+- you may need to do some research ;) 
 
 - example: 
 
@@ -33,6 +33,6 @@ Bonus:
 
     ```
 
-Bonus: hint/solution
-- https://stackoverflow.com/a/1527820/11298742
+Hint/solution for the bonus: https://stackoverflow.com/a/1527820/11298742
+
 

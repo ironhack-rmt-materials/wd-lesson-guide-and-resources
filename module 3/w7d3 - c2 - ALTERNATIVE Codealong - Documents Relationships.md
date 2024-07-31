@@ -241,7 +241,7 @@ Time: 5min.
 
 
 ## Fix functionality to Create new book (Fix "CREATE Book")
-  - When a user tries to create a new book it doesnt work
+  - When a user tries to create a new book it doesn't work
     - we need to provide a valid objectId
       - (show how it works if the user enters a valid id in the text input)
       - we will need to display some options to let the user choose
@@ -331,10 +331,10 @@ Time: 5min.
   -->
 
 
-  - PROBLEM: at the moment, if we edit the author of a book, we need to enter the id manualy
+  - PROBLEM: at the moment, if we edit the author of a book, we need to enter the id manually
   
   - Instead, display a <select>
-  - We need to query list of authors + book details (it is a bit tricky, if you use promises with .then() you need to access a varable in a different .then())
+  - We need to query list of authors + book details (it is a bit tricky, if you use promises with .then() you need to access a variable in a different .then())
   - Option 1: because it is a problem of scope, we can declare a variable in the parent scope. Example:
 
     ```js

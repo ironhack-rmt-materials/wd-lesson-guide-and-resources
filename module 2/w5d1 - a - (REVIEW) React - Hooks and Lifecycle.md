@@ -48,7 +48,13 @@ Notes:
 ## Introduce "characters API"
 
 - What's an API
-- https://ih-crud-api.herokuapp.com/characters
+
+
+- Example 1 (rick and morty, readonly):
+  - https://rickandmortyapi.com/api/character/1
+
+- Example 2 (characters api): 
+  - https://ih-crud-api.herokuapp.com/characters
 - See documentation: w5d4 "AXIOS | POST, PUT and DELETE request"
   - ![Characters API Endpoints](../media/images/characters-api-endoints.png)
 - explain the concept of `endpoint`
@@ -68,7 +74,7 @@ Demo:
 - Example: https://codesandbox.io/s/icy-rain-igs74w?file=/src/index.js
 
 
-Diagram promises (fullfilled, rejected): 
+Diagram promises (fulfilled, rejected): 
 - https://www.javascripttutorial.net/wp-content/uploads/2020/03/JavaScript-Promise-state.png
 
 
@@ -78,7 +84,7 @@ Diagram promises (fullfilled, rejected):
 Initial code (it already has axios installed): https://stackblitz.com/edit/js-8lg6qc?file=index.js
 
 Iteration 0:
-  - Go to settings and choose "Page reload" + "Save" (so that we don't send a requeste everytime we change the code)
+  - Go to settings and choose "Page reload" + "Save" (so that we don't send a request every time we change the code)
 
 Iteration 1: create a character with your name
 - Using axios, create a new character in our API.
@@ -153,7 +159,7 @@ Examples: https://stackblitz.com/edit/js-sefk58?file=index.js
   @todo: 
   - add definition of "side-effect" to the slides
   - example 1: function reading variable from parent scope
-  - example 2: function mofifying variable in the parent scope
+  - example 2: function modifying variable in the parent scope
   
   -->
 
@@ -568,7 +574,7 @@ https://wavez.github.io/react-hooks-lifecycle/
 
 OMDB API: 
 - http://www.omdbapi.com/
-- To get an API key we just need to signup & recieve email: http://www.omdbapi.com/apikey.aspx
+- To get an API key we just need to sign-up & receive email: http://www.omdbapi.com/apikey.aspx
 - Example Query: https://www.omdbapi.com/?i=tt0133093&apikey=b6ce61f6
 
 

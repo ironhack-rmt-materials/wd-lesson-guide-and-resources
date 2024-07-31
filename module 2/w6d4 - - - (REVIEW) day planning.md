@@ -43,7 +43,7 @@ Advice:
 
 - PRACTICE
   - can be done in small groups or individually with TA
-- confirm time for PRESENTATON
+- confirm time for PRESENTATION
 - calendar event (PM, CS, UX, etc)
 - slide + share
 - remind students of code-freeze

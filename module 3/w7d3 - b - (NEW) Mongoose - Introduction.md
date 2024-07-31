@@ -35,7 +35,7 @@ Summary of steps:
     - Update: 
         - `PUT /pizzas/:id`
     - DELETE: 
-        - `DELTETE /pizzas/:id`
+        - `DELETE /pizzas/:id`
 
 
 - Document Relationships

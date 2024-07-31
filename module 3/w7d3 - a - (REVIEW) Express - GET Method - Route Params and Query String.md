@@ -87,7 +87,7 @@ Suggested approach:
 
 Practice: route params
 
-1. comment the routes that we currrently have for pizzas
+1. comment the routes that we currently have for pizzas
 2. implement a generic route: GET /pizzas/XXX
 3. Inside that generic route, you need to send a query to the DB.
 

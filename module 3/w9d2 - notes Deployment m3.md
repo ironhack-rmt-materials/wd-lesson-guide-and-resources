@@ -153,11 +153,11 @@ https://github.com/Sepidehatt/KeepMeAlive-hbs-version
 - How to publish changes:
   - push to github
   - deploy backend (push to main)
-  - deploy frontent (push to main)
+  - deploy frontend (push to main)
 
 - Troubleshooting (adaptable & netlify logs)
 
-- Disclamer on cloud hosting consumption (eg. Netlify bandwidth)
+- Disclaimer on cloud hosting consumption (eg. Netlify bandwidth)
 
 
 

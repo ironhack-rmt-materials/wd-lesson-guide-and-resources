@@ -5,7 +5,7 @@
 
 - Status: draft 
 
-- Methodology: for all the part of operators, rather than explaing one by one
+- Methodology: for all the part of operators, rather than explaining one by one
   - explain only the basic concepts (eg. projection)
 
 
@@ -64,7 +64,7 @@ Note:
     <!-- LT: demo only (ask students not to do it)  -->
     - there we can find stats of the schema of our documents
     - LT: Update the type of one document (ex. change year to string)
-    - takover: *documents of the same collection can have a different schemas*
+    - takeover: *documents of the same collection can have a different schemas*
 
     - meme: SQL vs. MongoDB
       - https://programmerhumor.io/wp-content/uploads/2021/07/programmerhumor-io-databases-memes-backend-memes-1798da956a4b96a-758x954.png
@@ -210,7 +210,7 @@ Practice: MongoDB CRUD operations
 
 @todo: 
 - improve hints
-- add solutions to that gist (collapsable)
+- add solutions to that gist (collapsible)
 
 -->
 
@@ -227,7 +227,7 @@ SOLUTIONS (below):
 - Solution: {year: {$gt: "2010"}}
 
 4. 
-- Solution: PROYECTION: {title: 1, year: 1, rate: 1}
+- Solution: PROJECTION: {title: 1, year: 1, rate: 1}
 
 5. 
 - Solution: SORT: {rate: -1}

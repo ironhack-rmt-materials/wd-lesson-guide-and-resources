@@ -60,7 +60,7 @@ document.getElementsByClassName('product'); // returns an html collection
 document.querySelectorAll('.product'); // returns a Node List
 ```
 
-- Step 2: iterate through this list (might need to convet to an array, in case it's an html collection)
+- Step 2: iterate through this list (might need to convert to an array, in case it's an html collection)
 
 - Step 3: for each iteration, call updateSubtotal(product) -- this will update the dom with the subtotal for each product
 

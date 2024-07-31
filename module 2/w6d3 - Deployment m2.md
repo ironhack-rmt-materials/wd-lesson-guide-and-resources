@@ -69,7 +69,7 @@ Status:
     - how to debug: see console in the browser
 - Explain: continuous deployment
 - Environment variables
-  - How to create & use environement variables (dev/production)
+  - How to create & use environment variables (dev/production)
 - Configure App name (subdomain)
 - Fix: "page not found" (create _redirects)
 - Submit URLs in the students portal

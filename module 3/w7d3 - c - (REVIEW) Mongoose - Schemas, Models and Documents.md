@@ -43,7 +43,7 @@ make sure we have at least these fields (so that the model is in line with tomor
   {
       title: "margarita",
       price: 12,
-      ingredients: ["mozzarella", "tomato sauce", "basilicum"],
+      ingredients: ["mozzarella", "tomato sauce", "basil"],
       imageFile: 'pizza-margarita.jpg',
   },
 -->
@@ -77,7 +77,7 @@ make sure we have at least these fields (so that the model is in line with tomor
   - Note: 
       - "The unique Option is Not a Validator. It's a convenient helper for building MongoDB unique indexes"
       - If you modify your model and add/remove `unique`, Mongoose will not take it into account.
-      - Solution: drop your DB or reindex (https://github.com/Automattic/mongoose/issues/7396#issuecomment-452905218)
+      - Solution: drop your DB or re-index (https://github.com/Automattic/mongoose/issues/7396#issuecomment-452905218)
 
 
 - `enum`

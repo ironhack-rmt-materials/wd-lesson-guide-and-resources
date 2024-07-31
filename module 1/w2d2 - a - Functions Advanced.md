@@ -141,7 +141,7 @@
 
 
 - Simplifying arrow functions:
-  - `only one paramenter -> we can remove the parenthesys`
+  - `only one parameter -> we can remove the parenthesis`
   - `only one line -> we can remove the curly braces & the return (return is implicit)`
 
 

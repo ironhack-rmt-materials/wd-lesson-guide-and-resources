@@ -81,9 +81,9 @@ Example:
 Ex.: 
 
   ```js
-  const myNumer = 25;
+  const myNumber = 25;
 
-  if (myNumer % 2 === 0) {
+  if (myNumber % 2 === 0) {
     console.log('your number is even!');
   } else {
     console.log('your number is odd!');
@@ -180,7 +180,7 @@ Creating a String
   ```js
   const user1 = 'alice';
   const user2 = "bob";
-  const user3 = `charly`; // ES6
+  const user3 = `charlie`; // ES6
   ```
 
 Ex:
@@ -240,9 +240,10 @@ Template literals:
 Practice: strings & string methods: 
 - Instructions: https://stackblitz.com/edit/js-1am8e2?file=index.js
 - Time: 15min.
+
+
 - Solution: https://stackblitz.com/edit/js-tsenus?file=index.js
-
-
+- Solution for bonus iterations: https://stackblitz.com/edit/js-hy613k?file=index.js
 
 
 
@@ -255,14 +256,17 @@ Practice: strings & string methods:
 -->
 
 
+```js
+const user1 = 'bob';
+const user2 = 'charlie';
 
-  ```js
-  const user1 = 'bob';
-  const user2 = 'charly';
+const result = user1.localeCompare(user2);
+console.log(result); // -1
+```
 
-  const result = user1.localeCompare(user2);
-  console.log(result); // -1
-  ```
+
+
+Explanation: 
 
 
 ```js

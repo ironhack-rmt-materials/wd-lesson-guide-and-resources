@@ -68,7 +68,7 @@ With functions:
 
 var vs let/const:
 - var: global / function scope
-- let & const: global / block scope
+- let & const: global / function scope / block scope
 
 
 
@@ -221,72 +221,71 @@ Example 2 (ask students):
 
 
 
-## Quizz
+## Quiz
 
-<!-- to-do: improve (ex. add objects etc) -->
+What's the output for the following examples?
 
 
-Basic: child scope has access to parent scope
-Q: what is the output?
+**Example 1:**
 
-  ```js
-  let username = 'alice';
-  function myFunc() {
-    username = 'bob';
-  }
+```js
+let username = 'alice';
+function myFunc() {
+  username = 'bob';
+}
 
-  myFunc();
+myFunc();
+console.log(username);
+```
+
+
+
+
+**Example 2:**
+
+```js
+let username = 'alice';
+function myFunc() {
+  let username = 'bob';
+  let username = 'charlie';
   console.log(username);
-  ```
+}
 
-
-
-
-Q: what is the output?
-
-  ```js
-  let username = 'alice';
-  function myFunc() {
-    let username = 'bob';
-    let username = 'charly';
-    console.log(username);
-  }
-
-  myFunc();
-  console.log(username);
-  ```
+myFunc();
+console.log(username);
+```
 
 A: Error: Identifier 'username' has already been declared
-  - Q: what is the output if we comment "charly" ?
+Q: what is the output if we comment "charlie" ?
 
 
 
 
-Q: what is the output?
+**Example 3:**
 
-  ```js
-  for (let count = 0; count < 5; count++) {
-    console.log(count);
+```js
+for (let count = 0; count < 5; count++) {
+  console.log(count);
+}
+
+console.log('final: ', count);
+```
+
+<!-- Note: can also show using `var` (doesn't have block scope) instead of `let` -->
+
+
+
+
+**(skip) Example 4:**
+
+```js
+  for(var counter = 0; counter< 5; counter++){
+    setTimeout(() => console.log(counter), 1000)
+    // setTimeout(() => console.log(counter))
   }
-
-  console.log('final: ', count);
-  ```
-
-  - Also: show using `var` (instead of `let`)
-
-
-
-Q: (SKIP)  what is the output of the following code ?
-
-  ```js
-    for(var counter = 0; counter< 5; counter++){
-      setTimeout(() => console.log(counter), 1000)
-      // setTimeout(() => console.log(counter))
-    }
-  ```
+```
 
 A:  5 (x5 times)
-
 
 Q: (SKIP) Can you make the output of the above question as sequential like 0,1,2,3,4 instead of 5 (5 times)?
 

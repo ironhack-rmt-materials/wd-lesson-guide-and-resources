@@ -6,10 +6,6 @@
 Status: complete 
 
 
-Approach:
-- can show flexbox properties on dev tools & be changing them on the fly
-
-
 
 
 Initial code:
@@ -97,9 +93,7 @@ Initial code:
 
 How:
 - Follow the guide at CSS Tricks while practicing with each property.
-- We can also see/change in chrome dev tools
-
-
+- We can also see/change in dev tools
 
 
 
@@ -144,8 +138,10 @@ Links:
     - This defines the default size (in the main axis) before the remaining space is distributed
     <!-- (we will see how it can be distributed in a moment, with grow & shrink) -->
   - `flex-grow`
+    - default: 0
   - `flex-shrink`
     - This defines the ability for a flex item to shrink if necessary.
+    - default: 1
     <!-- flex-shrink: see in interactive-guide-to-flexbox-->
   - `flex` (shorthand)
     `- flex: <'flex-grow'> <'flex-shrink'> <'flex-basis'>`
@@ -159,9 +155,9 @@ Task:
   - Replicate this layout (note, it is responsive): https://codepen.io/team/css-tricks/full/YqaKYR
 
 Notes:
-  - you will need to create html + css
-  - focus on the distrubution of the elements (main goal is to practice flexbox; do not worry about details of the design, colors etc)
-  - for breakpoints, you can use 600px and 800px.
+  - You will need to create html + css
+  - Focus on the distribution of the elements (main goal is to practice flexbox; do not worry about details of the design like the font, colors, etc.)
+  - For breakpoints, you can use 600px and 800px.
 
 Time: 25min.
 
@@ -190,22 +186,13 @@ Bonus:
 
 ## Flexbox Resources
 
-
-** Guides and cheatsheets **
-
+Guides and cheatsheets:
 • A Complete Guide to Flexbox (CSS Tricks):  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
 • Interactive Guide (Joshw Comeau): https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+• Interactive cheatsheet: https://codepen.io/ironhack/pen/RLZXZR
 
 
-
-** Visual Cheatsheets **
-• https://codepen.io/ironhack/pen/RLZXZR
-• https://flexbox.malven.co/
-
-
-
-** Practice **
+Practice:
 • Flexbox Froggy: https://flexboxfroggy.com/
 • Flexbox Defense: http://www.flexboxdefense.com/
 • Guided tutorial at FreeCodeCamp: https://www.freecodecamp.org/learn/responsive-web-design/#css-flexbox

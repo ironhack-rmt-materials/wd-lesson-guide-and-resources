@@ -25,7 +25,7 @@
 - Explain:
   - Cheatsheet (React conditional rendering): https://gist.github.com/luisjunco/7eab10cd2991fab11a759add4a15b7cc
 
-  <!-- @todo: add demos (stackbliz) to the cheatsheet (plus quick exercise) -->
+  <!-- @todo: add demos (stackblitz) to the cheatsheet (plus quick exercise) -->
 
 
 - Examples:
@@ -53,7 +53,7 @@
 
 
 ## (skip) Instead of a div, create a `<Movie />` component
-  <!-- @Luis: skip this (we haven't seen comunication from child to parent component + they don't need it for today's lab) -->
+  <!-- @Luis: skip this (we haven't seen communication from child to parent component + they don't need it for today's lab) -->
   - this component will display the title of a movie.
   - From Main.js, render the Movie component (pass the title as props)
 

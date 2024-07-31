@@ -1,6 +1,20 @@
 
 # Project 3 examples
 
+<!-- 
+
+Examples apr 24 (need testing):
+
+Home Hopper (Christian + Michael): 
+- https://homehopper.netlify.app/
+
+Artist Connection (Greg + Jesus): 
+- https://artist-connection.netlify.app/
+- Maps (leaflet), real-time chat with websockets
+
+-->
+
+
 Meet-Them-All (Karina)
 https://meet-them-all.netlify.app/
 

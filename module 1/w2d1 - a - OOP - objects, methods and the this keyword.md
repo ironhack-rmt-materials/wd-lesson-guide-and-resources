@@ -177,7 +177,7 @@ Initial Code: https://stackblitz.com/edit/js-tjmjh1?file=index.js
 2. (bonus) Add a method getOlder()
   - when called, this method would increase age by one.
 
-3. (bonus) Everytime the user gets older, call sayHello
+3. (bonus) Every time the user gets older, call sayHello
 
 Solution: https://stackblitz.com/edit/js-yzcuvt?file=index.js
 
@@ -188,7 +188,7 @@ Solution: https://stackblitz.com/edit/js-yzcuvt?file=index.js
 
 
 
-- Disclaimer: storing age vs. birthdate (it is a good time to introduce JS dates)
+- Disclaimer: storing age vs. birth date (it is a good time to introduce JS dates)
   - create a date object
 
     ```js 
@@ -245,7 +245,7 @@ Time: 30min. in pairs
 ## (Bonus) Pair Maker Exercise
 
 Create a class "Cohort" with:
-- information of all students in our class (for each student, we just need to store the name -ex. "alice", "bob", "charly").
+- information of all students in our class (for each student, we just need to store the name -ex. "alice", "bob", "charlie").
 - functionality to select one student randomly
 - functionality to create random pairs
 - (bonus) if we try to generate pairs with an odd number of students, create a group of three.

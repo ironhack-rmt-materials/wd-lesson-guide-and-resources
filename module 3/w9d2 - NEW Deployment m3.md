@@ -23,7 +23,7 @@ todo: record new video or update to take into account a few updates
 
 ## Day Planning:
 
-- 9am: Deployment (self-guided video)
+- 9am: Deployment (follow the recordings in #class-activities)
   - If you have errors while following the video, try to understand what is happening (if you can not solve it, ask for support).
   - You can also send a request if you want to clarify any point.
 
@@ -56,11 +56,11 @@ todo: record new video or update to take into account a few updates
   - Instead of deploying two applications, you may find it easier to deploy project 3 together.
   - In any case, make sure both of you follow the video.
 
-- Update: 
-  - MongoDB Atlas and Adaptable have done some changes in the UI:
-    - example from the video: https://drive.google.com/file/d/1noGvA2uOzr7xTo-gm91aEA9X_C9yHkkq/view?usp=sharing
-    - example of their new interface: https://drive.google.com/file/d/1KU6Rg5fM-bm3ZfTBmIOABlq8BlEp2cod/view?usp=sharing
+- Changes in the UI: 
+    - example from the video: https://drive.google.com/file/d/1noGvA2uOzr7xTo-gm91aEA9X_C9yHkkq
+    - new interface: https://drive.google.com/file/d/1o1aMSjEhCum94H2OhmkMFf6woAx7tYQq
 
+- To configure username and password in MongoDB Atlas, go to `Security > Quickstart` (menu on the left)
 
 
 ### 3. Frontend + Summary:
@@ -73,10 +73,9 @@ todo: record new video or update to take into account a few updates
   - Vite (in our case): `VITE_XXX` + `import.meta.env.VITE_XXX`
 
 
-- Update:
-  - Netlify has also changed the UI:
-    - example from the video: https://drive.google.com/file/d/1GSaam-vABRarKLaq3lzjS-zF5JwKH8-M/view?usp=sharing
-  - new interface (sidebar): https://drive.google.com/file/d/10LsxHM-AQmr87IcNfaHiaDXqsN2qmE7e/view?usp=sharing
+- Changes in the UI:
+  - example from the video: https://drive.google.com/file/d/1GSaam-vABRarKLaq3lzjS-zF5JwKH8-M
+  - new interface (sidebar): https://drive.google.com/file/d/10LsxHM-AQmr87IcNfaHiaDXqsN2qmE7e
 
 
 - During the video I mention some things (ex. `_redirects` file + cheatsheet for `git branches`). You can find them in the description.

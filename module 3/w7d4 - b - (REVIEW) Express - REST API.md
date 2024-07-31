@@ -101,7 +101,7 @@ Fix: ironlauncher not installing dependencies
   creates views directory & uses res.render()
 `npx ironlauncher projectB --json`
   no views & res.json()
-  (note: doesn't generate middleware directory, asumes not needed)
+  (note: doesn't generate middleware directory, assumes not needed)
 `npx ironlauncher projectC --auth --json`
   functionality for auth, middleware and no views (res.json())
   Project 3: use this option
@@ -126,7 +126,7 @@ Fix: ironlauncher not installing dependencies
 ## Part 3: codealong
 
 - Models:
-  - Refresh embeded vs. Reference
+  - Refresh embedded vs. Reference
 
 
 - Codealong: 
@@ -134,7 +134,7 @@ Fix: ironlauncher not installing dependencies
   - option2: advanced students can do that in pairs in breakout rooms.
 
 
-Routes (implement each one + TEST WITH POSTMAP):
+Routes (implement each one + TEST WITH POSTMAN):
 1. POST /projects
 2. POST /tasks
 3. GET /projects
@@ -207,7 +207,7 @@ we will explain what is CORS and all those details a bit later but the code to d
 
 - Bonus 3: deploy your API on fly.io + mongoAtlas
   - Next week  we will do deployment for project 3 but, if you want, you can also put this project online. 
-  - You woud be able to test it with Postman/Compass, just as we're doing on localhost.
+  - You would be able to test it with Postman/Compass, just as we're doing on localhost.
 
 
 

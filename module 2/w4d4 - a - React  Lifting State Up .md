@@ -60,7 +60,7 @@ Time: 30m.
 
 Hints for Iteration 3: 
 - Buttons to delete are now in `Movie` component
-- When the user clicks on the button, we need to update state in the parent component (we need to update the list of movies, wich is stored as state in the `Main` component).
+- When the user clicks on the button, we need to update state in the parent component (we need to update the list of movies, which is stored as state in the `Main` component).
 - To solve it, we need communication from the child to the parent component.
 - You can have a function in the parent component (ex. deleteMovie) and send a reference to that function as props. Then, the child component can invoke that function to update state in the parent component.
 
@@ -74,8 +74,8 @@ Bonus (note: if you do any bonus, avoid modifying the hierarchy of components):
 
 LT:
 - show code with steps 1 & 2 solved
-  - show sytax props object destructuring
-  - show sytax JSX spread attributes (`<Movie {...movieObj}>`)
+  - show syntax props object destructuring
+  - show syntax JSX spread attributes (`<Movie {...movieObj}>`)
 - solve step 3 together.
       
 
@@ -121,7 +121,7 @@ IMPORTANT:
 > Often, several components need to reflect the same changing data. We recommend lifting the shared state up to their closest common ancestor. 
 
 
-Fix: functionalty to delete movie (passing callbacks to grandchild)
+Fix: functionality to delete movie (passing callbacks to grandchild)
 
 
 

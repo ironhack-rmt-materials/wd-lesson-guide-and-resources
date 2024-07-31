@@ -27,7 +27,7 @@
 
 
 - Intro:
-  - show architercture module 3 (react app + api)
+  - show architecture module 3 (react app + api)
   - plan for the day
 
 
@@ -79,7 +79,7 @@
 - React | Integrating the React App
 
   -> these 2 lessons, do them directly copying the content from students portal (make sure students understand all steps)
-  -> (otherwise they take toooo much time)
+  -> (otherwise they take too much time)
 
 -->
 

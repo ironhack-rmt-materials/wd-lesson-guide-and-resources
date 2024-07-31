@@ -10,7 +10,7 @@
 
 
 Best option: don't mix different types of units.
-- If you use vw/vh like we do in class, use vw/vh for all units (vw for all horizontal units like the width and positionX & vh for all vertical ones).
+- If you use vw/vh like we did in class, use vw/vh for all units (vw for all horizontal units like the width and positionX & vh for all vertical ones).
 - If you prefer to use pixels (for example, it can make easier to add images), then use px for all
 
 

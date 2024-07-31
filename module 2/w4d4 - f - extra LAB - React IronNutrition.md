@@ -27,7 +27,7 @@ Main topics:
 
 ## Remember that React may not update state immediately.
 
-Example, with the searchbar:
+Example, with the searchBar:
 
   ```js
     const [searchInput, setSearchInput] = useState("");
@@ -42,7 +42,7 @@ That may not work as expected (to filter foods, we had to type always one letter
 
 Why: we are using a variable from state (searchInput) immediately after asking React to update it.
 
-Posible Solution:
+Possible Solution:
 
   ```js
     const [searchInput, setSearchInput] = useState("");

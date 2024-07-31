@@ -22,7 +22,7 @@ https://media.istockphoto.com/photos/survey-picture-id876886576?k=20&m=876886576
 
 
 After presentations:
-- Vote projects (projects chosen by students will go to Hackshow)
+- Vote projects (projects chosen by students will go to HackShow)
 
 
 

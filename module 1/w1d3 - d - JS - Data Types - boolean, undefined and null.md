@@ -118,7 +118,10 @@ Practice: Truthy or Falsy + Logical Operators
 
 
 
-## (SKIP) Immutability
-- Skip: we'll get there once we speak about reference & mutable data types
+## (skip) Immutability
+
+(we'll get there once we speak about reference & mutable data types)
+
+
 
 

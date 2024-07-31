@@ -38,7 +38,7 @@ Topics:
 - check current status: `git status`
 - add to staging area: `git add index.html`
 - check status again: `git status` (now file is added to staging area)
-- (optional) unstage: `git rm --cached <file-name-1>`
+- (optional) un-stage: `git rm --cached <file-name-1>`
 - make a commit: `git commit -m "msg"`
 - see history: `git log`
 - Git vs. Github
@@ -58,7 +58,7 @@ https://gist.github.com/ironhack-edu/dd3635de73a6ef07ef337bf184eda985
 ## Cheatsheets
 
 
-- Gittower:
+- GitTower:
   - [Git cheatsheet](../media/pdf/git-cheat-sheet-gittower.pdf)
 
 - Common Git Commands (most common commands with a very clear explanation):

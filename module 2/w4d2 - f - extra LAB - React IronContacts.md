@@ -44,7 +44,7 @@ For the Component Hierarchy:
 
 ## Iteration 2:
 
-- Emoji: you include emojies directly in your code (copy-paste will work), 🏆
+- Emoji: you include emojis directly in your code (copy-paste will work), 🏆
 
 
 ## Iteration 3 | Add New Random Contacts

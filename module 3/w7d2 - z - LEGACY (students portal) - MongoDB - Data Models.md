@@ -123,8 +123,8 @@ books: [id1, id2, ...]
 
     ```js
     const parentSchema = new Schema({
-        child: childSchema // Single nested subdocuments
-        children: [childSchema], // Array of subdocuments
+        child: childSchema // Single nested sub-documents
+        children: [childSchema], // Array of sub-documents
     });
     ```
 

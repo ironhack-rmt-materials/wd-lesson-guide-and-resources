@@ -25,28 +25,17 @@ Status: draft
 - Create blank project on stackblitz
 
 
-## console.log
+## Basic concepts
+- console.log
+- comments
 
 
-## Comments
-
-
-
-## What is a variable?
-
-- what is a variable
-
-
-## Declaring a variable
-
+## Variables
+- what is a variable?
+- declaring a variable
 - declare vs. initialize
-
-- If you don’t assign a value to a variable when you declare it, its default value will be initialized to undefined.
-
-
-
-## Naming a variable
-
+  - if you don’t assign a value to a variable when you declare it, its default value will be initialized to undefined.
+- naming a variable
 
 
 ## Changing values

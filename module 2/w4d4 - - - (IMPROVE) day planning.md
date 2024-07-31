@@ -12,7 +12,7 @@
   - ex. 
     - passing a callback as props
     - lifting state up
-    - forwaring props to grandchild
+    - forwarding props to grandchild
     - ...
 
 

@@ -14,6 +14,7 @@
 - We use one of those:
   - https://app.mural.co (more flexible)
   - https://www.goretro.ai/ (more simple)
+    - july24: for GoRetro.ai, you need to create an account but there's no email validation.
 
   <!-- 
   
@@ -64,6 +65,7 @@ Before sharing the link, explain:
 - Why it (a retro) is important
 - How we will work (brief intro)
 - How to give good feedback:
+  - specific
   - constructive
   - realistic
   - focus on actionable feedback (students are busy, focus on the most important)

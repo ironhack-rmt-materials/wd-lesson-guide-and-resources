@@ -104,7 +104,7 @@ Steps (in more detail):
 - [ ] Edit Project Page (form must be pre-populated)
   - EditProjectPage.jsx
   - path="/projects/edit/:projectId"
-  - form (prepopulated)
+  - form (pre-populated)
   - PUT /projects/:id
 - [ ] Delete the Project 
   - modify EditProjectPage.jsx (add function "deleteProject" + button)

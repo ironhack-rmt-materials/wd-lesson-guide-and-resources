@@ -75,7 +75,7 @@ Initial Code:
 
 LTs: Guided steps (with comments):
   <!-- @LT: follow this steps -->
-- https://github.com/RemoteRaccoons-Ironhack-Nov-22/dom-manipulation-practice/blob/f3cea5efd73bcac65f8acde5ceb8c1d43045ddd9/js/main.js
+- https://github.com/ironhack-rmt-resources/dom-manipulation-practice/blob/codealong-solution/js/main.js
 
 
 
@@ -152,9 +152,7 @@ let elements = document.getElementsByTagName(name);
 ## Practice: selecting elements from the DOM
 
 <!--
-@LT:
-- before doing the exercise, make a quick demo on how to change the style
-- ex. elm.style.background = "orange"
+@LT: before doing the exercise, make a quick demo on how to change the style (e.g., elm.style.background = "orange")
 -->
 
 Instructions: https://stackblitz.com/edit/web-platform-ydtmzw?file=script.js

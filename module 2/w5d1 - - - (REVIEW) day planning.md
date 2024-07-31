@@ -43,7 +43,7 @@
 
   - Bug report: https://github.com/stackblitz/core/issues/2463
   - Option 1: axios@0.27.2
-  - Option 1: codesandbox.io (works fine with axios@1.x)
+  - Option 1: CodeSandbox.io (works fine with axios@1.x)
 
   -->
 

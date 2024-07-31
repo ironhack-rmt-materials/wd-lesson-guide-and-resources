@@ -83,7 +83,7 @@ Slides:
 
 - choose who will deploy "project2" vs "library project"
 
-- if you're deploying a codelong we did (ex. the library project), make sure it's a fork, not a clone (cause you'll need to push code)
+- if you're deploying a codealong we did (ex. the library project), make sure it's a fork, not a clone (cause you'll need to push code)
 -->
 
 
@@ -104,7 +104,7 @@ Deployment & setup takes time. We need to be efficient:
 
 - Don't try to go one step ahead (so that we all have the same config... and same errors) 
 
-Note: if you're deploying a codelong we did (ex. the library project), make sure it's a fork, not a clone (cause you'll need to push code)
+Note: if you're deploying a codealong we did (ex. the library project), make sure it's a fork, not a clone (cause you'll need to push code)
 
 
 If you need the library project:
@@ -152,7 +152,7 @@ do not push button...
 ## Test our DB
 - test on Compass
   - IMPORTANT: replace `username` and `password` to the Connection String.
-  - (Optional) customiza DB name: "...mongodb.net/mydbname?"
+  - (Optional) customize DB name: "...mongodb.net/mydbname?"
       - ex: `mongodb+srv://<username>:<password>@<cluster_name>.jqzujwt.mongodb.net/<dbname(optional)>?retryWrites=true&w=majority`
   - If Compass is already open and connected to localhost, you will need to close it and open (the button to "disconnect" may not work, there's a bug)
 

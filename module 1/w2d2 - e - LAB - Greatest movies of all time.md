@@ -17,7 +17,7 @@ IMPORTANT:
 - Tell them to do, at least, iterations 1-4.
 
 - Iteration 5 (challenging):
-  - how to copy arrays (so that they don't mutate the orignal array)
+  - how to copy arrays (so that they don't mutate the original array)
     - Tell students to google and/or check self-guided "Js | Value vs Reference"
   - sort() 
 

@@ -17,19 +17,15 @@
 - Friday
   - Code freeze
   - Presentations
-
-
+  - (confirm time for the presentation)
 
 <!-- 
 
-@students: 
-- games must be ready end of Thursday.
+@LT: 
+- remind students: games must be ready end of Thursday.
 - if you're blocked, ask for help. Don't leave it for Thursday 
 
 -->
-
-
-
 
 
 
@@ -46,13 +42,11 @@
 
 - Note: 
   - It's completely normal that the game is not finished yet.
-  - Once you finish deployment, submit the urls and then keep working on the game as usual (everytime you push new changes, they will be reflected on github pages).
+  - Once you finish deployment, submit the urls and then keep working on the game as usual (every time you push new changes, they will be reflected on github pages).
   - Games must be ready end of Thursday (Friday 9am).
 
 - 13:00: lunch break 🥗
 - 14:00: standups
-
-
 
 How to submit project URLs:
 

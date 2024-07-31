@@ -82,7 +82,7 @@ Bonus: add some css for the Header component with a specific file
     - create `Header.css` + add rules for `h1` (ex. `color: orange`)
     - in Header.jsx, import the css file you've created: `import "./Header.css";`
     - NOTE: any css rules would apply to the whole application. To avoid this, you can do the following:
-      - add a className to the parent htlm element of your component. Ex: `<header className="Header">`
+      - add a className to the parent html element of your component. Ex: `<header className="Header">`
       - in the css, add the class to all rules
         - ex: https://github.com/Ironborn-Ironhack-March-2022/react-popcorn-time/blob/main/src/components/Header.css
 
@@ -108,12 +108,12 @@ Time: 10min. + solve together.
 
   ```
 
-- We will often work with arrays of objects but this syntax is not sustainagle.
-  - ex. if we have an array with 200 elements
-  - ex. if we don't know how many elements we will have in the array
+- We will often work with arrays of objects but this syntax is not flexible enough.
+  - eg. if we have an array with 200 elements
+  - eg. if we don't know how many elements we will have in the array
 
 
-- Inside <Main />, create 3 divs with a movie
+- Inside <Main />, create 3 div's with a movie
   <!-- @update: use MovieList instead of Main -->
 
   ```jsx
@@ -126,7 +126,7 @@ Time: 10min. + solve together.
     </div>
   ```
 
-- Put those 3 divs in an array and show how it is possible to display an array
+- Put those 3 div's in an array and show how it is possible to display an array
 
   ```jsx
   const list = [

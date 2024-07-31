@@ -65,12 +65,12 @@ Arrays vs Objects:
   Example 1:
 
   ```js  
-  const employees = ['alice', 'bob', 'charly'];
+  const employees = ['alice', 'bob', 'charlie'];
 
   const company = {
     director: 'alice',
     pm: 'bob',
-    developer: 'charly',
+    developer: 'charlie',
   };
   ```
 

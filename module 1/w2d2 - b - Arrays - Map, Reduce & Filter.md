@@ -50,7 +50,7 @@ Status: ready
 
 - Explain map() method.
   
-  - .map() is usuful whenever we need to apply a transformation to all elements in an array.
+  - .map() is useful whenever we need to apply a transformation to all elements in an array.
   
   - diagram: https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c465728a5460c8d562936d4f1b5d18cc.png 
 
@@ -213,7 +213,7 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 ### Practice: reduce() with an array objects
 
   - Instructions: https://stackblitz.com/edit/js-aervwj?file=index.js
-    - IMPORTANT: in this case we need to set an inital value.
+    - IMPORTANT: in this case we need to set an initial value.
   - Time: 15min.
 
   - Solution: https://stackblitz.com/edit/js-xufcpn?file=index.js
@@ -297,7 +297,7 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
     const people = [
       { name: 'alice', age: 30 },
       { name: 'bob', age: 18 },
-      { name: 'charly', age: 49 },
+      { name: 'charlie', age: 49 },
       { name: 'david', age: 21 },
       { name: 'emma', age: 17 }
     ];

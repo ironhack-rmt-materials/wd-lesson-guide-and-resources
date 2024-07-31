@@ -21,7 +21,7 @@
 Examples using the spread operator:
 
   ```js
-  const students = ["alice", "bob", "charly"];
+  const students = ["alice", "bob", "charlie"];
   const arrayTwo = ["julia", "leonardo", "brad", "sandra"];
   ```
 
@@ -85,7 +85,7 @@ Example 1:
     console.log(otherUsers);
   }
 
-  greetUsers('alice', 'bob', 'charly', 'david');
+  greetUsers('alice', 'bob', 'charlie', 'david');
 
 ```
 

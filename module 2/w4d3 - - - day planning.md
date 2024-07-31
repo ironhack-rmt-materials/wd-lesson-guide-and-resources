@@ -64,7 +64,7 @@
 
     - When should we use the PROPS:
     - Pass information to a child component
-    - ex. reusable component that has different behaviour depending on info that it receives.
+    - ex. reusable component that has different behavior depending on info that it receives.
 
     - When should we use the STATE:
     - Store information that belongs to a component

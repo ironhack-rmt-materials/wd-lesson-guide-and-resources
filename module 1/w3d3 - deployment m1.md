@@ -65,7 +65,7 @@ Debugging tips:
 - Goal: publish the applications we build in module 1.
 
 - Show my game in localhost
-  - If I was to share a link with a friend/users, they woudn't be able to play (local environment)
+  - If I was to share a link with a friend/users, they wouldn't be able to play (local environment)
 
 - Intro basic concepts (follow slides)
   - slides: https://docs.google.com/presentation/d/1teN_ZRHQBi60T0wS7bfDLZWu9Mi23iYTrSgq6WSSolk/edit?usp=sharing
@@ -147,7 +147,7 @@ Common pain points & bug fixing:
 
   - Continuous deployment
     - You can continue working on your game as usual
-    - Everytime you push code to the main branch, it will be deployed.
+    - Every time you push code to the main branch, it will be deployed.
 
   - (skip) intro git branches (see `extra - git branches.md`)
     - note: do just a quick demo on a visual tool (it can be a bit too early to introduce branches)

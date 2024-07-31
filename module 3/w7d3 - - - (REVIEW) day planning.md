@@ -3,7 +3,7 @@
 # w7d3
 
 
-- Ask p3 preferences (ex. ask in the afternoon, with DL tomorow 9am)
+- Ask p3 preferences (ex. ask in the afternoon, with DL tomorrow 9am)
 
 
 update:
@@ -34,7 +34,7 @@ update:
 <!--
 
 
-Demo: continue on ironrestaurant / create new app as in students portal ?
+Demo: continue on ironRestaurant / create new app as in students portal ?
 - if we follow students portal (books)
   - it's easier for them the "research" part
   - it also helps if we do a quick refresh on relationships w7d4

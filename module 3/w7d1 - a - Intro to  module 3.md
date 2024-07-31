@@ -39,7 +39,7 @@
     
     Note: 
     - if a student is falling behind in labs or requirements to graduate, we may ask them to do project 3 individual.
-      - reason: learn fundamentals + proove that you have a minimum level to graduate.
+      - reason: learn fundamentals + prove that you have a minimum level to graduate.
     - when this is the case, we contact them before we start project 3 (we still have quite a few labs).
 
     -->

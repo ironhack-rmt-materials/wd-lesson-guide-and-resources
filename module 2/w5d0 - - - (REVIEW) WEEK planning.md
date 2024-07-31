@@ -12,7 +12,7 @@ During this week, explain:
   - add to staging area
   - make a commit
   - other operations:
-    - stage / unstage / revert
+    - stage / un-stage / revert
     - stage only some parts of a file
 
 - see history

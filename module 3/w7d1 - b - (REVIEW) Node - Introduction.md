@@ -46,7 +46,7 @@ update - m2-m3 swap:
 
 - Node Package Manager (npm)
   - what is a package manager
-  - Example of a package: convert Celsius to Farenheit
+  - Example of a package: convert Celsius to Fahrenheit
 
 
 

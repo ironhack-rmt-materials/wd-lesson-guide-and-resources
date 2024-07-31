@@ -48,7 +48,7 @@ Status:
 
 
 
-## JS Evemts 
+## JS Events 
 
 Explain:
 - what are events
@@ -77,7 +77,7 @@ Explain:
 
 
 
-## Demo: append a paragraph everytime the user clicks on a button
+## Demo: append a paragraph every time the user clicks on a button
 
   1. Detect click event:
 
@@ -110,7 +110,7 @@ Explain:
   <!-- Note: to test your code, make sure you click on the html document before you press space  -->
 - (bonus 1): detect also arrow keys (down, up, left, right)
 - (bonus 2): if user presses spacebar, add a div to the dom.
-- (bonus 3): if user presses arrow up, move that all the divs (hint: `position: relative`)
+- (bonus 3): if user presses the arrow keys, move all the div's (hint: `position: relative`)
 Time: 15min.
 
 Solution: https://stackblitz.com/edit/web-platform-6bfg8u?file=script.js
@@ -237,7 +237,7 @@ JS Events cheatsheet:
 <!--
 
 event bubbling + "Detect Events on elements created dynamically":
-- take a bit of time & students find it confussing
+- take a bit of time & students find it confusing
 - keep it brief & generic
 - give some hints so that they do research
 
@@ -252,7 +252,7 @@ TO-Do:
 ## Extra resources
 
 Video: Javascript Dom Manipulation | Javascript Tutorial For Beginners
-(developedbyed, 17min.)
+(DevelopedByEd, 17min.)
 https://www.youtube.com/watch?v=wiozYyXQEVk
 
 <!-- includes some interesting examples that we can use in demo -->

@@ -42,7 +42,7 @@
 
   - Further improvements:
     - Animals can have `energy`
-    - functionality to `move` (dicreases energy)
+    - functionality to `move` (decreases energy)
     - functionality to `eat` (increases energy)
 
     <!-- 

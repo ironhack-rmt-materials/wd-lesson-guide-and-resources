@@ -212,19 +212,19 @@ Functionality for searchbox (asked in today's lab)
   - Implement search filter (web dev simplified, 14min.): https://www.youtube.com/watch?v=E1cklb4aeXA&t=335s
 
 
-<!-- IMPORTANT: keep searchbar in App.js  -->
-<!-- IMPORTANT: keep searchbar in App.js  -->
-<!-- IMPORTANT: keep searchbar in App.js  -->
+<!-- IMPORTANT: keep searchBar in App.js  -->
+<!-- IMPORTANT: keep searchBar in App.js  -->
+<!-- IMPORTANT: keep searchBar in App.js  -->
 
 
 
-Example commit 1 (searchbar in App.js): 
+Example commit 1 (searchBar in App.js): 
 - https://github.com/RemoteRaccoons-Ironhack-Nov-22/raccoons-popcorn-time/commit/e2c1abc8e4ef0217537e30ca07e8a87357e8f49f
 
 
 Example commit 2 (extract search box to a specific component "SearchBox"): 
 - https://github.com/RemoteRaccoons-Ironhack-Nov-22/raccoons-popcorn-time/commit/5f8559833f5d79b08dde32243cb9daafd378f395
-- From all possible patterns (without useEffect), keeping a stateful variable "searchQuery" in App.js would be the easiest (otherwise you need to keep a second stateful variable in App.js + update it everytime you add/delete a movie).
+- From all possible patterns (without useEffect), keeping a stateful variable "searchQuery" in App.js would be the easiest (otherwise you need to keep a second stateful variable in App.js + update it every time you add/delete a movie).
 
 
 

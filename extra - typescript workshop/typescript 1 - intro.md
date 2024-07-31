@@ -152,7 +152,7 @@ let isLoggedIn: boolean = false;
     numbers.push(4);
     // numbers.push("5"); //error
 
-    names.push("charly");
+    names.push("charlie");
     // names.push(false); //error
     ```
 
@@ -221,7 +221,7 @@ Example 3: array of users:
     usersArr = [
         {userName: "alice", age: 30, likesPizza: true},
         {userName: "bob", age: 40},
-        {userName: "charly", age: 50},
+        {userName: "charlie", age: 50},
     ];
 
     ```

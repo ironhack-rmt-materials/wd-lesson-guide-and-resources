@@ -2,22 +2,22 @@
 # w1d2
 
 
-- Questions yesterday's LAB? (20m.)
+- Questions yesterday's LAB? [30m]
 
-- Slides: Bootcamp Intro II (10m)
+- Slides: Bootcamp Intro II [10m]
 
-- (optional) refresh css selectors (10m.)
+- (optional) refresh css selectors [10m]
 
-- CSS Box Model (20m.)
+- CSS Box Model [20m]
 
 - CSS Advanced Selectors (skip or very brief)
 
-- Responsive Web Design + Media Queries (1h)
+- Responsive Web Design + Media Queries [1h]
   - Best practices / advice to do your CSS
 
-- Flexbox 2h (1h concepts + 30min. practice)
+- Flexbox [2h] (1h concepts + 30min. practice)
 
-- CSS Positioning  (20m.)
+- CSS Positioning  [20m]
 
 
 
@@ -32,7 +32,7 @@
 
 - (in pairs) LAB | CSS Flexbox Slack
 
-
+<!-- @note: both labs include a hamburger menu (don't worry about functionality so that when u click it opens the menu) -->
 
 
 

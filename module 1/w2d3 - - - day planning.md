@@ -22,8 +22,8 @@
 
 - DOM manipulation: events [1.5h]
 
-- (skip) DOM manipulation: inputs [0.5h?]
-
+- (skip) DOM manipulation: inputs
+- (skip) event bubbling
 
 
 

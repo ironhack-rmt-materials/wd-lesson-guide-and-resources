@@ -14,7 +14,9 @@
 
 # (skip) Refresh
   - value vs. reference
-  - implications (ex.: comparing 2 arrays with the same contents)
+  - implications 
+      ex.: comparing 2 arrays with the same contents
+      ex.: making a copy of an array
   - how to copy arrays / objects
   - Timeouts & intervals
     - setTimeout(), setInterval()
@@ -57,7 +59,7 @@ Game Improvements:
   - Images (ex. background)
         - Note: can do in a break + push
   - Notes on images (ratio)
-        - supermario: https://upload.wikimedia.org/wikipedia/en/a/a9/MarioNSMBUDeluxe.png
+        - Super Mario: https://upload.wikimedia.org/wikipedia/en/a/a9/MarioNSMBUDeluxe.png
 
         ```js
         this.width = 5;

@@ -27,7 +27,7 @@
 - Do you play any sports?
 - Choose one famous person from history you want on your team during a zombie apocalypse.
 - THURSDAY (only 2 questions):
-  - What’s your favorite place of all the places you’ve travelled?
+  - What’s your favorite place of all the places you’ve traveled?
   - Is my MVP ready? What is missing?
   <!-- 
   Refresh MVP requirements:
@@ -40,16 +40,18 @@
 - Are you a good dancer?
 
 
-## weeks 8-9 (project 3):
+## week 8 (project 3):
 - What did you eat for breakfast?
 - What’s your favourite music artist / band?
 - How do you pronounce Squirrel?
+
+## week 9 (project 3):
 - What did you want to be when you grew up?
 - 60s, 70s, 80s, 90s: Which decade do you love the most and why?
 - WEDNESDAY (only 2 questions):
   - What was your first job?
   - Is our MVP ready? What is missing?
-  <!-- MVP Checklist p3: https://codepen.io/luisjunco/full/gOywmQv  -->
+  <!-- @LT: share MVP Checklist: https://codepen.io/luisjunco/full/gOywmQv  -->
 - What’s is one thing we don’t know about you?
 - LAST DAY: What are you doing to celebrate end of bootcamp? ;)
 

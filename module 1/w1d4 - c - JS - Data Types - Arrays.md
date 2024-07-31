@@ -23,9 +23,9 @@ Status: ready
   ```js
   const user1 = "alice"
   const user2 = "bob";
-  const user3 = "charly";
+  const user3 = "charlie";
 
-  const users = ["alice", "bob", "charly"];
+  const users = ["alice", "bob", "charlie"];
   ```
 
 - Data Types

@@ -30,9 +30,9 @@ Codealong:
 
 
 
-# Inital Setup
+# Initial Setup
 
-  <!-- @todo: create list/gist with the steps to follow -->
+  <!-- @LT: can share the steps below with students -->
 
   - Open a new VS Code Window
 
@@ -40,15 +40,21 @@ Codealong:
 
   - Windows users: configure default terminal (ex. `Git Bash`)
 
-  - Navigavigate to the directory where you will work.
-    - `cd xxx`
-    - `cd ..`
+  - Navigate to the directory where you will work.
+    - `cd xxx` (go inside the directory)
+    - `cd ..` (go one level up)
 
-  - create a directry for ironhack (if you don't have it yet): ex. `mkdir ironhack` + enter into that directory `cd ironhack`
+  - Create a directory for ironhack (if you don't have it yet): 
+    - `mkdir ironhack` (create a new directory)
+    - `cd ironhack` (go inside that new directory)
 
-  - Create a directory for module 1: `mkdir module1` + enter into that directory `cd module1`
+  - Create a directory for module 1:
+    - `mkdir module1`
+    - `cd module1`
 
-  - Create a directory for this exercise: `mkdir html-intro` + enter into that directory `cd html-intro`
+  - Create a directory for this exercise:
+    - `mkdir html-intro`
+    - `cd html-intro`
 
   - Create file: `touch index.html`
 
@@ -70,13 +76,15 @@ Codealong:
 
 
 - HTML structure (DOCTYPE etc)
-  - note: use emmet abreviation `!`
+  - note: use emmet abbreviation `!`
 - Create an h1
 - Install "Live server" extension + open in browser
 - IMPORTANT: Block vs. inline
   - ex. div vs. span
 - Examples of block elements (see students portal: "HTML Block-level elements cheat sheet")
-- Examples of inline elements (see students portal: "HTML Inline elements cheat sheet")
+  - div, p, h1, h2, section
+- Examples of inline elements (see students portal: "HTML Inline elements cheat sheet") 
+  - span, img, button, a
 - Semantics 
   - ex. difference section vs. div
 - Self-closing tags (ex. hr)
@@ -88,7 +96,7 @@ Codealong:
   - when creating your projects, start from the HTML.
 
 
-- (brief) Some Emet shortcuts
+- (brief) Some Emmet shortcuts
 
   ```
   div>p*3

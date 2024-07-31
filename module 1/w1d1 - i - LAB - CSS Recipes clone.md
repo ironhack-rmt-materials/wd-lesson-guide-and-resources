@@ -27,7 +27,7 @@ CSS:
 - don't forget to link to the css file from your html:
   - `<link rel="stylesheet" href="style.css" />`
 
-Recipe info (time that it takes to cook, servings, cals):
+Recipe info (time that it takes to cook, servings, calories):
 - To simplify, images are provided (see directory images)
 - Note: this is not the best practice (usually, we want to add this content as text).
 

@@ -31,3 +31,9 @@ Planning:
 - (in pairs) Mini Project - JavaScript Quiz [2.5h]
 - (bonus) LAB | JavaScript Vikings
 
+<!-- 
+
+Note: mini-project research includes reading the unit "JS | Special keyword - this"
+
+-->
+

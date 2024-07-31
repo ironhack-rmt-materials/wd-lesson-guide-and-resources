@@ -56,7 +56,7 @@ How:
 - individual
 
 Time:
-- Some students get all the functionlity in about 2h (even with bonus things in 2-4h).
+- Some students get all the functionality in about 2h (even with bonus things in 2-4h).
 - Some students need a lot of help (ex. 2-3h to get routing + display the list of apartments or start the functionality to create)
 
 
@@ -79,7 +79,7 @@ Alternative:
 
 
 Notes:
-- this exercise covers all concepts from students portal + what they need for the lab "React Ironbeers"
+- this exercise covers all concepts from students portal + what they need for the lab "React IronBeers"
 - the api doesn't support PUT and DELETE (tested on Postman)
 
 

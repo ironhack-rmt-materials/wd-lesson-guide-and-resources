@@ -42,15 +42,16 @@ Feedback from students:
 
   <!-- @todo: create cheatsheet -->
 
-    - External url. eg: https://mykittens.com/bob.jpg
+    - External url. 
+      - href="https://mykittens.com/bob.jpg"
 
     - Absolute path. 
-        eg: href="C:\Luis\Ironhack\module1\html-intro\css\main.css" (avoid !!)
-        eg: href="/images/bob.jpg"
+      - href="C:\Luis\Ironhack\module1\html-intro\css\main.css" (avoid !!)
+      - href="/images/bob.jpg"
 
     - Relative path. 
-      - `href="./images/bob.jpg"` (current directory)
-      - `href="../images/bob.jpg"` (one directory above in the hierarchy)
+      - href="./images/bob.jpg" (current directory)
+      - href="../images/bob.jpg" (one directory above in the hierarchy)
 
 
 - Example Filesystem diagram: 
@@ -118,7 +119,7 @@ https://www.youtube.com/watch?v=c0kfcP_nD9E
   • What it is: "some selectors have higher precedence"
   • How it is calculated: https://cms-assets.tutsplus.com/uploads/users/30/posts/34141/image/spec-02.svg
   • Cheatsheet: http://www.standardista.com/wp-content/uploads/2012/01/specificity3.pdf
-  • Tip: VS Code displays speficity when you hover a css selector.
+  • Tip: VS Code displays specificity when you hover a css selector.
 
 
 • (brief) Inheritance
@@ -155,7 +156,7 @@ Backup (Specifishity):
 
 
 
-## Game: CSS dinner
+## (extra) CSS dinner Game
 
 CSS dinner (https://flukeout.github.io/)
 - do until level 14th.

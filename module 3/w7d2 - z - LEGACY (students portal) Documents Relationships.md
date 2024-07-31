@@ -156,7 +156,7 @@ $ node bin/seeds.js
 
 ## Implement: functionality to Publish a New Comment
 
-- Analise with students: 
+- Analyze with students: 
   -- how will the new comment be stored
   -- what we need to do ?
 

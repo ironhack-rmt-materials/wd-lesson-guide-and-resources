@@ -10,7 +10,7 @@
 - refresh [20m.]
     - props, state
         - passing a callback as props
-        - forwarding props to a gradchild
+        - forwarding props to a grad child
     - forms
 
 

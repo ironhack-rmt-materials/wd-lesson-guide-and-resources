@@ -55,7 +55,7 @@ What we'll see today:
 
 
 > JavaScript is a synchronous language with some asynchronous functionality
-> (ex. setTimout() )
+> (ex. setTimeout() )
 
 
 
@@ -96,7 +96,7 @@ What we'll see today:
 
     ```js
       cookDinner(eatDinner);
-      cookDinner(eatDinner()); // with parenthesys
+      cookDinner(eatDinner()); // with parenthesis
     ```
 
   - if we need to pass arguments, we can use an anonymous function.
@@ -255,7 +255,7 @@ Stackblitz + Axios v.1.x
 
 - Bug report: https://github.com/stackblitz/core/issues/2463
 - Option 1: axios@0.27.2
-- Option 1: codesandbox.io (works fine with axios@1.x)
+- Option 1: CodeSandbox.io (works fine with axios@1.x)
 
 -->
 
@@ -488,7 +488,7 @@ Fetch API - JavaScript Tutorial for beginners:
   - Promises
   - Promise.all()
   - fetch()
-  - aynct/await
+  - async/await
 
 
 - JavaScript Promises -- Tutorial for Beginners (ColorCode, 37min.)
@@ -505,7 +505,7 @@ Fetch API - JavaScript Tutorial for beginners:
   https://www.youtube.com/watch?v=spvYqO_Kp9Q
 
 
-- Create your own Promises in JavaScript (dcode, 17min)
+- Create your own Promises in JavaScript (dCode, 17min)
 https://www.youtube.com/watch?v=Y-aWVUAul9w
   - Includes 3 examples creating promises (divide, wait, connectToDB)
 

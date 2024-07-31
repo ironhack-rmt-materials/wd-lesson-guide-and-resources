@@ -85,7 +85,7 @@ https://protonmail.com/blog/wp-content/uploads/2019/03/passwords_blog_protonmail
 
 ## Extra Resources 2 (videos with further topics)
 
-Video: 7 Cryptography Concepts EVERY Developer Should Know (Fireship, 12min.)
+Video: 7 Cryptography Concepts EVERY Developer Should Know (FireShip, 12min.)
 https://www.youtube.com/watch?v=NuyzuNBFWxQ
 
 Video Playlist: Basic Cryptography (Sunny Classroom)

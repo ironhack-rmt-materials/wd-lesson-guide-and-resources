@@ -86,7 +86,7 @@ Things missing in the recording:
   - how we can see production DB
   - how to switch between local & production on Compass
 
-2. Emphasise that, if they have any bug in localhost, it will also be in production (but it shouldn't be the other way around). Give an example
+2. Emphasize that, if they have any bug in localhost, it will also be in production (but it shouldn't be the other way around). Give an example
 
 
 -->

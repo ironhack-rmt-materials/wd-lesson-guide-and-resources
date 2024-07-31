@@ -159,11 +159,11 @@ Milestone 4: make the game more interesting & fix bugs
   - Collision detection
   - some notes: "collision detection - common errors.md"
 
-[ ] Gameover (ex. redirect)
+[ ] Game Over (ex. redirect)
 
   <!--
 
-  gameover functionality
+  Game Over functionality:
   - redirect to gameover.html
   - include link to play again
 
@@ -196,7 +196,7 @@ Functionality:
 - drop different things (prizes, different types of obstacles...)
 - score
 - improve game over page
-- display score in gameover page (can be implemented using localstorage)
+- display score in Game Over page (can be implemented using localStorage)
 - levels
 - multiple lives
 - allow moving the player up and down

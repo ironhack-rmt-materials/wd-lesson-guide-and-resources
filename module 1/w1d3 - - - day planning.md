@@ -2,26 +2,19 @@
 # w1d3
 
 
-<!--
-
-@todo: 
-- Improve notes/steps today
-- Conditionals & loops: ask an exercise instead.
-
--->
 
 
 # Day Planning 
 
-- (skip) Questions yesterday's LAB? (30m.)
+- (skip) Questions yesterday's LAB? [30m]
   - LAB "Flexbox Slack": demo with logos (airbnb, spotify, etc)
     - images (sizes, ratios)
     - flexbox (row + flex-wrap)
     - media queries
 
-- (skip) Quick refresh from yesterday (20m.)
+- (skip) Quick refresh from yesterday [20m]
 
-- Slides: Bootcamp Intro III (10m)
+- Slides: Bootcamp Intro III [10m]
 - JS Intro [1h]
 - JS Data Types - numbers and strings [2h]
 - JS Data Types in JavaScript - boolean, undefined & null [1h]

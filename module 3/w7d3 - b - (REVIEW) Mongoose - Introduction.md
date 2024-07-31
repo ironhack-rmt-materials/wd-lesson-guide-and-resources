@@ -164,7 +164,7 @@ Step 2: in a separate object
         title: "margarita",
         price: 8,
         imageFile: "pizza-margarita.jpg",
-        ingredients: ["mozzarella", "tomato sauce", "basilicum"]
+        ingredients: ["mozzarella", "tomato sauce", "basil"]
     }
   ``` -->
 

@@ -9,7 +9,7 @@ Status: complete
 
 @todo:
 - simplify & remove anything that is not essential
-- too theorical. It will be do to define a goal (ie. show the design of a simple app) and explain these concepts while we create it.
+- too theoretical. It will be do to define a goal (ie. show the design of a simple app) and explain these concepts while we create it.
 
 -->
 
@@ -92,7 +92,7 @@ Initial Setup:
 
 
 
-## Creatie our first component
+## Create our first component
   - Create a basic component: `<MyFirstComponent / >` 
   - Optional: create also Header & Footer.
     <!--
@@ -222,7 +222,7 @@ Initial Setup:
   
   - class —> `className`
   - html attributes are camelCased
-    - onlclick —> `onClick`
+    - onclick —> `onClick`
 
 
 ## (Extra) inline CSS (mention very briefly)

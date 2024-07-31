@@ -81,7 +81,7 @@ Code summary:
         - validation
         - check if user already exists
           - if user exists: send error message   
-          - if user doesnt exist....
+          - if user doesn't exist....
             - generate salt + generate hash
             - User.create()
             - send response
@@ -112,7 +112,7 @@ Code summary:
         - get info from req.body
         - validation
         - User.findOne({email: req.body.email})
-        - if user doesnt exist: send error
+        - if user doesn't exist: send error
         - if user exists...
             - bcrypt.compareSync(req.body.password, hash);
                 - if credentials are correct: sign jwt + send it in the response
@@ -170,7 +170,7 @@ How to send auth header in Postman:
 
 
 
-## Implement an endpoint to veryfy jwt ("Token Verification Route")
+## Implement an endpoint to verify jwt ("Token Verification Route")
 
 - Implement (`GET  /auth/verify`)
 - Test with Postman
@@ -198,7 +198,7 @@ Protected routes: if we use ironlauncher, in `error-handling\index.js`, we can a
 
 ## Extra resources
 
-Video - Session vs Token Authentication in 100 Seconds (Fireship, 2min)
+Video - Session vs Token Authentication in 100 Seconds (FireShip, 2min)
 https://www.youtube.com/watch?v=UBUNrFtufWo
 
 

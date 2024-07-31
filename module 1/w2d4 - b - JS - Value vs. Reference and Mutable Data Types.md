@@ -47,67 +47,66 @@ Status: ready
 
 
 
-  - Example 1 (comparing variables):
+- Example 1 (comparing variables):
 
-    ```js
-      const name1 = "alice";
-      const name2 = "alice";
+  ```js
+    const name1 = "alice";
+    const name2 = "alice";
 
-      if(name1 === name2){
-        console.log("same string");
-      } else {
-        console.log("different string");
-      }
-
-
-
-      const array1 = ["alice", "bob", "charly"];
-      const array2 = ["alice", "bob", "charly"];
-
-      if(array1 === array2){
-        console.log("same array");
-      } else {
-        console.log("different array");
-      }
-
-    ``` 
+    if(name1 === name2){
+      console.log("same string");
+    } else {
+      console.log("different string");
+    }
 
 
 
-  - Example 2 (modifying a copy):
+    const array1 = ["alice", "bob", "charlie"];
+    const array2 = ["alice", "bob", "charlie"];
 
-    ```js
+    if(array1 === array2){
+      console.log("same array");
+    } else {
+      console.log("different array");
+    }
 
-      let amount = 10;
-
-      let amountCopy = amount;
-      amountCopy = 20;
-
-      console.log(amount);
-      console.log(amountCopy);
-
-
-      //
-
-      const numbers = [10, 10, 10];
-      const copy = numbers;
-      copy.push(50);
-
-      console.log(numbers);
-      console.log(copy);
-
-    ``` 
-
-
-    > since both objects or arrays are pointing to the same address in the memory (have the same reference), changes in one will cause the same changes in the other one as well.
+  ``` 
 
 
 
--  IMPORTANT: all this examples are with arrays but the same applies to objects.
+- Example 2 (modifying a copy):
+
+  ```js
+
+    let amount = 10;
+
+    let amountCopy = amount;
+    amountCopy = 20;
+
+    console.log(amount);
+    console.log(amountCopy);
+
+
+    //
+
+    const numbers = [10, 10, 10];
+    const copy = numbers;
+    copy.push(50);
+
+    console.log(numbers);
+    console.log(copy);
+
+  ``` 
+
+
+  > since both objects or arrays are pointing to the same address in the memory (have the same reference), changes in one will cause the same changes in the other one as well.
+
+
+
+- IMPORTANT: all this examples are with arrays but the same applies to objects.
 
 
   
-
 - If we don't want to mutate the array, we can make a copy (copy the values)
   - ex. use a for loop
 
@@ -173,7 +172,7 @@ Note:
 - you don't need to know them. Just make sure:
   - understand the fundamentals.
   - know how to create a shallow and a deep copy
-  - if you come accross a syntax that you don't understand, you may need to do some research.
+  - if you come across a syntax that you don't understand, you may need to do some research.
     - Example:
 
       ```js

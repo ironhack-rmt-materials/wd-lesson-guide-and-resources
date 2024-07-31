@@ -23,13 +23,13 @@ Alternative:
 
 ## Data structures
 
-- The better we can organize our data → The better we can represent reallity → better code.
+- The better we can organize our data → The better we can represent reality → better code.
 
 
 - Examples:
 
 ```js
-const employees = ['alice', 'bob', 'charly'];
+const employees = ['alice', 'bob', 'charlie'];
 
 const company = {
   name: 'mama mia pizza restaurant',
@@ -69,7 +69,7 @@ const company = {
 
   ```js
   const school = [
-    ['alice', 'bob', 'charly'],
+    ['alice', 'bob', 'charlie'],
     ['pikachu', 'wonderwoman', 'superman'],
   ];
   ```
@@ -82,7 +82,7 @@ const company = {
   const employees = [
     { name: 'alice', city: 'paris' },
     { name: 'bob', city: 'berlin' },
-    { name: 'charly', city: 'madrid' },
+    { name: 'charlie', city: 'madrid' },
   ];
   ```
 

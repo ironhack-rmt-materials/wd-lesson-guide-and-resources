@@ -57,7 +57,7 @@
 
 -->
 
-- follow stepts in students portal:
+- follow steps in students portal:
     - visit: https://github.com/jasmine/jasmine/releases
     - download the latest standalone version (`jasmine-standalone-x.y.z.zip`)
     - unzip
@@ -136,7 +136,7 @@
         - expect(xxx).not.toBe()
 
 
-- (skip) xdescribe() vs. describe()
+- (skip) `xdescribe()` vs. `describe()`
 
 
 

@@ -3,6 +3,12 @@
 # w7d4
 
 
+<!-- 
+
+@todo: create RECORDING "Auth: intro and hash algorithms"
+
+-->
+
 
 ## Day planning
 
@@ -59,7 +65,7 @@ Explain: how to extract routes to specific files
 
 Explain: some other topics that they'll find in "Express | REST API"
 - push: `Project.findByIdAndUpdate(projectId, { $push: { tasks: newTask._id } }`
-- Validation: `mongoose.Types.ObjectId.isValid(projectId)` (check if format is valid, even if it doesnt exist in the db)
+- Validation: `mongoose.Types.ObjectId.isValid(projectId)` (check if format is valid, even if it doesn't exist in the db)
 
 
 Quick intro to "IronLauncher"

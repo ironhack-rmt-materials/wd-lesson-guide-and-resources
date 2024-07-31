@@ -19,6 +19,5 @@ On windows: https://www.youtube.com/watch?v=_mrNgqO5Tic
 # Drop Database
 
 - Open SQL shell
-- Terminate processes (replace myCoolDbName): `sql SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname = 'myCoolDbName';`
-- Drop DB (replace myCoolDbName): `sql DROP DATABASE "myCoolDbName";`
-
+- Terminate processes (replace myCoolDbName): `SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname = 'myCoolDbName';`
+- Drop DB (replace myCoolDbName): `DROP DATABASE "myCoolDbName";`

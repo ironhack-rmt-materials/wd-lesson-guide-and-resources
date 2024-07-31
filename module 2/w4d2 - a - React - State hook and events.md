@@ -49,7 +49,7 @@ Status: draft
 Option 1: 
 - work on the app we built yesterday
 
-Option 2 (prefered, since its easier to share the code): 
+Option 2 (preferred, since its easier to share the code): 
 - work here: https://stackblitz.com/edit/react-s2s6wx?file=src%2FApp.js
 
   <!-- @Luis: remember to FORK -->
@@ -147,7 +147,7 @@ Bonus 1:
 
 
 Bonus 2:
-- You may have solved the previous challenges using two functions (ex. "increaseCounter" and "dicreaseCounter")
+- You may have solved the previous challenges using two functions (ex. "increaseCounter" and "decreaseCounter")
 - Can we solve it with only one function ?
 
 ```jsx

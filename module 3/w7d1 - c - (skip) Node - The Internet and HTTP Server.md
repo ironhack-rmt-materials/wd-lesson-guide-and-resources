@@ -11,11 +11,11 @@ SKIP this unit (go directly to Express)
 
 <!-- 
 
-- Part 1: Skip all (we have already covered all this content) untill 'Why would I use a backend?'
+- Part 1: Skip all (we have already covered all this content) until 'Why would I use a backend?'
 
 - Part 2: 
   - option 1: demo (do not do codealong)
-  - option 2: SKIP alltogether (we'll just need the concept of PORT, which we can explain with Express)
+  - option 2: SKIP all together (we'll just need the concept of PORT, which we can explain with Express)
 
 -->
 
