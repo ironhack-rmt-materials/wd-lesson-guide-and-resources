@@ -102,13 +102,13 @@ Initial Setup:
 
 ## Practice: create a React component
   <!-- @LT: alternative - create repo & upload to stackblitz -->
-- initial code: https://stackblitz.com/edit/stackblitz-starters-mfdjv4?file=src%2FApp.js
+- initial code: https://stackblitz.com/edit/vitejs-vite-waceqd?file=src%2FApp.jsx
 - Step 1: Create a component Header
-  - Note: in stackblitz, you need this line at the beginning of your component `import React from 'react';`
 - Step 2: Render this component in App.js
+- Bonus: practice other options for export/import.
 - Time: 5min.
 
-- Solution: https://stackblitz.com/edit/stackblitz-starters-mfdjv4?file=src%2Fcomponents%2FHeader.js
+- Solution: https://stackblitz.com/edit/vitejs-vite-7zcpti?file=src%2FApp.jsx
 
 
 

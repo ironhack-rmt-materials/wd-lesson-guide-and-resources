@@ -9,6 +9,11 @@
 
   - Example of traditional page lifecycle:
     - https://somethings-cooking.adaptable.app/
+    <!-- 
+    @todo: app broken, choose different example
+    (e.g.: zoom, google)
+    -->
+    
   - Example of SPA:
     - https://wordrobe-wonderland.netlify.app/
     - https://meet-them-all.netlify.app/

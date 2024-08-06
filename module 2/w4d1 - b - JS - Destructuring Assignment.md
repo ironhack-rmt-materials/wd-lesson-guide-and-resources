@@ -20,7 +20,7 @@
 
     ```js
     const user = {
-        company: 'Ironhacker',
+        company: 'Ironhack',
         age: 30,
         favoriteMusic: 'Rock',
     };
@@ -98,9 +98,8 @@ Problem: it works but, if we have to access many properties it is a bit repetiti
 - Example:
 
     ```js
-    const campuses = ['madrid', 'barcelona', 'miami'];
-
-    const [firstCampus, secondCampus, thirdCampus] = campuses;
+    const colors = ["red", "green", "blue", "purple"];
+    const [firstColor, secondColor, thirdColor, fourthColor] = colors;
     ```
 
   - NOTE: ORDER MATTERS! (in object destructuring order is not important)
@@ -109,7 +108,7 @@ Problem: it works but, if we have to access many properties it is a bit repetiti
 
 - Skipping elements:
     ```js
-    const [ , , thirdCampus] = campuses;
+    const [ , , thirdColor] = campuses;
     ```
 
 

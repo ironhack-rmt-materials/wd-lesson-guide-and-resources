@@ -8,7 +8,10 @@
 
 - Show project examples (from previous students)
   - Traditional App: https://somethings-cooking.adaptable.app/
-    <!-- @todo: app broken, choose different example -->
+    <!-- 
+    @todo: app broken, choose different example
+    (e.g.: zoom, google)
+    -->
   - SPA: https://wordrobe-wonderland.netlify.app
     - Perfect example for an MVP (CRUD on 1 resource)
     - Responsive.
