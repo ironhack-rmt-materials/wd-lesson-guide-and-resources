@@ -2,65 +2,44 @@
 # w4d2
 
 
-<!-- 
-
-
-@todo:
-- improve planning + improve steps in demo (ex. create .md with steps to follow)
-- create slides or cheatsheet for state ?
-
--->
-
-
-
 
 ## Summary Today
 
-(skip) LAB Q&A
+- Q&A [20m]
 
-Quick Refresh:
-- components + props (how to pass and receive props)
-  - Create a component `<Banner />` + pass "message" as props
+- Refresh
+  - object destructuring
+  - array destructuring
+  - ES Modules
+  - npm
+  - (skip) creating an app with Vite
+  - (skip) creating components
 
 
-State
-- demo (start with a basic counter) [1h]
-- exercise to practice state [30m]
+- [LESSON] React | Components & Props [2h]
 
-Create "popcorn-time" with Vite
+- [LESSON] React | List & Keys [1h]
 
-Popcorn Time I:
-- Initialize project with Vite
-- Create component structure [20m]
-- (skip) exercise to refresh forEach() and map()
-- Import json + iterate through array with .map() [40m]
-- Removing elements from a list (will apply State) [40m]
-- Conditional rendering (3 options) [40m]
-- (extra) sort or display only top-rated movies (store in state) 
+- [LESSON] React | Conditional Rendering [1h]
 
 
 
 
 ## Active Learning
 
-- (individual) LAB | React Tweets
-- (in pairs) Mini Project | React App
+<!-- July2024: workload is very reasonable (2 labs + mini-project) -->
 
-- Bonus: LAB | React Props Training
+- (individual) LAB | LAB | React Props Training
+  - Do iterations 1 + 2 + 3 + 4.
+
+- (in pairs) Mini Project | React App (Day 1)
+  - Read project brief + work on the tasks for day 1.
+  - Note: work in pair-programming.
+
+- (in pairs) LAB | React Tweets
+  <!-- Note: the goal of this lab is to practice components (you will be creating many) -->
 
 
-
-
-## Active Learning (prev. to 9.4)
-
-- (individual) LAB | React State Training [45m]
-  - The main goal of this lab is to practice syntax for useState
-  - Do 2-3 iterations and move on to the next lab.
-
-- (individual) LAB | React Iron Travels [45m]
-  - Note: focus on functionality
-
-- (in pairs) Mini Project | React App (Day 2) [2.5h]
-  - You will find the json files in "Project Brief: React App"
-
+Bonus:
+- LAB "React Props Training" includes quite a few bonus iterations.
 

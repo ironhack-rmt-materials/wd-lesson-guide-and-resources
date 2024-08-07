@@ -23,7 +23,6 @@ Status: draft
   > Hooks let you use different React features from your components. 
   
 
-
 - We've learned how to pass info with props
   - props = info that comes from outside of the component
 
@@ -62,9 +61,9 @@ DEMO: add a counter in `<Header />`:
 
   <!-- @Luis:  DEMO (we will do an exercise in a few moments)  -->
 
-  - display a message: "Number of likes: XXXX"
-  - add button 
-  - add onClick event
+  - Display a message: "Number of likes: XXXX"
+  - Add button 
+  - Add onClick event
   - Explain these two patterns (before implementing the function):
     - `onClick={() => { console.log("clicked...")}}`
     - `onClick={increaseCounter}`
@@ -111,18 +110,10 @@ DEMO: add a counter in `<Header />`:
     ```
 
 
-Explain:
-- in a component we can have multiple stateful variables
-  ```js
-    const [counter, setCounter] = useState(0);
-    const [pizza, setPizza] = useState("margaritta");
-  ```
-
-
 
 ## Practice: React State
 
-<!-- @Luis: remember to FORK  -->
+<!-- @LT: remember to FORK  -->
 
 Initial code:
 https://stackblitz.com/edit/stackblitz-starters-723xsm?file=src%2FApp.js
@@ -164,8 +155,8 @@ const updateCounter = (diff) => {
 
 Bonus 3:
 - Add 2 buttons so that the user can switch theme.
-  - ex. if user clicks "Switch to dark theme", display a dark background
-  - ex. if user clicks "Switch to light theme", display a light background
+  - e.g., if user clicks "Switch to dark theme", display a dark background
+  - e.g., if user clicks "Switch to light theme", display a light background
 
 Bonus 4:
 - Implement the functionality to change theme with a single button (ex. toggleTheme) and a single function.
@@ -192,12 +183,22 @@ Solution 4 (with `counter` + single button to toggle `theme`):
 
 
 
-## (extra) add a counter to a component that repeats multiple times (ex. User/Movie)
+## Multiple state variables
 
+In a component we can have multiple stateful variables
+
+```js
+const [counter, setCounter] = useState(0);
+const [pizza, setPizza] = useState("margherita");
+```
+
+
+
+## (extra) add a counter to a component that repeats multiple times (ex. User/Movie)
 
 See how the counter of each component is independent (state belongs to the component)
 
-  <!-- @todo: create example on stackblitz & share with students -->
+<!-- @todo: create example on stackblitz & share with students -->
 
 
 
@@ -241,16 +242,8 @@ Why should I use a function if the new state depends on the previous? Example: h
 
 
 
-## State vs. Props (IMPORTANT)
+## State vs. Props
 
 - See students portal
-
-
-
-
-## (skip) Events (students portal)
-
-<!-- not much to mention (we've already used onClick) -->
-
 
 

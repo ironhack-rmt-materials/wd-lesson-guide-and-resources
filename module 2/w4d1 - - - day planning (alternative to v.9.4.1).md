@@ -25,7 +25,13 @@
 ## Active Learning
 
 - (individual) mini-LAB React Components: https://gist.github.com/luisjunco/5222c137b8cf1c6d41933711267cc329
-<!-- @todo: add solutions  -->
+
+<!-- 
+@todo: 
+- create repo
+- add solutions
+- improve iterations (eg. add bonus with some css)
+-->
 
 - (individual) LAB | Intro Node
 

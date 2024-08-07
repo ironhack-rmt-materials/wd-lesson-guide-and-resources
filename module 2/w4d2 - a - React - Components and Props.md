@@ -5,11 +5,7 @@
 
 <!-- 
 
-Status: just some notes as a summary 
-
-Notes:
-- Some students find it difficult to remember how to pass & receive props (even after a few days).
-
+Status: draft
 
 @todo: prepare a basic exercise to practice Components + props.
   - create stackblitz
@@ -40,14 +36,17 @@ Examples:
 - https://reactjs.org/docs/components-and-props.html#function-and-class-components
 
 
+
 ## Create components
 
+Work on the app from yesterday and create these components:
 - `<Header />`
 - `<User />`
 - `<Footer />`
 
 
 For User:
+
 ```jsx
   function User(){
       return(
@@ -55,7 +54,6 @@ For User:
       );
   }
 ```
-
 
 
 
@@ -78,24 +76,26 @@ For User:
 
 ## Props II (using props to make our components more reusable)
 
-- Create a component for each user:
+Create a component for each user:
 
-  ```jsx
-  function UserOne(){
-      return <h1>Name: Alice</h1>;
-  }
+```jsx
+function UserOne(){
+    return <h1>Name: Alice</h1>;
+}
 
-  export default UserOne;
-  ```
+export default UserOne;
+```
 
-  ```jsx
-    <Header />
-    <UserOne />
-    <UserTwo />
-    <UserThree />
-    <Footer />
-  ```
 
+```jsx
+  <Header />
+  <UserOne />
+  <UserTwo />
+  <UserThree />
+  <Footer />
+```
+
+- Ask students what they think about the code above
 
 - Explain: props are similar to function arguments 
 
@@ -115,13 +115,14 @@ For User:
 
 ## Practice: components and props
 
+<!-- @todo: consider creating a more simple exercise (passing just a string as props, instead of an object) -->
+
 Initial code: 
-- https://stackblitz.com/edit/react-flgcfo?file=src/App.js
--  note: in App.js we have an array of movies
+- https://stackblitz.com/edit/vitejs-vite-udhmpb?file=src%2FApp.jsx
+- note: in App.js we have an array of movies
 
 Iteration 1: 
   - create a component "Movie" (for this iteration, just display an h1 ex. `this is the Movie component`).
-  - IMPORTANT: in stackblitz, you need to import react in each file (`import React from 'react';`)
 
 Iteration 2: 
   - in App.js, render 3 times the Movie component
@@ -144,9 +145,14 @@ Bonus 2: Keep challenging yourself further.
 
 Time: 20min.
 
+Solution: https://stackblitz.com/edit/vitejs-vite-gzumrd?file=src%2FApp.jsx
 
-Solution: https://stackblitz.com/edit/react-e2bf8p?file=src/components/Movie.js
 
+<!-- 
+@LT:
+- solve together (brief) 
+- explain how to add css (className + add rules to index.css)
+-->
 
 
 ---
@@ -158,12 +164,6 @@ Note: Todays lab
     `<Tweet tweet={ tweetsArray[1] }>`
     `<Tweet tweet={ tweetsArray[2] }>`
 - Each element is an object (ie. `props.tweet` is an object)
-
-
-
-Mention: 
-- we will see options to iterate through an array.
-- for now, they can use the syntax we've seen so far.
 
 
 
@@ -181,11 +181,7 @@ Mention:
 
 
 
-
 ## When do you use props?
-
-
-
 
 
 

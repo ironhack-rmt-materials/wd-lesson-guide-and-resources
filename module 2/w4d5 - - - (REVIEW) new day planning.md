@@ -43,3 +43,27 @@ PROMISES:
 - LAB JS ES6 Reinforcement (for...of loop, .filter()):
   - https://github.com/ironhack-labs/lab-js-es6-reinforcement
   - currently not in the schedule
+
+
+
+
+## Active Learning
+
+
+- (individual) React Exponents Counter [45m]
+- (individual) React Forms [45m]
+
+  <!-- 
+  
+  Bonus: Iteration 4 | Refactor - Form Component
+  - make sure you commit before you start refactoring.
+  - (that way, if you need to roll back, you can just discard the changes with "git restore")
+
+  -->
+
+
+- (in pairs) Mini Project | React App (Day 4) [2.5h]
+
+- Bonus: there's some labs in the students portal
+
+
