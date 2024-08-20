@@ -38,6 +38,12 @@ Status:
 
 
 
+<!-- IMPORTANT -->
+- Ask students to submit urls (repo + github pages) on students portal
+- Set DEADLINE
+<!-- IMPORTANT -->
+
+
 
 ## Notes
 
@@ -75,15 +81,11 @@ Status:
 - Submit URLs in the students portal
 
 
+## How to fix error on page reload
+
+Fix error when user reloads the page on Netlify:
+- Explained in the video at 30:28
+- https://www.loom.com/share/915ec9d82f10412eb1e6fb4f77815cab?t=1828&sid=c4fbdae9-5157-4aa0-8f64-db30f6d870ad
 
 
-
-<!-- IMPORTANT -->
-<!-- IMPORTANT -->
-<!-- IMPORTANT -->
-- Ask students to submit urls (repo + github pages) on students portal
-  - (Set DEADLINE)
-<!-- IMPORTANT -->
-<!-- IMPORTANT -->
-<!-- IMPORTANT -->
 
