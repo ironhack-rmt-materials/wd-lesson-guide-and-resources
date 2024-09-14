@@ -51,15 +51,15 @@ Option 1:
 Option 2 (preferred, since its easier to share the code): 
 - work here: https://stackblitz.com/edit/react-s2s6wx?file=src%2FApp.js
 
-  <!-- @Luis: remember to FORK -->
-  <!-- @Luis: remember to FORK -->
-  <!-- @Luis: remember to FORK -->
+  <!-- remember to FORK -->
+  <!-- remember to FORK -->
+  <!-- remember to FORK -->
 
 
 
 DEMO: add a counter in `<Header />`:
 
-  <!-- @Luis:  DEMO (we will do an exercise in a few moments)  -->
+  <!-- @LT: DEMO (we will do an exercise in a few moments)  -->
 
   - Display a message: "Number of likes: XXXX"
   - Add button 

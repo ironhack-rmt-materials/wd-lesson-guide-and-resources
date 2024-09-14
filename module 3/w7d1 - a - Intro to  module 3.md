@@ -20,6 +20,10 @@
 
 - See sample project:
   - https://meet-them-all.netlify.app
+    <!-- 
+    @todo: app broken, choose different example
+    (e.g.: zoom, google)
+    -->
   - On that example, see how it works as an SPA (React)
 
 

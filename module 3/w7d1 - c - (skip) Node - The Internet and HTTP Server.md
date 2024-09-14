@@ -32,7 +32,6 @@ Intro:
   - We will build a basic server, listening for http requests
   - (we build the Server in the Request-Response model)
 - Syntax is not relevant (we will be using Express)
-  <!-- @Luis: ask students NOT to codealong for this example  -->
-  <!-- @Luis: ask students NOT to codealong for this example  -->
+  <!-- @LT ask students NOT to codealong for this example  -->
 
 

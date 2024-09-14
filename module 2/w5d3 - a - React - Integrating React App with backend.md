@@ -84,6 +84,11 @@ Extra:
     if (projects === null) {
       return <div className="loader"></div>;
     }
+
+    // or...
+    if (projects === null) {
+      return <Loader />;
+    }
   ```
 
 Steps (in more detail):

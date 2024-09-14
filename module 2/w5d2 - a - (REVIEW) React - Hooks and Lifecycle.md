@@ -39,7 +39,7 @@ Notes:
   - Routing
 
 
-<!-- @Luis: keep all code in App.js (it will make things easier for Routing) -->
+<!-- Note: keep all code in App.js (it will make things easier for Routing) -->
 
 
 
@@ -81,6 +81,21 @@ Diagram promises (fulfilled, rejected):
 
 ## Practice: Axios Post request
 
+
+<!-- 
+
+@LT: 
+
+- On Stackblitz, can install `axios@0.27.2`
+
+- Ask students to DISABLE AUTO-SAVE (so that we don't repeat names many time)
+  - on CodeSandbox: https://stackoverflow.com/a/74508939/11298742
+
+- Show documentation for axios.post()
+
+-->
+
+
 Initial code (it already has axios installed): https://stackblitz.com/edit/js-8lg6qc?file=index.js
 
 Iteration 0:
@@ -112,37 +127,27 @@ Solution:
   - https://codesandbox.io/s/lively-cache-olz44t?file=/src/index.js
 
 
-  <!-- 
-
-  @LT: 
-
-  - On Stackblitz, can install `axios@0.27.2`
-
-  - Ask students to DISABLE AUTO-SAVE (so that we don't repeat names many time)
-    - on CodeSandbox: https://stackoverflow.com/a/74508939/11298742
-  
-  -->
 
 
 
-
-
-- Remember, there's many ways to send http requests:
-  - fetch(), libraries (ex. axios)
-
-
-
-
-## (optional) introduce the syntax that we'll see today (useEffect)
+## Introduce the syntax that we'll see today (useEffect)
 
 Example API request in React:
 https://stackblitz.com/edit/vitejs-vite-gn4dd9?file=src%2FApp.jsx
 
-<!-- @todo: create components (Header, Footer, CharactersList) -->
 
 
 
-## Intro/Explain: concept of Side-Effect
+## Intro: Component Lifecycle
+
+Show how components are executed:
+  - add console.log() for each component on the app we created yesterday ("popcorn time")
+  - See how each function component is executed
+  - See that, when `state` or `props` change, a component is re-rendered
+
+
+
+## Intro: concept of Side-Effect
 
 Alternative: 
 - ask students to do some research
@@ -164,7 +169,7 @@ Examples: https://stackblitz.com/edit/js-sefk58?file=index.js
   -->
 
 
-- (extra) explain "pure functions"
+- (skip) explain "pure functions"
 
   - PURE FUNCTION:
     1. No side-effects
@@ -176,23 +181,28 @@ Examples: https://stackblitz.com/edit/js-sefk58?file=index.js
 
 
 
-
 ## (DEMO) sending API requests in our React App.
 
 <!-- DEMO ONLY -->
 
 How:
-- Show demo on the app from yesterday (popcorn-time).
+- Fork this app (hello world with plain CSS): 
+  - https://stackblitz.com/edit/vitejs-vite-5fkups?file=src%2FApp.jsx
+  <!-- @LT: remember to fork ! -->
+
+
+Endpoint: 
+- GET: https://jsonplaceholder.typicode.com/users
+
 
 What we will do: 
-- in the Header, display the number of characters in the API.
+- Display the number of users in the API.
+
 
 <!--
-@Luis: 
-
+@LT: 
 - display number of characters
 - DO NOT display list of characters (we will do an exercise later)
-
 -->
 
 Steps:
@@ -231,19 +241,6 @@ Step 3:
 
 
 
-## Initial Setup
-
-- navigate to module2 directory
-- `npm create vite@latest react-characters-app -- --template react`
-- cd react-characters-app
-- code -r .
-- npm install
-- npm run dev
-
-To run on a specific port:
-- npm run dev -- --port=3002
-
-
 
 ## Component Lifecycle
 
@@ -259,24 +256,11 @@ To run on a specific port:
 -->
 
 
-(Intro) Show how components are executed:
-  - add console.log() for each component on the app we created yesterday ("popcorn time")
-  - See how each function component is executed
-  - See that, when `state` or `props` change, a component is re-rendered
-
-
-Stages:
-- Mounting
-- Updating
-- Un-mounting
-
-
-
 - Slides "Hooks and Lifecycle":
   - https://docs.google.com/presentation/d/1kAtC4-ONnFGdfLAGhAtNYSl09ViBSUUgyA4PpEbfDYg/edit?usp=sharing
 
 
-- Show diagrams: 
+- (skip) diagrams: 
   - Hooks: https://wavez.github.io/react-hooks-lifecycle/
   - Classes: https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
@@ -298,9 +282,6 @@ https://legacy.reactjs.org/docs/hooks-reference.html
 
 
 
-- How can we then make a call to an API ?
-
-- Show wrong example (axios.get at the beginning of function component)
 
 - Introduce useEffect()
 
@@ -341,7 +322,7 @@ https://legacy.reactjs.org/docs/hooks-reference.html
 
 `useEffect(() => {}, [])`
 
-- The empty array [] means that “this effect doesn’t depend on anything”, 
+- The empty array [] means that "this effect doesn't depend on anything", 
 
 
 
@@ -390,7 +371,7 @@ https://legacy.reactjs.org/docs/hooks-reference.html
 
 
 
-## Practice: useEffect (get a list of characters)
+## Practice: API request with useEffect (get a list of characters)
 
 <!-- 
 
@@ -399,8 +380,13 @@ Note: students need a lot of guidance to be able to do this task for the first t
 -->
 
 
-Initial code: https://stackblitz.com/edit/vitejs-vite-qpqbnd?file=src%2FApp.jsx
+Initial code: https://stackblitz.com/edit/react-kgkeid?file=src%2FApp.js
 
+<!--
+note:
+- it uses stackblitz's classic engine (students were finding confusing to install dependencies in the new engine + also has a dedicated console)
+- axios is already installed
+-->
 
 Iteration 1: display the number of characters (in App.jsx)
 - In App.js: use `useEffect` & `axios` to get a list of characters from the API.
@@ -410,8 +396,8 @@ Iteration 1: display the number of characters (in App.jsx)
 
 
 Iteration 2: display a list of characters (in App.jsx)
-- Display info about each character in the user interface.
-- Ex. for each character, something like this:
+- Display the list of characters (with some info about each character).
+- For example, for each character, display something like this:
   ```html
     <div className="character">
       Name: xxxx
@@ -422,9 +408,9 @@ Iteration 2: display a list of characters (in App.jsx)
 - Notes:
   - We will work on `App.jsx` (for now, DO NOT CREATE OTHER COMPONENTS)
   - You will need a stateful variable to store the list of characters
-    - Ex.: ` const [characters, setCharacters] = useState([]); `
+    - e.g.: `const [characters, setCharacters] = useState([]);`
   - Once we get the response from the API, update state so that React re-renders the component.
-  - In our JSX, we need to iterate through the stateful variable. Ex.: `charactersArr.map()`
+  - In our JSX, we need to iterate through the stateful variable - e.g.: `charactersArr.map()`
 
 Bonus:
   - Display only first 10 characters
@@ -437,6 +423,36 @@ How: work in pairs.
 Time: 30m.
 
 
+Solutions:
+- iteration 1: https://stackblitz.com/edit/react-wmmoaz?file=src%2FApp.js
+- iteration 2: https://stackblitz.com/edit/react-rtqc32?file=src%2FApp.js
+
+
+
+
+
+## Codealong: Initial Setup
+
+<!-- 
+
+- Codealong "react-characters-app": 1.5h
+
+Options:
+- Option 1: stay in the main room & follow what we're doing
+- Option 2: stay in the main room & try to code-along
+- Option 3: use breakout rooms & start working on LAB & mini-project
+
+-->
+
+- navigate to module2 directory
+- `npm create vite@latest react-characters-app -- --template react`
+- cd react-characters-app
+- code -r .
+- npm install
+- npm run dev
+
+To run on a specific port:
+- npm run dev -- --port=3002
 
 
 

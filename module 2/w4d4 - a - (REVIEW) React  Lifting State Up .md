@@ -30,11 +30,11 @@ Slides (some diagrams with the component hierarchy that we have):
 Practice: extract code to a child component
 
 <!--
-@Luis:
+@todo:
 
 Need to  improve instructions for this activity
 - goal of Movie component: display the details of only one movie (it will receive those details through props).
-- keep the import for .json in Main.js / MovieList.js
+- keep the import for .json in MovieList.js
 
 IF NOT, do codealong (instead of class activity)
 
@@ -47,8 +47,7 @@ Note: before you start making changes, you may want to make a commit (in case yo
 
 1. Create a Movie component (will display a summary with the details of a movie)
   <!-- Movie => MovieSummary -->
-2. Modify Main.js so that now it renders the Movie component
-  <!-- Main => MovieList -->
+2. Modify MovieList.js so that now it renders the Movie component
   - At the end of this iteration, you should be able to see the list of movies
   - Note: for the delete button, you can remove or comment the onClick event (otherwise it will give you an error).
 3. Functionality to delete will not work. Try to understand why + try to fix it.
@@ -60,7 +59,7 @@ Time: 30m.
 
 Hints for Iteration 3: 
 - Buttons to delete are now in `Movie` component
-- When the user clicks on the button, we need to update state in the parent component (we need to update the list of movies, which is stored as state in the `Main` component).
+- When the user clicks on the button, we need to update state in the parent component (we need to update the list of movies, which is stored as state in the `MovieList` component).
 - To solve it, we need communication from the child to the parent component.
 - You can have a function in the parent component (ex. deleteMovie) and send a reference to that function as props. Then, the child component can invoke that function to update state in the parent component.
 
@@ -87,7 +86,7 @@ LT:
 
   <!-- 
   
-    @Luis:  
+    Note:
     - for the callback, can call it  <Component callbackDoSomething={} />
     - also, many students find it easier if we pass the updater function directly to the children (instead of passing a reference to a function in the parent component)
     
@@ -98,7 +97,7 @@ LT:
 ## Display number of movies in the Header component
 
 - Step 0 (in case we we haven't done it yet). 
-  - Display number of movies in `Main.js` (according to the filter criteria)
+  - Display number of movies in `MovieList.js`
   - Note: many students solve it adding a new stateful variable (introduce the concept of "SINGLE SOURCE OF TRUTH")
 
 - Step 1:
@@ -126,9 +125,12 @@ Fix: functionality to delete movie (passing callbacks to grandchild)
 
 
 ## Extra challenges:
-- Add further controls
-  - Reset button (clears all filters & resets movies to the original list of movies)
-  - Filter movies that are released before/after a year (we still haven't seen forms but you can provide one button for a specific year, ex: "Show old movies (released before 2000)")
-  - Sort movies by year (one button)
-  - Sort movies rating (one button)
+
+- Improve CSS
+- Research: JSX spread attributes (ex. `<Movie {...movieObj}>`)
+
+- Add 2 buttons: "Sort by rating ascending" + "Sort by rating descending"
+- Add 2 buttons: "Sort by year ascending" + "Sort by year descending"
+- Add "Reset" button (clears all filters & resets movies to the original list of movies)
+
 

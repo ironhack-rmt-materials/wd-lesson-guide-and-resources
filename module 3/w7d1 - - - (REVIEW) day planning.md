@@ -72,8 +72,11 @@ Give feedback to students (ex. if you see anything to they can learn from).
 ## Active Learning
 
 - (individual) LAB | Express Basic Server
+
 - (in groups, 3:30pm) Mini Project
   - Read project brief + work on tasks for day 1.
+
+- Bonus: codewars katas
 
 <!-- workload is relatively light (most students finished mini-project early) -->
 

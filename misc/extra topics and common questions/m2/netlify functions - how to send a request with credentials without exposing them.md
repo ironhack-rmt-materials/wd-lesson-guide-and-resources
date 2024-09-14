@@ -97,7 +97,7 @@ Huetopia:
   - Documentation: https://developers.google.com/maps/documentation/javascript/overview#Loading_the_Maps_API
 
 
-- As far as I know, this is the only way to do that (api key needs to be in the browser). For, airbnb, does it this way at the moment (if you see their source code, you can see their google maps api key).
+- As far as I know, this is the only way to do that (api key needs to be in the browser). For example, airbnb, does it this way at the moment (if you see their source code, you can see their google maps api key).
 
 - more info: https://stackoverflow.com/questions/38153734/do-i-need-to-hide-api-key-when-using-google-maps-js-api-if-so-how
 
@@ -107,10 +107,6 @@ Huetopia:
     - https://developers.google.com/maps/documentation/javascript/get-api-key#restrict_key
   2. Plus, limit the number of requests (so that you don't get a bad surprise)
     - https://developers.google.com/maps/documentation/javascript/usage-and-billing#set-caps
-
-
-
-
 
 
 

@@ -69,7 +69,7 @@ Friday: try to finish earlier.
     <!-- IMPORTANT: change DB name -->
     <!-- IMPORTANT: seeds.js not valid, seeds2.js is the correct one -->
 
-    <!-- @Luis: 
+    <!-- @LT: 
          - update seeds file so that ingredients is an array of objects
          - (so that the view from yesterday keeps working)     
     -->
@@ -135,7 +135,7 @@ Time: 15min.
     Pizza.findOne({title: ""});
   ```
   
-  <!-- @Luis: remember to connect to the DB (otherwise you get timeout) -->
+  <!-- @LT: remember to connect to the DB (otherwise you get timeout) -->
 
 - Example: https://github.com/Ironmaidens-Ironhack-Jan-2022/IronmaidensCommerce/commit/b65a5d226c363c5e15acde6c69b6b5ca03d2a443
 

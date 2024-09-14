@@ -13,4 +13,10 @@ Task:
 
 
 
+## Errors
+
+- Error: "TypeError: Cannot read properties of undefined (reading 'schema')"
+    - Reason: students will get this error if they run the tests before creating both models
+    - Solution: they need to implement both models first + export them.
+
 

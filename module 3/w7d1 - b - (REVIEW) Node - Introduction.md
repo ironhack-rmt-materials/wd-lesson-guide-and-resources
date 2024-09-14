@@ -101,7 +101,7 @@ update - m2-m3 swap:
 
 - node_modules...
   - this folder has locally, on your machine, all the libraries/packages you defined in package.json
-  - it shouldn’t be ever pushed to GitHub (it’s huge)
+  - it shouldn't be ever pushed to GitHub (it's huge)
     - heaviest objects in the universe: https://preview.redd.it/tfugj4n3l6ez.png?auto=webp&s=b8163176d8482d5e78ac631e16b7973a52e3b188
     - anyone who clones your repository will be able to regenerate it with npm install based on the package.json.
 

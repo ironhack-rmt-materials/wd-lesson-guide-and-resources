@@ -254,8 +254,9 @@ Basic example with `axios.get()`
 Stackblitz + Axios v.1.x
 
 - Bug report: https://github.com/stackblitz/core/issues/2463
+- note: affects only stackblitz classic engine
 - Option 1: axios@0.27.2
-- Option 1: CodeSandbox.io (works fine with axios@1.x)
+- Option 2: CodeSandbox.io (works fine with axios@1.x)
 
 -->
 
@@ -491,7 +492,7 @@ Fetch API - JavaScript Tutorial for beginners:
   - async/await
 
 
-- JavaScript Promises -- Tutorial for Beginners (ColorCode, 37min.)
+- JavaScript Promises - Tutorial for Beginners (ColorCode, 37min.)
   - https://www.youtube.com/watch?v=TnhCX0KkPqs
   - Topics:
     - Creating promises

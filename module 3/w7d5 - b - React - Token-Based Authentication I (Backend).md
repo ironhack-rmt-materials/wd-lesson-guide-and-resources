@@ -125,7 +125,7 @@ Code summary:
 
 ## Token auth / jwt
 
-  <!-- @todo: create diagrams -->
+  <!-- LT: create diagrams (e.g. on excalidraw) -->
 
 - JWT Diagram: https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/token-auth/jwt-authentication-flow-1.png
 
@@ -141,6 +141,13 @@ Code summary:
   - Advantages & Disadvantages: https://stackoverflow.com/a/71552858/11298742
   - In depth comparison: https://stackoverflow.com/a/35059874/11298742
 
+  <!--
+  @LT:
+
+  Explain also environment variables + how to configure dotenv
+  (they will need that for mini-project)
+  
+  -->
 
 
 ## Create middleware for auth ("JWT Validation Middleware")

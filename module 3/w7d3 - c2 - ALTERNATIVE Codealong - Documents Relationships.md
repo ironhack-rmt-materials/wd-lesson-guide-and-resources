@@ -21,7 +21,7 @@ Goals:
 
 
 <!--
-@Luis:
+@LT:
 - warning: complex concepts
 - DO BREAKS OFTEN (short breaks) + quick game after each break (ex. pictionary)
 -->
@@ -160,7 +160,7 @@ More info (do not share with students):
 ## Update Seeds file
 
 <!--
-@Luis:
+@LT:
 - add seed w/o relationships + ask students to read understand the code
 - (quick demo) show how we could add relationships manually on Compass
 - add seed file with relationships + explain (briefly)
@@ -195,7 +195,7 @@ More info (do not share with students):
 - Drop collection + execute seed file
 
 <!--
-  @Luis: 
+  @LT: 
   - make commit 
   - introduce VS Code Source Control today
 -->
@@ -221,7 +221,7 @@ Time: 5min.
 
 
 <!--
-@Luis:
+@LT:
 
   DEMO - from this point, do DEMO (not codealong)
 
@@ -258,7 +258,7 @@ Time: 5min.
   - Mention: in today's LAB, we can use a select with `multiple`.
 
   <!--
-  @Luis:
+  @LT:
   
   - mention select `multiple`
   - (it's in LAB instructions but worth to mention)

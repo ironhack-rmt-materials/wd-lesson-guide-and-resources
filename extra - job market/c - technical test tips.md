@@ -1,6 +1,6 @@
 
 
-# TECHNICAL TEST TIPS
+# Technical Test Tips
 
 
 Steps:

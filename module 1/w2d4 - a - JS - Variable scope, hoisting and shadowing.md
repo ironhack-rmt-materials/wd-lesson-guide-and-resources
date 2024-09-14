@@ -62,7 +62,7 @@ REMEMBER (again):
 
 With functions:
 - inner functions (/blocks) can access outer variables (outerVar). 
-- outer functions (/blocks) can’t access the inner variables (innerVar).
+- outer functions (/blocks) can't access the inner variables (innerVar).
 
 
 
@@ -122,7 +122,7 @@ Example 1:
   console.log(`Name OUTSIDE if statement: ${ironhacker}`);
   ```
 
-> When JavaScript sees a reference to a variable, it will try to find the variable declaration within the same scope where it has been referenced. If it can’t find that declaration, it will look for it within the parent scope. If it can’t find it there, it will look for the grand-parent scope… and will keep trying until it reaches the global scope.
+> When JavaScript sees a reference to a variable, it will try to find the variable declaration within the same scope where it has been referenced. If it can't find that declaration, it will look for it within the parent scope. If it can't find it there, it will look for the grand-parent scope… and will keep trying until it reaches the global scope.
 
 
 
@@ -186,7 +186,7 @@ Example 2 (ask students):
 -->
 
 - (skip) var and hoisting:
-  - Variables declared using var are moved to the top if it’s scope (we say - hoisted) and initialized with a value of undefined.
+  - Variables declared using var are moved to the top if it's scope (we say - hoisted) and initialized with a value of undefined.
 
   - Example:
 
@@ -198,7 +198,7 @@ Example 2 (ask students):
 
 - (skip) let/const and hoisting:
 
-  - let and const hoist, but you can’t access them before the actual declaration is evaluated at runtime.
+  - let and const hoist, but you can't access them before the actual declaration is evaluated at runtime.
 
   - Example:
 

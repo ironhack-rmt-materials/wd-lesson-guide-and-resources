@@ -19,6 +19,9 @@ Status: draft
 
 
 
+
+
+
 Steps:
 - 1. Create the Form in the same component where we store the list of movies (ie. w/o creating a specific component for the form)
 

@@ -1,6 +1,6 @@
 
 
-# INTERVIEW TIPS
+# Interview Tips
 
 
 DO YOUR OWN RESEARCH:

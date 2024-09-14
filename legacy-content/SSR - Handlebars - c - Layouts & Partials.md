@@ -75,7 +75,7 @@ Example:
 ## Partials (Bonus / Self guided / Demo)
 
 <!--
-@Luis:
+@LT:
 - do a quick demo (not codealong)
 -->
 

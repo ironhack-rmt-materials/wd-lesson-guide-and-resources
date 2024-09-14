@@ -169,18 +169,23 @@ Steps:
 
 ## (extra challenges)...
   
-  - In MovieList.jsx, display a title: `<h1>We currently have XXX movies available</h1>`
+- In MovieList.jsx, display a title: `<h1>We currently have XXX movies available</h1>`
 
-  - For each movie, display genres (note: it's an array)
+- For each movie, display genres (note: it's an array)
 
-  - Implement a button "Show only top-rated"
-    - When the user clicks, display only movies with rating > 8
-  
-  - Add button to sort by rating
+- Implement a button "Show only top-rated"
+  - When the user clicks, display only movies with rating > 8
 
-  - Add favIcon
-    - Can use these images: https://github.com/Ironhack-Team-Triangle-July2021/ironhack-cinema/commit/f4cf21c91608b1fdf95b359031e676c90cbf8c3f#diff-09e657b7706f48b0af84577d8d340912648fa2d247d808a18e26e3459df1a26b
+- Add button to sort by rating
 
-  - Research: JSX spread attributes.
-    - `<Movie {...movieObj}>`
+- Add favIcon
+  - Can use these images: https://github.com/Ironhack-Team-Triangle-July2021/ironhack-cinema/commit/f4cf21c91608b1fdf95b359031e676c90cbf8c3f#diff-09e657b7706f48b0af84577d8d340912648fa2d247d808a18e26e3459df1a26b
+
+- Research: JSX spread attributes.
+  - `<Movie {...movieObj}>`
       
+
+JSX spread attributes:
+- Demo: https://stackblitz.com/edit/vitejs-vite-eu9l16?file=src%2FApp.jsx
+- More info: https://reactpatterns.js.org/docs/jsx-spread-attributes/
+

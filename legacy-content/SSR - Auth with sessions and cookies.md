@@ -48,7 +48,7 @@
 
 <!-- 
 
-  @luis: 
+  @LT: 
   - to keep the codealong a little bit shorter, apply this changes at the same time of the previous step (sessions + store sessions in DB, at the same time).
 
 -->

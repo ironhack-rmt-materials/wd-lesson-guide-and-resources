@@ -13,8 +13,8 @@ React Router Version History (dates on the left):
 - https://github.com/remix-run/react-router/releases
 
 Latest cohorts:
-- Nov. 2023: v.6.18 (all working well)
 - Feb. 2024: v.6.22 (all working well)
+- Aug. 2024: v.6.26
 
 -->
 
@@ -69,3 +69,25 @@ Steps:
 
 Notes: 
 - Show how we can display the nav menu in all pages or only in the homepage
+
+
+
+
+## Practice: React Router
+
+<!-- 
+
+@todo: 
+- improve instructions (more detailed)
+- add solutions 
+-->
+
+Initial code: https://stackblitz.com/edit/vitejs-vite-bpxr81?file=src%2FApp.jsx
+
+Your task: implement routing.
+
+Bonus: add some nice CSS.
+
+Time: 15min.
+
+<!-- @LT: explain how to do npm install on Stackblitz -->

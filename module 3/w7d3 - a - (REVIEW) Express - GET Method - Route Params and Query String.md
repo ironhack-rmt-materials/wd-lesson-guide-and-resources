@@ -226,7 +226,7 @@ Solution: put before the routes that are more specific (and later the ones with 
 
 <!--
 
-@Luis: 
+@LT: 
 
 - IMPORTANT: (before this step) implement page with list of resources
   - ex. /search or /pizzas

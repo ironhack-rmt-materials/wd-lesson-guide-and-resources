@@ -37,10 +37,6 @@ After presentations:
 
 <!--
 
-@Luis: schedule code freeze message
-
-
-
 Code Freeze Time 
 - Full test on production (check all is ok)
 - No further changes on production.

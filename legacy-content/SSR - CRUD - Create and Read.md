@@ -44,7 +44,7 @@ Codealong Final Result (README.md includes all the steps):
 
   <!--
 
-  @Luis:
+  @LT:
   - provide code for the view
   - example: https://github.com/ironhack-rmt-resources/library-project-crud-codealong/blob/29c1ef3bf7bcadb272c95ba644d4695d2ea68b5a/views/books/books-list.hbs
 

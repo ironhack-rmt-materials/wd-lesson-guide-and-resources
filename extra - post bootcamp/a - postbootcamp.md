@@ -147,7 +147,7 @@ Some topics:
 - Search some job offers (eg. linkedin) & read 1 or 2 job offers.
 
 <!--
-@Luis: see some notes in "Feeling ready" (w7d1)
+@LT: see some notes in "Feeling ready" (w7d1)
 -->
 
 
@@ -158,7 +158,7 @@ Codevolution - Preparing for a Frontend Interview
 https://learn.codevolution.dev/p/preparing-for-a-frontend-interview
 
 
-Frontent Challenges (CSS mostly):
+Frontend Challenges (CSS mostly):
 https://www.instagram.com/p/CoxWkrjD3mH/?igshid=YmMyMTA2M2Y%3D
 
 

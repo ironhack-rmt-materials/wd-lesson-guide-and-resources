@@ -211,10 +211,10 @@ ___
 - we can add/update/delete properties
 - but we can not reassign the object
     - is fixed to the same reference (address) in the memory
-    - the variable declared with const can’t be reassigned to a different value
+    - the variable declared with const can't be reassigned to a different value
 
 
-    > In the case of declaring an object using the const keyword, this means that new properties and values can be added BUT the value of the object itself is fixed to the same reference (address) in the memory and the object (or any variable declared with const) can’t be reassigned.
+    > In the case of declaring an object using the const keyword, this means that new properties and values can be added BUT the value of the object itself is fixed to the same reference (address) in the memory and the object (or any variable declared with const) can't be reassigned.
 
 
 

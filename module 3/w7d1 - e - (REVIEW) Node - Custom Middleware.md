@@ -13,7 +13,7 @@
 
 Explain:
 - middleware
-  - ![diagram](../media/images/express-middleware.png)
+  - diagram 1: https://developer.okta.com/assets-jekyll/blog/express-middleware-examples/middleware-30b3b30ad54e21d8281719042860f3edd9fb1f40f93150233a08165d908f4631.png
 
   - diagram 2: https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m2/expressjs/express-middleware-1.png
 

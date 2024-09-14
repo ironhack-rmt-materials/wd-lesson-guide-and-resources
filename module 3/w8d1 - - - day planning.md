@@ -3,7 +3,8 @@
 
 
 - Refresh
-  - (skip) How we implement CRUD
+  - (skip) How we implement CRUD (example: `Comment`)
+  <!-- @LT: can be interesting to show with commentMessage + author -->
     - Model
     - Routes
       - one file per resource
@@ -16,7 +17,7 @@
       - similar to "Create" but we need to create hash
     - Endpoint to login (`/login`)
     - Verify
-  - Protected routes
+  - Protected routes with middleware
 
 
 - React | Context API

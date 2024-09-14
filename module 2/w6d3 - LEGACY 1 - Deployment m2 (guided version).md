@@ -79,7 +79,8 @@ Slides:
 
 
 <!--
-@Luis
+
+Note:
 
 - choose who will deploy "project2" vs "library project"
 
@@ -190,13 +191,13 @@ do not push button...
 
 - Choose an app name
   - Note: name will be public (ex. https://my-restaurant.adaptable.io)
-  <!-- @Luis:  break (so that they agree on the name) -->
+  <!-- break (so that they agree on the name) -->
 
 
 - HTTP Listener on PORT: confirm checkbox + click deploy.
 
 - (app takes a bit to build, about 5min)
-  <!-- @Luis:  break / pictionary here ??? -->
+  <!-- break / pictionary here ??? -->
 
 
 
@@ -254,7 +255,7 @@ do not push button...
 
 ## Seed file (seed data on production DB)
 
-<!-- @Luis: share instructions on Slack (no need to demo) -->
+<!-- @LT: share instructions on Slack (no need to demo) -->
 
 
 To seed data on production, you can do the following:
@@ -280,7 +281,7 @@ To seed data on production, you can do the following:
 https://github.com/Sepidehatt/KeepMeAlive-hbs-version
 
 <!--
-@Luis (Keep me alive):
+Note (Keep me alive):
 - Model.countDocuments() instead of .find() (less chances of students returning the response from DB)
 -->
 

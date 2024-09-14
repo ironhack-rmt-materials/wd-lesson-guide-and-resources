@@ -24,7 +24,7 @@ These are the channels we create on our slack workspace.
 
 - 1--general
   - Topic: This is the main channel for announcements and general topics
-Check what’s pinned at the top!
+Check what's pinned at the top!
 
 - 2--class-activities
   - Topic: Class activities and exercises will be added here.

@@ -7,51 +7,36 @@
 
 - LAB Q&A [20m]
 
-<!-- @todo: create a small warmup activity (before we start with "how the internet works") -->
 
-- How the internet works [30m]
+- Refresh lifting state up
 
-- What is an API [30m]
+- Refresh Routing:
+  - (skip) Routing cheatsheet
+  - setup
+  - basic routing
+  - url params
 
-- Promises
+- Spread operator [10m]
 
-
-- Bonus: HOF exercises
-
-
-
-PROMISES:
-
-0. Intro to what we will see today
-   -- https://miro.medium.com/v2/resize:fit:1838/1*AqkCUN-kD_fLefEFPnX2Uw.png
-   -- https://stackblitz.com/edit/js-mbknjw?file=index.js
-
-1. Callback Pattern
-  -- what the heck is a promise?
-
-2. Consuming promises with .then().catch()
-  -- Include one Exercise
-  
-3. Consuming promises with async/await.
-  -- Include one Exercise
+Forms: [2.5h]
+- functionality to add movies (Step 1: form with 1 field)
+- functionality to add movies (Step 2: form with multiple fields)
+  - as an exercise (see "React - Forms.md")
+- fix: routing (generate unique id's)
+- (extra) functionality to add movies (Step 3: extract to a separate component)
+- (extra) Handling multiple inputs with a single method
 
 
-
-
-## Extra challenges
-
-- LAB JS ES6 Reinforcement (for...of loop, .filter()):
-  - https://github.com/ironhack-labs/lab-js-es6-reinforcement
-  - currently not in the schedule
-
+Extra:
+- functionality for searchbox (asked in today's lab)
 
 
 
 ## Active Learning
 
 
-- (individual) React Exponents Counter [45m]
-- (individual) React Forms [45m]
+- (individual) React Exponents Counter
+- (individual) React Forms
 
   <!-- 
   
@@ -62,8 +47,8 @@ PROMISES:
   -->
 
 
-- (in pairs) Mini Project | React App (Day 4) [2.5h]
+- (in pairs) Mini Project | React App (Day 4)
 
-- Bonus: there's some labs in the students portal
+- Bonus: check bonus labs in the students portal
 
 

@@ -9,8 +9,6 @@
 
 @todo: 
 - create cheatsheet
-- create repo to fork (for codealong)
-
 
 -->
 
@@ -20,7 +18,9 @@
 ## Intro (slides + students portal)
 
 Slides: Passing information between components
+
 - https://docs.google.com/presentation/d/1VqmAj_VPWQ2htbWhEXrXT-L1KatZo1FEcixcVyAS2Z4/edit?usp=sharing
+
 - topics: props drilling, context API, Redux
 
 
@@ -28,16 +28,16 @@ Slides: Passing information between components
 
 ## Syntax Intro
 
-@todo:
-- create a demo with the basic syntax (without wrapper component etc)
+- Do a demo with the basic syntax (without wrapper component etc)
 
-<!-- - Initial code:
-  - 3 components in the same file: Parent, Child, GrandChild
-  - https://codesandbox.io/s/beautiful-khorana-2pqxg4?file=/src/App.js
+- Initial Code: https://stackblitz.com/edit/vitejs-vite-wrf9p3?file=src%2FApp.jsx
 
-- (quick refresh) Show prop drilling:
-  - declare a variable in Parent component: `const language = "Spanish";`
-  - pass that variable to GrandChild using props drilling.
+- (quick refresh) Show prop drilling
+
+
+<!-- 
+
+
 
 - Show Context API syntax:
 
@@ -69,7 +69,9 @@ Slides: Passing information between components
     }
 
 
-    ``` -->
+    ```
+    
+  -->
 
 
 
@@ -117,6 +119,7 @@ ex. in `index.js`
     https://codesandbox.io/s/strange-kirch-6hihdd?file=/src/components/Navbar.js:457-503
   - Full result:
     https://codesandbox.io/s/m3-react-context-lesson-code-example-v2-wnj6h?from-embed
+
 
 
 ## Things to keep in mind

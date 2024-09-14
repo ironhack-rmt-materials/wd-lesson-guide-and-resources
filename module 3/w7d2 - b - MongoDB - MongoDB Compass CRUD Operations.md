@@ -36,7 +36,7 @@ Note:
   1. Download .zip from here: https://s3-eu-west-1.amazonaws.com/ih-materials/learning-units/movies.json.zip
     
     <!--  
-      @Luis: 
+      Note: 
       - downloaded here: "\Ironhack\misc\backup-imdb-movies"
       - option 1: send .JSON directly on ZOOM 
       - option 2: send on Slack (works just fine, but students may not see where it is downloaded)
@@ -48,7 +48,7 @@ Note:
       - create db: `cohortname-imdb` + collection `movies`
       - Click on the collection movies + Add Data + Import file
 
-      <!-- @Luis: choose this option (import through Compass) -->
+      <!-- @LT: choose this option (import through Compass) -->
 
     Option 2: 
       
@@ -80,7 +80,6 @@ Note:
 
 
 
-
 ## Delete Documents
 
 - Show how to do it on Compass
@@ -88,11 +87,7 @@ Note:
 
 
 
-
 ## Read Documents
-
-
-<!-- @luis: improve ?? -->
 
 
 - Query Bar & Filter - Basic Query

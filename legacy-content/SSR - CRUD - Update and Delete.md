@@ -12,7 +12,7 @@ Codealong Final Result (README.md includes all the steps):
 How: SELF_GUIDED
 
 
-@Luis: 
+@LT: 
 - IMPORTANT (for tomorrow): implement U+D on our existing repo (15min.)
 
 -->

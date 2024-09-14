@@ -67,5 +67,5 @@ Use cases:
   - we will use objectID's to identify specific documents
 
 
-<!-- @Luis: before the break, it can be good to import IMDB -->
+<!-- @LT: before the break, it can be good to import IMDB -->
 

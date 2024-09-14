@@ -35,7 +35,7 @@ Status: ready
 ## Initial Setup
 
 <!--
-@Luis: 
+@LT: 
 - do this before we go through the documentation (so that we can do quick demos)
 -->
 
@@ -100,11 +100,11 @@ Repo:
 - Code: https://github.com/ironhack-rmt-materials/bootstrap-codealong
 - Demo: https://ironhack-rmt-materials.github.io/bootstrap-codealong/
 
-  <!-- @luis: deploy on another account -->
+  <!-- @LT: deploy on another account -->
 
 
 Initial setup:
-<!-- @luis: follow this so that they have a .html file -->
+<!-- @LT: follow this so that they have a .html file -->
 - mkdir bootstrap-demo
 - cd bootstrap-demo
 - touch index.html

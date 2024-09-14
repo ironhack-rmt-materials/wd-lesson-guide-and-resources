@@ -76,3 +76,10 @@ Before sharing the link, explain:
 - We start from category 1 (explain what it includes)
 
 ![good feedback](./feedback-ih.png)
+
+
+<!--
+- Be constructive. Make sure your feedback makes us grow and improve.  
+- Be action-oriented. Try to give feedback with quick wins, steps and actions in mind. How would 
+-->
+

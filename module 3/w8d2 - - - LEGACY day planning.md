@@ -21,4 +21,4 @@
 - (Self-Guided) "React | Token-Based Authentication II (Frontend)"
 - (Self-Guided) "React | Organizing HTTP Requests"
 
-<!-- @Luis: it takes them 2-3-4 h -->
+<!-- @LT: it takes them 2-3-4 h -->

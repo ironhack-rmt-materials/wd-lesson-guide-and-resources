@@ -23,7 +23,7 @@ Some options to apply CSS to our React apps:
 
 - 4. Component libraries
     - Example: Chakra UI, Mantine, Semantic UI
-    - (skip) Tailwind component libraries: Flowbite, daisyU
+    - (skip) Tailwind component libraries: Flowbite, daisyUI
 
 
 ## Example Global CSS
@@ -50,9 +50,15 @@ Some options to apply CSS to our React apps:
     ```jsx
 
     <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
-        <Box bg='teal.200'>One</Box>
-        <Box bg='teal.200'>Two</Box>
-        <Box bg='teal.200'>Three</Box>
+        <Box bg='teal.200'>one</Box>
+        <Box bg='teal.200'>two</Box>
+        <Box bg='teal.200'>three</Box>
+    </SimpleGrid>
+
+    <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
+        <Card w="100%" boxShadow="xl" borderWidth="1px">one</Card>
+        <Card w="100%" boxShadow="xl" borderWidth="1px">two</Card>
+        <Card w="100%" boxShadow="xl" borderWidth="1px">three</Card>
     </SimpleGrid>
 
     ```

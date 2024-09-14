@@ -51,7 +51,7 @@ Diagram MERN (including Mongoose):
 
 
 <!--
-@Luis:
+@LT:
 
 Instead of the steps in the students portal, do the following
   - Start creating a basic Schema
@@ -143,7 +143,7 @@ Step 1: just title
     Pizza.create({ title: "margarita" });
   ```
 
-  <!-- @Luis: for title, use "margarita" instead of "pizza margarita". -->
+  <!-- @LT: for title, use "margarita" instead of "pizza margarita". -->
 
 
   - Note: a new document will be created every time we execute our file.

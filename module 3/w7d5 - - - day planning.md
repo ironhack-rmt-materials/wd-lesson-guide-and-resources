@@ -12,7 +12,7 @@
 
 - LAB Q&A [20m]
 
-- Refresh [20m]
+- (optional) Refresh [20m]
 
 - Refresh Auth intro + Hash [20m]
     - slides: https://docs.google.com/presentation/d/1gNCZq7lZiph_Dzde34FuL6MI01c0ge1u3djxZMNWxPk/edit?usp=sharing
@@ -31,9 +31,10 @@
 
 ## Afternoon:
 
-- Mini Project - REST API - Day 5 (in groups)
+- (in groups) Mini Project - REST API - Day 5
     - Deadline: Tue 9am.
-- Assessment: "NodeJS and MongoDB REST API" (individual)
+    
+- (individual) Assessment: "NodeJS and MongoDB REST API"
     - Deadline: Wed 9am.
 
 <!-- Recommended: finish both things by Monday -->

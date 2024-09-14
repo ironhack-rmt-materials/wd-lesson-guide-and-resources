@@ -44,6 +44,7 @@
   <!-- Sample repo: https://github.com/ironhack-apr2024-theScriptSociety/iron-restaurant -->
 
 
+
  - Practice: URL params
 
   - Initial code: https://stackblitz.com/edit/stackblitz-starters-6lhrym?file=index.js
@@ -52,18 +53,19 @@
     - GET /artists/2
     - GET /artists/3
 
-  - Time: 10min.
+  - Time: 15min.
 
   - Solution: https://stackblitz.com/edit/stackblitz-starters-gvhcqw?file=index.js
   
     <!-- @LT: show how they can test a route in stackblitz (ex. /artists) -->
 
 
-- (extra) introduce req.query [30m]
+
+- (extra) introduce req.query [40m]
+  <!-- @todo: create exercise -->
 
 
 - MongoDB Intro + MongoDB Compass + CRUD Operations + Exercise [2h]
-
 
 - Data Models ? [20m]
 
@@ -77,10 +79,10 @@
 
 ## Active Learning
 
-- 2pm: LAB | MongoDB - Advanced Querying (individual)
+- (individual) LAB | MongoDB - Advanced Querying
   - Note: to import the db, you can use MongoDB Compass.
   
-- 3:30pm Mini Project - REST API - Day 2 (in groups)
+- (in groups) Mini Project - REST API - Day 2
 
 - Bonus: follow the steps in the unit from tomorrow "Mongoose | Introduction"
 

@@ -62,7 +62,7 @@ Time:
 
 <!-- 
 
-@Luis/TAs:
+@LT/TAs:
 - provide help to students that struggle more, so that then can get the list of apartments quickly & they start the functionality to CREATE.
 
 - 4:30: meet for game + lab explanation

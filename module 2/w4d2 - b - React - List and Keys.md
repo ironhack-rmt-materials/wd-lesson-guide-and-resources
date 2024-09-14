@@ -5,7 +5,7 @@
 
 Status: draft
 
-@Luis: 
+Note: 
 - This unit has improved a lot with v6.1
 - Consider following steps students portal instead (do "popcorn-time" but follow steps from this unit, so that students understand the logical process)
 

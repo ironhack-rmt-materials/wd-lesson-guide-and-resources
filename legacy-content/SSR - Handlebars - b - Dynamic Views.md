@@ -99,7 +99,7 @@ Time: 15min.
 
 - Create a view (ex. `views/product.hbs`)
 
-  <!-- - @Luis: do layout first? Nope, we need to do res.render() first -->
+  <!-- - @LT: do layout first? Nope, we need to do res.render() first -->
 
 
 - Render a view
@@ -125,7 +125,7 @@ Time: 15min.
 
   <!-- 
   
-  @Luis: 
+  @LT: 
   - for now, show only with 1 property (title) 
   - in the exercise below, we will do title + price
   -->
@@ -187,7 +187,7 @@ Explain: some possible patterns
 
 - Time: 15min
 
-  <!-- @Luis: alternative, send images on Slack -->
+  <!-- @LT: alternative, send images on Slack -->
 
 
 

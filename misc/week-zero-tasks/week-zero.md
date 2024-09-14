@@ -67,14 +67,14 @@
 
 
 ## Plan contents
-- @Luis: plan git concepts on the schedule
+- @todo: plan git concepts on the schedule
   - git collaboration & conflicts
   - branches (create new branch, move between branches, merge)
   - travel in time
   - some common operations: see `\extra - git\extra - common git operations.md` 
   - some notes: https://docs.google.com/presentation/d/1-7AEdXiqGwWsD7XiUGUSle80iUMiKDZB6wWOShOWXJM/edit?usp=sharing
 
-- @Luis: plan agile on the schedule
+- @todo: plan agile on the schedule
 
 - plan m1
 

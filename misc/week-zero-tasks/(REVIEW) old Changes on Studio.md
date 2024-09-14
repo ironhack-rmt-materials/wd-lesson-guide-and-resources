@@ -9,8 +9,8 @@ I usually apply all those changes on the students portal for all cohorts.
 
 
 
-<!-- @Luis: check unit "What's new"  -->
-<!-- @Luis: record video for self-guided "DayZero & installations"  -->
+<!-- @LT: check unit "What's new"  -->
+<!-- @todo: record video for self-guided "DayZero & installations"  -->
 
 
 ## Module 0: Tips & tricks for success
@@ -77,7 +77,7 @@ Remove:
 
 
 
-<!-- @Luis: schedule reminder to check m2 installations -->
+<!-- @LT: schedule reminder to check m2 installations -->
 
 
 
@@ -177,9 +177,7 @@ Remove:
 
 ## Other changes
 
-- Add Careers Workshop Sessions.
-  <!-- @Luis: info in course tracker spreadsheet  -->
-
+- Add Careers Workshop Sessions
 
 - Consider: setting DL for assessments (as part of the title for each assessment)
   - ex. "NodeJS and MongoDB CRUD app (202109) [Deadline: by Friday 9am]"

@@ -51,16 +51,6 @@ Task: Getting Familiar with React
 
 ## Task: Getting Familiar with React
 
-
-<!--
-
-@Luis
-
-feb 2023: i've added a unit on w7d1.
-
--->
-
-
 Task: 
   - Watch the first 46min. of this video: https://youtu.be/jLS0TkAHvRg
 

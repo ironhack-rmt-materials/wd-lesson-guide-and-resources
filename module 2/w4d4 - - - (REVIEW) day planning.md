@@ -7,11 +7,8 @@
 <!-- 
 
 - Continue working on "popcorn-time"
+- Consider: isolate each topic (working on different apps to keep things simple)
 
-- UPDATE: before routing, do "Lifting State Up"
-  - Display number of movies in the header
-
-- todo: add quick exercise with routing
 
 -->
 
@@ -27,29 +24,10 @@
     - forwarding props to grandchild
     - ...
 
-
-@update:
-- Main => MovieList
-- Movie => MovieSummary
-
-
-
-Notes:
-- We will work on the app "popcorn-time" we created the day before
-
-LABs today are VERY VERY demanding
-- try to finish earlier so that they have more time
-
 -->
 
 
 ## Refresh
-
-- (skip) Routing cheatsheet
-  - setup
-  - basic routing
-  - url params
-
 
 Show the app we were building yesterday
 - list of movies loaded from `json` (in most apps, it would come from an API)
@@ -69,10 +47,6 @@ Show the app we were building yesterday
 
 - Refresh [30m]
   - see below
-
-
-- ~~Destructuring Assignment~~ [30m]
-
 
 - Examples of routing: 
   - https://meet-them-all.netlify.app/
@@ -97,19 +71,6 @@ Lifting state up [~~3h~~] [1.5h]
   <!-- Nope, do not create Movie component  -->
 - Display number of movies in the Header component (Lifting state up)
   - Fix Delete functionality (Passing callback to grandchild)
-
-
-Forms: [2.5h]
-- functionality to add movies (Step 1: form with 1 field)
-- functionality to add movies (Step 2: form with multiple fields)
-  - as an exercise (see "React - Forms.md")
-- fix: routing (generate unique id's)
-- (extra) functionality to add movies (Step 3: extract to a separate component)
-- (extra) Handling multiple inputs with a single method
-
-
-Extra:
-- functionality for searchbox (asked in today's lab)
 
 
 

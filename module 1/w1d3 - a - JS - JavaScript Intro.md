@@ -34,7 +34,7 @@ Status: draft
 - what is a variable?
 - declaring a variable
 - declare vs. initialize
-  - if you don’t assign a value to a variable when you declare it, its default value will be initialized to undefined.
+  - if you don't assign a value to a variable when you declare it, its default value will be initialized to undefined.
 - naming a variable
 
 

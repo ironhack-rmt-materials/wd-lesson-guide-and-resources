@@ -82,3 +82,10 @@ Note:
 
 
 
+## Active Learning
+
+- (individual) LAB | Express Mongoose Recipes
+  
+- (in groups) Mini Project - REST API - Day 3
+
+

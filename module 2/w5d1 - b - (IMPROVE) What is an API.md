@@ -53,6 +53,7 @@ Status: draft
 
 - APIs 
   - explain concept of API
+    - "Application Programming Interface"
   - Diagram (with browsers, native apps): https://www.erp-information.com/wp-content/uploads/2021/01/Application-programming-interface-new.jpg
   - examples: 
     - twitter

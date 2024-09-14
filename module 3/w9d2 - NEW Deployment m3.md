@@ -11,7 +11,7 @@ Slides (shown in the video): https://docs.google.com/presentation/d/19VRo2Bjae3q
 todo: record new video or update to take into account a few updates
 - how we will work: ask both students to follow video together (instead of deploying 2 apps)
 - current video mentions multiple times that they already have an account from m2 (not anymore since m2-m3 swap)
-- ui changes (atlas, netlify)
+- ui changes (mongoDB Compass, Atlas, Adaptable, Netlify)
 - video 3: environment variables Vite (towards the beginning)
 
 

@@ -14,7 +14,7 @@ update m2-m3 swap:
 
 @todo: 
 - review planning & update Demo (ie. which app we build)
-- add quick exercise
+- add quick exercise +++++
 
 
 
@@ -146,7 +146,7 @@ Also, show example when nodemon crashes (ex. syntax error)
   ```
 
 <!--
-@LT: extract this `data/pizzas.json`
+@LT: extract this to `data/pizzas.json`
 
 Why:
 - Same pattern as lab

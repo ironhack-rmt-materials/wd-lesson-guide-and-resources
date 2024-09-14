@@ -36,7 +36,7 @@ All Mongoose types:
 
 <!--
 
-@Luis: 
+@LT: 
 
 make sure we have at least these fields (so that the model is in line with tomorrow's seeds file):
 
@@ -109,7 +109,7 @@ make sure we have at least these fields (so that the model is in line with tomor
 
 
 ## Extract model to specific file
-  <!-- @Luis: do this step -->
+  <!-- @LT: do this step -->
   - why: same pattern as lab + can help us for tomorrow codealong
   - example: https://github.com/ironicHackers-Ironhack-Sept-22/ecommerce-ironic-pizzas/commit/851b985e493bc4920e77f4bb40e55520cb1fb6f8
 

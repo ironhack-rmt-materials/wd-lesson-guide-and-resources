@@ -21,13 +21,23 @@ Status: ready
 
 
 
-## Intro: REST APIs
+## Discover: REST APIs
 
-
-- Task: watch this video 
+Task 1: watch this video 
   - Video: What is a REST API? (explains RESTful) (6 min., Mosh)
   - https://www.youtube.com/watch?v=SLwpqD8n3d0
-  - Time: 10min.
+
+Task 2:
+  - Define the endpoints for a REST API the allows to CRUD "recipes"
+  - Example:
+    - GET /recipes -- get a list of recipes
+    - ...
+    - ...
+
+Time: 12min.
+
+
+---
 
 
 - (skip for now) Slides: 
@@ -37,7 +47,7 @@ Status: ready
 
 
 
-## Intro
+## Intro to this unit
 
 - project 2 requirements: 
   - CRUD on an API
@@ -219,6 +229,21 @@ IMPORTANT: explain that json-server does not do any validation (you can put any 
 Also: confusion 2 repos etc (to avoid this, do not run in localhost)
 
 -->
+
+
+
+## Summary / Steps to follow
+
+<!-- @LT: share these steps with students -->
+
+1. Fork this repo: https://github.com/ironhack-labs/json-server-backend.git
+2. Clone your fork + Open with VS Code
+3. Modify the file db.json  according to your requirements
+  - Note: if you want to test locally, you can npm install + npm run dev . If you prefer, you can skip this step and test directly after you deploy,
+4. Commit + Push
+5. Deploy on Adaptable
+  - Template: select "node.js"
+  - Database Type:  select "none"
 
 
 

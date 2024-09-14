@@ -60,13 +60,9 @@
 
     <!-- 
   
-    @Luis / IMPORTANT
-    @Luis / IMPORTANT
-    @Luis / IMPORTANT
-    @Luis / IMPORTANT
-    
-    initialize with ironlauncher --auth --json 
-    (so that we can speed up backend auth lecture) 
+    IMPORTANT:
+    - initialize with ironlauncher --auth --json 
+    - (so that we can speed up backend auth lecture) 
     
     -->
 
@@ -92,7 +88,7 @@ Common Pain point for many students:
   - frontend / client / react app
   - backend / server / express app
 
-  <!-- @Luis: show them (ie. run both apps on my computer) -->
+  <!-- @LT: show them (ie. run both apps on my computer) -->
 
 
 

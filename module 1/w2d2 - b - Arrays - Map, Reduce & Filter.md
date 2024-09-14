@@ -330,9 +330,9 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 ## Mutating vs. non-mutating methods
 
 
-- `.map()`, `.filter()` and `.reduce()`  DON’T modify the original 
+- `.map()`, `.filter()` and `.reduce()`  don't modify the original 
 
-- (they don’t mutate the original array but rather create a new array)
+- (they don't mutate the original array but rather create a new array)
 
 
 

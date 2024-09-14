@@ -119,7 +119,7 @@ npm install nodemon@3.1.0 --save-dev
 
 - Git init + commit
 
-<!-- @Luis: create initial commit + push -->
+<!-- @LT: create initial commit + push -->
 
 
 
@@ -147,7 +147,7 @@ npm install nodemon@3.1.0 --save-dev
 
 
     <!--
-    @Luis: drop DB library-project (from previous cohorts)
+    @LT: drop DB library-project (from previous cohorts)
     -->
 
 

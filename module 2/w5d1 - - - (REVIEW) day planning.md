@@ -3,56 +3,43 @@
 
 
 
-<!-- 
-
-
-@update m2-m3 swap: 
-
-- (optional) demo on popcorn-time: display number of characters in the Header.
-
-- codealong: create a new app ("react characters app")
-  - Note: DON'T do the full demo on popcorn-time (we have a form to create new movies)
-
-
--->
-
-
-
 
 ## Day planning
 
+<!-- @todo: create a small warmup activity (before we start with "how the internet works") -->
 
-- LAB Q&A [20m]
+- Intro to week 5
 
-- Refresh [20m]
+- How the internet works [30m]
 
-  - Slides Refresh "How the internet works": https://docs.google.com/presentation/d/1-EgP1r7duakjZ6DXfReHIu9cYwEheAWEd_vDL7JtYiU/edit?usp=sharing
+- What is an API [30m]
 
-  - Refresh Promises:
-    - `.then().catch()`
-    - `async/await`
+- Promises
 
 
-- Refresh: react concepts (see below) (skip?)
+PROMISES:
 
-- Refresh: axios + promises
+0. Intro to what we will see today
+   -- https://miro.medium.com/v2/resize:fit:1838/1*AqkCUN-kD_fLefEFPnX2Uw.png
+   -- https://stackblitz.com/edit/js-mbknjw?file=index.js
+
+1. Callback Pattern
+  -- what the heck is a promise?
+
+2. Consuming promises with .then().catch()
+  -- Include one Exercise
   
-  <!--
-
-  Stackblitz + Axios v.1.x
-
-  - Bug report: https://github.com/stackblitz/core/issues/2463
-  - Option 1: axios@0.27.2
-  - Option 1: CodeSandbox.io (works fine with axios@1.x)
-
-  -->
+3. Consuming promises with async/await.
+  -- Include one Exercise
 
 
-- Hooks & Lifecycle
 
-- Before Lunch: ask for preferences project 2
-  - see `project preferences.md`
-  - Deadline: Tomorrow by 10am.
+
+## Extra challenges
+
+- LAB JS ES6 Reinforcement (for...of loop, .filter()):
+  - https://github.com/ironhack-labs/lab-js-es6-reinforcement
+  - currently not in the schedule
 
 
 
@@ -93,5 +80,23 @@
 
 - (optional) quick refresh Spread Operator
   - ex. with objects (add property best cohort)
+
+
+
+
+## Active Learning
+
+- (in pairs) LAB | #Promise me a dinner
+  <!-- same pairs as mini-project -->
+
+- (in pairs) Mini Project
+  - finish any pending tasks from previous week
+
+- Bonus 1: 
+  - Research about "fetch api"
+  - Using the fetch api, send a GET request to the url "https://jsonplaceholder.typicode.com/users" and display in the console the number of users.
+  - Solution: https://stackblitz.com/edit/js-9hfrjq?file=index.js
+
+- Bonus 2: check bonus labs in the students portal (week 4)
 
 

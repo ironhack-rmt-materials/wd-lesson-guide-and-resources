@@ -1,5 +1,5 @@
 
-# TYPICAL RECRUITMENT PROCESS
+# Typical Recruitment Process
 
 
 Every process is different. In my experience, this is how a typical interview process may look like:

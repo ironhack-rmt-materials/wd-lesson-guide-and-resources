@@ -68,9 +68,7 @@ https://docs.google.com/document/d/16gK6fgwJNGGNyx3Oa9GV40IxHq3RvahjoiBNZFg4Vek/
 
 ## Deploy React App on Netlify
 
-<!-- @Luis: NETLIFY - do this from a students computer -->
-<!-- @Luis: NETLIFY - do this from a students computer -->
-<!-- @Luis: NETLIFY - do this from a students computer -->
+<!-- @LT: NETLIFY - do this from a students computer -->
 
 
 https://netlify.app/
