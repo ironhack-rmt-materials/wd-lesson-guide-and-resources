@@ -4,19 +4,44 @@
 
 <!-- 
 
-Status: ready (updated after m2-m3 swap)
-
-@todo: double check that projects are stable (after project presentation)
+@todo: update list (after adaptable changes sept24)
 
 -->
 
 
-- Wordrobe Wonderland (clothing products catalogue): https://wordrobe-wonderland.netlify.app/
-- Board Games App (collaborative catalogue of games): https://board-games-project.netlify.app/
-- Wander World (travel destinations around the globe): https://wander-world.netlify.app/
-- ESG Tracker (an app to track social responsibility from companies): https://esg-tracker.netlify.app/
-- Huetopia (an app to generate color palettes): https://huetopia.netlify.app/
+- Wordrobe Wonderland (clothing shop) https://wordrobe-wonderland.netlify.app/
 
+- Brews & Bites (inventory management for a coffee shop): https://brews-and-bites.netlify.app/
+
+- Wander World (holiday planner): https://wander-world.netlify.app/
+
+- Sproutify (plants database): https://sproutify-project.netlify.app/
+
+- IronLegacy (a database of projects from ironhack students): https://iron-legacy.netlify.app/projects
+    - Note: includes auth with Firebase
+
+
+---
+
+
+Brews & Bites: https://brews-and-bites.netlify.app/
+- (Nico Anzoategui)
+- Great example of an MVP with nice UX (CRUD on 1 resource)
+- Great UX
+- Responsive
+
+
+Wander World: https://wander-world.netlify.app/
+- (Amparo + Senay)
+- 1 resource, responsive.
+- Nice functionality & UX
+- Bonus: searchbar, maps
+
+
+
+
+---
+---
 ---
 
 
@@ -24,13 +49,6 @@ Wordrobe Wonderland: https://wordrobe-wonderland.netlify.app/
 - (Huseyin + Nisha)
 - Perfect example for an MVP (CRUD on 1 resource)
 - Responsive.
-
-
-Brews & Bites: https://brews-and-bites.netlify.app/
-- (Nico Anzoategui)
-- Also a great example of an MVP (CRUD on 1 resource)
-- Great UX
-- Responsive
 
 
 Board Games App: https://board-games-project.netlify.app/
@@ -62,11 +80,6 @@ Date Flow: https://dateflow.netlify.app/
     <!-- example with 2 resources -->
 
 
-Wander World: https://wander-world.netlify.app/
-- (Amparo + Senay)
-- 1 resource, responsive.
-- Nice functionality & UX
-- Bonus: searchbar, maps
 
 
 ESG Tracker: https://esg-tracker.netlify.app/
@@ -88,7 +101,7 @@ Huetopia: https://huetopia.netlify.app/
 ## With auth (Firebase)
 
 IronLegacy (Alastair, Thomas):
-- netlify: https://ironhack-projects.netlify.app/projects
+- netlify: https://iron-legacy.netlify.app/
 - repo: https://github.com/alastairandthomas/iron-legacy
 - auth & db with firebase
 - they used firebase SDK + react-firebase-hooks (not using the REST API)
