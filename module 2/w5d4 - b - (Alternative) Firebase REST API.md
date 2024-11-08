@@ -86,9 +86,11 @@ Note: setup is very straight forward & at the moment it doesn't require payment 
     ```
   - Click "Publish"
 
+  <!-- @LT: explain what that means (we're granting public access to all resources) -->
+
 
 - Firebase will automatically expose a REST API.
-  - The api url looks like “baseURL/resource.json”
+  - The api url looks like "baseURL/resource.json"
   - Example endpoints:
     - "GET /recipes.json"
     - "GET /recipes/:recipeId.json"
@@ -143,17 +145,17 @@ How to send a request:
   <!-- @LT: share URL and ask students to create a project  -->
 
 
-- Read (all): `GET /projects.json`:
+- Read (all): `GET /projects.json`
   - IMPORTANT: notice that it returns an object, not an array (!)
   <!-- @LT: Explain / demo: in our React app, we want to convert this to an array -->
   - Note: if there's no resources, firebase will return null
 
-- Read (single record by id): `GET /projects.json/:id`:
+- Read (single record by id): `GET /projects.json/:id`
   - Note: if we make an invalid request (e.g. `/projects/abc.json`), firebase will return null
 
-- Partial Update: `PATCH /projects.json/:id`:
+- Partial Update: `PATCH /projects.json/:id`
 
-- Delete: `DELETE /projects.json/:id`:
+- Delete: `DELETE /projects.json/:id`
 
 
 
@@ -200,12 +202,48 @@ test: Embedding Related Records
 
 ## Pain points
 
-- created: Firebase returns a 200 instead of 201.
-- list of items (e.g. projects.json): Firebase returns an object, not an array
-- wrong request: on the browser, you may get a CORS error
+Firebase doesn't follow some conventions that you see in most REST APIs:
+
+- List of items: Firebase returns an object (instead of an array)
+  - example: a GET request to `/projects.json` will return an object instead of an array (so you wanna convert it to an array in your react app).
+- Wrong request: if you send a request to the wrong URL, on the browser you may get a CORS error (instead of a 404).
+  - example: if you send a request to `/projects.json/42` instead of `/projects/42.json`
+- If a list of items is empty: Firebase will return null (instead of an empty array)
+- If an item does not exist: Firebase will return null (instead of a 404 error)
+- Resource created: Firebase returns a 200 (instead of a 201)
+
+
+Warning on rules:
+- Explain that if we provide public access, anyone can CRUD any resource.
+- It is possible to create more restrictive rules (and we should). In m3 we will also learn better patterns. 
+
 
 
 ## Pricing
 
 - see: https://firebase.google.com/pricing 
+
+
+## (skip) Firebase Auth
+
+- Create a gist or leave it for students to do some research.
+
+<!-- 
+
+React Firebase Hooks:
+- https://github.com/csfrequency/react-firebase-hooks
+
+
+example project using react-firebase-hooks:
+- https://github.com/alastairandthomas/iron-legacy
+- note: uses Firestore + SDK instead of the rest api
+
+
+Video from WebDevSimplified (1h)
+- https://www.youtube.com/watch?v=PKwu15ldZ7k&t=34s
+- uses: context API, private routes, etc
+- note: this video is from 2020, some versions are outdated
+
+-->
+
 
