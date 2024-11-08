@@ -239,10 +239,10 @@ Solutions:
 
 Time: 30min. in pairs
 
+<!-- @todo: improve instructions (make them more clear, add hints / solutions for each iteration) -->
 
 
-
-## (Bonus) Pair Maker Exercise
+## (Bonus) OOP Pair Maker Exercise
 
 Create a class "Cohort" with:
 - information of all students in our class (for each student, we just need to store the name -ex. "alice", "bob", "charlie").

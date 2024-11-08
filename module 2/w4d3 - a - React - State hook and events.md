@@ -121,7 +121,7 @@ https://stackblitz.com/edit/stackblitz-starters-723xsm?file=src%2FApp.js
 Note: work on the App component (do not create other components)
 
 Iteration 1:
-- implement functionality to increase counter
+- In App.jsx, implement functionality to increase counter
 
 Iteration 2:
 - add a second button to decrease counter
@@ -160,7 +160,7 @@ Bonus 3:
 
 Bonus 4:
 - Implement the functionality to change theme with a single button (ex. toggleTheme) and a single function.
-- If theme changes, update the button (ex. display a different emoji).
+- If theme changes, update the button (eg. display a different emoji).
 
 
 
@@ -199,6 +199,7 @@ const [pizza, setPizza] = useState("margherita");
 See how the counter of each component is independent (state belongs to the component)
 
 <!-- @todo: create example on stackblitz & share with students -->
+<!-- note: can also be done as an exercise -->
 
 
 

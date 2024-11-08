@@ -13,7 +13,7 @@
 
 
 
-## Day planning A
+## Planning
 
 
 - LAB Q&A [20m]
@@ -26,20 +26,21 @@
     - `.then().catch()`
     - `async/await`
 
-- Refresh: axios + promises
+  - Refresh: axios + promises
   
-  <!--
+    <!--
 
-  Stackblitz + Axios v.1.x
+    Stackblitz + Axios v.1.x
 
-  - Bug report: https://github.com/stackblitz/core/issues/2463
-  - Option 1: axios@0.27.2
-  - Option 1: CodeSandbox.io (works fine with axios@1.x)
+    - Bug report: https://github.com/stackblitz/core/issues/2463
+    - Option 1: axios@0.27.2
+    - Option 1: CodeSandbox.io (works fine with axios@1.x)
 
-  -->
+    -->
 
 
-- Hooks & Lifecycle
+- Hooks & Lifecycle [3h]
+- Codealong "React Characters App" [1.5h]
 
 - Before Lunch: ask for preferences project 2
   - see `project preferences.md`
@@ -47,29 +48,21 @@
 
 
 
-
-## Planning
+## Active Learning
 
 <!-- @LT: ask p2 preferences  -->
-
-- LAB review
-  
-- Refresh
-  - lifecycle & hooks
-  - side-effect & useEffect
-  - common pain points when sending requests to an API
-    - ex. `useState()` + `undefined.map()`
-
-- React | Integrating React App with backend [4h]
-
 
 <!-- IMPORTANT: if we ask any student to do project individual, tell them asap -->
 
 
-## Active Learning
-
 - (individual) LAB | Fake Store
+
 - (in pairs) Mini Project
   - Deadline to submit mini-projects: Friday 9am.
   - Note: don't worry about preparing a presentation
+
+Bonus: implement a "Search Bar" in your mini-project (here's a video explaining how to do it: https://www.youtube.com/watch?v=E1cklb4aeXA)
+
+
+
 

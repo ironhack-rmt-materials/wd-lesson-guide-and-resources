@@ -19,8 +19,6 @@ Notes after m2-m3 swap:
 
 - [ ] LAB Q&A [30m]
 
-- [ ] Presentations mini-project [1h]
-
 - [ ] Some options to give CSS to React apps [1h]
   - see: `(extra) Some options to give CSS to React apps.md`
 
@@ -37,4 +35,24 @@ Assessments:
 
 - Assessment: React fundamentals 2 (202305) [3h]
   - estimated 90min. / max time 3h.
+
+<!--
+
+@LT: explain infinite loop rendering a component in React
+  function Navbar(){
+    return(
+      <>
+        <h1>react infinite loop</h1>
+        <Navbar />
+      </>
+    )
+  }
+-->
+
+
+Tomorrow: mini-projects presentation 
+- 1 presentation for each category (todo list, e-commerce etc)
+- 5min., one person from each team shows the functionality
+- don't need to prepare slides or anything
+
 

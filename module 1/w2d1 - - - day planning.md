@@ -12,8 +12,6 @@ Planning:
   - Time: 10min.
   - Solution: https://stackblitz.com/edit/js-byttax?file=index.js
 
-- ~~(extra) introduce setTimeout/setInterval~~ [30min.]
-
 - OOP: intro + oop with plain objects [30min.]
 - OOP: ES6 Classes + Exercise I [1.5h]
 - OOP: OOP Bakery exercise [30min.]
@@ -27,13 +25,9 @@ Planning:
 
 ## Active Learning
 
-- (individual) LAB | JS Expense Tracker [1.5h]
-- (in pairs) Mini Project - JavaScript Quiz [2.5h]
+- (individual) LAB | JS Expense Tracker  [1.5h]
+- (in pairs) Mini Project - JavaScript Quiz  [2.5h]
 - (bonus) LAB | JavaScript Vikings
 
-<!-- 
-
-Note: mini-project research includes reading the unit "JS | Special keyword - this"
-
--->
+<!-- Note: mini-project research includes reading the unit "JS | Special keyword - this" -->
 

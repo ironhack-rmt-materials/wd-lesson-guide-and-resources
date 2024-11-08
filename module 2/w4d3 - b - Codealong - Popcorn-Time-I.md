@@ -62,7 +62,7 @@ Time: 10min. + solve together.
 
 From `MovieList.jsx`, load list of movies from a `json` file:
 - Create `data/movies.json`
-- Sample json file: https://github.com/Ironborn-Ironhack-March-2022/react-popcorn-time/blob/main/src/data/movies.json
+- Sample json file: https://github.com/ironhack-sept2024-devstructors/react-popcorn-time/blob/main/src/data/movies.json
 - In MovieList.js: `import movies from "../data/movies.json";`
 
   <!-- IMPORTANT: add this in MovieList.js -->
@@ -183,9 +183,6 @@ Steps:
 
 - Research: JSX spread attributes.
   - `<Movie {...movieObj}>`
-      
-
-JSX spread attributes:
-- Demo: https://stackblitz.com/edit/vitejs-vite-eu9l16?file=src%2FApp.jsx
-- More info: https://reactpatterns.js.org/docs/jsx-spread-attributes/
+  - Demo: https://stackblitz.com/edit/vitejs-vite-eu9l16?file=src%2FApp.jsx
+  - More info: https://reactpatterns.js.org/docs/jsx-spread-attributes/
 

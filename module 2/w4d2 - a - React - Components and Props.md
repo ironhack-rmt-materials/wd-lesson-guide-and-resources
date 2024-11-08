@@ -115,7 +115,13 @@ export default UserOne;
 
 ## Practice: components and props
 
-<!-- @todo: consider creating a more simple exercise (passing just a string as props, instead of an object) -->
+<!-- 
+
+@todo: 
+- consider creating a more simple exercise (passing just a string as props, instead of an object).
+- Alternative: add a more simple first iteration
+
+-->
 
 Initial code: 
 - https://stackblitz.com/edit/vitejs-vite-udhmpb?file=src%2FApp.jsx
@@ -166,6 +172,31 @@ Note: Todays lab
 - Each element is an object (ie. `props.tweet` is an object)
 
 
+(break)
+
+
+## (skip for now) Receive props with object destructuring
+
+  - Option1: 
+    ```js
+      function User(props) {
+
+        const {name, surname} = props;
+
+        //...
+      }
+    ```
+
+
+  - Option2 (with props destructuring): 
+
+  ```js
+    function User({name, surname}) {
+      //...
+    }
+  ```
+
+
 
 
 ## Props and Data Types
@@ -202,36 +233,13 @@ Note: Todays lab
 - React Player:
 `npm install react-player`
 
-`<ReactPlayer url="https://vimeo.com/channels/top/22439234" playing />`
+`<ReactPlayer url="https://www.youtube.com/watch?v=EvtMTV9mMSc" playing={true} volume={0.1} />`
 
 - (extra) Component Libraries
   - Show an example with one of them (eg. "Material UI"/ "Semantic UI React" / "Ant Design")
   - https://ant.design/components/button
 
 
-
-
-
-## (skip for now) Receive props with object destructuring
-
-  - Option1: 
-    ```js
-      function User(props) {
-
-        const {name, surname} = props;
-
-        //...
-      }
-    ```
-
-
-  - Option2 (directly): 
-
-  ```js
-    function User({name, surname}) {
-      //...
-    }
-  ```
 
 
 

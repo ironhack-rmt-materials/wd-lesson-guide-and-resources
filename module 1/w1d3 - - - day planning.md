@@ -13,6 +13,7 @@
     - media queries
 
 - (skip) Quick refresh from yesterday [20m]
+  - Can also do a quick demo with html + css (list of 5 products, using flexbox)
 
 - Slides: Bootcamp Intro III [10m]
 - JS Intro [1h]
@@ -24,10 +25,11 @@
 ## Active Learning
 
 - (self-guided) JS Numbers - Advanced Topics [30m]
-- (individual) LAB | JS Data Types [1.5h]
-- (in pairs) LAB | JavaScript Basic Algorithms [2.5h]
+- (individual) LAB | JS Data Types
+- (in pairs) LAB | JavaScript Basic Algorithms
 
 <!-- @LT: students find workload relatively light today -->
+<!-- todo: add further iterations to today's labs  -->
 
 
 <!--

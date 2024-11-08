@@ -79,6 +79,7 @@
 
 Before we start, 
 - see the initial code
+  <!-- Remember to FORK -->
 - see that boxes are displayed one after the other (why: divs are block elements)
 - How we can have them in the same line:
   - One option is to use `display: inline-block`

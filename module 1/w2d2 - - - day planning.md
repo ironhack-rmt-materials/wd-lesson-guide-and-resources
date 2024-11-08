@@ -12,6 +12,7 @@
  Planning:
   - LAB Q&A (short) [20m.]
   - Refresh [20m.]
+    - example: https://stackblitz.com/edit/js-agidet?file=index.js
   - JS functions [1.5h]
   - Arrays: map, reduce, filter [2h] -- `focus!!`
   - Arrays: sort and reverse -- self guided

@@ -156,14 +156,13 @@ Task:
 
 Notes:
   - You will need to create html + css
-  - Focus on the distribution of the elements (main goal is to practice flexbox; do not worry about details of the design like the font, colors, etc.)
+  - Focus on the distribution of the elements (main goal is to practice flexbox & media queries; do not worry about details of the design like the font, colors, etc.)
   - For breakpoints, you can use 600px and 800px.
 
 Time: 25min.
 
 
 Solution (mobile first): https://codepen.io/luisjunco/pen/gOdPERa
-
 
 
 Bonus:

@@ -13,8 +13,8 @@ React Router Version History (dates on the left):
 - https://github.com/remix-run/react-router/releases
 
 Latest cohorts:
-- Feb. 2024: v.6.22 (all working well)
-- Aug. 2024: v.6.26
+- Aug. 2024: v.6.26 (all working well)
+- Oct. 2024: v.6.27 
 
 -->
 
@@ -23,7 +23,7 @@ Latest cohorts:
 # Intro
 
 - show examples on some react apps
-  - https://meet-them-all.netlify.app/
+  - https://brews-and-bites.netlify.app/
   - airbnb
 
 
@@ -31,7 +31,7 @@ Latest cohorts:
 
 https://gist.github.com/luisjunco/cbd1fe157c7f2f2b6b4983adbea9ae1e
 
-
+<!-- @todo: move examples from codesandbox to stackblitz -->
 
 
 
@@ -82,7 +82,7 @@ Notes:
 - add solutions 
 -->
 
-Initial code: https://stackblitz.com/edit/vitejs-vite-bpxr81?file=src%2FApp.jsx
+Initial code: https://stackblitz.com/edit/vitejs-vite-zrnmm4?file=src%2FApp.jsx
 
 Your task: implement routing.
 

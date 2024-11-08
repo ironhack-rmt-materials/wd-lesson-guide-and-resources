@@ -2,6 +2,10 @@
 
 # Project preferences
 
+Explain:
+- Why we do p2 & p3 in pairs
+- Project is in pairs but you will not work in pairs 100% of the time
+
 
 ```js
 const myPreferences = {
@@ -10,7 +14,6 @@ const myPreferences = {
 }
 
 ```
-
 
 Notes: 
 - in your preferences, do not include ppl that you feel have a very different level than you.

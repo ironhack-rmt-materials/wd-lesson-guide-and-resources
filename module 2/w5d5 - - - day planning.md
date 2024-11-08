@@ -8,6 +8,8 @@
 
 ## Day planning:
 
+- Presentations mini-project [1h]
+
 - (in case we haven't done it yet) Some options to give CSS to React apps
   - see: `(extra) Some options to give CSS to React apps.md`
 
@@ -23,9 +25,8 @@
 
 - Project kickoff [1h]
   
-
-
 - Project planning (in pairs)
+
 - Project planning session (in main room)
 
 

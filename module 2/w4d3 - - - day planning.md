@@ -50,7 +50,7 @@
 
 
 - Bonus: 
-  - LAB | LAB | React IronContacts
+  - LAB | React IronContacts
 
 
 

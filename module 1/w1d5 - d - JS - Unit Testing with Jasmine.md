@@ -19,7 +19,7 @@
 
 
 
-## Initial approach with console.logs
+## (skip) Initial approach with console.logs
 
 
 ```js
@@ -57,9 +57,10 @@
 
 -->
 
-- follow steps in students portal:
+- follow steps in students portal (section "Install Jasmine"):
     - visit: https://github.com/jasmine/jasmine/releases
     - download the latest standalone version (`jasmine-standalone-x.y.z.zip`)
+    - directory: "w1d5 - tdd-demo"
     - unzip
     - copy all the content in the root of the project
     - Remove the starter code (files in `src` and `spec`)
@@ -68,6 +69,7 @@
     - Link the JavaScript files in the `SpecRunner.html`
     - Open `SpecRunner.html` with Live Server
 
+    <!--Note: for the lab, jasmine is already configured -->
 
 
 

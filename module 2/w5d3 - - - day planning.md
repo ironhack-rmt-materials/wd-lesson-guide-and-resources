@@ -11,19 +11,34 @@ m2-m3 swap:
 
 
 
+## Planning
+
+
+- LAB Q&A [20m]
+
+  
+- Refresh
+  <!-- @LT: skip refresh (we'll see all those concepts during the day) -->
+  - lifecycle & hooks
+  - side-effect & useEffect
+  - common pain points when sending requests to an API
+    - ex. `useState()` + `undefined.map()`
+
+
+
+- React | Integrating React App with backend [4h]
+
+
+
 
 ## Active Learning
 
 - (individual) React Iron Brewers
+
 - (in pairs) Mini Project
   - Deadline to submit mini-projects: Friday 9am.
   - Note: don't worry about preparing a presentation
 
-
-Tomorrow: mini-projects presentation 
-- 1 presentation for each category (todo list, e-commerce etc)
-- 5min., one person from each team shows the functionality
-- don't need to prepare slides or anything
-
+Bonus: work further on the mini-project and implement additional functionality.
 
 

@@ -49,8 +49,7 @@ Show the app we were building yesterday
   - see below
 
 - Examples of routing: 
-  - https://meet-them-all.netlify.app/
-  - https://wordrobe-wonderland.netlify.app
+  - https://brews-and-bites.netlify.app/
   - airbnb
 - Routing intro [1h]
 - Routing advanced - url params [1h]
@@ -80,17 +79,17 @@ Lifting state up [~~3h~~] [1.5h]
 - props vs. State:
 
     - When should we use the PROPS:
-    - Pass information to a child component
-    - ex. reusable component that has different behavior depending on info that it receives.
+      - Pass information to a child component
+      - ex. reusable component that has different behavior depending on info that it receives.
 
     - When should we use the STATE:
-    - Store information that belongs to a component
-    - Can change over time
-    - We want to reflect the changes in the UI (JSX)
+      - Store information that belongs to a component
+      - Can change over time
+      - We want to reflect the changes in the UI (JSX)
 
     - A Component will Re-render if:
-    - receives new props from the outside
-    - its own state changes
+      - receives new props from the outside
+      - its own state changes
 
 - Refresh syntax useState()
 

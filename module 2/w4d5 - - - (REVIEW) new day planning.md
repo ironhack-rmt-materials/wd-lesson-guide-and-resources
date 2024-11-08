@@ -49,6 +49,9 @@ Extra:
 
 - (in pairs) Mini Project | React App (Day 4)
 
+  <!--
+  LT: discuss, functionality to edit ("Create a form component that allows the user to update an existing item from the items list) -->
+
 - Bonus: check bonus labs in the students portal
 
 

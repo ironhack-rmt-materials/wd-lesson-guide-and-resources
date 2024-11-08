@@ -3,10 +3,9 @@
 
 ## When
 
-- I always do one retro at the end of week1
-  (this gives us a lot of valuable information)
+- We usually do one retro at the end of week1
 
-- This is usually the only retro we do. The rest of the bootcamp we gather verbal feedback.
+- The rest of the bootcamp we gather verbal feedback.
 
 
 ## Setup
@@ -43,26 +42,13 @@
 
 ## Instructions
 
-<!-- @todo: create slides -->
-
 Before sharing the link, explain:
 
 - Intro (what is a retro, agile, scrum etc)
-
-  - Waterfall vs. Agile: 
-    - https://www.trustradius.com//wp-content/uploads/agilevswaterfallfromouriken.png
-
-  - Agile (multiple sprints):
-    - https://soldevelo.com/wp-content/uploads/2020/12/Agile-software-dev-1.jpeg.webp
-
-  - Scrum framework: 
-    - https://zalatni.com/wp-content/uploads/2022/04/What-is-Agile-Scrum-Framework-1024x596-1.webp
-
-  - Scrum ceremonies: 
-    - https://i.ytimg.com/vi/33Fk3r9ZSUg/maxresdefault.jpg
+  - Slides: https://docs.google.com/presentation/d/1TbSACbGlb4jeEWWgjTUJKETC3bWaojE20rEk1t4c5pY/edit?usp=sharing
 
 
-- Why it (a retro) is important
+- Why a retro is important
 - How we will work (brief intro)
 - How to give good feedback:
   - specific
@@ -80,6 +66,6 @@ Before sharing the link, explain:
 
 <!--
 - Be constructive. Make sure your feedback makes us grow and improve.  
-- Be action-oriented. Try to give feedback with quick wins, steps and actions in mind. How would 
+- Be action-oriented. Try to give feedback with quick wins, steps and actions in mind.
 -->
 

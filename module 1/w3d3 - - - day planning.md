@@ -31,7 +31,10 @@
 
 ## Plan for today (deployment day):
 
-- 9am: Solve this Kata using arr.map()
+- (main room) check installations
+  <!-- @todo: can make a recording -->
+
+- (individual) Solve this Kata using arr.map():
   - Greet developers (7 kyu): https://www.codewars.com/kata/58279e13c983ca4a2a00002a/train/javascript
 
 - 10am (or once you finish that kata):

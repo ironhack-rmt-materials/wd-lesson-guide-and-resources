@@ -22,6 +22,10 @@ Note:
 @todo: 
 - create quick exercise (ex. bug hunt with functionality for "Project details page")
 
+
+repo:
+- follow repo from prev. cohort
+
 -->
 
 
@@ -78,8 +82,9 @@ Roadmap:
 
 Extra:
 - show: keep constants in a specific file (ex. config/api.js)
+- show: vs code source control
 - mention: toast
-- show: loader
+- show: loader (e.g. https://cssloaders.github.io/)
   ```jsx
     if (projects === null) {
       return <div className="loader"></div>;
@@ -90,6 +95,7 @@ Extra:
       return <Loader />;
     }
   ```
+- show: responsive list of items
 
 Steps (in more detail):
 - [ ] Getting Started (initial setup)

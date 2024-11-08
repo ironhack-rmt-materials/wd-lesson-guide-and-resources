@@ -316,7 +316,7 @@ getUsersFromDB()
 
 @todo: 
 
-- improve this example (use a different API)
+- improve this example (use a different API - can also create and deploy a small api for it)
 
 -->
 
@@ -426,6 +426,7 @@ Solution with bonus: https://stackblitz.com/edit/js-ktus8q?file=index.js
 
 
 
+
 ## Compare 3 patterns (callback vs. then/catch vs. async/await)
 
 (see summary again)
@@ -450,6 +451,10 @@ Diagrams (timing):
 Promise static methods:
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#static_methods
 
+
+Other static methods (Promise.all(), Promise.race(), Promise.allSettled(), Promise.any()):
+- Diagram 1: https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/451c46cf451e4bea915a69a8883dac4f~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp
+- Diagram 2: https://miro.medium.com/v2/resize:fit:1400/0*ckUndCASCZXQwqxH
 
 
 

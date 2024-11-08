@@ -5,6 +5,9 @@
 What:
 - JavaScript Quiz (JavaScript, OOP, and DOM)
 
+Demo:
+- https://luisjunco.github.io/javascript-quiz-project/
+
 
 Groups:
 - Work in groups of 2

@@ -72,25 +72,19 @@ Feedback from students:
 
 ## Selectors:
 
-
-
 - type selector: div, p, h1...
-
 
 - id: `id=""`
   - CONVENTION: underscore-with-dashes
   - Each page can have only one element with that ID
   - Each element can have only one ID
 
-
 - class: `class=""`
     - CONVENTION: underscore-with-dashes (kebab-case)
     - Can assign more than one class to an element (but do not add multiple times the class attribute: class="" class="") 
 
-
 - (skip) Universal selector
   - Warning: Be very careful when using the universal selector
-
 
 - Combine selectors (only mention it, we will go in detail later)
   - example, descendant selector: `.course-summary img`

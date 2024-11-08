@@ -86,6 +86,11 @@ PROMISES:
 
 ## Active Learning
 
+- Before Lunch: ask for preferences project 2
+  - see `project preferences.md`
+  - Deadline: Tomorrow by 10am.
+  
+
 - (in pairs) LAB | #Promise me a dinner
   <!-- same pairs as mini-project -->
 

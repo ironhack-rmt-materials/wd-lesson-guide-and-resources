@@ -5,11 +5,10 @@
 ## Planning
 
 - [LESSON] Intro to module2 [30m]
-  - Create account Adaptable.io
 
 - [LESSON] Object destructuring [30m]
 
-- Demo: create a React app in Stackblitz (or other online editors)
+- Demo: create a React app in Stackblitz
   - See import/export
 
 - [EXTRA] ES6 modules [30m]
@@ -43,6 +42,15 @@ Bonus:
 - LAB | React Props Training
 
 
+
+<!-- 
+
+Review planning w4d1.
+Consider:
+- intro to props (eg. a self-guided video)
+- "LAB React Props Training" as mandatory w4d1 ?
+
+-->
 
 
 ## (self-guided) Continue watching React Tutorial

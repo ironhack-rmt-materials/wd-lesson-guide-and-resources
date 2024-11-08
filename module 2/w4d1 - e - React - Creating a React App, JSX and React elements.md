@@ -29,10 +29,6 @@ More details:
 - https://reactjs.org/docs/create-a-new-react-app.html#recommended-toolchains
 
 
-<!--
-Legacy CRA:
-  - `npx --yes create-react-app react-playground`
--->
 
 Initial Setup:
 - open VS Code + a terminal
@@ -101,10 +97,11 @@ Initial Setup:
 
 
 ## Practice: create a React component
-  <!-- @LT: alternative - create repo & upload to stackblitz -->
+  <!-- @LT: alternative - create repo with what we have so far & upload to stackblitz (that way, students can see an example) -->
 - initial code: https://stackblitz.com/edit/vitejs-vite-waceqd?file=src%2FApp.jsx
-- Step 1: Create a component Header
-- Step 2: Render this component in App.js
+- Step 1: create a component Header
+- Step 2: render this component in App.jsx
+- Bonus: create a component Footer
 - Bonus: practice other options for export/import.
 - Time: 5min.
 
@@ -208,6 +205,7 @@ Initial Setup:
   - https://stackoverflow.com/questions/39320393/jsx-or-html-autocompletion-in-visual-studio-code
 
 
+
 ## Self-closing tags
 
   ```jsx
@@ -218,7 +216,7 @@ Initial Setup:
   Note: self-closing HTML tags (eg. <br />, <hr />, <img />) must always have a closing / to be valid JSX.
 
 
-## Attributes Names are camelCased
+## (skip for now) Attributes Names are camelCased
   
   - class —> `className`
   - html attributes are camelCased
@@ -232,6 +230,7 @@ Initial Setup:
 
   ```jsx
     const divStyle = {
+        color: "purple",
         border: "1px solid #fff",
         margin: "2em auto",
         padding: "2em",

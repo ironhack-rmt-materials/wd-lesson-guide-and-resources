@@ -109,7 +109,7 @@ Example 2 (skip):
 
 
 - (bonus) Exercise (practice rest parameters + arr.reduce): 
-  - Instruction: https://stackblitz.com/edit/js-o9cpuo
+  - Instructions: https://stackblitz.com/edit/js-o9cpuo
   - How: groups of 2-3 students
   - Time: 15min.
   - Solution: https://stackblitz.com/edit/js-93eaiw?file=index.js

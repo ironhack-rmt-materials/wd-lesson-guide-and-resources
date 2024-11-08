@@ -11,7 +11,7 @@
 
 ## week 3 (project 1):
 
-- What's my favourite food ?
+- What's your favourite movie / TV show?
 - What languages do you speak?
 - One thing I want to learn
 - THURSDAY (only 2 questions):
@@ -22,7 +22,7 @@
 
 
 ## weeks 5-6 (project 2):
-- What's your favourite movie / TV show?
+- If you had to move to another country, which one would you choose?
 - What's the best piece of advice you've ever been given?
 - Do you play any sports?
 - Choose one famous person from history you want on your team during a zombie apocalypse.
@@ -30,7 +30,7 @@
   - What's your favorite place of all the places you've traveled?
   - Is my MVP ready? What is missing?
   <!-- 
-  Refresh MVP requirements:
+  @LT: Refresh MVP requirements:
   - Your React app must perform all CRUD operations on that API (Create, Read, Update, Delete)
   - Responsive (mobile + desktop)
   - Deployed & fully working in production.
@@ -63,7 +63,6 @@
 - You need to prepare for a talent show, what do you do?
 - Beach holiday or ski trip?
 - What would your superpower be and why?
-- If you had to move to another country, which one would you choose?
 - If you could switch lives with anyone for a day, who would it be?
 - Which cartoon character do you wish was real?
 - When you die, what do you want to be remembered for?

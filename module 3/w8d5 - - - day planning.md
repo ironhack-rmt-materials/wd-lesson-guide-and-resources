@@ -13,7 +13,7 @@ React App
 - Some options to style your React App:
   - inline CSS
   - CSS Frameworks 
+    - Example: Bootstrap, Tailwind
   - Component Libraries
-    - ex: Bootstrap
-    - ex: React Bootstrap, Mantine, Semantic UI, Ant Design, Chakra, Material UI (MUI)
-
+    - Example: Chakra UI, Mantine, Semantic UI
+    - Tailwind component libraries: Flowbite React, daisyUI

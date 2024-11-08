@@ -1,18 +1,14 @@
 
 # OOP Game Codealong
 
-<!--
-
-
-Demo (type of game that we'll be building):
-https://ironborn-ironhack-march-2022.github.io/ironborn-oop-game/
-
--->
-
-
 
 
 ## Intro 
+
+
+- Demo (type of game that we'll be building):
+  - https://ironborn-ironhack-march-2022.github.io/ironborn-oop-game/
+
 
 - What is Canvas. 
 - Examples:
@@ -138,7 +134,7 @@ Milestone 4: make the game more interesting & fix bugs
 
 [ ] Allow player movement
 
-[ ] Obstacle class (create generic class and extend)
+[ ] Obstacle class
 
 [ ] Create Obstacles
   - step1: start by creating `only one obstacle`
@@ -166,22 +162,36 @@ Milestone 4: make the game more interesting & fix bugs
   Game Over functionality:
   - redirect to gameover.html
   - include link to play again
+  -->
 
+[ ] Fix: remove obstacles when they're outside screen
+  - opt1: hide with overflow hidden
+  - opt2: remove (from array + dom element) 
 
-  Recommendation:
+[ ] Generate obstacles at random positions
+
+[ ] Display player in the center
+
+[ ] Add README.md file
+
+[ ] Explain: How to add a page "how to play"
+  e.g.:
   - index.html (instructions)
   - game.html (game)
   - gameover.html
 
+[ ] Discuss:
+  - images
+    - ratios
+    - quality & size
+    - license
+    - name
+  - use relative paths
+  - timers (avoid nesting)
+  - further improvements
+  - if students build this type of game
 
-  -->
-
-[ ] Remove obstacles when they're outside screen
-
-[ ] Drop obstacles at random places
-
-[ ] UX
-  [ ] Add "how to play" page
+[ ] (skip) Refactor: create a Game class
 
 
 ## Improvements:
@@ -209,9 +219,6 @@ UX:
 - sound
 
 
-Good practices:
-- Add README file
-
 Code quality:
 - create a Game class
 - store settings as property of the Game class (ex. refreshRate)
@@ -223,6 +230,7 @@ Code quality:
 ## Final notes
 - If they pick a similar game:
   - start from scratch 
+    <!-- Example: forEach + toUpperCase & forEach + .length -->
   - go further (implement other features etc)
 - Show other patterns that they can use (OOP vs functions, etc)
 - Some notes: https://stackblitz.com/edit/js-jvpqgw?file=index.js

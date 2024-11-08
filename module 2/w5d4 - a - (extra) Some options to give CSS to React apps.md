@@ -23,45 +23,94 @@ Some options to apply CSS to our React apps:
 
 - 4. Component libraries
     - Example: Chakra UI, Mantine, Semantic UI
-    - (skip) Tailwind component libraries: Flowbite, daisyUI
-
+    - Tailwind component libraries: Flowbite React, daisyUI
+    <!-- @note: As of Nov. 2024, Chakra has released v3, but the documentation still appears to be somewhat immature  -->
 
 ## Example Global CSS
 - Refresh: media queries / responsive
 
 
-## (skip) Example CSS Framework
+## (optional) Example CSS Framework
+- Can do a quick demo with bootstrap (eg. create an index.html)
 
 
-## Example Chakra UI
+## Example Mantine
 
-- Getting started:
-    - https://chakra-ui.com/getting-started
-    - npm i
-    - render `<ChakraProvider>`
+- Setup:
+    - follow steps here: https://mantine.dev/guides/vite/
+    <!-- 
+        Note: on Vite, you may get this error "ERR_ABORTED 504 (Outdated Optimize Dep)"
+        https://stackoverflow.com/a/75953479/11298742
+    -->
 
-
-- Render Button
-    - https://chakra-ui.com/docs/components/button
-
-
-- Example Grid
-
+Show example with Buttons:
     ```jsx
-
-    <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
-        <Box bg='teal.200'>one</Box>
-        <Box bg='teal.200'>two</Box>
-        <Box bg='teal.200'>three</Box>
-    </SimpleGrid>
-
-    <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
-        <Card w="100%" boxShadow="xl" borderWidth="1px">one</Card>
-        <Card w="100%" boxShadow="xl" borderWidth="1px">two</Card>
-        <Card w="100%" boxShadow="xl" borderWidth="1px">three</Card>
-    </SimpleGrid>
-
+    <Button variant="outline" color="indigo">Edit</Button>
+    <Button variant="outline" color="red">Delete</Button>
+    <Button variant="filled" color="indigo">Back to projects</Button>
     ```
+
+
+Some interesting core elements:
+- Layout
+    - Grid
+    - SimpleGrid
+- Forms:
+    - Button and its variants (eg. button with icon)
+    - Input
+    - Checkbox
+- Combobox
+    - Autocomplete
+    - Multiselect
+- Navigation
+    - Burger
+- Data Display
+    - Accordion
+    - Badge
+    - Card
+    - Timeline
+- Overlays
+    - Dialog
+    - Menu
+
+Other packages (requires installation): 
+- Mantine Dates 
+    - Calendar
+    - Datepicker
+- Mantine Form
+- Mantine Charts
+
+
+Customizing with a theme:
+
+```jsx
+const customTheme = {
+  colorScheme: 'light',
+  colors: {
+    primary: [
+      "#e1fdff", "#cff6fc", "#a5eaf4", "#76dded", "#51d3e7", "#39cce4", "#25cae3", "#0bb2ca", "#009eb5", "#008a9f"],
+    secondary: [
+      "#fff3e4", "#fce6d1", "#f4cca6", "#edb076", "#e7994e", "#e48934", "#e38225", "#c96f18", "#b46211", "#9d5305"],
+  },
+  primaryColor: 'primary',  // Sets primary as the main color
+  secondaryColor: 'secondary',  // (Hypothetical) For secondary button or text usage
+};
+
+
+<MantineProvider theme={customTheme} withGlobalStyles withNormalizeCSS>
+    <App>
+</MantineProvider>
+
+```
+
+
+```jsx
+    <Text color="primary" size="lg" weight={700}>Primary Color Text</Text>
+    <Text color="secondary" size="lg" weight={700}>Secondary Color Text</Text>
+    <Button color="primary" size="md">Primary Button</Button>
+    <Button color="secondary" size="md">Secondary Button</Button>
+```
+
 
 
 

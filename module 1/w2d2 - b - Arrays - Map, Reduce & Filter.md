@@ -233,29 +233,24 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
 ### Bonus: reduce() with an array of objects
 
-<!-- - Extra exercise (same as students portal) -->
-
-
   ```js
   const menu = [
-    { name: 'Carrots', calories: 150 },
-    { name: 'Steak', calories: 350 },
-    { name: 'Broccoli', calories: 120 },
-    { name: 'Chicken', calories: 250 },
-    { name: 'Pizza', calories: 520 },
+    { name: 'Greek Salad', calories: 200, isVeggie: true },
+    { name: 'Mushroom Risotto', calories: 350, isVeggie: true },
+    { name: 'Falafel', calories: 333, isVeggie: true },
+    { name: 'Turkey Sandwich', calories: 320, isVeggie: false },
+    { name: 'Pasta Primavera', calories: 320, isVeggie: true },
+    { name: 'Grilled Salmon', calories: 400, isVeggie: false },
   ];
-
-  //console.log(averageCalories); // should display 278
   ```
 
   TASK:
-  - Calculate the average number of calories.
+  - Iteration 1: Calculate the average number of calories.
+  - Bonus: Calculate the average number of calories of the veggie options.
 
-  Time: 10min.
+  Time: 15min.
 
-  Solution: https://stackblitz.com/edit/ih-reduce-method-explained-q3quwc?file=index.js
-
-
+  Possible solution: https://stackblitz.com/edit/js-vgpkmd?file=index.js
 
 
 

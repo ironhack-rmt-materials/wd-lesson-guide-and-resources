@@ -6,7 +6,9 @@ Issue: not possible to connect to MongoDB on Mac.
 
 
 ## Option 1. Try running the service:
-  brew services start mongodb-community
+
+brew services stop mongodb-community
+brew services start mongodb-community
 
 
 ## Option 2. Install an older version of mongodb-community
@@ -18,8 +20,16 @@ Source:
 
 
 Steps to follow:
+- brew services stop mongodb-community
+- brew uninstall mongodb/brew/mongodb-community
 - brew tap mongodb/brew
 - brew install mongodb-community@4.4
+  - note: after installing, instructions to create a symlink will be given in the CLI.
 - brew services start mongodb/brew/mongodb-community@4.4
+
+
+## Check MongoDB Logs
+
+- tail -n 100 /usr/local/var/log/mongodb/mongo.log
 
 

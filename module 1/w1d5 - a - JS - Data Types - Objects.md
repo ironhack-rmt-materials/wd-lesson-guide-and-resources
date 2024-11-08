@@ -180,11 +180,15 @@ ___
 - Object.keys(myObj) 
   - returns and array (we can then loop through the array etc)
 
+- `const listOfKeys = Object.keys(userOne);`
+
 
 ## List values: Object.values()
 
 - Object.values(myObj)
   - returns an array
+
+- `const listOfValues = Object.values(userOne);`
 
 
 ## Loop through objects
@@ -231,6 +235,14 @@ ___
 Goals: 
 - practice objects
 - get a nice name for our class ;)
+
+- examples from prev. cohorts:
+  - Bug Busters
+  - The Script Society
+  - Byte Warriors
+  - Coding Ninjas
+  - Angry Cats
+  - Remote Raccoons
 
 -->
 

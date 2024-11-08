@@ -4,7 +4,7 @@
 
 
 Planning:
-- 9am: Deployment (follow recording)
-- 2pm: Standup
+- 9:00 - Deployment (follow recording)
+- 12:00 - Standup
 
 

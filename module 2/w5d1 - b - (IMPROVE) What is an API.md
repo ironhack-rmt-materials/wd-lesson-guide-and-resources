@@ -36,6 +36,11 @@ Status: draft
 
 - JSON
 
+  <!-- @LT: 
+  - can show movies.json from previous codealong
+  - alternative: ask chatgpt to generate json with a list of recipes
+  -->
+
   - JSON (JavaScript Object Notation) 
   - Format to transfer/exchange data (also used to store)
   - Very common (even in systems that don't use JavaScript)
@@ -60,7 +65,12 @@ Status: draft
     - spotify
     - Fake apis
       - Json Placeholder: http://jsonplaceholder.typicode.com/
-    - Punk API: 
-      - GET https://api.punkapi.com/v2/beers/
-      - GET https://api.punkapi.com/v2/beers/1
+    - Public APIs: 
+      - https://github.com/public-apis/public-apis?tab=readme-ov-file
+    - Example:
+      - https://www.openbrewerydb.org/
+      - https://api.openbrewerydb.org/v1/breweries/
+      - https://api.openbrewerydb.org/v1/breweries/5128df48-79fc-4f0f-8b52-d06be54d0cec
+
+
 

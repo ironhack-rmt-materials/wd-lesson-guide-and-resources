@@ -6,15 +6,22 @@
   - https://docs.google.com/presentation/d/1tlIuadz1fxwslZcKwxDw413ZuELFg8rbcO8VuocuRUA/edit?usp=sharing
 
 
-- Show project examples (from previous students)
-  - Traditional App: https://somethings-cooking.adaptable.app/
-    <!-- 
-    @todo: app broken, choose different example
-    (e.g.: zoom, google)
-    -->
-  - SPA: https://wordrobe-wonderland.netlify.app
-    - Perfect example for an MVP (CRUD on 1 resource)
-    - Responsive.
+- Traditional Web Apps (Multi-Page Applications) vs. SPAs:
+  - Examples of a traditional App:
+    - https://www.google.com/
+    - https://en.wikipedia.org/
+    - https://www.imdb.com/chart/top/
+    - https://zoom.us/
+    - https://www.amazon.es/
+  - Examples of SPAs:
+    - https://www.youtube.com/ 
+    - https://open.spotify.com/
+    - https://www.airbnb.com/
+  - Example of an SPA from previous students:
+    - https://brews-and-bites.netlify.app/
+      - React App
+      - CRUD on 1 resource
+      - Responsive.
 
 
 - Requirements
@@ -32,6 +39,5 @@
 <!-- @todo: include the notes above in the slides (labs, project etc) -->
 
 
-<!-- Adaptable: ask all students to create an account + verify all accounts -->
 
 

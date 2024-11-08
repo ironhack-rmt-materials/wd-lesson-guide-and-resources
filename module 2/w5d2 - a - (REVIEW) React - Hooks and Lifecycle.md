@@ -19,11 +19,9 @@ Status: draft
 
 
 Notes:
--- explain how to make calls to an API (when component mounting & after component mounted with user interaction)
--- bonus: video of why we need to do it this way
--- also, improve the code for JSX & conditional rendering (some of the examples use patterns difficult for students)
-   
-
+- explain how to make calls to an API (when component mounting & after component mounted with user interaction)
+- bonus: video of why we need to do it this way
+- also, improve the code for JSX & conditional rendering (some of the examples use patterns difficult for students)
 
 
 -->
@@ -55,8 +53,10 @@ Notes:
 
 - Example 2 (characters api): 
   - https://ih-crud-api.herokuapp.com/characters
+
 - See documentation: w5d4 "AXIOS | POST, PUT and DELETE request"
   - ![Characters API Endpoints](../media/images/characters-api-endoints.png)
+
 - explain the concept of `endpoint`
 - mention the concept of: `REST API`
 - test `GET` on the browser
@@ -71,7 +71,7 @@ Notes:
 Demo:
 - Open Stackblitz + GET list of characters
   <!-- (note: on stackblitz, use axios v.0.27.2) -->
-- Example: https://codesandbox.io/s/icy-rain-igs74w?file=/src/index.js
+- Example: https://stackblitz.com/edit/js-xjq2yi?file=index.js
 
 
 Diagram promises (fulfilled, rejected): 
@@ -119,13 +119,12 @@ Endpoints:
 ![characters api](../media/images/characters-api-endoints.png)
 
 Hints:
-  - Example with a GET request https://codesandbox.io/s/icy-rain-igs74w?file=/src/index.js
+  - Example with a GET request https://stackblitz.com/edit/js-xjq2yi?file=index.js
   - Documentation for POST: https://axios-http.com/docs/post_example
 
 
 Solution: 
-  - https://codesandbox.io/s/lively-cache-olz44t?file=/src/index.js
-
+  - https://stackblitz.com/edit/js-xjq2yi?file=index.js
 
 
 
@@ -144,14 +143,14 @@ Show how components are executed:
   - add console.log() for each component on the app we created yesterday ("popcorn time")
   - See how each function component is executed
   - See that, when `state` or `props` change, a component is re-rendered
-
+  <!-- slides (props & state): https://docs.google.com/presentation/d/1iqYSImZj7p58ahLWryMSp00ooCCEf2cnIhjwc-pMFqw/edit?usp=sharing -->
 
 
 ## Intro: concept of Side-Effect
 
 Alternative: 
 - ask students to do some research
-- "what is a side effect in programming?"
+- "what is a side effect in software?" (2 minutes)
 
 Explain concept of a SIDE-EFFECT:
   > A side effect is when a function relies on, or modifies, something outside its parameters to do something.
@@ -163,9 +162,6 @@ Examples: https://stackblitz.com/edit/js-sefk58?file=index.js
   
   @todo: 
   - add definition of "side-effect" to the slides
-  - example 1: function reading variable from parent scope
-  - example 2: function modifying variable in the parent scope
-  
   -->
 
 
@@ -188,7 +184,7 @@ Examples: https://stackblitz.com/edit/js-sefk58?file=index.js
 How:
 - Fork this app (hello world with plain CSS): 
   - https://stackblitz.com/edit/vitejs-vite-5fkups?file=src%2FApp.jsx
-  <!-- @LT: remember to fork ! -->
+  <!-- @LT: remember to FORK ! -->
 
 
 Endpoint: 
@@ -256,7 +252,7 @@ Step 3:
 -->
 
 
-- Slides "Hooks and Lifecycle":
+- Slides "Component lifecycle & useEffect":
   - https://docs.google.com/presentation/d/1kAtC4-ONnFGdfLAGhAtNYSl09ViBSUUgyA4PpEbfDYg/edit?usp=sharing
 
 
@@ -414,7 +410,7 @@ Iteration 2: display a list of characters (in App.jsx)
 
 Bonus:
   - Display only first 10 characters
-  - Add css
+  - Add CSS
   - Implement a button to delete one character (when the user clicks, we send a request to the api)
 
 <!-- @LT: share with them the example we did earlier -->
@@ -424,35 +420,8 @@ Time: 30m.
 
 
 Solutions:
-- iteration 1: https://stackblitz.com/edit/react-wmmoaz?file=src%2FApp.js
-- iteration 2: https://stackblitz.com/edit/react-rtqc32?file=src%2FApp.js
-
-
-
-
-
-## Codealong: Initial Setup
-
-<!-- 
-
-- Codealong "react-characters-app": 1.5h
-
-Options:
-- Option 1: stay in the main room & follow what we're doing
-- Option 2: stay in the main room & try to code-along
-- Option 3: use breakout rooms & start working on LAB & mini-project
-
--->
-
-- navigate to module2 directory
-- `npm create vite@latest react-characters-app -- --template react`
-- cd react-characters-app
-- code -r .
-- npm install
-- npm run dev
-
-To run on a specific port:
-- npm run dev -- --port=3002
+- Iteration 1: https://stackblitz.com/edit/react-wmmoaz?file=src%2FApp.js
+- Iteration 2: https://stackblitz.com/edit/react-rtqc32?file=src%2FApp.js
 
 
 
@@ -488,6 +457,42 @@ To run on a specific port:
     - optional chaining operator (https://www.joshwcomeau.com/operator-lookup?match=optional-chaining)
     - conditional rendering
 
+
+
+
+## Codealong: React Characters App (routing + useEffect)
+
+<!-- 
+
+- Codealong "react-characters-app": 1.5h
+
+Options:
+- Option 1: stay in the main room & follow what we're doing
+- Option 2: stay in the main room & try to code-along
+- Option 3: use breakout rooms & start working on LAB & mini-project
+
+-->
+
+
+Initial Setup:
+- navigate to module2 directory
+- `npm create vite@latest react-characters-app -- --template react`
+- cd react-characters-app
+- code -r .
+- npm install
+- npm run dev
+
+To run on a specific port:
+- npm run dev -- --port=3002
+
+
+Links:
+- Demo with the final goal to show students: https://react-characters-app.netlify.app/
+- Repo: https://github.com/ironhack-sept2024-devstructors/w5d2-react-characters-app/
+
+Note:
+- If we have time, it'd be good to implement responsive list of items
+- Example with a responsive list: https://github.com/ironhack-sept2024-devstructors/w5d2-react-characters-app/commit/2490ac63f6fa4026522e35db7d7a563fa484d289
 
 
 

@@ -41,5 +41,5 @@
 
 
 Bonus:
-- LAB "React Props Training" includes quite a few bonus iterations.
+- Continue working on LAB "React Props Training" (it includes quite a few bonus iterations)
 

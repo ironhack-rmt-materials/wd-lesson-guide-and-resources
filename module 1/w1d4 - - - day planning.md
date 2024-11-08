@@ -33,10 +33,16 @@
 
 
 
+
 ## DAY PLANNING:
 
 - Q&A [20m]
 - (skip) Refresh
+  - Scope
+  - Numbers: int, decimal, NaN, modulo operator, Math.random()
+  - Strings: how to create strings, concatenate, length, charAt, indexOf, slice()
+  - Booleans, AND, OR, Truthy & falsy values
+  - typeof
 - Slides: Bootcamp Intro IV [10m]
 - Conditionals and Loops [30m/1h]
 - Functions Intro [1h]
@@ -44,7 +50,11 @@
 - Problem-solving: Solve together 1 iteration from LAB [30m]
   - "LAB | JS Challenges I (Arrays & Functions)" - Iteration 1 | Count Repetition
   - Possible solution: https://stackblitz.com/edit/js-gan8bw?file=index.js
-  <!-- NOTE: it can be a good moment to show them how to work with Jasmine / automated testing -->
+  - Explain (how to work with Jasmine / automated testing): 
+    - Open SpecRunner.html with Live Server
+    - You don't need to invoke your functions (the tests will invoke them)
+    - How to debug (can open the console in the browser)
+    - How to see the tests
 
 
 

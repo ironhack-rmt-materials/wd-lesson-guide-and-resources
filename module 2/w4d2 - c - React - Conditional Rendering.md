@@ -37,7 +37,7 @@
   - (bonus) if rating > 8 apply a different background (hint: `className`)
 
 
-      - (Extra) CSS for "RECOMMENDED":
+  - (extra) CSS for "RECOMMENDED":
 
       ```css
       .Main .badge {

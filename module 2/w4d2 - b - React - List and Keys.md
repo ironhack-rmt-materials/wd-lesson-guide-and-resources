@@ -154,20 +154,18 @@ const movies = [
 
 ## Practice: iterate through an array with .map()
 
-<!-- @todo: convert to the new version of stackblitz -->
-
-Initial code: https://stackblitz.com/edit/stackblitz-starters-2hqmjf?file=src%2Fcomponents%2FMain.js
+Initial code: https://stackblitz.com/edit/vitejs-vite-y9qv3w?file=src%2FApp.jsx
 
 
-1. In Main.js, import this json file:
+1. In EventsList.jsx, import this json file:
   - `import events from "../data/events.json"`
-2. For each element of the array, display the title and the location (use `.map()`)
+2. In EventsList.jsx, for each element of the array, display the title and the location (use `.map()`)
 
-Bonus: in the json file, you will find more info about each event (image, categories...). Use that to display it in the user interface.
+Bonus: in the json file, you will find more info about each event (image, categories...). Use that to display more info about each event.
 
 
 Time: 10min.
 
-Solution: https://stackblitz.com/edit/stackblitz-starters-knjkk5?file=src%2Fcomponents%2FMain.js
+Solution: https://stackblitz.com/edit/vitejs-vite-6y5hah?file=src%2Fcomponents%2FEventsList.jsx
 
 

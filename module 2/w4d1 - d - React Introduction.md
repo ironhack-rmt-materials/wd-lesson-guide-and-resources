@@ -4,18 +4,16 @@
 
 
 
-- Intro to React [30m]
-  - Slides: https://docs.google.com/presentation/d/1e-GVN0TCgeMCYLJnfIFheyafuEiVDxAU5bEYCs_tsvQ/edit?usp=sharing
+## Practice: Research SPAs
+- Research: 
+    - What is a Single Page Application
+    - How does an SPA work?
+    - What are their advantages? What are their limitations?
+- Time: 5min. + group discussion
 
-  - Example of traditional page lifecycle:
-    - https://somethings-cooking.adaptable.app/
-    <!-- 
-    @todo: app broken, choose different example
-    (e.g.: zoom, google)
-    -->
-    
-  - Example of SPA:
-    - https://wordrobe-wonderland.netlify.app/
-    - https://meet-them-all.netlify.app/
 
+
+## Intro to React [30m]
+
+- Slides: https://docs.google.com/presentation/d/1e-GVN0TCgeMCYLJnfIFheyafuEiVDxAU5bEYCs_tsvQ/edit?usp=sharing
 

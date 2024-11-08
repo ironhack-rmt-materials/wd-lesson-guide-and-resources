@@ -33,23 +33,29 @@ IMPORTANT:
 
 (break)
 
-## LT intro to bootcamp [1h]
+## LT intro to bootcamp [30m]
 
-  - Slides: https://docs.google.com/presentation/d/1rYCVx5wNFST7uh6_hknnrKtpXPVeQ29ytAxeE9mxHWI/edit?usp=sharing
+- Slides: https://docs.google.com/presentation/d/1rYCVx5wNFST7uh6_hknnrKtpXPVeQ29ytAxeE9mxHWI/edit?usp=sharing
 
+
+## DayZero + installations (self-guided):
+
+- Fill in spreadsheet.
+  
 
 (break)
 
 
 ## How the web works [30m]
-  - Slides: https://docs.google.com/presentation/d/1mGIVU9fWTYII9sUHcIu2RYJ-2KwU6FtNnUtsyZFyiNc/edit?usp=sharing
+
+- Slides: https://docs.google.com/presentation/d/1mGIVU9fWTYII9sUHcIu2RYJ-2KwU6FtNnUtsyZFyiNc/edit?usp=sharing
+  
   <!-- 
   
-  @todo: 
-  - simplify this a lot (some students may find this overwhelming, especially the network panel)
+  Consider: 
+  - simplify this (some students may find this overwhelming, especially the network panel)
   - alternative: show the dev tools while we do a codealong (code much more simple)
   
-
   -->
 
 
@@ -73,14 +79,6 @@ Notes:
 - Opportunity to speak about good practices & common mistakes
 - Example. ![css exercise](../media/images/w1d3-css-exercise.png)
 
-
-
-
-
-## DayZero + installations (self-guided):
-
-Fill in spreadsheet.
-  
 
 ## Pair programming [10m]
 
@@ -110,6 +108,8 @@ Fill in spreadsheet.
 - (in pairs) LAB | CSS Recipes clone
 
 - General guidelines for labs/assignments: https://gist.github.com/ironhack-edu/dd3635de73a6ef07ef337bf184eda985
+<!-- todo: update this gist (update screenshots + add demo of PR url and how to submit ) -->
+
 
 <!-- Ticketing system  -->
 - If you get stuck or need help: [link to ticketing system]

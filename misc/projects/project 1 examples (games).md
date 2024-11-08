@@ -48,6 +48,9 @@ Non-action games:
   https://marinerossi.github.io/keep-world-mind/world-map.html
 
 
+- Cave of the Typomancer (Vicente)
+  https://vicenteduch.github.io/javascript-game-project-typo
+
 
 Even more examples....
 
