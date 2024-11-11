@@ -14,6 +14,8 @@ Groups:
     IMPORTANT: 
     - if there's a group of 3, share with them the planning to rotate roles.
     - see "TEACHER | Week 7 README"
+
+    LT: consider the option of doing it in pairs.
 -->
 
 

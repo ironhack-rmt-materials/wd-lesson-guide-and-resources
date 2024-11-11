@@ -11,21 +11,11 @@
   - https://docs.google.com/presentation/d/1pGyIT8lYwxq5ftCoye5KK6TbJfgJxO3t2MdoOxsl4ss/edit?usp=sharing
 
 
-- Project3 requirements:
-  - 2 repos
-  - 3 models
-  - Auth (create account, login, logout etc)
-  - CRUD (https://dev-to-uploads.s3.amazonaws.com/uploads/articles/14qn9kxx3beofvs15h2q.png)
-
 
 - See sample project:
-  - https://meet-them-all.netlify.app
-    <!-- 
-    @todo: app broken, choose different example
-    (e.g.: zoom, google)
-    -->
-  - On that example, see how it works as an SPA (React)
-
+  - https://tour-it.netlify.app/
+  - Models: User + Destination + Itinerary (CRUD)
+  - Mention: it's a React app + connects to a backend API
 
 
 - 1.5 weeks content + 1.5 weeks projects

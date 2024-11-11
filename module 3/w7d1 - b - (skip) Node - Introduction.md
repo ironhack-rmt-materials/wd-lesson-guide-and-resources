@@ -119,41 +119,6 @@ Tip: Debugging vs. reading documentation:
 
 
 
-## ES6 modules vs. Common JS
-
-<!-- @todo: create a diagram/image with code snippets comparing both -->
-
-ES6 modules
-- export
-- import
-
-
-Common JS
-- module.exports = 
-- require()
-
-
-Example:
-
-  ```js
-  function calcTotal(a, b){
-      return a * b;
-  }
-
-  function calcDivision(a, b){
-      return a / b;
-  }
-
-  function calcAverage(a, b){
-      return (a + b) / 2;
-  }
-
-  module.exports = { calcTotal, calcDivision, calcAverage, };
-  ```
-
-
-
-
 ## Extra practice (optional)
 
 - Choose a package from this list of weird packages + read the docs, install and use it.
