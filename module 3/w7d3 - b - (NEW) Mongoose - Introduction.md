@@ -222,10 +222,42 @@ Note: for error handling, use this pattern (and explain why):
     ```
 
 
+## Practice: mongoose methods
+
+Instructions: https://github.com/ironhack-rmt-resources/exercise-mongoose-methods
+
+Time: 20min.
+
+<!--
+
+@LT:
+
+- This exercise uses a DB on MongoDB Atlas, so that students get some initial data.
+- To test if the DB is up, connect on Compass ("mongodb+srv://bob:supersecretpassword@cluster0.tiknp.mongodb.net/ih-exercise-mongoose-methods")
+- If the DB is down, students can connect to a local DB (e.g. "mongodb://127.0.0.1:27017/ih-exercise-mongoose-methods"), but they'll need to create some initial data.
+
+-->
+
+
+<!--
+
+Note:
+
+- Stackblitz currently doesn't support connections to MongoDB.
+
+> Are MongoDB, Mongoose, Postgres or MySQL supported?
+> Currently, direct TCP database connections are not supported. However, an API based database provider like Neon (a serverless Postgres DB, accessible via API calls) may provide an alternative approach.
+
+- More info and alternatives:
+  - https://github.com/stackblitz/webcontainer-core/issues/1106
+  - https://github.com/stackblitz/webcontainer-core/issues/749
+
+-->
+
+
+
+
 ## Implement the endpoints to READ
-
-
-<!-- @todo: create an exercise to discover/practice mongoose methods. -->
 
 
 - GET `/pizzas`
@@ -236,6 +268,7 @@ Note: for error handling, use this pattern (and explain why):
     - Pizza.findById(pizzaId)
 
 
+
 ## Implement the endpoint to UPDATE
 
 - PUT `/pizzas/:pizzaId`
@@ -244,6 +277,7 @@ Note: for error handling, use this pattern (and explain why):
 - (optional) Explain PUT vs. PATCH
     - PUT: Updates or replaces the entire resource.
     - PATCH: Partially updates a resource.
+
 
 
 ## Implement the endpoint to DELETE

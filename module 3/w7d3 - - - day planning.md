@@ -61,7 +61,6 @@ Notes:
   - POST /drinks/ (req.body)
 
 - Mongoose - Introduction
-  <!-- @todo: prepare an exercise (eg. implement functionality to create/read) -->
 
 - Before Lunch: ask for preferences project 3
   - see `project preferences.md`
