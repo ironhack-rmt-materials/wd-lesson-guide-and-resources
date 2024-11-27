@@ -1,44 +1,8 @@
 
 # Module 3 Deployment
 
-<!--
-
-Status: 
-
-Slides (shown in the video): https://docs.google.com/presentation/d/19VRo2Bjae3q8b5wNCMKpEG-DrlDN_4Z3-XdHcP4CHZo/edit?usp=sharing
 
 
-todo: record new video or update to take into account a few updates
-- how we will work: ask both students to follow video together (instead of deploying 2 apps)
-- current video mentions multiple times that they already have an account from m2 (not anymore since m2-m3 swap)
-- ui changes (mongoDB Compass, Atlas, Adaptable, Netlify)
-- video 3: environment variables Vite (towards the beginning)
-
-
--->
-
-
-
-
-
-## Day Planning:
-
-- 9am: Deployment (follow the recordings in #class-activities)
-  - If you have errors while following the video, try to understand what is happening (if you can not solve it, ask for support).
-  - You can also send a request if you want to clarify any point.
-
-- 12:00: standup
-
-- Submit URLs in the students portal. Deadline: 5pm
-
-
-- Note: it's Tuesday, it's normal if the your project isn't finished yet (but make sure to submit URLs + make sure you submit the correct URL).
-
-
-
----
----
----
 
 
 ## Project 3 Deployment
@@ -63,9 +27,19 @@ todo: record new video or update to take into account a few updates
 - To configure username and password in MongoDB Atlas, go to `Security > Quickstart` (menu on the left)
 
 
+MongoDB Atlas:
+- IMPORTANT: we need to create a new project (limit of one free cluster per project)
+- test db connection with compass
+
+- Test API (Postman)
+  - We need to add environment variables
+
+
+
 ### 3. Frontend + Summary:
 
 - Follow this video: https://www.loom.com/share/1503025f85344dacad7e914cc759ceba
+
 
 
 - IMPORTANT: environment variables in our React apps:
@@ -107,6 +81,91 @@ If you're blocked or have doubts, let us know ;)
 ---
 
 
+
+
+
+## COMMON PROBLEMS:
+
+
+- IMPORTANT:
+- IMPORTANT:
+- IMPORTANT: the environment variable for Heroku should `not` finish in a slash.
+
+    eg.  FRONTEND_APP_URL should point to `https://m3-project-management.netlify.app`
+
+    not: `https://m3-project-management.netlify.app/` (notice the slash at the end)
+
+
+
+
+
+## Fix minor problems:
+
+- Reloading a page on netlify gives a "Not Found" error (eg. https://m3-project-management.netlify.app/login)
+  Answer: https://answers.netlify.com/t/support-guide-direct-links-to-my-single-page-app-spa-dont-work/126
+  Note: definition of "Publish directory": https://docs.netlify.com/configure-builds/get-started/#definitions
+
+  note: `/public/_redirects` needs to go in /public directory
+  `/*  /index.html  200`
+
+
+
+
+
+## (Extra) Keep me alive
+
+https://github.com/Sepidehatt/KeepMeAlive-hbs-version
+
+
+
+
+## Summary & Process & Troubleshooting
+
+
+- Summary of our setup
+  - dev vs. production
+  - production (mongodb Atlas + Adaptable + Netlify)
+
+- Remember: the databases for development & production are different
+
+- How to publish changes:
+  - push to github
+  - deploy backend (push to main)
+  - deploy frontend (push to main)
+
+- Troubleshooting (Adaptable & Netlify logs)
+
+- Disclaimer on cloud hosting consumption (eg. Netlify bandwidth)
+
+
+
+
+## Submit URLs in students portal
+
+<!-- IMPORTANT -->
+<!-- IMPORTANT -->
+Ask students to submit urls (github x2 + netlify) on students portal
+<!-- IMPORTANT -->
+<!-- IMPORTANT -->
+
+
+
+
+
+
+## As a guided workshop / lecture
+
+In case it is done as a guided workshop/lecture, explain the following:
+
+- m3 deployment is complex & takes time
+- IT IS IMPORTANT THAT WE ALL FOLLOW THE SAME STEPS
+    -- Why: otherwise we will all have different configuration & different errors
+- Please to follow carefully all steps
+- Pay 100% attention
+- Don't try to go one step ahead.
+- Copy the names of variables (don't type them)
+
+Time: ~3h 
 
 
 
