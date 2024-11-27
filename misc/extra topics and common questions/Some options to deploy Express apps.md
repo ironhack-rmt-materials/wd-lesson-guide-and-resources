@@ -1,9 +1,29 @@
 
 
-# Alternatives to Heroku (summary)
+# Some options to deploy Express apps
+
+
+
+## render.com
+- pros: 
+  - No need for credit card 
+  - Can deploy from repos on a github organization
+- cons: 
+ - After 15min inactivity it goes idle and takes a bit longer for the first request (can bypass with a service like UptimeRobot)
+
+
+## vercel
+
+- For backend/express apps, can use this configuration: https://gist.github.com/Marshall-Bits/664ef4b4f87607eb96d3e12a840adfec
+
+- Limitations:
+  - no support for websockets
+
 
 
 ## adaptable.io
+
+- update: since Sept. 2023, adaptable.io doesn't offer a free plan 
 
 - pros: 
   - Very easy to use
@@ -33,12 +53,11 @@
   - Performance is not great.
 
 
-## render.com
-- pros: 
-  - No need for credit card 
-  - Can deploy from repos on a github organization
-- cons: 
- - After 15min inactivity it goes iddle and takes a bit longer for the first request
+
+
+## Other options
+
+- Heroku
 
 
 
