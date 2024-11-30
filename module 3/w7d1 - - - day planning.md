@@ -36,6 +36,11 @@ Give feedback to students (ex. if you see anything to they can learn from).
 
 - Express | Introduction [2h]
   
+  <!--
+  @todo: 
+    - for the codealong, build a spotify-like api (artists, albums)
+    - in that case, change the exercises (some of them are already on that topic)
+  -->
 
 
 

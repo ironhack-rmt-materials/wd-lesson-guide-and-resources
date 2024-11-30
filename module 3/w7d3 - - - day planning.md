@@ -81,3 +81,9 @@ Note:
 - (in groups) Mini Project - REST API - Day 3
 
 
+
+<!-- 
+
+@todo: create RECORDING "Auth: intro and hash algorithms" (w7d5)
+
+-->

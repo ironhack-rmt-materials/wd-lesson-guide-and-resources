@@ -8,6 +8,12 @@ Slides (shown in the video):
 - https://docs.google.com/presentation/d/19VRo2Bjae3q8b5wNCMKpEG-DrlDN_4Z3-XdHcP4CHZo/edit?usp=sharing
 
 
+Backend Repo: https://github.com/ironhack-demos/demo-deployment-project-3-backend
+
+
+Frontend Repo: https://github.com/ironhack-demos/demo-deployment-project-3-frontend
+
+
 
 
 

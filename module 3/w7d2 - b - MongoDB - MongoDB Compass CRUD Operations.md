@@ -98,9 +98,9 @@ Note:
 
 
 
-- ObjectId()
+- (skip) ObjectId()
 
-{_id: ObjectId('639ae2570db723509c5148f7')}
+  {_id: ObjectId('639ae2570db723509c5148f7')}
 
 
 
@@ -203,9 +203,7 @@ Practice: MongoDB CRUD operations
 
 <!-- 
 
-@todo: 
-- improve hints
-- add solutions to that gist (collapsible)
+note: solutions are also included in the gist source code (as a comment)
 
 -->
 
@@ -239,9 +237,3 @@ Bonus 2: Get all movies with the genres "Family" AND "Musical"
 - Option 2: {genre: {$all: ["Family", "Musical"]}}
 
 
-
-<!--
-Bonus Exercise: 
-- Practice req.query here: https://stackblitz.com/edit/stackblitz-starters-6lhrym?file=index.js
-
--->

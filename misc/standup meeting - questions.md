@@ -44,14 +44,17 @@
 - What did you eat for breakfast?
 - What's your favourite music artist / band?
 - How do you pronounce Squirrel?
+  <!-- friday Squirrel: https://i.pinimg.com/736x/65/05/6c/65056c5ed63bfa4e9b9cd31e36e180f5.jpg  -->
 
 ## week 9 (project 3):
 - What did you want to be when you grew up?
+  <!-- monday Squirrel: https://media.makeameme.org/created/whens-monday-god.jpg -->
 - 60s, 70s, 80s, 90s: Which decade do you love the most and why?
 - WEDNESDAY (only 2 questions):
   - What was your first job?
   - Is our MVP ready? What is missing?
-  <!-- @LT: share MVP Checklist: https://codepen.io/luisjunco/full/gOywmQv  -->
+  - MVP Checklist: https://codepen.io/luisjunco/full/gOywmQv
+  <!-- @LT: share MVP Checklist  -->
 - What's is one thing we don't know about you?
 - LAST DAY: What are you doing to celebrate end of bootcamp? ;)
 

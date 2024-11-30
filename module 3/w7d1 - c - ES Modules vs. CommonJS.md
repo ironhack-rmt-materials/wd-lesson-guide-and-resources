@@ -9,7 +9,7 @@
 
 
 
-## Intro
+## Intro: ESM vs. CommonJS
 
 ES6 modules
 - export
@@ -31,7 +31,7 @@ Common JS
 - touch utils.js
 
 
-Example 1:
+Example 1 (exporting a single value):
 
   ```js
   const amount = 42:
@@ -40,7 +40,7 @@ Example 1:
   ```
 
 
-Example 2:
+Example 2 (exporting multiple values in an object):
 
   ```js
   function calcTotal(a, b){

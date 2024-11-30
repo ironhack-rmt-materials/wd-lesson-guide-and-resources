@@ -1,5 +1,5 @@
 
-# w8d3
+# w8d2
 
 
 ## Day planning:
@@ -32,7 +32,7 @@ Backend / Express:
 
   1. How to add environment variables in the Backend / Express:
     - For development, we use a `.env` file
-    - For production, we will add them on Adaptable.io
+    - For production, we will add them on Render.com
 
   2. How to use them in the code (in express): `process.env.XXXX` (ex. "process.env.ORIGIN")
 

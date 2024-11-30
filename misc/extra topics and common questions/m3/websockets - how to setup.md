@@ -49,10 +49,10 @@ https://github.com/ManishPoduval/simple-chat-socketio
 
 Note: 
 
-Many hosting services set a timout limit for WS connections.
+Many hosting services set a timeout limit for WS connections.
 Example, Adaptable: https://drive.google.com/file/d/1Li-siYc6EGM-kC0l0NyZgm16Ee3KtKMt/view
 
-To fix that, client needs to reconnect everytime the connection is lost.
+To fix that, client needs to reconnect every time the connection is lost.
 
 
 

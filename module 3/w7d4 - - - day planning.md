@@ -14,21 +14,23 @@
 
 - LAB Q&A [20m]
 
-- Refresh main contents we've seen this week [40m]
+- Refresh main contents we've seen this week [30m]
   - routes
   - req.params, req.query, req.body
   - mongoose
     - schema, model
     - mongoose methods
+  - populate
 
     <!-- alternative: provide a 30m. recording -->
 
 
-- Refresh / Explain: relationships + populate [1h]
+- Explain: relationships [1h]
   - type of relationships (1:1, 1:many, many:many)
   - embedded documents
   - references
   - recommendations
+  - Cheatsheet: https://gist.github.com/luisjunco/a507e9f15acb32620cf8a33fff0904b1
 
 
 - (extra) intro github copilot [20m]
@@ -54,8 +56,11 @@
 
 ## Intro to "Express | REST API"
 
+Explain: why is important to do it self-guided (since we're approaching the end of the bootcamp).
+
 Refresh REST [10min.]
 - slides: https://docs.google.com/presentation/d/194i1dCV2vpqTN5T3yC5lysvfS-_fnEkok97QpaOtb3w/edit?usp=sharing
+<!-- note: can also this part (the unit in the students portal includes guidelines for REST) -->
 
 
 Explain: how to extract routes to specific files
@@ -81,10 +86,12 @@ Quick intro to "IronLauncher"
 
 <!-- @LT: workload to do this 3 things (self-guided + mini-project + recording) is very reasonable, specially if we finish lectures by 1pm -->
 
+0. Submit project preferences
+  - Deadline: tomorrow 10am.
 
 1. "Express | REST API"
-    - Follow the steps in this unit, starting from the section "Project Management API"
-    - How: groups of 2-3 (same groups that we use for mini-project)
+    <!-- Follow the steps in this unit, starting from the section "Project Management API" -->
+    - How: individual or in pairs (same groups that we use for mini-project)
 
 2. Mini Project - REST API - Day 4
 
@@ -96,9 +103,10 @@ Bonus:
 - Implement your routes with `async/await` instead of `.then().catch()`
 
 
-Also:
-- Submit project preferences
-  - Deadline: tomorrow 10am.
 
-
+<!-- 
+Extra bonus:
+1. Research about the MVC pattern (Model-View-Controller)
+2. Follow this video and apply the concept to your Express app: https://www.youtube.com/watch?v=SOLgvMxSpgA
+-->
 

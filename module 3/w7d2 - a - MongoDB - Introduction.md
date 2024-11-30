@@ -19,6 +19,7 @@ Use cases:
 
 
 ## Interacting with MongoDB
+- Code
 - Command Line
 - Using Compass (UI) (we will use compass)
 

@@ -15,7 +15,9 @@ Groups:
     - if there's a group of 3, share with them the planning to rotate roles.
     - see "TEACHER | Week 7 README"
 
-    LT: consider the option of doing it in pairs.
+    @LT: consider the option of doing it in pairs
+        - do a quick intro (expected in groups of 4, research + dev team)
+        - ask if anyone wants to do it in pairs instead.
 -->
 
 

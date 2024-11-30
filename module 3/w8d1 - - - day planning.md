@@ -2,7 +2,7 @@
 # w8d1
 
 
-- Refresh
+- Refresh [0.5h]
   - (skip) How we implement CRUD (example: `Comment`)
   <!-- @LT: can be interesting to show with commentMessage + author -->
     - Model
@@ -20,9 +20,9 @@
   - Protected routes with middleware
 
 
-- React | Context API
+- React | Context API [1.5h]
 
-- Explain main concepts for the self-guided units
+- Explain main concepts for the self-guided units [0.5h]
 
 - Self-guided x2 (see below)
 
@@ -38,4 +38,5 @@ Follow these two units & implement the code:
 
 Super bonus:
 - Add a component library
-- Implement the changes so that the user is automatically logged in when you create an account (in the backend api, you'll need to change the endpoint /signup so that, when i create an account, it signs and returns a jwt)
+- Implement the changes so that the user is automatically logged in when you create an account (in the backend api, you'll need to change the endpoint "/signup" so that, when you create an account, it signs and returns a jwt)
+

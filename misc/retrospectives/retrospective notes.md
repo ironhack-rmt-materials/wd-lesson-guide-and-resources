@@ -14,6 +14,7 @@
   - https://app.mural.co (more flexible)
   - https://www.goretro.ai/ (more simple)
     - july24: for GoRetro.ai, you need to create an account but there's no email validation.
+    - dec24: goretro will discontinue their free plan
 
   <!-- 
   

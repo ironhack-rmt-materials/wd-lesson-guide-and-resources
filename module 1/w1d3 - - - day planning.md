@@ -29,7 +29,13 @@
 - (in pairs) LAB | JavaScript Basic Algorithms
 
 <!-- @LT: students find workload relatively light today -->
-<!-- todo: add further iterations to today's labs  -->
+
+<!-- 
+@todo: add further iterations to today's labs:
+- eg. create a function that takes a string in binary and returns it's decimal value (note: we still haven't seen functions but the function declaration can be given) + research / watch a video on "binary"
+
+to explore more: https://www.youtube.com/watch?v=Xpk67YzOn5w
+-->
 
 
 <!--

@@ -39,7 +39,7 @@ Some options:
 - Website portfolio: can also be interesting, specially for those who want to pitch themselves towards more creative roles
 
 
-- 2.b: Personally, I don't see much value in using React (it is great for web apps and interactivity but a porfolio doesnt need much of that). Also, it can make deployment more difficult.
+- 2.b: Personally, I don't see much value in using React (it is great for web apps and interactivity but a portfolio doesn't need much of that). Also, it can make deployment more difficult.
 
 - In short, I would go for a nice Github profile (definitely) and/or a website with express.
 
@@ -62,7 +62,7 @@ Some options:
 
 ## Tech Interviews
   - Tech Interviews
-  - Common questiosn in technical interviews
+  - Common questions in technical interviews
 
 <!--
 
@@ -96,12 +96,9 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
       - Component Libraries
     - TypeScript +++
     - Next.js +++
-    - TDD / Testing
-    - SCSS
-    - Tailwind
-    - GraphQL (an alterntative to REST -ie. a different way to create an API)
     - SQL Databases (for example, MySQL or PostgreSQL are popular choices)
-
+    - TDD / Testing
+    - Tailwind
     
 
   - Interesting options:
@@ -109,6 +106,7 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
     - collaborate with other students
     - follow tutorials & online courses (ex. Udemy or LinkedIn courses)
     - pair with a mentor (networking, linkedin, ex-ironhacker)
+    - join some hackathons
 
   - Feeling overwhelmed / "I don't know where to start" 
     - APPLY AGILE

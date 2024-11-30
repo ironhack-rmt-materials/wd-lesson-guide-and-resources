@@ -39,7 +39,7 @@ Update (May 2024):
 ## Initial setup ("Getting Started")
 
 Follow steps in the students portal but remember to fork:
-- fork (`!`)
+- fork + rename (`!!`)
 - clone 
 - npm install
 
