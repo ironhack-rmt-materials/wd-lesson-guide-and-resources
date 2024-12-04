@@ -5,13 +5,14 @@
 
 ## Day planning
 
-- Q&A
+- Q&A [30m]
 
 - TS - TypeScript Intro [30m]
 
-- TS - Basic Types
+- TS - Basic Types [2h]
 
-- TS - Custom Types
+- TS - Custom Types [1h]
+
 
 
 
@@ -21,8 +22,11 @@
 
 - LAB TypeScript Dojo
 
+    <!-- @LT: students can also do the lab first & self-guided after -->
+
 - Bonus: TypeScript - Bonus Content I
 
 - Recommendation: install this extension for VS Code
     - https://www.youtube.com/shorts/ccg-erZYO4k
+
 
