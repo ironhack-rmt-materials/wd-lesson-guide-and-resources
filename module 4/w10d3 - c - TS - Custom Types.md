@@ -15,10 +15,14 @@ methodology:
 
 - Union Types
 - Objects
-    - includes: syntax for objects + Required properties + Optional properties
+    - intro
+    - Required properties
+    - Optional properties
 - Understanding the need for type aliases
 - Type alias
 - Interfaces
-    - includes: syntax for interfaces + extending interfaces
+    - intro 
+    - extending interfaces
 - type vs. interface
+
 

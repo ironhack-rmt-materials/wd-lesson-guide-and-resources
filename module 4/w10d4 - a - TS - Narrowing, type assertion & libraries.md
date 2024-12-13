@@ -27,8 +27,28 @@ methodology: follow the students portal
 
 - Working with external libraries
     - Libraries with built-in type definitions
+        - Demo: axios
     - Libraries with external type definitions
+        - Demo: bcryptjs
+        <!-- @LT: show first without type definitions (errors + no autocompletion) -->
     - Libraries without type definitions
     - Extending existing type definitions
 
+
+
+
+
+## Practice: working with libraries
+
+Your mission:
+- Follow the contents in the unit "TS | ExpressJS Setup"
+
+Test:
+- Once everything is ready, run the app and test with postman (GET "/api/")
+
+
+Bonus: create a new route - GET "/api/health"
+
+
+Time: 25-30min.
 

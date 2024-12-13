@@ -58,6 +58,7 @@
 ## Other options
 
 - Heroku
+- Railway (https://railway.app/)
 
 
 

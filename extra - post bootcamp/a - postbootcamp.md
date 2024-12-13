@@ -76,6 +76,10 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
 
   - Continue Learning --> KEEP CODING
 
+  - Example - post-bootcamp github activity:
+    ![](../media/images/post-bootcamp-github-activity.png)
+
+
   - How: 
       - improve project 3 (add new functionality, improve ux etc)
       - new project (js + new things) +++

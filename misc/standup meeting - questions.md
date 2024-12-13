@@ -57,6 +57,8 @@
   <!-- @LT: share MVP Checklist  -->
 - What's is one thing we don't know about you?
 - LAST DAY: What are you doing to celebrate end of bootcamp? ;)
+  <!-- Deutsche können auch ordentlich feiern… aber spart euch ein bisschen Energie für Montagmorgen ;) -->
+
 
 
 ## Other questions....

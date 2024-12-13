@@ -7,14 +7,8 @@
 ## Intro to DBs and MongoDB
 
 
-Slides: 
-
-https://docs.google.com/presentation/d/1r3QsTfgXEb0BVd1zN4UXqaYYMIvNoa_vXCq5_VUem-U/edit?usp=sharing
-
-
-Use cases:
-- SQL: finance, e-commerce, transactions (ex. hotel booking)...
-- NoSQL: big data, IoT, search engines, social networks...
+Slides ("Intro to Databases & MongoDB"): 
+- https://docs.google.com/presentation/d/1r3QsTfgXEb0BVd1zN4UXqaYYMIvNoa_vXCq5_VUem-U/edit?usp=sharing
 
 
 

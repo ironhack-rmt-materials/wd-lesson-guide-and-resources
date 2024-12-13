@@ -16,7 +16,7 @@
     - `const words = []`
 
 - code suggestions from comments
-    - `// function to find longest string in array`
+    - `// function to find the avarage in an array of numbers`
     - `// GET /drinks`
 
 - questions from comments (note: comment depends on current language):
@@ -44,6 +44,12 @@
 - Using AI to find quick solutions vs. learning
     - If you're learning a new technology, make sure you type things
     - "You will not learn a language by using Google Translator"
+
+
+## Bonus:
+
+- https://v0.dev/
+- https://bolt.new/
 
 
 ## Videos:

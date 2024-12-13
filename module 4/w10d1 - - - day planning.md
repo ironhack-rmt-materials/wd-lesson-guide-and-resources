@@ -28,7 +28,7 @@ status: ready
 - (skip) LAB | PostgreSQL CRUD [skip]
   - mark it as extra
 
-- SQL | Table Relationships & Joins [1h]
+- SQL - Table Relationships & Joins [1h]
 
 
 ## Active Learning
