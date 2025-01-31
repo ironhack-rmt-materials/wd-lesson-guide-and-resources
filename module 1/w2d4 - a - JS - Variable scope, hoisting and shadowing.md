@@ -35,7 +35,8 @@ Consider: including closures.
 
 
 REMEMBER: 
-- child scopes have access to parent scopes, but not vice versa.
+- from a child scope, you have access to variables in the parent scopes, but
+- from the parent scope, you don't have access to variables in the parent scope
 
 
 

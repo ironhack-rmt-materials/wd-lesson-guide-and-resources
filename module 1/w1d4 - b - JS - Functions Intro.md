@@ -87,14 +87,17 @@ function calcMult(a, b){
   - Iteration 2:
     - Create a function named `isNameOddOrEven()` that accepts a string as a parameter. 
     - The function should return whether a received string has an odd or even number of letters (hint: str.length).
-    - The expected return should be in the following format - string: `<name> has an <even/odd> number of letters`
+    - The expected return should be in the following format: `<name> has an <even/odd> number of letters`
+    - Example: `Bob has an odd number of letters`
 
-  - Bonus: 
-    - research/practice "JS default parameters" (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+  - Bonus 1: 
+    - Research/practice "JS default parameters" (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+    
+  - Bonus 2:
+    - Create a function named `getLongestString()` that accepts three strings as parameters and returns the longest string.
 
 
   - Time: 15min/20min.
-
 
   - Solution: https://stackblitz.com/edit/js-ew4qjq?file=index.js
 

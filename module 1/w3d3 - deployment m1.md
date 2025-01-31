@@ -50,7 +50,7 @@ Common Pain Points:
 
 Debugging tips:
   - Check if there's any error in the console. If so, try to read & understand the error.
-  - If you have a problem with a resources not loading (ex. images)
+  - If you have a problem with a resources not loading (e.g. images)
     - Open the dev tools ("Elements" panel) & try to find what is actually the path the browser is trying to load.
     - Sometimes it helps to see the source code the the browser is loading (for that, right click on the page and select "View page source").
   - If the problem is appears when you run the game on production but not in your computer:

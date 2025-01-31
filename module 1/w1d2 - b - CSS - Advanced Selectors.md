@@ -61,7 +61,7 @@ selector1 selector2 {
     ```
 
 
-## Ancestors vs descendants etc.
+## (skip) Ancestors vs descendants etc.
 
 
 - An HTML document can be represented as a tree.
@@ -80,7 +80,7 @@ selector1 selector2 {
 
 
 
-## Direct Descendants (Children)
+## (skip) Direct Descendants (Children)
 
 
 

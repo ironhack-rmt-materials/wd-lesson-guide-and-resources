@@ -123,16 +123,21 @@ Milestone 4: make the game more interesting & fix bugs
   - note: we can start from Player and implement this one later.
   - start()
 
-[ ] Player class
-  - position (x, y)
-  - moveLeft(), moveRight()
-  - draw() [skip]
-  <!-- consider: add event listeners before drawing ? -->
+[ ] Implement functionality for the Player
 
-[ ] When game starts:
-  - create Player and draw it on the board
+<!-- IMPORTANT: for the player, create the div directly in the html (for obstacles, we'll do DOM manipulation) -->
 
-[ ] Allow player movement
+  - Player class
+    - position (x, y)
+    - moveLeft(), moveRight()
+  - Test the methods moveLeft() & moveRight() 
+    - create an instance of the class Player + invoke those methods.
+  - Add event listeners
+  - Display the player in the UI
+    - Create div for the player in the html + add some CSS so that we can see it
+    - In the constructor, give size & position to reflect the info we have about the player (doing dom manipulation).
+    - Implement player movement -- Change the methods moveLeft() & moveRight() so that we update the UI.
+
 
 [ ] Obstacle class
 

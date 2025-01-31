@@ -237,7 +237,7 @@ Solutions:
 - link to solutions is included in that gist.
 
 
-Time: 30min. in pairs
+Time: 35min. in pairs
 
 <!-- @todo: improve instructions (make them more clear, add hints / solutions for each iteration) -->
 

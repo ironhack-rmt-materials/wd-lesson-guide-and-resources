@@ -29,3 +29,8 @@ Deadlines:
 - Mini-project: Monday 9am
 - Assessments x2: Monday 9am
 
+<!-- 
+
+Note: for mini-project, they need to submit the url to the repo (no PR)
+
+-->

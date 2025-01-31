@@ -64,7 +64,6 @@
 - (in pairs) LAB | JS Challenges I (Arrays & Functions)
 - (bonus - self-guided) JS | Debugging and Error Handling
 
-
 <!-- 
 
 @LT: these are the first labs with Jasmine. 

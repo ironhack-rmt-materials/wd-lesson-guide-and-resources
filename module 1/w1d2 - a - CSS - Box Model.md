@@ -132,6 +132,8 @@ border-radius: 12px;
     padding: 10px 20px 30px 40px;
     ```
 
+- Cheatsheet for shorthand: https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0eb754a6-893b-4a48-b8d4-b9b2db0ee650/figurea.gif
+
 - Spacing behavior: after adding padding, the element "uses" more space.
 
 

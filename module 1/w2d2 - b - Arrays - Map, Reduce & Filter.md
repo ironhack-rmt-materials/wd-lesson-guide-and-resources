@@ -19,7 +19,7 @@ Status: ready
   - https://pbs.twimg.com/media/EYWEL13XkAcHnxm?format=jpg&name=4096x4096
 
 
-- Practice: working with arrays
+- Practice: forEach
 
   Instructions: https://stackblitz.com/edit/js-nmrwqu?file=index.js
 
@@ -233,24 +233,11 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
 
 ### Bonus: reduce() with an array of objects
 
-  ```js
-  const menu = [
-    { name: 'Greek Salad', calories: 200, isVeggie: true },
-    { name: 'Mushroom Risotto', calories: 350, isVeggie: true },
-    { name: 'Falafel', calories: 333, isVeggie: true },
-    { name: 'Turkey Sandwich', calories: 320, isVeggie: false },
-    { name: 'Pasta Primavera', calories: 320, isVeggie: true },
-    { name: 'Grilled Salmon', calories: 400, isVeggie: false },
-  ];
-  ```
+  - Instructions: https://stackblitz.com/edit/js-gcvjvufp?file=index.js
 
-  TASK:
-  - Iteration 1: Calculate the average number of calories.
-  - Bonus: Calculate the average number of calories of the veggie options.
+  - Time: 15min.
 
-  Time: 15min.
-
-  Possible solution: https://stackblitz.com/edit/js-vgpkmd?file=index.js
+  - Possible solution: https://stackblitz.com/edit/js-vgpkmd?file=index.js
 
 
 

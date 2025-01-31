@@ -8,23 +8,12 @@ Note: very brief (mention just the basics)
 -->
 
 
-Steps to follow:
-
-- (done) What is HTML
-
-- (done) How to see the HTML of a website (browser > view source)
-
-- (done) Dev Tools: elements panel
-  - Explain the DOM (Document Object Model)
-    - Tree of Nodes
-    - In the HTML DOM, everything is a node
-
-- Creating HTML
+Creating HTML
   - Demo on Codepen/Stackblitz
   - Demo on VS Code
 
 
-Codealong:
+Codealong links:
 - demo / final result: https://ironhack-rmt-materials.github.io/html-css-intro-codealong/
 - repo: https://github.com/ironhack-rmt-materials/html-css-intro-codealong
 
@@ -68,11 +57,6 @@ Codealong:
 - some examples: see prework
 
 -->
-
-
-- From here, follow students portal 
-  - (from the place where it explains "DOCTYPE Indicates that the markup language for your document content is HTML5.")
-
 
 
 - HTML structure (DOCTYPE etc)

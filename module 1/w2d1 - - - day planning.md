@@ -20,6 +20,9 @@ Planning:
   - inheritance
   - super
 
+- Show "project 1" examples:
+  - see: `project 1 examples.md`
+  - they can start thinking what they want to build
 
 
 

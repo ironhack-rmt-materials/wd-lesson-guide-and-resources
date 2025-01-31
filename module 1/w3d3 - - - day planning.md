@@ -34,14 +34,14 @@
 - (main room) check installations
   <!-- @todo: can make a recording -->
 
-- (individual) Solve this Kata using arr.map():
-  - Greet developers (7 kyu): https://www.codewars.com/kata/58279e13c983ca4a2a00002a/train/javascript
+- 9am (individual):
+  - Solve this Kata using arr.map() - Greet developers (7 kyu): https://www.codewars.com/kata/58279e13c983ca4a2a00002a/train/javascript
 
 - 10am (or once you finish that kata):
   - Deployment - Follow this video: https://www.loom.com/share/a183261549334d4aad2c916c54c266e0?sid=434fba10-37d3-49a9-9701-fcd67ae55b61
 
 - Once you finish deployment, submit your project URLs in the students portal.
-  - DEADLINE to submit project urls: 13:00h.
+  - DEADLINE to submit project urls: today 13:00h.
 
 - Note: 
   - It's completely normal that the game is not finished yet.

@@ -24,7 +24,7 @@ const price = 12.99; //decimal
 
 
 
-### NaN
+### NaN (Not a Number)
 
 ```js
 const result = 10 / 'pizza';
@@ -188,7 +188,7 @@ Ex:
   ```js
   const title = 'Harry Potter';
 
-  //string concatenation (old way)
+  //string concatenation with the "+" operator
   const msg1 = 'my favourite book is ' + title + ' and i love it';
 
   //Template Literals / String Interpolation

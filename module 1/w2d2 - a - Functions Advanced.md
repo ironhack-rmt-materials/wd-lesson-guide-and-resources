@@ -42,7 +42,7 @@
 
     ```js
     const calcMult = function(x, y) {
-        return x + y;
+        return x * y;
     };
 
     calcMult(2, 3);
@@ -64,10 +64,10 @@
   - both can be reused throughout the code.
 
 - Main difference:
-  - function expression: we can not call the function before it has been created
-    - makes sense: show example of the same with variables
   - function declaration: a function can be invoked 'before' the function declaration
     - why? Hoisting (lesson next week)
+  - function expression: we can not call the function before it has been declared
+    - makes sense: show example of the same with variables
 
 
 - Should I use function declarations of function expression?
@@ -211,7 +211,7 @@ Solution: https://stackblitz.com/edit/js-gkzf8e?file=index.js
 
 
 
-# Refresh: Different ways of creating functions 
+# (skip) Refresh: Different ways of creating functions 
 
 Summary: function declaration (statement) vs. function expression vs. arrow function
 

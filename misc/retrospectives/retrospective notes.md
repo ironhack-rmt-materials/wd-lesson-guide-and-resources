@@ -10,11 +10,21 @@
 
 ## Setup
 
-- We use one of those:
+- Tools for retros:
   - https://app.mural.co (more flexible)
-  - https://www.goretro.ai/ (more simple)
-    - july24: for GoRetro.ai, you need to create an account but there's no email validation.
-    - dec24: goretro will discontinue their free plan
+  - https://easyretro.io/ (more simple)
+
+
+  <!-- 
+
+  Setup in easyretro:
+
+  - Add board > Use custom template
+  - Configuration:
+    - One vote per card.
+    - Max votes: 10
+
+  -->
 
   <!-- 
   
@@ -30,7 +40,14 @@
   -->
 
 
-- On there, we add 4 "feedback" frameworks to gather feedback in the following categories:
+Option 1 (shorter), 4 columns:
+  - What went well ?
+  - What can we improve + how ?
+  - Suggestions & things to try.
+  - Kudos
+
+
+Option 2 (longer), add 4 "feedback" frameworks to gather feedback in the following categories:
 
   - Ironhack & the bootcamp
     - Includes: Admissions, PM, Materials, LABs, Central Support...
@@ -39,6 +56,9 @@
   - Class (we, as a group)
   - Yourself (self-assessment)
   - (extra) Gratitude Corner
+
+
+
 
 
 ## Instructions

@@ -77,7 +77,6 @@ Notes:
 - Students know all the theory 
 - Instead, build something together
 - Opportunity to speak about good practices & common mistakes
-- Example. ![css exercise](../media/images/w1d3-css-exercise.png)
 
 
 ## Pair programming [10m]
@@ -107,9 +106,12 @@ Notes:
 
 - (in pairs) LAB | CSS Recipes clone
 
+- (bonus) LAB | CSS Spotify clone
+
 - General guidelines for labs/assignments: https://gist.github.com/ironhack-edu/dd3635de73a6ef07ef337bf184eda985
 <!-- todo: update this gist (update screenshots + add demo of PR url and how to submit ) -->
 
 
 <!-- Ticketing system  -->
 - If you get stuck or need help: [link to ticketing system]
+

@@ -16,6 +16,8 @@ https://docs.google.com/presentation/d/1yAm3sAO8IC3K12AUlbQ5VesdTxMmfHFNNeNi96tT
 
 <!-- @todo: improve steps for initial setup (ex. create directory project 2, steps for REST API, etc) -->
 
+<!-- @todo: plan/prepare mock interviews -->
+
 <!-- @LT: during project week, check installations for m3 -->
 
   

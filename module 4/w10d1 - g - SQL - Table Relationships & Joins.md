@@ -44,11 +44,12 @@ In this lesson, we will focus on the practical aspects of database normalization
 
 - A JOIN operation allows you to join data from two or more tables based on a related column between them. This related column is typically the primary key in one table and a foreign key in another table.
 
-- Diagram 1: https://miro.medium.com/v2/resize:fit:1400/0*gdxxtAKE9vYAjXBk.png
+- Diagrams: 
+    - https://miro.medium.com/v2/resize:fit:1400/0*gdxxtAKE9vYAjXBk.png
+    - https://www.ml4devs.com/images/illustrations/sql-joins-cheatsheet.png
+    - https://diegobittencourt.org/wp-content/uploads/2024/06/image.png
 
-- Diagram 2: https://www.ml4devs.com/images/illustrations/sql-joins-cheatsheet.png
-
-- Diagram 3 (meme): https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fyku64jkyz9121.jpg
+- meme: https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fyku64jkyz9121.jpg
 
 - Also useful (detailed cheat sheet): https://images.datacamp.com/image/upload/v1679944084/Joining_Data_in_SQL_458a8fa873.png
 

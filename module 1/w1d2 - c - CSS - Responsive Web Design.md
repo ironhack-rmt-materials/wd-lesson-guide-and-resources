@@ -59,9 +59,9 @@
 
     ```css
     @media (min-width: 650px) and (max-width: 999px) {
-    .responsive-div {
-        background-color: green;
-    }
+      .responsive-div {
+          background-color: green;
+      }
     }
     ```
 

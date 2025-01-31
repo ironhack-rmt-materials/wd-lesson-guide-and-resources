@@ -11,7 +11,7 @@
 
 - CSS Box Model [20m]
 
-- CSS Advanced Selectors (skip or very brief)
+- CSS Advanced Selectors (very brief) [20m]
 
 - Responsive Web Design + Media Queries [1h]
   - Best practices / advice to do your CSS

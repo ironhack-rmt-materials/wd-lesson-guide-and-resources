@@ -38,7 +38,7 @@ Initial code:
   - floats
   - css frameworks (Bootstrap)
   - flexbox
-  - grid.
+  - grid
 
   <!-- @todo: create image (ex. https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/consequences-of-evolution-631.jpg) -->
 
@@ -77,7 +77,7 @@ Initial code:
 
 
 - Diagrams:
-  - https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox/flex_terms.png
+  - https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox/flex_terms.png
     - Relevant: 
       - Flex container
       - Flex item
