@@ -19,7 +19,19 @@ Task 2:
 Time: 12min.
 
 
----
+<!-- 
+
+(Extra)
+
+Some interesting content creators on youtube:
+- https://www.youtube.com/@WebDevSimplified/playlists
+- https://www.youtube.com/@programmingwithmosh/playlists
+- https://www.youtube.com/@ColorCode-io/playlists
+- https://www.youtube.com/@Fireship/playlists
+
+
+-->
+
 
 
 - (skip for now) Slides REST: 
@@ -54,78 +66,24 @@ Time: 12min.
 
 
 
+## Firebase REST API
 
-## Creating an account at Firebase
-
-Note: setup is very straight forward & at the moment it doesn't require payment details.
-
-
-## Configure your project
-
-- Click "Create a project"
-- Choose a name for your project
-- Google Analytics: can disable it (we will not use it)
-- (takes 1-2 minutes)
-
-- Build > "Realtime Database"
-  - IMPORTANT: we will use "Realtime Database", not "Firestore Database"
-  <!-- IMPORTANT -->
-- Click: Create Database
-- Select location (e.g. Europe)
-- Select "Security rules"
-  - Choose start in "locked mode"
-
-- Update the rules to give public access to all users:
-    ```json
-    {
-      "rules": {
-        ".read": true,
-        ".write": true
-      }
-    }
-    ```
-  - Click "Publish"
-
-  <!-- @LT: explain what that means (we're granting public access to all resources) -->
-
-
-- Firebase will automatically expose a REST API.
-  - The api url looks like "baseURL/resource.json"
-  - Example endpoints:
-    - "GET /recipes.json"
-    - "GET /recipes/:recipeId.json"
-    - "POST /recipes.json"
-    - "PATCH /recipes/:recipeId.json" (there’s also PUT)
-    - "DELETE /recipes/:recipeId.json"
-
-
-- Quick demo with axios (e.g. on stackblitz)
+Cheatsheet Firebase REST API:
+- https://gist.github.com/luisjunco/1e98cfa855703f811a227aed6c599a4f
 
 
 
-## Intro to Postman
 
+## How to test our REST API
 
-- (brief) Some options to send http requests:
-  - Tools:
-    - Postman
-    - cURL
-    - ...
-  - JavaScript code:
-    - http request (https://stackoverflow.com/a/4033310/11298742)
-    - fetch()
-    - libraries (ex. axios)
-
-
+Quick demo with axios (e.g. on stackblitz)
 
 Install Postman
   - https://www.postman.com/downloads/
   - Don't need to create an account (link at the bottom: "Skip")
 
-
 How to send a request:
 - Example: GET https://dog.ceo/api/breeds/image/random
-
 
 
 
@@ -159,28 +117,19 @@ How to send a request:
 
 
 
-
-Test second resource: "tasks"
+Quick demo with a second resource: "tasks"
 - `POST /tasks.json`
 - `GET /tasks.json`
 
+<!-- @LT skip relationships -->
 
 
 Explain that we don't have validation (you can put any data)
 
 
 
-<!--
-test: Relationships
-- Example: `projectId`
 
-test: Embedding Related Records
-- Example: GET http://localhost:5005/projects/1?_embed=tasks
--->
-
-
-
-## (extra) Connect our React app
+## Demo: connect our React app
 
 - Connect our React app to the API in production
   (for now, don't use env variables, just connect directly to production)
@@ -200,28 +149,86 @@ test: Embedding Related Records
   ```
 
 
-## Pain points
-
-Firebase doesn't follow some conventions that you see in most REST APIs:
-
-- List of items: Firebase returns an object (instead of an array)
-  - example: a GET request to `/projects.json` will return an object instead of an array (so you wanna convert it to an array in your react app).
-- Wrong request: if you send a request to the wrong URL, on the browser you may get a CORS error (instead of a 404).
-  - example: if you send a request to `/projects.json/42` instead of `/projects/42.json`
-- If a list of items is empty: Firebase will return null (instead of an empty array)
-- If an item does not exist: Firebase will return null (instead of a 404 error)
-- Resource created: Firebase returns a 200 (instead of a 201)
 
 
-Warning on rules:
+## (skip) Relationships
+
+Firebase Realtime Database is a NoSQL database.
+
+It doesn't support traditional relationships (like foreign keys), but you can literally put anything any valid JSON in the DB, so it can be used to store relationships. The difference is that you'd need to manage relationships manually.
+
+
+### Relationships Option 1: embedded documents (aka `denormalized`)
+
+Example:
+
+  ```json
+  {
+    "projectId-1": {
+      "title": "Project 1",
+      "description": "abc",
+      "tasks": [
+        {
+          "title": "Initial Setup",
+          "difficulty": 2
+        },
+        {
+          "title": "Configure Routing",
+          "difficulty": 3
+        }
+      ]
+    }
+  }
+  ```
+
+
+### Relationships Option 2: referencing data (aka `normalized`)
+
+
+For example, you can have this collection of projects:
+
+  ```json
+    {
+      "projectId-1": {
+        "title": "Project 1",
+        "description": "abc",
+        "tasks": ["taskId-1", "taskId-2"]
+      },
+      "projectId-2": {
+        "title": "Project 2",
+        "description": "abc",
+        "tasks": []
+      }
+    }
+  ```
+
+And this collection of tasks:
+
+  ```json
+  {
+    "taskId-1": { "title": "Initial Setup", "difficulty": 2 },
+    "taskId-2": { "title": "Configure Routing", "difficulty": 3 }
+  }
+  ```
+
+In this case, you'd need to send 2 requests to the api.
+
+
+
+
+## Warning on rules
+
 - Explain that if we provide public access, anyone can CRUD any resource.
 - It is possible to create more restrictive rules (and we should). In m3 we will also learn better patterns. 
+
 
 
 
 ## Pricing
 
 - see: https://firebase.google.com/pricing 
+
+
 
 
 ## (skip) Firebase Auth
