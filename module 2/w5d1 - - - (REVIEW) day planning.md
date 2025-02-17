@@ -6,7 +6,20 @@
 
 ## Day planning
 
-<!-- @todo: create a small warmup activity (before we start with "how the internet works") -->
+<!-- 
+
+Optional: 
+- can ask for preferences for today's lab (eg. if there's anyone you still haven't worked with and you'd like to)
+
+
+Alternative to typicode api:
+- https://jsonplaceholder.org/users
+
+
+@todo: 
+- create a small warmup activity (before we start with "how the internet works") 
+
+-->
 
 - Intro to week 5
 
@@ -102,6 +115,10 @@ PROMISES:
   - Using the fetch api, send a GET request to the url "https://jsonplaceholder.typicode.com/users" and display in the console the number of users.
   - Solution: https://stackblitz.com/edit/js-9hfrjq?file=index.js
 
-- Bonus 2: check bonus labs in the students portal (week 4)
+- Bonus 2:
+  - Tomorrow, we'll learn a new hook called useEffect(). 
+  - Follow this 14min. video to start getting familiar with some of the topics we'll see tomorrow: https://www.youtube.com/watch?v=0ZJgIjIuY7U
+  - Advice: create a new react app on stackblitz and code as you follow the video.
 
+- (skip) Bonus 3: check bonus labs in the students portal (week 4)
 

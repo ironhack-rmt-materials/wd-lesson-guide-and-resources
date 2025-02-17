@@ -33,6 +33,19 @@ Show the app we were building yesterday
 - list of movies loaded from `json` (in most apps, it would come from an API)
 - component hierarchy (see react dev tools + see code)
 
+- state:
+
+  ```jsx
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  ```
+
+
+  ```jsx
+  { isLoggedIn === true 
+      ? <h1>Welcome to Popcorn Time!</h1> 
+      : <h1>Sorry, you need to login</h1>
+  }
+  ```
 
 
 

@@ -1,0 +1,137 @@
+
+
+# Practice: technical interviews
+
+
+
+## Technical Interview - JavaScript I
+
+
+Exercise 1 - Throwing Darts:
+- Instructions (codewars): https://www.codewars.com/kata/525dfedb5b62f6954d000006
+- Notes:
+    - Solve directly on codewars
+    - It's not particularly difficult, it requires some familiarity to JS & paying attention to details (instructions, edge cases, etc)
+- Some possible solutions: https://github.com/luisjunco/katas-solutions-and-explanations/tree/main/codewars/9%20-%20(6kyu)%20Throwing%20Darts
+
+
+
+Exercise 2 - The rice and chessboard problem:
+- Instructions: https://gist.github.com/luisjunco/dcec6ca49602eaf7b023947505fea6c6
+- Notes: 
+    - Much easier to solve if you think in binary
+    - Based on this codewars kata: https://www.codewars.com/kata/5b0d67c1cb35dfa10b0022c7/
+- Some possible solutions: https://github.com/luisjunco/katas-solutions-and-explanations/tree/main/codewars/20%20-%20(7kyu)%20The%20wheat-rice%20and%20chessboard%20problem
+
+
+
+Takeaways:
+- Read instructions carefully.
+- If in doubt, ask.
+- In live coding sessions, explain what you're trying to do.
+
+
+
+## Technical Interview - React I
+
+
+Instructions: 
+- https://gist.github.com/luisjunco/01fd5845f81460388040962b27062739
+
+Q:
+- If the API returns an empty array, display a message (`Sorry, no products to display`)
+- Implement the API request with fetch instead of axios
+- SearchBar
+
+
+
+
+
+## Technical Interview - JavaScript II [1.5h]
+
+<!-- 
+
+@LT:
+- 1 day in advance, send a formal invitation to the candidate. 
+- In the invitation, mention that we use TDD.
+
+---
+
+Subject: Technical Interview Invitation – [Company Name]
+
+Hi [Candidate's Name],
+
+We'd love to invite you for a technical coding interview with [Company Name]! 
+
+Our team works extensively with JavaScript, React, and Express, and we’re excited to see how your skills align.
+
+For this particular role, we're looking for someone with solid JavaScript skills and a good understanding of TDD (experience writing tests with Jest, or similar testing frameworks is a big plus).
+
+Do you have availability for tomorrow 9am ?
+
+Best,
+[Your Name]
+
+
+-->
+
+
+Task:
+- Implement `String.prototype.indexOf()` without using native functions (can use only use `str.charAt()`).
+- Bonus: Testing / TDD
+
+How:
+- Share with the candidate a pdf file with the instructions
+- pdf: https://github.com/luisjunco/technical-interviews/
+- Time: 1h
+
+
+Evaluation criteria:
+
+- Essential criteria:
+    - The code works and does what was requested
+    - Presence of unit tests
+
+- Auxiliary criteria:
+    - Use of language mechanisms appropriate for the problem (break, continue, labeled loops)
+    - Adherence to a common "coding standard" (consistent indentation, follow naming conventions, etc)
+    - Proper naming (giving variables, functions, and other identifiers clear and descriptive names).
+    - Use of a unit testing framework
+    - No abandoned debugging code
+
+
+
+Takeaways:
+- Before a technical interview, try to get familiar with the technologies asked for that particular role.
+- Read instructions carefully.
+- Follow coding standards & good practices.
+- Even if you're not able to solve all the tasks, show interest in learning and growing.
+- If the test has a deadline, make sure to stick to it & submit before the deadline.
+
+
+## Technical Interview - React II
+
+<!--
+
+@LT: 
+- This exercise is more a take home longer assignment.
+- If done in class, start by displaying a list of books + focus on the core functionality
+
+-->
+
+Instructions: https://github.com/ironhack-rmt-materials/technical-interview-react-ii
+
+
+
+
+## Alternative React Interview
+
+- Initial code: https://github.com/ironhack-rmt-materials/technical-interview-react
+- Demo: https://technical-interview-react-demo.netlify.app/
+
+Q:
+- If no albums to display, display a message (`Sorry, no albums to display`)
+- SearchBar
+- In case data was coming from an API, how would you implement a loader/spinner.
+- Implement native toast (e.g. after creating an album) / How would you implement it.
+

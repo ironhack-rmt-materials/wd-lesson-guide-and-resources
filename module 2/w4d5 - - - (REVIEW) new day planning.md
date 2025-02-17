@@ -8,6 +8,8 @@
 - LAB Q&A [20m]
 
 
+- Refresh props + callbacks
+
 - Refresh lifting state up
 
 - Refresh Routing:
@@ -52,6 +54,8 @@ Extra:
   <!--
   LT: discuss, functionality to edit ("Create a form component that allows the user to update an existing item from the items list) -->
 
-- Bonus: check bonus labs in the students portal
+Bonus:
+- Implement search filter (web dev simplified, 14min.): https://www.youtube.com/watch?v=E1cklb4aeXA&t=335s
+- In the students portal, you'll find quite a few extra labs
 
 

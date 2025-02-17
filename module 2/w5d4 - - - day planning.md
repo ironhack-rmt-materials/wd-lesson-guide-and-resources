@@ -19,7 +19,7 @@ Notes after m2-m3 swap:
 
 - [ ] LAB Q&A [30m]
 
-- [ ] Some options to give CSS to React apps [1h]
+- [ ] Some options to give CSS to React apps [1.5h]
   - see: `(extra) Some options to give CSS to React apps.md`
 
 - [ ] Creating a backend API  [1.5h]
@@ -39,6 +39,7 @@ Assessments:
 <!--
 
 @LT: explain infinite loop rendering a component in React
+
   function Navbar(){
     return(
       <>
@@ -47,6 +48,16 @@ Assessments:
       </>
     )
   }
+
+
+  function Container(){
+    return(
+      <>
+        <Container></Container>
+      </>
+    )
+  }
+
 -->
 
 

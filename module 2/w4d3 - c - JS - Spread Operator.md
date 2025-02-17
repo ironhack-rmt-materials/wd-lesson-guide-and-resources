@@ -66,7 +66,7 @@ Examples using the spread operator:
 
 
 Practice: spread operator (& refresh forEach)
-- https://stackblitz.com/edit/js-f87bqx?file=index.js
+- Instructions: https://stackblitz.com/edit/js-f87bqx?file=index.js
 - Time: 10min.
 - Solution: https://stackblitz.com/edit/js-t5ydb9?file=index.js
 

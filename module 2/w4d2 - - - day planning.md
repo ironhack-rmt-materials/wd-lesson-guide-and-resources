@@ -37,7 +37,7 @@
   - Note: work in pair-programming.
 
 - (in pairs) LAB | React Tweets
-  <!-- Note: the goal of this lab is to practice components (you will be creating many) -->
+  - Note: the goal of this lab is to practice components (you will be creating many)
 
 
 Bonus:

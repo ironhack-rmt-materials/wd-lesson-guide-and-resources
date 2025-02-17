@@ -70,13 +70,15 @@ Roadmap:
       - copy index.css
       - install dependencies (npm install axios react-router-dom)
       - setup routing
-      - create components/Navbar and pages/HomePage
+      - create `components/Navbar`, `pages/HomePage` and `pages/ProjectListPage`
 - [ ] List of projects
 - [ ] Create new projects
 - [ ] Project details page
 - [ ] Edit projects
 - [ ] Delete projects
 - [ ] Create new tasks
+      - display list of tasks
+      - functionality to create tasks
 - [ ] (skip) Extracting Components (project card + task card)
 
 

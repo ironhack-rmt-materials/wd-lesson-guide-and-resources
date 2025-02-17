@@ -35,6 +35,17 @@ m2-m3 swap:
 
 - (individual) React Iron Brewers
 
+<!-- 
+
+feb 2025:
+- AI feedback is giving inaccurate results on this lab (likely because it's a fork from another lab).
+- more info: https://team-ironhack.slack.com/archives/CHB9RLPEF/p1739378353595149
+
+- Note: while it's fixed, tell students to open the PR using the option "Contribute" > "Open Pull Request"
+
+-->
+
+
 - (in pairs) Mini Project
   - Deadline to submit mini-projects: Friday 9am.
   - Note: don't worry about preparing a presentation

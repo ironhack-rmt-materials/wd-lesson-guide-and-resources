@@ -7,6 +7,7 @@
 - [LESSON] Intro to module2 [30m]
 
 - [LESSON] Object destructuring [30m]
+  - Also, do a quick intro to array destructuring.
 
 - Demo: create a React app in Stackblitz
   - See import/export
@@ -27,9 +28,9 @@
 
 <!-- 
 @todo: 
-- create repo
 - add solutions
 - improve iterations (eg. add bonus with some css)
+- bonus: research props
 -->
 
 - (individual) LAB | Intro Node

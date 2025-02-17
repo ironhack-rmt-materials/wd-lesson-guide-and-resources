@@ -125,17 +125,17 @@ export default UserOne;
 
 Initial code: 
 - https://stackblitz.com/edit/vitejs-vite-udhmpb?file=src%2FApp.jsx
-- note: in App.js we have an array of movies
+- note: in App.jsx, we have an array of movies
 
 Iteration 1: 
   - create a component "Movie" (for this iteration, just display an h1 ex. `this is the Movie component`).
 
 Iteration 2: 
-  - in App.js, render 3 times the Movie component
+  - in App.jsx, render 3 times the Movie component
 
 Iteration 3: 
 - use props to make the component generic
-- in app.js, you will need to send each element of the array as props.
+- in App.jsx, you will need to send each element of the array as props.
 
 ```jsx
   <Movie details={moviesArray[0]} />

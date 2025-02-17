@@ -3,7 +3,7 @@
 
 ## (Intro) Create a React App on Stackblitz/CodeSandbox [15m]
 
-- See index.js:
+- See main.jsx:
   - import "React"
   - root.render()
 - See App.js (component)

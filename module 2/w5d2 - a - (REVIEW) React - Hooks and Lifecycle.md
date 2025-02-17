@@ -187,12 +187,8 @@ How:
   <!-- @LT: remember to FORK ! -->
 
 
-Endpoint: 
-- GET: https://jsonplaceholder.typicode.com/users
-
-
 What we will do: 
-- Display the number of users in the API.
+- Display the number of characters in the API.
 
 
 <!--
@@ -281,9 +277,9 @@ https://legacy.reactjs.org/docs/hooks-reference.html
 
 - Introduce useEffect()
 
-  > Sometimes, we want to run some additional code after React has updated the DOM.
+  > useEffect hook allows you to execute code at different stages of the lifecycle
 
-  > useEffect Hook allows you to run side effects during all three lifecycle phases.
+  > E.g. execute some additional code after React has updated the DOM.
 
 
   ```js
@@ -373,6 +369,8 @@ https://legacy.reactjs.org/docs/hooks-reference.html
 
 Note: students need a lot of guidance to be able to do this task for the first time (unless we've done any similar example before)
 
+@todo: create gist
+
 -->
 
 
@@ -385,7 +383,7 @@ note:
 -->
 
 Iteration 1: display the number of characters (in App.jsx)
-- In App.js: use `useEffect` & `axios` to get a list of characters from the API.
+- In App.jsx: use `useEffect` & `axios` to get a list of characters from the API.
 - Endpoint: GET "https://ih-crud-api.herokuapp.com/characters"
 - Once you have the list of characters, display that in the console.
 - Now, display the number of characters in the JSX (ex. so that the user can see how many characters there are).
@@ -464,12 +462,12 @@ Solutions:
 
 <!-- 
 
-- Codealong "react-characters-app": 1.5h
+Codealong "react-characters-app": 1.5h
 
 Options:
 - Option 1: stay in the main room & follow what we're doing
 - Option 2: stay in the main room & try to code-along
-- Option 3: use breakout rooms & start working on LAB & mini-project
+- Option 3: use breakout rooms & start working on today's LAB & bonus LABs
 
 -->
 

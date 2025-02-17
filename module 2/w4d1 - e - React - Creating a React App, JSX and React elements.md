@@ -31,6 +31,14 @@ More details:
 
 
 Initial Setup:
+
+  <!--
+
+  Gist for students to codealong:
+  https://gist.github.com/luisjunco/94492f0a8c7a8d641fff1cdce0f4d4b5
+  -->
+
+
 - open VS Code + a terminal
 - navigate to your ironhack directory
 - `mkdir module2`
@@ -39,6 +47,7 @@ Initial Setup:
 - Create app with Vite:
   - option 1: `npm create vite@latest`
   - option 2: `npm create vite@latest react-intro -- --template react`
+    - Note: you may be asked for confirmation (Ok to proceed? (y)). In that case, type "y" and hit enter.
     <!-- - source: https://vitejs.dev/guide/ -->
   - `cd react-intro`
   - `code -r .`
@@ -46,11 +55,6 @@ Initial Setup:
   - `npm run dev`
 
 
-  <!--
-  Note: some students get this message:
-  - Need to install the following packages
-  - Ok to proceed? (y) -- Type "y"
-  -->
 
 
 

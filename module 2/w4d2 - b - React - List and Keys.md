@@ -103,12 +103,15 @@ Note:
 
 ## .map() - Demo I (with an array of strings)
 
-Before we import the json file, do a quick demo with an array of strings:
+<!-- Before we import the json file, we'll do a quick demo with an array of strings -->
+
+
+Create a component `MovieList`.
 
 
   ```js
 
-  const movies = ["The Godfather", "Forrest Gump", "Gladiator"]
+  const movies = ["The Godfather", "Forrest Gump", "Gladiator"];
 
   // ...
 
@@ -120,8 +123,11 @@ Before we import the json file, do a quick demo with an array of strings:
 ## .map() - Demo II (with an array of objects)
 
 
+Create `data/movies.json`:
+
+
 ```js
-const movies = [
+[
   {
       "id": 1,
       "title": "The Godfather",
@@ -151,6 +157,11 @@ const movies = [
 ```
 
 
+Import:
+```
+import moviesArr from "../data/movies.json";
+```
+
 
 ## Practice: iterate through an array with .map()
 
@@ -168,4 +179,9 @@ Time: 10min.
 
 Solution: https://stackblitz.com/edit/vitejs-vite-6y5hah?file=src%2Fcomponents%2FEventsList.jsx
 
+
+
+## Explain "key" prop
+
+> Warning: Each child in a list should have a unique "key" prop.
 

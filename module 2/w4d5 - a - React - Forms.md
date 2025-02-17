@@ -118,16 +118,14 @@ Fix: generate a unique id each time a movie is added
 
 <!-- 
 
-@update: 
-
-generate a unique id (will make our life easier when we implement routing)
+important: generate a unique id (will make our life easier when we implement routing)
 
 -->
 
 
 Exercise: 
 - Find max in array of numbers + array of objects
-- note: do some research
+- note: you may need to do some research
 - Instructions: https://stackblitz.com/edit/js-wjdmct?file=index.js
 - Solution: https://stackblitz.com/edit/js-miexdw?file=index.js
 

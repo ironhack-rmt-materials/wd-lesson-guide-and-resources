@@ -86,8 +86,9 @@ Initial code: https://stackblitz.com/edit/vitejs-vite-zrnmm4?file=src%2FApp.jsx
 
 Your task: implement routing.
 
+<!-- @LT: explain how to do npm install on Stackblitz -->
+
 Bonus: add some nice CSS.
 
 Time: 15min.
 
-<!-- @LT: explain how to do npm install on Stackblitz -->

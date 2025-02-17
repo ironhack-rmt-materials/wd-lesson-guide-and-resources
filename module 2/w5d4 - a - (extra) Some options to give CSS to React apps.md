@@ -19,7 +19,7 @@ Some options to apply CSS to our React apps:
 - 2. One CSS file per component
 
 - 3. CSS Framework
-    - Example: Tailwind, Bootstrap
+    - Example: Bootstrap, Tailwind
 
 - 4. Component libraries
     - Example: Chakra UI, Mantine, Semantic UI
@@ -49,6 +49,21 @@ Show example with Buttons:
     <Button variant="outline" color="red">Delete</Button>
     <Button variant="filled" color="indigo">Back to projects</Button>
     ```
+
+Demo: implement responsiveness with `SimpleGrid`
+
+```jsx
+<SimpleGrid cols={{ base: 1, md: 3}} >
+    {projects.map((projectDetails) => {
+        return (
+            <div>
+                {/* ... */}
+            </div>
+        )
+    })}
+</SimpleGrid>
+```
+
 
 
 Some interesting core elements:
