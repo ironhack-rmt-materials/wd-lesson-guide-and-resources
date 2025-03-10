@@ -64,23 +64,22 @@
 ## Other questions....
 
 - What is your favorite part of working from home?
-- Which band / artist – dead or alive would play at your funeral?
+- What's something you've done that you're pretty sure you're the only person in the room who has done it?
+- If you could turn any activity into an Olympic sport, what would you choose?
 - You need to prepare for a talent show, what do you do?
 - Beach holiday or ski trip?
-- What would your superpower be and why?
+- If you could have any superpower for just one day, what would it be?
 - If you could switch lives with anyone for a day, who would it be?
 - Which cartoon character do you wish was real?
 - When you die, what do you want to be remembered for?
 - What's the hardest part about working virtually for you? The easiest?
 - If you were famous, what would you be famous for?
-- If you had to delete all but 3 apps from your smartphone, which ones would you keep?
 
 - Which movie made you laugh hard?
 - Do prefer working from home or the office?
 - What fictional world or place would you like to visit?
 - What is your favorite meal to cook and why?
 - Are you a morning person or a night person?
-
 
 - What was the worst job you ever had?
 - If you had a time machine, would go back in time or into the future?
@@ -89,4 +88,8 @@
 - If you could live anywhere in the world for a year, where would it be?
 - If you could see one movie again for the first time, what would it be and why?
 - If you could rename yourself, what name would you pick?
+
+- If your body made a sound effect every time you blinked, what sound would be the most inconvenient?
+- Which band / artist – dead or alive would play at your funeral?
+- If you had to delete all but 3 apps from your smartphone, which ones would you keep?
 

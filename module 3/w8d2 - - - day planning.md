@@ -9,8 +9,18 @@
 - running 2 apps in development (eg. 2 vs code windows + their own terminals)
 
 - ironlauncher --auth --json [1.5h]
+  - topics:
+    - create the app with ironlauncher
+    - launch (`npm run dev`)
+    - see `package.json` (dependencies + scripts)
+    - quick overview of initial code (models + routes)
+    - understand the flow of the application
+    - see the initial code for auth + middleware for auth
+    - test with postman
+  - more notes in `Express - Ironlauncher.md`
 
-- environment variables (see notes below) [20m]
+- environment variables [20m]
+  - see notes below
 
 - Project kickoff
   - Requirements [30m]
@@ -25,7 +35,6 @@
 
 
 ## Environment variables
-
 
 
 Backend / Express:

@@ -28,7 +28,7 @@ Slides ("Intro to Databases & MongoDB"):
   - localhost:27017
 
 
-- Create a Database (ex. demo-restaurant)
+- Create a Database (eg. demo-restaurant)
   - collection: "pizzas"
 
 

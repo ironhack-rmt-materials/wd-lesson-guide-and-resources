@@ -65,7 +65,7 @@ Follow students portal.
   - See demo: https://stackblitz.com/edit/stackblitz-starters-wgmw4y?file=app.js
   - Routes:
     - GET "/"       (html)
-    - GET "/about"  (html)
+    - GET "/contact"  (html)
     - GET "/pizzas" (json response)
   - main difference with module 1: backend code
 
@@ -95,8 +95,8 @@ Initial setup:
   mkdir iron-restaurant
   cd iron-restaurant
   touch app.js
-  npm init --yes
   code -r .
+  npm init --yes
   npm install express
   ```
 
@@ -177,19 +177,35 @@ Time: 12min.
 
 ## Sending html with res.send()
 
-
 Explain:
 - in res.send(), we can send a string or html content
 
 
-## Nodemon
 
-Some students have problems installing `nodemon`.
+## Watch mode (nodemon & node --watch)
+
+<!-- 
+
+March25:
+- Students portal: now it uses "node --watch"
+- Labs and ironlauncher: still have "nodemon" (as a dev dependency)
+
+-->
+
+
+Option 1:
+
+- Install nodemon as a global dependency: `npm install -g nodemon`
+
+- Some students have problems installing `nodemon`.
   - Just use `sudo`.
   - Alternative: `npx nodemon my-file.js`
 
+- (skip) show example when nodemon crashes (eg. syntax error)
 
-Also, show example when nodemon crashes (ex. syntax error)
+
+Option 2:
+- Run with `node --watch app.js`
 
 
 

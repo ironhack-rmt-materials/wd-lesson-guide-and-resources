@@ -51,15 +51,19 @@ Arrays vs Objects:
 
 -->
 
-- Arrays vs Objects
-  - both of them are useful to group information (collection of things)
-  - arrays: (usually) elements with the same relationship
-    - ex: array of students
-    - ex: array of teachers
-    - ex. array of numbers
-  - objects: store elements with a different relationship (relationship between the variable and the value)
-    - company object (founder, marketing director, front-end developer, ...)
-    - company 2 (founder, website, email, number of employees)
+
+- Arrays: useful for organizing and accessing data based on the position.
+
+- Objects: useful for organizing and accessing data using meaningful labels.
+
+- Examples:
+  - arrays:
+    - array of students
+    - array of teachers
+    - array of numbers
+  - objects:
+    - user details (userName, email, status...)
+    - company object (founder, marketing director, front-end developer...)
 
 
   Example 1:

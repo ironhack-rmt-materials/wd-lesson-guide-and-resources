@@ -199,7 +199,7 @@ Practice: MongoDB CRUD operations
 - Instructions: https://gist.github.com/luisjunco/42d608e3f96d712bc136ffbc4b2627bf
 
 - Time: 20min.
-- How: work in pairs
+- How: individual / in pairs
 
 <!-- 
 

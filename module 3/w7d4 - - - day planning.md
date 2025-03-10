@@ -33,7 +33,12 @@
   - Cheatsheet: https://gist.github.com/luisjunco/a507e9f15acb32620cf8a33fff0904b1
 
 
-- (extra) intro github copilot [20m]
+- refactor: extract some routes to specific files [30m]
+  - example: https://github.com/ironhack-sept2024-devstructors/express-iron-restaurant/commit/cd281f2d8ec21541734e2914378f60f6ca30f6ee
+
+
+- (extra) github copilot / AI tools for developers [40m]
+  - Alternative: do this during project week.
 
 
 - explain: plan today + tomorrow.
@@ -65,7 +70,7 @@ Refresh REST [10min.]
 
 Explain: how to extract routes to specific files
 - Explain on the app from yesterday.
-- example: https://github.com/ironhack-jan2024-AngryCats/project-management-server/tree/main/routes
+- example: https://github.com/ironhack-sept2024-devstructors/express-iron-restaurant/commit/cd281f2d8ec21541734e2914378f60f6ca30f6ee
 
 
 Explain: some other topics that they'll find in "Express | REST API"
@@ -86,22 +91,21 @@ Quick intro to "IronLauncher"
 
 <!-- @LT: workload to do this 3 things (self-guided + mini-project + recording) is very reasonable, specially if we finish lectures by 1pm -->
 
-0. Submit project preferences
+1. Submit project preferences
   - Deadline: tomorrow 10am.
 
-1. "Express | REST API"
+2. "Express | REST API"
     <!-- Follow the steps in this unit, starting from the section "Project Management API" -->
     - How: individual or in pairs (same groups that we use for mini-project)
 
-2. Mini Project - REST API - Day 4
+3. Mini Project - REST API - Day 4
 
 
-3. Watch Recording "Auth: intro and hash algorithms" (1h): https://www.loom.com/share/99e0abae2c9346a3ba84d1e178c06b48?sid=e471b840-b8a6-44a1-9070-4f5a5f662518
+4. Watch Recording "Auth: intro and hash algorithms" (1h): https://www.loom.com/share/99e0abae2c9346a3ba84d1e178c06b48?sid=e471b840-b8a6-44a1-9070-4f5a5f662518
 
 
 Bonus: 
 - Implement your routes with `async/await` instead of `.then().catch()`
-
 
 
 <!-- 

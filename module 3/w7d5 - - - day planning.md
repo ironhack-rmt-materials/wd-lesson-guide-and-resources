@@ -44,5 +44,11 @@
     
 - (individual) Assessment: "NodeJS and MongoDB REST API"
     - Deadline: Wed 9am.
+    - Important: 
+        - In the response, the tests expect to receive the info in the property "data" 
+        - Example: https://drive.google.com/file/d/1Td8hzoCAKCWwxKeM5V9Zrj4S5GlDJSe4/view?usp=drive_link
+        <!-- @LT: the instructions include an example but it doesn't say explicitly that they need to pass that in the property "data" -->
+
 
 <!-- Recommended: finish both things by Monday -->
+

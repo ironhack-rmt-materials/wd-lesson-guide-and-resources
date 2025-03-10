@@ -13,10 +13,14 @@ Local-Findie: https://local-findie.netlify.app/
 - Responsive
 
 
-MemeGag: https://memegag.netlify.app/
-- (Atanas + Gonçalo)
-- Models: User + Post (CRUD) + Comment (CR_D)
-- Basic UI, responsive
+Eventure: https://eventure-eventdiscoverapp.netlify.app/
+- (Geethu)
+- Models: User + Event + Booking
+
+Joga Football: https://joga-football.netlify.app/
+- (Samy)
+- Models: User + Game + Booking
+- (user can see the list of bookings in "my profile")
 
 
 WorkSpots: https://workspots.netlify.app/
@@ -33,16 +37,10 @@ WorkSpots: https://workspots.netlify.app/
 
 Other projects:
 
-Eventure: https://eventure-eventdiscoverapp.netlify.app/
-- (Geethu)
-- Models: User + Event + Booking
-
-
-
-Joga Football: https://joga-football.netlify.app/
-- (Samy)
-- Models: User + Game + Booking
-- (user can see the list of bookings in "my profile")
+MemeGag: https://memegag.netlify.app/
+- (Atanas + Gonçalo)
+- Models: User + Post (CRUD) + Comment (CR_D)
+- Basic UI, responsive
 
 -->
 

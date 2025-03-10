@@ -49,7 +49,13 @@ notes:
 
 - (extra) introduce URL params (req.params) [30m]
   <!-- why: w7d3 has a lot of contents, can be good to introduce it today -->
-  <!-- Sample repo: https://github.com/ironhack-apr2024-theScriptSociety/iron-restaurant -->
+  
+  <!-- 
+  - Sample repo: https://github.com/ironhack-apr2024-theScriptSociety/iron-restaurant
+  
+  - Note: implement first a single route using arr.find() to find the element with id "3" (then, make it more generic)
+
+  -->
 
 
 
@@ -110,7 +116,14 @@ notes:
   -->
 
 
+- Before Lunch: ask for preferences project 3
+  - see `project preferences.md`
+
+
+
 ## Active Learning
+
+<!-- @LT: tell students they may want to ask someone if they want to partner for project 3 -->
 
 - (individual) LAB | MongoDB - Advanced Querying
   - Note: to import the db, you can use MongoDB Compass.
@@ -118,6 +131,7 @@ notes:
 - (in groups) Mini Project - REST API - Day 2
 
 - Bonus: 
+  - Research: Express `req.query`
   - Follow the steps in the unit from tomorrow "Mongoose | Introduction"
   - Codewars Katas
 

@@ -47,3 +47,20 @@ IronLegacy: https://iron-legacy.netlify.app/
 
 
 
+## More Projects
+
+Picklerick Universe: https://picklerick-universe.netlify.app/
+<!-- update: missing CRUD -->
+- (David E., George)
+- Includes some nice bonuses, including connection to OpenAI API.
+
+
+Buddy Book: https://buddy-book.netlify.app/
+- (Julia, Uzma)
+
+
+ForkCast: https://forkcast-planner.netlify.app/
+- (Kamran, Victor)
+
+
+

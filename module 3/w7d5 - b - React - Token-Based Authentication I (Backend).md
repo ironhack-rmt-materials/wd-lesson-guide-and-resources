@@ -92,6 +92,8 @@ Code summary:
 
 ## Functionality to login ("Login Route")
 
+<!-- @LT: to speed up, can copy the whole code for this route, except of the part where we sign a jwt -->
+
 - Discuss with students, what we may need.
 - Implement (`POST  /auth/login`)
   - Start implementing the first steps (`User.findOne()`, compare password with the hash from db...)

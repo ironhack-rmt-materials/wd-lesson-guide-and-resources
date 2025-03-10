@@ -17,9 +17,16 @@
   - start by creating repo in localhost (with Vite):
     - `npm create vite@latest our-cool-name -- --template react`
   - then, upload to github
-  
-- Git merge conflicts & how to solve them [1h]
 
+
+- Git branches
+  <!--
+    First, explain merging branches without a conflict.
+    Then, explain merging branches with a merge conflict.
+  -->
+
+
+- Git merge conflicts & how to solve them [1h]
   <!-- @todo: create self-guided lab (or video) so that they can do in pairs. -->
 
 

@@ -36,6 +36,8 @@ Extra:
 
 ## Active Learning
 
+<!-- @LT: tell students they may want to ask someone if they want to partner for project 2 -->
+
 
 - (individual) React Exponents Counter
 - (individual) React Forms

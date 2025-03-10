@@ -10,6 +10,7 @@
 
 - settings
     - eg: enable/disable
+    - choosing model
 
 - ghost text:
     - `function findLongestStringInArray(){}`

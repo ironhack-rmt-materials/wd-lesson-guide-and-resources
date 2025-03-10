@@ -7,18 +7,22 @@
 
 @LT: 
 
-- instead of iron-restaurant, follow students portal (Books and Authors -- ex. "mongoose-library")
+- ~~consider: instead of iron-restaurant, follow students portal ("mongoose-library" with Books and Authors)~~ ?
 
 - Students are now quite familiar with Mongoose (did research in mini-project)
 
-- Mini-project research includes:
-    - install mongoose
-    - create Schema + model
-    - connect to DB
-    - data types + validators
-    - Create + Read (integrated in the routes)
-
 -->
+
+
+
+## (optional) Ask students what do they know about Mongoose
+
+Mini-project research includes:
+- install mongoose
+- create Schema + model
+- connect to DB
+- data types + validators
+- Create + Read (integrated in the routes)
 
 
 
@@ -58,6 +62,10 @@ Summary of functionality we'll implement:
     - Pizza
     - Cook
 - CRUD Pizza
+    - [ ] C
+    - [ ] R
+    - [ ] U
+    - [ ] D
 - Create Cook
 - Relations + Populate
 
@@ -235,6 +243,9 @@ Time: 20min.
 - This exercise uses a DB on MongoDB Atlas, so that students get some initial data.
 - To test if the DB is up, connect on Compass ("mongodb+srv://bob:supersecretpassword@cluster0.tiknp.mongodb.net/ih-exercise-mongoose-methods")
 - If the DB is down, students can connect to a local DB (e.g. "mongodb://127.0.0.1:27017/ih-exercise-mongoose-methods"), but they'll need to create some initial data.
+
+@todo:
+- create a cron job / monitor to keep the DB alive.
 
 -->
 

@@ -23,7 +23,7 @@ Some options to apply CSS to our React apps:
 
 - 4. Component libraries
     - Example: Chakra UI, Mantine, Semantic UI
-    - Tailwind component libraries: Flowbite React, daisyUI
+    - Tailwind component libraries: Flowbite React, daisyUI, HeadlessUI
     <!-- @note: As of Nov. 2024, Chakra has released v3, but the documentation still appears to be somewhat immature  -->
 
 ## Example Global CSS

@@ -16,4 +16,5 @@ React App
     - Example: Bootstrap, Tailwind
   - Component Libraries
     - Example: Chakra UI, Mantine, Semantic UI
-    - Tailwind component libraries: Flowbite React, daisyUI
+    - Tailwind component libraries: Flowbite React, daisyUI, HeadlessUI
+    

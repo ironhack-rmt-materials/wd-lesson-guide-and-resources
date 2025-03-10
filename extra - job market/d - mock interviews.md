@@ -3,6 +3,11 @@
 # Practice: technical interviews
 
 
+Slides - Technical Interview Prep:
+- https://docs.google.com/presentation/d/1HZzVFFIkaymfT7Wwg2itr3jFSY0NrlRWCNxcG3KVA4w/edit?usp=sharing
+
+
+
 
 ## Technical Interview - JavaScript I
 
@@ -57,20 +62,22 @@ Q:
 
 ---
 
-Subject: Technical Interview Invitation – [Company Name]
+Technical Interview Invitation – [Company Name]
 
-Hi [Candidate's Name],
+Hi [CANDIDATE_NAME],
 
-We'd love to invite you for a technical coding interview with [Company Name]! 
+We'd love to invite you for a technical coding interview with [COMPANY_NAME].
 
-Our team works extensively with JavaScript, React, and Express, and we’re excited to see how your skills align.
+Our team works extensively with JavaScript, React, and Express. For unit testing, we use Jest.
 
-For this particular role, we're looking for someone with solid JavaScript skills and a good understanding of TDD (experience writing tests with Jest, or similar testing frameworks is a big plus).
+This session will focus on assessing your coding skills and problem-solving abilities.
+It is expected to last about an hour.
 
-Do you have availability for tomorrow 9am ?
+Do you have availability for [DAY_OF_THE_WEEK] at 9am ?
 
 Best,
-[Your Name]
+[YOUR_NAME], 
+[YOUR_ROLE],
 
 
 -->
@@ -84,6 +91,10 @@ How:
 - Share with the candidate a pdf file with the instructions
 - pdf: https://github.com/luisjunco/technical-interviews/
 - Time: 1h
+
+
+Example of unit tests + setup with Jest:
+- https://github.com/luisjunco/unit-testing-with-jest-example
 
 
 Evaluation criteria:
@@ -100,8 +111,8 @@ Evaluation criteria:
     - No abandoned debugging code
 
 
-
 Takeaways:
+- You may not know things/technologies, and that's ok.
 - Before a technical interview, try to get familiar with the technologies asked for that particular role.
 - Read instructions carefully.
 - Follow coding standards & good practices.
@@ -109,12 +120,14 @@ Takeaways:
 - If the test has a deadline, make sure to stick to it & submit before the deadline.
 
 
+
+
 ## Technical Interview - React II
 
 <!--
 
 @LT: 
-- This exercise is more a take home longer assignment.
+- Explain that exercise is more like a take home, longer assignment.
 - If done in class, start by displaying a list of books + focus on the core functionality
 
 -->
