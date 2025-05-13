@@ -20,7 +20,7 @@ Note:
 - try to make it as light & fast as possible
 
 @todo: 
-- create quick exercise (ex. bug hunt with functionality for "Project details page")
+- create quick exercise (e.g. bug hunt with functionality for "Project details page")
 
 
 repo:
@@ -84,7 +84,7 @@ Roadmap:
 
 
 Extra:
-- show: keep constants in a specific file (ex. config/api.js)
+- show: keep constants in a specific file (e.g. config/api.js)
 - show: vs code source control
 - show: loader (e.g. https://cssloaders.github.io/)
 - mention: toast

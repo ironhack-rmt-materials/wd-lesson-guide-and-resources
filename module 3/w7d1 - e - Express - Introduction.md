@@ -201,7 +201,7 @@ Option 1:
   - Just use `sudo`.
   - Alternative: `npx nodemon my-file.js`
 
-- (skip) show example when nodemon crashes (eg. syntax error)
+- (skip) show example when nodemon crashes (e.g. syntax error)
 
 
 Option 2:

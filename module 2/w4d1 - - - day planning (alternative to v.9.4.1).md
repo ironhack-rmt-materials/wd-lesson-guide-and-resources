@@ -31,7 +31,7 @@
 <!-- 
 @todo: 
 - add solutions
-- improve iterations (eg. add bonus with some css)
+- improve iterations (e.g. add bonus with some css)
 - bonus: research props
 -->
 
@@ -50,7 +50,7 @@ Bonus:
 
 Review planning w4d1.
 Consider:
-- intro to props (eg. a self-guided video)
+- intro to props (e.g. a self-guided video)
 - "LAB React Props Training" as mandatory w4d1 ?
 
 -->

@@ -13,7 +13,7 @@ Status: draft
 - simplify theory (too many concepts for students)
 - improve planning & examples
 - Prepare exercise for them to practice
-  - diagram mounting + updating & side effect (ex. https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+  - diagram mounting + updating & side effect (e.g. https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
   - useEffect cheatsheet 
 
 
@@ -60,7 +60,7 @@ Notes:
 - explain the concept of `endpoint`
 - mention the concept of: `REST API`
 - test `GET` on the browser
-- how can we test other endpoints ? (ex. form with POST)
+- how can we test other endpoints ? (e.g. form with POST)
 
 - (extra) Chrome extension to parse json: 
   - https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
@@ -247,7 +247,7 @@ Step 3:
 <!--
   Alternative:
   - start by showing a basic app (stackblitz) where we send an API request 
-  - ex. to get the details of one character
+  - e.g. to get the details of one character
   - see the code with students (useEffect etc) and then explain why we need to do it this way.
 
 -->
@@ -520,7 +520,7 @@ Docs: https://reactjs.org/docs/hooks-rules.html
 
 - Avoid side effects during render phase
 
-- COMMON MISTAKE: invoke function in JSX & that function has side-effect (eg. fetch data)
+- COMMON MISTAKE: invoke function in JSX & that function has side-effect (e.g. fetch data)
 
 - EXPLAIN HOW TO MAKE API REQUEST & how to render results in jsx 
 

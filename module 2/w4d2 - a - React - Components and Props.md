@@ -70,7 +70,7 @@ For User:
 ## Props I (syntax)
 
 - Intro to props & syntax:
-  - passing props to the `Header` (eg. title).
+  - passing props to the `Header` (e.g. title).
 
 
 
@@ -108,7 +108,7 @@ export default UserOne;
 - Passing and accessing a prop
 - Passing multiple props
 
-- Note: we could also pass an object (eg. `userDetails={}`)
+- Note: we could also pass an object (e.g. `userDetails={}`)
 - Note: As props, we can pass any valid data type
 
 
@@ -128,7 +128,7 @@ Initial code:
 - note: in App.jsx, we have an array of movies
 
 Iteration 1: 
-  - create a component "Movie" (for this iteration, just display an h1 ex. `this is the Movie component`).
+  - create a component "Movie" (for this iteration, just display an h1 e.g. `this is the Movie component`).
 
 Iteration 2: 
   - in App.jsx, render 3 times the Movie component
@@ -203,7 +203,7 @@ Note: Todays lab
 
 - As props you can pass...
   - string, number, boolean, array, object, function... 
-  - A JS expression (eg. foo={2+2})
+  - A JS expression (e.g. foo={2+2})
 
 - `props.children`
 
@@ -236,7 +236,7 @@ Note: Todays lab
   `<ReactPlayer url="https://www.youtube.com/watch?v=EvtMTV9mMSc" playing={true} volume={0.1} />`
 
 - (extra) Component Libraries
-  - Show an example with one of them (eg. "Material UI"/ "Semantic UI React" / "Ant Design")
+  - Show an example with one of them (e.g. "Material UI"/ "Semantic UI React" / "Ant Design")
   - https://ant.design/components/button
 
 

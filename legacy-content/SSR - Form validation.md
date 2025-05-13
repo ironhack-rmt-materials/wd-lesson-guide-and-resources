@@ -35,7 +35,7 @@ Slides:
 
 Intro:
 - Add "required" to form fields
-- Show how we can bypass client validation (eg. dev tools)
+- Show how we can bypass client validation (e.g. dev tools)
 
 
 ```js

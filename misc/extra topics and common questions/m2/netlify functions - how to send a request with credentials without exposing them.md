@@ -22,7 +22,7 @@
 
 - Since we don't have a backend server, our requests need to be sent from the browser.
 
-- We can store our secret in an environment variable (eg. `VITE_API_KEY`). 
+- We can store our secret in an environment variable (e.g. `VITE_API_KEY`). 
   - This will prevent our key from being exposed on GitHub (as long as .env is in our .gitignore).
   - BUT, we would still be using those credentials from the browser (and, potentially, anyone can see them by looking at the source code from the browser).
 

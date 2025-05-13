@@ -83,7 +83,7 @@ Sample: https://github.com/ByteWarriors-Ironhack-Feb-23/warriors-library-project
 - Once the account is created, redirect to a profile page
   - Create route (GET `/user-profile`)
   - Create view (`views/auth/user-profile.hbs`)
-    - for now, just display a paragraph, (ex. "This is your profile page my friend!")
+    - for now, just display a paragraph, (e.g. "This is your profile page my friend!")
   - When account is created, Redirect (`res.redirect('/user-profile');`)
 
 

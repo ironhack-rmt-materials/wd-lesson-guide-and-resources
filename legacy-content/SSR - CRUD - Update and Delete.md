@@ -51,7 +51,7 @@ Render Form to Edit:
 - route: GET `/books/:bookId/edit`
 - DB query: Book.findById
 - view: `books/book-edit`
-- add links to edit (eg. in `books-list.hbs`)
+- add links to edit (e.g. in `books-list.hbs`)
 
 Process Form:
 - route: POST `/books/:bookId/edit`

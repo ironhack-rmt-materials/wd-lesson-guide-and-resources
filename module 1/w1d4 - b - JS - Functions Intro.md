@@ -56,7 +56,7 @@ function calcTotal() {}
 - Parameters = placeholder
 - Argument = the values (passed to function in the moment of its invocation)
 - (Mnemonic: arguments come from outside).
-- The number of parameters & arguments could be different (eg. expecting 3, passing only 2 arguments)
+- The number of parameters & arguments could be different (e.g. expecting 3, passing only 2 arguments)
 
 
 - (skip) Default parameters
@@ -86,7 +86,7 @@ function calcMult(a, b){
 
 - Return multiple values:
 - Q: what can we do if we need return multiple values ??
-  (eg. get name of 2 users.)
+  (e.g. get name of 2 users.)
 - Solution: data structure (array, object)
 
 

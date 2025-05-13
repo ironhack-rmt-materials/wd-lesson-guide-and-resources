@@ -60,18 +60,18 @@ Monday!
 - LAB | Express Cinema (seed + Read) (Extra)
 - LAB | Express Drones (seed + CRUD)
 
-- To avoid repeating work, we can do only one LAB (eg. ask students to implement CRUD on Express Cinema + leave the other lab as optional)
+- To avoid repeating work, we can do only one LAB (e.g. ask students to implement CRUD on Express Cinema + leave the other lab as optional)
 
 - IMPORTANT: 
   - Express Cinema does not include C+U+D in the instructions
   - Update: they can implement functionality to update title & director
-    - updating Stars is a bit more tricky but they can do it (eg. the user can enter all stars separated by a comma)
+    - updating Stars is a bit more tricky but they can do it (e.g. the user can enter all stars separated by a comma)
 
 
 
 ## Extra challenges:
 - implement CRUD
-- make Book model more complex (eg. enum, validation, default)
+- make Book model more complex (e.g. enum, validation, default)
 - CSS / Bootstrap
 
 

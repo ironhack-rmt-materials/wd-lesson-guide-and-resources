@@ -110,7 +110,7 @@ Fix: ironlauncher not installing dependencies
 - Main difference in the Backend from module 2:
   - we send json (we don't need to create views)
   - we will test with Postman
-  - also, we will be running our express app in a different port (eg.5005)
+  - also, we will be running our express app in a different port (e.g.5005)
 
 
 - Explain goals & endpoints

@@ -55,7 +55,7 @@ What we'll see today:
 
 
 > JavaScript is a synchronous language with some asynchronous functionality
-> (ex. setTimeout() )
+> (e.g. setTimeout() )
 
 
 

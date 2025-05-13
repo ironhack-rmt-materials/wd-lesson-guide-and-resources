@@ -6,7 +6,7 @@
 - Status: draft 
 
 - Methodology: for all the part of operators, rather than explaining one by one
-  - explain only the basic concepts (eg. projection)
+  - explain only the basic concepts (e.g. projection)
 
 
 - @todo:
@@ -16,7 +16,7 @@
 
 Note: 
 - in the database (IMDB) that we use for this lecture, year is stored as a string. 
-- when we make the query, compare with a string (ex. `{year: "2010"}`)
+- when we make the query, compare with a string (e.g. `{year: "2010"}`)
 
 
 -->
@@ -55,7 +55,7 @@ Note:
       ```
       mongoimport --db video --collection movies --file movies.json --jsonArray
       ```
-    - Mention: MongoDB comes with a command line tool to import data (eg. JSON, CSV format, etc)
+    - Mention: MongoDB comes with a command line tool to import data (e.g. JSON, CSV format, etc)
 
 
   3. See collection & documents
@@ -63,7 +63,7 @@ Note:
   4. Navigate to "Schema" tab.
     <!-- LT: demo only (ask students not to do it)  -->
     - there we can find stats of the schema of our documents
-    - LT: Update the type of one document (ex. change year to string)
+    - LT: Update the type of one document (e.g. change year to string)
     - takeover: **documents of the same collection can have a different schemas**
 
     - meme: SQL vs. MongoDB

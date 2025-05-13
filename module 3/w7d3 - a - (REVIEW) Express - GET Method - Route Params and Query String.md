@@ -5,7 +5,7 @@
 
 <!-- 
 
-Status: outdated (ex. handlebars)
+Status: outdated (e.g. handlebars)
 
 @todo: update after m2-m3 swap & nemo
 
@@ -33,7 +33,7 @@ Suggested approach:
   Bonuses (for students that finish):
   - allow to filter by price also /products/categoryName
   - style
-  - get the array of products from an external API (eg. https://github.com/public-apis/public-apis#shopping)
+  - get the array of products from an external API (e.g. https://github.com/public-apis/public-apis#shopping)
 
 -->
 
@@ -229,7 +229,7 @@ Solution: put before the routes that are more specific (and later the ones with 
 @LT: 
 
 - IMPORTANT: (before this step) implement page with list of resources
-  - ex. /search or /pizzas
+  - e.g. /search or /pizzas
 
 -->
 

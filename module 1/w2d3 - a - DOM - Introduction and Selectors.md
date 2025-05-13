@@ -34,7 +34,7 @@ Status: ready
   - Show the Document object in the dev tools:
     - Dev Tools > Console > Type 'document'
   - Documentation: https://developer.mozilla.org/en-US/docs/Web/API/Document
-    - see some sample methods (eg. getElementById)
+    - see some sample methods (e.g. getElementById)
 
 
 - Quick Demo:

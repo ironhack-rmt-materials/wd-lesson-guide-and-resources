@@ -10,7 +10,7 @@ Summary:
 Problem:
 - At some point, we were using `unique: true` in a Schema.
 - Then we removed `unique: true` from a field.
-- Now I try to add new documents (eg. with the same name), and I keep getting the following error:
+- Now I try to add new documents (e.g. with the same name), and I keep getting the following error:
 
 > E11000 duplicate key error collection
 
@@ -29,7 +29,7 @@ Solution:
 
 - option 1 (if you can drop the collection)
   - Drop the collection on which you were using unique.
-  - This is the easiest option, as long as you can drop the collection or DB (eg. if you're in development and you don't have valuable data... or if you're in production and you don't like your job).
+  - This is the easiest option, as long as you can drop the collection or DB (e.g. if you're in development and you don't have valuable data... or if you're in production and you don't like your job).
 
 - option 2: 
   - Execute `Model.syncIndexes()` 

@@ -84,7 +84,7 @@ Note:
 
 - choose who will deploy "project2" vs "library project"
 
-- if you're deploying a codealong we did (ex. the library project), make sure it's a fork, not a clone (cause you'll need to push code)
+- if you're deploying a codealong we did (e.g. the library project), make sure it's a fork, not a clone (cause you'll need to push code)
 -->
 
 
@@ -105,7 +105,7 @@ Deployment & setup takes time. We need to be efficient:
 
 - Don't try to go one step ahead (so that we all have the same config... and same errors) 
 
-Note: if you're deploying a codealong we did (ex. the library project), make sure it's a fork, not a clone (cause you'll need to push code)
+Note: if you're deploying a codealong we did (e.g. the library project), make sure it's a fork, not a clone (cause you'll need to push code)
 
 
 If you need the library project:
@@ -190,7 +190,7 @@ do not push button...
 - Template Settings: keep defaults
 
 - Choose an app name
-  - Note: name will be public (ex. https://my-restaurant.adaptable.io)
+  - Note: name will be public (e.g. https://my-restaurant.adaptable.io)
   <!-- break (so that they agree on the name) -->
 
 

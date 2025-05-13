@@ -44,7 +44,7 @@ Iteration 1: Create the initial structure.
 Iteration 2: Make a commit + Upload repo to GitHub
 
 Bonus: add some css for the Header component with a specific file
-    - create `Header.css` + add rules for `h1` (eg. `color: orange`)
+    - create `Header.css` + add rules for `h1` (e.g. `color: orange`)
     - in Header.jsx, import the css file you've created: `import "./Header.css";`
     - NOTE: any css rules would apply to the whole application. To avoid this, you can do the following:
       - add a className to the parent html element of your component. Ex: `<header className="Header">`
@@ -128,8 +128,8 @@ Discuss:
 - how we can implement functionality to delete movies
 
 Steps:
-- Store the list in state (eg. `moviesToDisplay`)
-- Render the list from state (eg. `moviesToDisplay.map()`)
+- Store the list in state (e.g. `moviesToDisplay`)
+- Render the list from state (e.g. `moviesToDisplay.map()`)
 - Delete Button (note: we need to pass the Id of the movie)
   ```jsx
   <button onClick={() => deleteMovie(movie._id)}>
@@ -158,10 +158,10 @@ Steps:
 <!--
 @LT: 
 - do this today (will help so that tomorrow we intro "lifting state up")
-- IMPORTANT: display in the same component where we have the list of movies (ex. MovieList.js)
+- IMPORTANT: display in the same component where we have the list of movies (e.g. MovieList.js)
 -->
 
-  - ex. `<h1>Number of movies: {movies.length}</h1>`
+  - e.g. `<h1>Number of movies: {movies.length}</h1>`
   - IMPORTANT: display that in the `<MovieList>` component !!!
   - NOTE: many students solve it adding a new stateful variable (introduce the concept of "Single Source of Truth")
 

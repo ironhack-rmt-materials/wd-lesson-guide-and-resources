@@ -4,7 +4,7 @@
 Before Presentation:
 
 [ ] make sure production environment works
-[ ] add good data in your production database (eg. nice recipes, nice images...)
+[ ] add good data in your production database (e.g. nice recipes, nice images...)
 [ ] avoid last minute changes
 
 
@@ -15,7 +15,7 @@ For the Presentations:
 
 - have a plan for the presentation
   - prepare what you're going to say/do
-  - have data ready (eg. images to upload)
+  - have data ready (e.g. images to upload)
 
 - focus on the cool things you have in your projects !!
 

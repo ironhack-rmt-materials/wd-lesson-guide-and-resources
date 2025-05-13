@@ -149,7 +149,7 @@
   - quite much the same
   - which one to use: 
     - consistency
-    - in some cases we'll need to use one or the other (eg. this)
+    - in some cases we'll need to use one or the other (e.g. this)
 
 - Arrow functions don't have their own bindings to `this`.
 

@@ -44,6 +44,6 @@ Some common strategies ("workflows"):
 Note: 
 - Those are just some examples.
 - Each team/product has different needs and policies.
-  - ex. how code is merged onto the main branch (code review, PR, ...)
+  - e.g. how code is merged onto the main branch (code review, PR, ...)
 
 

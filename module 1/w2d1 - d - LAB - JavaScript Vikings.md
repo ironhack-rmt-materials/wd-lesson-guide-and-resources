@@ -15,7 +15,7 @@ TIPS:
     - note: a Viking extends `Soldier` but implements a different method `receiveDamage()`
 
 - IMPORTANT: Pay attention to the instructions and tests.
-  - eg. "A Saxon has received DAMAGE points of damage"
+  - e.g. "A Saxon has received DAMAGE points of damage"
   > `A Saxon has received ${damage} points of damage`
 
 
@@ -23,5 +23,5 @@ TIPS:
 - BONUS - Iteration 4: War
 
 - BONUS - Iteration 5 (reuse code)
-  - create a generic method (eg. `attack()`)
+  - create a generic method (e.g. `attack()`)
   - call that generic method from `vikingAttack()` and `saxonAttack()`.

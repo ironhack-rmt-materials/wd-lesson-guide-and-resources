@@ -157,7 +157,7 @@ IMPORTANT:
 
   @LT: 
   - to explain these concepts, sometimes it helps to open a new file & create a simplified version of our code.
-  - ex. "Enemy" class + "sayHello()" method
+  - e.g. "Enemy" class + "sayHello()" method
 
   -->
 
@@ -166,7 +166,7 @@ IMPORTANT:
   - Collision detection
   - some notes: "collision detection - common errors.md"
 
-[ ] Game Over (eg. redirect)
+[ ] Game Over (e.g. redirect)
 
   <!--
 
@@ -234,7 +234,7 @@ UX:
 
 Code quality:
 - create a Game class
-- store settings as property of the Game class (eg. refreshRate)
+- store settings as property of the Game class (e.g. refreshRate)
 - reuse code with OOP inheritance 
 
 

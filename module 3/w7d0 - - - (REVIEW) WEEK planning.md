@@ -31,7 +31,7 @@ Notes:
 
 (LEGACY m2) Days 2-3-4-5:
 
-- Work on an restaurant app (ex. IronRestaurant).
+- Work on an restaurant app (e.g. IronRestaurant).
 
   - Example pizza restaurant: https://github.com/RemoteRaccoons-Ironhack-Nov-22/ironrestaurant-pizzaForEach
 

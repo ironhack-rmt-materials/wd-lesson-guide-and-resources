@@ -38,7 +38,7 @@ console.log(result);
 
 <!-- 
 
-- ex. 11 % 2 pizzas 
+- e.g. 11 % 2 pizzas 
 
 - interactive demo: https://www.joshwcomeau.com/javascript/modulo-operator
 
@@ -96,8 +96,8 @@ Ex.:
 Task:
 - Iteration 1: display numbers 1 to 12
 - Iteration 2: we want to display if each number is even or odd
-  - ex. if number is odd, display `x is odd`
-  - ex. if number is even, display `x is even`
+  - e.g. if number is odd, display `x is odd`
+  - e.g. if number is even, display `x is even`
 
 
 Solution:

@@ -21,7 +21,7 @@ Concepts:
   - `nodemon app.js`
   - if you have other project running on port 3000, it will not work.
   - option 1: kill process
-  - option 2: run in a different port (ex. 3001)
+  - option 2: run in a different port (e.g. 3001)
 
 
 

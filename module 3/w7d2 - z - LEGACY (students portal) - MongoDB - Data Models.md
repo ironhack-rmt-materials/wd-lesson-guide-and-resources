@@ -12,7 +12,7 @@ Status: old
 
 ## Intro:
 
-- in our documents, we may need to store more complex data (eg. object)
+- in our documents, we may need to store more complex data (e.g. object)
   - explain with an object.
 
 - 3 types of relationship:
@@ -98,7 +98,7 @@ books: [id1, id2, ...]
 
 ## Example 4: Model Many-to-Many Relationships with intermediate References Collection
 
-- In case our database structure leads to an unlimited number of elements (eg. books),  those arrays do have a dangerous long-term growth
+- In case our database structure leads to an unlimited number of elements (e.g. books),  those arrays do have a dangerous long-term growth
 
 - Solution: have an intermediary collection (each document in that collection storing the relationship between 2 documents).
 

@@ -34,8 +34,8 @@ Afternoon:
 @consider:
 - suggestion from David Henriques: standups in week 1 / summary with the process of each one.
 - before the retro, consider adding a standup or temperature check.
-- eg. everyone can add an emoji/stamp reflecting where they feel they are.
-- eg.
+- e.g. everyone can add an emoji/stamp reflecting where they feel they are.
+- e.g.
   - I feel (overwhelmed, happy, proud...)
   - I feel (i'm behind, i'm ok, i'm doing great...)
   - ...

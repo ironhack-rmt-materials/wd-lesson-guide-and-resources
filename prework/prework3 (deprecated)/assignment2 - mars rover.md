@@ -26,7 +26,7 @@
 
 
 ## Iteration 4 | Commands
-- Create a function that receives a list of commands. (eg. 'rffrfflfrff'.)
+- Create a function that receives a list of commands. (e.g. 'rffrfflfrff'.)
 - Suggested approach:
   - Use a loop to iterate over the string. 
   - Inside this loop, write a switch or if statement to call the correct function. 

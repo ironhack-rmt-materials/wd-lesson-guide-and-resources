@@ -51,7 +51,7 @@ Read & understand the code
 - It's the same app from yesterday (project-management-server), so students should be familiar with it.
 
 Quick test with Postman
-- ex. test 1 route
+- e.g. test 1 route
 
 
 
@@ -165,8 +165,8 @@ Follow code from the students portal (file: `middleware/jwt.middleware.js`)
 ## Implement protected routes ("Establish Protected Routes")
 
 - Explain:
-  - how to protect all routes for a resource (eg. in `app.js`)
-  - how to protect specific routes (eg. in `project.routes.js`)
+  - how to protect all routes for a resource (e.g. in `app.js`)
+  - how to protect specific routes (e.g. in `project.routes.js`)
 
 - Protect C + U + D
 - Test with Postman

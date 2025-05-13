@@ -45,7 +45,7 @@ Status: draft
 
   1. Create an interval that displays a counter every second
     - in the console, display: "hello 1", "hello 2", "hello 3".....
-    - hint: you may want to create a counter in the parent scope (ex. `let counter = 1`)
+    - hint: you may want to create a counter in the parent scope (e.g. `let counter = 1`)
   2. After 5 times, cancel that interval
   3. (Bonus) Apply what we've learned so far and try to solve it in a different way.
   4. (Bonus) Can you solve it without a setInterval? (hint: setTimeout + research "js recursive function")

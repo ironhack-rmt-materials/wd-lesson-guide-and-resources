@@ -20,7 +20,7 @@ notes:
 
 - Refresh [20m]
   - express routes
-    - eg. `app.get(path, callbackFn)`
+    - e.g. `app.get(path, callbackFn)`
     - req, res, next
   - different ways to send a response
     - `res.send()`
@@ -67,7 +67,7 @@ notes:
 
   - Solution: https://stackblitz.com/edit/stackblitz-starters-gvhcqw?file=index.js
   
-    <!-- @LT: show how they can test a route in stackblitz (ex. /artists) -->
+    <!-- @LT: show how they can test a route in stackblitz (e.g. /artists) -->
 
 
 

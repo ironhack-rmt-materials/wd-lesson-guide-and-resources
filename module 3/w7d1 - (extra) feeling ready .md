@@ -60,5 +60,5 @@ Notes:
   - alternative: "C:\Luis\pro\Ironhack\media\class-imgs\job roles and offers"
 
 
-- Search some roles (eg. linkedin) & read 1 or 2 job offers.
+- Search some roles (e.g. linkedin) & read 1 or 2 job offers.
 

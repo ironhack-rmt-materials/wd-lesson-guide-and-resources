@@ -22,7 +22,7 @@ Advice:
 
 
 - UX / Design
-  -- Logo (eg. https://editor.freelogodesign.org/?companyName=Bob%27s%20Cooking%20App)
+  -- Logo (e.g. https://editor.freelogodesign.org/?companyName=Bob%27s%20Cooking%20App)
   -- CSS (https://i.kym-cdn.com/photos/images/original/001/624/070/2ac.jpg)
   -- ...
 

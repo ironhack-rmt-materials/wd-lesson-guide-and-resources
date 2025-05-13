@@ -65,7 +65,7 @@ Time: 12min.
 - json-server
   - it's an npm package.
   - allows you to create a mock REST API from a JSON file
-  - ideal for prototype and mock APIs (ex. you're working on the frontend & need to wait for the backend to be ready).
+  - ideal for prototype and mock APIs (e.g. you're working on the frontend & need to wait for the backend to be ready).
 
 
 
@@ -136,7 +136,7 @@ Skip
   - JavaScript code:
     - http request (https://stackoverflow.com/a/4033310/11298742)
     - fetch()
-    - libraries (ex. axios)
+    - libraries (e.g. axios)
 
 
 

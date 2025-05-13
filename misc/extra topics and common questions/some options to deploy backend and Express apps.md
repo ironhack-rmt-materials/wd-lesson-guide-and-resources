@@ -31,7 +31,7 @@
   - Full support for websockets
 - cons: 
   - Build process takes some time (5-8min)
-  - Can not add collaborators (ex. to see error logs)
+  - Can not add collaborators (e.g. to see error logs)
   - Invoking external apis from backend may be problematic in the free plan (in premium plan you can choose region)
 
 

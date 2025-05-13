@@ -64,8 +64,8 @@ Time: 15min.
 
 
 - Handlebars Summary:
-  - Reuse code for all pages (ex. navigation menu, footer...)  → Layout
-  - Reuse code for pages of the same type (ex. product pages, course pages)  → Views
+  - Reuse code for all pages (e.g. navigation menu, footer...)  → Layout
+  - Reuse code for pages of the same type (e.g. product pages, course pages)  → Views
   - Reuse code inside your views  → Partials
 
 
@@ -97,7 +97,7 @@ Time: 15min.
 
 
 
-- Create a view (ex. `views/product.hbs`)
+- Create a view (e.g. `views/product.hbs`)
 
   <!-- - @LT: do layout first? Nope, we need to do res.render() first -->
 

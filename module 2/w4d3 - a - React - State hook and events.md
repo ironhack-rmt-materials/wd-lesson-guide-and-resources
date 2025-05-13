@@ -7,7 +7,7 @@ Status: draft
 
 @todo: 
 - improve the planning for this unit (examples & steps to follow)
-- create slides (ex. syntax, functional updates etc.)
+- create slides (e.g. syntax, functional updates etc.)
 
 -->
 
@@ -132,7 +132,7 @@ const [pizza, setPizza] = useState("margherita");
 
 
 
-## (extra) add a counter to a component that repeats multiple times (ex. User/Movie)
+## (extra) add a counter to a component that repeats multiple times (e.g. User/Movie)
 
 See how the counter of each component is independent (state belongs to the component)
 

@@ -27,7 +27,7 @@ Codealong links:
 
   - Open the terminal (View > Terminal)
 
-  - Windows users: configure default terminal (eg. `Git Bash`)
+  - Windows users: configure default terminal (e.g. `Git Bash`)
 
   - Navigate to the directory where you will work.
     - `cd xxx` (go inside the directory)
@@ -64,14 +64,14 @@ Codealong links:
 - Create an h1
 - Install "Live server" extension + open in browser
 - IMPORTANT: Block vs. inline
-  - ex. div vs. span
+  - e.g. div vs. span
 - Examples of block elements (see students portal: "HTML Block-level elements cheat sheet")
   - div, p, h1, h2, section
 - Examples of inline elements (see students portal: "HTML Inline elements cheat sheet") 
   - span, img, button, a
 - Semantics 
-  - ex. difference section vs. div
-- Self-closing tags (eg. hr)
+  - e.g. difference section vs. div
+- Self-closing tags (e.g. hr)
 - HTML DOM tree (See it in the dev tools)
   - DOM tree Diagram: https://i.imgur.com/m08deQC.png
 

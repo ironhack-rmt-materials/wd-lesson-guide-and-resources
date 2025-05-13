@@ -57,6 +57,6 @@ Tell students to skip this part.
 
 - in the old days it was used for layouts
 - nowadays it just makes sense to use float if you need to wrap text around images
-  - ex. https://codepen.io/robinrendle/pen/eYBpRoP
+  - e.g. https://codepen.io/robinrendle/pen/eYBpRoP
 
 

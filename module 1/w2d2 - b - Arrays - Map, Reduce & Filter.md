@@ -228,8 +228,8 @@ https://stackblitz.com/edit/ih-reduce-method-explained?file=index.js
   Greatest Movies Lab: 
   
   They'll need to pass extra tests:
-  - ex. what happens if a recipe does not have the property `calories`
-  - ex. returning the average in a specific format (rounded to 2 decimals)
+  - e.g. what happens if a recipe does not have the property `calories`
+  - e.g. returning the average in a specific format (rounded to 2 decimals)
   
   -->
 

@@ -22,7 +22,7 @@ https://www.codewars.com/kata/5715eaedb436cf5606000381
 
 
 Can solve with:
-- loop (eg. forEach)
+- loop (e.g. forEach)
 - arr.reduce()
 
 

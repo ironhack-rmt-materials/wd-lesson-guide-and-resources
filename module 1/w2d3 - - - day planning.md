@@ -12,7 +12,7 @@
   - Different ways of creating functions 
     - function declaration (statement) vs. function expression vs. arrow function
     - https://stackblitz.com/edit/js-evfgcy?file=index.js
-  - Array methods (eg. map, filter): https://i.redd.it/t2f5w9bms1271.jpg
+  - Array methods (e.g. map, filter): https://i.redd.it/t2f5w9bms1271.jpg
 
 - See Project 1 examples (in case we haven't done it yet)
 

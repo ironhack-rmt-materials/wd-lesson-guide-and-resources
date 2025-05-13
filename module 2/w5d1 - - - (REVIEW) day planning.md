@@ -20,7 +20,7 @@ Alternative to typicode api:
 - Intro to week 5
 
 - (optional): ask for preferences for today's lab
-  - eg. if there's anyone you still haven't worked with and you'd like to.
+  - e.g. if there's anyone you still haven't worked with and you'd like to.
 
 - How the internet works [30m]
 
@@ -91,7 +91,7 @@ PROMISES:
   ```
 
 - (optional) quick refresh Spread Operator
-  - ex. with objects (add property best cohort)
+  - e.g. with objects (add property best cohort)
 
 
 

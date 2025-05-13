@@ -33,7 +33,7 @@ How:
     - Important: `props.tweet` is an object
     - Understand the structure of this object (you can console.log or use react dev tools to see the props)
     - You can then access properties of this object.
-      - Ex. `props.tweet.user`
+      - e.g. `props.tweet.user`
 
 
 ## Iteration 9 | Render multiple Tweets

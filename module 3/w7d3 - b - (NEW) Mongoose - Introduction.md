@@ -92,7 +92,7 @@ Summary of functionality we'll implement:
   - Number
   - Boolean
   - Arrays:
-    - ex. array of strings: `ingredients: [String]`
+    - e.g. array of strings: `ingredients: [String]`
   - ...
   - See students portal: "Supported data types in schemas"
   - Full list: https://mongoosejs.com/docs/schematypes.html
@@ -347,8 +347,8 @@ Some things to mention / common questions:
 - Mongoose 'static' methods vs. 'instance' methods
   - https://stackoverflow.com/questions/29664499/mongoose-static-methods-vs-instance-methods
 
-  - "statics" are the methods defined on the Model. ex. `Pizza.find()`
-  - "instance" methods are defined on the document (instance). ex. `myPizza.save()`
+  - "statics" are the methods defined on the Model. e.g. `Pizza.find()`
+  - "instance" methods are defined on the document (instance). e.g. `myPizza.save()`
 
 
 

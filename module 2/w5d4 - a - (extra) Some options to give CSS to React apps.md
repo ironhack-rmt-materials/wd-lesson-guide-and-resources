@@ -7,7 +7,7 @@
 How: demo on popcorn time
 
 Note:
-- consider doing a full session where we give style to the whole app popcorn-time (ex. using Chakra)
+- consider doing a full session where we give style to the whole app popcorn-time (e.g. using Chakra)
 
 -->
 
@@ -32,7 +32,7 @@ Some options to apply CSS to our React apps:
 
 
 ## (optional) Example CSS Framework
-- Can do a quick demo with bootstrap (eg. create an index.html)
+- Can do a quick demo with bootstrap (e.g. create an index.html)
 
 
 ## Example Mantine
@@ -77,7 +77,7 @@ Some interesting core elements:
     - Grid
     - SimpleGrid
 - Forms:
-    - Button and its variants (eg. button with icon)
+    - Button and its variants (e.g. button with icon)
     - Input
     - Checkbox
 - Combobox

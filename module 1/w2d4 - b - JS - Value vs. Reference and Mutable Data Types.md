@@ -102,7 +102,7 @@ Status: ready
 
   
 - If we don't want to mutate the array, we can make a copy (copy the values)
-  - ex. use a for loop
+  - e.g. use a for loop
 
   <!-- @LT: create a new stackblitz project -->
 
@@ -134,7 +134,7 @@ Status: ready
 
 Summary & examples: https://stackblitz.com/edit/js-ecmhxh?file=index.js
 
-<!-- @todo: create cheatsheet (ex. gist with a table of common ways) -->
+<!-- @todo: create cheatsheet (e.g. gist with a table of common ways) -->
 
 
 ### How to clone an array
@@ -162,7 +162,7 @@ Summary & examples: https://stackblitz.com/edit/js-ecmhxh?file=index.js
 
 Note: 
 - there's many different ways to clone arrays and objects
-  - ex. https://www.freecodecamp.org/news/how-to-clone-an-array-in-javascript-1d3183468f6a/
+  - e.g. https://www.freecodecamp.org/news/how-to-clone-an-array-in-javascript-1d3183468f6a/
 - you don't need to know them. Just make sure:
   - understand the fundamentals.
   - know how to create a shallow and a deep copy

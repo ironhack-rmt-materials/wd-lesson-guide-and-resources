@@ -52,7 +52,7 @@ How:
     - stage / unstage / stage only some parts of a file
     - git restore 
   - commit history in a user friendly format
-    - ex.: https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+    - e.g.: https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
 
 

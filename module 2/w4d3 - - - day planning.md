@@ -6,7 +6,7 @@
 
 
 @todo:
-- improve planning + improve steps in demo (ex. create .md with steps to follow)
+- improve planning + improve steps in demo (e.g. create .md with steps to follow)
 - create slides or cheatsheet for state ?
 
 -->

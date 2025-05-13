@@ -20,7 +20,7 @@ UPDATE: NOW WE HAVE DETAILED EXAMPLES OF .sort() IN THE FAQs
 ## Important: sort() and reverse() mutate the original array
 - They modify the original array
 - Show how to create a copy.
-  - ex. `const copy = [...original]`
+  - e.g. `const copy = [...original]`
 
 - Alternative: `arr.toSorted()`
 

@@ -43,7 +43,7 @@ BONUS
 2. If you want to use smth from the promise you NEED to receive it. Can always console.log the response
 3. If you want to chain promises, you MUST return smth
 4. Dom manipulation is not asynchronous, you can have several line in one promise
-	- eg. If you want to change innerText and add new color attribute, don't need separate promises
+	- e.g. If you want to change innerText and add new color attribute, don't need separate promises
 5. With async/await in this case not essential to catch errors  
 
 <br>

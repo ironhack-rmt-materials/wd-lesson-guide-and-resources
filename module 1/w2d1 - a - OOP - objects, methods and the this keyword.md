@@ -14,7 +14,7 @@ Status: ready
 
 - We've learned that we can use objects to store information:
 
-  - Ex. 1:
+  - e.g. 1:
 
     ```js
     const user = {

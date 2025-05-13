@@ -22,7 +22,7 @@ Some options to create a React App:
   - Create React App (CRA)
   - Vite
   - Next.js
-  - Many others (ex. Remix, Gatsby, Astro, ...)
+  - Many others (e.g. Remix, Gatsby, Astro, ...)
 
 
 More details:
@@ -218,7 +218,7 @@ Initial Setup:
   <MyComponent> </MyComponent>
   ```
 
-  Note: self-closing HTML tags (eg. <br />, <hr />, <img />) must always have a closing / to be valid JSX.
+  Note: self-closing HTML tags (e.g. <br />, <hr />, <img />) must always have a closing / to be valid JSX.
 
 
 ## (skip for now) Attributes Names are camelCased

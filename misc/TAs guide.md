@@ -16,17 +16,17 @@
 ## Specific tasks
 
 - Prepare and present LABs
-  -- eg. brief explanation of the LAB + explain if there's any point that can be tricky.
+  -- e.g. brief explanation of the LAB + explain if there's any point that can be tricky.
 
 - LABs Code review +++
-  - eg. Feedback on 1 LAB/week (TBC)
+  - e.g. Feedback on 1 LAB/week (TBC)
 
 - Support students (breakout rooms, Slack...)
-  - eg. if there are questions unanswered on the Slack channel for questions (not just TA, also LT and other students)
+  - e.g. if there are questions unanswered on the Slack channel for questions (not just TA, also LT and other students)
 
 
 - Activities
-  - ex. little warmup games, icebreakers
+  - e.g. little warmup games, icebreakers
 
 
 - Attendance
@@ -41,7 +41,7 @@
 
 ## Notes
 
-- Use time during lectures (eg. for code review)
+- Use time during lectures (e.g. for code review)
 - If you notice any student falling behind, make sure to address that with LT
 
 

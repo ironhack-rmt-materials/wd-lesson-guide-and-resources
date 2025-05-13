@@ -57,7 +57,7 @@ How:
 
 Time:
 - Some students get all the functionality in about 2h (even with bonus things in 2-4h).
-- Some students need a lot of help (ex. 2-3h to get routing + display the list of apartments or start the functionality to create)
+- Some students need a lot of help (e.g. 2-3h to get routing + display the list of apartments or start the functionality to create)
 
 
 <!-- 

@@ -22,7 +22,7 @@ Methodology:
 - explain main concepts (route params etc -- with examples coding )
 - students fork + clone
 - implement changes with hints
-- problem: many important concepts (ex. forms, body etc)
+- problem: many important concepts (e.g. forms, body etc)
   - for those topics, I could record short videos (so that it's all self-guided).
 
 

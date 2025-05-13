@@ -108,7 +108,7 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
   - Interesting options:
     - build something
     - collaborate with other students
-    - follow tutorials & online courses (eg. Udemy or LinkedIn courses)
+    - follow tutorials & online courses (e.g. Udemy or LinkedIn courses)
     - pair with a mentor (networking, linkedin, ex-ironhacker)
     - join some hackathons
 
@@ -146,7 +146,7 @@ https://gist.github.com/IH-WebDev-TA-Remote/324bb37af5886d83622cb82fb3dc6008
 
 Some topics:
 - Junior vs. Mid vs. Senior
-- Search some job offers (eg. linkedin) & read 1 or 2 job offers.
+- Search some job offers (e.g. linkedin) & read 1 or 2 job offers.
 
 <!--
 @LT: see some notes in "Feeling ready" (w7d1)

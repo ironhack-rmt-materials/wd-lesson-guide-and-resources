@@ -11,7 +11,7 @@
 
 Project 2 feedback:
 
-Give feedback to students (ex. if you see anything to they can learn from).
+Give feedback to students (e.g. if you see anything to they can learn from).
 - Let's keep it positive.
 - Let's keep it brief (they'll be busy)
 - Let's keep it focused on things they can learn from (they will probably not have time to implement any suggestions)

@@ -3,11 +3,11 @@
 # w7d3
 
 
-- Ask p3 preferences (eg. ask in the afternoon, with DL tomorrow 9am)
+- Ask p3 preferences (e.g. ask in the afternoon, with DL tomorrow 9am)
 
 
 update:
-- create model in a separate file (eg. `Pizza.model.js`)
+- create model in a separate file (e.g. `Pizza.model.js`)
 - (IMPORTANT) Lab "Express Mongoose Recipes": now queries to DB are inside each route 
 
   ```js

@@ -101,7 +101,7 @@ Common pain points & bug fixing:
     - "Absolute path": specifies the complete location of a file or directory, starting from the root directory, 
     - "Relative path": describes the location relative to the current location.
 
-  - 2. Show example (eg. in my filesystem)
+  - 2. Show example (e.g. in my filesystem)
 
   - 3. project 1: use relative paths
 
@@ -136,7 +136,7 @@ Common pain points & bug fixing:
   - Check if there's any error in the console.
   - Resources not loaded ? Check that the path is correct.
   - Check if your code on GitHub is the same one that in localhost
-    - ex. forgot to push, error when you push, etc.
+    - e.g. forgot to push, error when you push, etc.
 
 
 - Next steps:

@@ -6,7 +6,7 @@
 
 - Questions from yesterday
 
-- running 2 apps in development (eg. 2 vs code windows + their own terminals)
+- running 2 apps in development (e.g. 2 vs code windows + their own terminals)
 
 - ironlauncher --auth --json [1.5h]
   - topics:
@@ -43,7 +43,7 @@ Backend / Express:
     - For development, we use a `.env` file
     - For production, we will add them on Render.com
 
-  2. How to use them in the code (in express): `process.env.XXXX` (ex. "process.env.ORIGIN")
+  2. How to use them in the code (in express): `process.env.XXXX` (e.g. "process.env.ORIGIN")
 
 
 
@@ -53,7 +53,7 @@ Frontend / Vite:
     - For development, we use a `.env` file (important: make sure variables start with `VITE_` for example, "VITE_API_URL")
     - For production, we will add them on Netlify.
 
-  2. How to use them in the code (in Vite): `import.meta.env.xxx` (ex. "import.meta.env.VITE_API_URL")
+  2. How to use them in the code (in Vite): `import.meta.env.xxx` (e.g. "import.meta.env.VITE_API_URL")
 
   Note: `.env` is not in .gitignore
   (but `*.local` will be ignored; for example: ".env.local")

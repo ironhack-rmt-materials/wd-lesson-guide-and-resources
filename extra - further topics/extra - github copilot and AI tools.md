@@ -32,7 +32,7 @@
     - `@workspace` (e.g.: how many models we have)
     - `@vscode` (e.g.: whats the shortcut to change the language mode for the current file)
 
-- sparkles (eg. commit message)
+- sparkles (e.g. commit message)
 
 
 ## (skip) Advanced:

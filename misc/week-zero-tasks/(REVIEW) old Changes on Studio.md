@@ -180,11 +180,11 @@ Remove:
 - Add Careers Workshop Sessions
 
 - Consider: setting DL for assessments (as part of the title for each assessment)
-  - ex. "NodeJS and MongoDB CRUD app (202109) [Deadline: by Friday 9am]"
+  - e.g. "NodeJS and MongoDB CRUD app (202109) [Deadline: by Friday 9am]"
   
 
 - Define LAB/assessment planning & share with students, at the beginning of each week.
-  (ex. which labs are individual/in pairs)
+  (e.g. which labs are individual/in pairs)
 
 
   <!-- 

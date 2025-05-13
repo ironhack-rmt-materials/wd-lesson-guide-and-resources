@@ -40,7 +40,7 @@ Initial code:
   - flexbox
   - grid
 
-  <!-- @todo: create image (ex. https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/consequences-of-evolution-631.jpg) -->
+  <!-- @todo: create image (e.g. https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/consequences-of-evolution-631.jpg) -->
 
 
 - CSS support: https://caniuse.com

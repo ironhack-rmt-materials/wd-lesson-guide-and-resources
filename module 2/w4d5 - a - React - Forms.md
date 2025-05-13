@@ -41,7 +41,7 @@ Notes:
 - In the component where we have the list of movies:
   - Create a `<section>`
 
-- Add form with 1 field (eg. `title`).
+- Add form with 1 field (e.g. `title`).
   (IMPORTANT: in the same component were we have state)
 
 - Make it a controlled component (cheatsheet below)
@@ -199,8 +199,8 @@ Note 2:
 
 <!--
 @todo: record video
-- how to implement search box (ex. directly in app.js)
-- extract to specific component (ex. "SearchBox" component)
+- how to implement search box (e.g. directly in app.js)
+- extract to specific component (e.g. "SearchBox" component)
 
 - or, share link to youtube.
 
@@ -210,7 +210,7 @@ Note 2:
 
 Functionality for searchbox (asked in today's lab)
 - option1: show how to do 
-- option2: provide an example with code so that they can see it (ex. in popcorn time)
+- option2: provide an example with code so that they can see it (e.g. in popcorn time)
 - option 3: pass video
   - Implement search filter (web dev simplified, 14min.): https://www.youtube.com/watch?v=E1cklb4aeXA&t=335s
 

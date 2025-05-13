@@ -67,9 +67,9 @@ Why/when:
 - or, when the team is too busy to provide support (TAs/LTs may not have availability to answer your questions but other students may be able to help).
 
 How to ask good technical questions:
-- Before you post a message, make sure you've used your own resources (eg. google, take a short break, re-think the problem, write some code and see what happens...)
+- Before you post a message, make sure you've used your own resources (e.g. google, take a short break, re-think the problem, write some code and see what happens...)
 - Write a clear explanation of the problem
-- Write a clear question (eg. what I am trying to do)
+- Write a clear question (e.g. what I am trying to do)
 - IMPORTANT: Provide code, so that others can test/play with the code (make it easy for others to help you!)
 
 Answering:

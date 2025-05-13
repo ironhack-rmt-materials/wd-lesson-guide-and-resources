@@ -25,7 +25,7 @@ m2-m3 swap:
   - lifecycle & hooks
   - side-effect & useEffect
   - common pain points when sending requests to an API
-    - eg. `useState()` + `undefined.map()`
+    - e.g. `useState()` + `undefined.map()`
 
 
 

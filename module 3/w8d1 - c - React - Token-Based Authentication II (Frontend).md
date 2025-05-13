@@ -54,7 +54,7 @@ Sections in the student portal:
   - Verify the Token upon Login
     > EXPLANATION:
       - token now stored in local storage
-      - we may still want to check against backend (eg. if the app reloads)
+      - we may still want to check against backend (e.g. if the app reloads)
   - Verify the Token upon Initial App Load
     - if the user reloads the page and there's a token in local storage, we want to  "login the user"
   - Remove the Token on Logout

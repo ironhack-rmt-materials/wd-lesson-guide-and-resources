@@ -21,14 +21,14 @@ Add at least 1 basic exercise
 
 IMPROVE / SIMPLIFY:
 - remove anything not essential
-- first, introduce the concept (ex. with slides) & then see how to apply it (demo) ?
-  - ex. 
+- first, introduce the concept (e.g. with slides) & then see how to apply it (demo) ?
+  - e.g. 
     - passing a callback as props
     - lifting state up
     - forwarding props to grandchild
     - ...
 - create a simple demo to explain callbacks
-  - eg. App component with a counter in state + two child components with a button to multiply x2 and x3
+  - e.g. App component with a counter in state + two child components with a button to multiply x2 and x3
 -->
 
 
@@ -98,7 +98,7 @@ Lifting state up [~~3h~~] [1.5h]
 
     - When should we use the PROPS:
       - Pass information to a child component
-      - ex. reusable component that has different behavior depending on info that it receives.
+      - e.g. reusable component that has different behavior depending on info that it receives.
 
     - When should we use the STATE:
       - Store information that belongs to a component

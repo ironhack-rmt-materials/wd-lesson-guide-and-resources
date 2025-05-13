@@ -4,9 +4,9 @@
 
 Plan what you want to do on the project and how to do it:
 
-- Use some kind of task manager (ex.: Trello, Miro or others)
+- Use some kind of task manager (e.g.: Trello, Miro or others)
 
-- Break the tasks in smaller tasks (ex.: "Build a Game" => "Create the      board", "Create a start method", "Create a player")
+- Break the tasks in smaller tasks (e.g.: "Build a Game" => "Create the      board", "Create a start method", "Create a player")
 
 - Split tasks in essentials for delivery (MVP) and extras (features that you would like to implement but aren't essential)
 

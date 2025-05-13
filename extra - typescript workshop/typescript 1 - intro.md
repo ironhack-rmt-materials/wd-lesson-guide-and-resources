@@ -57,7 +57,7 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
 
 - Run file: `tsc index.ts`
 
-- by default, it translates to ES3 (eg. "let" will be translated to "var")
+- by default, it translates to ES3 (e.g. "let" will be translated to "var")
 
 - add `tsconfig.json`:
 

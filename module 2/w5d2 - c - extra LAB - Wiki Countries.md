@@ -37,7 +37,7 @@ Notes to students:
 
 Common pain points:
 
-- error while data loading (ex. can not read properties of undefined)
+- error while data loading (e.g. can not read properties of undefined)
   - conditional rendering.
 
 

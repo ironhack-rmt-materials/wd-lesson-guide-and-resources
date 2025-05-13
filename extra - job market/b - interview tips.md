@@ -20,7 +20,7 @@ TECHNICAL PREP.:
 
 GENERAL ADVICE:
 - positive attitude
-- confident (eg. before interview, do 20 push ups + write on a big paper "this role is mine")
+- confident (e.g. before interview, do 20 push ups + write on a big paper "this role is mine")
 - natural
 - it's ok not to know things, it's ok to ask things
   - exception: in the screening interview, don't worry about details (but make sure it's something you'd be interested in).

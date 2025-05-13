@@ -23,7 +23,7 @@ Goals:
 <!--
 @LT:
 - warning: complex concepts
-- DO BREAKS OFTEN (short breaks) + quick game after each break (ex. pictionary)
+- DO BREAKS OFTEN (short breaks) + quick game after each break (e.g. pictionary)
 -->
 
 
@@ -33,7 +33,7 @@ Goals:
 Intro: 
 - so far, we have 1 model.
 - in our application, we may want to store more complex data 
-- Ex. for `author`, we may want to store `name`, `country`, `favFood`...
+- e.g. for `author`, we may want to store `name`, `country`, `favFood`...
 
 ---
 
@@ -45,7 +45,7 @@ Types of relationships
 
 
 Example of 1:1:
-- 1 book --> 1 specs (ex. size, weight, cover img)
+- 1 book --> 1 specs (e.g. size, weight, cover img)
 - 1 specs --> 1 book
 
 Example of 1:many:
@@ -64,7 +64,7 @@ Options:
   - embedded documents
     - explain with code a example
     - explain multiple embedded documents (array)
-    - show example where this may not be ideal (ex. 2 books with same author)
+    - show example where this may not be ideal (e.g. 2 books with same author)
   - reference
       - explain with code a example
       - explain multiple references (array)
@@ -113,7 +113,7 @@ Example:
 
 - Intro
   - at the moment, we store author as a string (in Book model)
-  - but we may want to store more info about authors (ex. country, date of birth...)
+  - but we may want to store more info about authors (e.g. country, date of birth...)
 
 
 - Create Author model
@@ -303,7 +303,7 @@ Time: 5min.
   Bonus: 
   - add/update navbar
   - add some CSS for the list of authors & the list of books
-    - note: to avoid repeating css code, consider creating a generic class (ex. `card`)
+    - note: to avoid repeating css code, consider creating a generic class (e.g. `card`)
 
 
 
@@ -399,7 +399,7 @@ IMPORTANT:
 - Interesting patterns:
   - Access data from another .then()
   - .map() and .filter()
-  - Compare 2 objectIds (ex. as string)
+  - Compare 2 objectIds (e.g. as string)
 - Possible solution: https://github.com/Ironmaidens-Ironhack-Jan-2022/mongoose-express-CRUD-codealong/commit/31acfad2925040330d83ef92f2654e7113135f17
 
 

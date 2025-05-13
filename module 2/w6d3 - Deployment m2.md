@@ -69,9 +69,9 @@ Status:
   - Create account + login
   - Create our app from a Github repo (may need to add permissions)
 - Errors:
-  - Build errors (ex. Navbar not defined)
+  - Build errors (e.g. Navbar not defined)
     - how to debug: see error logs on netlify
-  - Runtime errors (ex. Cannot read property 'map' of undefined')
+  - Runtime errors (e.g. Cannot read property 'map' of undefined')
     - how to debug: see console in the browser
 - Explain: continuous deployment
 - Environment variables

@@ -22,7 +22,7 @@
 
 ## Media queries
 
-- Apply CSS rules only for devices that match specific characteristics (eg. screen size)
+- Apply CSS rules only for devices that match specific characteristics (e.g. screen size)
 
 - Syntax:
 
@@ -51,7 +51,7 @@
 
 
 - Explain Concept of "breakpoint" (see on dev tools)
-  - Common breakpoints (eg. bootstrap)
+  - Common breakpoints (e.g. bootstrap)
 
 
 
@@ -92,7 +92,7 @@ Instructions:
 - Task: when screen is bigger than 600px, display the boxes in a row & change background color
 - Expected result (demo): https://codepen.io/luisjunco/full/yLzwodK
 - Bonus 1: add multiple breakpoints
-- Bonus 2: explore other things (eg. rounded corners, shadows, etc)
+- Bonus 2: explore other things (e.g. rounded corners, shadows, etc)
 
 - Time: 10-15m
 
@@ -139,7 +139,7 @@ Why:
 
 - Option 1 (skip): using Viewport Units
 
-  - eg. font-size: 1vw
+  - e.g. font-size: 1vw
   - problem: text can easily get too big or too small (tip: calc(10px + 1vw) )
 
 

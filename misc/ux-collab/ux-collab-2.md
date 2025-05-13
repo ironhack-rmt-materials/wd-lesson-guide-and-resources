@@ -30,6 +30,6 @@ https://jsfiddle.net/bootstrapious/m8pe5qat/show
   - functions: what they are and why they're important, how you use them, passing arguments...
     - (recommendation: stick to the basics, avoid arrow functions and complex stuff)
   - onClick event; add some functionality when user clicks on a link
-  - conditional statements (eg. if else) & loops (eg. for loop)
+  - conditional statements (e.g. if else) & loops (e.g. for loop)
     - what they are, why they're useful, basic example
 

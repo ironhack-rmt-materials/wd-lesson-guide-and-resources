@@ -18,8 +18,8 @@ Explain:
   > "Events are actions that happen in the system you are programming. The system tells you about so your code can react to them".
 
 - examples of events
-  - mouse events (eg. click, mouseover...)
-  - keyboard events (eg. keydown, keypress, keyup)
+  - mouse events (e.g. click, mouseover...)
+  - keyboard events (e.g. keydown, keypress, keyup)
   - Document (DOMContentLoaded, ...)
   - Full list: https://www.w3schools.com/jsref/dom_obj_event.asp
 
@@ -58,7 +58,7 @@ Note:
 - Initial Code: https://stackblitz.com/edit/web-platform-oz1yyy?file=script.js
 - Goal: 
   - Add functionality to detect if the user presses "spacebar"
-  - Eg. if user presses spacebar, `console.log("you've pressed the spacebar")`
+  - e.g. if user presses spacebar, `console.log("you've pressed the spacebar")`
   <!-- Note: to test your code, make sure you click on the html document before you press space  -->
 - (bonus 1): detect also arrow keys (down, up, left, right)
 - (bonus 2): if user presses spacebar, add a div to the dom.
@@ -174,7 +174,7 @@ JS Events cheatsheet:
 - Today's lab (bonus iteration): they will need to add events to elements created dynamically
 
 
-- Tell students to do some research (eg. js how to add a click event to a button dynamically created)
+- Tell students to do some research (e.g. js how to add a click event to a button dynamically created)
   - example: https://stackoverflow.com/a/34896325/11298742
 
 

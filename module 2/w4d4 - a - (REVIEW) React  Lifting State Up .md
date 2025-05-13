@@ -50,7 +50,7 @@ IF NOT, do codealong (instead of class activity)
 -->
 
 0. Make sure you have the app running.
-  - If you don't have it ready (ex. if it has bugs or different patterns): fork + clone + npm install + npm run dev
+  - If you don't have it ready (e.g. if it has bugs or different patterns): fork + clone + npm install + npm run dev
 
 Note: before you start making changes, you may want to make a commit (in case you need to discard changes).
 
@@ -70,12 +70,12 @@ Hints for Iteration 3:
 - Buttons to delete are now in `Movie` component
 - When the user clicks on the button, we need to update state in the parent component (we need to update the list of movies, which is stored as state in the `MovieList` component).
 - To solve it, we need communication from the child to the parent component.
-- You can have a function in the parent component (ex. deleteMovie) and send a reference to that function as props. Then, the child component can invoke that function to update state in the parent component.
+- You can have a function in the parent component (e.g. deleteMovie) and send a reference to that function as props. Then, the child component can invoke that function to update state in the parent component.
 
 
 Bonus (note: if you do any bonus, avoid modifying the hierarchy of components):
 - display "genres"
-- research: JSX spread attributes (ex. `<Movie {...movieObj}>`)
+- research: JSX spread attributes (e.g. `<Movie {...movieObj}>`)
 - add button "order by rating ascending" / "descending"
 - improve CSS
 
@@ -136,7 +136,7 @@ Fix: functionality to delete movie (passing callbacks to grandchild)
 ## Extra challenges:
 
 - Improve CSS
-- Research: JSX spread attributes (ex. `<Movie {...movieObj}>`)
+- Research: JSX spread attributes (e.g. `<Movie {...movieObj}>`)
 
 - Add 2 buttons: "Sort by rating ascending" + "Sort by rating descending"
 - Add 2 buttons: "Sort by year ascending" + "Sort by year descending"

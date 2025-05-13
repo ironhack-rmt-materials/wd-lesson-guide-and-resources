@@ -91,7 +91,7 @@ Summary of steps:
   - Login
   - Create a new workspace
     - IMPORTANT: create a new workspace for each app (limit of one free app per workspace)
-    - Choose a name for your workspace (eg. "project3" / "project3-deployment-demo")
+    - Choose a name for your workspace (e.g. "project3" / "project3-deployment-demo")
     - Choose "hobby" plan
   - Create a new "Web Service"
     - IMPORTANT: select "Git Provider" (from "Public Git Repo", it may not do automatic deploys)

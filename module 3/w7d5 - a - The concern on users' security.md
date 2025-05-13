@@ -63,7 +63,7 @@ const verifyPass1 = bcrypt.compareSync(plainPassword1, hash1);
     -- bigger = more secure but it also takes more time and resources
     -- recommended: 10
 
-- We can also use bcrypt asynchronously (eg. with promises)
+- We can also use bcrypt asynchronously (e.g. with promises)
   - example: https://github.com/ironhack-labs/code-lessons/blob/master/bcryptDemo/exampleWithPromises.js
 
 - (extra challenge): practice bcrypt async with promises

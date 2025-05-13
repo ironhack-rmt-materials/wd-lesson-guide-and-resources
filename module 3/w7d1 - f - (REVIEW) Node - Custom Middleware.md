@@ -109,8 +109,8 @@ This is the command we've used so far:
     - logout
       - note: it's a GET request
   - IMPORTANT: 
-    - see that routes are mounted in `app.js` (ex. on top of "/auth")
-    - ex. `/auth/signup`
+    - see that routes are mounted in `app.js` (e.g. on top of "/auth")
+    - e.g. `/auth/signup`
   - /middlewares
 
 

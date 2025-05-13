@@ -13,7 +13,7 @@
     - Refactor
 
 - Our goal: 
-    - implement a function that will receive an amount in cents (eg. 149) & return the corresponding value in decimal (eg. 1.49). 
+    - implement a function that will receive an amount in cents (e.g. 149) & return the corresponding value in decimal (e.g. 1.49). 
     - following TDD
 
 

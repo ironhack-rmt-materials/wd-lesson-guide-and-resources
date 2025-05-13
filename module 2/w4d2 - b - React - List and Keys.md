@@ -64,8 +64,8 @@ Note:
   ```
 
 - We will often work with arrays of objects but this syntax is not flexible enough.
-  - eg. if we have an array with 200 elements
-  - eg. if we don't know how many elements we will have in the array
+  - e.g. if we have an array with 200 elements
+  - e.g. if we don't know how many elements we will have in the array
 
 
 - Inside <Main />, create 3 div's with a movie

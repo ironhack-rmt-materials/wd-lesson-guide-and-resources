@@ -7,7 +7,7 @@
 ## Issue 
 
 
-- You made a commit that included a file with some secret or credentials (ex. a password) + you pushed those changes to Github.
+- You made a commit that included a file with some secret or credentials (e.g. a password) + you pushed those changes to Github.
 
 - Even if you make a commit removing the secret from that file, that secret is still part of the history of commits (so, potentially, anyone can see that).
 
@@ -36,7 +36,7 @@ In those cases, `filter-branch` may be an option, since it allows you to rewrite
 <!--
 @note:
 - this will re-write the entire history
-- it may be worth to explore other options (ex. re-writing history only from a specific commit where the error was made)
+- it may be worth to explore other options (e.g. re-writing history only from a specific commit where the error was made)
 -->
 
 Documentation: https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History#_removing_file_every_commit

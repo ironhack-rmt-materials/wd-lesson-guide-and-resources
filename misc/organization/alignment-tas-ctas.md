@@ -14,7 +14,7 @@
 Student support
 • Support (ie. support requests)
 • Check labs + give feedback
-• Occasionally, support during lectures (ex. if a student needs help)
+• Occasionally, support during lectures (e.g. if a student needs help)
 
 Other daily tasks:
 • Lab Review at 9am.

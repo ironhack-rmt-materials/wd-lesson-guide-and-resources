@@ -31,7 +31,7 @@
 
 - Custom port in config file + environment variable:
 
-  - add environment variable to .env (eg. `VITE_PORT=8002`)
+  - add environment variable to .env (e.g. `VITE_PORT=8002`)
 
   ```js
   import {defineConfig, loadEnv} from "vite";
@@ -55,9 +55,9 @@
 ## Environment variables
 
 1. Create your environment variables in .env file
-  - make sure variables start with `VITE_`  (eg. "VITE_API_URL")
+  - make sure variables start with `VITE_`  (e.g. "VITE_API_URL")
 
-2. To use them: `import.meta.env.xxx` (eg. "import.meta.env.VITE_API_URL")
+2. To use them: `import.meta.env.xxx` (e.g. "import.meta.env.VITE_API_URL")
 
 
 Note: `.env` is not in .gitignore

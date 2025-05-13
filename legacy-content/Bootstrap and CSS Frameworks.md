@@ -5,7 +5,7 @@
 Status: ready
 
 @todo:
-- codealong design screenshots: make it generic (eg. plain buttons) 
+- codealong design screenshots: make it generic (e.g. plain buttons) 
 - record video + QA
 
 
@@ -85,7 +85,7 @@ Components
 
 ## Codealong / Demo
 
-Create a basic layout (eg. portfolio site / e-commerce / ...).
+Create a basic layout (e.g. portfolio site / e-commerce / ...).
 
 
 Mobile Design:
@@ -130,7 +130,7 @@ Steps:
 
 
 (Bonus) Quick demo on codealong project (library project)
-- ex. some css for list of books
+- e.g. some css for list of books
 
   ```hbs
   <div class="container">

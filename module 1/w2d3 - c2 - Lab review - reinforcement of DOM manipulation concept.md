@@ -39,7 +39,7 @@ Notes:
 
 - update the dom to display subtotal
 
-- return subtotal (ex. `return subtotalValue;`)
+- return subtotal (e.g. `return subtotalValue;`)
   - this is important so that we can use it later to calc the total price
 
 
@@ -69,7 +69,7 @@ document.querySelectorAll('.product'); // returns a Node List
 ## Iteration 3: calc & display total
 
 - calculate & display the total price
-  - eg. initialize a variable totalValue=0 and update for each iteration
+  - e.g. initialize a variable totalValue=0 and update for each iteration
 
 
 

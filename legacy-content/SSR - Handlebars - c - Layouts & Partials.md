@@ -12,7 +12,7 @@
 
 ## Intro
 
-Layout: reuse code for all pages (ex. navigation menu, footer...).
+Layout: reuse code for all pages (e.g. navigation menu, footer...).
 - example: add a navigation menu at the top of all pages
 
 
@@ -91,7 +91,7 @@ Example:
   ```
 
 
-- Create a Partial (ex. banner / list with other products / contact form)
+- Create a Partial (e.g. banner / list with other products / contact form)
 
   ```hbs
     <div class="banner">

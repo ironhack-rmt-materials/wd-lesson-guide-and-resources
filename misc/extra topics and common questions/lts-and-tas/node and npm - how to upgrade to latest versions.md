@@ -4,8 +4,8 @@
 
 NVM:
 
-- nvm install x.x.x (ex. `nvm install 22.13.0`)
-- nvm alias default x.x.x (ex.`nvm alias default 22.13.0`)
+- nvm install x.x.x (e.g. `nvm install 22.13.0`)
+- nvm alias default x.x.x (e.g. `nvm alias default 22.13.0`)
 
 - other useful commands: 
   - nvm ls
