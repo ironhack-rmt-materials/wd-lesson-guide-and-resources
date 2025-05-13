@@ -2,9 +2,7 @@
 
 # JS - Arrays & Objects
 
-<!--- 
-
-Status: draft
+<!--
 
 
 Consider: 
@@ -65,7 +63,7 @@ const company = {
   ```
 
 - array of arrays (aka. "two-dimensional array")
-  - ex: array of classes (each class is an array of student names)
+  - eg: array of classes (each class is an array of student names)
 
   ```js
   const school = [
@@ -76,7 +74,7 @@ const company = {
 
 
 - array of objects 
-  - ex: array of students
+  - eg: array of students
 
   ```js
   const employees = [

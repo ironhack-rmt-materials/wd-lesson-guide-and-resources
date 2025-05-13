@@ -132,8 +132,13 @@ Solution:
 ## Introduce the syntax that we'll see today (useEffect)
 
 Example API request in React:
-https://stackblitz.com/edit/vitejs-vite-gn4dd9?file=src%2FApp.jsx
+https://stackblitz.com/edit/react-k3yj123p?file=src%2FApp.js
 
+
+<!-- 
+Example 2 (similar example but using the latest version of stackblitz):
+https://stackblitz.com/edit/vitejs-vite-gn4dd9?file=src%2FApp.jsx
+-->
 
 
 
@@ -369,59 +374,18 @@ https://legacy.reactjs.org/docs/hooks-reference.html
 
 Note: students need a lot of guidance to be able to do this task for the first time (unless we've done any similar example before)
 
-@todo: create gist
-
 -->
 
-
-Initial code: https://stackblitz.com/edit/react-kgkeid?file=src%2FApp.js
-
-<!--
-note:
-- it uses stackblitz's classic engine (students were finding confusing to install dependencies in the new engine + also has a dedicated console)
-- axios is already installed
--->
-
-Iteration 1: display the number of characters (in App.jsx)
-- In App.jsx: use `useEffect` & `axios` to get a list of characters from the API.
-- Endpoint: GET "https://ih-crud-api.herokuapp.com/characters"
-- Once you have the list of characters, display that in the console.
-- Now, display the number of characters in the JSX (ex. so that the user can see how many characters there are).
-
-
-Iteration 2: display a list of characters (in App.jsx)
-- Display the list of characters (with some info about each character).
-- For example, for each character, display something like this:
-  ```html
-    <div className="character">
-      Name: xxxx
-      Weapon: xxxx
-    </div>
-  ```
-
-- Notes:
-  - We will work on `App.jsx` (for now, DO NOT CREATE OTHER COMPONENTS)
-  - You will need a stateful variable to store the list of characters
-    - e.g.: `const [characters, setCharacters] = useState([]);`
-  - Once we get the response from the API, update state so that React re-renders the component.
-  - In our JSX, we need to iterate through the stateful variable - e.g.: `charactersArr.map()`
-
-Bonus:
-  - Display only first 10 characters
-  - Add CSS
-  - Implement a button to delete one character (when the user clicks, we send a request to the api)
-
-<!-- @LT: share with them the example we did earlier -->
+Instructions:
+- https://gist.github.com/luisjunco/ea74f4dbb5ae2335d045d89cb9c3ce25
 
 How: work in pairs.
 Time: 30m.
 
-
-Solutions:
-- Iteration 1: https://stackblitz.com/edit/react-wmmoaz?file=src%2FApp.js
-- Iteration 2: https://stackblitz.com/edit/react-rtqc32?file=src%2FApp.js
-
-
+<!-- @LT: 
+  - remember to FORK
+  - share with students the example we did earlier
+-->
 
 
 ## (Extra) common pain points when sending requests to API

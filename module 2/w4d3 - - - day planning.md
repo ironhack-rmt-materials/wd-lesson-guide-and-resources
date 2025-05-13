@@ -30,6 +30,15 @@
 
 - [LESSON] Codealong "popcorn-time I" [2h]
 
+<!-- 
+
+Note:
+- consider introducing React callbacks today
+- Example: https://stackblitz.com/edit/react-ts-ncjzuqyx?file=components%2FParent.jsx
+
+-->
+
+- (optional) End-of-day summary [10m]
 
 
 
@@ -47,10 +56,18 @@
 
 - (in pairs) Mini Project | React App (Day 2)
   - You will find the json files in "Project Brief: React App"
-
+  - Task 5: 
+    - If you find this one difficult, don't worry, we'll learn how to do that tomorrow.
+    - If you wanna try to implement that task 5, here's some hints: https://chatgpt.com/share/68090ca9-9d14-8003-80f6-5092032a58e3
 
 - Bonus: 
   - LAB | React IronContacts
 
 
+<!-- 
+  @LT: 
+  - today they may find mini-project a bit more difficult
+  - join breakout rooms
+
+-->
 

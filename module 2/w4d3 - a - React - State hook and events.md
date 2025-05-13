@@ -115,71 +115,9 @@ DEMO: add a counter in `<Header />`:
 
 <!-- @LT: remember to FORK  -->
 
-Initial code:
-https://stackblitz.com/edit/stackblitz-starters-723xsm?file=src%2FApp.js
-
-Note: work on the App component (do not create other components)
-
-Iteration 1:
-- In App.jsx, implement functionality to increase counter
-
-Iteration 2:
-- add a second button to decrease counter
-
-Iteration 3:
-- counter should never be below 0
-
-
-Bonus 1: 
-- if counter above 10, change bg color of the component
-- Hint: you can use css classes (className). For example, displaying the following, depending on state:
-    - `<div className="">`
-    - `<div className="popular">` (if counter above 10)
-
-
-Bonus 2:
-- You may have solved the previous challenges using two functions (ex. "increaseCounter" and "decreaseCounter")
-- Can we solve it with only one function ?
-
-```jsx
-
-const updateCounter = (diff) => {
-  //.....
-}
-
-
-<button onClick={ () => updateCounter(+1)}>Like</button>
-<button onClick={ () => updateCounter(-1)}>Dislike</button>
-
-```
-
-Bonus 3:
-- Add 2 buttons so that the user can switch theme.
-  - e.g., if user clicks "Switch to dark theme", display a dark background
-  - e.g., if user clicks "Switch to light theme", display a light background
-
-Bonus 4:
-- Implement the functionality to change theme with a single button (ex. toggleTheme) and a single function.
-- If theme changes, update the button (eg. display a different emoji).
-
-
-
-Time: 20min. (try to do at least iterations 1, 2 and 3)
-
-Solution 1 (with 2 functions):
-- https://stackblitz.com/edit/stackblitz-starters-2abw6z?file=src%2FApp.js
-
-Solution 2 (with only one function):
-- https://stackblitz.com/edit/stackblitz-starters-xgf1gt?file=src%2FApp.js
-
-Solution 3 (with `counter` + `theme`): 
-- https://stackblitz.com/edit/react-hjbhv8?file=src/App.js
-
-Solution 4 (with `counter` + single button to toggle `theme`): 
-- https://stackblitz.com/edit/react-9uzbxh?file=src%2FApp.js
-
-
-<!-- How: individual / in pairs -->
+. Instructions: https://gist.github.com/luisjunco/b6e7ea8236c8256158290de6d2be5372
+- Time: 20min. (try to do at least iterations 1, 2 and 3)
+- How: individual / in pairs
 
 
 

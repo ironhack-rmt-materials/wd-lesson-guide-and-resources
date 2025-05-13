@@ -13,13 +13,13 @@
     - Refactor
 
 - Our goal: 
-    - implement a function that will receive an amount in cents (ex. 149) & return the corresponding value in decimal (ex. 1.49). 
+    - implement a function that will receive an amount in cents (eg. 149) & return the corresponding value in decimal (eg. 1.49). 
     - following TDD
 
 
 
 
-## (skip) Initial approach with console.logs
+## Initial approach with console.logs
 
 
 ```js

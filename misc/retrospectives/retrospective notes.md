@@ -12,7 +12,7 @@
 
 - Tools for retros:
   - https://app.mural.co (more flexible)
-  - https://easyretro.io/ (more simple)
+  - https://easyretro.io/ (more simple, no need to signup)
 
 
   <!-- 
@@ -31,11 +31,12 @@
   @LT: 
   - may be better to add columns one by one
     - What went well ?
-    - What can be improved ?
-    - Suggestions / Things to try
+    - What can we improved + how ?
+    - Suggestions & things to try
     - Kudos
 
   - limit votes: 10. (or tell them one vote per card)
+  - show configuration: 1 vote per card.
 
   -->
 

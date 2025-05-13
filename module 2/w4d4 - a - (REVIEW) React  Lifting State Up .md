@@ -15,8 +15,17 @@ Note:
 -->
 
 
+## Intro: explain React callbacks
 
+Example: https://stackblitz.com/edit/react-ts-ncjzuqyx?file=components%2FParent.jsx
 
+Note: it can also be done as a guided exercise.
+
+<!-- 
+@todo: 
+- add exercise to practice callbacks
+- can also include demo/exercise to see how to pass props to grandchild
+ -->
 
 
 ## Communication from Child to Parent component
@@ -76,10 +85,10 @@ LT:
   - show syntax props object destructuring
   - show syntax JSX spread attributes (`<Movie {...movieObj}>`)
 - solve step 3 together.
-      
+
+
 
 ## Fix Delete functionality (Passing callbacks)
-
 
 - We need to pass a callback to the child component
 

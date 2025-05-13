@@ -23,9 +23,9 @@ For some applications, you may not even need different types of users.
 
 
 
-For user roles (ex. admin vs normal roles), an easy option is the following:
+For user roles (eg. admin vs normal roles), an easy option is the following:
 - have a single model (User)
-- in that model, have a field for role (ex. admin, user). 
+- in that model, have a field for role (eg. admin, user). 
   - IMPORTANT: set default to "normal" users.
 - to have an admin account, change the field manually on the db
 
@@ -34,7 +34,7 @@ For user roles (ex. admin vs normal roles), an easy option is the following:
 
 For user types, here's some options:
   - option 1: create a model for each type of user
-    - disadvantage: you may need to duplicate all auth logic (ex. register, login)
+    - disadvantage: you may need to duplicate all auth logic (eg. register, login)
   - option 2: only one model, on that model we store all the info (some users may have some info, other types of users different info)
     - example: https://stackoverflow.com/a/38628061/11298742
   - option 3: one model with different schemas (using mongoose discriminators)

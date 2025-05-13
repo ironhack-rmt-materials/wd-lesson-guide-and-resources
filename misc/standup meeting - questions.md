@@ -49,10 +49,10 @@
 ## week 9 (project 3):
 - What did you want to be when you grew up?
   <!-- monday Squirrel: https://media.makeameme.org/created/whens-monday-god.jpg -->
-- 60s, 70s, 80s, 90s: Which decade do you love the most and why?
+- 60s, 70s, 80s, 90s, '00s: Which decade do you love the most and why?
 - WEDNESDAY (only 2 questions):
   - What was your first job?
-  - Is our MVP ready? What is missing?
+  - Is your MVP ready? What is missing?
   - MVP Checklist: https://codepen.io/luisjunco/full/gOywmQv
   <!-- @LT: share MVP Checklist  -->
 - What's is one thing we don't know about you?

@@ -90,6 +90,7 @@ Initial Setup:
     - npm scripts ?
   -->
 
+- clean initial code in App.jsx
 
 
 ## Create our first component

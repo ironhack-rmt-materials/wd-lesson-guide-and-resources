@@ -22,7 +22,7 @@
 
 - [LESSON] React | Conditional Rendering [1h]
 
-
+- (optional) End-of-day summary [10m]
 
 
 ## Active Learning

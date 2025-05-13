@@ -14,6 +14,7 @@
   - see: `(extra) Some options to give CSS to React apps.md`
 
 - Github organizations [20min.]
+  <!-- @LT: follow steps in project-2 kickoff slides -->
   - start by creating repo in localhost (with Vite):
     - `npm create vite@latest our-cool-name -- --template react`
   - then, upload to github

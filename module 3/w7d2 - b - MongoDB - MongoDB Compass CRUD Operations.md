@@ -64,7 +64,7 @@ Note:
     <!-- LT: demo only (ask students not to do it)  -->
     - there we can find stats of the schema of our documents
     - LT: Update the type of one document (ex. change year to string)
-    - takeover: *documents of the same collection can have a different schemas*
+    - takeover: **documents of the same collection can have a different schemas**
 
     - meme: SQL vs. MongoDB
       - https://programmerhumor.io/wp-content/uploads/2021/07/programmerhumor-io-databases-memes-backend-memes-1798da956a4b96a-758x954.png
@@ -197,43 +197,8 @@ $type:
 Practice: MongoDB CRUD operations
 
 - Instructions: https://gist.github.com/luisjunco/42d608e3f96d712bc136ffbc4b2627bf
+- Solutions: https://gist.github.com/luisjunco/54aa7b16c76bc868e8c94787d536f07f
 
 - Time: 20min.
 - How: individual / in pairs
-
-<!-- 
-
-note: solutions are also included in the gist source code (as a comment)
-
--->
-
-
-SOLUTIONS (below):
-
-1. 
-- Solution: {year: "2010"}
-
-2. 
-- Solution: {$or: [{year: "2010"}, {year: "2011"}]}
-
-3. 
-- Solution: {year: {$gt: "2010"}}
-
-4. 
-- Solution: PROJECTION: {title: 1, year: 1, rate: 1}
-
-5. 
-- Solution: SORT: {rate: -1}
-
-
-Bonus 1: 
-- Option 1: {$and: [{genre: "Action"}, {rate: {$gt: "8.5"}}]}
-- Option 2: {genre: "Action", rate: {$gt: "8.5"}}
-
-
-Bonus 2: Get all movies with the genres "Family" AND "Musical" 
-
-- Option 1: {$and: [{genre: "Family"}, {genre: "Musical"}]}
-- Option 2: {genre: {$all: ["Family", "Musical"]}}
-
 

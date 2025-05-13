@@ -61,6 +61,9 @@ https://gist.github.com/ironhack-edu/dd3635de73a6ef07ef337bf184eda985
 - GitTower:
   - [Git cheatsheet](../media/pdf/git-cheat-sheet-gittower.pdf)
 
+- Git Cheatsheet from Github:
+  - https://education.github.com/git-cheat-sheet-education.pdf
+
 - Common Git Commands (most common commands with a very clear explanation):
   - http://guides.beanstalkapp.com/version-control/common-git-commands.html
 

@@ -27,6 +27,7 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
 
     ```
 
+
 ## Intro: why TypeScript
 
 - Advantages:
@@ -37,6 +38,8 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
 
 
 ## Initial Setup
+
+<!-- @LT: for this part of the workshop, create the code in a local file -->
 
 - `npm i -g typescript`
 
@@ -54,7 +57,7 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
 
 - Run file: `tsc index.ts`
 
-- by default, it translates to ES3 (ex. let will be translated to var)
+- by default, it translates to ES3 (eg. "let" will be translated to "var")
 
 - add `tsconfig.json`:
 
@@ -74,13 +77,15 @@ https://www.youtube.com/watch?v=zQnBQ4tB3ZA
     - you can write plain JavaScript code in TypeScript files, and it will still work.
 
 
-## String, Numbers and Booleans
+
+## Strings, Numbers and Booleans
 
 ```ts
 let userName: string = "alice";
 let age: number = 30;
 let isLoggedIn: boolean = false;
 ```
+
 
 
 ## Implicit vs. explicit types
@@ -102,6 +107,7 @@ let isLoggedIn: boolean = false;
     amount2 = "60";
     ```
 
+
 ## Unions
 
 - Union types allow you to define a variable that can hold one of several specific types.
@@ -114,9 +120,11 @@ let isLoggedIn: boolean = false;
     statusCode = true; // Error: Type 'boolean' is not assignable to type 'string | number'.
     ```
 
+
 ## (skip) Any
 
 - any can be convenient in some cases but it also comes at the cost of losing type safety (which is one of the main motivations for using TypeScript).
+
 
 
 ## Functions

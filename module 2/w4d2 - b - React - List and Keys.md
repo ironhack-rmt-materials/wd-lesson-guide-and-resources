@@ -101,9 +101,17 @@ Note:
 
 
 
+
+
 ## .map() - Demo I (with an array of strings)
 
-<!-- Before we import the json file, we'll do a quick demo with an array of strings -->
+<!-- 
+
+Notes:
+- Continue working on the same app from yesterday
+- Before we import the json file, we'll do a quick demo with an array of strings 
+
+-->
 
 
 Create a component `MovieList`.
@@ -118,6 +126,7 @@ Create a component `MovieList`.
   {movies.map()}
 
   ```
+
 
 
 ## .map() - Demo II (with an array of objects)
@@ -158,9 +167,11 @@ Create `data/movies.json`:
 
 
 Import:
-```
+
+```js
 import moviesArr from "../data/movies.json";
 ```
+
 
 
 ## Practice: iterate through an array with .map()
@@ -168,11 +179,15 @@ import moviesArr from "../data/movies.json";
 Initial code: https://stackblitz.com/edit/vitejs-vite-y9qv3w?file=src%2FApp.jsx
 
 
-1. In EventsList.jsx, import this json file:
-  - `import events from "../data/events.json"`
-2. In EventsList.jsx, for each element of the array, display the title and the location (use `.map()`)
+Step 1: 
+- In EventsList.jsx, import the json file.
+- `import events from "../data/events.json"`
 
-Bonus: in the json file, you will find more info about each event (image, categories...). Use that to display more info about each event.
+Step 2:
+- In EventsList.jsx, for each element of the array, display the title and the location.
+
+Bonus: 
+- In the json file, you will find more info about each event (image, categories...). Use that to display more info about each event.
 
 
 Time: 10min.

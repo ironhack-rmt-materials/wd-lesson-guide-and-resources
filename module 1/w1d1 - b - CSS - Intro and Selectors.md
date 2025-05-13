@@ -117,8 +117,8 @@ https://www.youtube.com/watch?v=c0kfcP_nD9E
 
 
 • (brief) Inheritance
-  • Some CSS property values set on parent elements are inherited by their child elements (ex. `font-family`)
-  • Some aren't (ex. `width`)
+  • Some CSS property values set on parent elements are inherited by their child elements (eg. `font-family`)
+  • Some aren't (eg. `width`)
   • full list: https://stackoverflow.com/a/5612360/11298742
 
 

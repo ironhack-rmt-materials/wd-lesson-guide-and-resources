@@ -8,6 +8,11 @@
   - Note: DON'T do the full demo on popcorn-time (we have a form to create new movies)
 
 
+@todo:
+- start the day by showing the final result:
+  - how to send a request to an api when the component mounts
+  - how to send a request to an api upon user interaction
+
 -->
 
 
@@ -56,6 +61,7 @@
 
 
 - (individual) LAB | Fake Store
+  - Topics: useEffect + routing
 
 - (in pairs) Mini Project
   - Deadline to submit mini-projects: Friday 9am.

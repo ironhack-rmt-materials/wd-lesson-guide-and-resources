@@ -44,14 +44,23 @@ In this lesson, we will focus on the practical aspects of database normalization
 
 - A JOIN operation allows you to join data from two or more tables based on a related column between them. This related column is typically the primary key in one table and a foreign key in another table.
 
-- Diagrams: 
+
+
+## SQL Joins Cheatsheets
+
+
+![cheatsheet - sql joins - 1](./img%20-%20sql%20joins%201.png)
+
+![cheatsheet - sql joins - 2](./img%20-%20sql%20joins%202.png)
+
+- Other diagrams: 
     - https://miro.medium.com/v2/resize:fit:1400/0*gdxxtAKE9vYAjXBk.png
     - https://www.ml4devs.com/images/illustrations/sql-joins-cheatsheet.png
     - https://diegobittencourt.org/wp-content/uploads/2024/06/image.png
 
-- meme: https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fyku64jkyz9121.jpg
-
 - Also useful (detailed cheat sheet): https://images.datacamp.com/image/upload/v1679944084/Joining_Data_in_SQL_458a8fa873.png
+
+
 
 
 ### FULL JOIN
@@ -116,4 +125,10 @@ Example:
     INNER JOIN 
         products AS p ON o.product_id = p.product_id;
     ```
+
+
+## Practice
+
+The SQL Murder Mystery (basic queries + joins):
+- https://mystery.knightlab.com/walkthrough.html
 

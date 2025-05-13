@@ -202,7 +202,7 @@ ___
 - (demo) for ... in loop
 
   ```js
-  for (let key in user) {
+  for (const key in user) {
     console.log(user[key]);
   }
   ```

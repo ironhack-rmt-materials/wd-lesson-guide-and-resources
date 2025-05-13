@@ -5,7 +5,7 @@
 Status: ready
 
 @todo:
-- codealong design screenshots: make it generic (ex. plain buttons) 
+- codealong design screenshots: make it generic (eg. plain buttons) 
 - record video + QA
 
 

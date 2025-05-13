@@ -23,5 +23,5 @@ TIPS:
 - BONUS - Iteration 4: War
 
 - BONUS - Iteration 5 (reuse code)
-  - create a generic method (ex. `attack()`)
+  - create a generic method (eg. `attack()`)
   - call that generic method from `vikingAttack()` and `saxonAttack()`.

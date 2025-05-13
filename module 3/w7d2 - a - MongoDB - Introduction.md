@@ -42,14 +42,6 @@ Slides ("Intro to Databases & MongoDB"):
     - isVeggie (boolean)
     - ingredients (array)
 
-  <!--
-  Note: 
-  - there's a bug in Compass "Insert not permitted while document contains errors"
-  - summary: if you enter the wrong format, Compass will keep showing that error, even after choosing the right format.
-  - bug report: https://jira.mongodb.org/browse/COMPASS-3246
-  - Quick workaround: click on a different collection & try again
-  -->
-
 
 - Data types in MongoDB:
   - most common: see students portal

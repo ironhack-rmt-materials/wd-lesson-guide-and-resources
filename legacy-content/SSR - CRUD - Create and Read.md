@@ -79,7 +79,7 @@ Practice: add functionality to display book details (book details page)
 
 1. Create a new route: GET `/books/:bookId`
 2. In that route:
-  - get book id from req.params (ex. `req.params.bookId`)
+  - get book id from req.params (eg. `req.params.bookId`)
   - DB query: Book.findById
   - render a view: `books/book-details.hbs`
 3. Modify the view were we render the list of books (`books/books-list.hbs`), so that we provide a link to see the details of a book.

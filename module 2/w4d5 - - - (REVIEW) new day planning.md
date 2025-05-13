@@ -39,17 +39,9 @@ Extra:
 <!-- @LT: tell students they may want to ask someone if they want to partner for project 2 -->
 
 
-- (individual) React Exponents Counter
-- (individual) React Forms
-
-  <!-- 
-  
-  Bonus: Iteration 4 | Refactor - Form Component
-  - make sure you commit before you start refactoring.
-  - (that way, if you need to roll back, you can just discard the changes with "git restore")
-
-  -->
-
+- (individual) LAB React Exponents Counter
+- (individual) LAB React Forms
+  - note: for the bonus iterations, before you start a refactor, it's always a good idea to make a commit (that way, if you need to roll back, you can just discard the changes with "git restore")
 
 - (in pairs) Mini Project | React App (Day 4)
 

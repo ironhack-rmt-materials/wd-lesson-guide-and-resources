@@ -60,7 +60,7 @@ Monday!
 - LAB | Express Cinema (seed + Read) (Extra)
 - LAB | Express Drones (seed + CRUD)
 
-- To avoid repeating work, we can do only one LAB (ex. ask students to implement CRUD on Express Cinema + leave the other lab as optional)
+- To avoid repeating work, we can do only one LAB (eg. ask students to implement CRUD on Express Cinema + leave the other lab as optional)
 
 - IMPORTANT: 
   - Express Cinema does not include C+U+D in the instructions

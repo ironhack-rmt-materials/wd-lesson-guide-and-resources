@@ -7,14 +7,14 @@
 ## Discover: what's a REST API?
 
 Task 1: watch this video 
-  - What is a REST API? (explains RESTful) (6 min., Mosh): https://www.youtube.com/watch?v=SLwpqD8n3d0
+- What is a REST API? (explains RESTful) (6 min., Mosh): https://www.youtube.com/watch?v=SLwpqD8n3d0
 
 Task 2:
-  - Define the endpoints for a REST API the allows to CRUD "recipes"
-  - Example:
-    - GET /recipes -- get a list of recipes
-    - ...
-    - ...
+- Define the endpoints for a REST API the allows to CRUD "recipes"
+- Example:
+  - GET /recipes -- get a list of recipes
+  - ...
+  - ...
 
 Time: 12min.
 
@@ -31,7 +31,6 @@ Some interesting content creators on youtube:
 
 
 -->
-
 
 
 - (skip for now) Slides REST: 

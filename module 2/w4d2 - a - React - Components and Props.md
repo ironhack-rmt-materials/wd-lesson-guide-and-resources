@@ -70,7 +70,7 @@ For User:
 ## Props I (syntax)
 
 - Intro to props & syntax:
-  - passing props to the `Header` (ex. title).
+  - passing props to the `Header` (eg. title).
 
 
 
@@ -108,7 +108,7 @@ export default UserOne;
 - Passing and accessing a prop
 - Passing multiple props
 
-- Note: we could also pass an object (ex. `userDetails={}`)
+- Note: we could also pass an object (eg. `userDetails={}`)
 - Note: As props, we can pass any valid data type
 
 
@@ -231,9 +231,9 @@ Note: Todays lab
 ## (extra) Components from npm
 
 - React Player:
-`npm install react-player`
+  `npm install react-player`
 
-`<ReactPlayer url="https://www.youtube.com/watch?v=EvtMTV9mMSc" playing={true} volume={0.1} />`
+  `<ReactPlayer url="https://www.youtube.com/watch?v=EvtMTV9mMSc" playing={true} volume={0.1} />`
 
 - (extra) Component Libraries
   - Show an example with one of them (eg. "Material UI"/ "Semantic UI React" / "Ant Design")

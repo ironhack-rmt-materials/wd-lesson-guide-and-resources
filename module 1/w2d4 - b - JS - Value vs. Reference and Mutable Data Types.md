@@ -35,19 +35,13 @@ Status: ready
 
 
 
-- Why it happens
-
-  - Primitive data types are stored (and copied) by value
-  - Non-Primitive data types are stored (and copied) by reference.
-
-
-- Slides:
-  - https://docs.google.com/presentation/d/1BIgfKvQq6lR8QaSBmscUROQ961-ZbgzY6XDMdToqShY/edit?usp=sharing
+- Why it happens:
+  - Slides: https://docs.google.com/presentation/d/1BIgfKvQq6lR8QaSBmscUROQ961-ZbgzY6XDMdToqShY/edit?usp=sharing
 
 
 
 
-- Example 1 (comparing variables):
+- Implication 1 (comparing variables):
 
   ```js
     const name1 = "alice";
@@ -74,7 +68,7 @@ Status: ready
 
 
 
-- Example 2 (modifying a copy):
+- Implication 2 (modifying a copy):
 
   ```js
 

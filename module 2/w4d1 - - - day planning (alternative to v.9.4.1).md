@@ -20,6 +20,8 @@
 
 - [LESSON] React | Creating a React App, JSX and React elements [1h]
 
+- (optional) Daily recap / End-of-day summary [10m]
+
 
 
 ## Active Learning

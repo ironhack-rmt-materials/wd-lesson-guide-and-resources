@@ -8,10 +8,6 @@
 
 <!-- 
 
-Optional: 
-- can ask for preferences for today's lab (eg. if there's anyone you still haven't worked with and you'd like to)
-
-
 Alternative to typicode api:
 - https://jsonplaceholder.org/users
 
@@ -22,6 +18,9 @@ Alternative to typicode api:
 -->
 
 - Intro to week 5
+
+- (optional): ask for preferences for today's lab
+  - eg. if there's anyone you still haven't worked with and you'd like to.
 
 - How the internet works [30m]
 
@@ -108,7 +107,7 @@ PROMISES:
   <!-- same pairs as mini-project -->
 
 - (in pairs) Mini Project
-  - finish any pending tasks from previous week
+  - Deadline to submit mini-project 2: Friday 9am
 
 - Bonus 1: 
   - Research about "fetch api"

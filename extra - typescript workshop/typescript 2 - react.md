@@ -17,7 +17,7 @@
 
     ```ts
     function Book(props: { title: string; year: number }) {
-    //...
+        //...
     }
     ```
 
@@ -26,12 +26,12 @@
 
     ```ts
     type BookProps = {
-    title: string;
-    year: number;
-    };
+        title: string;
+        year: number;
+    }
 
     function Book(props: BookProps) {
-    // ...
+        // ...
     }
     ```
 
@@ -42,7 +42,7 @@ Example 1: props for a Recipe component
     type RecipeProps = {
         title: string;
         difficulty: 'easy' | 'medium' | 'hard';
-    };
+    }
 
     function Recipe(props: RecipeProps) {
         return (

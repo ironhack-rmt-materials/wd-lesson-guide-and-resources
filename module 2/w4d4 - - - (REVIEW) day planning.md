@@ -15,7 +15,11 @@
 
 <!-- 
 
-@todo: IMPROVE / SIMPLIFY 
+@todo: 
+
+Add at least 1 basic exercise
+
+IMPROVE / SIMPLIFY:
 - remove anything not essential
 - first, introduce the concept (ex. with slides) & then see how to apply it (demo) ?
   - ex. 
@@ -23,7 +27,8 @@
     - lifting state up
     - forwarding props to grandchild
     - ...
-
+- create a simple demo to explain callbacks
+  - eg. App component with a counter in state + two child components with a button to multiply x2 and x3
 -->
 
 
@@ -33,7 +38,7 @@ Show the app we were building yesterday
 - list of movies loaded from `json` (in most apps, it would come from an API)
 - component hierarchy (see react dev tools + see code)
 
-- state:
+- State:
 
   ```jsx
   const [isLoggedIn, setIsLoggedIn] = useState(false);

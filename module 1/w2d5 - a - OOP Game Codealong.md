@@ -125,7 +125,13 @@ Milestone 4: make the game more interesting & fix bugs
 
 [ ] Implement functionality for the Player
 
-<!-- IMPORTANT: for the player, create the div directly in the html (for obstacles, we'll do DOM manipulation) -->
+<!-- 
+
+IMPORTANT: 
+- for the player, create the div directly in the html !!
+- (for obstacles, we'll do DOM manipulation)
+
+-->
 
   - Player class
     - position (x, y)
@@ -160,7 +166,7 @@ Milestone 4: make the game more interesting & fix bugs
   - Collision detection
   - some notes: "collision detection - common errors.md"
 
-[ ] Game Over (ex. redirect)
+[ ] Game Over (eg. redirect)
 
   <!--
 
@@ -172,6 +178,8 @@ Milestone 4: make the game more interesting & fix bugs
 [ ] Fix: remove obstacles when they're outside screen
   - opt1: hide with overflow hidden
   - opt2: remove (from array + dom element) 
+
+[ ] explain: requestAnimationFrame()
 
 [ ] Generate obstacles at random positions
 
@@ -226,7 +234,7 @@ UX:
 
 Code quality:
 - create a Game class
-- store settings as property of the Game class (ex. refreshRate)
+- store settings as property of the Game class (eg. refreshRate)
 - reuse code with OOP inheritance 
 
 
@@ -306,3 +314,27 @@ Axis with legend (inc. negative values):
 - Video: Rectangular Collision Detection with JavaScript (11min.)
   - https://www.youtube.com/watch?v=_MyPLZSGS3s&t=469s
   - Note: uses canvas + sets the origin in the top-left corner (in class, we use bottom left as a reference)
+
+
+Another way of explaining collision detection:
+
+```js
+  const playerLeft = this.positionX;
+  const playerRight = this.positionX + this.width;
+  const playerTop = this.positionY + this.height;
+  const playerBottom = this.positionY;
+
+  const enemyLeft = enemy.positionX;
+  const enemyRight = enemy.positionX + enemy.width;
+  const enemyTop = enemy.positionY + enemy.height;
+  const enemyBottom = enemy.positionY;
+
+  if (
+      playerLeft < enemyRight &&
+      playerRight > enemyLeft &&
+      playerTop > enemyBottom &&
+      playerBottom < enemyTop
+  ) {
+      // collision detected...
+  }
+```

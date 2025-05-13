@@ -37,19 +37,19 @@ Iteration 0: Cleanup - delete initial code from Vite
 
 Iteration 1: Create the initial structure. 
   - Create 3 function components: Header, MovieList, Footer
-  - for each of them, just display a text, (ex: `<h1>this is the Header</h1>`).
+  - for each of them, just display a text, (eg: `<h1>this is the Header</h1>`).
   - render all of them in App
 
 
 Iteration 2: Make a commit + Upload repo to GitHub
 
 Bonus: add some css for the Header component with a specific file
-    - create `Header.css` + add rules for `h1` (ex. `color: orange`)
+    - create `Header.css` + add rules for `h1` (eg. `color: orange`)
     - in Header.jsx, import the css file you've created: `import "./Header.css";`
     - NOTE: any css rules would apply to the whole application. To avoid this, you can do the following:
       - add a className to the parent html element of your component. Ex: `<header className="Header">`
       - in the css, add the class to all rules
-        - ex: https://github.com/Ironborn-Ironhack-March-2022/react-popcorn-time/blob/main/src/components/Header.css
+        - eg: https://github.com/Ironborn-Ironhack-March-2022/react-popcorn-time/blob/main/src/components/Header.css
 
 
 Time: 10min. + solve together.

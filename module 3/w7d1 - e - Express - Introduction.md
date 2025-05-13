@@ -14,7 +14,7 @@ update m2-m3 swap:
 
 @todo: 
 - review planning & update Demo (ie. which app we build)
-
+  - for example, for the demo, it may be more interesting to build a spotify-like api (artists, albums). In that case, change the exercises (some of them are already on that topic). Also, notice that this same app is used for the demos in the coming days.
 
 Codealong:
 - create "IronRestaurant" (iron-restaurant)
@@ -27,7 +27,6 @@ Codealong:
 
 
 ## Part 1: some concepts
-
 
 
 - Refresh HTTP Verbs
@@ -47,6 +46,7 @@ Codealong:
 - Brief intro to Express.js
   - MERN stack
   - MERN logos: https://miro.medium.com/max/1400/1*FVtCyRdJ6KOr4YswTtwMeA.jpeg
+
 
 
 

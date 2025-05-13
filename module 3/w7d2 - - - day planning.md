@@ -20,29 +20,25 @@ notes:
 
 - Refresh [20m]
   - express routes
-    - ex. `app.get(path, callbackFn)`
+    - eg. `app.get(path, callbackFn)`
     - req, res, next
   - different ways to send a response
     - `res.send()`
     - `res.sendFile()`
     - `res.json()`
-  - nodemon
-    - in development, we will usually run with nodemon
-  - (extra) explain "npm scripts"
-    ```json
-    {
+  - "node --watch": in development, we will usually run with "node --watch"
+  - "npm scripts":
+      ```json
       "scripts": {
         "start": "node app.js",
-        "dev": "nodemon app.js"
+        "dev": "node --watch app.js"
       }
-    }
-    ```
+      ```
   - Middleware
     - diagram: https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m2/expressjs/express-middleware-1.png
     - show example of a custom middleware function
     - (extra) see documentation for app.get
       - `app.get(path, callback [, callback ...])`
-
 
 
 
@@ -126,12 +122,13 @@ notes:
 <!-- @LT: tell students they may want to ask someone if they want to partner for project 3 -->
 
 - (individual) LAB | MongoDB - Advanced Querying
-  - Note: to import the db, you can use MongoDB Compass.
+  - To import the db, you can use MongoDB Compass.
+  - Advice: skip the bonus
   
 - (in groups) Mini Project - REST API - Day 2
+  - Pay special attention to the research part: "Mongoose | Getting Started"
 
 - Bonus: 
-  - Research: Express `req.query`
   - Follow the steps in the unit from tomorrow "Mongoose | Introduction"
   - Codewars Katas
 

@@ -67,12 +67,13 @@ Roadmap:
       - create app
       - git init
       - cleanup initial code
-      - copy index.css
+      - copy index.css (get `index.css` from the students portal)
       - install dependencies (npm install axios react-router-dom)
       - setup routing
       - create `components/Navbar`, `pages/HomePage` and `pages/ProjectListPage`
 - [ ] List of projects
 - [ ] Create new projects
+- [ ] Navbar
 - [ ] Project details page
 - [ ] Edit projects
 - [ ] Delete projects
@@ -85,8 +86,8 @@ Roadmap:
 Extra:
 - show: keep constants in a specific file (ex. config/api.js)
 - show: vs code source control
-- mention: toast
 - show: loader (e.g. https://cssloaders.github.io/)
+- mention: toast
   
   <!-- note: demo with an additional state variable "isLoading" -->
 
@@ -125,6 +126,8 @@ Steps (in more detail):
 - [ ] Delete the Project 
   - modify EditProjectPage.jsx (add function "deleteProject" + button)
 - [ ] Add Task Form
+  - to display tasks:
+    - `?_embed=tasks`
   - create component `<AddTask>` (form + controlled component)
   - render it in `<ProjectDetailsPage>`
   - modify `AddTask.jsx`:

@@ -18,6 +18,9 @@ Status: ready
 - Intro: Any basket fan? Michael Jordan last shot with the Bulls: 
   - https://pbs.twimg.com/media/EYWEL13XkAcHnxm?format=jpg&name=4096x4096
 
+- Diagram of a basketball court:
+  - https://thumbs.dreamstime.com/b/basketball-court-wooden-floor-view-above-vector-95114104.jpg
+
 
 - Practice: forEach
 

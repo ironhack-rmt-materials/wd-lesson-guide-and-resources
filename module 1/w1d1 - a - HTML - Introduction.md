@@ -27,7 +27,7 @@ Codealong links:
 
   - Open the terminal (View > Terminal)
 
-  - Windows users: configure default terminal (ex. `Git Bash`)
+  - Windows users: configure default terminal (eg. `Git Bash`)
 
   - Navigate to the directory where you will work.
     - `cd xxx` (go inside the directory)
@@ -71,7 +71,7 @@ Codealong links:
   - span, img, button, a
 - Semantics 
   - ex. difference section vs. div
-- Self-closing tags (ex. hr)
+- Self-closing tags (eg. hr)
 - HTML DOM tree (See it in the dev tools)
   - DOM tree Diagram: https://i.imgur.com/m08deQC.png
 

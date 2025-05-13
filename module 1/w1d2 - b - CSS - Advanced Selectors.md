@@ -162,12 +162,8 @@ h2 {
   ```
 
 
-
-
-## (extra) CSS custom properties (variables)
-
-CSS Variables in 100 Seconds (FireShip, 2min.):
-https://www.youtube.com/watch?v=NtRmIp4eMjs
+- Video - CSS Variables in 100 Seconds (FireShip, 2min.):
+  - https://www.youtube.com/watch?v=NtRmIp4eMjs
 
 
 <!-- note: can also be done self-guided after we see media queries -->

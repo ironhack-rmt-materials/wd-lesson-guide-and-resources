@@ -7,7 +7,6 @@ Status: draft
 
 
 @todo:
-- improve intro to synchronous vs. asynchronous code
 - to do some cleanup & improve structure
 
 --->
@@ -73,19 +72,13 @@ Note: most students find it difficult, give them 15min. and solve together.
 
 ## Synchronicity vs. Asynchronicity
 
-<!-- @todo: improve this example -->
+Synchronous vs. Asynchronous code:
+- Synchronous code runs line by line. Each step waits for the previous one to finish.
+- Asynchronous code can start a task and move on without waiting for it to finish. When the task is done, it notifies the code (e.g., with a callback, promise, or async/await).
 
-Synchronous way:
-- prepare something to eat
-- do the dishes
-- organize your bedroom
-- do whatever is next on your list.
-
-Asynchronous way:
-- order something to eat
-- while waiting first clean all the dirty dishes
-- then organize the room
-- food is here
+Example:
+- Synchronous: "Boil water, then make tea."
+- Asynchronous: "Start boiling water, while waiting, wash the dishes. When water's ready, make tea."
 
 
 
@@ -150,7 +143,6 @@ Asynchronous way:
 
 
 
-
 Synchronous: blocks code (ie. a line of code is not executed until previous one is completed)
 Asynchronous: non-blocking
 
@@ -167,27 +159,11 @@ JavaScript is:
 
 
 
-## Callbacks II (further examples)
-
-
-
-```js
-/*
-
-first-class functions = functions are treated like any other variable
-
-- we can store a function in a variable
-- we can pass a function as an argument to another function
-- a function can return a function
-
-*/
-```
-
+## Callbacks II
 
 - Callback = when we pass a function as an argument to another function
   - example: `forEach()`
   - example: `setTimeout()`
-
 
 - How else can be useful?
 
@@ -218,7 +194,7 @@ But... dinner takes time to be prepared....
       console.log('Preparing dinner...');
       setTimeout(function() {
           console.log('Dinner is ready');
-      }, 1000);
+      }, 1000 + Math.random() * 2000);
     }
 
     function eatDinner() {
@@ -270,7 +246,7 @@ So we can pass it a function to be executed at the end (once dinner is ready)...
 
 
 
-## Practice: JS Callbacks
+## (bonus) Practice: JS Callbacks
 
 - Instructions: https://stackblitz.com/edit/js-graftg?file=index.js
 - Time: 15min.

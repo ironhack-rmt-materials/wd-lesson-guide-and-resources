@@ -3,7 +3,7 @@
 Tasks during presentation (Instruction Team):
 
 - [ ] Share links to deployment on zoom chat
-  - note: have links prepared (ex. "Alice+Bob --> https://...")
+  - note: have links prepared (eg. "Alice+Bob --> https://...")
 
 - [ ] Submit project marks on CT
 - [ ] Submit rubrics-presentation on CT

@@ -12,7 +12,11 @@
  Planning:
   - LAB Q&A (short) [20m.]
   - Refresh [20m.]
-    - example: https://stackblitz.com/edit/js-agidet?file=index.js
+    - OOP (classes, methods etc)
+    - Introduce: pattern with an array of instances of a class + how to iterate through that array.
+    - example: https://stackblitz.com/edit/js-eb7he9et?file=index.js
+    <!-- @LT: in mini-project d3, they'll need to work with an array of instances + iterate through it -->
+    <!-- old example: https://stackblitz.com/edit/js-agidet?file=index.js -->
   - JS functions [1.5h]
   - Arrays: map, reduce, filter [2h] -- `focus!!`
   - Arrays: sort and reverse -- self guided

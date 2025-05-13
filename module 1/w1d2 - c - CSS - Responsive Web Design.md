@@ -51,7 +51,7 @@
 
 
 - Explain Concept of "breakpoint" (see on dev tools)
-  - Common breakpoints (ex. bootstrap)
+  - Common breakpoints (eg. bootstrap)
 
 
 
@@ -92,12 +92,13 @@ Instructions:
 - Task: when screen is bigger than 600px, display the boxes in a row & change background color
 - Expected result (demo): https://codepen.io/luisjunco/full/yLzwodK
 - Bonus 1: add multiple breakpoints
-- Bonus 2: explore other things (ex. rounded corners, shadows, etc)
+- Bonus 2: explore other things (eg. rounded corners, shadows, etc)
 
 - Time: 10-15m
 
 
 Solution: https://codepen.io/luisjunco/pen/yLzwodK
+Preview: https://codepen.io/luisjunco/full/yLzwodK
 
 
 

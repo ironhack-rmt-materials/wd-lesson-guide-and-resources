@@ -76,14 +76,16 @@ for (const value of someIterable) {
 ```
 
 
+
+## continue
+
+> The continue statement stops the current iteration, and continues with the next iteration.
+
+
+
 ## break
 
 > The break statement exits a switch statement or a loop (for, for … in, while, do … while).
-
-
-# continue
-
-> The continue statement breaks one iteration (in the loop) if a specified condition occurs, and continues with the next iteration in the loop.
 
 
 

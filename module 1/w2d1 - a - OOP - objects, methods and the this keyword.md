@@ -213,6 +213,8 @@ Solution: https://stackblitz.com/edit/js-yzcuvt?file=index.js
 
     const monthIndex = birthDate.getMonth();
     const monthName = birthDate.toLocaleString('default', { month: 'long' });
+    //const monthName = birthDate.toLocaleString('en-GB', { month: 'long' });
+    //const monthName = birthDate.toLocaleString('es-ES', { month: 'long' });
 
     console.log(monthIndex);
     console.log(monthName);
@@ -228,7 +230,6 @@ Solution: https://stackblitz.com/edit/js-yzcuvt?file=index.js
 
 ## Practice: ES6 Classes (OOP Bakery)
 
-
 Instructions: 
 - https://gist.github.com/luisjunco/c7ea4d03c6db5c6923e5b767e6935ca1
 
@@ -236,20 +237,18 @@ Instructions:
 Solutions: 
 - link to solutions is included in that gist.
 
-
 Time: 35min. in pairs
 
-<!-- @todo: improve instructions (make them more clear, add hints / solutions for each iteration) -->
 
 
 ## (Bonus) OOP Pair Maker Exercise
 
 Create a class "Cohort" with:
-- information of all students in our class (for each student, we just need to store the name -ex. "alice", "bob", "charlie").
+- information of all students in our class (for each student, we just need to store the name -e.g. "alice", "bob", "charlie").
 - functionality to select one student randomly
 - functionality to create random pairs
 - (bonus) if we try to generate pairs with an odd number of students, create a group of three.
-- (bonus) functionality to create groups of any given size (ex. groups of 3, groups of 4, 5, 6, 7....).
+- (bonus) functionality to create groups of any given size (e.g. groups of 3, groups of 4, 5, 6, 7....).
 
 
 - Time: 1-5h.

@@ -36,7 +36,7 @@ Consider: including closures.
 
 REMEMBER: 
 - from a child scope, you have access to variables in the parent scopes, but
-- from the parent scope, you don't have access to variables in the parent scope
+- from the parent scope, you don't have access to variables in the child scope
 
 
 
@@ -46,14 +46,14 @@ REMEMBER:
   - Block scope
 
 
-    Block level scope:
-    > limited further to the statement or expression of which the variable was declared. 
+    Global:
+    > A variable with global level scope is accessible from anywhere within the script where it was created (after it has been created).
 
     Function level scope:
     > limited to within the function from which it was declared and any child scopes such as nested functions or statements.
 
-    Global:
-    > A variable with global level scope is accessible from anywhere within the script where it was created (after it has been created).
+    Block level scope:
+    > limited further to the statement or expression of which the variable was declared. 
 
 
 REMEMBER (again):

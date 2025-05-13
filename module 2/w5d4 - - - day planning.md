@@ -36,6 +36,7 @@ Assessments:
 - Assessment: React fundamentals 2 (202305) [3h]
   - estimated 90min. / max time 3h.
 
+
 <!--
 
 @LT: explain infinite loop rendering a component in React
@@ -58,6 +59,17 @@ Assessments:
     )
   }
 
+-->
+
+
+<!-- 
+
+Note: 
+
+assessment 2 task 2,
+asks to send a GET request to https://api.openbrewerydb.org/breweries
+
+This endpoint returns a 404, but the tests will still pass (the unit tests mock the http request)
 -->
 
 

@@ -26,6 +26,7 @@ Some options to apply CSS to our React apps:
     - Tailwind component libraries: Flowbite React, daisyUI, HeadlessUI
     <!-- @note: As of Nov. 2024, Chakra has released v3, but the documentation still appears to be somewhat immature  -->
 
+
 ## Example Global CSS
 - Refresh: media queries / responsive
 
@@ -35,6 +36,11 @@ Some options to apply CSS to our React apps:
 
 
 ## Example Mantine
+
+<!-- 
+Versions:
+- May 2025: v.7.17
+-->
 
 - Setup:
     - follow steps here: https://mantine.dev/guides/vite/
@@ -96,6 +102,11 @@ Other packages (requires installation):
 - Mantine Charts
 
 
+(extra) implement confirmation modal to delete:
+- https://mantine.dev/x/modals/#confirm-modal
+
+
+
 Customizing with a theme:
 
 ```jsx
@@ -129,15 +140,15 @@ const customTheme = {
 
 
 
-## Component libraries vs. plain CSS
+## (CSS Frameworks && Component libraries) vs. plain CSS
 
 Advantages:
+- can help speed up development
 - can get a very professional look and feel with a few lines of code
 - can get responsive working nicely
 
 Disadvantages:
 - need to spend some time to get to know your tool
-- customizing details can be.... hell
-
+- customizing details can be very time consuming
 
 

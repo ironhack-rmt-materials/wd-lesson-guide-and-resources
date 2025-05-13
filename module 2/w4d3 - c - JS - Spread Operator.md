@@ -42,7 +42,7 @@ Examples using the spread operator:
 - Example 3: Merge/Concatenate arrays
 
   ```js
-  const newArr = [...arrOne, ...arrTwo]
+  const everyone = [...arrOne, ...arrTwo]
   ```
 
 

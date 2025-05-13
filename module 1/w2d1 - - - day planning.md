@@ -31,6 +31,10 @@ Planning:
 - (individual) LAB | JS Expense Tracker  [1.5h]
 - (in pairs) Mini Project - JavaScript Quiz  [2.5h]
 - (bonus) LAB | JavaScript Vikings
+- (bonus) JS | Special keyword - this
+
+Also, can already do OOP assessment (DL will be w3d1).
 
 <!-- Note: mini-project research includes reading the unit "JS | Special keyword - this" -->
+
 

@@ -108,7 +108,7 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
   - Interesting options:
     - build something
     - collaborate with other students
-    - follow tutorials & online courses (ex. Udemy or LinkedIn courses)
+    - follow tutorials & online courses (eg. Udemy or LinkedIn courses)
     - pair with a mentor (networking, linkedin, ex-ironhacker)
     - join some hackathons
 

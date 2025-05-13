@@ -135,6 +135,12 @@ Takeaways:
 Instructions: https://github.com/ironhack-rmt-materials/technical-interview-react-ii
 
 
+Update:
+- March25, the student that volunteered (Oggy) had a real interview just two days later.
+- He was asked to implement very similar functionality (render a list of things coming from an external API, searchbar, ...).
+- https://drive.google.com/file/d/1kRfWS7ztv9lJoAjBFq5jBCuhUpkvS69X/view?usp=drive_link
+
+
 
 
 ## Alternative React Interview
@@ -148,3 +154,10 @@ Q:
 - In case data was coming from an API, how would you implement a loader/spinner.
 - Implement native toast (e.g. after creating an album) / How would you implement it.
 
+
+## Resources
+
+Mock Technical Interview - Javascript Developer Junior Level (1h45m):
+- https://www.youtube.com/watch?v=h4i4kjwncoU&t=10s
+- Includes verbal questions (e.g. what's a rest api, explain login process)
+- Includes coding challenges (palindrome, flatten an array, etc)

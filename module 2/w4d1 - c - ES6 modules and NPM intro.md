@@ -30,7 +30,7 @@ Slides: https://docs.google.com/presentation/d/1SqJP7b9cQ9UpvTmfVpdojcFXjsTL0g1H
   Quick unit about NPM [30m.]
   - intro to npm
   - creating an npm project
-  - installing a package (ex. cowsay)
+  - installing a package (eg. cowsay)
   - package.json 
   - explain package.json scripts ? (it can also be done later)
 

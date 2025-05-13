@@ -101,7 +101,7 @@ Common pain points & bug fixing:
     - "Absolute path": specifies the complete location of a file or directory, starting from the root directory, 
     - "Relative path": describes the location relative to the current location.
 
-  - 2. Show example (ex. in my filesystem)
+  - 2. Show example (eg. in my filesystem)
 
   - 3. project 1: use relative paths
 

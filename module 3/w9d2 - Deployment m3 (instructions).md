@@ -35,13 +35,13 @@
 
 ## Step 4: Submit URLs in students portal
 
-As soon as you finish deployment, submit URLs in the students portal.
+- IMPORTANT: As soon as you finish deployment, submit URLs in the students portal.
 
-Make sure you submit the correct urls. 
+- Please make sure you submit the correct urls. 
 
-Screenshot: https://drive.google.com/file/d/1un8OZoDSpSr33VmqziNPOJT8qGVpAwch/view?usp=sharing
+- Screenshot: https://drive.google.com/file/d/1un8OZoDSpSr33VmqziNPOJT8qGVpAwch/view?usp=sharing
 
-Deadline: today, 5pm
+- Deadline: today, 5pm
 
 
 

@@ -29,7 +29,7 @@ Solution:
 
 - option 1 (if you can drop the collection)
   - Drop the collection on which you were using unique.
-  - This is the easiest option, as long as you can drop the collection or DB (ex. if you're in development and you don't have valuable data... or if you're in production and you don't like your job).
+  - This is the easiest option, as long as you can drop the collection or DB (eg. if you're in development and you don't have valuable data... or if you're in production and you don't like your job).
 
 - option 2: 
   - Execute `Model.syncIndexes()` 

@@ -142,9 +142,9 @@ sayHello();
 
 first-class functions = functions are treated like any other variable
 
-- we can store a function in a variable
-- we can pass a function as an argument to another function
-- a function can return a function
+1. we can store a function in a variable
+2. we can pass a function as an argument to another function
+3. a function can return a function
 
 */
 ```

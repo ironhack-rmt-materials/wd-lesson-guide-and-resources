@@ -12,7 +12,7 @@
   - explain initial code
   - why we can not use if-else statement
   - intro cheatsheet + 3 ways
-  - (bonus) can also create another app to show that conditional rendering applies to other cases, not just props (ex. when a counter of likes reaches a number - state)
+  - (bonus) can also create another app to show that conditional rendering applies to other cases, not just props (eg. when a counter of likes reaches a number - state)
   
 -->
 

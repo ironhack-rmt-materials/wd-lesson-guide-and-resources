@@ -18,11 +18,14 @@ m2-m3 swap:
 
   
 - Refresh
-  <!-- @LT: skip refresh (we'll see all those concepts during the day) -->
+  <!-- @LT: 
+    - skip refresh or very short (we'll see all those concepts during the day)
+    - can repeat the same activity from yesterday on useEffect
+  -->
   - lifecycle & hooks
   - side-effect & useEffect
   - common pain points when sending requests to an API
-    - ex. `useState()` + `undefined.map()`
+    - eg. `useState()` + `undefined.map()`
 
 
 
@@ -33,7 +36,7 @@ m2-m3 swap:
 
 ## Active Learning
 
-- (individual) React Iron Brewers
+- (individual) LAB React Iron Brewers
 
 <!-- 
 

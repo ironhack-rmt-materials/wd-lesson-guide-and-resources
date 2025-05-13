@@ -163,7 +163,8 @@ Fizz-Buzz
 (brief) see students portal
 
 
-> Operator Precedence: `4 * ( 5 - 2 ) + (2 + 2 ** 3) - 24 / 2`
+> Operator Precedence 1: `2 + 2 * 5 + (4 - 2)`
+> Operator Precedence 2: `4 * ( 5 - 2 ) + (2 + 2 ** 3) - 24 / 2`
 
 
 
@@ -175,7 +176,7 @@ Fizz-Buzz
 Creating a String
 - "" double quotes,
 - '' single quotes or
-- `` backticks (grave accents).
+- `` backticks
 
   ```js
   const user1 = 'alice';
@@ -240,7 +241,7 @@ Template literals:
 Practice: strings & string methods: 
 - Instructions: https://stackblitz.com/edit/js-1am8e2?file=index.js
 - Time: 15min.
-
+- How: individual / in pairs
 
 - Solution: https://stackblitz.com/edit/js-tsenus?file=index.js
 - Solution for bonus iterations: https://stackblitz.com/edit/js-hy613k?file=index.js

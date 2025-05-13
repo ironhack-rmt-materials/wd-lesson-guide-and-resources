@@ -27,6 +27,7 @@ Common JS
 
 - mkdir module3
 - mkdir commonjs-demo
+- cd commonjs-demo
 - touch index.js
 - touch utils.js
 

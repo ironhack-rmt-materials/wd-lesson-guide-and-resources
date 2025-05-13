@@ -149,7 +149,7 @@
   - quite much the same
   - which one to use: 
     - consistency
-    - in some cases we'll need to use one or the other (ex. this)
+    - in some cases we'll need to use one or the other (eg. this)
 
 - Arrow functions don't have their own bindings to `this`.
 
@@ -241,7 +241,7 @@ Example:
 
 - It is a special kind of object called `array-like object`
 
-  > “Array-like” means that arguments has a length property and properties indexed from zero, but it doesn't have Array's built-in methods like forEach() or map()
+  > "Array-like" means that arguments has a length property and properties indexed from zero, but it doesn't have Array's built-in methods like forEach() or map()
 
 - Accessing it's values is a bit different.
 

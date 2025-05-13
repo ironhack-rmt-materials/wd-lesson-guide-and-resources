@@ -12,7 +12,7 @@
   - Different ways of creating functions 
     - function declaration (statement) vs. function expression vs. arrow function
     - https://stackblitz.com/edit/js-evfgcy?file=index.js
-  - Array methods (ex. map, filter): https://i.redd.it/t2f5w9bms1271.jpg
+  - Array methods (eg. map, filter): https://i.redd.it/t2f5w9bms1271.jpg
 
 - See Project 1 examples (in case we haven't done it yet)
 
@@ -28,33 +28,15 @@
 
 
 
-
-
-## Group session: Q&A + create DOM element + JS Events
-
-- Note: 
-  - you don't need to memorize all this (just be familiar with it)
-  - in m2, React will do dom manipulation for us
-
-- Q&A
-
-- Refresh: how to create a DOM element
-  - Demo: create an image & append to the dom
-    <!-- 
-    @LT: 
-    - prepare a blank project for the demo (blank html + css + js)
-    - students can code in the project the did as self-guided
-    -->
-
-- Explain: JS Events
-  - Follow notes in "w2d3 - b - DOM - Manipulation.md"
-  - Final result: https://github.com/ironhack-fulltime-degenerates-oct2023/dom-manipulation-practice/blob/main/index.js
-
-
-
-
-
 ## Active Learning
+
+<!-- @LT: 
+- students usually find today's mini-project more difficult. Remind them how to ask for help
+- also, it can be good to explain them the patterns that they'll find 
+  - this.questions (array of instances of the class Question)
+  - ...
+  - example: https://stackblitz.com/edit/js-eb7he9et?file=index.js
+-->
 
 - (individual) LAB | DOM IronContacts
 - (in pairs) Mini Project - JavaScript Quiz - Day 3

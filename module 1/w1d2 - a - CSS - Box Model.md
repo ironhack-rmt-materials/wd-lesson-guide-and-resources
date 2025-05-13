@@ -11,17 +11,12 @@ ALTERNATIVE: watch this video together
 
 
 
-
-
-
 <!--- 
 
 Status: complete
 
-
 Notes:
 - box model is also covered in the prework (some things like "box-sizing" are not)
-
 
 -->
 

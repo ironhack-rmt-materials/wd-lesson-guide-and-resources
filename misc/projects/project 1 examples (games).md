@@ -1,6 +1,20 @@
 
 # Project 1 examples
 
+<!--
+Some project-1 examples:
+- Chubby Buddies: https://beatriz-96.github.io/project-1/
+- Potato Run: https://claradrojas.github.io/potato-run/
+- Kick4Kick: https://kafdhali.github.io/Kick4Kick/
+- DBugger Game: https://cramosp.github.io/dbugger-game/
+- Snek: https://dominikalipka.github.io/javascript-game-project/game-window/index.html
+- Guess game: https://codingeinhorndeu.github.io/guess-game/
+- Sticky Bullets: https://valentin-paul.github.io/Game-Javascript/
+- Air hockey Arcade Game: https://jihansh.github.io/Arcade-Game-proj1/game.html
+- Survivor Game: https://jogopin.github.io/Survivor-game/
+ -->
+
+
 
 Action games:
 
@@ -36,6 +50,9 @@ Action games:
 - Brick Breaker
   https://huguiz.github.io/Brick-Breaker/
 
+
+- Air hockey Arcade Game (Jihan): 
+  https://jihansh.github.io/Arcade-Game-proj1/game.html
 
 
 Non-action games:

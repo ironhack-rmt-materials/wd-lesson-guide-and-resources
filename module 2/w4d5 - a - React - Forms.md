@@ -78,6 +78,7 @@ Practice: React Forms
 - Initial code: https://stackblitz.com/~/github.com/ironhack-apr2024-theScriptSociety/popcorn-time
 
 - Alternative: create a Stackblitz app from the code we do in class.
+  - note: if we use the code from class, make sure to display "rating" in the homepage.
 -->
 
 
@@ -123,13 +124,11 @@ important: generate a unique id (will make our life easier when we implement rou
 -->
 
 
-Exercise: 
-- Find max in array of numbers + array of objects
-- note: you may need to do some research
+Exercise: Find max in array of numbers + array of objects
 - Instructions: https://stackblitz.com/edit/js-wjdmct?file=index.js
+- Time: 12min.
 - Solution: https://stackblitz.com/edit/js-miexdw?file=index.js
 
-- Time: 12min.
 
 
 
@@ -166,17 +165,20 @@ Possible solution:
 
 @LT: 
 
-- takes a bit longer than it seems, but helps refresh patterns we've seen today (ex. passing callback) 
-
-- alternative: implement it over a break (10min) & explain the final code.
-
-
-- update: needed for lab ? if not, can also be done tomorrow.
+- Keep this as an optional session
 
 -->
 
 - Move the form to a specific component <AddMovie />
-- Now we need to pass a callback.
+- Now we need to pass a callback
+
+Note 1:
+- it may be much easier to solve it first passing state and the updater function to the child
+- why it is a good idea to keep the function that updates state in the same component where you have state: https://chatgpt.com/share/680b8e66-7410-8003-999c-30d534883349
+
+Note 2: 
+- after implementing it, can add a new route and render AddMovie as a specific page
+
 
 
 
