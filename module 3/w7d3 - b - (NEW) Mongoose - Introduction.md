@@ -238,7 +238,12 @@ Time: 20min.
 
 <!--
 
-@LT:
+Summary:
+- iteration 1: implement GET /pizzas
+- iteration 2: implement GET /pizzas/:pizzaId
+
+
+@LT - IMPORTANT:
 
 - This exercise uses a DB on MongoDB Atlas, so that students get some initial data.
 - To test if the DB is up, connect on Compass ("mongodb+srv://bob:supersecretpassword@cluster0.tiknp.mongodb.net/ih-exercise-mongoose-methods")
@@ -246,11 +251,6 @@ Time: 20min.
 
 @todo:
 - create a cron job / monitor to keep the DB alive.
-
--->
-
-
-<!--
 
 Note:
 

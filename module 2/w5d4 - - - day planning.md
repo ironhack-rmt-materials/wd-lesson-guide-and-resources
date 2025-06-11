@@ -67,9 +67,11 @@ Assessments:
 Note: 
 
 assessment 2 task 2,
-asks to send a GET request to https://api.openbrewerydb.org/breweries
-
-This endpoint returns a 404, but the tests will still pass (the unit tests mock the http request)
+- asks to send a GET request to https://api.openbrewerydb.org/breweries
+- This endpoint returns a 404, but the tests will still pass (the unit tests mock the http request)
+- UPDATE (may 25): 
+  - assessment will be fixed to use the new api url
+  - more info: https://team-ironhack.slack.com/archives/CE2P3ETSN/p1748252046131299
 -->
 
 

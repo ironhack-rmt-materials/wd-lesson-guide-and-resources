@@ -13,6 +13,9 @@
 - (optional) refresh css selectors [10m]
   - extra: hover + box shadow + transition (on an image)
 
+- (brief) add custom font
+  - do quick demo with google fonts.
+
 - CSS Box Model [20m]
 
 - CSS Advanced Selectors (very brief) [20m]

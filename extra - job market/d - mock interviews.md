@@ -92,6 +92,8 @@ How:
 - pdf: https://github.com/luisjunco/technical-interviews/
 - Time: 1h
 
+Solution:
+- https://github.com/luisjunco/technical-interviews/blob/main/examples-i-have-done/2018.05%20-%20Grandvoyage/solution-1.js
 
 Example of unit tests + setup with Jest:
 - https://github.com/luisjunco/unit-testing-with-jest-example

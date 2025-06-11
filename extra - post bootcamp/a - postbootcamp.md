@@ -102,6 +102,7 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
     - Next.js +++
     - SQL Databases (for example, MySQL or PostgreSQL are popular choices)
     - TDD / Testing
+    - Docker
     - Tailwind
     
 

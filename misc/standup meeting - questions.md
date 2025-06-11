@@ -67,6 +67,7 @@
 - What's something you've done that you're pretty sure you're the only person in the room who has done it?
 - If you could turn any activity into an Olympic sport, what would you choose?
 - You need to prepare for a talent show, what do you do?
+- If animals could talk, which one would be the funniest to have a conversation with?
 - Beach holiday or ski trip?
 - If you could have any superpower for just one day, what would it be?
 - If you could switch lives with anyone for a day, who would it be?

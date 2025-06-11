@@ -151,7 +151,7 @@ let isLoggedIn: boolean = false;
     ```
 
 
-## Arrays:
+## Arrays
 
     ```ts
     const numbers = [1, 2, 3]; //implicit
@@ -214,7 +214,7 @@ Example 2: User
     ```
 
 
-Example 3: array of users:
+Example 3: array of users
 
     ```ts
     type User = {

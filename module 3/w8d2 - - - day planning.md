@@ -11,6 +11,9 @@
 - ironlauncher --auth --json [1.5h]
   - topics:
     - create the app with ironlauncher
+      - `mkdir our-cool-project`
+      - `cd our-cool-project`
+      - `npx  --yes  ironlauncher@latest  our-cool-project-backend  --auth   --json`
     - launch (`npm run dev`)
     - see `package.json` (dependencies + scripts)
     - quick overview of initial code (models + routes)

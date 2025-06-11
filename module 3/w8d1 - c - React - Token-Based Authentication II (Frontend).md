@@ -17,6 +17,15 @@ Methodology:
 
 
 New topics introduced in this unit:
+
+- You will have 2 apps running (front & back)
+  - Express API (Ironlauncher) - `npm run dev` (port 5xxx)
+  - React App (Vite) - `npm run dev` (port 3xxx)
+  <!-- @LT: show them (ie. run both apps on my computer) -->
+  - naming:
+    - frontend / client / react app
+    - backend / server / express app
+
 - (context API)
   <!-- - see code in the students portal -->
 - local storage for the token

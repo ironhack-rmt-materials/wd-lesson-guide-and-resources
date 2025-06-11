@@ -35,6 +35,14 @@ Update (May 2024):
 <!-- @LT: explain JWT's once we reach that code in /login (not before)  -->
 
 
+Roadmap: 
+- [ ] Initial setup
+- [ ] Functionality to create an account
+- [ ] Functionality to login
+- [ ] Protected routes with middleware
+- [ ] Implement an endpoint to verify jwt
+<!-- @LT: note, this titles doesn't match exactly the sections in this document (it's a simplification) -->
+
 
 ## Initial setup ("Getting Started")
 
