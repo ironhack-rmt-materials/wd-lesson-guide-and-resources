@@ -38,7 +38,7 @@ Show the app we were building yesterday
 - list of movies loaded from `json` (in most apps, it would come from an API)
 - component hierarchy (see react dev tools + see code)
 
-- State:
+- Refresh syntax useState():
 
   ```jsx
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -51,48 +51,6 @@ Show the app we were building yesterday
       : <h1>Sorry, you need to login</h1>
   }
   ```
-
-
-
-
-## Planning A
-
-- Optional: solve Bonus iteration 4 
-  - "Bonus: Iteration 4 | Extract Component"
-  - Solve it on the app "popcorn-time"
-    - extract movie details to `Movie` component
-    - Note: will need to pass a function as props.
-
-- Refresh [30m]
-  - see below
-
-- Examples of routing: 
-  - https://brews-and-bites.netlify.app/
-  - airbnb
-- Routing intro [1h]
-- Routing advanced - url params [1h]
-- Routing advanced - query string [10m]
-  - (just some notes / show cheatsheet) 
-  - In lab "React Cohort Tools": not needed (as of may24)
-  - In lab "React Stack Tracker" it's a bonus iteration.
-
-
-
-
-## Planning B
-
-Popcorn Time II...
-
-Lifting state up [~~3h~~] [1.5h]
-- (skip) Create a Movie component (will display the details of a movie)
-  <!-- Nope, do not create Movie component  -->
-- Display number of movies in the Header component (Lifting state up)
-  - Fix Delete functionality (Passing callback to grandchild)
-
-
-
-
-## Refresh
 
 - props vs. State:
 
@@ -109,16 +67,31 @@ Lifting state up [~~3h~~] [1.5h]
       - receives new props from the outside
       - its own state changes
 
-- Refresh syntax useState()
-
 - Remember:
   - NEVER MODIFY STATE DIRECTLY 
   - State Updates May Be Asynchronous
 
-- .map()
 
-- Conditional rendering
 
+## Day Planning
+ 
+- LAB Q&A [20m]
+
+- Refresh (see notes above) [10m]
+
+- Callbacks & Lifting State Up [2h]
+
+- Routing:
+  - Examples of routing: 
+    - https://brews-and-bites.netlify.app/
+    - airbnb
+  - Routing intro [1h]
+  - Routing advanced - url params [1h]
+    <!-- Implement routing in the app "popcorn-time" -->
+  - Routing advanced - query string [10m]
+    - (just some notes / show cheatsheet) 
+    - In lab "React Cohort Tools": not needed (as of may24)
+    - In lab "React Stack Tracker" it's a bonus iteration.
 
 
 
