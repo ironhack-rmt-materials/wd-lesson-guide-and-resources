@@ -25,7 +25,7 @@
 - Instructions: https://stackblitz.com/edit/ih-w1d2-refresh-zzgfcl?file=index.js
 
 - How: 
-  - in pairs (20min)
+  - in pairs (15min)
   - together, in the main room (10min.)
 
 - Solution: https://stackblitz.com/edit/ih-w1d2-refresh-chkkkv?file=index.js
@@ -46,7 +46,7 @@
 - Slides: Bootcamp Intro IV [10m]
 - Conditionals and Loops [30m/1h]
 - Functions Intro [1h]
-- Data Types - Arrays [1.5h]
+- Data Types - Arrays [1h]
 - Problem-solving: Solve together 1 iteration from LAB [30m]
   - "LAB | JS Challenges I (Arrays & Functions)" - Iteration 1 | Count Repetition
   - Possible solution: https://stackblitz.com/edit/js-gan8bw?file=index.js

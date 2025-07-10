@@ -63,14 +63,23 @@ Initial Code:
 
 ## Demo
 
-
 Follow steps here:
 - https://github.com/ironhack-rmt-resources/dom-manipulation-practice/blob/codealong-solution/js/main.js
-
+<!-- @LT: open a live session on VS Code -->
 
 Note:
 - steps to follow are in the branch `codealong-solution`
 
+
+<!-- 
+
+@LT: 
+
+to select elements of the dom, can do the following, 
+- introduce getElementById()
+- ask them to do some research (other options to get elements from the dom)
+- explain querySelector() and querySelectorAll()
+-->
 
 
 

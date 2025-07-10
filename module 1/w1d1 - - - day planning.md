@@ -132,7 +132,7 @@ Notes:
 - Explain: ticketing system
 
 
-## LAB: min. 90min. (1.5h)
+## LAB (min. 2h)
 - Time for students to work on LAB
 
 

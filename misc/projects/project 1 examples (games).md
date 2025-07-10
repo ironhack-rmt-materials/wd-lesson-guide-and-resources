@@ -5,6 +5,7 @@
 Some project-1 examples:
 - Chubby Buddies: https://beatriz-96.github.io/project-1/
 - Potato Run: https://claradrojas.github.io/potato-run/
+- Opposia: https://sevdakahraman.github.io/opposia_game/
 - Kick4Kick: https://kafdhali.github.io/Kick4Kick/
 - DBugger Game: https://cramosp.github.io/dbugger-game/
 - Snek: https://dominikalipka.github.io/javascript-game-project/game-window/index.html
@@ -21,6 +22,8 @@ Action games:
 - Potato Run (Clara)
   https://claradrojas.github.io/potato-run/
 
+- Opposia (Sevda)
+  https://sevdakahraman.github.io/opposia_game/
 
 - Bat Game (Maya)
   https://mayakilbertus.github.io/project-bat-game/

@@ -115,9 +115,12 @@ DEMO: add a counter in `<Header />`:
 
 <!-- @LT: remember to FORK  -->
 
-. Instructions: https://gist.github.com/luisjunco/b6e7ea8236c8256158290de6d2be5372
-- Time: 20min. (try to do at least iterations 1, 2 and 3)
-- How: individual / in pairs
+Instructions: https://gist.github.com/luisjunco/b6e7ea8236c8256158290de6d2be5372
+
+Time: 20min. (try to do at least iterations 1, 2 and 3)
+
+How: individual / in pairs
+
 
 
 

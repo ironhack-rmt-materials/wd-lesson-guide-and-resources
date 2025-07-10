@@ -14,8 +14,6 @@
 - Mobile-first: 
   https://www.initcoms.com/wp-content/uploads/2017/04/14955251486_67b5880508_c-e1493291308968.jpg
 
-  https://i1.wp.com/css-tricks.com/wp-content/uploads/2021/02/pasted-image-0.png?resize=549%2C240&ssl=1
-
 - Same html + different css rules
 
 

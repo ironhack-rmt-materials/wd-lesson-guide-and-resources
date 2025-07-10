@@ -38,7 +38,7 @@ console.log(result);
 
 <!-- 
 
-- e.g. 11 % 2 pizzas 
+- e.g. 10 % 3 pizzas 
 
 - interactive demo: https://www.joshwcomeau.com/javascript/modulo-operator
 
@@ -210,16 +210,16 @@ Template literals:
 
 
   ```js
-  const message = `My favourite book is Harry Potter and I love it`;
+  const message = "My favourite book is Harry Potter and I love it";
 
-  console.log(msg2);
-  console.log(msg2.length);
-  console.log(msg2.charAt(1));
-  console.log(msg2[1]);
+  console.log(message);
+  console.log(message.length);
+  console.log(message.charAt(1));
+  console.log(message[1]);
 
-  console.log(msg2.indexOf('m')); //0
-  console.log(msg2.indexOf('w')); //-1 --> str does not exist
-  console.log(msg2.indexOf('favourite')); //3
+  console.log(message.indexOf('m')); //0
+  console.log(message.indexOf('w')); //-1 --> str does not exist
+  console.log(message.indexOf('favourite')); //3
 
   const result = message.includes('f');
   console.log(result);
@@ -238,7 +238,8 @@ Template literals:
   Note: character at `endIndex` not included
 
 
-Practice: strings & string methods: 
+### Practice: strings & string methods
+
 - Instructions: https://stackblitz.com/edit/js-1am8e2?file=index.js
 - Time: 15min.
 - How: individual / in pairs

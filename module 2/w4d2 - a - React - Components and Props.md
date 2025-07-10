@@ -7,7 +7,7 @@
 
 Status: draft
 
-@todo: prepare a basic exercise to practice Components + props.
+@todo: can create a slightly more complex exercise to practice Components + props.
   - create stackblitz
   - ask students to create a child component
   - pass info from parent to child
@@ -20,10 +20,6 @@ Status: draft
 Intro Slides (components + function vs. class components): 
 https://docs.google.com/presentation/d/1iqYSImZj7p58ahLWryMSp00ooCCEf2cnIhjwc-pMFqw/edit?usp=sharing
 
-<!-- 
-  @todo: 
-  - add some code syntax to the slides (how to pass props when we render a component etc)
--->
 
 
 ## (brief) Function vs. Class Components
@@ -73,6 +69,21 @@ For User:
   - passing props to the `Header` (e.g. title).
 
 
+## Practice: components and props I
+
+Initial code: https://stackblitz.com/edit/vitejs-vite-ejt8k34c?file=src%2FApp.jsx
+
+Task:
+- From the App component, pass some info to the Footer using props (e.g. pass the message "hello world")
+- In the Footer component, receive props and render that message in the user interface.
+
+Bonus:
+- You can pass multiple props to the same component.
+- Also, you can experiment passing different data types (e.g. string, number, array...)
+
+Time: 5min.
+
+
 
 ## Props II (using props to make our components more reusable)
 
@@ -113,15 +124,7 @@ export default UserOne;
 
 
 
-## Practice: components and props
-
-<!-- 
-
-@todo: 
-- consider creating a more simple exercise (passing just a string as props, instead of an object).
-- Alternative: add a more simple first iteration
-
--->
+## Practice: components and props II
 
 Initial code: 
 - https://stackblitz.com/edit/vitejs-vite-udhmpb?file=src%2FApp.jsx
@@ -146,7 +149,8 @@ Iteration 3:
 Bonus 1: display in the Header the number of movies.
 
 Bonus 2: Keep challenging yourself further. 
-- For example, add some cool CSS & make it look like this: https://freefrontend.com/assets/img/css-card-layouts/CSS-Responsive-Cards.jpg
+- For example, add some cool CSS & make it look good. Inspiration: https://drive.google.com/file/d/1bTCwoCxZkyJQgAaJYzONtPmbEDpMho0Z/view
+- You can also display the rating as stars. Example: https://codepen.io/FredGenkin/pen/eaXYGV
 
 
 Time: 20min.
@@ -163,7 +167,7 @@ Solution: https://stackblitz.com/edit/vitejs-vite-gzumrd?file=src%2FApp.jsx
 
 ---
 
-Note: Todays lab
+Note: lab "React Tweets" (extra lab)
 
 - They will be passing elements of an array:
     `<Tweet tweet={ tweetsArray[0] }>`

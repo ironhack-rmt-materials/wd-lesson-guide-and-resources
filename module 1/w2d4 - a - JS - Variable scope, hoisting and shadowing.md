@@ -231,6 +231,7 @@ What's the output for the following examples?
 
 ```js
 let username = 'alice';
+
 function myFunc() {
   username = 'bob';
 }
@@ -246,6 +247,7 @@ console.log(username);
 
 ```js
 let username = 'alice';
+
 function myFunc() {
   let username = 'bob';
   let username = 'charlie';

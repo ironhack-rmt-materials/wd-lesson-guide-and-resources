@@ -26,6 +26,8 @@
 - Cleanup App.jsx
 - Delete App.css
 - Cleanup index.css
+- Update readme
+  - eg. An app to practice React fundamentals (state, routing, forms)
 - Commit
 
 

@@ -90,7 +90,11 @@ Initial Setup:
     - npm scripts ?
   -->
 
+- create repo + initial commit
 - clean initial code in App.jsx
+- Update readme
+  - eg. React Intro: an intro to some react concepts (components, props, jsx)
+- commit
 
 
 ## Create our first component

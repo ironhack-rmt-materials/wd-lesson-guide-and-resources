@@ -10,6 +10,7 @@ Morning:
 - Q&A [20m.]
 - Warmup [20m.]
   - Solve: get maximum value in an array of numbers
+    - `const numbers = [2, 6, 10, 7, 4, 1, 9];`
     - pattern: 
       - declare a variable with max = 0
       - iterate through the array and update that variable (forEach).

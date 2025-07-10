@@ -27,7 +27,7 @@
 
 ## Active Learning
 
-<!-- July2024: workload is very reasonable (2 labs + mini-project) -->
+<!-- note: workload is very reasonable (2 labs + mini-project) -->
 
 - (individual) LAB | LAB | React Props Training
   - Do iterations 1 + 2 + 3 + 4.

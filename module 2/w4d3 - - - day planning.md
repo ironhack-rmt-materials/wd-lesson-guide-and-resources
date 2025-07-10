@@ -35,7 +35,7 @@
 Note:
 - consider introducing React callbacks today
 - Example: https://stackblitz.com/edit/react-ts-ncjzuqyx?file=components%2FParent.jsx
-
+- Note: this can also be done as a self-guided activity (or research)
 -->
 
 - (optional) End-of-day summary [10m]

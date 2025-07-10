@@ -12,13 +12,8 @@
 
 - (optional) refresh css selectors [10m]
   - extra: hover + box shadow + transition (on an image)
+  - extra: css custom properties
 
-- (brief) add custom font
-  - do quick demo with google fonts.
-
-- CSS Box Model [20m]
-
-- CSS Advanced Selectors (very brief) [20m]
 
 - Accessibility: check font-size [5m]
   - 1: It's too small
@@ -26,6 +21,29 @@
   - 3: Like this is perfect for me
   - 4: It's a bit too big
   - 5: It's too big
+
+  
+- CSS Box Model [20m]
+
+- CSS Advanced Selectors (very brief) [20m]
+
+- (brief) add custom font
+  - do quick demo with google fonts.
+  - popular: https://fonts.google.com/analytics
+  - monserrat: https://fonts.google.com/specimen/Montserrat
+
+    ```html
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    ```
+
+    ```css
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Montserrat", sans-serif;
+    }
+    ```
+
 
 - Responsive Web Design + Media Queries [1h]
   - Best practices / advice to do your CSS
@@ -50,5 +68,8 @@
 
 
 <!-- Note: both labs include a hamburger menu -->
+
+
+<!-- @LT: check that everyone was able to submit lab-1  -->
 
 

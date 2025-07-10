@@ -17,4 +17,6 @@ Groups:
 How:
 - Pair programming
 - IMPORTANT: tell students to follow pair programming (work together on the same tasks). We still haven't seen how to integrate code changes.
+- NOTE: instructions at the moment say that both team members would clone. No need to do that.
+
 

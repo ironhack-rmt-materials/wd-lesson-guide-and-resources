@@ -30,6 +30,8 @@ Planning:
 
 - (individual) LAB | JS Expense Tracker  [1.5h]
 - (in pairs) Mini Project - JavaScript Quiz  [2.5h]
+  - Note: follow the instructions in the unit "Project Brief: JavaScript Quiz"
+  <!-- @LT: the project brief includes much more detailes instructions than the units for each specific day -->
 - (bonus) LAB | JavaScript Vikings
 - (bonus) JS | Special keyword - this
 
@@ -37,4 +39,9 @@ Also, can already do OOP assessment (DL will be w3d1).
 
 <!-- Note: mini-project research includes reading the unit "JS | Special keyword - this" -->
 
+<!-- 
+@todo mini-project: 
+- instructions for mini-project are duplicated between project brief & day tasks.
+- also, in day 1, instructions say that all team members should clone, but we still haven't seen how to split tasks (so it's better to just do pair programming)
+-->
 

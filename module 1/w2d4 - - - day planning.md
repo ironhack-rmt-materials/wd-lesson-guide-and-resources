@@ -12,6 +12,8 @@
 
 - LAB / mini-project Q&A [20m.]
 
+- (skip) Recap from yesterday
+
 - Recap with the most important concepts we've seen so far... (encouragement):
   <!-- @LT: no technical concepts, goal here is to encourage students to keep learning -->
   - https://docs.google.com/presentation/d/1-0GMbPHLcF-uXCMaKwkWF65ZUgI-fTjpBJ9SfZd1eVY/edit?usp=sharing

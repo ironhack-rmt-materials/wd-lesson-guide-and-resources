@@ -27,7 +27,7 @@
 
 - JavaScript is a programming language with `first-class functions` (functions are treated like any other variable)
   - a function can be assigned as a value to a variable
-  - a function can be passed as an argument to other functions
+  - a function can be passed as an argument to another function
   - a function can be returned by another function 
 
 > example "a function can be passed to other functions": `forEach()`
@@ -143,7 +143,7 @@
 - Simplifying arrow functions:
   - `only one parameter -> we can remove the parenthesis`
   - `only one line -> we can remove the curly braces & the return (return is implicit)`
-
+  - example: `calcDouble`
 
 - "Traditional" vs "Arrow" functions
   - quite much the same

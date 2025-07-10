@@ -102,7 +102,7 @@ Example:
     ```
 
 
-- If the current script has not finished:
+- (skip, just explain the idea) If the current script has not finished:
 
     ```js
     console.log('cooking dinner...');

@@ -56,6 +56,11 @@ Consider:
 -->
 
 
+<!-- 
+@LT: make pairs for mini-project-2
+-->
+
+
 ## (self-guided) Continue watching React Tutorial
 
 

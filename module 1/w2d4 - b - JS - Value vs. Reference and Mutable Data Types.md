@@ -12,7 +12,7 @@ Status: ready
 
 - Intro: mutating arrays
 
-  - Example 1:
+  - Implication 1 (mutating):
 
     ```js
 
@@ -41,7 +41,7 @@ Status: ready
 
 
 
-- Implication 1 (comparing variables):
+- Implication 2 (comparing variables):
 
   ```js
     const name1 = "alice";
@@ -68,7 +68,7 @@ Status: ready
 
 
 
-- Implication 2 (modifying a copy):
+- Implication 3 (modifying a copy):
 
   ```js
 

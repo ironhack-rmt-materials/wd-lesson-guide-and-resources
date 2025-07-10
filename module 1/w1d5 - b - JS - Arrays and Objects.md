@@ -45,6 +45,7 @@ const company = {
   ```js
   const user = {
     name: "alice",
+    age: 30,
     languages: ["french", "english"]
   }
   ```
