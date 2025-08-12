@@ -6,22 +6,31 @@
 
 ## Demo:
 
+<!-- 
+@LT: 
+- for this demo, open a repo with an express application
+- later on, can just create new files to demo this capabilities with React
+-->
+
+
 - url: https://github.com/features/copilot/plans 
 
 - settings
     - eg: enable/disable
     - choosing model
 
-- ghost text:
+- code completions:
     - `function findLongestStringInArray(){}`
     - `const words = []`
 
 - code suggestions from comments
-    - `// function to find the average in an array of numbers`
-    - `// GET /drinks`
-
-- questions from comments (note: comment depends on current language):
-    - `// q: how do i uninstall an npm package`
+    - example 1:
+        - `// function to find the average in an array of numbers`
+    - example 2:
+        - `// GET /drinks`
+    - example 3:
+        - create file middleware/isOwner.js 
+        - `// middleware function to verify if the user is the owner of the resource`
 
 - inline chat and speech-to-text
     - note: now it's available in the copilot menu (at the top)
@@ -29,11 +38,20 @@
     - example 2: make this function generic, so that it works with any nested levels (ie. arrays of any depth).
 
 - chat in sidebar:
+    - choosing model (included vs. premium)
+    - passing/defining context
+        - instructions file (see below)
+    - example 1: how do i uninstall an npm package ?
+    - example 2: paste an error message (e.g. title is not defined)
+    - show options:
+        - ask
+        - edit
+        - agent
+            - example: uninstall mongoose & paste the error "mongoose is not defined"
     - `@workspace` (e.g.: how many models we have)
     - `@vscode` (e.g.: whats the shortcut to change the language mode for the current file)
 
 - sparkles (e.g. commit message)
-
 
 
 
@@ -52,7 +70,7 @@
     - Follow project coding standards and existing patterns.
     - For React projects, prefer functional components and hooks.
 
-    Preferred Libraries:
+    Tech stack & preferred Libraries:
     - React
     - Next.js
     - Tailwind CSS
@@ -62,6 +80,10 @@
     - Use `components/` for reusable UI components.
     - Use `pages/` for route-level components (Next.js).
     - Use `utils/` for utility functions and API logic.
+
+    Other notes:
+    - For promises, use async/await
+
     ```
 
 - more info: https://code.visualstudio.com/docs/copilot/copilot-customization
@@ -76,7 +98,8 @@
     - e.g. `unit tests for a function that will receive a string and verify if it's a valid email address`
 
 
-## AI Editors and Agents
+
+## Other AI Editors
 
 - cursor
     - Cursor Tutorial for Beginners: https://www.youtube.com/watch?v=ocMOZpuAMw4
@@ -143,14 +166,21 @@ AI tools for Greenfield projects vs. commercial large codebases:
     - https://chatgpt.com/share/6824e153-86ec-8003-a44f-33c5d9197b60
 
 
+- (meme) When I try out vibe coding with AI:
+    - https://thecodinglove.com/when-i-try-out-vibe-coding-with-ai
+
+
+
 ## Videos:
 
+Old videos:
 - Get to know GitHub Copilot in VS Code and be productive IMMEDIATELY (VS Code, 5min.)
-https://www.youtube.com/watch?v=jXp5D5ZnxGM&t=2s
-
+    - https://www.youtube.com/watch?v=jXp5D5ZnxGM&t=2s
 - GitHub Copilot in VSCode: Top 10 Features Explained (Max on Tech, 9min.)
-https://www.youtube.com/watch?v=2nPoiUJpDaU
+    - https://www.youtube.com/watch?v=2nPoiUJpDaU
 
 
+For latest updates and news,
+- https://www.youtube.com/@code
 
 
