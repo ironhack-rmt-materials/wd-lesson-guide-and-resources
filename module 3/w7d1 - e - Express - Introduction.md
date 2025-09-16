@@ -325,8 +325,15 @@ Intro:
         {
           id: 3,
           title: "Seafood Pizza",
+          price: 25,
           imageFile: "pizza-seafood.jpg"
-        }
+        },
+        {
+          id: 4,
+          title: "Hawaian",
+          price: 20,
+          imageFile: "pizza-seafood.jpg"
+        },
     ];
   ```
 
@@ -339,14 +346,6 @@ Why:
 
 -->
 
-
-
-## Intro to Express Middleware 
-
-see `Node - Custom Middleware.md`
-
-<!-- @LT: for now, just do an intro to middleware + create a couple of custom middleware functions
--->
 
 
 
@@ -373,6 +372,15 @@ see `Node - Custom Middleware.md`
   - Explain: we send 1 initial request but the browser is sending more requests (css, images)
 
   <!-- @LT: can create a diagram on https://excalidraw.com -->
+
+
+
+## Intro to Express Middleware 
+
+see `Node - Custom Middleware.md`
+
+<!-- @LT: for now, just do an intro to middleware + create a couple of custom middleware functions
+-->
 
 
 

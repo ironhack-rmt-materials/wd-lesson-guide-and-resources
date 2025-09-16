@@ -52,15 +52,18 @@ Notes:
 
 - (Quick) Refresh
   - MongoDB (database, collection, document, field)
-  - Sample query
-  - Today, we will start doing this things with code
+    - Sample query on MongoDB
+    - Today, we will start doing this things with code
+  - req.params
+  - req.query
 
-- Express - Route Params & Query String [1.5h]
+- (if not done yet) Express - Route Params & Query String [1.5h]
   - GET /drinks/:drinkName (req.params)
   - GET /drinks/ + maxPrice (req.query)
-  - POST /drinks/ (req.body)
 
 - Mongoose - Introduction
+  - Include: POST /drinks/ (req.body)
+
 
 - Before Lunch: ask for preferences project 3
   - see `project preferences.md`

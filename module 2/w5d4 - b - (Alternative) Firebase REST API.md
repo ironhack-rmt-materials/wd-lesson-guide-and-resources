@@ -16,7 +16,7 @@ Task 2:
   - ...
   - ...
 
-Time: 12min.
+Time: 10min.
 
 
 <!-- 

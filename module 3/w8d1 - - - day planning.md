@@ -20,7 +20,7 @@
   - Protected routes with middleware
 
 
-- React | Context API [1.5h]
+- React | Context API [2h]
 
 - Explain main concepts for the self-guided units [0.5h]
   - see `w8d1 - c - React - Token-Based Authentication II (Frontend).md`

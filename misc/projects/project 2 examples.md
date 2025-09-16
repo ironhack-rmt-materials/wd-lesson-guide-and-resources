@@ -2,12 +2,6 @@
 # Project 2 examples
 
 
-Path Foundry: https://pathfoundry.netlify.app/
-- (Batu + Olga)
-- Basic MVP (CRUD + responsive)
-
-
-
 Brews & Bites: https://brews-and-bites.netlify.app/
 - (Nico Anzoategui)
 - Great example of an MVP with nice UX (CRUD on 1 resource)

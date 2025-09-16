@@ -72,13 +72,13 @@ Status: ready
 
   ```js
 
-    let amount = 10;
+    let points = 10;
 
-    let amountCopy = amount;
-    amountCopy = 20;
+    let pointsCopy = points;
+    pointsCopy = 20;
 
-    console.log(amount);
-    console.log(amountCopy);
+    console.log(points);
+    console.log(pointsCopy);
 
 
     //
@@ -124,7 +124,8 @@ Status: ready
   //  --> we copy the top-level by value
   //  --> but, if we have nested levels, they're still copied by reference
 
-  // Deep copy --> we copy all levels by value (including nested levels)
+  // Deep copy 
+  // --> we copy all levels by value (including nested levels)
   ```
 
 - Make a quick example of shallow copy (with nested data structure)

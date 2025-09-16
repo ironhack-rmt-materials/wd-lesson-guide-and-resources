@@ -18,7 +18,7 @@ Status: draft
 - HTTP (refresh)
 
 
-- HTTP headers
+- (skip) HTTP headers
   > HTTP headers let the client and the server pass additional information with an HTTP request or response.
 
   - See MDN: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
@@ -29,7 +29,7 @@ Status: draft
     - Content-Type (Indicates the media type of the resource.)
 
 
-- Content Types
+- (skip) Content Types
 
   > "What if we wanted to request some data from a website across the internet and then do something programmatic with that data?"
 

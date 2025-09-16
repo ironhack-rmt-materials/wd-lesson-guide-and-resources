@@ -29,10 +29,11 @@ Some options to apply CSS to our React apps:
 
 ## Example Global CSS
 - Refresh: media queries / responsive
+- (optional) Implement responsive list of items
 
 
 ## (optional) Example CSS Framework
-- Can do a quick demo with bootstrap (e.g. create an index.html)
+- (optional) Do a quick demo with bootstrap (e.g. create an index.html)
 
 
 ## Example Mantine
@@ -146,6 +147,7 @@ Advantages:
 - can help speed up development
 - can get a very professional look and feel with a few lines of code
 - can get responsive working nicely
+- battle tested
 
 Disadvantages:
 - need to spend some time to get to know your tool

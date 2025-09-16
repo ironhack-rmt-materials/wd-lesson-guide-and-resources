@@ -48,6 +48,10 @@ Roadmap:
 
 Follow steps in the students portal but remember to fork:
 - fork + rename (`!!`)
+  <!-- 
+    @LT: REMEMBER TO FORK!! ⚠️
+    ... specially if you have permission on the original repo ⚠️⚠️  
+  -->
 - clone 
 - npm install
 

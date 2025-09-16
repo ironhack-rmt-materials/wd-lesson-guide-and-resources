@@ -57,6 +57,19 @@ IMPORTANT:
   - option 2: 2 truths 1 lie
 
 
+## Check English level
+
+<!-- Note: this is also in the slides "Bootcamp Intro", on Day 1 -->
+
+> A web browser is a program that allows people to access and view websites on the internet. When you type a website address, the browser sends a request to the server where the site is stored and then shows the page on your screen. It also lets users interact with links, forms, and buttons on websites. Browsers are essential tools for exploring and using the internet every day.
+
+1 – I didn’t understand anything.
+2 – I understood a little.
+3 – I understood about half.
+4 – I understood most of it.
+5 – I understood everything.
+
+
 (break)
 
 ## LT bootcamp intro - Day 1 [30m]

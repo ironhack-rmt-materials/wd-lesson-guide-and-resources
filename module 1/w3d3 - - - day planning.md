@@ -37,8 +37,12 @@
 - 9am (individual):
   - Solve this Kata using arr.map() - Greet developers (7 kyu): https://www.codewars.com/kata/58279e13c983ca4a2a00002a/train/javascript
 
-- 10am (or once you finish that kata):
-  - Deployment - Follow this video: https://www.loom.com/share/a183261549334d4aad2c916c54c266e0?sid=434fba10-37d3-49a9-9701-fcd67ae55b61
+- 10am (or once you finish that kata), follow this video to learn how to deploy project 1:
+
+  - Option A (Spanish): https://www.loom.com/share/0c53a2aa6a2c40cb85cc32b68f879181?sid=9b7609bc-f096-4c2f-ac8a-c0a39be7e268
+
+  - Option B (English): https://www.loom.com/share/a183261549334d4aad2c916c54c266e0?sid=434fba10-37d3-49a9-9701-fcd67ae55b61
+
 
 - Once you finish deployment, submit your project URLs in the students portal.
   - DEADLINE to submit project urls: today 13:00h.
@@ -48,8 +52,7 @@
   - Once you finish deployment, submit the urls and then keep working on the game as usual (every time you push new changes, they will be reflected on github pages).
   - Games must be ready end of Thursday (Friday 9am).
 
-- 13:00: lunch break 🥗
-- 14:00: standups
+- 12:00: standups
 
 How to submit project URLs:
 

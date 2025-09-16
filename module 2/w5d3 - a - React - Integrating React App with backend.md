@@ -65,7 +65,7 @@ Intro:
 Roadmap:
 - [ ] Initial setup
       - create app
-      - git init
+      - setup repo + upload to github
       - cleanup initial code
       - copy index.css (get `index.css` from the students portal)
       - install dependencies (npm install axios react-router-dom)

@@ -15,11 +15,7 @@ During this week, explain:
     - stage / un-stage / revert
     - stage only some parts of a file
 
-- see history
-  - install: https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory
+- see history of commits
 
 - Branches (see `extra - git branches.md`)
-
-
-
 

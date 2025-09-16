@@ -6,19 +6,19 @@
 
 ## Step 0: Using env variables for the location of our API
 
-- Follow this video: https://www.loom.com/share/52429b07880c44b2801956d42dcd2e06
+- Follow this recording: https://www.loom.com/share/52429b07880c44b2801956d42dcd2e06
 
 
 
 ## Step 1: Intro + deploy our DB on MongoDB Atlas
 
-- Follow this video: https://www.loom.com/share/8dcfbb93ee1942f2a05fc5fa432567e1
+- Follow this recording: https://www.loom.com/share/8dcfbb93ee1942f2a05fc5fa432567e1
 
 
 
 ## Step 2: Deploy our Backend on Render.com + configure UptimeRobot
 
-- Follow this video: https://www.loom.com/share/461ca572ac58499fb95e15404b9f4a12
+- Follow this recording: https://www.loom.com/share/461ca572ac58499fb95e15404b9f4a12
 
 - Note: you can find the code for the "health" endpoint here: https://github.com/ironhack-class-codealongs/test-render-c/commit/fe24863533d5cd1d442071fcc881daf9ac1cdcec#diff-103b73514ced7155e7e33849be2ab49fcbf55e6ff018e0e5356a82d74e6c7e09R6
 

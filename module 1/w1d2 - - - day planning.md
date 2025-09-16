@@ -50,7 +50,6 @@
 
 - Flexbox [2h] (1h concepts + 30min. practice)
 
-- CSS Positioning  [20m]
 
 
 

@@ -42,7 +42,7 @@
 - Goals:
   - Practice (js fundamentals + oop)
   - Learn coding good practices 
-  - Learn git concepts 
+  - Learn git good practices 
 
 
 - How:
@@ -74,6 +74,12 @@
 
 
 note: we will use OOP + DOM.
+
+
+
+Milestones:
+- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSye5uo3-oJlymcn2i6-T9LCiE7FK61DKriN7pydhi1wTgdmhLbyAXEHif59J674QG6EPk&usqp=CAU
+- https://media.licdn.com/dms/image/v2/D4D12AQEwC8s38peFpg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1670968274288?e=2147483647&v=beta&t=fgja26qqEDEXUC3nhWmrnUnE9hfPPdXImBQKlrIJZqU
 
 
 Milestone 1: user can move the player left/right

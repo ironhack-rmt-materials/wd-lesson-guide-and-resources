@@ -35,7 +35,7 @@ Common JS
 Example 1 (exporting a single value):
 
   ```js
-  const amount = 42:
+  const amount = 42;
 
   module.exports = amount;
   ```

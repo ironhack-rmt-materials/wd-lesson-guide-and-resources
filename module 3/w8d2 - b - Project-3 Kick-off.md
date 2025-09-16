@@ -2,7 +2,12 @@
 
 # Project-3 Kick-off
 
-
+<!--
+@LT:
+- consider also adding a talk with an alumni during project week 
+   - e.g "A day in the life of a developer"
+   - e.g. Oggy
+-->
 
 
 ## Project Guidelines

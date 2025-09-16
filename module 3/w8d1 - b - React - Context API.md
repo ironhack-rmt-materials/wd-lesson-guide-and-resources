@@ -136,6 +136,26 @@ Grandchild:
     https://codesandbox.io/s/m3-react-context-lesson-code-example-v2-wnj6h?from-embed
 
 
+- Steps:
+  1. Create the component `ThemeProviderWrapper` (for now, just a function component)
+    - create the file `src/context/theme.context.jsx`
+    - for now, create just a simple function component 
+  2. Render `<ThemeProviderWrapper>` around the whole application.
+    - We'll see that we need to use props.children
+  3. In the file theme.context.jsx, create the context:
+    - `const ThemeContext = createContext();`
+      - Note: this needs to be outside of the function so that it can be exported
+    - `export { ThemeContext, ThemeProviderWrapper };`
+  4. In the file theme.context.jsx, render the Provider:
+    - `<ThemeContext.Provider value="light">`
+  5. From the component `ProjectCard`, read info from the contextAPI and use it to render a class
+    - const result = useContext(ThemeContext)
+    - `className={"ProjectCard " + result}`
+  6. Add css
+    - Get the css from the students portal
+  7. Now, the them can change over time, we'll use state.
+  8. ...
+
 
 ## Things to keep in mind
 

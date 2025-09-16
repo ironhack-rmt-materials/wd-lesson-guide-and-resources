@@ -108,7 +108,7 @@ Example 2 (skip):
 ```
 
 
-- (bonus) Exercise (practice rest parameters + arr.reduce): 
+- (bonus) Exercise (practice rest parameter + arr.reduce): 
   - Instructions: https://stackblitz.com/edit/js-o9cpuo
   - How: groups of 2-3 students
   - Time: 15min.

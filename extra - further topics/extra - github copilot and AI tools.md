@@ -123,18 +123,27 @@
     - lovable.dev
     - replit.com
     - firebase.studio (tried it in april 25, a few days after release, and results were quite poor)
+    - github.com/spark
+        - https://github.blog/changelog/2025-07-23-github-spark-in-public-preview-for-copilot-pro-subscribers
 
 - Gemini canvas: https://www.linkedin.com/posts/addyosmani_programming-softwareengineering-ai-activity-7308542354821394432-AdnZ
 
 
 Examples:
 - create an Instant Resume Analyzer
+
+- For an app that will allow users to practice their language skills by having a realtime voice conversations with an AI, create the private area for logged in users (users need to be able to start a new conversation, see how many minutes they have remaining, see some stats, logout, etc).
+
 - create the homepage for a furniture company that offers beautiful pieces of furniture and shipping everywhere in Germany
+
 - create a REST API with Express and PostgreSQL. API should implement auth functionality with jwt, CRUD on projects and CR on tasks.
+
 - Create a react app to generate random pairs with students. The app will let you create a cohort & add a list of students for that cohort (by entering all the names in comma separated format). Once you have created a cohort, you can generate random pairs (if there's an odd number of students, it will generate a group of 3). If you like the pairs generated, you can click a button to confirm. One you confirm, those pairs will be added to a "pairs history". The user can visit the pairs history to see a table with all the students that have already been matched together. Also, when you create new random pairs, the app will avoid pairing students that have already worked together.
 
 Use cases:
-- Quick prototypes.
+- Quick prototypes +++
+- Brainstorming (if you don't have clear specs, it may be great to give you some interesting ideas) +
+- It can also be useful to create basic apps or specific components (specially when the problem is not too complex and the instructions are very well defined)
 
 
 ## Agent mode + MCP Servers
@@ -171,7 +180,16 @@ AI tools for Greenfield projects vs. commercial large codebases:
 
 
 
-## Videos:
+## Resources
+
+Is AI really making software engineers 10x more productive? (Addy Osmani)
+- Linkedin post: https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7363819659109793793-6q6_
+- Full article: https://addyo.substack.com/p/the-reality-of-ai-assisted-software
+
+
+
+
+## Videos
 
 Old videos:
 - Get to know GitHub Copilot in VS Code and be productive IMMEDIATELY (VS Code, 5min.)

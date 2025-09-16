@@ -31,7 +31,7 @@ Planning:
 - (individual) LAB | JS Expense Tracker  [1.5h]
 - (in pairs) Mini Project - JavaScript Quiz  [2.5h]
   - Note: follow the instructions in the unit "Project Brief: JavaScript Quiz"
-  <!-- @LT: the project brief includes much more detailes instructions than the units for each specific day -->
+  <!-- @LT: the project brief includes much more detailed instructions than the units for each specific day -->
 - (bonus) LAB | JavaScript Vikings
 - (bonus) JS | Special keyword - this
 

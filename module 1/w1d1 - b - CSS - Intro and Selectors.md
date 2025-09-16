@@ -42,16 +42,16 @@ Feedback from students:
 
   <!-- @todo: create cheatsheet -->
 
-    - External url. 
-      - href="https://mykittens.com/bob.jpg"
+    - External url:
+      - href="https://mykittens.com/main.css"
 
-    - Absolute path. 
+    - Absolute path: 
       - href="C:\Luis\Ironhack\module1\html-intro\css\main.css" (avoid !!)
-      - href="/images/bob.jpg"
+      - href="/css/main.css"
 
-    - Relative path. 
-      - href="./images/bob.jpg" (current directory)
-      - href="../images/bob.jpg" (one directory above in the hierarchy)
+    - Relative path: 
+      - href="./css/main.css" (current directory)
+      - href="../css/main.css" (one directory above in the hierarchy)
 
 
 - Example Filesystem diagram: 

@@ -129,14 +129,23 @@ Solution:
 
 
 
-## Introduce the syntax that we'll see today (useEffect)
+## Demo: introduce the syntax that we'll see today (useEffect)
 
-Example API request in React:
-https://stackblitz.com/edit/react-k3yj123p?file=src%2FApp.js
+
+Goal: display the number of users on this API,
+- api url: https://jsonplaceholder.typicode.com/users
+
+
+Initial code (just the App component, nothing else):
+- https://stackblitz.com/edit/react-pyx17epn?file=src%2FApp.js
+
+
+Final result:
+- https://stackblitz.com/edit/react-k3yj123p?file=src%2FApp.js
 
 
 <!-- 
-Example 2 (similar example but using the latest version of stackblitz):
+Final result 2 (similar example but using the latest version of stackblitz):
 https://stackblitz.com/edit/vitejs-vite-gn4dd9?file=src%2FApp.jsx
 -->
 
@@ -186,9 +195,8 @@ Examples: https://stackblitz.com/edit/js-sefk58?file=index.js
 
 <!-- DEMO ONLY -->
 
-How:
-- Fork this app (hello world with plain CSS): 
-  - https://stackblitz.com/edit/vitejs-vite-5fkups?file=src%2FApp.jsx
+Initial code (just the App component, nothing else):
+- https://stackblitz.com/edit/react-pyx17epn?file=src%2FApp.js
   <!-- @LT: remember to FORK ! -->
 
 

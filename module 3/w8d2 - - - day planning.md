@@ -8,7 +8,7 @@
 
 - running 2 apps in development (e.g. 2 vs code windows + their own terminals)
 
-- ironlauncher --auth --json [1.5h]
+- ironlauncher --auth --json [1h]
   - topics:
     - create the app with ironlauncher
       - `mkdir our-cool-project`

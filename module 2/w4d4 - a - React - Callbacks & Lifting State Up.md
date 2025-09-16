@@ -13,9 +13,29 @@ Note: we will continue working on the app from yesterday, `popcorn-time`.
 
 ## Intro: explain React callbacks
 
-Example: https://stackblitz.com/edit/react-ts-ncjzuqyx?file=components%2FParent.jsx
+Initial code (just a Child component): 
+- https://stackblitz.com/edit/react-1wdmbggs?file=src%2FApp.js
 
-Note: it can also be done as a guided exercise.
+
+Step 1:
+- In App.js: create a state variable: `counter`
+- In App.js: create a function to increment the counter: `increment`
+
+```jsx
+  const [counter, setCounter] = useState(0);
+
+  const increment = () => {
+    setCounter(counter + 1);
+  };
+```
+
+Step 2:
+- We want to invoke that function from the Child component...
+- Refresh: how to pass props (e.g. pass as props `message="hello world"`)
+- Implement with a callback
+
+Final result: 
+- https://stackblitz.com/edit/react-2un9kte8?file=src%2FApp.js
 
 
 
@@ -31,7 +51,7 @@ Iteration 1:
 - Implement the functionality so that, when the user clicks on the button, it will double the value in the counter.
 
 - Hints (in case you need it):
-  - The button is located in `Child.jsx`. However, the counter state and logic to update it are in `App.jsx` (ie. from `Child.jsx`, you need to invoke a function in `App.js`)
+  - The button is located in `Child.jsx`. However, the counter state and logic to update it are in `App.jsx` (ie. from `Child.jsx`, you need to invoke a function in `App.jsx`)
   - When you render the child component, you will need to pass a callback (example: `<Child myCoolCallback={doSomething} />`).
   - In Child.jsx, receive the props and invoke the callback when the button is clicked (example: `onClick={props.myCoolCallback}`) 
 
@@ -47,11 +67,6 @@ Solution bonus 1: https://stackblitz.com/edit/vitejs-vite-pvvydcgk?file=src%2FAp
 
 Solution bonus 2: https://stackblitz.com/edit/vitejs-vite-rcead9fk?file=src%2FApp.jsx
 
-
-
-<!-- 
-note: could also include demo/exercise to see how to pass props to grandchild
- -->
 
 
 
@@ -76,8 +91,8 @@ Note:
 
 
 Steps:
-- Create the component `Movie` (will display the details of a movie)
-- Modify `MovieList.jsx` so that now it renders the Movie component
+- Create the component `MovieSummary` (will display the details of a movie)
+- Modify `MovieList.jsx` so that now it renders the MovieSummary component
 - Note: For now, comment the button to delete (we'll fix it a bit later)
 
 

@@ -2,47 +2,38 @@
 # w9d5
 
 
-
-
 - First thing in the morning:
-  - MAKE SURE ALL STUDENTS HAVE SUBMITTED URLs ON STUDENTS PORTAL (github x2 + netlify)
-  - MAKE SURE ALL STUDENTS HAVE SUBMITTED URLs ON STUDENTS PORTAL (github x2 + netlify)
-  - MAKE SURE ALL STUDENTS HAVE SUBMITTED URLs ON STUDENTS PORTAL (github x2 + netlify)
+  - (IMPORTANT) Make sure all students have submitted project URLs on the students porta (github x2 + netlify)
 
 
-Also:
-- share contact details.
+<!-- 
+
+@LT
+
+Things to prepare:
+- gather project urls
+- spreadsheet contact details 
+- whatsapp group
+- hackshow form
+- slides with hackshow results
+- prepare post presentation talk
+
+-->
 
 
-
-
-
-Survey:
-https://media.istockphoto.com/photos/survey-picture-id876886576?k=20&m=876886576&s=170667a&w=0&h=0r4YA7oWdxgNTfmluYZCi6RLhcttxfNaV4qV-BKw8tA=
-
-
-After presentations:
-- Vote projects (projects chosen by students will go to HackShow)
+After Project Presentations:
+- Vote for HackShow
+- Post-bootcamp advice
+    - job search + coding (50/50)
+- Hackshow results & slides
+- Family picture
+- Contact details & whatsapp group
 
 
 
 <!-- 
-  Avoid: 
+  Code freeze: 
   
   https://thecodinglove.com/when-we-fix-bugs-in-production
-
-
 -->
 
-
-<!--
-
-Code Freeze Time 
-- Full test on production (check all is ok)
-- No further changes on production.
-
-If you discover any critical bug, let us know so that we can try to help asap.
-
-https://i.imgflip.com/6ppexe.jpg
-
--->

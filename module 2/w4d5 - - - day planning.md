@@ -7,16 +7,14 @@
 
 - LAB Q&A [20m]
 
-
-- Refresh props + callbacks
-
-- Refresh lifting state up
-
-- Refresh Routing:
-  - (skip) Routing cheatsheet
-  - setup
-  - basic routing
-  - url params
+- Refresh [20m]
+  - Props + Callbacks
+  - Lifting state up
+  - Routing:
+    - (skip) Routing cheatsheet
+    - setup
+    - basic routing
+    - url params
 
 - Spread operator [10m]
 
@@ -26,7 +24,6 @@ Forms: [2.5h]
   - as an exercise (see "React - Forms.md")
 - fix: routing (generate unique id's)
 - (extra) functionality to add movies (Step 3: extract to a separate component)
-- (extra) Handling multiple inputs with a single method
 
 
 Extra:
@@ -40,13 +37,20 @@ Extra:
 
 
 - (individual) LAB React Exponents Counter
+
 - (individual) LAB React Forms
   - note: for the bonus iterations, before you start a refactor, it's always a good idea to make a commit (that way, if you need to roll back, you can just discard the changes with "git restore")
 
 - (in pairs) Mini Project | React App (Day 4)
 
   <!--
-  LT: discuss, functionality to edit ("Create a form component that allows the user to update an existing item from the items list) -->
+  LT: 
+  - discuss, functionality to edit ("Create a form component that allows the user to update an existing item from the items list)
+
+  Note:
+  - We will have some time for pending tasks on the mini-project next week (w5d1, w5d2, w5d3)
+  -->
+
 
 Bonus:
 - Implement search filter (web dev simplified, 14min.): https://www.youtube.com/watch?v=E1cklb4aeXA&t=335s

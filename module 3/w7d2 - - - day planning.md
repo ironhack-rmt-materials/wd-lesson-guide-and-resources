@@ -43,7 +43,7 @@ notes:
 
 
 
-- (extra) introduce URL params (req.params) [30m]
+- (extra) introduce URL params (req.params) [40m]
   <!-- why: w7d3 has a lot of contents, can be good to introduce it today -->
   
   <!-- 
@@ -137,3 +137,12 @@ Bonus Exercise:
 - Practice req.query
 
 -->
+
+
+
+<!-- 
+
+@todo: create RECORDING "Auth: intro and hash algorithms" (w7d5)
+
+-->
+

@@ -4,11 +4,6 @@
 
 <!-- 
 
-Status: notes
-
-@todo: improve planning (consider adding guided exercise)
-
-
 React Router Version History (dates on the left):
 - https://github.com/remix-run/react-router/releases
 
@@ -30,9 +25,6 @@ Latest cohorts:
 # Cheatsheet
 
 https://gist.github.com/luisjunco/cbd1fe157c7f2f2b6b4983adbea9ae1e
-
-<!-- @todo: move examples from codesandbox to stackblitz -->
-
 
 
 

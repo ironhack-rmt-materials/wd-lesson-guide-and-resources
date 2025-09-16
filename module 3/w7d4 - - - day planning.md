@@ -15,7 +15,12 @@
 - LAB Q&A [20m]
 
 - Refresh main contents we've seen this week [30m]
-  - routes
+  - routes 
+    <!-- 
+      @LT: 
+      - do this demo with async/await
+      - can also do it on a branch
+    -->
   - req.params, req.query, req.body
   - mongoose
     - schema, model

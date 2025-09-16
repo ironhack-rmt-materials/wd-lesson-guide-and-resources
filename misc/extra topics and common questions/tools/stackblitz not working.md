@@ -3,9 +3,14 @@
 
 Issue: stackblitz not working (e.g. not printing anything on the console)
 
-Possible Reason:
+Possible Reasons:
 - Page translators seem to be an issue in some cases (e.g. when google chrome is automatically translating the site to another language)
-- If that doesn't work, check also extensions.
+- Extensions (e.g. add blockers and similar)
 
 
+Things to try:
+- Try in incognito
+- Try on a different browser
+- Disable translations from Google Chrome
+- Disable extensions
 

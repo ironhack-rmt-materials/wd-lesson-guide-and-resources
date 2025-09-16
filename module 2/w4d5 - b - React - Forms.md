@@ -82,7 +82,7 @@ Practice: React Forms
 -->
 
 
-- Add a new field for "rating"
+- Add a new field for "year" (or "rating")
 - (Bonus) Add a new field for "image Url"
 - (Bonus) Research/apply html form attributes to improve user experience (required, type=number, min, max...)
 
@@ -105,14 +105,13 @@ See comment here: https://gist.github.com/luisjunco/6c59bc3ea6a1d0b3a975d15ff211
 
 ## (Fix) Functionality to delete movies may not work as expected
 
-<!--
 How to reproduce:
 - Create 2 new movies
 - Delete one of them
--->
 
-If we delete movies based on their id, the functionality to delete may not work.
-
+Problem:
+- The movies that we create dynamically do not have an id.
+- So, when we try to delete one of them, we are deleting all the movies that were created dynamically (all of them have "id==undefined")
 
 Fix: generate a unique id each time a movie is added
 - In order to do that, we can find out the max id in the array of movies.

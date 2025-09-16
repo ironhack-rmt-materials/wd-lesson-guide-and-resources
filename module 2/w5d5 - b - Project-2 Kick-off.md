@@ -22,6 +22,9 @@ https://docs.google.com/presentation/d/1yAm3sAO8IC3K12AUlbQ5VesdTxMmfHFNNeNi96tT
 @LT: 
 - plan/prepare mock interviews
 - during project week, check installations for m3
+- also, schedule this:
+  - I’m an Impostor:
+  - https://davidwalsh.name/impostor-syndrome
 
 -->
 

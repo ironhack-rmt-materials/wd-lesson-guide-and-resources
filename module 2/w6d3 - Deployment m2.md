@@ -84,8 +84,13 @@ Status:
 ## How to fix error on page reload
 
 Fix error when user reloads the page on Netlify:
-- Explained in the video at 30:28
+
+1. Create a file with the name _redirects in the public directory (so it's /public/_redirects)
+2. In that file, add the following content: /* /index.html 200
+  - Explanation: this will tell netlify that if there's any request to any path, it should always serve the index.html
+3. Commit & push
+
+Note: 
+- Also explained in the video at 30:28
 - https://www.loom.com/share/915ec9d82f10412eb1e6fb4f77815cab?t=1828&sid=c4fbdae9-5157-4aa0-8f64-db30f6d870ad
-
-
 

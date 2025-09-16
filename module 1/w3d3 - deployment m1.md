@@ -3,7 +3,7 @@
 # Deployment m1
 
 
-## Recording
+## Recording A - English
 
 https://www.loom.com/share/a183261549334d4aad2c916c54c266e0?sid=434fba10-37d3-49a9-9701-fcd67ae55b61
 
@@ -15,6 +15,14 @@ Known errors in the recording:
   - in the video: `elm.style.backgroundImage = "./images/background.jpg";`
   - correct syntax: `elm.style.backgroundImage = "url('./images/background.jpg')";`
 
+
+
+## Recording B - Spanish
+
+https://www.loom.com/share/0c53a2aa6a2c40cb85cc32b68f879181?sid=9b7609bc-f096-4c2f-ac8a-c0a39be7e268
+
+Known errors in the recording:
+- no known errors but the demo with the cache didn't work (chrome decided it didn't want to be lazy).
 
 
 
@@ -70,7 +78,7 @@ Debugging tips:
 - Intro basic concepts (follow slides)
   - slides: https://docs.google.com/presentation/d/1teN_ZRHQBi60T0wS7bfDLZWu9Mi23iYTrSgq6WSSolk/edit?usp=sharing
   - what is deployment
-  - dev vs. production environments
+lonments
   - other environments
 
 - m1 deployment: 
@@ -79,7 +87,7 @@ Debugging tips:
 
 - Demo: how to deploy on Github Pages
   - github repo - settings - pages
-  - git branches: https://the-turing-way.netlify.app/_images/sub-branch.png 
+  - git branches: https://www.clipartmax.com/png/middle/327-3276808_branching-git-merge-software-development-version-control-git-branching.png
   - note: UI can change at any point.
 
 

@@ -82,29 +82,31 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
 
   - How: 
       - improve project 3 (add new functionality, improve ux etc)
+      - create a portfolio website
       - new project (js + new things) +++
       - katas (js) +
       - javascript30: https://javascript30.com/
       - TypeScript course: https://rootlearn.notion.site/TypeScript-course-details-96b1df73b90c44f99c61a0a49ab9ecd9
 
 
-  - Technologies and things to learn (pick one or two at a time): 
-    - further practice in JavaScript
+  - Technologies and things to learn (pick one or two at a time):
+    - further practice in JavaScript +++
       - Get better at problem solving (codewars)
-      - Learn Data Structures and Algorithms (youtube / leetcode)
-    - further practice in React: <!-- @todo: create repo/gist with some info/videos -->
-      - React Query
-        - Why: 11m video - https://www.youtube.com/watch?v=vxkbf5QMA2g
-        - Also: https://www.youtube.com/watch?v=OrliU0e09io
-      - Custom Hooks
-      - Component Libraries
+    - further practice in React ++
+      - e.g. custom hooks, Tanstack Query...
+      <!-- @todo: create repo/gist with some info/videos -->
     - TypeScript +++
     - Next.js +++
-    - SQL Databases (for example, MySQL or PostgreSQL are popular choices)
+    - AI Engineering (eg. integrating with an LLM)
+    - SQL Databases (e.g. PostgreSQL)
     - TDD / Testing
     - Docker
     - Tailwind
-    
+
+    - React Query
+      - Why: 11m video - https://www.youtube.com/watch?v=vxkbf5QMA2g
+      - Also: https://www.youtube.com/watch?v=OrliU0e09io
+
 
   - Interesting options:
     - build something
@@ -120,6 +122,8 @@ https://docs.google.com/presentation/d/17JxJ4gi5aswc7XmXb2OC9auOLHItiSkwTxuiwZLY
       - you will never have something perfect
       - you will never be prepared enough
       - there will always be things I don't know
+    - Consistency vs. motivation:
+      - https://www.linkedin.com/posts/marius-vismantas-53434718_5-ways-to-boost-consistency-in-your-daily-activity-7360938144587747328-DO_o
     - "SMART" goals (https://tools.thecoachingtoolscompany.com/wp-content/uploads/2020/11/TCTC-Infographic-SMART-Goals-Explained-1200x628-1.jpg)
     - Extra advice on SMART goals:
       - Track (keep track of your progress)

@@ -36,6 +36,11 @@ Give feedback to students (e.g. if you see anything to they can learn from).
 
 - Express | Introduction [2h]
 
+<!-- 
+(optional) mini-project-3:
+- do a quick demo on how to run both the client and server
+- (can follow the instructions given in the students portal, important thing is that students get familiar with running 2 apps at the same time)
+-->
 
 
 ## Active Learning
@@ -51,6 +56,10 @@ Give feedback to students (e.g. if you see anything to they can learn from).
   - Learn Express Middleware (Web Dev Simplified, 15min.): https://www.youtube.com/watch?v=lY6icfhap2o
     - Includes quite a few topics about express & middleware (also some topics like "req.query" that we'll see in the following days)
 
+<!--
+@todo:
+- branches: include some self-guided resources or create a video (instructions for mini-project suggest to work on "develop")
+-->
 
 <!-- workload is relatively light (most students finished mini-project early) -->
 

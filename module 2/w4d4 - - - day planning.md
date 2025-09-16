@@ -2,34 +2,12 @@
 # w7d3
 
 
-
-
 <!-- 
 
-- Continue working on "popcorn-time"
-- Consider: isolate each topic (working on different apps to keep things simple)
-
+- We'll continue working on "popcorn-time"
 
 -->
 
-
-<!-- 
-
-@todo: 
-
-Add at least 1 basic exercise
-
-IMPROVE / SIMPLIFY:
-- remove anything not essential
-- first, introduce the concept (e.g. with slides) & then see how to apply it (demo) ?
-  - e.g. 
-    - passing a callback as props
-    - lifting state up
-    - forwarding props to grandchild
-    - ...
-- create a simple demo to explain callbacks
-  - e.g. App component with a counter in state + two child components with a button to multiply x2 and x3
--->
 
 
 ## Refresh
