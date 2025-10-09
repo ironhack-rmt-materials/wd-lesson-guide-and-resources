@@ -31,6 +31,7 @@ repo:
 
 - navigate to module2 directory
 - `npm create vite@latest react-project-management -- --template react`
+- 'Install with npm and start now?': select 'no'
 - cd react-project-management
 - code -r .
 - npm install
@@ -40,23 +41,9 @@ To run on a specific port:
 - npm run dev -- --port=3002
 
 
-
-
-
-Methodology:
-
-
-- Option 1: 
-  - Self-guided
-
-- Option 2: 
-  - follow students portal (copy code & understand what we do)
-  - quicker
-
-
-
-
 <hr />
+
+
 
 Intro: 
 - explain goal + show API endpoints (see Students Portal "Endpoints")
@@ -68,9 +55,8 @@ Roadmap:
       - setup repo + upload to github
       - cleanup initial code
       - copy index.css (get `index.css` from the students portal)
-      - install dependencies (npm install axios react-router-dom)
-      - setup routing
       - create `components/Navbar`, `pages/HomePage` and `pages/ProjectListPage`
+      - setup routing
 - [ ] List of projects
 - [ ] Create new projects
 - [ ] Navbar

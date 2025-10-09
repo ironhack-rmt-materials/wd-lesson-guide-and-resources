@@ -15,6 +15,7 @@ Note: we will continue working on the app from yesterday, `popcorn-time`.
 
 Initial code (just a Child component): 
 - https://stackblitz.com/edit/react-1wdmbggs?file=src%2FApp.js
+  <!-- remember to fork -->
 
 
 Step 1:

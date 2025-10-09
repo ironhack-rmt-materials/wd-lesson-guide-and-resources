@@ -41,8 +41,8 @@
 
 
 Bonus:
-- HOF exercises and/or Katas
 - LAB | React Props Training
+- HOF exercises and/or Katas
 
 
 

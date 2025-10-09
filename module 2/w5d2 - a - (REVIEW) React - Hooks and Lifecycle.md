@@ -31,7 +31,9 @@ Notes:
 
 ## Show what we are going to build today
 
-- Demo: https://react-characters-app.netlify.app/
+- Demo: 
+  - (old characters api url) https://react-characters-app.netlify.app/
+  - (new characters api url) https://react-characters-app-demo-2.netlify.app/
 - 2 main concepts:
   - API requests
   - Routing
@@ -52,7 +54,7 @@ Notes:
   - https://rickandmortyapi.com/api/character/1
 
 - Example 2 (characters api): 
-  - https://ih-crud-api.herokuapp.com/characters
+  - https://characters-api.edu.ironhack.com/characters
 
 - See documentation: w5d4 "AXIOS | POST, PUT and DELETE request"
   - ![Characters API Endpoints](../media/images/characters-api-endoints.png)
@@ -103,7 +105,7 @@ Iteration 0:
 
 Iteration 1: create a character with your name
 - Using axios, create a new character in our API.
-- BaseURL: https://ih-crud-api.herokuapp.com
+- BaseURL: https://characters-api.edu.ironhack.com
 - We need to send POST request to `/characters`
 - In the body of the request, send an object with `{name: "", occupation: "", weapon: ""}`
 
@@ -191,12 +193,13 @@ Examples: https://stackblitz.com/edit/js-sefk58?file=index.js
 
 
 
-## (DEMO) sending API requests in our React App.
+## (DEMO) sending API requests in our React App (and why we need useState + useEffect)
 
 <!-- DEMO ONLY -->
 
 Initial code (just the App component, nothing else):
-- https://stackblitz.com/edit/react-pyx17epn?file=src%2FApp.js
+- (classic engine) https://stackblitz.com/edit/react-pyx17epn?file=src%2FApp.js
+- (new version of stackblitz) https://stackblitz.com/edit/vitejs-vite-ncjtxpin?file=src%2FApp.jsx
   <!-- @LT: remember to FORK ! -->
 
 
@@ -220,7 +223,7 @@ Steps:
 
   //...
 
-  const baseURL = "https://ih-crud-api.herokuapp.com";
+  const baseURL = "https://characters-api.edu.ironhack.com";
 
   axios
     .get(baseURL + '/characters')
@@ -447,6 +450,7 @@ Options:
 Initial Setup:
 - navigate to module2 directory
 - `npm create vite@latest react-characters-app -- --template react`
+- 'Install with npm and start now?': select 'no'
 - cd react-characters-app
 - code -r .
 - npm install
@@ -570,6 +574,6 @@ OMDB API:
 
 
 Characters API:
-- https://ih-crud-api.herokuapp.com/characters
+- https://characters-api.edu.ironhack.com/characters
 
 

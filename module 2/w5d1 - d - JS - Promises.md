@@ -182,18 +182,15 @@ What we'll see today:
 
 
 
-Watch: JavaScript Promises in 1 Minute (ColorCode)
-- https://www.youtube.com/shorts/Yg1Wf_rFG7Q
-  <!-- includes creating + consuming -->
+- (skip) Watch: JavaScript Promises in 1 Minute (ColorCode)
+  - https://www.youtube.com/shorts/Yg1Wf_rFG7Q
+    <!-- includes creating + consuming -->
 
 
 
 ## Consuming vs. creating promises
 
 - Consuming vs. creating promises
-
-
-
 
 
 ## (brief) Creating Promises
@@ -238,9 +235,6 @@ doSomething()
     //...
   });
 ```
-
-
-
 
 
 

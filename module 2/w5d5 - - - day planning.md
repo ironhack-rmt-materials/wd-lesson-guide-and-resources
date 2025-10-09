@@ -10,9 +10,6 @@
 
 - Presentations mini-project [1h]
 
-- (in case we haven't done it yet) Some options to give CSS to React apps
-  - see: `(extra) Some options to give CSS to React apps.md`
-
 - Github organizations [20min.]
   <!-- @LT: follow steps in project-2 kickoff slides -->
   - start by creating repo in localhost (with Vite):

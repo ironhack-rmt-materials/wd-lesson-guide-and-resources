@@ -101,15 +101,15 @@ for (const value of someIterable) {
 
   ```js
   const userName = 'alice';
-  let role;
+  let points;
 
   if (userName === 'alice') {
-    role = "admin";
+    points = 20;
   } else {
-    role = "standard";
+    points = 30;
   }
 
-  console.log(role);
+  console.log(points);
   ```
 
 
@@ -118,9 +118,9 @@ for (const value of someIterable) {
 
   ```js
   const userName = 'alice';
-  const likesPizza = userName === 'alice' ? "admin" : "standard";
+  const points = userName === 'alice' ? 20 : 30;
 
-  console.log(likesPizza);
+  console.log(points);
   ```
 
 

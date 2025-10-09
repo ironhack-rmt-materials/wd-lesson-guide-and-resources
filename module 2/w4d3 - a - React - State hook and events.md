@@ -38,7 +38,16 @@ Status: draft
   - Can change over time
   - We want to reflect the changes in the UI (JSX)
 
+<!--
 
+(es)
+
+Estado:
+- Almacena información que pertenece a un componente
+- Puede cambiar con el tiempo
+- Queremos reflejar los cambios en la interfaz (JSX)
+
+-->
 
 
 

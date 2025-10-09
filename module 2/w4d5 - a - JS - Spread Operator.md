@@ -16,6 +16,16 @@
   - lets us "unpack" / "spread" elements of an array/object into individual elements
   - can be used when all elements from an array/object need to be included in a list of some kind.
 
+<!--
+
+(es)
+
+El spread operator...
+- nos permite “desempaquetar” / “expandir” los elementos de un array/objeto en elementos individuales
+
+- se puede usar cuando todos los elementos de un array/objeto deben incluirse en algún tipo de lista.
+-->
+
 
 
 Examples using the spread operator:

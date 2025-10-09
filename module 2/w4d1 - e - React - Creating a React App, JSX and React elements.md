@@ -49,6 +49,7 @@ Initial Setup:
   - option 2: `npm create vite@latest react-intro -- --template react`
     - Note: you may be asked for confirmation (Ok to proceed? (y)). In that case, type "y" and hit enter.
     <!-- - source: https://vitejs.dev/guide/ -->
+  - 'Install with npm and start now?': select 'no'
   - `cd react-intro`
   - `code -r .`
   - `npm install`

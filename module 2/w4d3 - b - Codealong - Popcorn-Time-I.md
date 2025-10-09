@@ -10,11 +10,12 @@
 - navigate to your module2 directory
 - create app with Vite:
   - `npm create vite@latest popcorn-time -- --template react`
+- 'Install with npm and start now?': select 'no'
 - cd popcorn-time
 - code -r .
 - npm install
 - npm run dev
-  - In case you need to define a custom port (for example, if you have another app running in your computer): `npm run dev -- --port 3000`
+  - Note: in case you need to define a custom port (for example, if you have another app running in your computer): `npm run dev -- --port 3000`
 
 - git init
 - initial commit
@@ -27,7 +28,7 @@
 - Delete App.css
 - Cleanup index.css
 - Update readme
-  - eg. An app to practice React fundamentals (state, routing, forms)
+  - eg. React Popcorn-Time - An app to practice React fundamentals (state, routing, forms)
 - Commit
 
 

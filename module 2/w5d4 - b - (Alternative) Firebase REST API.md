@@ -6,6 +6,9 @@
 
 ## Discover: what's a REST API?
 
+
+<!-- @todo: find video in ES -->
+
 Task 1: watch this video 
 - What is a REST API? (explains RESTful) (6 min., Mosh): https://www.youtube.com/watch?v=SLwpqD8n3d0
 
@@ -39,7 +42,7 @@ Some interesting content creators on youtube:
 
 
 - See API we used yesterday (follows REST): 
-  - https://project-management-api-4641927fee65.herokuapp.com/projects
+  - https://project-management-api.edu.ironhack.com/projects
 
 
 

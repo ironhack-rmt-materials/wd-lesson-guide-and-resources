@@ -1,9 +1,5 @@
 
-
 # w3d3
-
-
-
 
 
 ## Share plan for the following days
@@ -26,7 +22,6 @@
 - if you're blocked, ask for help. Don't leave it for Thursday 
 
 -->
-
 
 
 ## Plan for today (deployment day):
@@ -59,13 +54,14 @@ How to submit project URLs:
 ![project1-urls](../media/images/project1-%20submit%20urls.png)
 
 
-
 <!-- 
 
-@LT: 9:50 (optional) solve kata together in main room:
-- refresh .map()
-- solve kata
+@LT: 
 
+- [ ] Share notes with "deployment pain points"
+- [ ] 9:50 (optional) solve kata together in main room:
+      - refresh .map()
+      - solve kata
 -->
 
 

@@ -122,6 +122,7 @@
     - bolt.new
     - lovable.dev
     - replit.com
+    - builder.io
     - firebase.studio (tried it in april 25, a few days after release, and results were quite poor)
     - github.com/spark
         - https://github.blog/changelog/2025-07-23-github-spark-in-public-preview-for-copilot-pro-subscribers

@@ -6,7 +6,7 @@
 Slides - Technical Interview Prep:
 - https://docs.google.com/presentation/d/1HZzVFFIkaymfT7Wwg2itr3jFSY0NrlRWCNxcG3KVA4w/edit?usp=sharing
 
-
+<!-- @todo: translate slides to Spanish. -->
 
 
 ## Technical Interview - JavaScript I
@@ -17,8 +17,9 @@ Exercise 1 - Throwing Darts:
 - Notes:
     - Solve directly on codewars
     - It's not particularly difficult, it requires some familiarity to JS & paying attention to details (instructions, edge cases, etc)
-- Some possible solutions: https://github.com/luisjunco/katas-solutions-and-explanations/tree/main/codewars/9%20-%20(6kyu)%20Throwing%20Darts
-
+- Some possible solutions: 
+    - private repo: https://github.com/luisjunco/katas-solutions-and-explanations/tree/main/codewars/9%20-%20(6kyu)%20Throwing%20Darts
+    - stackblitz: https://stackblitz.com/edit/vitejs-vite-88ntpsvu?file=src%2Fmain.js
 
 
 Exercise 2 - The rice and chessboard problem:
@@ -26,7 +27,11 @@ Exercise 2 - The rice and chessboard problem:
 - Notes: 
     - Much easier to solve if you think in binary
     - Based on this codewars kata: https://www.codewars.com/kata/5b0d67c1cb35dfa10b0022c7/
-- Some possible solutions: https://github.com/luisjunco/katas-solutions-and-explanations/tree/main/codewars/20%20-%20(7kyu)%20The%20wheat-rice%20and%20chessboard%20problem
+- Some possible solutions: 
+    - private repo: https://github.com/luisjunco/katas-solutions-and-explanations/tree/main/codewars/20%20-%20(7kyu)%20The%20wheat-rice%20and%20chessboard%20problem
+    - stackblitz: https://stackblitz.com/edit/vitejs-vite-szt9vlpv?file=src%2Fmain.js
+
+
 
 
 

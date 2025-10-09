@@ -8,8 +8,8 @@ React Router Version History (dates on the left):
 - https://github.com/remix-run/react-router/releases
 
 Latest cohorts:
-- Apr. 2025: v.7.5 (all working well) 
-- Jul. 2025: v.7.6
+- Jul. 2025: v.7.6 (all working well) 
+- Sep. 2025: v.7.9
 
 -->
 
@@ -67,20 +67,16 @@ Notes:
 
 ## Practice: React Router
 
-<!-- 
-
-@todo: 
-- improve instructions (more detailed)
-- add solutions 
--->
-
 Initial code: https://stackblitz.com/edit/vitejs-vite-zrnmm4?file=src%2FApp.jsx
 
-Your task: implement routing.
+Your task: 
+- implement routing (the navbar should always be visible)
 
 <!-- @LT: explain how to do npm install on Stackblitz -->
 
 Bonus: add some nice CSS.
+
+Solution: https://stackblitz.com/edit/vitejs-vite-blx7svux?file=src%2FApp.jsx
 
 Time: 15min.
 

@@ -56,7 +56,7 @@ PROMISES:
 
 
 
-## Refresh
+## (skip) Refresh
 
 
 - Refresh from prev week ?
@@ -74,21 +74,6 @@ PROMISES:
 - Refresh array destructuring:
     - example: https://stackblitz.com/edit/js-hfvsxk?file=index.js
     - note: order matters
-
-
-
-
-- (optional) quick refresh Object/Array Destructuring
-
-  ```js
-  const company = {
-    name: 'Ironhack',
-    numberOfEmployees: 200,
-    campuses: ['madrid', 'barcelona', 'berlin', 'sao paulo'],
-    website: 'https://www.ironhack.com/',
-    email: 'hello@ironhack.com',
-  };
-  ```
 
 - (optional) quick refresh Spread Operator
   - e.g. with objects (add property best cohort)
@@ -118,6 +103,17 @@ PROMISES:
   - Tomorrow, we'll learn a new hook called useEffect(). 
   - Follow this 14min. video to start getting familiar with some of the topics we'll see tomorrow: https://www.youtube.com/watch?v=0ZJgIjIuY7U
   - Advice: create a new react app on stackblitz and code as you follow the video.
+  <!-- 
+  
+  (es)
+  
+  Carpi Coder - useState y useEffect hooks y ciclo de vida de los componentes
+  https://www.youtube.com/watch?v=C7CZzM7ux0E
+  
+
+  @todo: find an alternative video for useEffect ES.
+
+  -->
 
 - (skip) Bonus 3: check bonus labs in the students portal (week 4)
 

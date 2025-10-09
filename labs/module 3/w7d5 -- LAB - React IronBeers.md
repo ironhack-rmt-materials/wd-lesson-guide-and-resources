@@ -89,7 +89,7 @@ IT 6.
 
     const handleFormSubmit = (e) => {
     e.preventDefault();
-    axios.post('https://ih-beers-api2.herokuapp.com/beers/new', newBeer)
+    axios.post('https://beers-api.edu.ironhack.com/beers/new', newBeer)
 
 #### handle inputs:
     SYNTAX #1
@@ -125,7 +125,7 @@ IT 6.
         const body = { name, tagline, description, firstBrewed, brewersTips, ibu, contributed};
 
         axios
-            .post("https://ih-beers-api2.herokuapp.com/beers/new", body)
+            .post("https://beers-api.edu.ironhack.com/beers/new", body)
 
 
 # EXTRA NOTES

@@ -54,9 +54,11 @@ Notes:
       title: title 
     };
 
-    setMovies( (prevMovies) => {
-      return [newMovie, ...prevMovies];
-    });
+    // prepare an array with the new list of movies
+    const newList = [newMovie, ...moviesToDisplay]
+
+    // update the list of movies
+    setMoviesToDisplay(newList)
   ```
 
 
