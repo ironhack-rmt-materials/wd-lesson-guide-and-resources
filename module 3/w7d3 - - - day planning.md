@@ -22,17 +22,9 @@ update:
 ## Day planning
 
 
-
 <!--
 
-
-Demo: continue on ironRestaurant / create new app as in students portal ?
-- if we follow students portal (books)
-  - it's easier for them the "research" part
-  - it also helps if we do a quick refresh on relationships w7d4
-- if I use restaurant, it's an additional example BUT the code from w7d1 is res.send and res.sendFile
-
-
+Demo: continue on ironRestaurant
 
 Notes: 
 - create a separate file to practice mongoose methods ("mongoose-playground.js")
@@ -61,8 +53,24 @@ Notes:
   - GET /drinks/:drinkName (req.params)
   - GET /drinks/ + maxPrice (req.query)
 
+
 - Mongoose - Introduction
-  - Include: POST /drinks/ (req.body)
+  - Includes: 
+    - Full CRUD (inc. req.body)
+    - 2 models
+    - relations and populate
+
+
+- (bonus) Session with extra topics (branches, promises, copilot) [40m]
+  - git branches 
+  - convert promises to async/await
+  - introduce other models/LLMs (e.g. Claude)
+  - show also how we can use the chat from GitHub copilot ('edit' mode)
+  <!--
+    Note:
+    - this session can also be done as a recording
+    - recording in Spanish from sept 25: https://www.loom.com/share/0c1ad7f0ed1345619d138a16fdf3014b?sid=6fa72632-a124-4f65-ab40-12a0082b1916
+  -->
 
 
 - Before Lunch: ask for preferences project 3
@@ -83,10 +91,3 @@ Note:
   
 - (in groups) Mini Project - REST API - Day 3
 
-
-
-<!-- 
-
-@todo: create RECORDING "Auth: intro and hash algorithms" (w7d5)
-
--->

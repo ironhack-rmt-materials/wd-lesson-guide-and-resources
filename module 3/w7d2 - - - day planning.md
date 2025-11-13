@@ -133,16 +133,6 @@ notes:
   - Codewars Katas
 
 <!-- 
-Bonus Exercise: 
-- Practice req.query
-
--->
-
-
-
-<!-- 
-
-@todo: create RECORDING "Auth: intro and hash algorithms" (w7d5)
-
+Bonus exercise: practice req.query
 -->
 

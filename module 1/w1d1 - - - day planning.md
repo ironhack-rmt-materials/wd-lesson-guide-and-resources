@@ -128,7 +128,7 @@ Notes:
 - Create a repo with the code from today
   - git init 
   - git status
-  - gir add 
+  - git add 
   - git commit
   - git log
   
@@ -153,7 +153,7 @@ Notes:
 ## Active Learning
 
 - (in pairs) LAB | CSS Recipes clone
-
+- Quizz
 - (bonus) LAB | CSS Spotify clone
 
 - General guidelines for labs/assignments: https://gist.github.com/ironhack-edu/dd3635de73a6ef07ef337bf184eda985

@@ -32,6 +32,9 @@ Planning:
 - (in pairs) Mini Project - JavaScript Quiz  [2.5h]
   - Note: follow the instructions in the unit "Project Brief: JavaScript Quiz"
   <!-- @LT: the project brief includes much more detailed instructions than the units for each specific day -->
+- (self-guided) AI as an assisted debugging tool
+- (individual) LAB | AI Detective, Fix the Mystery Code [0.5h]
+
 - (bonus) LAB | JavaScript Vikings
 - (bonus) JS | Special keyword - this
 

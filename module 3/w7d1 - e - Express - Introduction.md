@@ -332,7 +332,7 @@ Intro:
           id: 4,
           title: "Hawaian",
           price: 20,
-          imageFile: "pizza-seafood.jpg"
+          imageFile: "pizza-hawaian.jpg"
         },
     ];
   ```

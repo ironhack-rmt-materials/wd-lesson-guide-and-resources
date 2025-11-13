@@ -27,6 +27,9 @@
 - (self-guided) JS Numbers - Advanced Topics [30m]
 - (individual) LAB | JS Data Types
 - (in pairs) LAB | JavaScript Basic Algorithms
+- Quizz
+- (self-guided) AI as Your Learning Tutor
+- (self-guided) AI | Prompt Engineering Fundamentals for Developers
 
 bonus:
   - Learn about binary (7min. video): https://www.youtube.com/watch?v=Xpk67YzOn5w

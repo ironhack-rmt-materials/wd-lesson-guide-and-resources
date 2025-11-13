@@ -96,6 +96,8 @@ Some interesting core elements:
     - Menu
 
 Other packages (requires installation): 
+- Modals (eg. confirmation modal):
+    - https://mantine.dev/x/modals/
 - Mantine Dates 
     - Calendar
     - Datepicker

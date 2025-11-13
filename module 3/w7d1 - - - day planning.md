@@ -27,7 +27,7 @@ Give feedback to students (e.g. if you see anything to they can learn from).
 - Intro to module 3 [30min]
   - see `Intro to  module 3.md`
 
-- (skip) Node | Introduction [30min]
+- (skip) Node | Introduction
   <!-- @LT: just mention a few ideas -->
 
 - ES6 modules vs. Common JS [30min]

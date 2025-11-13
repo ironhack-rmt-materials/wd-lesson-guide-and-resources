@@ -6,8 +6,16 @@
 
 ## Discover: what's a REST API?
 
+<!-- 
 
-<!-- @todo: find video in ES -->
+For courses in Spanish: 
+- I haven't found any video in Spanish that explains clearly the fundamentals (esp. REST endpoints).
+- Instead, just explain it in class.
+
+Slides:
+- https://docs.google.com/presentation/d/194i1dCV2vpqTN5T3yC5lysvfS-_fnEkok97QpaOtb3w/edit?usp=sharing
+
+-->
 
 Task 1: watch this video 
 - What is a REST API? (explains RESTful) (6 min., Mosh): https://www.youtube.com/watch?v=SLwpqD8n3d0

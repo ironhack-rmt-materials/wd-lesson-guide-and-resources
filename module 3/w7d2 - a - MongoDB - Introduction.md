@@ -37,10 +37,10 @@ Slides ("Intro to Databases & MongoDB"):
   - @LT: use visual interface (so that we can see data types)
   - create new document with different data types (sting, number, array)
   - fields:
-    - title (string)
-    - price (number)
-    - isVeggie (boolean)
-    - ingredients (array)
+    - title (String)
+    - price (Decimal128)
+    - isVeggie (Boolean)
+    - ingredients (Array)
 
   <!--
   Note: 

@@ -3,7 +3,7 @@
 # w5d5
 
 
-<!-- @LT:  share day planning with students  -->
+<!-- @LT: share day planning with students  -->
 
 
 ## Day planning:
@@ -33,6 +33,10 @@
 - Project planning (in pairs)
 
 - Project planning session (in main room)
+
+
+<!-- @LT: consider showing protityping tools (e.g. lovable/bolt) during project 2  -->
+
 
 
 ## Git merge conflicts

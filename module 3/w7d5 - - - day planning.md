@@ -21,13 +21,7 @@
 - (optional) Refresh [20m]
 
 - Refresh Auth intro + Hash [20m]
-    - slides: https://docs.google.com/presentation/d/1gNCZq7lZiph_Dzde34FuL6MI01c0ge1u3djxZMNWxPk/edit?usp=sharing
-    - Different types of auth (e.g. email + pw) (`slide 9`)
-    - Safe passwords: https, post, never in plain text  (`slide 12 + 13`)
-    - We will store a representation (hash) (`slides 16, 17, 18, 19`)
-    - Examples of hash algorithms  (`slide 20`)
-    - When a user creates an account  (`slide 21`)
-    - Salt  (`slides 26, 28`)
+    - slides: https://docs.google.com/presentation/d/16bdHd2yIC490CQE_G0KaXwec26Nk32h_WWtc4BeOozw/edit?usp=sharing
 
 
 - React | Token-Based Authentication I (Backend) [3.5h]

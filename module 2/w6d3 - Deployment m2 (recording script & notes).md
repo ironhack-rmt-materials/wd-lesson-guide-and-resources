@@ -35,9 +35,10 @@
   - Runtime errors (e.g. Cannot read property 'map' of undefined')
     - how to debug: see console in the browser
 - Explain: continuous deployment
-- Environment variables
-  - How to create & use environment variables (dev/production)
-- Configure App name (subdomain)
+- ~~Environment variables~~
+  - update: not needed for m2 (will explain it in m3)
+- ~~Configure App name (subdomain)~~
+  - update: not needed anymore (it can be done at the beginning when you create the app)
 - Fix: "page not found" (create _redirects)
 - Submit URLs in the students portal
 

@@ -89,6 +89,7 @@ Extra:
   ```
 - show: responsive list of items
 
+
 Steps (in more detail):
 - [ ] Getting Started (initial setup)
 - [ ] React Router Setup
@@ -129,7 +130,24 @@ Steps (in more detail):
 <hr />
 
 
-Axios common methods:
+## Do I need useEffect ?
+
+When do you need useEffect ?
+- 👉 I want to send an API request as soon as the component is mounted → useEffect()
+- 👉 I'm not in a rush... I will send the API request when the user submits a form or clicks on a button → you don't need useEffect()
+
+<!-- 
+
+(ES)
+
+Cuándo usar useEffect...
+- 👉 Quiero enviar la petición a la API tan pronto como se muestre el componente → useEffect()
+- 👉 No tengo prisa... enviaré la petición a la API cuando el usuario envie el formulario o haga click en un botón → no necesitas useEffect()
+
+-->
+
+
+## Axios common methods:
 
 - axios.get(url)
 - axios.post(url, data)

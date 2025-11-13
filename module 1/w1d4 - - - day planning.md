@@ -2,20 +2,13 @@
 # w1d4
 
 
-
 <!-- Status: ready -->
 
-
-
 <!-- 
-
 @LT: 
 - today's lab includes a lot of problem solving
 - solve together at least 1 or 2 iterations from the lab
-
 -->
-
-
 
 
 ## Refresh: JS Intro & Data Types
@@ -32,9 +25,7 @@
 
 
 
-
-
-## DAY PLANNING:
+## Day Planning 
 
 - Q&A [20m]
 - (skip) Refresh
@@ -62,6 +53,7 @@
 
 - (individual) LAB | JS Functions & Arrays
 - (in pairs) LAB | JS Challenges I (Arrays & Functions)
+- Quizz
 - (bonus - self-guided) JS | Debugging and Error Handling
 
 <!-- 

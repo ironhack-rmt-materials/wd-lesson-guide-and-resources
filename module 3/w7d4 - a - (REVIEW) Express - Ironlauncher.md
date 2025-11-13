@@ -61,9 +61,9 @@ Create a project with Ironlauncher;
   - dependencies
   - dev dependencies
   - run: `npm run dev`
-  - .env & environment variables
+  - `.env` & environment variables
     <!-- IMPORTANT: explain `environment variables` here -->
-  - .gitignore
+  - `.gitignore`
   - general folder structure (`/models`, `/routes`, `/views`)
   - general flow of the application (starting from server.js)
     - NOTE: get the "BIG PICTURE"

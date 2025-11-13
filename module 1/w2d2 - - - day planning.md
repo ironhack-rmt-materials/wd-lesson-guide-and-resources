@@ -29,6 +29,8 @@
 
 - (individual) LAB | JS Presidents [1.5h]
 - (in pairs) Mini Project - JavaScript Quiz - Day 2 [2.5h]
+- (individual) LAB | The AI Assistant Trials, who’s the Best Co-Pilot
+
 - (bonus) LAB | Greatest movies of all time
 
 

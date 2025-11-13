@@ -4,6 +4,13 @@
 
 
 
+## Sevalla
+
+- pros: 
+  - Solid option
+  - Supports websockets
+
+
 ## render.com
 - pros: 
   - No need for credit card 
@@ -18,21 +25,6 @@
 
 - Limitations:
   - no support for websockets
-
-
-
-## adaptable.io
-
-- update: since Sept. 2023, adaptable.io doesn't offer a free plan 
-
-- pros: 
-  - Very easy to use
-  - Can deploy from repos on a github organization
-  - Full support for websockets
-- cons: 
-  - Build process takes some time (5-8min)
-  - Can not add collaborators (e.g. to see error logs)
-  - Invoking external apis from backend may be problematic in the free plan (in premium plan you can choose region)
 
 
 ## fly.io

@@ -13,7 +13,7 @@
 -->
 
 
-- url: https://github.com/features/copilot/plans 
+- url: https://github.com/features/copilot/plans
 
 - settings
     - eg: enable/disable
@@ -41,13 +41,15 @@
     - choosing model (included vs. premium)
     - passing/defining context
         - instructions file (see below)
-    - example 1: how do i uninstall an npm package ?
+    - example 1: how do i uninstall an npm package ? / provide a list with all endpoints in this api.
     - example 2: paste an error message (e.g. title is not defined)
     - show options:
         - ask
         - edit
         - agent
             - example: uninstall mongoose & paste the error "mongoose is not defined"
+    - providing context
+        - tip: if you need to add all files as context, use `#codebase`
     - `@workspace` (e.g.: how many models we have)
     - `@vscode` (e.g.: whats the shortcut to change the language mode for the current file)
 
@@ -96,7 +98,9 @@
 
 - It can also be useful to generate unit tests
     - e.g. `unit tests for a function that will receive a string and verify if it's a valid email address`
+    - e.g. `generate unit tests for all endpoints on the project model`
 
+- And also to generate readme files (at least a first version).
 
 
 ## Other AI Editors
@@ -145,6 +149,12 @@ Use cases:
 - Quick prototypes +++
 - Brainstorming (if you don't have clear specs, it may be great to give you some interesting ideas) +
 - It can also be useful to create basic apps or specific components (specially when the problem is not too complex and the instructions are very well defined)
+
+
+## Asychronous Background Coding Agents
+
+Example using Copilot directly on Github (Addy Osmani):
+- https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7389186792706506752-BWnR
 
 
 ## Agent mode + MCP Servers

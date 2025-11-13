@@ -14,6 +14,19 @@
   - extra: hover + box shadow + transition (on an image)
   - extra: css custom properties
 
+- AI:
+  - AI & You: Responsible Use in the Bootcamp
+  - AI | Literacy for Developers
+  - How:
+    - start with a poor prompt:
+      - eg. `how to center a title`
+      - how can we improve this prompt ?
+    - show some examples of how LLMs can be useful (e.g. ChatGPT)
+      - html: explain inline elements vs. block elements
+      - css: how can i center a div vertically
+      - css: syntax to add some shadow to a div when the user places the mouse on top of it.
+      - give me an exercise to practice javascript arrays
+    - goal m1/m2: use AI to help you learn.
 
 - Accessibility: check font-size [5m]
   - 1: It's too small
@@ -63,11 +76,18 @@
 - (individual) LAB | CSS Ironhack News
   - Note: it includes a "hamburger menu". Don't worry about functionality to open the menu, focus on practicing media queries & flexbox.
 
-- (in pairs) LAB | CSS Flexbox Slack
+- Quizz
+
+- (self-guided) Setting up and Using ChatGPT as a Learning Assistant
+
+- (self-guided) Setting up and Using Claude as a Learning Assistant
+
+Bonus:
+- LAB | CSS Flexbox Slack
+- Flexbox Froggy
 
 
-<!-- Note: both labs include a hamburger menu -->
-
+<!-- Note: both labs (Ironhack News & Flexbox Slack) include a hamburger menu -->
 
 <!-- @LT: check that everyone was able to submit lab-1  -->
 

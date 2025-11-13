@@ -63,5 +63,14 @@ Check also tips & suggestions from Julie.
 - (individual) Assessment | JS Foundations (202208) [2h]
   <!-- LT: Make sure to publish the assessment -->
 
+  <!-- 
+  
+  Estimation with the % of technical tests that allow AI vs. don't allow AI for Junior Web Developer roles:
+
+  In spanish:
+  https://chatgpt.com/share/6913b457-8228-8003-bc0f-be8a5d91053e
+
+  -->
+
 - (bonus) LAB | JavaScript Clue
 

@@ -37,7 +37,7 @@ Note:
     
     <!--  
       Note: 
-      - downloaded here: "\Ironhack\misc\backup-imdb-movies"
+      - downloaded here: "/Desktop/temp/imdb_json"
       - option 1: send .JSON directly on ZOOM 
       - option 2: send on Slack (works just fine, but students may not see where it is downloaded)
     -->

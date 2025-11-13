@@ -63,6 +63,11 @@ Consider:
 
 ## (self-guided) Continue watching React Tutorial
 
+<!-- @todo:
+
+check if the latest videos are a better option (supports auto-dub)
+  - e.g.: https://www.youtube.com/watch?v=H6QAY_VqvUc
+-->
 
 > Did watching the video help you?
 > 

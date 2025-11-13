@@ -7,8 +7,6 @@
 
 @LT: 
 
-- ~~consider: instead of iron-restaurant, follow students portal ("mongoose-library" with Books and Authors)~~ ?
-
 - Students are now quite familiar with Mongoose (did research in mini-project)
 
 -->

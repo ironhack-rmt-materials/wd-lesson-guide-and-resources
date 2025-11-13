@@ -94,7 +94,7 @@ Summary of steps:
     - Choose a name for your workspace (e.g. "project3" / "project3-deployment-demo")
     - Choose "hobby" plan
   - Create a new "Web Service"
-    - IMPORTANT: select "Git Provider" (from "Public Git Repo", it may not do automatic deploys)
+    - IMPORTANT: select `Git Provider` (from "Public Git Repo", it may not do automatic deploys)
     - You may need to grant permission to your organization
     - Search or Paste url of your repo
     - Choose name
