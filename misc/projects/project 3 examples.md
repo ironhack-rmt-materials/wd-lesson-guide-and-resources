@@ -2,22 +2,32 @@
 # Project 3 examples
 
 
-Tour it: https://tour-it.netlify.app/
-- (Daniela + Rutushree)
-- Models: User + Destination + Itinerary (CRUD)
-- Mostly Responsive
-
-
-Local-Findie: https://local-findie.netlify.app/
-- (Nico Anzo + Casper)
-- Models: User + Business (CRUD) + Review
-- Responsive
-
-
 Eventure: https://eventure-eventdiscoverapp.netlify.app/
 - (Geethu)
 - Models: User + Event + Booking
 
+
+Mealionaire: https://mealionaire.netlify.app/
+- (Sevda)
+- Models: User + Meal + Order
+- Great UX, responsive
+- Bonus: searchbar, filter by categories, pagination...
+
+
+Memory Lane: https://memory-lane-web.netlify.app/
+- (Kateryna)
+- Great functionality + responsive
+- Functionality: create capsule, share capsule, see public capsules, comment...
+- Models: User + Capsule + Comment + Invitation
+
+
+
+<!--
+
+Tour it: https://tour-it.netlify.app/
+- (Daniela + Rutushree)
+- Models: User + Destination + Itinerary (CRUD)
+- Mostly Responsive
 
 WorkSpots: https://workspots.netlify.app/
 - (Nathi)
@@ -26,14 +36,7 @@ WorkSpots: https://workspots.netlify.app/
 - Bonus: image gallery, filter, booking availability, multiple image upload, favorites.
 
 
-Memory Lane: https://memory-lane-web.netlify.app/
-- (Kateryna)
-
-
-Mealionaire: https://mealionaire.netlify.app/
-- (Sevda)
-
-
 Mus Match: https://mus-match.vercel.app/
 - (Oscar)
 
+-->

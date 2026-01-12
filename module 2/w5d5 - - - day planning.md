@@ -25,6 +25,7 @@
 
 
 - Git merge conflicts & how to solve them [1h]
+  - Slides: https://docs.google.com/presentation/d/1G0RgvH93o_HT2mOZiotU9wkLNecdIDNGpIZJ1_ErZac/edit?usp=sharing
   <!-- @todo: create self-guided lab (or video) so that they can do in pairs. -->
 
 

@@ -12,10 +12,8 @@
 
 
 
-- See sample project:
-  - https://tour-it.netlify.app/
-  - Models: User + Destination + Itinerary (CRUD)
-  - Mention: it's a React app + connects to a backend API
+- Sample project:
+  - see `project 3 examples.md`: Mealionaire + Memory Lane
 
 
 - 1.5 weeks content + 1.5 weeks projects
@@ -26,7 +24,7 @@
   - build REST API
 
 
-- Project 3: in pairs.
+- Project 3: usually in pairs.
   - Why: in almost any company, you'll be working in a team with other developers
 
     <!--

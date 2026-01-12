@@ -40,7 +40,7 @@ REMEMBER:
 
 
 
-- 3 types:
+- 3 types of scope:
   - Global
   - Function
   - Block scope

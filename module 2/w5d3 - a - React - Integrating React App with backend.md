@@ -74,8 +74,7 @@ Extra:
 - show: vs code source control
 - show: loader (e.g. https://cssloaders.github.io/)
 - mention: toast
-  
-  <!-- note: demo with an additional state variable "isLoading" -->
+
 
   ```jsx
     if (projects === null) {

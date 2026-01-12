@@ -17,6 +17,12 @@ Alternative to typicode api:
 
 -->
 
+- (skip) Refresh from prev week
+  - props (how to pass props)
+  - state (how to use state)
+  - passing callbacks as props
+  - ...
+
 - Intro to week 5
 
 - (optional): ask for preferences for today's lab
@@ -26,7 +32,12 @@ Alternative to typicode api:
 
 - What is an API [30m]
 
-- Promises
+- Callback Pattern [1h]
+
+- Promises [2.5h]
+  - .then().catch() 
+  - async/await
+  - Promise.all()
 
 
 PROMISES:
@@ -52,32 +63,6 @@ PROMISES:
 - LAB JS ES6 Reinforcement (for...of loop, .filter()):
   - https://github.com/ironhack-labs/lab-js-es6-reinforcement
   - currently not in the schedule
-
-
-
-
-## (skip) Refresh
-
-
-- Refresh from prev week ?
-  - props (how to pass props)
-  - state (how to use state)
-  - passing callbacks as props
-  - ...
-
-
-- Refresh: Object Destructuring
-  - https://stackblitz.com/edit/js-exphb3?file=index.js
-  - Time: 2min
-
-
-- Refresh array destructuring:
-    - example: https://stackblitz.com/edit/js-hfvsxk?file=index.js
-    - note: order matters
-
-- (optional) quick refresh Spread Operator
-  - e.g. with objects (add property best cohort)
-
 
 
 

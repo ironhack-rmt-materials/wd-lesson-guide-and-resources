@@ -23,6 +23,17 @@ Wander World: https://wander-world.netlify.app/
 - Bonus: searchbar, maps
 
 
+Albumory: https://albumory-music.vercel.app/
+- (Jorge + Pau)
+- 1 resource, responsive.
+- Bonus: searchbar, auth
+ 
+
+Planora: https://planora-phi.vercel.app/
+- (Anderson + Francisco)
+- 1 resource, responsive.
+- Bonus: searchbar, dynamic fields, auth
+
 
 Travel Planner: https://yourtravelplanner.netlify.app/
 - (Moaz + Nathi)

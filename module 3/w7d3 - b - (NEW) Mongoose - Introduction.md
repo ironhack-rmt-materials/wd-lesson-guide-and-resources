@@ -355,7 +355,7 @@ Some things to mention / common questions:
 
 - Explore the concept of a "seed file"
 
-  - Research: what is a seed file, why is it useful?
+  - Research: what is a database seed file, why is it useful?
 
   - Example of a seed file WITHOUT relationships (`then+catch`): https://github.com/ByteWarriors-Ironhack-Feb-23/warriors-library-project/blob/main/bin/seeds-without-relationships.js
 

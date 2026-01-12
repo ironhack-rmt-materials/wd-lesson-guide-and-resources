@@ -117,6 +117,11 @@
         // ...
         // ...
 
+        it("Should work with negative numbers", function() {
+            expect(centsToDecimals(-5)).toBe(-0.05)
+            expect(centsToDecimals(-132)).toBe(-1.32)
+        })
+
         it("Should return null, if invoked without any argument", function(){
             expect(centsToDecimals()).toBeNull();
         });

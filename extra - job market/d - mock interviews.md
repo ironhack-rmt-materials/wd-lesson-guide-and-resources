@@ -3,10 +3,15 @@
 # Practice: technical interviews
 
 
-Slides - Technical Interview Prep:
-- https://docs.google.com/presentation/d/1HZzVFFIkaymfT7Wwg2itr3jFSY0NrlRWCNxcG3KVA4w/edit?usp=sharing
+Slides:
 
-<!-- @todo: translate slides to Spanish. -->
+- Technical Interview Prep (EN):
+    - https://docs.google.com/presentation/d/1HZzVFFIkaymfT7Wwg2itr3jFSY0NrlRWCNxcG3KVA4w/edit?usp=sharing
+
+- Preparación para entrevistas técnicas (ES): 
+    - https://docs.google.com/presentation/d/1V3OLq80lOE_j4fOwkOUCyi39eRpCv1wIpkgEZG-f3TQ/edit?usp=sharing
+
+
 
 
 ## Technical Interview - JavaScript I

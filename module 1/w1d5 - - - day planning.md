@@ -67,8 +67,18 @@ Check also tips & suggestions from Julie.
   
   Estimation with the % of technical tests that allow AI vs. don't allow AI for Junior Web Developer roles:
 
-  In spanish:
+  In Spanish:
   https://chatgpt.com/share/6913b457-8228-8003-bc0f-be8a5d91053e
+
+
+  Do companies allow AI in technical tests?
+  - Cursor: 
+    - https://www.businessinsider.com/cursor-interview-process-no-ai-on-site-project-coding-tool-2025-6
+    - "We actually still interview people without allowing them to use AI, other than autocomplete, for first technical screens,"
+    - "We've hired lots of people who are fantastic programmers who actually have no experience with AI tools," Truell said. "We would much rather hire those people and then teach them on the job."
+
+  - Some examples and recommendations:
+    - https://chatgpt.com/share/691f3e8e-a9c8-8003-adb2-09ccd3008046
 
   -->
 

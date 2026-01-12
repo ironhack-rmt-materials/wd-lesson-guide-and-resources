@@ -102,7 +102,7 @@ notes:
 
 - MongoDB Intro + MongoDB Compass + CRUD Operations + Exercise [2h]
 
-- Data Models ? [20m]
+- (skip for now) Data Models ? [20m]
 
   <!-- 
   

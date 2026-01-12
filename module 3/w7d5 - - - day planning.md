@@ -21,7 +21,8 @@
 - (optional) Refresh [20m]
 
 - Refresh Auth intro + Hash [20m]
-    - slides: https://docs.google.com/presentation/d/16bdHd2yIC490CQE_G0KaXwec26Nk32h_WWtc4BeOozw/edit?usp=sharing
+    - Slides EN: https://docs.google.com/presentation/d/16bdHd2yIC490CQE_G0KaXwec26Nk32h_WWtc4BeOozw/edit?usp=sharing
+    - Slides ES: https://docs.google.com/presentation/d/10mv_43X7h9rEnpxME_gFXMuC-lz6kWVK_mZUWxwUf-4/edit?usp=sharing
 
 
 - React | Token-Based Authentication I (Backend) [3.5h]

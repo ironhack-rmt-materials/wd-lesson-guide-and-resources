@@ -36,10 +36,9 @@ Assessments:
 - Assessment: React fundamentals 2 (202305) [3h]
   - estimated 90min. / max time 3h.
 
-
 <!--
 
-@LT: explain infinite loop rendering a component in React
+👉 @LT: explain infinite loop rendering a component in React
 
   function Navbar(){
     return(

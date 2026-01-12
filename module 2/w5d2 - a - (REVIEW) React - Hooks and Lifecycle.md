@@ -139,7 +139,8 @@ Goal: display the number of users on this API,
 
 
 Initial code (just the App component, nothing else):
-- https://stackblitz.com/edit/react-pyx17epn?file=src%2FApp.js
+- https://stackblitz.com/edit/react-dupibekm?file=src%2FApp.js
+- Note: it also has axios already installed (since it uses the classic version of stackblitz)
 
 
 Final result:
@@ -198,7 +199,7 @@ Examples: https://stackblitz.com/edit/js-sefk58?file=index.js
 <!-- DEMO ONLY -->
 
 Initial code (just the App component, nothing else):
-- (classic engine) https://stackblitz.com/edit/react-pyx17epn?file=src%2FApp.js
+- (classic engine) https://stackblitz.com/edit/react-dupibekm?file=src%2FApp.js
 - (new version of stackblitz) https://stackblitz.com/edit/vitejs-vite-ncjtxpin?file=src%2FApp.jsx
   <!-- @LT: remember to FORK ! -->
 

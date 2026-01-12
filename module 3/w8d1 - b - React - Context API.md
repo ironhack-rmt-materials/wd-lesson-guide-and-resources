@@ -80,18 +80,21 @@ App:
 Grandchild:
 
   ```jsx
-  import { useContext } from 'react';
+    import { useContext } from 'react';
+    import { CounterContext } from '../App.jsx';
 
-  function GrandChild(props) {
-    return (
-      <div>
-        <h1>GrandChild component... </h1>
-        <h2>Value of the counter... {props.counter}</h2>
-      </div>
-    );
-  }
+    function GrandChild() {
+      const result = useContext(CounterContext);
 
-  export default GrandChild;
+      return (
+        <div>
+          <h1>GrandChild component</h1>
+          <h2>Value of the counter... {result}</h2>
+        </div>
+      );
+    }
+
+    export default GrandChild;
   ```
 
 

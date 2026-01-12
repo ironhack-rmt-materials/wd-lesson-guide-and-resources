@@ -11,6 +11,8 @@
 
 ## Instructions (EN)
 
+<!-- note: this video shows how to deploy on Netlify (rather than Vercel) -->
+
 ⛳ Deployment project 2:
 - https://www.loom.com/share/915ec9d82f10412eb1e6fb4f77815cab?sid=1fc15197-4f5d-4336-8f92-e08640bd7d90
 
@@ -31,6 +33,8 @@
 
 
 ## Instructiones (ES)
+
+<!-- note: this video shows how to deploy on Netlify (rather than Vercel) -->
 
 ⛳ Despliegue projecto 2:
 

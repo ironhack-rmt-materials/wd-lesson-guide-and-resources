@@ -27,15 +27,7 @@ update:
 Demo: continue on ironRestaurant
 
 Notes: 
-- create a separate file to practice mongoose methods ("mongoose-playground.js")
 - use just res.json + test with Postman
-- contents in the students portal for req.params and req.query are completely new (no DB yet)
-  - form: instead of form, use Postman ??
-
-
-- DATA MODELS: the part of data models can also be explained based on this project, eg:
-  - Product model & Reviews as nested document
-  - Product model & Seller model
 
 -->
 
@@ -45,7 +37,7 @@ Notes:
 - (Quick) Refresh
   - MongoDB (database, collection, document, field)
     - Sample query on MongoDB
-    - Today, we will start doing this things with code
+    - Today, we will start interacting with the DB with code
   - req.params
   - req.query
 
@@ -70,6 +62,7 @@ Notes:
     Note:
     - this session can also be done as a recording
     - recording in Spanish from sept 25: https://www.loom.com/share/0c1ad7f0ed1345619d138a16fdf3014b?sid=6fa72632-a124-4f65-ab40-12a0082b1916
+    - cheatsheet git branches: https://gist.github.com/luisjunco/d9d0a7d62e7633568533b7214f6af840
   -->
 
 
@@ -81,7 +74,7 @@ Notes:
 
 Note: 
 - all the part of Mongoose is usually demanding for students.
-- try to ask for challenges/exercises 
+- try to include challenges/exercises 
 
 
 

@@ -58,6 +58,12 @@ Action games:
   https://jihansh.github.io/Arcade-Game-proj1/game.html
 
 
+- Mallorca Adventure:
+  - https://avalenciacs.github.io/mallorca-dom-adventure/
+  - The animation in the start screen is pretty cool, he generated first the static image with nano banana and, from there, generated the video, iterating a few times
+    - summary: https://drive.google.com/file/d/1Q_AQQz_FTPs12CiiCP1aHdNs14-5B7k4/view?usp=drive_link
+
+
 Non-action games:
 
 - Guess game (Zeynep)

@@ -100,17 +100,9 @@ Quick intro to "IronLauncher"
 
   - English (dec. 2023): https://www.loom.com/share/99e0abae2c9346a3ba84d1e178c06b48?sid=e471b840-b8a6-44a1-9070-4f5a5f662518
 
-
-Recordings in spanish:
-
-- Auth 1 - ES - intro y algoritmos de hash: https://www.loom.com/share/be9b43442d9c46748834b450d76d8aa9?sid=b09a8669-362b-4870-93dd-f6944e8bac86
-
-- Auth 2 - ES - bcrypt demo: https://www.loom.com/share/92e9d844cdc14d3fb473b7f7f8476ea3?sid=6fb03430-de2a-454c-a7e7-e0e6df0b8de2
-
-
-
-
-
+  - Spanish:
+    - Auth 1 - ES - intro y algoritmos de hash: https://www.loom.com/share/be9b43442d9c46748834b450d76d8aa9?sid=b09a8669-362b-4870-93dd-f6944e8bac86
+    - Auth 2 - ES - bcrypt demo: https://www.loom.com/share/92e9d844cdc14d3fb473b7f7f8476ea3?sid=6fb03430-de2a-454c-a7e7-e0e6df0b8de2
 
 
 Bonus: 
