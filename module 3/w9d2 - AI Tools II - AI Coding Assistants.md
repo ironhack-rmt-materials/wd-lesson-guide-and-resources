@@ -1,17 +1,15 @@
 
 
-# Extra - GitHub Copilot
+# AI tools II - AI Coding Assistants
 
 
-
-## Demo:
+## GitHub Copilot
 
 <!-- 
 @LT: 
 - for this demo, open a repo with an express application
 - later on, can just create new files to demo this capabilities with React
 -->
-
 
 - url: https://github.com/features/copilot/plans
 
@@ -57,7 +55,7 @@
 
 
 
-## Custom instructions file
+## (skip) Custom instructions file
 
 > Instruction files enable you to specify custom instructions in Markdown files. 
 > You can use these files to define your coding practices, preferred technologies, and project requirements.
@@ -91,6 +89,7 @@
 - more info: https://code.visualstudio.com/docs/copilot/copilot-customization
 
 
+
 ## Tips:
 
 - Copilot can be really good at doing things with existing libraries and apis (especially if they're popular & not very recent)
@@ -103,58 +102,23 @@
 - And also to generate readme files (at least a first version).
 
 
-## Other AI Editors
 
-- cursor
+## Other AI Coding Assistants
+
+- Cursor
     - Cursor Tutorial for Beginners: https://www.youtube.com/watch?v=ocMOZpuAMw4
 
-- windsurf
+- Windsurf
 
-- Cline (AI coding agent)
-    - https://github.com/cline/cline
-    - examples:
-        - Generate, edit and refactor files
-        - Run and interact with your terminal
-        - Automate browser actions for debugging or testing
+- Google Antigravity
 
 
-## Other AI tools
 
-- UI generators: v0.dev (react, tailwind)
-
-- Low-code development & prototyping: 
-    - bolt.new
-    - lovable.dev
-    - replit.com
-    - builder.io
-    - firebase.studio (tried it in april 25, a few days after release, and results were quite poor)
-    - github.com/spark
-        - https://github.blog/changelog/2025-07-23-github-spark-in-public-preview-for-copilot-pro-subscribers
-
-- Gemini canvas: https://www.linkedin.com/posts/addyosmani_programming-softwareengineering-ai-activity-7308542354821394432-AdnZ
-
-
-Examples:
-- create an Instant Resume Analyzer
-
-- For an app that will allow users to practice their language skills by having a realtime voice conversations with an AI, create the private area for logged in users (users need to be able to start a new conversation, see how many minutes they have remaining, see some stats, logout, etc).
-
-- create the homepage for a furniture company that offers beautiful pieces of furniture and shipping everywhere in Germany
-
-- create a REST API with Express and PostgreSQL. API should implement auth functionality with jwt, CRUD on projects and CR on tasks.
-
-- Create a react app to generate random pairs with students. The app will let you create a cohort & add a list of students for that cohort (by entering all the names in comma separated format). Once you have created a cohort, you can generate random pairs (if there's an odd number of students, it will generate a group of 3). If you like the pairs generated, you can click a button to confirm. One you confirm, those pairs will be added to a "pairs history". The user can visit the pairs history to see a table with all the students that have already been matched together. Also, when you create new random pairs, the app will avoid pairing students that have already worked together.
-
-Use cases:
-- Quick prototypes +++
-- Brainstorming (if you don't have clear specs, it may be great to give you some interesting ideas) +
-- It can also be useful to create basic apps or specific components (specially when the problem is not too complex and the instructions are very well defined)
-
-
-## Asychronous Background Coding Agents
+## (skip) Asychronous Background Coding Agents
 
 Example using Copilot directly on Github (Addy Osmani):
 - https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7389186792706506752-BWnR
+
 
 
 ## Agent mode + MCP Servers
@@ -165,6 +129,7 @@ https://www.youtube.com/watch?v=dutyOc_cAEU
 
 Demo: 
 - Firebase MCP on VS Code
+
 
 
 ## Limitations
@@ -178,6 +143,7 @@ AI tools for Greenfield projects vs. commercial large codebases:
 ## Warnings ⚠️ 
 
 - As you can see, to be a prompt engineer, one "must" know how to code.
+
 - Using AI to find quick solutions vs. learning
     - If you're learning a new technology, make sure you type things
     - "You will not learn a language by using Google Translator"
@@ -200,16 +166,9 @@ Is AI really making software engineers 10x more productive? (Addy Osmani)
 
 
 
-## Videos
+## Resources
 
-Old videos:
-- Get to know GitHub Copilot in VS Code and be productive IMMEDIATELY (VS Code, 5min.)
-    - https://www.youtube.com/watch?v=jXp5D5ZnxGM&t=2s
-- GitHub Copilot in VSCode: Top 10 Features Explained (Max on Tech, 9min.)
-    - https://www.youtube.com/watch?v=2nPoiUJpDaU
-
-
-For latest updates and news,
+For latest updates and news on Github Copilot:
 - https://www.youtube.com/@code
 
 
