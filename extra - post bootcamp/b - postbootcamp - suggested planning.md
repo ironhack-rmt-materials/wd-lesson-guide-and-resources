@@ -29,6 +29,7 @@ Technologies and things to learn (pick one or two at a time):
 - TypeScript +++
 - Next.js +++
 - AI Engineering (eg. integrating an existing app with openAI API, implementing a chatbot, ...)
+- AI Tools (e.g. Claude Code)
 - SQL Databases (e.g. PostgreSQL)
 - TDD / Testing
 - Docker

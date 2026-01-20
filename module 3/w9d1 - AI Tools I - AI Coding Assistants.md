@@ -1,6 +1,6 @@
 
 
-# AI tools II - AI Coding Assistants
+# AI tools I - AI Coding Assistants
 
 
 ## GitHub Copilot
@@ -30,7 +30,7 @@
         - create file middleware/isOwner.js 
         - `// middleware function to verify if the user is the owner of the resource`
 
-- inline chat and speech-to-text
+- (skip) inline chat and speech-to-text
     - note: now it's available in the copilot menu (at the top)
     - example 1: create a function that takes two arrays and returns true if they have exactly the same values
     - example 2: make this function generic, so that it works with any nested levels (ie. arrays of any depth).
@@ -40,7 +40,9 @@
     - passing/defining context
         - instructions file (see below)
     - example 1: how do i uninstall an npm package ? / provide a list with all endpoints in this api.
-    - example 2: paste an error message (e.g. title is not defined)
+    - example 2: create an endpoint that will give you the number of projects in the database
+    - example 3: paste an error message
+        - example - When I try to create a new project with Postman, I'm getting this error message: `Error while creating the project Error: Project validation failed: title: Path title is required.`
     - show options:
         - ask
         - edit
@@ -50,6 +52,11 @@
         - tip: if you need to add all files as context, use `#codebase`
     - `@workspace` (e.g.: how many models we have)
     - `@vscode` (e.g.: whats the shortcut to change the language mode for the current file)
+
+- Full demo:
+    - In the backend: implement functionality for Clients (e.g. C+R)
+    - In the frontend: implement functionality for Clients (e.g. C+R)
+
 
 - sparkles (e.g. commit message)
 
@@ -111,6 +118,8 @@
 - Windsurf
 
 - Google Antigravity
+
+- Claude Code
 
 
 
