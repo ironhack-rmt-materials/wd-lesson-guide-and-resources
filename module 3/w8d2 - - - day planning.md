@@ -14,6 +14,7 @@
       - `mkdir our-cool-project`
       - `cd our-cool-project`
       - `npx  --yes  ironlauncher@latest  our-cool-project-backend  --auth   --json`
+    - `cd our-cool-project-backend`
     - launch (`npm run dev`)
     - see `package.json` (dependencies + scripts)
     - quick overview of initial code (models + routes)
@@ -44,7 +45,7 @@ Backend / Express:
 
   1. How to add environment variables in the Backend / Express:
     - For development, we use a `.env` file
-    - For production, we will add them on Render.com
+    - For production, we will add them on Vercel.com
 
   2. How to use them in the code (in express): `process.env.XXXX` (e.g. "process.env.ORIGIN")
 
@@ -54,7 +55,7 @@ Frontend / Vite:
 
   1. How to add environment variables in the Frontend / Vite:
     - For development, we use a `.env` file (important: make sure variables start with `VITE_` for example, "VITE_API_URL")
-    - For production, we will add them on Netlify.
+    - For production, we will add them on Vercel.com.
 
   2. How to use them in the code (in Vite): `import.meta.env.xxx` (e.g. "import.meta.env.VITE_API_URL")
 

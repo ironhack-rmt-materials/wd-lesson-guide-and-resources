@@ -1,19 +1,27 @@
 # Post-bootcamp suggested planning
 
 
-## w1: holidays
+## week 1: holidays
 
-## w2: 100% focus on job search
+## week 2: 100% focus on job search + create a portfolio website
 
-## from w3: 50/50
+Morning:
+- Work on your CV
+- Work on your Linkedin
+- Send applications (e.g. 1 application per day)
 
+Afternoon:
+- Create your portfolio website
+
+
+## from week3: 50% / 50%
 
 Example:
 
-- morning: job search (cv, linkedin, send apps, follow up)
+- Morning: job search (cv, linkedin, send apps, follow up)
   - Goal: send 2 job applications/day
 
-- afternoon: code
+- Afternoon: code
   - Goals:
     - Mon-Thu: 3h on project work
     - Fri: solve 2x katas
@@ -25,7 +33,7 @@ Note:
 
 Technologies and things to learn (pick one or two at a time): 
 - further practice in JavaScript +++
-- further practice in React ++
+- further practice in React +++
 - TypeScript +++
 - Next.js +++
 - AI Engineering (eg. integrating an existing app with openAI API, implementing a chatbot, ...)

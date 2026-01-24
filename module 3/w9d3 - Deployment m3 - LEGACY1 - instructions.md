@@ -3,6 +3,17 @@
 # Project 3 Deployment
 
 
+<!-- 
+
+Update: 
+
+- These recordings use Render.com for the backend + Netlify for the frontend.
+
+- Instead of that, we'll now use Vercel for both backend + frontend.
+
+-->
+
+
 
 ## Step 0: Using env variables for the location of our API
 
