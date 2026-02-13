@@ -5,13 +5,17 @@
 
 ## Demo: integrating our backend with an LLM 
 
-Example: 
-- https://chatgpt.com/share/698f1780-0eb4-8003-af97-4c7a74a6070b
-
 <!-- 
   @todo: 
-  - prepare backend for that demo (can skip the frontend and show the demo with Postman)
+  - prepare an app for this demo 
+  (at least the backend; can skip the frontend and show the demo with Postman)
 -->
+
+Example: 
+- https://chatgpt.com/share/698f1780-0eb4-8003-af97-4c7a74a6070b
+- Notes: 
+   - This can serve as an initial example but a way more reliable option would be to generate the description, and then show it to the user for confirmation, before it's stored in the db.
+   - e.g. user enters initial details ➜ generate description based on that info and show it to the user ➜ user can edit/confirm ➜ data is stored in the DB.
 
 
 Some topics to discuss:
