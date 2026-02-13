@@ -8,6 +8,9 @@
 
 - running 2 apps in development (e.g. 2 vs code windows + their own terminals)
 
+- Demo: AI-powered apps [1h]
+  - see `w8d2 - a - AI-powered apps.md`
+
 - ironlauncher --auth --json [1h]
   - topics:
     - create the app with ironlauncher
@@ -66,7 +69,7 @@ Frontend / Vite:
 
 ## Project3 kick-off 
 
-- Students portal: "Project #3 Guidelines: MERN Web Application"
+- Student Portal: "Project #3 Guidelines: MERN Web Application"
 
 - Slides Project3 kick-off:
   - https://docs.google.com/presentation/d/1T4AixtKcqF5XXUSG-G8-v7PQG-f1OOGIT-8f_vPtA5c/edit?usp=sharing

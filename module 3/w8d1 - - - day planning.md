@@ -41,3 +41,11 @@ Super bonus:
 - Add a component library
 - Implement the changes so that the user is automatically logged in when you create an account (in the backend api, you'll need to change the endpoint "/signup" so that, when you create an account, it signs and returns a jwt)
 
+<!--
+
+@LT:
+
+prepare app for tomorrow's demo 
+("AI-powered apps / integrating our backend with an LLM")
+
+-->
